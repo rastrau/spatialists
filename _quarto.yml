@@ -5,7 +5,12 @@ website:
   title: "spatialists.ch – geospatial news"
   site-url: https://spatialists.ch
   description: "A blog about geospatial topics"
-      
+  navbar:
+    right: []    # Empty navigation items
+  search:
+    location: navbar
+    type: overlay
+
 format:
   html:
     theme: superhero
