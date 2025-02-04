@@ -2,14 +2,9 @@ project:
   type: website
 
 website:
-  title: "spatialists.ch – all things geospatial"
+  title: "spatialists.ch – geospatial news"
   site-url: https://spatialists.ch
-  description: "A blog about all things geospatial"
-  navbar:
-    right:
-      - icon: rss
-        href: index.xml
-      - about.qmd
+  description: "A blog about geospatial topics"
       
 format:
   html:
