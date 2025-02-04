@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>spatialists.ch – all things geospatial</title>
+<link>https://spatialists.ch/</link>
+<atom:link href="https://spatialists.ch/index.xml" rel="self" type="application/rss+xml"/>
+<description>A blog about all things geospatial</description>
+<language>en</language>
+<generator>quarto-1.6.40</generator>
+<lastBuildDate>Sat, 25 Jan 2025 13:30:00 GMT</lastBuildDate>
+<item>
+  <title>Welcome To My Blog</title>
+  <link>https://spatialists.ch/posts/welcome/</link>
+  <description><![CDATA[ This is the first post in a Quarto blog. Welcome! ]]></description>
+  <category>news</category>
+  <guid>https://spatialists.ch/posts/welcome/</guid>
+  <pubDate>Sat, 25 Jan 2025 13:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Post With Code</title>
+  <link>https://spatialists.ch/posts/post-with-code/</link>
+  <description><![CDATA[ This is a post with executable code. ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://spatialists.ch/posts/post-with-code/</guid>
+  <pubDate>Sat, 25 Jan 2025 13:29:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
