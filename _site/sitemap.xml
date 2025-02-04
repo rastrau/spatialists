@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://spatialists.ch/posts/welcome/index.html</loc>
-    <lastmod>2025-02-04T22:00:18.627Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/index.html</loc>
-    <lastmod>2025-02-04T22:00:18.627Z</lastmod>
+    <loc>https://spatialists.ch/posts/hello-world/index.html</loc>
+    <lastmod>2025-02-04T22:03:03.567Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/about.html</loc>
-    <lastmod>2025-02-04T22:00:18.627Z</lastmod>
+    <lastmod>2025-02-04T22:03:03.567Z</lastmod>
   </url>
   <url>
-    <loc>https://spatialists.ch/posts/post-with-code/index.html</loc>
-    <lastmod>2025-02-04T22:00:18.627Z</lastmod>
+    <loc>https://spatialists.ch/index.html</loc>
+    <lastmod>2025-02-04T22:03:03.567Z</lastmod>
   </url>
 </urlset>

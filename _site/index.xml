@@ -11,25 +11,14 @@
 <description>A blog about geospatial topics</description>
 <language>en</language>
 <generator>quarto-1.6.40</generator>
-<lastBuildDate>Sat, 25 Jan 2025 13:30:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 04 Feb 2025 23:01:00 GMT</lastBuildDate>
 <item>
-  <title>Welcome To My Blog</title>
-  <link>https://spatialists.ch/posts/welcome/</link>
-  <description><![CDATA[ This is the first post in a Quarto blog. Welcome! ]]></description>
+  <title>Hello world</title>
+  <link>https://spatialists.ch/posts/hello-world/</link>
+  <description><![CDATA[ This is the first post. Hello world! ]]></description>
   <category>news</category>
-  <guid>https://spatialists.ch/posts/welcome/</guid>
-  <pubDate>Sat, 25 Jan 2025 13:30:00 GMT</pubDate>
-</item>
-<item>
-  <title>Post With Code</title>
-  <link>https://spatialists.ch/posts/post-with-code/</link>
-  <description><![CDATA[ This is a post with executable code. ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://spatialists.ch/posts/post-with-code/</guid>
-  <pubDate>Sat, 25 Jan 2025 13:29:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://spatialists.ch/posts/hello-world/</guid>
+  <pubDate>Tue, 04 Feb 2025 23:01:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
