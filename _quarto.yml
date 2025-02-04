@@ -5,6 +5,7 @@ website:
   title: "spatialists.ch – geospatial news"
   site-url: https://spatialists.ch
   description: "A blog about geospatial topics"
+  favicon: assets/favicon.png
   navbar:
     right: []    # Empty navigation items
   search:
