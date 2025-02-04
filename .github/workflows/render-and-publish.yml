@@ -35,7 +35,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           # FTP_DIR is defined relatively to the user's "root" directory.
           # FTP_DIR must be a folder (must end with /)
-          server-dir: .
+          server-dir: ./
           local-dir: ./_site/
           protocol: ftps
           log-level: verbose
