@@ -2,3 +2,33 @@ body {
   background-color: #3f3d3c !important;
   color: #e9ecef;
 }
+
+/* Navbar background and text colors */
+.navbar {
+  background-color: #ffffff !important; /* Light mode background */
+  color: #000000 !important; /* Light mode text */
+}
+
+[data-bs-theme="dark"] .navbar {
+  background-color: #1a1a1a !important; /* Dark mode background */
+  color: #f8f9fa !important; /* Dark mode text */
+}
+
+/* Navbar links */
+.navbar a {
+  color: inherit !important;
+}
+
+.navbar a:hover {
+  color: #007bff !important; /* Hover color for links */
+}
+
+.navbar .active > a {
+  color: #0056b3 !important; /* Active link color */
+}
+
+/* Optional: Remove navbar shadow or add border */
+.navbar {
+  box-shadow: none !important;
+  border-bottom: 1px solid #dddddd !important;
+}
