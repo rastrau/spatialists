@@ -1,9 +1,0 @@
----
-title: "Post With Code"
-author: ""
-date: "2025-01-25 13:29"
-categories: [news, code, analysis]
-image: "image.jpg"
----
-
-This is a post with executable code.
