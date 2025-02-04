@@ -1,0 +1,10 @@
+---
+title: "Hello world"
+author: ""
+date: "2025-02-04 23:01"
+categories: [news]
+---
+
+This is the first post. Hello world!
+
+Let's see where this goes.
