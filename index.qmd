@@ -10,7 +10,7 @@ listing:
   categories: false
   sort-ui: false
   filter-ui: false
-  image-placeholder: titlecard.png
+  image-placeholder: titlecard.jpg
   max-description-length: 175
   date-format: "DD.MM.YYYY HH:mm"
 page-layout: full
