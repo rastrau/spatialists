@@ -1,0 +1,17 @@
+project:
+  type: website
+
+website:
+  title: "spatialists.ch – all things geospatial"
+  site-url: https://spatialists.ch
+  description: "A blog about all things geospatial"
+  navbar:
+    right:
+      - icon: rss
+        href: index.xml
+      - about.qmd
+      
+format:
+  html:
+    theme: superhero
+    css: styles.css

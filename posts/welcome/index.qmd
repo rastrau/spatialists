@@ -1,0 +1,12 @@
+---
+title: "Welcome To My Blog"
+author: ""
+date: "2025-01-25 13:30"
+categories: [news]
+---
+
+This is the first post in a Quarto blog. Welcome!
+
+![](thumbnail.jpg)
+
+Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
