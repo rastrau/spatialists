@@ -1,24 +1,24 @@
 [
   {
-    "objectID": "posts/2025/small-sat-achivies-high-res/index.html",
-    "href": "posts/2025/small-sat-achivies-high-res/index.html",
-    "title": "Small sat achieves high resolution",
+    "objectID": "posts/2025/small-sat-high-res-imagery/index.html",
+    "href": "posts/2025/small-sat-high-res-imagery/index.html",
+    "title": "Small sat high-res imagery",
     "section": "",
     "text": "The commodification of high-resolution optical satellite imagery continues. In the domain of small satellites, ONGLAISAT of the Tokyo-based company ArkEdge Space developed in collaboration with the Taiwan Space Agency TASA has achieved a spatial resolution of approximately 2.5 meters from a relatively low orbit of 410 kilometers.\nFrom the press release:\nWhile the sample image displayed here may also show some of the current limitations of TDI, it’s nevertheless an exciting development to potentially have this spatial resolution available from small space-borne platforms."
   },
   {
-    "objectID": "posts/2025/small-sat-achivies-high-res/index.html#footnotes",
-    "href": "posts/2025/small-sat-achivies-high-res/index.html#footnotes",
-    "title": "Small sat achieves high resolution",
+    "objectID": "posts/2025/small-sat-high-res-imagery/index.html#footnotes",
+    "href": "posts/2025/small-sat-high-res-imagery/index.html#footnotes",
+    "title": "Small sat high-res imagery",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nTime delay integration, a forward-motion compensation technique↩︎"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "spatialists.ch – geospatial news",
+    "objectID": "posts/2025/hello-world/index.html",
+    "href": "posts/2025/hello-world/index.html",
+    "title": "Hello world",
     "section": "",
-    "text": "Small sat achieves high resolution\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 12:47\n\n\n\n\n\n\n\n\n\n\n\n\nHello world\n\n\n\n\n\n\n\n\n\n\n\n04.02.2025 23:01\n\n\n\n\n\n\nNo matching items"
+    "text": "This is the first post. Hello world!\nLet’s see where this goes."
   },
   {
     "objectID": "about.html",
@@ -28,10 +28,17 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/2025/hello-world/index.html",
-    "href": "posts/2025/hello-world/index.html",
-    "title": "Hello world",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "spatialists.ch – geospatial news",
     "section": "",
-    "text": "This is the first post. Hello world!\nLet’s see where this goes."
+    "text": "Look at USGS LiDAR data online\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:10\n\n\n\n\n\n\n\n\n\n\n\n\nSmall sat high-res imagery\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 12:47\n\n\n\n\n\n\n\n\n\n\n\n\nHello world\n\n\n\n\n\n\n\n\n\n\n\n04.02.2025 23:01\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2025/look-at-usgs-lidar-data-online/index.html",
+    "href": "posts/2025/look-at-usgs-lidar-data-online/index.html",
+    "title": "Look at USGS LiDAR data online",
+    "section": "",
+    "text": "At https://usgs.entwine.io you can peruse more than 2,000 USGS 3D Elevation Program (3DEP) LiDAR datasets that have been made available through the AWS Public Dataset Program. The data amounts to 70,409,082,675,345 LiDAR points at the time of writing.\n\n\n\nA LiDAR view of Boston\n\n\nThe datasets cover most of the USA and can be looked at in the browser using Potree-based or Cesium-based viewers. The data has been processed into the Entwine Point Tile format which combines JSON for metadata and LAZ for data for performance."
   }
 ]
