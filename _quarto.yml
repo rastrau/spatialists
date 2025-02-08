@@ -8,7 +8,7 @@ website:
   favicon: assets/favicon.png
   image: assets/titlecard.jpg
   navbar:
-    right: []    # Empty navigation items
+    right: [about.qmd]    # Empty navigation items
   search:
     location: navbar
     type: overlay
