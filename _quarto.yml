@@ -8,7 +8,12 @@ website:
   favicon: assets/favicon.png
   image: assets/titlecard.jpg
   navbar:
-    right: [about.qmd]    # Empty navigation items
+    right: 
+      - text: About
+        href: about.qmd
+      - text: Feed
+        href: index.xml
+
   search:
     location: navbar
     type: overlay
