@@ -1,0 +1,20 @@
+---
+title: "Topodiscs: Custom 3D-printed Swiss landscapes"
+author: ""
+date: "2025-02-08 19:51"
+categories: [remote sensing]
+---
+
+A new (currently, beta) service from [Stephan Heuel](https://blog.heuel.org/), 
+<https://topoprint.ch> offers an innovative way to interact with Switzerland's 
+topography. By combining high-resolution Swisstopo datasets with 3D printing 
+technology, users can create detailed, tangible models – Topodiscs – of any 
+location in Switzerland. 
+
+Topodiscs are compact, 3D-printable models that represent terrain, buildings, 
+and infrastructure within a defined radius. Users can choose locations by 
+address or CH1903+ LV95 / EPSG:2056 coordinates through either Mastodon or 
+Telegram and receive an STL file for 3D printing (adding a 3D-print-on-demand 
+service is on the roadmap).
+
+![A Topodisc of the area around the Federal Palace of Switzerland](topodisc-bundesgasse.jpg "A Topodisc of the area around the Federal Palace of Switzerland")
