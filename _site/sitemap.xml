@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://spatialists.ch/posts/2025/small-sat-achivies-high-res/index.html</loc>
-    <lastmod>2025-02-08T12:25:24.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/index.html</loc>
-    <lastmod>2025-02-08T12:25:24.080Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/about.html</loc>
-    <lastmod>2025-02-08T12:25:24.080Z</lastmod>
+    <loc>https://spatialists.ch/posts/2025/small-sat-high-res-imagery/index.html</loc>
+    <lastmod>2025-02-08T18:12:11.017Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/hello-world/index.html</loc>
-    <lastmod>2025-02-08T12:25:24.081Z</lastmod>
+    <lastmod>2025-02-08T18:12:11.009Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/about.html</loc>
+    <lastmod>2025-02-08T18:12:11.008Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/index.html</loc>
+    <lastmod>2025-02-08T18:12:11.009Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/look-at-usgs-lidar-data-online/index.html</loc>
+    <lastmod>2025-02-08T18:12:11.009Z</lastmod>
   </url>
 </urlset>
