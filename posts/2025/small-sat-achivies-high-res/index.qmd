@@ -1,0 +1,29 @@
+---
+title: "Small sat achieves high resolution"
+author: ""
+date: "2025-02-08 12:47"
+categories: [remote sensing]
+---
+
+The commodification of high-resolution optical satellite imagery continues. In 
+the domain of [small satellites](https://en.wikipedia.org/wiki/Small_satellite),
+ONGLAISAT of the Tokyo-based company [ArkEdge Space](https://arkedgespace.com) 
+developed in collaboration with the 
+[Taiwan Space Agency TASA](https://www.tasa.org.tw) has achieved a spatial 
+resolution of approximately 2.5 meters from a relatively low orbit of 410 
+kilometers.
+
+From the [press release](https://arkedgespace.com/en/news/2025-02-07_onglaisat): 
+
+> The results of this demonstration—including world-class ground resolution, 
+enhanced image clarity through TDI^[[Time delay integration](https://en.wikipedia.org/wiki/Time_delay_and_integration), a forward-motion compensation technique], and 
+efficient data compression via onboard processing—as well as the advanced 
+satellite technology required to achieve them can be applied not only to 6U 
+class CubeSats but also to larger spacecraft in future missions.
+
+![Sample imagery &copy; ArkEdge Space](sample-imagery.png "Sample imagery &copy; ArkEdge Space")
+
+While the sample image displayed [here](https://www.theverge.com/news/608297/arkedge-space-tasa-6u-onglaisat-earth-images-validation) may also show some of 
+the current limitations of TDI, it's nevertheless an exciting development to 
+potentially have this spatial resolution available from small space-borne 
+platforms.
