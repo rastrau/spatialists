@@ -2,7 +2,6 @@
 title: "Topodiscs: Custom 3D-printed Swiss landscapes"
 author: ""
 date: "2025-02-08 19:51"
-categories: [geospatial]
 ---
 
 A new (currently, beta) service from [Stephan Heuel](https://blog.heuel.org/), 

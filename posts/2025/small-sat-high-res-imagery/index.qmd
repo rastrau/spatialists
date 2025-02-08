@@ -2,7 +2,6 @@
 title: "Small sat high-res imagery"
 author: ""
 date: "2025-02-08 12:47"
-categories: [remote sensing]
 ---
 
 The commodification of high-resolution optical satellite imagery continues. In 
