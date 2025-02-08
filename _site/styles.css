@@ -1,12 +1,32 @@
+a {
+  color: #e9ecef; /* Default link color */
+  text-decoration: underline; /* Underline the link */
+}
+
+a:hover {
+  color: #ffffff; /* Change color on hover */
+}
+
 body,
 div.quarto-title-banner {
-  background-color: #403d3d !important;
-  color: #e9ecef;
+  color: #d0d6dc;
 }
 
 /* Optional: Remove navbar shadow or add border */
 .navbar {
-  background-color: #373534;
   box-shadow: none !important;
   border-bottom: 0px solid #373534 !important;
+}
+
+div#quarto-appendix {
+}
+
+blockquote {
+  border-left: 0px;
+  padding-top: 0px;
+  color: #d0d6dc;
+}
+
+.footnote-ref {
+  color: #d0d6dc;
 }
