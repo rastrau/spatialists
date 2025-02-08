@@ -6,6 +6,7 @@ website:
   site-url: https://spatialists.ch
   description: "A blog about geospatial topics"
   favicon: assets/favicon.png
+  image: assets/titlecard.jpg
   navbar:
     right: []    # Empty navigation items
   search:
