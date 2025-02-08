@@ -1,5 +1,5 @@
 ---
-title: "Small sat achieves high resolution"
+title: "Small sat high-res imagery"
 author: ""
 date: "2025-02-08 12:47"
 categories: [remote sensing]
