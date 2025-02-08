@@ -14,7 +14,7 @@ longform articles, commentary and opinion, but rather as a microblogging-style
 news curation service that is entirely indepedent of social platforms and 
 entirely dependent on my interests and capacity to publish. 
 
-To who does 'my' refer, above? For now, this is run by 
+To who does 'I' refer, above? For now, this is run by 
 [Ralph](https://ralphstraumann.ch). 
 
 [Reach out](mail@ralphstraumann.ch) with questions, feedback, ideas or if you'd 
