@@ -20,7 +20,7 @@
 <item>
   <title>Look at USGS LiDAR data online</title>
   <link>https://spatialists.ch/posts/2025/look-at-usgs-lidar-data-online/</link>
-  <description><![CDATA[ At https://usgs.entwine.io you can peruse more than 2,000 <a href="https://www.usgs.gov/">USGS</a> <a href="https://www.usgs.gov/core-science-systems/ngp/3dep">3D Elevation Program</a> (3DEP) LiDAR datasets that have been made available through the <a href="https://registry.opendata.aws/usgs-lidar/">AWS Public Dataset Program</a>. The data amounts to 70,409,082,675,345 LiDAR points at the time of writing. ]]></description>
+  <description><![CDATA[ At <a href="https://usgs.entwine.io" class="uri">https://usgs.entwine.io</a> you can peruse more than 2,000 <a href="https://www.usgs.gov/">USGS</a> <a href="https://www.usgs.gov/core-science-systems/ngp/3dep">3D Elevation Program</a> (3DEP) LiDAR datasets that have been made available through the <a href="https://registry.opendata.aws/usgs-lidar/">AWS Public Dataset Program</a>. The data amounts to 70,409,082,675,345 LiDAR points at the time of writing. ]]></description>
   <category>remote sensing</category>
   <guid>https://spatialists.ch/posts/2025/look-at-usgs-lidar-data-online/</guid>
   <pubDate>Sat, 08 Feb 2025 19:10:00 GMT</pubDate>
