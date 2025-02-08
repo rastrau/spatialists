@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "posts/2025/topodiscs-custom-3D-printed-swiss-landscapes/index.html",
+    "href": "posts/2025/topodiscs-custom-3D-printed-swiss-landscapes/index.html",
+    "title": "Topodiscs: Custom 3D-printed Swiss landscapes",
+    "section": "",
+    "text": "A new (currently, beta) service from Stephan Heuel, https://topoprint.ch offers an innovative way to interact with Switzerland’s topography. By combining high-resolution Swisstopo datasets with 3D printing technology, users can create detailed, tangible models – Topodiscs – of any location in Switzerland.\nTopodiscs are compact, 3D-printable models that represent terrain, buildings, and infrastructure within a defined radius. Users can choose locations by address or CH1903+ LV95 / EPSG:2056 coordinates through either Mastodon or Telegram and receive an STL file for 3D printing (adding a 3D-print-on-demand service is on the roadmap).\n\n\n\nA Topodisc of the area around the Federal Palace of Switzerland"
+  },
+  {
+    "objectID": "posts/2025/look-at-usgs-lidar-data-online/index.html",
+    "href": "posts/2025/look-at-usgs-lidar-data-online/index.html",
+    "title": "Look at USGS LiDAR data online",
+    "section": "",
+    "text": "At https://usgs.entwine.io you can peruse more than 2,000 USGS 3D Elevation Program (3DEP) LiDAR datasets that have been made available through the AWS Public Dataset Program. The data amounts to 70,409,082,675,345 LiDAR points at the time of writing.\n\n\n\nA LiDAR view of Boston\n\n\nThe datasets cover most of the USA and can be looked at in the browser using Potree-based or Cesium-based viewers. The data has been processed into the Entwine Point Tile format which combines JSON for metadata and LAZ for data for performance."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "spatialists.ch – geospatial news",
+    "section": "",
+    "text": "Topodiscs: Custom 3D-printed Swiss landscapes\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:51\n\n\n\n\n\n\n\n\n\n\n\n\nLook at USGS LiDAR data online\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:10\n\n\n\n\n\n\n\n\n\n\n\n\nSmall sat high-res imagery\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 12:47\n\n\n\n\n\n\n\n\n\n\n\n\nHello world\n\n\n\n\n\n\n\n\n\n\n\n04.02.2025 23:01\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. No guarantees regarding anything – frequency, quality or that it even stays around. We’ll see how this will develop, and into what.\nIt’s not meant as a mid-2000s to early 2010s-style full-fledged blog with longform articles, commentary and opinion, but rather as a microblogging-style news curation service that is entirely indepedent of social platforms and entirely dependent on my interests and capacity to publish.\nTo who does ‘my’ refer, above? For now, this is run by Ralph.\nReach out with questions, feedback, ideas or if you’d like to contribute."
+  },
+  {
+    "objectID": "posts/2025/hello-world/index.html",
+    "href": "posts/2025/hello-world/index.html",
+    "title": "Hello world",
+    "section": "",
+    "text": "This is the first post. Hello world!\nLet’s see where this goes."
+  },
+  {
     "objectID": "posts/2025/small-sat-high-res-imagery/index.html",
     "href": "posts/2025/small-sat-high-res-imagery/index.html",
     "title": "Small sat high-res imagery",
@@ -12,33 +47,5 @@
     "title": "Small sat high-res imagery",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nTime delay integration, a forward-motion compensation technique↩︎"
-  },
-  {
-    "objectID": "posts/2025/hello-world/index.html",
-    "href": "posts/2025/hello-world/index.html",
-    "title": "Hello world",
-    "section": "",
-    "text": "This is the first post. Hello world!\nLet’s see where this goes."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. No guarantees regarding anything – frequency, quality or that it even stays around. We’ll see how this will develop, and into what.\nIt’s not meant as a mid-2000s to early 2010s-style full-fledged blog with longform articles, commentary and opinion, but rather as a microblogging-style news curation service that is entirely indepedent of social platforms and entirely dependent on my interests and capacity to publish.\nTo who does ‘my’ refer, above? For now, this is run by Ralph.\nReach out with questions, feedback, ideas or if you’d like to contribute."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "spatialists.ch – geospatial news",
-    "section": "",
-    "text": "Look at USGS LiDAR data online\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:10\n\n\n\n\n\n\n\n\n\n\n\n\nSmall sat high-res imagery\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 12:47\n\n\n\n\n\n\n\n\n\n\n\n\nHello world\n\n\n\n\n\n\n\n\n\n\n\n04.02.2025 23:01\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/2025/look-at-usgs-lidar-data-online/index.html",
-    "href": "posts/2025/look-at-usgs-lidar-data-online/index.html",
-    "title": "Look at USGS LiDAR data online",
-    "section": "",
-    "text": "At https://usgs.entwine.io you can peruse more than 2,000 USGS 3D Elevation Program (3DEP) LiDAR datasets that have been made available through the AWS Public Dataset Program. The data amounts to 70,409,082,675,345 LiDAR points at the time of writing.\n\n\n\nA LiDAR view of Boston\n\n\nThe datasets cover most of the USA and can be looked at in the browser using Potree-based or Cesium-based viewers. The data has been processed into the Entwine Point Tile format which combines JSON for metadata and LAZ for data for performance."
   }
 ]
