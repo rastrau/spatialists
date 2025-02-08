@@ -1,0 +1,19 @@
+---
+title: "Look at USGS LiDAR data online"
+author: ""
+date: "2025-02-08 19:10"
+categories: [remote sensing]
+---
+
+At https://usgs.entwine.io you can peruse more than 2,000 
+[USGS](https://www.usgs.gov/) [3D Elevation Program](https://www.usgs.gov/core-science-systems/ngp/3dep) 
+(3DEP) LiDAR datasets that have been made available through the 
+[AWS Public Dataset Program](https://registry.opendata.aws/usgs-lidar/). 
+The data amounts to 70,409,082,675,345 LiDAR points at the time of writing.
+
+![A LiDAR [view of Boston](https://usgs.entwine.io/data/view.html?t=%5B-7910268.351610412,5215545.321678544,-635.9296905886767%5D&p=%5B-7907883.923255452,5214657.272476377,1618.2658121955164%5D&r=%22https://s3-us-west-2.amazonaws.com/usgs-lidar-public/MA_CentralEastern_1_2021%22&m=8&ph=1&op=0.61&era=%5B-994,2138%5D&cf=%5B7,18,49%5D)](usgs-entwine-boston.jpg "A LiDAR view of Boston")
+
+The datasets cover most of the USA and can be looked at *in the browser* using 
+Potree-based or Cesium-based viewers. The data has been processed into the 
+[Entwine Point Tile format](https://entwine.io/en/latest/entwine-point-tile.html) 
+which combines JSON for metadata and LAZ for data for performance.
