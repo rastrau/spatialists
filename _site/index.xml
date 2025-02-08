@@ -10,6 +10,11 @@
 <atom:link href="https://spatialists.ch/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog about geospatial topics</description>
 <language>en</language>
+<image>
+<url>https://spatialists.ch/assets/titlecard.jpg</url>
+<title>spatialists.ch – geospatial news</title>
+<link>https://spatialists.ch/</link>
+</image>
 <generator>quarto-1.6.40</generator>
 <lastBuildDate>Sat, 08 Feb 2025 12:47:00 GMT</lastBuildDate>
 <item>

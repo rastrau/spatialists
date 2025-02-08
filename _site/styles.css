@@ -18,13 +18,18 @@ div.quarto-title-banner {
   border-bottom: 0px solid #373534 !important;
 }
 
+div.listing-date {
+  color: #a5b0bb;
+}
+
+div.quarto-post,
 div#quarto-appendix {
+  border-color: #3c4d5b !important;
 }
 
 blockquote {
   border-left: 0px;
   padding-top: 0px;
-  color: #d0d6dc;
 }
 
 .footnote-ref {
