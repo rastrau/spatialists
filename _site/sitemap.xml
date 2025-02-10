@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://spatialists.ch/index.html</loc>
-    <lastmod>2025-02-10T19:04:55.176Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/topodiscs-custom-3D-printed-swiss-landscapes/index.html</loc>
-    <lastmod>2025-02-10T19:04:55.197Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/look-at-usgs-lidar-data-online/index.html</loc>
-    <lastmod>2025-02-10T19:04:55.177Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/about.html</loc>
-    <lastmod>2025-02-10T19:04:55.176Z</lastmod>
-  </url>
-  <url>
     <loc>https://spatialists.ch/posts/2025/prix-carto-2025/index.html</loc>
-    <lastmod>2025-02-10T19:04:55.185Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/hello-world/index.html</loc>
-    <lastmod>2025-02-10T19:04:55.176Z</lastmod>
+    <lastmod>2025-02-10T19:07:54.319Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/small-sat-high-res-imagery/index.html</loc>
-    <lastmod>2025-02-10T19:04:55.186Z</lastmod>
+    <lastmod>2025-02-10T19:07:54.320Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/hello-world/index.html</loc>
+    <lastmod>2025-02-10T19:07:54.311Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/about.html</loc>
+    <lastmod>2025-02-10T19:07:54.311Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/index.html</loc>
+    <lastmod>2025-02-10T19:07:54.311Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/look-at-usgs-lidar-data-online/index.html</loc>
+    <lastmod>2025-02-10T19:07:54.311Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/topodiscs-custom-3D-printed-swiss-landscapes/index.html</loc>
+    <lastmod>2025-02-10T19:07:54.332Z</lastmod>
   </url>
 </urlset>
