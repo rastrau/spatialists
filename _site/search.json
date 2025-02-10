@@ -1,10 +1,45 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "spatialists.ch – geospatial news",
+    "section": "",
+    "text": "Prix Carto 2025\n\n\n\n\n\n\n\n\n\n\n\n10.02.2025 19:51\n\n\n\n\n\n\n\n\n\n\n\n\nTopodiscs: Custom 3D-printed Swiss landscapes\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:51\n\n\n\n\n\n\n\n\n\n\n\n\nLook at USGS LiDAR data online\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:10\n\n\n\n\n\n\n\n\n\n\n\n\nSmall sat high-res imagery\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 12:47\n\n\n\n\n\n\n\n\n\n\n\n\nHello world\n\n\n\n\n\n\n\n\n\n\n\n04.02.2025 23:01\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2025/topodiscs-custom-3D-printed-swiss-landscapes/index.html",
+    "href": "posts/2025/topodiscs-custom-3D-printed-swiss-landscapes/index.html",
+    "title": "Topodiscs: Custom 3D-printed Swiss landscapes",
+    "section": "",
+    "text": "A new (currently, beta) service from Stephan Heuel, https://topoprint.ch offers an innovative way to interact with Switzerland’s topography. By combining high-resolution Swisstopo datasets with 3D printing technology, users can create detailed, tangible models – Topodiscs – of any location in Switzerland.\nTopodiscs are compact, 3D-printable models that represent terrain, buildings, and infrastructure within a defined radius. Users can choose locations by address or CH1903+ LV95 / EPSG:2056 coordinates through either Mastodon or Telegram and receive an STL file for 3D printing (adding a 3D-print-on-demand service is on the roadmap).\n\n\n\nA Topodisc of the area around the Federal Palace of Switzerland"
+  },
+  {
+    "objectID": "posts/2025/look-at-usgs-lidar-data-online/index.html",
+    "href": "posts/2025/look-at-usgs-lidar-data-online/index.html",
+    "title": "Look at USGS LiDAR data online",
+    "section": "",
+    "text": "At https://usgs.entwine.io you can peruse more than 2,000 USGS 3D Elevation Program (3DEP) LiDAR datasets that have been made available through the AWS Public Dataset Program. The data amounts to 70,409,082,675,345 LiDAR points at the time of writing.\n\n\n\nA LiDAR view of Boston\n\n\nThe datasets cover most of the USA and can be looked at in the browser using Potree-based or Cesium-based viewers. The data has been processed into the Entwine Point Tile format which combines JSON for metadata and LAZ for data for performance."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. No guarantees regarding anything – frequency, quality or that it even stays around. We’ll see how this will develop, and into what.\nIt’s not meant as a mid-2000s to early 2010s-style full-fledged blog with longform articles, commentary and opinion, but rather as a microblogging-style news curation service that is entirely indepedent of social platforms and entirely dependent on my interests and capacity to publish.\nTo who does ‘I’ refer, above? For now, this is run by Ralph.\nReach out with questions, feedback, ideas or if you’d like to contribute."
+  },
+  {
     "objectID": "posts/2025/prix-carto-2025/index.html",
     "href": "posts/2025/prix-carto-2025/index.html",
     "title": "Prix Carto 2025",
     "section": "",
     "text": "The Swiss Society of Cartography (Schweizerische Gesellschaft für Kartografie, SGK) is set to host the prestigious bi-annual Prix Carto awards during its autumn meeting in 2025. This event celebrates innovative and outstanding cartographic products with a connection to Switzerland. The award highlights excellence in cartography, geomatics, and geovisualization, offering recognition across multiple categories.\nBesides its main category, the Prix Carto also includes two special awards to foster young talent: the “Prix Carto – start”, aimed at school students and apprentices, and the “Prix Carto – edu”, designed for university students and adults in training programs. Both of the “young talent” awards carry a prize of 500 Swiss Francs.\nSubmissions for the 2025 awards are now open, with participants required to submit their entries through an official form on the SGK website. The SGK encourages widespread participation from both seasoned professionals and emerging talents."
+  },
+  {
+    "objectID": "posts/2025/hello-world/index.html",
+    "href": "posts/2025/hello-world/index.html",
+    "title": "Hello world",
+    "section": "",
+    "text": "This is the first post. Hello world!\nLet’s see where this goes."
   },
   {
     "objectID": "posts/2025/small-sat-high-res-imagery/index.html",
@@ -19,40 +54,5 @@
     "title": "Small sat high-res imagery",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nTime delay integration, a forward-motion compensation technique↩︎"
-  },
-  {
-    "objectID": "posts/2025/hello-world/index.html",
-    "href": "posts/2025/hello-world/index.html",
-    "title": "Hello world",
-    "section": "",
-    "text": "This is the first post. Hello world!\nLet’s see where this goes."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. No guarantees regarding anything – frequency, quality or that it even stays around. We’ll see how this will develop, and into what.\nIt’s not meant as a mid-2000s to early 2010s-style full-fledged blog with longform articles, commentary and opinion, but rather as a microblogging-style news curation service that is entirely indepedent of social platforms and entirely dependent on my interests and capacity to publish.\nTo who does ‘I’ refer, above? For now, this is run by Ralph.\nReach out with questions, feedback, ideas or if you’d like to contribute."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "spatialists.ch – geospatial news",
-    "section": "",
-    "text": "Prix Carto 2025\n\n\n\n\n\n\n\n\n\n\n\n10.02.2025 19:51\n\n\n\n\n\n\n\n\n\n\n\n\nTopodiscs: Custom 3D-printed Swiss landscapes\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:51\n\n\n\n\n\n\n\n\n\n\n\n\nLook at USGS LiDAR data online\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:10\n\n\n\n\n\n\n\n\n\n\n\n\nSmall sat high-res imagery\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 12:47\n\n\n\n\n\n\n\n\n\n\n\n\nHello world\n\n\n\n\n\n\n\n\n\n\n\n04.02.2025 23:01\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/2025/look-at-usgs-lidar-data-online/index.html",
-    "href": "posts/2025/look-at-usgs-lidar-data-online/index.html",
-    "title": "Look at USGS LiDAR data online",
-    "section": "",
-    "text": "At https://usgs.entwine.io you can peruse more than 2,000 USGS 3D Elevation Program (3DEP) LiDAR datasets that have been made available through the AWS Public Dataset Program. The data amounts to 70,409,082,675,345 LiDAR points at the time of writing.\n\n\n\nA LiDAR view of Boston\n\n\nThe datasets cover most of the USA and can be looked at in the browser using Potree-based or Cesium-based viewers. The data has been processed into the Entwine Point Tile format which combines JSON for metadata and LAZ for data for performance."
-  },
-  {
-    "objectID": "posts/2025/topodiscs-custom-3D-printed-swiss-landscapes/index.html",
-    "href": "posts/2025/topodiscs-custom-3D-printed-swiss-landscapes/index.html",
-    "title": "Topodiscs: Custom 3D-printed Swiss landscapes",
-    "section": "",
-    "text": "A new (currently, beta) service from Stephan Heuel, https://topoprint.ch offers an innovative way to interact with Switzerland’s topography. By combining high-resolution Swisstopo datasets with 3D printing technology, users can create detailed, tangible models – Topodiscs – of any location in Switzerland.\nTopodiscs are compact, 3D-printable models that represent terrain, buildings, and infrastructure within a defined radius. Users can choose locations by address or CH1903+ LV95 / EPSG:2056 coordinates through either Mastodon or Telegram and receive an STL file for 3D printing (adding a 3D-print-on-demand service is on the roadmap).\n\n\n\nA Topodisc of the area around the Federal Palace of Switzerland"
   }
 ]
