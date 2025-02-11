@@ -1,6 +1,8 @@
 ---
 title: "Topodiscs: Custom 3D-printed Swiss landscapes"
-author: ""
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
 date: "2025-02-08 19:51"
 image: "topodisc-bundesgasse.jpg"
 ---
