@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://spatialists.ch/index.html</loc>
-    <lastmod>2025-02-11T23:04:11.041Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/02-08-small-sat-high-res-imagery/index.html</loc>
-    <lastmod>2025-02-11T23:04:11.049Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html</loc>
-    <lastmod>2025-02-11T23:04:11.060Z</lastmod>
+    <loc>https://spatialists.ch/posts/2025/02-08-look-at-usgs-lidar-data-online/index.html</loc>
+    <lastmod>2025-02-11T23:13:20.924Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html</loc>
-    <lastmod>2025-02-11T23:04:11.064Z</lastmod>
+    <lastmod>2025-02-11T23:13:20.948Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html</loc>
+    <lastmod>2025-02-11T23:13:20.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/index.html</loc>
+    <lastmod>2025-02-11T23:13:20.924Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/about.html</loc>
-    <lastmod>2025-02-11T23:04:11.040Z</lastmod>
+    <lastmod>2025-02-11T23:13:20.924Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-04-hello-world/index.html</loc>
-    <lastmod>2025-02-11T23:04:11.041Z</lastmod>
+    <lastmod>2025-02-11T23:13:20.924Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/02-08-small-sat-high-res-imagery/index.html</loc>
+    <lastmod>2025-02-11T23:13:20.932Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-10-prix-carto-2025/index.html</loc>
-    <lastmod>2025-02-11T23:04:11.062Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/02-08-look-at-usgs-lidar-data-online/index.html</loc>
-    <lastmod>2025-02-11T23:04:11.041Z</lastmod>
+    <lastmod>2025-02-11T23:13:20.945Z</lastmod>
   </url>
 </urlset>
