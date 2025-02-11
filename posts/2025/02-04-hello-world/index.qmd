@@ -2,6 +2,7 @@
 title: "Hello world"
 author: ""
 date: "2025-02-04 23:01"
+image: "https://spatialists.ch/assets/titlecard.jpg"
 ---
 
 This is the first post. Hello world!

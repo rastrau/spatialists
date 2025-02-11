@@ -2,6 +2,7 @@
 title: "Look at USGS LiDAR data online"
 author: ""
 date: "2025-02-08 19:10"
+image: "usgs-entwine-boston.jpg" 
 ---
 
 At <https://usgs.entwine.io> you can peruse more than 2,000 
