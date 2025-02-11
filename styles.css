@@ -1,5 +1,5 @@
 a {
-  color: #e9ecef; /* Default link color */
+  color: #f7f8f9 !important; /* Default link color */
   text-decoration: underline; /* Underline the link */
 }
 
@@ -9,7 +9,7 @@ a:hover {
 
 body,
 div.quarto-title-banner {
-  color: #d0d6dc;
+  color: #f7f8f9;
 }
 
 /* Optional: Remove navbar shadow or add border */
@@ -20,7 +20,7 @@ div.quarto-title-banner {
 
 div.listing-date,
 div.listing-author {
-  color: #89929a;
+  color: #aeb4ba;
 }
 
 div.quarto-post,
@@ -31,6 +31,8 @@ div#quarto-appendix {
 blockquote {
   border-left: 0px;
   padding-top: 0px;
+  font-style: italic;
+  color: #c6cbcf !important;
 }
 
 .footnote-ref {
