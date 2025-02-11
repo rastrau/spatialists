@@ -18,8 +18,9 @@ div.quarto-title-banner {
   border-bottom: 0px solid #373534 !important;
 }
 
-div.listing-date {
-  color: #a5b0bb;
+div.listing-date,
+div.listing-author {
+  color: #89929a;
 }
 
 div.quarto-post,
