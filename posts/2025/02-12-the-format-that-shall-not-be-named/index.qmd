@@ -1,0 +1,45 @@
+---
+title: "The format that shall not be named"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-02-13 06:11"
+image: "nana-smirnova-IEiAmhXehwE-unsplash.jpg"
+---
+
+... for I am not interested in the Shapefile Wars and I do not 
+want to wake up the geospatial format zealots. But: By now, a 
+cultural history of the Shapefile, the world's foremost 
+geospatial data format^[much in the same way Excel is 
+the world's foremost "database" – besides SQLite] since the 
+early 1990s (!), would be warranted, such is its impact. James 
+Fee's article "[Shapefile: The Persistent 
+Legacy of a GIS Workhorse](https://jamesfee.org/2025/02/12/shapefile-the-persistent-legacy-of.html)" makes the point: 
+
+> I’m pretty sure Esri never intended the Shapefile to be a 
+long-term standard, its simplicity, compatibility, and widespread 
+adoption have cemented its place in geospatial workflows across 
+industries. (...) Even as more efficient, flexible, and robust 
+alternatives like GeoJSON, Parquet, and GeoPackage have emerged, 
+the Shapefile persists, often by necessity rather than preference.
+
+Luckily, I don't usually have to cater to workflows that rely on 
+Shapefiles at all^[One exception comes to mind: to my dismay, a 
+popular traffic modelling software only supports Shapefile for 
+GIS data exchange.]. 
+
+As to alternatives, there are many to chose from. I find it hard 
+to name "the best" data format, since it very much depends: 
+
+- In what environment do you want to use spatial data?
+- To what end: Is the main purpose storage or retrieval/analysis?
+- How big is the data and of what nature is it? 
+- Do you have to use certain software with maybe limited 
+support for some formats? 
+- Do you have to build upon given workflows? 
+- etc. 
+- etc.
+
+I do find [GeoParquet](https://geoparquet.org) and 
+[FlatGeoBuf](https://flatgeobuf.org) particulary interesting 
+vector data formats, for some of my use cases – ymmv^[your mileage may vary], obviously.
