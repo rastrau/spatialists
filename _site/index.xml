@@ -21,7 +21,22 @@
   <title>The impact of flooding-induced road disruptions on emergency services accessibility</title>
   <dc:creator>Ralph Straumann</dc:creator>
   <link>https://spatialists.ch/posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Quite a mouthful, that title: <em>“Road network disruptions during extreme flooding events and their impact on the access to emergency medical services: A spatiotemporal vulnerability analysis”</em>. From a Swiss-Austrian team comes this interesting analysis of how disruptions in the road network of the canton of Berne that are induced by extreme flooding events affect the population’s access to emergency medical services (EMS). The <a href="https://doi.org/10.1016/j.scitotenv.2024.177140">paper is open-access</a>.</p>
+<p>It seems, event-specific EMS accessibility is an under-studied topic, but certainly relevant with extreme rain and flooding events on the increase due to climate change. The researchers studied accessibility and changes in accessibility in 1 km spatial and 1 hour temporal resolution through a simulated flooding event over six days, among other things.</p>
+<p>From the paper:</p>
+<blockquote class="blockquote">
+<p>In the context of flood disasters, further investigation into complex and cascading impacts would be advantageous for more informed and effective management of dynamic flood risk. (…) existing infrastructure was designed before increasingly more extreme events due to climate change have been and expect to continue occurring. Preparing for rare but high consequence flood events is a core part of undertaking anticipatory actions by emergency managers, rather than acting only after the onset of a flood event. Such preparations involve custom measures that incorporate local context to reduce societal vulnerabilities.</p>
+</blockquote>
+
+
+
+ ]]></description>
   <guid>https://spatialists.ch/posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/</guid>
   <pubDate>Tue, 11 Feb 2025 18:21:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/flooding-travel-times.jpg" medium="image" type="image/jpeg"/>
@@ -30,7 +45,19 @@
   <title>Prix Carto 2025</title>
   <dc:creator>Ralph Straumann</dc:creator>
   <link>https://spatialists.ch/posts/2025/02-10-prix-carto-2025/</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The <a href="https://kartografie.ch">Swiss Society of Cartography</a> (Schweizerische Gesellschaft für Kartografie, SGK) is set to host the prestigious bi-annual Prix Carto awards during its autumn meeting in 2025. This event celebrates innovative and outstanding cartographic products with a connection to Switzerland. The award highlights excellence in cartography, geomatics, and geovisualization, offering recognition across multiple categories.</p>
+<p>Besides its main category, the Prix Carto also includes two special awards to foster young talent: the “Prix Carto – start”, aimed at school students and apprentices, and the “Prix Carto – edu”, designed for university students and adults in training programs. Both of the “young talent” awards carry a prize of 500 Swiss Francs.</p>
+<p><a href="https://kartografie.ch/prix-carto/call-2025/">Submissions for the 2025 awards are now open</a>, with participants required to submit their entries through an official form on the SGK website. The SGK encourages widespread participation from both seasoned professionals and emerging talents.</p>
+
+
+
+ ]]></description>
   <guid>https://spatialists.ch/posts/2025/02-10-prix-carto-2025/</guid>
   <pubDate>Mon, 10 Feb 2025 19:51:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-10-prix-carto-2025/prix-carto-2023-eduard.jpg" medium="image" type="image/jpeg"/>
@@ -39,7 +66,24 @@
   <title>Topodiscs: Custom 3D-printed Swiss landscapes</title>
   <dc:creator>Ralph Straumann</dc:creator>
   <link>https://spatialists.ch/posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>A new (currently, beta) service from <a href="https://blog.heuel.org/">Stephan Heuel</a>, <a href="https://topoprint.ch" class="uri">https://topoprint.ch</a> offers an innovative way to interact with Switzerland’s topography. By combining high-resolution Swisstopo datasets with 3D printing technology, users can create detailed, tangible models – Topodiscs – of any location in Switzerland.</p>
+<p>Topodiscs are compact, 3D-printable models that represent terrain, buildings, and infrastructure within a defined radius. Users can choose locations by address or CH1903+ LV95 / EPSG:2056 coordinates through either Mastodon or Telegram and receive an STL file for 3D printing (adding a 3D-print-on-demand service is on the roadmap).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://spatialists.ch/posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/topodisc-bundesgasse.jpg" title="A Topodisc of the area around the Federal Palace of Switzerland" class="img-fluid figure-img"></p>
+<figcaption>A Topodisc of the area around the Federal Palace of Switzerland</figcaption>
+</figure>
+</div>
+
+
+
+ ]]></description>
   <guid>https://spatialists.ch/posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/</guid>
   <pubDate>Sat, 08 Feb 2025 19:51:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/topodisc-bundesgasse.jpg" medium="image" type="image/jpeg"/>
@@ -48,7 +92,24 @@
   <title>Look at USGS LiDAR data online</title>
   <dc:creator>Ralph Straumann</dc:creator>
   <link>https://spatialists.ch/posts/2025/02-08-look-at-usgs-lidar-data-online/</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>At <a href="https://usgs.entwine.io" class="uri">https://usgs.entwine.io</a> you can peruse more than 2,000 <a href="https://www.usgs.gov/">USGS</a> <a href="https://www.usgs.gov/core-science-systems/ngp/3dep">3D Elevation Program</a> (3DEP) LiDAR datasets that have been made available through the <a href="https://registry.opendata.aws/usgs-lidar/">AWS Public Dataset Program</a>. The data amounts to 70,409,082,675,345 LiDAR points at the time of writing.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://spatialists.ch/posts/2025/02-08-look-at-usgs-lidar-data-online/usgs-entwine-boston.jpg" title="A LiDAR view of Boston" class="img-fluid figure-img"></p>
+<figcaption>A LiDAR <a href="https://usgs.entwine.io/data/view.html?t=%5B-7910268.351610412,5215545.321678544,-635.9296905886767%5D&amp;p=%5B-7907883.923255452,5214657.272476377,1618.2658121955164%5D&amp;r=%22https://s3-us-west-2.amazonaws.com/usgs-lidar-public/MA_CentralEastern_1_2021%22&amp;m=8&amp;ph=1&amp;op=0.61&amp;era=%5B-994,2138%5D&amp;cf=%5B7,18,49%5D">view of Boston</a></figcaption>
+</figure>
+</div>
+<p>The datasets cover most of the USA and can be looked at <em>in the browser</em> using Potree-based or Cesium-based viewers. The data has been processed into the <a href="https://entwine.io/en/latest/entwine-point-tile.html">Entwine Point Tile format</a> which combines JSON for metadata and LAZ for data for performance.</p>
+
+
+
+ ]]></description>
   <guid>https://spatialists.ch/posts/2025/02-08-look-at-usgs-lidar-data-online/</guid>
   <pubDate>Sat, 08 Feb 2025 19:10:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-08-look-at-usgs-lidar-data-online/usgs-entwine-boston.jpg" medium="image" type="image/jpeg"/>
@@ -57,7 +118,34 @@
   <title>Small sat high-res imagery</title>
   <dc:creator>Ralph Straumann</dc:creator>
   <link>https://spatialists.ch/posts/2025/02-08-small-sat-high-res-imagery/</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The commodification of high-resolution optical satellite imagery continues. In the domain of <a href="https://en.wikipedia.org/wiki/Small_satellite">small satellites</a>, ONGLAISAT of the Tokyo-based company <a href="https://arkedgespace.com">ArkEdge Space</a> developed in collaboration with the <a href="https://www.tasa.org.tw">Taiwan Space Agency TASA</a> has achieved a spatial resolution of approximately 2.5 meters from a relatively low orbit of 410 kilometers.</p>
+<p>From the <a href="https://arkedgespace.com/en/news/2025-02-07_onglaisat">press release</a>:</p>
+<blockquote class="blockquote">
+<p>The results of this demonstration—including world-class ground resolution, enhanced image clarity through TDI<sup>1</sup>, and efficient data compression via onboard processing—as well as the advanced satellite technology required to achieve them can be applied not only to 6U class CubeSats but also to larger spacecraft in future missions.</p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://spatialists.ch/posts/2025/02-08-small-sat-high-res-imagery/sample-imagery.png" title="Sample imagery © ArkEdge Space" class="img-fluid figure-img"></p>
+<figcaption>Sample imagery © ArkEdge Space</figcaption>
+</figure>
+</div>
+<p>While the sample image displayed <a href="https://www.theverge.com/news/608297/arkedge-space-tasa-6u-onglaisat-earth-images-validation">here</a> may also show some of the current limitations of TDI, it’s nevertheless an exciting development to potentially have this spatial resolution available from small space-borne platforms.</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://en.wikipedia.org/wiki/Time_delay_and_integration">Time delay integration</a>, a forward-motion compensation technique↩︎</p></li>
+</ol>
+</section></div> ]]></description>
   <guid>https://spatialists.ch/posts/2025/02-08-small-sat-high-res-imagery/</guid>
   <pubDate>Sat, 08 Feb 2025 12:47:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-08-small-sat-high-res-imagery/sample-imagery.png" medium="image" type="image/png" height="95" width="144"/>
@@ -66,7 +154,18 @@
   <title>Hello world</title>
   <dc:creator>Ralph Straumann</dc:creator>
   <link>https://spatialists.ch/posts/2025/02-04-hello-world/</link>
-  <description><![CDATA[  ]]></description>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is the first post. Hello world!</p>
+<p>Let’s see where this goes.</p>
+
+
+
+ ]]></description>
   <guid>https://spatialists.ch/posts/2025/02-04-hello-world/</guid>
   <pubDate>Tue, 04 Feb 2025 23:01:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/assets/titlecard.jpg" medium="image" type="image/jpeg"/>
