@@ -1,0 +1,36 @@
+---
+title: "GeoParquet 2.0"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-02-13 06:28"
+image: "tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
+description: "Exciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg."
+---
+
+On the heels of [this](https://spatialists.ch/posts/2025/02-12-the-format-that-shall-not-be-named/), news from the 
+#cloudnative and #cloudnativegeo world: 
+
+> The Parquet specification has officially adopted geospatial 
+guidance, enabling native storage of `GEOMETRY` and `GEOGRAPHY` 
+types
+
+and 
+
+> Iceberg 3 now includes `GEOMETRY` and `GEOGRAPHY` as part of its 
+official specification
+
+What does it mean? Well, `GEOMETRY` and `GEOGRAPHY` are now
+native logical data types in both Apache Parquet^[an open-source, 
+columnar storage file format designed for efficient data processing] 
+and Apache Iceberg^[an open-source, high-performance table format 
+for large datasets in data lakes], just like, e.g., `INT32` is. 
+This is a big step for mainstreaming "geo" in the cloud-native^[i.e. 
+taking full advantage of the cloud computing model; in the data world
+typically through enabling [partial downloads](https://blog.sogeo.services/blog/2023/12/29/statuscode-206-letsgetstarted.html) of file contents 
+through so-called [HTTP range requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests)] 
+data community. 
+
+What's going to be even more interesting are the next steps in 
+order to make the cloud-native paradigm work better for spatial data. 
+The rough roadmap and more details are [available from CNG](https://cloudnativegeo.org/blog/2025/02/geoparquet-2.0-going-native/).
