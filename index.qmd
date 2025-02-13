@@ -5,7 +5,7 @@ listing:
   sort: "date desc"
   type: default
   feed: 
-    type: full
+    type: partial
     language: en
   categories: false
   sort-ui: false
