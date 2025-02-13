@@ -16,7 +16,49 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.40</generator>
-<lastBuildDate>Tue, 11 Feb 2025 18:21:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 13 Feb 2025 06:28:00 GMT</lastBuildDate>
+<item>
+  <title>The format that shall not be named</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/02-12-the-format-that-shall-not-be-named/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>… for I am not interested in the Shapefile Wars and I do not want to wake up the geospatial format zealots. But: By now, a cultural history of the Shapefile, the world’s foremost geospatial data format<sup>1</sup> since the early 1990s (!), would be warranted, such is its impact. James Fee’s article “<a href="https://jamesfee.org/2025/02/12/shapefile-the-persistent-legacy-of.html">Shapefile: The Persistent Legacy of a GIS Workhorse</a>” makes the point:</p>
+<blockquote class="blockquote">
+<p>I’m pretty sure Esri never intended the Shapefile to be a long-term standard, its simplicity, compatibility, and widespread adoption have cemented its place in geospatial workflows across industries. (…) Even as more efficient, flexible, and robust alternatives like GeoJSON, Parquet, and GeoPackage have emerged, the Shapefile persists, often by necessity rather than preference.</p>
+</blockquote>
+<p>Luckily, I don’t usually have to cater to workflows that rely on Shapefiles at all<sup>2</sup>.</p>
+<p>As to alternatives, there are many to chose from. I find it hard to name “the best” data format, since it very much depends:</p>
+<ul>
+<li>In what environment do you want to use spatial data?</li>
+<li>To what end: Is the main purpose storage or retrieval/analysis?</li>
+<li>How big is the data and of what nature is it?</li>
+<li>Do you have to use certain software with maybe limited support for some formats?</li>
+<li>Do you have to build upon given workflows?</li>
+<li>etc.</li>
+<li>etc.</li>
+</ul>
+<p>I do find <a href="https://geoparquet.org">GeoParquet</a> and <a href="https://flatgeobuf.org">FlatGeoBuf</a> particulary interesting vector data formats, for some of my use cases – ymmv<sup>3</sup>, obviously.</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>much in the same way Excel is the world’s foremost “database” – besides SQLite↩︎</p></li>
+<li id="fn2"><p>One exception comes to mind: to my dismay, a popular traffic modelling software only supports Shapefile for GIS data exchange.↩︎</p></li>
+<li id="fn3"><p>your mileage may vary↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <guid>https://spatialists.ch/posts/2025/02-12-the-format-that-shall-not-be-named/</guid>
+  <pubDate>Thu, 13 Feb 2025 06:28:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/02-12-the-format-that-shall-not-be-named/nana-smirnova-IEiAmhXehwE-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>The impact of flooding-induced road disruptions on emergency services accessibility</title>
   <dc:creator>Ralph Straumann</dc:creator>
