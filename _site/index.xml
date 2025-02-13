@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.40</generator>
-<lastBuildDate>Thu, 13 Feb 2025 06:28:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 13 Feb 2025 22:24:00 GMT</lastBuildDate>
+<item>
+  <title>GeoParquet 2.0</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/</link>
+  <description><![CDATA[ Exciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/</guid>
+  <pubDate>Thu, 13 Feb 2025 22:24:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>The format that shall not be named</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -25,15 +34,6 @@
   <guid>https://spatialists.ch/posts/2025/02-12-the-format-that-shall-not-be-named/</guid>
   <pubDate>Thu, 13 Feb 2025 06:28:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-12-the-format-that-shall-not-be-named/nana-smirnova-IEiAmhXehwE-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>GeoParquet 2.0</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/</link>
-  <description><![CDATA[ Exciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/</guid>
-  <pubDate>Thu, 13 Feb 2025 06:28:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>The impact of flooding-induced road disruptions on emergency services accessibility</title>
