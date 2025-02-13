@@ -38,3 +38,12 @@ blockquote {
 .footnote-ref {
   color: #d0d6dc;
 }
+
+div.description {
+  display: none !important;
+}
+
+code {
+  background-color: rgb(230 230 230 / 10%) !important;
+  color: #b278cd;
+}
