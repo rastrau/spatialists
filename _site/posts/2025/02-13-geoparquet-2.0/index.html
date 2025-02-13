@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ralph Straumann">
+<meta name="dcterms.date" content="2025-02-13">
+<meta name="description" content="Exciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg.">
 
-<title>spatialists.ch – geospatial news</title>
+<title>GeoParquet 2.0 – spatialists.ch – geospatial news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./assets/favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a80a1054e1d223551dc964581465f768.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../assets/favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-a80a1054e1d223551dc964581465f768.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +69,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
+<link rel="stylesheet" href="../../../styles.css">
+</head>
 
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="spatialists.ch – geospatial news" href="index.xml" data-external="1"></head>
-
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">spatialists.ch – geospatial news</span>
     </a>
   </div>
@@ -149,11 +92,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./index.xml"> 
+    <a class="nav-link" href="../../../index.xml"> 
 <span class="menu-text">Feed</span></a>
   </li>  
 </ul>
@@ -164,251 +107,72 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">GeoParquet 2.0</h1>
+                  <div>
+        <div class="description">
+          Exciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg.
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://ralphstraumann.ch">Ralph Straumann</a> </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 13, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p>On the heels of <a href="https://spatialists.ch/posts/2025/02-12-the-format-that-shall-not-be-named/">this</a>, news from the #cloudnative and #cloudnativegeo world:</p>
+<blockquote class="blockquote">
+<p>The Parquet specification has officially adopted geospatial guidance, enabling native storage of <code>GEOMETRY</code> and <code>GEOGRAPHY</code> types</p>
+</blockquote>
+<p>and</p>
+<blockquote class="blockquote">
+<p>Iceberg 3 now includes <code>GEOMETRY</code> and <code>GEOGRAPHY</code> as part of its official specification</p>
+</blockquote>
+<p>What does it mean? Well, <code>GEOMETRY</code> and <code>GEOGRAPHY</code> are now native logical data types in both Apache Parquet<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> and Apache Iceberg<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, just like, e.g., <code>INT32</code> is. This is a big step for mainstreaming “geo” in the cloud-native<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> data community.</p>
+<p>What’s going to be even more interesting are the next steps in order to make the cloud-native paradigm work better for spatial data. The rough roadmap and more details are <a href="https://cloudnativegeo.org/blog/2025/02/geoparquet-2.0-going-native/">available from CNG</a>.</p>
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1739428080000" data-listing-file-modified-sort="1739481766821" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="269">
-<div class="thumbnail">
-<p><a href="./posts/2025/02-12-the-format-that-shall-not-be-named/index.html" class="no-external"></a></p><a href="./posts/2025/02-12-the-format-that-shall-not-be-named/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/2025/02-12-the-format-that-shall-not-be-named/nana-smirnova-IEiAmhXehwE-unsplash.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/2025/02-12-the-format-that-shall-not-be-named/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025/02-12-the-format-that-shall-not-be-named/index.html" class="no-external">The format that shall not be named</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2025/02-12-the-format-that-shall-not-be-named/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025/02-12-the-format-that-shall-not-be-named/index.html" class="no-external">… for I am not interested in the Shapefile Wars and I do not want to wake up the geospatial format zealots. But: By now, a cultural history of the Shapefile, the world’s…<sup></sup></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2025/02-12-the-format-that-shall-not-be-named/index.html" class="no-external">
-<div class="listing-date">
-13.02.2025 06:28
-</div>
-<div class="listing-author">
-Ralph Straumann
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1739428080000" data-listing-file-modified-sort="1739481766822" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="157">
-<div class="thumbnail">
-<p><a href="./posts/2025/02-13-geoparquet-2.0/index.html" class="no-external"></a></p><a href="./posts/2025/02-13-geoparquet-2.0/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/2025/02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/2025/02-13-geoparquet-2.0/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025/02-13-geoparquet-2.0/index.html" class="no-external">GeoParquet 2.0</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2025/02-13-geoparquet-2.0/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025/02-13-geoparquet-2.0/index.html" class="no-external">Exciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2025/02-13-geoparquet-2.0/index.html" class="no-external">
-<div class="listing-date">
-13.02.2025 06:28
-</div>
-<div class="listing-author">
-Ralph Straumann
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1739298060000" data-listing-file-modified-sort="1739481766821" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
-<div class="thumbnail">
-<p><a href="./posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html" class="no-external"></a></p><a href="./posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/flooding-travel-times.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html" class="no-external">The impact of flooding-induced road disruptions on emergency services accessibility</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html" class="no-external">Quite a mouthful, that title: <em>“Road network disruptions during extreme flooding events and their impact on the access to emergency medical services: A spatiotemporal…</em></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html" class="no-external">
-<div class="listing-date">
-11.02.2025 18:21
-</div>
-<div class="listing-author">
-Ralph Straumann
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1739217060000" data-listing-file-modified-sort="1739481766819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
-<div class="thumbnail">
-<p><a href="./posts/2025/02-10-prix-carto-2025/index.html" class="no-external"></a></p><a href="./posts/2025/02-10-prix-carto-2025/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/2025/02-10-prix-carto-2025/prix-carto-2023-eduard.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/2025/02-10-prix-carto-2025/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025/02-10-prix-carto-2025/index.html" class="no-external">Prix Carto 2025</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2025/02-10-prix-carto-2025/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025/02-10-prix-carto-2025/index.html" class="no-external">The Swiss Society of Cartography (Schweizerische Gesellschaft für Kartografie, SGK) is set to host the prestigious bi-annual Prix Carto awards during its autumn meeting in…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2025/02-10-prix-carto-2025/index.html" class="no-external">
-<div class="listing-date">
-10.02.2025 19:51
-</div>
-<div class="listing-author">
-Ralph Straumann
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1739044260000" data-listing-file-modified-sort="1739481766817" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="110">
-<div class="thumbnail">
-<p><a href="./posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html" class="no-external"></a></p><a href="./posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/topodisc-bundesgasse.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html" class="no-external">Topodiscs: Custom 3D-printed Swiss landscapes</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html" class="no-external">A new (currently, beta) service from Stephan Heuel, https://topoprint.ch offers an innovative way to interact with Switzerland’s topography. By combining high-resolution…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html" class="no-external">
-<div class="listing-date">
-08.02.2025 19:51
-</div>
-<div class="listing-author">
-Ralph Straumann
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1739041800000" data-listing-file-modified-sort="1739481766800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
-<div class="thumbnail">
-<p><a href="./posts/2025/02-08-look-at-usgs-lidar-data-online/index.html" class="no-external"></a></p><a href="./posts/2025/02-08-look-at-usgs-lidar-data-online/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/2025/02-08-look-at-usgs-lidar-data-online/usgs-entwine-boston.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/2025/02-08-look-at-usgs-lidar-data-online/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025/02-08-look-at-usgs-lidar-data-online/index.html" class="no-external">Look at USGS LiDAR data online</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2025/02-08-look-at-usgs-lidar-data-online/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025/02-08-look-at-usgs-lidar-data-online/index.html" class="no-external">At https://usgs.entwine.io you can peruse more than 2,000 USGS 3D Elevation Program (3DEP) LiDAR datasets that have been made available through the AWS Public Dataset Program…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2025/02-08-look-at-usgs-lidar-data-online/index.html" class="no-external">
-<div class="listing-date">
-08.02.2025 19:10
-</div>
-<div class="listing-author">
-Ralph Straumann
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1739018820000" data-listing-file-modified-sort="1739481766807" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
-<div class="thumbnail">
-<p><a href="./posts/2025/02-08-small-sat-high-res-imagery/index.html" class="no-external"></a></p><a href="./posts/2025/02-08-small-sat-high-res-imagery/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/2025/02-08-small-sat-high-res-imagery/sample-imagery.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2025/02-08-small-sat-high-res-imagery/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025/02-08-small-sat-high-res-imagery/index.html" class="no-external">Small sat high-res imagery</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2025/02-08-small-sat-high-res-imagery/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025/02-08-small-sat-high-res-imagery/index.html" class="no-external">The commodification of high-resolution optical satellite imagery continues. In the domain of small satellites, ONGLAISAT of the Tokyo-based company ArkEdge Space developed…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2025/02-08-small-sat-high-res-imagery/index.html" class="no-external">
-<div class="listing-date">
-08.02.2025 12:47
-</div>
-<div class="listing-author">
-Ralph Straumann
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1738710060000" data-listing-file-modified-sort="1739481766800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
-<div class="thumbnail">
-<p><a href="./posts/2025/02-04-hello-world/index.html" class="no-external"></a></p><a href="./posts/2025/02-04-hello-world/index.html" class="no-external">
-<p><img loading="lazy" src="https://spatialists.ch/assets/titlecard.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/2025/02-04-hello-world/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025/02-04-hello-world/index.html" class="no-external">Hello world</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2025/02-04-hello-world/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025/02-04-hello-world/index.html" class="no-external">This is the first post. Hello world!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2025/02-04-hello-world/index.html" class="no-external">
-<div class="listing-date">
-04.02.2025 23:01
-</div>
-<div class="listing-author">
-Ralph Straumann
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>an open-source, columnar storage file format designed for efficient data processing<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>an open-source, high-performance table format for large datasets in data lakes<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>i.e.&nbsp; taking full advantage of the cloud computing model; in the data world typically through enabling <a href="https://blog.sogeo.services/blog/2023/12/29/statuscode-206-letsgetstarted.html">partial downloads</a> of file contents through so-called <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests">HTTP range requests</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
