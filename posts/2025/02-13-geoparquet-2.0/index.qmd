@@ -3,7 +3,7 @@ title: "GeoParquet 2.0"
 author:
   - name: Ralph Straumann
     url: https://ralphstraumann.ch
-date: "2025-02-13 06:28"
+date: "2025-02-13 22:24"
 image: "tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
 description: "Exciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg."
 ---
