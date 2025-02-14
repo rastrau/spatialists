@@ -1,6 +1,5 @@
 name: Submit a post
 description: Suggest a post to spatialists.ch
-title: "[Bug]: "
 labels: ["new post"]
 body:
   - type: markdown
