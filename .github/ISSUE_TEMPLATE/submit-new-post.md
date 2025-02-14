@@ -19,10 +19,13 @@ The content of the post goes here. You can use Markdown elements for formatting 
 
 A link to [Wikipedia](https://en.wikipedia.org).
 
-You can also add footnotes^[This is a footnote. It can also contain a [link](https://spatialist.ch).] to your text. The footnote won't be rendered correctly on Github, but it will on Spatialist.
+You can also add footnotes^[This is a footnote. It can also contain a [link](https://spatialist.ch).] to your text. The footnote won't be rendered correctly on Github, but it will on Spatialists.
 
 A list: 
 - first item
   - first sub-item
   - second sub-item 
 - second item
+
+––––––––––––––––
+Optional: Message to the Spatialists platform goes here
