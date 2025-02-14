@@ -53,7 +53,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, I confirm that: a) I have the right to submit it. b) I understand and agree that this project, spatialists.ch, and thus my contribution is public and that a record of the contribution including all personal information you submit with it is maintained indefinitely and may be redistributed consistent with this project and the license(s) involved. 
+      description: By submitting this issue, I confirm that: I have the right to submit it. I understand and agree that this project, spatialists.ch, and thus my contribution is public and that a record of the contribution including all personal information you submit with it is maintained indefinitely and may be redistributed consistent with this project and the license(s) involved. 
       options:
         - label: I agree to the above.
           required: true
