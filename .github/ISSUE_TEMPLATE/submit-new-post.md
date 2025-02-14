@@ -1,6 +1,6 @@
 ---
 name: Submit new post
-about: Use this Issue template for submitting a post to Spatialist.
+about: Use this Issue template for submitting a post to Spatialists.
 title: ''
 labels: new post
 assignees: ''
@@ -29,3 +29,11 @@ A list:
 
 ––––––––––––––––
 Optional: Message to the Spatialists platform goes here
+
+––––––––––––––––
+Message to anyone who submits:
+By submitting material you confirm that: a) you have the right to submit it. 
+b) you understand and agree that this project, spatialists.ch, and thus your 
+contribution is public and that a record of the contribution including all 
+personal information you submit with it is maintained indefinitely and may 
+be redistributed consistent with this project and the license(s) involved.
