@@ -1,0 +1,60 @@
+name: Submit a post
+description: Suggest a post to spatialists.ch
+title: "[Bug]: "
+labels: ["new post"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to submit a post idea!
+  - type: input
+    id: post-title
+    attributes:
+      label: Post title
+    validations:
+      required: false
+  - type: textarea
+    id: post-content
+    attributes:
+      label: Post content
+      placeholder: The content of the post goes here. You can use Markdown elements for formatting your text,
+      value: | 
+        The content of the post goes here. You can use Markdown elements for formatting your text, for example:
+        
+        *italics* or _italics_
+        
+        **bold**
+        
+        A link to [Wikipedia](https://en.wikipedia.org).
+        
+        You can also add footnotes^[This is a footnote. It can also contain a [link](https://spatialist.ch).] to your text. The footnote won't be rendered correctly on Github, but it will on Spatialists.
+        
+        A list: 
+        
+        - first item
+          - first sub-item
+          - second sub-item 
+        - second item
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Post author
+    validations:
+      required: true
+  - type: textarea
+    id: message
+    attributes:
+      label: Message to Spatialists
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, I confirm that: a) I have the right to submit it. b) I understand and agree that this project, spatialists.ch, and thus my contribution is public and that a record of the contribution including all personal information you submit with it is maintained indefinitely and may be redistributed consistent with this project and the license(s) involved. 
+      options:
+        - label: I agree to the above.
+          required: true
+          
