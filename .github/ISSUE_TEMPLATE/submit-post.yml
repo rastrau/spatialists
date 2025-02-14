@@ -1,17 +1,12 @@
 name: Submit a post
 description: Suggest a post to spatialists.ch
+title: "Post title"
 labels: ["new post"]
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to submit a post idea!
-  - type: input
-    id: post-title
-    attributes:
-      label: Post title
-    validations:
-      required: false
   - type: textarea
     id: post-content
     attributes:
