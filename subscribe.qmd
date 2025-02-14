@@ -1,1 +1,8 @@
-<div style="padding-top:100px" class="ml-embedded" data-form="n5BFuv"></div>
+---
+title: "Subscribe by email"
+image: false
+about:
+  template: jolla
+---
+
+<div style="padding-top:30px" class="ml-embedded" data-form="n5BFuv"></div>
