@@ -2,42 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://spatialists.ch/index.html</loc>
-    <lastmod>2025-02-14T14:49:56.857Z</lastmod>
+    <lastmod>2025-02-14T14:51:42.882Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/index.html</loc>
-    <lastmod>2025-02-14T14:49:56.879Z</lastmod>
+    <lastmod>2025-02-14T14:51:42.904Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-10-prix-carto-2025/index.html</loc>
-    <lastmod>2025-02-14T14:49:56.876Z</lastmod>
+    <lastmod>2025-02-14T14:51:42.901Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-12-the-format-that-shall-not-be-named/index.html</loc>
-    <lastmod>2025-02-14T14:49:56.878Z</lastmod>
+    <lastmod>2025-02-14T14:51:42.903Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html</loc>
-    <lastmod>2025-02-14T14:49:56.878Z</lastmod>
+    <lastmod>2025-02-14T14:51:42.903Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/about.html</loc>
-    <lastmod>2025-02-14T14:49:56.857Z</lastmod>
+    <lastmod>2025-02-14T14:51:42.882Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/contribute.html</loc>
+    <lastmod>2025-02-14T14:51:42.882Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-04-hello-world/index.html</loc>
-    <lastmod>2025-02-14T14:49:56.857Z</lastmod>
+    <lastmod>2025-02-14T14:51:42.882Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html</loc>
-    <lastmod>2025-02-14T14:49:56.874Z</lastmod>
+    <lastmod>2025-02-14T14:51:42.899Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-08-small-sat-high-res-imagery/index.html</loc>
-    <lastmod>2025-02-14T14:49:56.864Z</lastmod>
+    <lastmod>2025-02-14T14:51:42.889Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-08-look-at-usgs-lidar-data-online/index.html</loc>
-    <lastmod>2025-02-14T14:49:56.857Z</lastmod>
+    <lastmod>2025-02-14T14:51:42.882Z</lastmod>
   </url>
 </urlset>
