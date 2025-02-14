@@ -1,0 +1,20 @@
+---
+title: "Contribute"
+image: false
+about:
+  template: jolla
+---
+
+On this site, I aim to share interesting (to me) news in the geospatial domain. 
+Do you have something you would like to share with the audience of spatialists.ch?
+
+**You can submit a post or post idea through a GitHub issue. Please use [this
+ template](https://github.com/rastrau/spatialists/issues/new?template=submit-new-post.md).**
+
+By submitting material you confirm that: a) you have the right to submit it. 
+b) you understand and agree that this project, spatialists.ch, and thus your 
+contribution is public and that a record of the contribution including all 
+personal information you submit with it is maintained indefinitely and may 
+be redistributed consistent with this project and the license(s) involved.
+
+[Reach out](mailto:mail@ralphstraumann.ch) with any questions.

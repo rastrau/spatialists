@@ -11,6 +11,8 @@ website:
     right: 
       - text: About
         href: about.qmd
+      - text: Contribute
+        href: contribute.qmd
       - text: Feed
         href: index.xml
 
