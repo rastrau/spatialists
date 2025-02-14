@@ -8,8 +8,8 @@ about:
 On this site, I aim to share interesting (to me) news in the geospatial domain. 
 Do you have something you would like to share with the audience of spatialists.ch?
 
-**You can submit a post or post idea through a GitHub issue. Please use [this
- template](https://github.com/rastrau/spatialists/issues/new?template=submit-new-post.md).**
+**You can submit a post or post idea through [this
+ form](https://github.com/rastrau/spatialists/issues/new?template=submit-post.yml).**
 
 By submitting material you confirm that: a) you have the right to submit it. 
 b) you understand and agree that this project, spatialists.ch, and thus your 
