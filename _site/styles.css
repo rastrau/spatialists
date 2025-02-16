@@ -47,3 +47,7 @@ code {
   background-color: rgb(230 230 230 / 10%) !important;
   color: #b278cd;
 }
+
+div.ml-form-embedBody.ml-form-embedBodyDefault.row-form > div > h4 {
+  display: none !important;
+}
