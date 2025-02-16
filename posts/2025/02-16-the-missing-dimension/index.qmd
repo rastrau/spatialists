@@ -4,10 +4,12 @@ author:
   - name: "Guest author David Oesch"
 date: "2025-02-16 21:54"
 image: "kobu-agency-hTtK6tvTRY0-unsplash.jpg"
-description: "Exciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg."
+description: "Time for change: Will Cadell argues geospatial tools must shift 
+from static maps to dynamic 3D/4D platforms, prioritizing time-driven insights 
+over location alone."
 ---
 
-> "Change is the EO product: The problem is that we so rarely sell it."
+> "Change is the EO^[Earth observation] product: The problem is that we so rarely sell it."
 
 A bold statement from Will Cadell in his recent article 
 [Time for a Change](https://www.strategicgeospatial.com/p/time-for-a-change). 
