@@ -1,0 +1,39 @@
+---
+title: "The missing dimension: Why geospatial needs to prioritize time"
+author:
+  - name: "Guest author David Oesch"
+date: "2025-02-16 21:54"
+image: "kobu-agency-hTtK6tvTRY0-unsplash.jpg"
+description: "Exciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg."
+---
+
+> "Change is the EO product: The problem is that we so rarely sell it."
+
+A bold statement from Will Cadell in his recent article 
+[Time for a Change](https://www.strategicgeospatial.com/p/time-for-a-change). 
+While Earth observation has always been about detecting change, Cadell argues 
+that the industry still struggles to treat time as a structured and fundamental 
+dimension. 
+
+![Change over time](kobu-agency-hTtK6tvTRY0-unsplash.jpg "Change over time")
+
+The gap: Geospatial tools remain rooted in static, two-dimensional thinking. 
+Time sliders and animated GIFs are useful, but they fall short of truly 
+integrating time into analysis. 
+
+How to tackle this? – Future geospatial platforms must embrace 3D and 4D 
+visualization, even if that means losing traditional geographical 
+representation – because understanding change matters more than simply mapping 
+it. Cadell again:
+
+> "Measuring geography through time often means we lose the geographical 
+representation, but that’s ok!"
+
+This shift in perspective is crucial. Whether for climate monitoring, disaster 
+response, or financial markets, geospatial intelligence isn’t just about where 
+things are – it’s about how and why they change.
+
+Perhaps it’s time to stop selling static maps and start delivering dynamic, 
+time-driven insights – think dashboards^[But be aware of the dashboard trap: 
+[Building useless dashboards](https://www.reddit.com/r/BusinessIntelligence/comments/z335op/building_useless_dashboards/)]
+
