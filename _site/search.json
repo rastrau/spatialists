@@ -7,53 +7,25 @@
     "text": "At https://usgs.entwine.io you can peruse more than 2,000 USGS 3D Elevation Program (3DEP) LiDAR datasets that have been made available through the AWS Public Dataset Program. The data amounts to 70,409,082,675,345 LiDAR points at the time of writing.\n\n\n\nA LiDAR view of Boston\n\n\nThe datasets cover most of the USA and can be looked at in the browser using Potree-based or Cesium-based viewers. The data has been processed into the Entwine Point Tile format which combines JSON for metadata and LAZ for data for performance."
   },
   {
-    "objectID": "posts/2025/02-08-small-sat-high-res-imagery/index.html",
-    "href": "posts/2025/02-08-small-sat-high-res-imagery/index.html",
-    "title": "Small sat high-res imagery",
+    "objectID": "posts/2025/02-16-the-missing-dimension/index.html",
+    "href": "posts/2025/02-16-the-missing-dimension/index.html",
+    "title": "The missing dimension: Why geospatial needs to prioritize time",
     "section": "",
-    "text": "The commodification of high-resolution optical satellite imagery continues. In the domain of small satellites, ONGLAISAT of the Tokyo-based company ArkEdge Space developed in collaboration with the Taiwan Space Agency TASA has achieved a spatial resolution of approximately 2.5 meters from a relatively low orbit of 410 kilometers.\nFrom the press release:\nWhile the sample image displayed here may also show some of the current limitations of TDI, it’s nevertheless an exciting development to potentially have this spatial resolution available from small space-borne platforms."
+    "text": "“Change is the EO product: The problem is that we so rarely sell it.”\nA bold statement from Will Cadell in his recent article Time for a Change. While Earth observation has always been about detecting change, Cadell argues that the industry still struggles to treat time as a structured and fundamental dimension.\nThe gap: Geospatial tools remain rooted in static, two-dimensional thinking. Time sliders and animated GIFs are useful, but they fall short of truly integrating time into analysis.\nHow to tackle this? – Future geospatial platforms must embrace 3D and 4D visualization, even if that means losing traditional geographical representation – because understanding change matters more than simply mapping it. Cadell again:\nThis shift in perspective is crucial. Whether for climate monitoring, disaster response, or financial markets, geospatial intelligence isn’t just about where things are – it’s about how and why they change.\nPerhaps it’s time to stop selling static maps and start delivering dynamic, time-driven insights – think dashboards1"
   },
   {
-    "objectID": "posts/2025/02-08-small-sat-high-res-imagery/index.html#footnotes",
-    "href": "posts/2025/02-08-small-sat-high-res-imagery/index.html#footnotes",
-    "title": "Small sat high-res imagery",
+    "objectID": "posts/2025/02-16-the-missing-dimension/index.html#footnotes",
+    "href": "posts/2025/02-16-the-missing-dimension/index.html#footnotes",
+    "title": "The missing dimension: Why geospatial needs to prioritize time",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nTime delay integration, a forward-motion compensation technique↩︎"
+    "text": "Footnotes\n\n\nBut be aware of the dashboard trap: Building useless dashboards↩︎"
   },
   {
-    "objectID": "posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html",
-    "href": "posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html",
-    "title": "Topodiscs: Custom 3D-printed Swiss landscapes",
+    "objectID": "posts/2025/02-10-prix-carto-2025/index.html",
+    "href": "posts/2025/02-10-prix-carto-2025/index.html",
+    "title": "Prix Carto 2025",
     "section": "",
-    "text": "A new (currently, beta) service from Stephan Heuel, https://topoprint.ch offers an innovative way to interact with Switzerland’s topography. By combining high-resolution Swisstopo datasets with 3D printing technology, users can create detailed, tangible models – Topodiscs – of any location in Switzerland.\nTopodiscs are compact, 3D-printable models that represent terrain, buildings, and infrastructure within a defined radius. Users can choose locations by address or CH1903+ LV95 / EPSG:2056 coordinates through either Mastodon or Telegram and receive an STL file for 3D printing (adding a 3D-print-on-demand service is on the roadmap).\n\n\n\nA Topodisc of the area around the Federal Palace of Switzerland"
-  },
-  {
-    "objectID": "posts/2025/02-04-hello-world/index.html",
-    "href": "posts/2025/02-04-hello-world/index.html",
-    "title": "Hello world",
-    "section": "",
-    "text": "This is the first post. Hello world!\nLet’s see where this goes."
-  },
-  {
-    "objectID": "contribute.html",
-    "href": "contribute.html",
-    "title": "Contribute",
-    "section": "",
-    "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. Do you have something you would like to share with the audience of spatialists.ch?\nYou can submit a post or post idea through GitHub or by email.\nBy submitting material you confirm that: a) you have the right to submit it. b) you understand and agree that this project, spatialists.ch, and thus your contribution is public and that a record of the contribution including all personal information you submit with it is maintained indefinitely and may be redistributed consistent with this project and the license(s) involved.\nReach out with any questions."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. No guarantees regarding anything – frequency, quality or that it even stays around. We’ll see how this will develop, and into what.\nIt’s not meant as a mid-2000s to early 2010s-style full-fledged blog with longform articles, commentary and opinion, but rather as a microblogging-style news curation service that is entirely indepedent of social platforms and entirely dependent on my interests and capacity to publish.\nTo who does ‘I’ refer, above? For now, this is run by Ralph.\nReach out with questions, feedback, ideas or if you’d like to contribute."
-  },
-  {
-    "objectID": "posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html",
-    "href": "posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html",
-    "title": "The impact of flooding-induced road disruptions on emergency services accessibility",
-    "section": "",
-    "text": "Quite a mouthful, that title: “Road network disruptions during extreme flooding events and their impact on the access to emergency medical services: A spatiotemporal vulnerability analysis”. From a Swiss-Austrian team comes this interesting analysis of how disruptions in the road network of the canton of Berne that are induced by extreme flooding events affect the population’s access to emergency medical services (EMS). The paper is open-access.\nIt seems, event-specific EMS accessibility is an under-studied topic, but certainly relevant with extreme rain and flooding events on the increase due to climate change. The researchers studied accessibility and changes in accessibility in 1 km spatial and 1 hour temporal resolution through a simulated flooding event over six days, among other things.\nFrom the paper:\n\nIn the context of flood disasters, further investigation into complex and cascading impacts would be advantageous for more informed and effective management of dynamic flood risk. (…) existing infrastructure was designed before increasingly more extreme events due to climate change have been and expect to continue occurring. Preparing for rare but high consequence flood events is a core part of undertaking anticipatory actions by emergency managers, rather than acting only after the onset of a flood event. Such preparations involve custom measures that incorporate local context to reduce societal vulnerabilities."
+    "text": "The Swiss Society of Cartography (Schweizerische Gesellschaft für Kartografie, SGK) is set to host the prestigious bi-annual Prix Carto awards during its autumn meeting in 2025. This event celebrates innovative and outstanding cartographic products with a connection to Switzerland. The award highlights excellence in cartography, geomatics, and geovisualization, offering recognition across multiple categories.\nBesides its main category, the Prix Carto also includes two special awards to foster young talent: the “Prix Carto – start”, aimed at school students and apprentices, and the “Prix Carto – edu”, designed for university students and adults in training programs. Both of the “young talent” awards carry a prize of 500 Swiss Francs.\nSubmissions for the 2025 awards are now open, with participants required to submit their entries through an official form on the SGK website. The SGK encourages widespread participation from both seasoned professionals and emerging talents."
   },
   {
     "objectID": "posts/2025/02-12-the-format-that-shall-not-be-named/index.html",
@@ -70,11 +42,53 @@
     "text": "Footnotes\n\n\nmuch in the same way Excel is the world’s foremost “database” – besides SQLite↩︎\nOne exception comes to mind: to my dismay, a popular traffic modelling software only supports Shapefile for GIS data exchange.↩︎\nyour mileage may vary↩︎"
   },
   {
-    "objectID": "posts/2025/02-10-prix-carto-2025/index.html",
-    "href": "posts/2025/02-10-prix-carto-2025/index.html",
-    "title": "Prix Carto 2025",
+    "objectID": "posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html",
+    "href": "posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html",
+    "title": "The impact of flooding-induced road disruptions on emergency services accessibility",
     "section": "",
-    "text": "The Swiss Society of Cartography (Schweizerische Gesellschaft für Kartografie, SGK) is set to host the prestigious bi-annual Prix Carto awards during its autumn meeting in 2025. This event celebrates innovative and outstanding cartographic products with a connection to Switzerland. The award highlights excellence in cartography, geomatics, and geovisualization, offering recognition across multiple categories.\nBesides its main category, the Prix Carto also includes two special awards to foster young talent: the “Prix Carto – start”, aimed at school students and apprentices, and the “Prix Carto – edu”, designed for university students and adults in training programs. Both of the “young talent” awards carry a prize of 500 Swiss Francs.\nSubmissions for the 2025 awards are now open, with participants required to submit their entries through an official form on the SGK website. The SGK encourages widespread participation from both seasoned professionals and emerging talents."
+    "text": "Quite a mouthful, that title: “Road network disruptions during extreme flooding events and their impact on the access to emergency medical services: A spatiotemporal vulnerability analysis”. From a Swiss-Austrian team comes this interesting analysis of how disruptions in the road network of the canton of Berne that are induced by extreme flooding events affect the population’s access to emergency medical services (EMS). The paper is open-access.\nIt seems, event-specific EMS accessibility is an under-studied topic, but certainly relevant with extreme rain and flooding events on the increase due to climate change. The researchers studied accessibility and changes in accessibility in 1 km spatial and 1 hour temporal resolution through a simulated flooding event over six days, among other things.\nFrom the paper:\n\nIn the context of flood disasters, further investigation into complex and cascading impacts would be advantageous for more informed and effective management of dynamic flood risk. (…) existing infrastructure was designed before increasingly more extreme events due to climate change have been and expect to continue occurring. Preparing for rare but high consequence flood events is a core part of undertaking anticipatory actions by emergency managers, rather than acting only after the onset of a flood event. Such preparations involve custom measures that incorporate local context to reduce societal vulnerabilities."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. No guarantees regarding anything – frequency, quality or that it even stays around. We’ll see how this will develop, and into what.\nIt’s not meant as a mid-2000s to early 2010s-style full-fledged blog with longform articles, commentary and opinion, but rather as a microblogging-style news curation service that is entirely indepedent of social platforms and entirely dependent on my interests and capacity to publish.\nTo who does ‘I’ refer, above? For now, this is run by Ralph.\nReach out with questions, feedback, ideas or if you’d like to contribute."
+  },
+  {
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "Contribute",
+    "section": "",
+    "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. Do you have something you would like to share with the audience of spatialists.ch?\nYou can submit a post or post idea through GitHub or by email.\nBy submitting material you confirm that: a) you have the right to submit it. b) you understand and agree that this project, spatialists.ch, and thus your contribution is public and that a record of the contribution including all personal information you submit with it is maintained indefinitely and may be redistributed consistent with this project and the license(s) involved.\nReach out with any questions."
+  },
+  {
+    "objectID": "posts/2025/02-04-hello-world/index.html",
+    "href": "posts/2025/02-04-hello-world/index.html",
+    "title": "Hello world",
+    "section": "",
+    "text": "This is the first post. Hello world!\nLet’s see where this goes."
+  },
+  {
+    "objectID": "posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html",
+    "href": "posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html",
+    "title": "Topodiscs: Custom 3D-printed Swiss landscapes",
+    "section": "",
+    "text": "A new (currently, beta) service from Stephan Heuel, https://topoprint.ch offers an innovative way to interact with Switzerland’s topography. By combining high-resolution Swisstopo datasets with 3D printing technology, users can create detailed, tangible models – Topodiscs – of any location in Switzerland.\nTopodiscs are compact, 3D-printable models that represent terrain, buildings, and infrastructure within a defined radius. Users can choose locations by address or CH1903+ LV95 / EPSG:2056 coordinates through either Mastodon or Telegram and receive an STL file for 3D printing (adding a 3D-print-on-demand service is on the roadmap).\n\n\n\nA Topodisc of the area around the Federal Palace of Switzerland"
+  },
+  {
+    "objectID": "posts/2025/02-08-small-sat-high-res-imagery/index.html",
+    "href": "posts/2025/02-08-small-sat-high-res-imagery/index.html",
+    "title": "Small sat high-res imagery",
+    "section": "",
+    "text": "The commodification of high-resolution optical satellite imagery continues. In the domain of small satellites, ONGLAISAT of the Tokyo-based company ArkEdge Space developed in collaboration with the Taiwan Space Agency TASA has achieved a spatial resolution of approximately 2.5 meters from a relatively low orbit of 410 kilometers.\nFrom the press release:\nWhile the sample image displayed here may also show some of the current limitations of TDI, it’s nevertheless an exciting development to potentially have this spatial resolution available from small space-borne platforms."
+  },
+  {
+    "objectID": "posts/2025/02-08-small-sat-high-res-imagery/index.html#footnotes",
+    "href": "posts/2025/02-08-small-sat-high-res-imagery/index.html#footnotes",
+    "title": "Small sat high-res imagery",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nTime delay integration, a forward-motion compensation technique↩︎"
   },
   {
     "objectID": "posts/2025/02-13-geoparquet-2.0/index.html",
@@ -95,6 +109,6 @@
     "href": "index.html",
     "title": "spatialists.ch – geospatial news",
     "section": "",
-    "text": "GeoParquet 2.0\n\n\n\n\n\nExciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg.\n\n\n\n\n\n13.02.2025 22:24\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe format that shall not be named\n\n\n\n\n\n\n\n\n\n\n\n13.02.2025 06:28\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe impact of flooding-induced road disruptions on emergency services accessibility\n\n\n\n\n\n\n\n\n\n\n\n11.02.2025 18:21\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nPrix Carto 2025\n\n\n\n\n\n\n\n\n\n\n\n10.02.2025 19:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTopodiscs: Custom 3D-printed Swiss landscapes\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nLook at USGS LiDAR data online\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:10\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nSmall sat high-res imagery\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 12:47\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nHello world\n\n\n\n\n\n\n\n\n\n\n\n04.02.2025 23:01\n\n\nRalph Straumann\n\n\n\n\n\n\nNo matching items"
+    "text": "The missing dimension: Why geospatial needs to prioritize time\n\n\n\n\n\nExciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg.\n\n\n\n\n\n16.02.2025 21:54\n\n\nGuest author David Oesch\n\n\n\n\n\n\n\n\n\n\n\n\nGeoParquet 2.0\n\n\n\n\n\nExciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg.\n\n\n\n\n\n13.02.2025 22:24\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe format that shall not be named\n\n\n\n\n\n\n\n\n\n\n\n13.02.2025 06:28\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe impact of flooding-induced road disruptions on emergency services accessibility\n\n\n\n\n\n\n\n\n\n\n\n11.02.2025 18:21\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nPrix Carto 2025\n\n\n\n\n\n\n\n\n\n\n\n10.02.2025 19:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTopodiscs: Custom 3D-printed Swiss landscapes\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nLook at USGS LiDAR data online\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:10\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nSmall sat high-res imagery\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 12:47\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nHello world\n\n\n\n\n\n\n\n\n\n\n\n04.02.2025 23:01\n\n\nRalph Straumann\n\n\n\n\n\n\nNo matching items"
   }
 ]
