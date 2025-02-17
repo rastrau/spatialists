@@ -49,6 +49,13 @@
     "text": "Quite a mouthful, that title: “Road network disruptions during extreme flooding events and their impact on the access to emergency medical services: A spatiotemporal vulnerability analysis”. From a Swiss-Austrian team comes this interesting analysis of how disruptions in the road network of the canton of Berne that are induced by extreme flooding events affect the population’s access to emergency medical services (EMS). The paper is open-access.\nIt seems, event-specific EMS accessibility is an under-studied topic, but certainly relevant with extreme rain and flooding events on the increase due to climate change. The researchers studied accessibility and changes in accessibility in 1 km spatial and 1 hour temporal resolution through a simulated flooding event over six days, among other things.\nFrom the paper:\n\nIn the context of flood disasters, further investigation into complex and cascading impacts would be advantageous for more informed and effective management of dynamic flood risk. (…) existing infrastructure was designed before increasingly more extreme events due to climate change have been and expect to continue occurring. Preparing for rare but high consequence flood events is a core part of undertaking anticipatory actions by emergency managers, rather than acting only after the onset of a flood event. Such preparations involve custom measures that incorporate local context to reduce societal vulnerabilities."
   },
   {
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "Contribute",
+    "section": "",
+    "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. Do you have something you would like to share with the audience of spatialists.ch?\nYou can submit a post or post idea through GitHub or by email.\nBy submitting material you confirm that: a) you have the right to submit it. b) you understand and agree that this project, spatialists.ch, and thus your contribution is public and that a record of the contribution including all personal information you submit with it is maintained indefinitely and may be redistributed consistent with this project and the license(s) involved.\nReach out with any questions."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -56,11 +63,18 @@
     "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. No guarantees regarding anything – frequency, quality or that it even stays around. We’ll see how this will develop, and into what.\nIt’s not meant as a mid-2000s to early 2010s-style full-fledged blog with longform articles, commentary and opinion, but rather as a microblogging-style news curation service that is entirely indepedent of social platforms and entirely dependent on my interests and capacity to publish.\nTo who does ‘I’ refer, above? For now, this is run by Ralph.\nReach out with questions, feedback, ideas or if you’d like to contribute."
   },
   {
-    "objectID": "contribute.html",
-    "href": "contribute.html",
-    "title": "Contribute",
+    "objectID": "posts/2025/02-17-sgs-action-plan-2025/index.html",
+    "href": "posts/2025/02-17-sgs-action-plan-2025/index.html",
+    "title": "Just out: SGS Action Plan 2025",
     "section": "",
-    "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. Do you have something you would like to share with the audience of spatialists.ch?\nYou can submit a post or post idea through GitHub or by email.\nBy submitting material you confirm that: a) you have the right to submit it. b) you understand and agree that this project, spatialists.ch, and thus your contribution is public and that a record of the contribution including all personal information you submit with it is maintained indefinitely and may be redistributed consistent with this project and the license(s) involved.\nReach out with any questions."
+    "text": "Fresh from the SGS board1: The Swiss Geoinformation Strategy (SGS) action plan for the year 2025 has just been published, after formal approval by the Coordinating Agency for federal geographical information, GCG (GKG / GCS in German and French, respectively), and the Conference of the Cantonal Geoinformation and Cadastral Offices (KGK / CGC). The action plan is available in German and in French (pdf).\nThe action plan adopts actions in the following SGS domains:\nNo new actions are adopted for the SGS domains “Development of geodata science” and “Further development of digital platforms”."
+  },
+  {
+    "objectID": "posts/2025/02-17-sgs-action-plan-2025/index.html#footnotes",
+    "href": "posts/2025/02-17-sgs-action-plan-2025/index.html#footnotes",
+    "title": "Just out: SGS Action Plan 2025",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nthe organisation tasked with strategic oversight and steering of the implementation of the Swiss Geoinformation Strategy from 2020↩︎"
   },
   {
     "objectID": "posts/2025/02-04-hello-world/index.html",
@@ -109,6 +123,6 @@
     "href": "index.html",
     "title": "spatialists.ch – geospatial news",
     "section": "",
-    "text": "The missing dimension: Why geospatial needs to prioritize time\n\n\n\n\n\nTime for change: Will Cadell argues geospatial tools must shift from static maps to dynamic 3D/4D platforms, prioritizing time-driven insights over location alone.\n\n\n\n\n\n16.02.2025 21:54\n\n\nGuest author David Oesch\n\n\n\n\n\n\n\n\n\n\n\n\nGeoParquet 2.0\n\n\n\n\n\nExciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg.\n\n\n\n\n\n13.02.2025 22:24\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe format that shall not be named\n\n\n\n\n\n\n\n\n\n\n\n13.02.2025 06:28\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe impact of flooding-induced road disruptions on emergency services accessibility\n\n\n\n\n\n\n\n\n\n\n\n11.02.2025 18:21\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nPrix Carto 2025\n\n\n\n\n\n\n\n\n\n\n\n10.02.2025 19:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTopodiscs: Custom 3D-printed Swiss landscapes\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nLook at USGS LiDAR data online\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:10\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nSmall sat high-res imagery\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 12:47\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nHello world\n\n\n\n\n\n\n\n\n\n\n\n04.02.2025 23:01\n\n\nRalph Straumann\n\n\n\n\n\n\nNo matching items"
+    "text": "Just out: SGS Action Plan 2025\n\n\n\n\n\nThe SGS board has just published the Action Plan 2025 for the Swiss Geoinformation Strategy.\n\n\n\n\n\n17.02.2025 19:56\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe missing dimension: Why geospatial needs to prioritize time\n\n\n\n\n\nTime for change: Will Cadell argues geospatial tools must shift from static maps to dynamic 3D/4D platforms, prioritizing time-driven insights over location alone.\n\n\n\n\n\n16.02.2025 21:54\n\n\nGuest author David Oesch\n\n\n\n\n\n\n\n\n\n\n\n\nGeoParquet 2.0\n\n\n\n\n\nExciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg.\n\n\n\n\n\n13.02.2025 22:24\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe format that shall not be named\n\n\n\n\n\n\n\n\n\n\n\n13.02.2025 06:28\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe impact of flooding-induced road disruptions on emergency services accessibility\n\n\n\n\n\n\n\n\n\n\n\n11.02.2025 18:21\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nPrix Carto 2025\n\n\n\n\n\n\n\n\n\n\n\n10.02.2025 19:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTopodiscs: Custom 3D-printed Swiss landscapes\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nLook at USGS LiDAR data online\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:10\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nSmall sat high-res imagery\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 12:47\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nHello world\n\n\n\n\n\n\n\n\n\n\n\n04.02.2025 23:01\n\n\nRalph Straumann\n\n\n\n\n\n\nNo matching items"
   }
 ]
