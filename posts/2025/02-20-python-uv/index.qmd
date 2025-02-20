@@ -1,0 +1,32 @@
+---
+title: "Python `uv`"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-02-20 19:52"
+image: "uv-logo.png"
+description: "#uv is a relatively new #Python project management tool that has 
+been gaining attention for its ease-of-use and speed. It has quickly become a 
+popular choice for easy installation and environment and dependency management 
+in Python projects."
+---
+
+`uv` by Astral (also behind `Ruff`) is a new-*ish* Python project management 
+tool that you may have already heard praise about. 
+[uv](https://docs.astral.sh/uv/) simplifies environment and dependency 
+management for Python (truly, finally) and is blazingly fast, thus potentially 
+streamlining also geospatial workflows reliant on libraries such as 
+`GeoPandas`, `rasterio` and the like. 
+
+If you use Python in your geospatial tooling, I highly recommend reading 
+[this very level-headed and thorough one-year review of uv](https://www.bitecode.dev/p/a-year-of-uv-pros-cons-and-should) by *Bite Code!* 
+
+Snippets:
+
+> uv's vision is brilliant. There, I said it.
+
+But also (... level-headed): 
+
+> Basically, there are 5 situations when you should not use uv.
+
+As to the name, [cf](https://github.com/astral-sh/uv/issues/2479).
