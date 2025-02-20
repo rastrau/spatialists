@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.40</generator>
-<lastBuildDate>Mon, 17 Feb 2025 19:56:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 20 Feb 2025 17:48:00 GMT</lastBuildDate>
+<item>
+  <title>Cloud-native web app: A case study</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/02-20-cloud-native-web-app-case-study/</link>
+  <description><![CDATA[ From Stephan Heuel comes a very interesting case study that explores the possibilies of web apps based on the ‘cloud-native geo’ paradigm, the Swiss Rooftop Explorer. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/02-20-cloud-native-web-app-case-study/</guid>
+  <pubDate>Thu, 20 Feb 2025 17:48:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Just out: SGS Action Plan 2025</title>
   <dc:creator>Ralph Straumann</dc:creator>
