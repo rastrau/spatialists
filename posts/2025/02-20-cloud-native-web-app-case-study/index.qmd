@@ -37,7 +37,7 @@ entirely while the user experience is the same!
 the [Cloud-Native Geospatial Forum](https://cloudnativegeo.org).
 
 In the Swiss geospatial industry, data is distributed in cloud-native formats 
-e.g. [under the swissEO^[Swiss Earth Observation] product line](https://data.geo.admin.ch/browser/index.html#/collections/ch.swisstopo.swisseo_s2-sr_v100?.language=en) (cf. also 
+e.g. under the [swissEO product line](https://data.geo.admin.ch/browser/index.html#/collections/ch.swisstopo.swisseo_s2-sr_v100?.language=en) (cf. also 
 [here](https://geomatik.ch/swisstopo-swisseo-produktreihe-near-realtime-satellitendaten-fuers-trockenheitsmonitoring-und-weitere-anwendung/) for some more background). To my knowledge, in Switzerland the 
 "cloud-native geo" paradigm has (only, I think (?)) been covered in a 
 GeoStandards.ch-issued [whitepaper by OPENGIS.ch](https://www.opengis.ch/2024/04/09/cloud-optimized-geospatial-formats/), in the 
