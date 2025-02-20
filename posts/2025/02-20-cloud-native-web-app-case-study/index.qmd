@@ -4,7 +4,7 @@ author:
   - name: Ralph Straumann
     url: https://ralphstraumann.ch
 date: "2025-02-20 17:48"
-image: "swiss-rooftop-explorer-screenshot.jpgg"
+image: "swiss-rooftop-explorer-screenshot.jpg"
 description: "From Stephan Heuel comes a very interesting case study that 
 explores the possibilies of web apps based on the 'cloud-native geo' paradigm, 
 the Swiss Rooftop Explorer."
