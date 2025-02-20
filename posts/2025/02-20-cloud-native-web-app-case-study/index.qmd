@@ -1,0 +1,45 @@
+---
+title: "Cloud-native web app: A case study"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-02-20 17:48"
+image: "../02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
+description: "From Stephan Heuel comes a very interesting case study that 
+explores the possibilies of web apps based on the 'cloud-native geo' paradigm, 
+the Swiss Rooftop Explorer."
+---
+
+From [Stephan Heuel](https://blog.heuel.org) comes a very interesting case 
+study that explores the possibilies of web apps based on the 
+"[cloud-native geo](https://cloudnativegeo.org)" paradigm: The ["Swiss Rooftop 
+Explorer" project](https://blog.heuel.org/2025/02/swiss-roof-explorer/) 
+demonstrates a cloud-native approach to accessing and visualizing geospatial 
+data, specifically roof heights of buildings in Switzerland based on 
+swisstopo's swissBUILDINGS<sup>3D</sup> dataset. 
+
+[![Stephan Heuel's Swiss Rooftop Explorer](swiss-rooftop-explorer-screenshot.jpg "Stephan Heuel's Swiss Rooftop Explorer")](https://ping13.net/swiss-rooftop-explorer/)
+
+Instead of relying on traditional GIS server architecture and infrastructure , 
+the project leverages GeoParquet, DuckDB, Tippecanoe, PMTiles, and DuckDB-WASM 
+for efficient data processing, storage and delivery. The toolchain is [entirely 
+open](https://github.com/ping13/swiss-rooftop-explorer) and in 
+[his blog post](https://blog.heuel.org/2025/02/swiss-roof-explorer/), 
+Stephan Heuel compares the cloud-native approach to that of a more traditional 
+GIS tech stack:
+
+> (...) I truly believe that there is something big behind all of this: The 
+current (classic) web map architecture includes a publication database and a 
+heavy and costly API layer. Just imagine you can get rid of both of them 
+entirely while the user experience is the same!
+
+*The* source for learning more about the "cloud-native geo" paradigm is of course 
+the [Cloud-Native Geospatial Forum](https://cloudnativegeo.org).
+
+In the Swiss geospatial industry, data is distributed in cloud-native formats 
+e.g. [under the swissEO^[Swiss Earth Observation] product line](https://data.geo.admin.ch/browser/index.html#/collections/ch.swisstopo.swisseo_s2-sr_v100?.language=en) (cf. also 
+[here](https://geomatik.ch/swisstopo-swisseo-produktreihe-near-realtime-satellitendaten-fuers-trockenheitsmonitoring-und-weitere-anwendung/) for some more background). To my knowledge, in Switzerland the 
+"cloud-native geo" paradigm has (only, I think (?)) been covered in a 
+GeoStandards.ch-issued [whitepaper by OPENGIS.ch](https://www.opengis.ch/2024/04/09/cloud-optimized-geospatial-formats/), in the 
+[digital.ebp.ch blog](https://digital.ebp.ch/category/cloud-native/) and of 
+course [here](../02-13-geoparquet-2.0), so far.
