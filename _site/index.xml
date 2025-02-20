@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.40</generator>
-<lastBuildDate>Thu, 20 Feb 2025 17:48:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 20 Feb 2025 19:52:00 GMT</lastBuildDate>
+<item>
+  <title>Python uv</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/02-20-python-uv/</link>
+  <description><![CDATA[ #uv is a relatively new #Python project management tool that has been gaining attention for its ease-of-use and speed. It has quickly become a popular choice for easy installation and environment and dependency management in Python projects. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/02-20-python-uv/</guid>
+  <pubDate>Thu, 20 Feb 2025 19:52:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/02-20-python-uv/uv-logo.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Cloud-native web app: A case study</title>
   <dc:creator>Ralph Straumann</dc:creator>
