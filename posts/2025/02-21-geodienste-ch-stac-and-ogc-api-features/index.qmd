@@ -1,0 +1,29 @@
+---
+title: "geodienste.ch: STAC API and OGC API Features"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-02-21 22:42"
+image: "geodienste-ch-stac.jpg"
+description: "With its newest release, #KGK/#CGC offers an OGC #STAC API as well as #OGC API Features for data on geodienste.ch, in accordance with #eCH-0056. Assets seem limited to XTF files, though."
+---
+
+[KGK-CGC](https://www.kgk-cgc.ch) published a new release (4.0.2) of their geoservices 
+platform geodienste.ch. Notable excerpt from the 
+[release notes](https://kgk-cgc.atlassian.net/wiki/spaces/guide/pages/2478637062/Changelog) 
+under the item "Implement selected parts of [eCH-0056 v4.1.0](https://www.ech.ch/de/ech/ech-0056/4.0.1)"^[Anwendungsprofil Geodienste / Profil d’application des géoservices]: 
+
+> Activate OGC API Features for all topics. 
+
+> Introduce Spatio Temporal Asset Catalogs (STAC) for all topics.
+
+While QGIS and its STAC API Browser Plugin shows me an error for the STAC at 
+<https://geodienste.ch/stac>, it does pass validation with 
+[STAC Lint](https://staclint.com) and works in 
+[Rocket](https://rocket.snapplanet.io/map?c=0,0,2.5). 
+
+Oddly, assets seem to be limited to XTF^[Interlis transfer format] files at the 
+moment, although geodienste.ch offers other, more operative data formats 
+outside of its STAC.
+
+![(Patchy) pattern of geodienste.ch collections in Rocket](geodienste-ch-stac.jpg "(Patchy) pattern of geodienste.ch collections in Rocket")
