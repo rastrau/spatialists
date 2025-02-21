@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ralph Straumann">
-<meta name="dcterms.date" content="2025-02-13">
-<meta name="description" content="Exciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg.">
+<meta name="dcterms.date" content="2025-02-21">
+<meta name="description" content="With its newest release, #KGK/#CGC offers an OGC #STAC API as well as #OGC API Features for data on geodienste.ch, in accordance with #eCH-0056. Assets seem limited to XTF files, though.">
 
-<title>GeoParquet 2.0 – spatialists.ch – geospatial news</title>
+<title>geodienste.ch: STAC API and OGC API Features – spatialists.ch – geospatial news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -142,10 +142,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">GeoParquet 2.0</h1>
+      <h1 class="title">geodienste.ch: STAC API and OGC API Features</h1>
                   <div>
         <div class="description">
-          Exciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg.
+          With its newest release, #KGK/#CGC offers an OGC #STAC API as well as #OGC API Features for data on geodienste.ch, in accordance with #eCH-0056. Assets seem limited to XTF files, though.
         </div>
       </div>
                 </div>
@@ -164,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 13, 2025</p>
+        <p class="date">February 21, 2025</p>
       </div>
     </div>
     
@@ -183,16 +183,21 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>On the heels of <a href="https://spatialists.ch/posts/2025/02-12-the-format-that-shall-not-be-named/">this</a>, news from the #cloudnative and #cloudnativegeo world:</p>
+<p><a href="https://www.kgk-cgc.ch">KGK-CGC</a> published a new release (4.0.2) of their geoservices platform geodienste.ch. Notable excerpt from the <a href="https://kgk-cgc.atlassian.net/wiki/spaces/guide/pages/2478637062/Changelog">release notes</a> under the item “Implement selected parts of <a href="https://www.ech.ch/de/ech/ech-0056/4.0.1">eCH-0056 v4.1.0</a>”<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>:</p>
 <blockquote class="blockquote">
-<p>The Parquet specification has officially adopted geospatial guidance, enabling native storage of <code>GEOMETRY</code> and <code>GEOGRAPHY</code> types</p>
+<p>Activate OGC API Features for all topics.</p>
 </blockquote>
-<p>and</p>
 <blockquote class="blockquote">
-<p>Iceberg 3 now includes <code>GEOMETRY</code> and <code>GEOGRAPHY</code> as part of its official specification</p>
+<p>Introduce Spatio Temporal Asset Catalogs (STAC) for all topics.</p>
 </blockquote>
-<p>What does it mean? Well, <code>GEOMETRY</code> and <code>GEOGRAPHY</code> are now native logical data types in both Apache Parquet<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> and Apache Iceberg<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, just like, e.g., <code>INT32</code> is. This is a big step for mainstreaming “geo” in the cloud-native<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> data community.</p>
-<p>What’s going to be even more interesting are the next steps in order to make the cloud-native paradigm work better for spatial data. The rough roadmap and more details are <a href="https://cloudnativegeo.org/blog/2025/02/geoparquet-2.0-going-native/">available from CNG</a>.</p>
+<p>While QGIS and its STAC API Browser Plugin shows me an error for the STAC at <a href="https://geodienste.ch/stac" class="uri">https://geodienste.ch/stac</a>, it does pass validation with <a href="https://staclint.com">STAC Lint</a> and works in <a href="https://rocket.snapplanet.io/map?c=0,0,2.5">Rocket</a>.</p>
+<p>Oddly, assets seem to be limited to XTF<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> files at the moment, although geodienste.ch offers other, more operative data formats outside of its STAC.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="geodienste-ch-stac.jpg" title="(Patchy) pattern of geodienste.ch collections in Rocket" class="img-fluid figure-img"></p>
+<figcaption>(Patchy) pattern of geodienste.ch collections in Rocket</figcaption>
+</figure>
+</div>
 
 
 
@@ -200,9 +205,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>an open-source, columnar storage file format designed for efficient data processing<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>an open-source, high-performance table format for large datasets in data lakes<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>i.e.&nbsp; taking full advantage of the cloud computing model; in the data world typically through enabling <a href="https://blog.sogeo.services/blog/2023/12/29/statuscode-206-letsgetstarted.html">partial downloads</a> of file contents through so-called <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests">HTTP range requests</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Anwendungsprofil Geodienste / Profil d’application des géoservices<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Interlis transfer format<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
