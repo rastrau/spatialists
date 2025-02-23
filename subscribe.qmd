@@ -2,7 +2,7 @@
 title: "Subscribe by email"
 image: false
 about:
-  template: jolla
+  template: solana
 ---
 
-<div style="padding-top:30px" class="ml-embedded" data-form="n5BFuv"></div>
+<div style="padding-top:20px" class="ml-embedded" data-form="n5BFuv"></div>
