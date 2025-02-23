@@ -13,10 +13,10 @@ website:
         href: about.qmd
       - text: Subscribe
         href: subscribe.qmd
+      - text: Follow
+        href: follow.qmd
       - text: Contribute
         href: contribute.qmd
-      - icon: rss-fill
-        href: index.xml
 
   search:
     location: navbar
