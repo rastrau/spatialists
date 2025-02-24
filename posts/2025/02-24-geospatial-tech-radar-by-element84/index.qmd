@@ -1,0 +1,19 @@
+---
+title: "Geospatial tech radar by Element 84"
+author:
+  - name: Guest author Stephan Heuel
+    url: https://blog.heuel.org/
+date: "2025-02-24 07:05"
+image: "element-84-geospatial-tech-radar.png"
+description: "So-called 'Tech Radars', popularized by ThoughtWorks in 2010, have become essential tools for organizations to assess and communicate emerging technology trends. From Element 84 comes a particular interesting one for geospatial technologies."
+---
+
+Tech Radars originated as a way for technology-driven organizations to assess and communicate emerging trends. ThoughtWorks popularized the concept in 2010 with their Technology Radar, a periodic report categorizing technologies into **"Adopt", "Trial", "Assess", and "Hold"** to guide decision-making.
+
+The format has since been adopted by other companies, including [Zalando](https://opensource.zalando.com/tech-radar/) and Spotify, often customized for internal use.
+
+I recently came across the [Geospatial Tech Radar](https://element84.com/geospatial-tech-radar-24/#) by [Element 84](https://element84.com/). I recommend exploring this one, as it is well-executed from both a content and design/UI perspective.
+
+[![Geospatial tech radar by Element 84](element-84-geospatial-tech-radar.png "Geospatial tech radar by Element 84")](https://element84.com/geospatial-tech-radar-24/#)
+
+PS: There is a Swiss variation of **a geospatial** tech radar called [GIS Trends](https://gistrends.ch) by SOGI **(available only in German)**. However, it has a different focus and level of depth.
