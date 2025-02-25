@@ -28,3 +28,4 @@ format:
     css: styles.css
     include-in-header:
       - file: mailerlite-newsletter-form-code.html
+      - file: mastodon-verification.html
