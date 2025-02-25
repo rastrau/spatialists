@@ -40,4 +40,4 @@ jobs:
           # This is a path to the cache file, using the above cache path
           cache-file: ${{ github.workspace }}/mastofeedbot/cache.json
           # The maximum number of posts created on the first run
-          initial-post-limit: 1
+          initial-post-limit: 3
