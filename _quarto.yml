@@ -7,6 +7,8 @@ website:
   description: "A blog about geospatial topics"
   favicon: assets/favicon.png
   image: assets/titlecard.jpg
+  twitter-card: true
+  open-graph: true
   navbar:
     right: 
       - text: About
