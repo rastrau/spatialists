@@ -24,7 +24,7 @@ jobs:
         uses: 'joschi/mastofeedbot@v1'
         with:
           # This is the RSS feed you want to publish
-          rss-feed: https://www.githubstatus.com/history.rss
+          rss-feed: https://spatialists.ch/index.xml
           # Template of status posted to Mastodon (Handlebars)
           template: |
             {{item.title}}: {{item.description}}            
