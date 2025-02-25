@@ -1,4 +1,4 @@
-name: FeedBot
+name: RSS to Mastodon bot (spatialists.ch)
 on:
   push:
   # Allows you to run this workflow manually from the Actions tab
