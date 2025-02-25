@@ -11,7 +11,7 @@ Follow Spatialists through the RSS feed using this address:
 
 <br><br>
 
-## What is an RSS feed?^[These explanations are based on [aboutfeeds.com](https://aboutfeeds.com), CC-BY-NC-SA [Matt Webb](https://interconnected.org/)]
+## What is an RSS feed?^[These explanations are based on [aboutfeeds.com](https://aboutfeeds.com), CC-BY-NC-SA [Matt Webb](https://interconnected.org/). The article ["Why I still love and use RSS feeds in 2025"](https://news.itsfoss.com/why-use-rss-feeds/) goes into a bit more detail regarding the advantages of consuming news through RSS instead of an algorithmic feed.]
 
 An RSS feed contains the latest content of this site in a form that a 
 feedreader app understands. Tons of websites already have feeds, mostly news 
