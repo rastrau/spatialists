@@ -1,5 +1,5 @@
 ---
-title: "Follow the RSS feed"
+title: "Follow the RSS feed or in the Fediverse"
 image: false
 about:
   template: solana
@@ -9,7 +9,7 @@ Follow Spatialists through the RSS feed using this address:
 
 <https://spatialists.ch/index.xml>
 
-Of, if you prefer, follow Spatialists on Mastodon:
+Of follow Spatialists on Mastodon:
 
 <https://mapstodon.space/@spatialists>
 
