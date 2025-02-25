@@ -9,7 +9,7 @@ Follow Spatialists through the RSS feed using this address:
 
 <https://spatialists.ch/index.xml>
 
-Of follow Spatialists on Mastodon:
+Or follow Spatialists on Mastodon:
 
 <https://mapstodon.space/@spatialists>
 
