@@ -2,42 +2,42 @@
   {
     "objectID": "follow.html",
     "href": "follow.html",
-    "title": "Follow the RSS feed",
+    "title": "Follow the RSS feed or in the Fediverse",
     "section": "",
-    "text": "Follow Spatialists through the RSS feed using this address:\nhttps://spatialists.ch/index.xml\nOf, if you prefer, follow Spatialists on Mastodon:\nhttps://mapstodon.space/@spatialists"
+    "text": "Follow Spatialists through the RSS feed using this address:\nhttps://spatialists.ch/index.xml\nOr follow Spatialists on Mastodon:\nhttps://mapstodon.space/@spatialists"
   },
   {
     "objectID": "follow.html#what-is-an-rss-feed",
     "href": "follow.html#what-is-an-rss-feed",
-    "title": "Follow the RSS feed",
+    "title": "Follow the RSS feed or in the Fediverse",
     "section": "What is an RSS feed?1",
     "text": "What is an RSS feed?1\nAn RSS feed contains the latest content of this site in a form that a feedreader app understands. Tons of websites already have feeds, mostly news sites and blogs.\nWhenever you see a website with a feed, that means you can subscribe to that site using a feedreader app. The feedreader checks the feeds you have subscribed to automatically from time to time. If you subscribe to only one site, you might say “This doesn’t save me much time over occasionally checking that site myself.” But if you end up subscribing to a dozen or more sites, you’ll find that your feedreader becomes the place for news."
   },
   {
     "objectID": "follow.html#what-is-great-about-rss-feeds",
     "href": "follow.html#what-is-great-about-rss-feeds",
-    "title": "Follow the RSS feed",
+    "title": "Follow the RSS feed or in the Fediverse",
     "section": "What is great about RSS feeds?",
     "text": "What is great about RSS feeds?\nUsing RSS, you won’t miss content and there won’t be spam. RSS provides you with a non-algorithmic timeline of the content that interests you – unlike modern social media platforms."
   },
   {
     "objectID": "follow.html#how-do-i-get-a-feedreader-app",
     "href": "follow.html#how-do-i-get-a-feedreader-app",
-    "title": "Follow the RSS feed",
+    "title": "Follow the RSS feed or in the Fediverse",
     "section": "How do I get a feedreader app?",
     "text": "How do I get a feedreader app?\nThere are many different options to choose from. Wikipedia has an overview of feedreaders. Personally, I use Feedly. It can be used in a browser or as native app on mobile."
   },
   {
     "objectID": "follow.html#how-do-i-subscribe-to-a-feed",
     "href": "follow.html#how-do-i-subscribe-to-a-feed",
-    "title": "Follow the RSS feed",
+    "title": "Follow the RSS feed or in the Fediverse",
     "section": "How do I subscribe to a feed?",
     "text": "How do I subscribe to a feed?\nYou need the URL of the feed. Some feedreaders also have built-in methods to try and find a feed, given only the website URL.\nIf you want to follow Spatialists, copy the address of its feed, https://spatialists.ch/index.xml, and add it to the subscriptions in your feedreader app. To achieve this, usually, you paste the address after having pressed a button “Add Feed”, “Add Content”, “Subscribe” or in the search function of the app.\nYou’re done! You can now read the latest Spatialists content in your feedreader!"
   },
   {
     "objectID": "follow.html#footnotes",
     "href": "follow.html#footnotes",
-    "title": "Follow the RSS feed",
+    "title": "Follow the RSS feed or in the Fediverse",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nThese explanations are based on aboutfeeds.com, CC-BY-NC-SA Matt Webb. The article “Why I still love and use RSS feeds in 2025” goes into a bit more detail regarding the advantages of consuming news through RSS instead of an algorithmic feed.↩︎"
   },
