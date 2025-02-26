@@ -1,0 +1,81 @@
+name: Render, publish, and post (spatialists.ch)
+
+on:
+  push:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  render-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render
+        uses: quarto-dev/quarto-actions/render@v2 
+
+      - name: Push contents of _site folder to repo
+        uses: github-actions-x/commit@v2.9
+        with:
+          push-branch: 'main'
+          commit-message: 'Render website'
+          force-add: 'true'
+          files: _site/ 
+          name: autoupdate
+
+      - name: Copy quarto rendered static files to FTP Server
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # FTP_DIR is defined relatively to the user's "root" directory.
+          # FTP_DIR must be a folder (must end with /)
+          server-dir: ./
+          local-dir: ./_site/
+          protocol: ftps
+          log-level: verbose
+          exclude: |
+          dry-run: false
+  
+  post-to-mastodon:
+    needs: render-and-publish # IMPORTANT: Run this job only AFTER render-and-publish completes successfully
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate cache key
+        uses: actions/github-script@v6
+        id: generate-key
+        with:
+          script: |
+            core.setOutput('cache-key', new Date().valueOf())
+      - name: Retrieve cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ github.workspace }}/mastofeedbot
+          key: feed-cache-${{ steps.generate-key.outputs.cache-key }}
+          restore-keys: feed-cache-
+      - name: GitHub
+        uses: 'joschi/mastofeedbot@v1'
+        with:
+          # This is the RSS feed you want to publish
+          rss-feed: https://spatialists.ch/index.xml
+          # Template of status posted to Mastodon (Handlebars)
+          template: |
+            {{item.title}}: {{item.description}}            
+            {{item.link}} #GIS #GISchat #geospatial #SwissGIS
+          # Visibility of the posted status (public | unlisted | private | direct)
+          status-visibility: public
+          # Mark Mastodon status as sensitive content
+          sensitive: false
+          # This is your instance address
+          api-endpoint: https://mapstodon.space
+          # This is the secret you created earlier
+          api-token: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          # This is a path to the cache file, using the above cache path
+          cache-file: ${{ github.workspace }}/mastofeedbot/cache.json
+          # The maximum number of posts created on the first run
+          initial-post-limit: 3
