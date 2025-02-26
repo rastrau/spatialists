@@ -5,10 +5,7 @@ author:
     url: https://ralphstraumann.ch
 date: "2025-02-20 19:52"
 image: "uv-logo.png"
-description: "#uv is a relatively new #Python project management tool that has 
-been gaining attention for its ease-of-use and speed. It has quickly become a 
-popular choice for easy installation and environment and dependency management 
-in Python projects."
+description: "#uv is a relatively new #Python project management tool that has been gaining attention for its ease-of-use and speed. It has quickly become a popular choice for easy installation and environment and dependency management in Python projects."
 ---
 
 `uv` by Astral (also behind `Ruff`) is a new-*ish* Python project management 

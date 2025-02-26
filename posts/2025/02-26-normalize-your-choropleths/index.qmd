@@ -5,9 +5,7 @@ author:
     url: https://ralphstraumann.ch
 date: "2025-02-26 18:51"
 image: "data-normalization.jpg"
-description: "Much (but – judging from experience – not yet enough) 
-metaphorical ink has been spilled on this cartographic topic: Which kind of 
-metrics lend themselves to be mapped using ..."
+description: "Much (but – judging from experience – not yet enough) metaphorical ink has been spilled on this cartographic topic: Which kind of metrics lend themselves to be mapped using ..."
 ---
 
 Much (but – judging from experience – not yet enough) metaphorical ink has 
