@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Mon, 24 Feb 2025 07:05:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 26 Feb 2025 18:51:00 GMT</lastBuildDate>
+<item>
+  <title>Normalize choropleths</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/02-26-normalize-your-choropleths/</link>
+  <description><![CDATA[ Much (but – judging from experience – not yet enough) metaphorical ink has been spilled on this cartographic topic: Which kind of metrics lend themselves to be mapped using … ]]></description>
+  <guid>https://spatialists.ch/posts/2025/02-26-normalize-your-choropleths/</guid>
+  <pubDate>Wed, 26 Feb 2025 18:51:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/02-26-normalize-your-choropleths/data-normalization.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Geospatial tech radar by Element 84</title>
   <dc:creator>Guest author Stephan Heuel</dc:creator>
