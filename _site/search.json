@@ -35,67 +35,53 @@
     "text": "The Swiss Society of Cartography (Schweizerische Gesellschaft für Kartografie, SGK) is set to host the prestigious bi-annual Prix Carto awards during its autumn meeting in 2025. This event celebrates innovative and outstanding cartographic products with a connection to Switzerland. The award highlights excellence in cartography, geomatics, and geovisualization, offering recognition across multiple categories.\nBesides its main category, the Prix Carto also includes two special awards to foster young talent: the “Prix Carto – start”, aimed at school students and apprentices, and the “Prix Carto – edu”, designed for university students and adults in training programs. Both of the “young talent” awards carry a prize of 500 Swiss Francs.\nSubmissions for the 2025 awards are now open, with participants required to submit their entries through an official form on the SGK website. The SGK encourages widespread participation from both seasoned professionals and emerging talents."
   },
   {
-    "objectID": "posts/2025/02-24-geospatial-tech-radar-by-element84/index.html",
-    "href": "posts/2025/02-24-geospatial-tech-radar-by-element84/index.html",
-    "title": "Geospatial tech radar by Element 84",
+    "objectID": "posts/2025/03-01-geoparquet-to-come-to-esri-arcgis-pro/index.html",
+    "href": "posts/2025/03-01-geoparquet-to-come-to-esri-arcgis-pro/index.html",
+    "title": "GeoParquet to come to Esri ArcGIS Pro",
     "section": "",
-    "text": "Tech Radars originated as a way for technology-driven organizations to assess and communicate emerging trends. ThoughtWorks popularized the concept in 2010 with their Technology Radar, a periodic report categorizing technologies into “Adopt”, “Trial”, “Assess”, and “Hold” to guide decision-making.\nThe format has since been adopted by other companies, including Zalando and Spotify, often customized for internal use.\nI recently came across the Geospatial Tech Radar by Element 84. I recommend exploring this one, as it is well-executed from both a content and design/UI perspective.\n\n\n\nGeospatial tech radar by Element 84\n\n\nPS: There is a Swiss variation of a geospatial tech radar called GIS Trends by SOGI (only available in German). However, it has a different focus and level of depth."
+    "text": "More news from GeoParquet: Shortly after the Parquet format has adopted GEOMETRY and GEOGRAPHY as native data types, Chris Holmes shares that the status of a petition for GeoParquet support in Esri ArcGIS Pro has been changed to “In product plan”. And apparently, STAC support is also on Esri’s roadmap.\nThis is good news for the #cloudnativegeo paradigm. As noted previously regarding the native data types news:\n\nWhat’s going to be even more interesting are the next steps in order to make the cloud-native paradigm work better for spatial data.\n\nCrossing fingers that the GeoParquet support will arrive soon in the Esri software ecosystem and will offer users the full capabilities of the format."
   },
   {
-    "objectID": "posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html",
-    "href": "posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html",
-    "title": "The impact of flooding-induced road disruptions on emergency services accessibility",
+    "objectID": "posts/2025/03-01-toponyms/index.html",
+    "href": "posts/2025/03-01-toponyms/index.html",
+    "title": "Toponyms",
     "section": "",
-    "text": "Quite a mouthful, that title: “Road network disruptions during extreme flooding events and their impact on the access to emergency medical services: A spatiotemporal vulnerability analysis”. From a Swiss-Austrian team comes this interesting analysis of how disruptions in the road network of the canton of Berne that are induced by extreme flooding events affect the population’s access to emergency medical services (EMS). The paper is open-access.\nIt seems, event-specific EMS accessibility is an under-studied topic, but certainly relevant with extreme rain and flooding events on the increase due to climate change. The researchers studied accessibility and changes in accessibility in 1 km spatial and 1 hour temporal resolution through a simulated flooding event over six days, among other things.\nFrom the paper:\n\nIn the context of flood disasters, further investigation into complex and cascading impacts would be advantageous for more informed and effective management of dynamic flood risk. (…) existing infrastructure was designed before increasingly more extreme events due to climate change have been and expect to continue occurring. Preparing for rare but high consequence flood events is a core part of undertaking anticipatory actions by emergency managers, rather than acting only after the onset of a flood event. Such preparations involve custom measures that incorporate local context to reduce societal vulnerabilities."
+    "text": "Weekend diversion: Mapmakers (or their financers) got to name a lot of places. There’s a website and a Mastodon account that makes it its purpose to surface the sometimes odd and sometimes funny toponyms1 that have found their way into the official Swisstopo maps (many are in German or Swiss-German) and their etymology. Either outlet offers an RSS feed2."
   },
   {
-    "objectID": "posts/2025/02-08-look-at-usgs-lidar-data-online/index.html",
-    "href": "posts/2025/02-08-look-at-usgs-lidar-data-online/index.html",
-    "title": "Look at USGS LiDAR data online",
-    "section": "",
-    "text": "At https://usgs.entwine.io you can peruse more than 2,000 USGS 3D Elevation Program (3DEP) LiDAR datasets that have been made available through the AWS Public Dataset Program. The data amounts to 70,409,082,675,345 LiDAR points at the time of writing.\n\n\n\nA LiDAR view of Boston\n\n\nThe datasets cover most of the USA and can be looked at in the browser using Potree-based or Cesium-based viewers. The data has been processed into the Entwine Point Tile format which combines JSON for metadata and LAZ for data for performance."
-  },
-  {
-    "objectID": "posts/2025/02-08-small-sat-high-res-imagery/index.html",
-    "href": "posts/2025/02-08-small-sat-high-res-imagery/index.html",
-    "title": "Small sat high-res imagery",
-    "section": "",
-    "text": "The commodification of high-resolution optical satellite imagery continues. In the domain of small satellites, ONGLAISAT of the Tokyo-based company ArkEdge Space developed in collaboration with the Taiwan Space Agency TASA has achieved a spatial resolution of approximately 2.5 meters from a relatively low orbit of 410 kilometers.\nFrom the press release:\nWhile the sample image displayed here may also show some of the current limitations of TDI, it’s nevertheless an exciting development to potentially have this spatial resolution available from small space-borne platforms."
-  },
-  {
-    "objectID": "posts/2025/02-08-small-sat-high-res-imagery/index.html#footnotes",
-    "href": "posts/2025/02-08-small-sat-high-res-imagery/index.html#footnotes",
-    "title": "Small sat high-res imagery",
+    "objectID": "posts/2025/03-01-toponyms/index.html#footnotes",
+    "href": "posts/2025/03-01-toponyms/index.html#footnotes",
+    "title": "Toponyms",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nTime delay integration, a forward-motion compensation technique↩︎"
+    "text": "Footnotes\n\n\nplace names↩︎\nYou can follow any Fediverse (e.g. Mastodon or Pixelfed) account through RSS, even if you are not part of the Fediverse. Simply add .rss the URL of their profile page. It’s the open web, after all.↩︎"
   },
   {
-    "objectID": "posts/2025/02-16-the-missing-dimension/index.html",
-    "href": "posts/2025/02-16-the-missing-dimension/index.html",
-    "title": "The missing dimension: Why geospatial needs to prioritize time",
+    "objectID": "posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html",
+    "href": "posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html",
+    "title": "geodienste.ch: STAC API and OGC API Features",
     "section": "",
-    "text": "“Change is the EO1 product: The problem is that we so rarely sell it.”\nA bold statement from Will Cadell in his recent article Time for a Change. While Earth observation has always been about detecting change, Cadell argues that the industry still struggles to treat time as a structured and fundamental dimension.\nThe gap: Geospatial tools remain rooted in static, two-dimensional thinking. Time sliders and animated GIFs are useful, but they fall short of truly integrating time into analysis.\nHow to tackle this? – Future geospatial platforms must embrace 3D and 4D visualization, even if that means losing traditional geographical representation – because understanding change matters more than simply mapping it. Cadell again:\nThis shift in perspective is crucial. Whether for climate monitoring, disaster response, or financial markets, geospatial intelligence isn’t just about where things are – it’s about how and why they change.\nPerhaps it’s time to stop selling static maps and start delivering dynamic, time-driven insights – think dashboards2"
+    "text": "KGK-CGC published a new release (4.0.2) of their geoservices platform geodienste.ch. Notable excerpt from the release notes under the item “Implement selected parts of eCH-0056 v4.1.0”1:\nWhile QGIS and its STAC API Browser Plugin shows me an error for the STAC at https://geodienste.ch/stac, it does pass validation with STAC Lint and works in Rocket.\nOddly, assets seem to be limited to XTF2 files at the moment, although geodienste.ch offers other, more operative data formats outside of its STAC."
   },
   {
-    "objectID": "posts/2025/02-16-the-missing-dimension/index.html#footnotes",
-    "href": "posts/2025/02-16-the-missing-dimension/index.html#footnotes",
-    "title": "The missing dimension: Why geospatial needs to prioritize time",
+    "objectID": "posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html#footnotes",
+    "href": "posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html#footnotes",
+    "title": "geodienste.ch: STAC API and OGC API Features",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nEarth observation↩︎\nBut be aware of the dashboard trap: Building useless dashboards↩︎"
+    "text": "Footnotes\n\n\nAnwendungsprofil Geodienste / Profil d’application des géoservices↩︎\nInterlis transfer format↩︎"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "posts/2025/02-20-cloud-native-web-app-case-study/index.html",
+    "href": "posts/2025/02-20-cloud-native-web-app-case-study/index.html",
+    "title": "Cloud-native web app: A case study",
     "section": "",
-    "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. No guarantees regarding anything – frequency, quality or that it even stays around. We’ll see how this will develop, and into what.\nIt’s not meant as a mid-2000s to early 2010s-style full-fledged blog with longform articles, commentary and opinion, but rather as a microblogging-style news curation service that is entirely indepedent of social platforms and entirely dependent on my interests and capacity to publish.\nTo who does ‘I’ refer, above? For now, this is run by Ralph and, potentially, the occasional guest author. The author responsible for each post is indicated in the byline above the post and also on the main page.\nReach out with questions, feedback, ideas or if you’d like to contribute."
+    "text": "From Stephan Heuel comes a very interesting case study that explores the possibilies of web apps based on the “cloud-native geo” paradigm: The “Swiss Rooftop Explorer” project demonstrates a cloud-native approach to accessing and visualizing geospatial data, specifically roof heights of buildings in Switzerland based on swisstopo’s swissBUILDINGS3D dataset.\n\n\n\nStephan Heuel’s Swiss Rooftop Explorer\n\n\nInstead of relying on traditional GIS server architecture and infrastructure , the project leverages GeoParquet, DuckDB, Tippecanoe, PMTiles, and DuckDB-WASM for efficient data processing, storage and delivery. The toolchain is entirely open and in his blog post, Stephan Heuel compares the cloud-native approach to that of a more traditional GIS tech stack:\n\n(…) I truly believe that there is something big behind all of this: The current (classic) web map architecture includes a publication database and a heavy and costly API layer. Just imagine you can get rid of both of them entirely while the user experience is the same!\n\nThe source for learning more about the “cloud-native geo” paradigm is of course the Cloud-Native Geospatial Forum.\nIn the Swiss geospatial industry, data is distributed in cloud-native formats e.g. under the swissEO product line (cf. also here for some more background). To my knowledge, in Switzerland the “cloud-native geo” paradigm has (only, I think (?)) been covered in a GeoStandards.ch-issued whitepaper by OPENGIS.ch, in the digital.ebp.ch blog and of course here, so far."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "spatialists.ch – geospatial news",
+    "objectID": "posts/2025/02-04-hello-world/index.html",
+    "href": "posts/2025/02-04-hello-world/index.html",
+    "title": "Hello world",
     "section": "",
-    "text": "Toponyms\n\n\n\n\n\nWeekend diversion: Mapmakers (or their financers) got to name a lot of places. There’s a website and a Mastodon account that makes it its purpose to surface the sometimes…\n\n\n\n\n\n01.03.2025 16:25\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nNormalize choropleths\n\n\n\n\n\nMuch (but – judging from experience – not yet enough) metaphorical ink has been spilled on this cartographic topic: Which kind of metrics lend themselves to be mapped using…\n\n\n\n\n\n26.02.2025 18:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGeospatial tech radar by Element 84\n\n\n\n\n\nSo-called ‘Tech Radars’, popularized by ThoughtWorks in 2010, have become essential tools for organizations to assess and communicate emerging technology trends. From…\n\n\n\n\n\n24.02.2025 07:05\n\n\nGuest author Stephan Heuel\n\n\n\n\n\n\n\n\n\n\n\n\ngeodienste.ch: STAC API and OGC API Features\n\n\n\n\n\nWith its newest release, #KGK/#CGC offers an OGC #STAC API as well as #OGC API Features for data on geodienste.ch, in accordance with #eCH-0056. Assets seem limited to XTF…\n\n\n\n\n\n21.02.2025 22:42\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nPython uv\n\n\n\n\n\n#uv is a relatively new #Python project management tool that has been gaining attention for its ease-of-use and speed. It has quickly become a popular choice for easy…\n\n\n\n\n\n20.02.2025 19:52\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nCloud-native web app: A case study\n\n\n\n\n\nFrom Stephan Heuel comes a very interesting case study that explores the possibilies of web apps based on the ‘cloud-native geo’ paradigm, the Swiss Rooftop Explorer.\n\n\n\n\n\n20.02.2025 17:48\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nJust out: SGS Action Plan 2025\n\n\n\n\n\nThe SGS board has just published the Action Plan 2025 for the Swiss Geoinformation Strategy.\n\n\n\n\n\n17.02.2025 19:56\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe missing dimension: Why geospatial needs to prioritize time\n\n\n\n\n\nTime for change: Will Cadell argues geospatial tools must shift from static maps to dynamic 3D/4D platforms, prioritizing time-driven insights over location alone.\n\n\n\n\n\n16.02.2025 21:54\n\n\nGuest author David Oesch\n\n\n\n\n\n\n\n\n\n\n\n\nGeoParquet 2.0\n\n\n\n\n\nExciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg.\n\n\n\n\n\n13.02.2025 22:24\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe format that shall not be named\n\n\n\n\n\n\n\n\n\n\n\n13.02.2025 06:28\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe impact of flooding-induced road disruptions on emergency services accessibility\n\n\n\n\n\n\n\n\n\n\n\n11.02.2025 18:21\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nPrix Carto 2025\n\n\n\n\n\n\n\n\n\n\n\n10.02.2025 19:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTopodiscs: Custom 3D-printed Swiss landscapes\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nLook at USGS LiDAR data online\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:10\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nSmall sat high-res imagery\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 12:47\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nHello world\n\n\n\n\n\n\n\n\n\n\n\n04.02.2025 23:01\n\n\nRalph Straumann\n\n\n\n\n\n\nNo matching items"
+    "text": "This is the first post. Hello world!\nLet’s see where this goes."
   },
   {
     "objectID": "follow.html",
@@ -140,46 +126,67 @@
     "text": "Footnotes\n\n\nThese explanations are based on aboutfeeds.com, CC-BY-NC-SA Matt Webb. The article “Why I still love and use RSS feeds in 2025” goes into a bit more detail regarding the advantages of consuming news through RSS instead of an algorithmic feed.↩︎"
   },
   {
-    "objectID": "posts/2025/02-04-hello-world/index.html",
-    "href": "posts/2025/02-04-hello-world/index.html",
-    "title": "Hello world",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "spatialists.ch – geospatial news",
     "section": "",
-    "text": "This is the first post. Hello world!\nLet’s see where this goes."
+    "text": "GeoParquet to come to Esri ArcGIS Pro\n\n\n\n\n\n#cloudnativegeo and #GeoParquet news: Chris Holmes shares that the status of a petition for GeoParquet support in #Esri #ArcGIS Pro has changed to “In product plan”.\n\n\n\n\n\n01.03.2025 19:07\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nToponyms\n\n\n\n\n\nWeekend diversion: Mapmakers (or their financers) got to name a lot of places. There’s a website and a Mastodon account that makes it its purpose to surface the sometimes…\n\n\n\n\n\n01.03.2025 16:25\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nNormalize choropleths\n\n\n\n\n\nMuch (but – judging from experience – not yet enough) metaphorical ink has been spilled on this cartographic topic: Which kind of metrics lend themselves to be mapped using…\n\n\n\n\n\n26.02.2025 18:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGeospatial tech radar by Element 84\n\n\n\n\n\nSo-called ‘Tech Radars’, popularized by ThoughtWorks in 2010, have become essential tools for organizations to assess and communicate emerging technology trends. From…\n\n\n\n\n\n24.02.2025 07:05\n\n\nGuest author Stephan Heuel\n\n\n\n\n\n\n\n\n\n\n\n\ngeodienste.ch: STAC API and OGC API Features\n\n\n\n\n\nWith its newest release, #KGK/#CGC offers an OGC #STAC API as well as #OGC API Features for data on geodienste.ch, in accordance with #eCH-0056. Assets seem limited to XTF…\n\n\n\n\n\n21.02.2025 22:42\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nPython uv\n\n\n\n\n\n#uv is a relatively new #Python project management tool that has been gaining attention for its ease-of-use and speed. It has quickly become a popular choice for easy…\n\n\n\n\n\n20.02.2025 19:52\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nCloud-native web app: A case study\n\n\n\n\n\nFrom Stephan Heuel comes a very interesting case study that explores the possibilies of web apps based on the ‘cloud-native geo’ paradigm, the Swiss Rooftop Explorer.\n\n\n\n\n\n20.02.2025 17:48\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nJust out: SGS Action Plan 2025\n\n\n\n\n\nThe SGS board has just published the Action Plan 2025 for the Swiss Geoinformation Strategy.\n\n\n\n\n\n17.02.2025 19:56\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe missing dimension: Why geospatial needs to prioritize time\n\n\n\n\n\nTime for change: Will Cadell argues geospatial tools must shift from static maps to dynamic 3D/4D platforms, prioritizing time-driven insights over location alone.\n\n\n\n\n\n16.02.2025 21:54\n\n\nGuest author David Oesch\n\n\n\n\n\n\n\n\n\n\n\n\nGeoParquet 2.0\n\n\n\n\n\nExciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg.\n\n\n\n\n\n13.02.2025 22:24\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe format that shall not be named\n\n\n\n\n\n\n\n\n\n\n\n13.02.2025 06:28\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe impact of flooding-induced road disruptions on emergency services accessibility\n\n\n\n\n\n\n\n\n\n\n\n11.02.2025 18:21\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nPrix Carto 2025\n\n\n\n\n\n\n\n\n\n\n\n10.02.2025 19:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTopodiscs: Custom 3D-printed Swiss landscapes\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nLook at USGS LiDAR data online\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 19:10\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nSmall sat high-res imagery\n\n\n\n\n\n\n\n\n\n\n\n08.02.2025 12:47\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nHello world\n\n\n\n\n\n\n\n\n\n\n\n04.02.2025 23:01\n\n\nRalph Straumann\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/2025/02-20-cloud-native-web-app-case-study/index.html",
-    "href": "posts/2025/02-20-cloud-native-web-app-case-study/index.html",
-    "title": "Cloud-native web app: A case study",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "From Stephan Heuel comes a very interesting case study that explores the possibilies of web apps based on the “cloud-native geo” paradigm: The “Swiss Rooftop Explorer” project demonstrates a cloud-native approach to accessing and visualizing geospatial data, specifically roof heights of buildings in Switzerland based on swisstopo’s swissBUILDINGS3D dataset.\n\n\n\nStephan Heuel’s Swiss Rooftop Explorer\n\n\nInstead of relying on traditional GIS server architecture and infrastructure , the project leverages GeoParquet, DuckDB, Tippecanoe, PMTiles, and DuckDB-WASM for efficient data processing, storage and delivery. The toolchain is entirely open and in his blog post, Stephan Heuel compares the cloud-native approach to that of a more traditional GIS tech stack:\n\n(…) I truly believe that there is something big behind all of this: The current (classic) web map architecture includes a publication database and a heavy and costly API layer. Just imagine you can get rid of both of them entirely while the user experience is the same!\n\nThe source for learning more about the “cloud-native geo” paradigm is of course the Cloud-Native Geospatial Forum.\nIn the Swiss geospatial industry, data is distributed in cloud-native formats e.g. under the swissEO product line (cf. also here for some more background). To my knowledge, in Switzerland the “cloud-native geo” paradigm has (only, I think (?)) been covered in a GeoStandards.ch-issued whitepaper by OPENGIS.ch, in the digital.ebp.ch blog and of course here, so far."
+    "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. No guarantees regarding anything – frequency, quality or that it even stays around. We’ll see how this will develop, and into what.\nIt’s not meant as a mid-2000s to early 2010s-style full-fledged blog with longform articles, commentary and opinion, but rather as a microblogging-style news curation service that is entirely indepedent of social platforms and entirely dependent on my interests and capacity to publish.\nTo who does ‘I’ refer, above? For now, this is run by Ralph and, potentially, the occasional guest author. The author responsible for each post is indicated in the byline above the post and also on the main page.\nReach out with questions, feedback, ideas or if you’d like to contribute."
   },
   {
-    "objectID": "posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html",
-    "href": "posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html",
-    "title": "geodienste.ch: STAC API and OGC API Features",
+    "objectID": "posts/2025/02-16-the-missing-dimension/index.html",
+    "href": "posts/2025/02-16-the-missing-dimension/index.html",
+    "title": "The missing dimension: Why geospatial needs to prioritize time",
     "section": "",
-    "text": "KGK-CGC published a new release (4.0.2) of their geoservices platform geodienste.ch. Notable excerpt from the release notes under the item “Implement selected parts of eCH-0056 v4.1.0”1:\nWhile QGIS and its STAC API Browser Plugin shows me an error for the STAC at https://geodienste.ch/stac, it does pass validation with STAC Lint and works in Rocket.\nOddly, assets seem to be limited to XTF2 files at the moment, although geodienste.ch offers other, more operative data formats outside of its STAC."
+    "text": "“Change is the EO1 product: The problem is that we so rarely sell it.”\nA bold statement from Will Cadell in his recent article Time for a Change. While Earth observation has always been about detecting change, Cadell argues that the industry still struggles to treat time as a structured and fundamental dimension.\nThe gap: Geospatial tools remain rooted in static, two-dimensional thinking. Time sliders and animated GIFs are useful, but they fall short of truly integrating time into analysis.\nHow to tackle this? – Future geospatial platforms must embrace 3D and 4D visualization, even if that means losing traditional geographical representation – because understanding change matters more than simply mapping it. Cadell again:\nThis shift in perspective is crucial. Whether for climate monitoring, disaster response, or financial markets, geospatial intelligence isn’t just about where things are – it’s about how and why they change.\nPerhaps it’s time to stop selling static maps and start delivering dynamic, time-driven insights – think dashboards2"
   },
   {
-    "objectID": "posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html#footnotes",
-    "href": "posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html#footnotes",
-    "title": "geodienste.ch: STAC API and OGC API Features",
+    "objectID": "posts/2025/02-16-the-missing-dimension/index.html#footnotes",
+    "href": "posts/2025/02-16-the-missing-dimension/index.html#footnotes",
+    "title": "The missing dimension: Why geospatial needs to prioritize time",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nAnwendungsprofil Geodienste / Profil d’application des géoservices↩︎\nInterlis transfer format↩︎"
+    "text": "Footnotes\n\n\nEarth observation↩︎\nBut be aware of the dashboard trap: Building useless dashboards↩︎"
   },
   {
-    "objectID": "posts/2025/03-01-toponyms/index.html",
-    "href": "posts/2025/03-01-toponyms/index.html",
-    "title": "Toponyms",
+    "objectID": "posts/2025/02-08-small-sat-high-res-imagery/index.html",
+    "href": "posts/2025/02-08-small-sat-high-res-imagery/index.html",
+    "title": "Small sat high-res imagery",
     "section": "",
-    "text": "Weekend diversion: Mapmakers (or their financers) got to name a lot of places. There’s a website and a Mastodon account that makes it its purpose to surface the sometimes odd and sometimes funny toponyms1 that have found their way into the official Swisstopo maps (many are in German or Swiss-German) and their etymology. Either outlet offers an RSS feed2."
+    "text": "The commodification of high-resolution optical satellite imagery continues. In the domain of small satellites, ONGLAISAT of the Tokyo-based company ArkEdge Space developed in collaboration with the Taiwan Space Agency TASA has achieved a spatial resolution of approximately 2.5 meters from a relatively low orbit of 410 kilometers.\nFrom the press release:\nWhile the sample image displayed here may also show some of the current limitations of TDI, it’s nevertheless an exciting development to potentially have this spatial resolution available from small space-borne platforms."
   },
   {
-    "objectID": "posts/2025/03-01-toponyms/index.html#footnotes",
-    "href": "posts/2025/03-01-toponyms/index.html#footnotes",
-    "title": "Toponyms",
+    "objectID": "posts/2025/02-08-small-sat-high-res-imagery/index.html#footnotes",
+    "href": "posts/2025/02-08-small-sat-high-res-imagery/index.html#footnotes",
+    "title": "Small sat high-res imagery",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nplace names↩︎\nYou can follow any Fediverse (e.g. Mastodon or Pixelfed) account through RSS, even if you are not part of the Fediverse. Simply add .rss the URL of their profile page. It’s the open web, after all.↩︎"
+    "text": "Footnotes\n\n\nTime delay integration, a forward-motion compensation technique↩︎"
+  },
+  {
+    "objectID": "posts/2025/02-08-look-at-usgs-lidar-data-online/index.html",
+    "href": "posts/2025/02-08-look-at-usgs-lidar-data-online/index.html",
+    "title": "Look at USGS LiDAR data online",
+    "section": "",
+    "text": "At https://usgs.entwine.io you can peruse more than 2,000 USGS 3D Elevation Program (3DEP) LiDAR datasets that have been made available through the AWS Public Dataset Program. The data amounts to 70,409,082,675,345 LiDAR points at the time of writing.\n\n\n\nA LiDAR view of Boston\n\n\nThe datasets cover most of the USA and can be looked at in the browser using Potree-based or Cesium-based viewers. The data has been processed into the Entwine Point Tile format which combines JSON for metadata and LAZ for data for performance."
+  },
+  {
+    "objectID": "posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html",
+    "href": "posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html",
+    "title": "The impact of flooding-induced road disruptions on emergency services accessibility",
+    "section": "",
+    "text": "Quite a mouthful, that title: “Road network disruptions during extreme flooding events and their impact on the access to emergency medical services: A spatiotemporal vulnerability analysis”. From a Swiss-Austrian team comes this interesting analysis of how disruptions in the road network of the canton of Berne that are induced by extreme flooding events affect the population’s access to emergency medical services (EMS). The paper is open-access.\nIt seems, event-specific EMS accessibility is an under-studied topic, but certainly relevant with extreme rain and flooding events on the increase due to climate change. The researchers studied accessibility and changes in accessibility in 1 km spatial and 1 hour temporal resolution through a simulated flooding event over six days, among other things.\nFrom the paper:\n\nIn the context of flood disasters, further investigation into complex and cascading impacts would be advantageous for more informed and effective management of dynamic flood risk. (…) existing infrastructure was designed before increasingly more extreme events due to climate change have been and expect to continue occurring. Preparing for rare but high consequence flood events is a core part of undertaking anticipatory actions by emergency managers, rather than acting only after the onset of a flood event. Such preparations involve custom measures that incorporate local context to reduce societal vulnerabilities."
+  },
+  {
+    "objectID": "posts/2025/02-24-geospatial-tech-radar-by-element84/index.html",
+    "href": "posts/2025/02-24-geospatial-tech-radar-by-element84/index.html",
+    "title": "Geospatial tech radar by Element 84",
+    "section": "",
+    "text": "Tech Radars originated as a way for technology-driven organizations to assess and communicate emerging trends. ThoughtWorks popularized the concept in 2010 with their Technology Radar, a periodic report categorizing technologies into “Adopt”, “Trial”, “Assess”, and “Hold” to guide decision-making.\nThe format has since been adopted by other companies, including Zalando and Spotify, often customized for internal use.\nI recently came across the Geospatial Tech Radar by Element 84. I recommend exploring this one, as it is well-executed from both a content and design/UI perspective.\n\n\n\nGeospatial tech radar by Element 84\n\n\nPS: There is a Swiss variation of a geospatial tech radar called GIS Trends by SOGI (only available in German). However, it has a different focus and level of depth."
   },
   {
     "objectID": "posts/2025/02-12-the-format-that-shall-not-be-named/index.html",
