@@ -1,0 +1,24 @@
+---
+title: "GeoParquet to come to Esri ArcGIS Pro"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-01 19:07"
+image: "../02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
+description: "#cloudnativegeo and #GeoParquet news: Chris Holmes shares that the status of a petition for GeoParquet support in #Esri #ArcGIS Pro has changed to “In product plan”."
+---
+
+More news from GeoParquet: Shortly after the Parquet format has adopted `GEOMETRY` and `GEOGRAPHY` 
+as native data types, 
+[Chris Holmes shares](https://www.linkedin.com/posts/opencholmes_geoparquet-in-arcgis-pro-changed-to-in-product-activity-7301003561969098752-PzyT/?rcm=ACoAAAKAF2sB6NpMGZJlvdPm_PIKcIoxwyx5WEQ) 
+that the status of a 
+[petition for GeoParquet support in Esri ArcGIS Pro](https://community.esri.com/t5/arcgis-pro-ideas/geoparquet-support-in-arcgis-pro/idc-p/1590371) has [been changed to "In product plan"](https://community.esri.com/t5/arcgis-pro-ideas/geoparquet-support-in-arcgis-pro/idc-p/1590371#M33988). 
+And apparently, [STAC support is also on Esri's roadmap](https://www.linkedin.com/feed/update/urn:li:activity:7301003561969098752?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7301003561969098752%2C7301295634005831680%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287301295634005831680%2Curn%3Ali%3Aactivity%3A7301003561969098752%29).
+
+This is good news for the #cloudnativegeo paradigm. [As noted previously](https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/) 
+regarding the native data types news:
+
+> What’s going to be even more interesting are the next steps in order to make the cloud-native paradigm work better for spatial data. 
+
+Crossing fingers that the GeoParquet support will arrive soon in the Esri software ecosystem and 
+will offer users the full capabilities of the format.
