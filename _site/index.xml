@@ -16,7 +16,25 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Wed, 26 Feb 2025 18:51:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 01 Mar 2025 19:07:00 GMT</lastBuildDate>
+<item>
+  <title>GeoParquet to come to Esri ArcGIS Pro</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/03-01-geoparquet-to-come-to-esri-arcgis-pro/</link>
+  <description><![CDATA[ #cloudnativegeo and #GeoParquet news: Chris Holmes shares that the status of a petition for GeoParquet support in #Esri #ArcGIS Pro has changed to “In product plan”. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/03-01-geoparquet-to-come-to-esri-arcgis-pro/</guid>
+  <pubDate>Sat, 01 Mar 2025 19:07:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Toponyms</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/03-01-toponyms/</link>
+  <description><![CDATA[ Weekend diversion: Mapmakers (or their financers) got to name a lot of places. There’s a website and a Mastodon account that makes it its purpose to surface the sometimes odd and sometimes funny toponyms … ]]></description>
+  <guid>https://spatialists.ch/posts/2025/03-01-toponyms/</guid>
+  <pubDate>Sat, 01 Mar 2025 16:25:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/03-01-toponyms/le-pont-qui-branle.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Normalize choropleths</title>
   <dc:creator>Ralph Straumann</dc:creator>

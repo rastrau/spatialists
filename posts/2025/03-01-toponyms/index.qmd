@@ -1,0 +1,29 @@
+---
+title: "Toponyms"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-01 16:25"
+image: "le-pont-qui-branle.png"
+description: "Weekend diversion: Mapmakers (or their financers) got to name a lot of places. There’s a website and a Mastodon account that makes it its purpose to surface the sometimes odd and sometimes funny toponyms ..."
+---
+
+Weekend diversion: Mapmakers (or their financers) got to name a lot of 
+places. There's a [website](https://draeckgaden.ch/) and a 
+[Mastodon account](https://tooting.ch/@flurnamen) that makes it 
+its purpose to surface the sometimes odd and sometimes funny toponyms^[place names] 
+that have found their way into the official Swisstopo maps (many are 
+in German or Swiss-German) and their etymology. 
+[Either](https://draeckgaden.ch/feed.xml) 
+[outlet](https://tooting.ch/@flurnamen.rss) offers an RSS feed^[You 
+can follow any Fediverse (e.g. [Mastodon](https://joinmastodon.org/) 
+or [Pixelfed](https://pixelfed.org/)) account through RSS, even if you 
+are not part of the Fediverse. Simply add `.rss` the URL of their 
+profile page. It's the open web, after all.].
+
+!["The bridge that shakes"](le-pont-qui-branle.png "The bridge that shakes")
+
+!["The headmaster's little fir tree"](schulmeisters-tandli.png "The headmaster's little fir tree")
+
+!["Turkey"](tuerkei.png "Turkey")
+
