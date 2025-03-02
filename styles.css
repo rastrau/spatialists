@@ -62,3 +62,13 @@ code {
 div.ml-form-embedBody.ml-form-embedBodyDefault.row-form > div > h4 {
   display: none !important;
 }
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h3.listing-title {
+  font-size: 1.55rem;
+}
