@@ -35,6 +35,7 @@ def create_blog_post():
     slug = normalize_special_chars(title)
     slug = re.sub(r"[^\w\s-]", "", slug).strip().lower()
     slug = re.sub(r"[\s]+", "-", slug)
+    slug = slug.replace("draft", "DRAFT")
     
     # Define the file path
     directory_path = os.path.join("posts", year, f"{month}-{day}-{slug}")
