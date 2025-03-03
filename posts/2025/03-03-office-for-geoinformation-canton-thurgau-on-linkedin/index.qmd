@@ -1,0 +1,31 @@
+---
+title: "Office for Geoinformation Canton Thurgau on LinkedIn"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-03 21:08"
+image: "geoinformation-strategy-tg.jpg"
+description: "Starting today, the Office for #Geoinformation of the Canton of #Thurgau has a #LinkedIn account. This made me wonder, how many other cantonal geoinformation offices have a similar presence."
+---
+
+It seems, starting today, the Office for Geoinformation of the Canton of 
+Thurgau (State of Thurgovia) has 
+[a LinkedIn presence](https://www.linkedin.com/company/amt-für-geoinformation-kanton-thurgau/):
+
+> Welcome to the official website of the Thurgau Office for Geoinformation! 
+🗺️ 📍 We look forward to informing you here about our exciting projects, 
+developments and success stories.
+
+This made me wonder, how many other cantonal geoinformation offices have a 
+similar presence. The list is *very* 
+short^[[additions welcome!](mailto:mail@spatialists.ch)] (there are 26 Swiss 
+states):
+
+- Geneva: [Système d'information du territoire à Genève (SITG)](https://www.linkedin.com/showcase/sitg-geneve/)
+- Thurgovia: [Amt für Geoinformation Kanton Thurgau](https://www.linkedin.com/company/amt-für-geoinformation-kanton-thurgau) 
+- Zug: [Amt für Grundbuch und Geoinformation Kanton Zug](https://www.linkedin.com/company/amt-für-grundbuch-und-geoinformation)
+
+I welcome all additions to the geospatial online ecosystem (and the broader 
+"digital" and "data" ecosystem), as any exchange among professionals in our 
+industry is valuable. Let's build 
+[smart networks](https://blogs.cornell.edu/info2040/2015/09/10/a-diverse-twitter-network-can-generate-better-ideas/).
