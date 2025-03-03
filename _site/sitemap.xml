@@ -2,90 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://spatialists.ch/contribute.html</loc>
-    <lastmod>2025-03-02T22:00:55.418Z</lastmod>
+    <lastmod>2025-03-03T20:27:28.422Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.434Z</lastmod>
+    <lastmod>2025-03-03T20:27:28.439Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-17-sgs-action-plan-2025/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.442Z</lastmod>
+    <lastmod>2025-03-03T20:27:28.446Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-10-prix-carto-2025/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.436Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03-01-geoparquet-to-come-to-esri-arcgis-pro/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.458Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03-01-toponyms/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.458Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.456Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/02-20-cloud-native-web-app-case-study/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.443Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/02-04-hello-world/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.418Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/follow.html</loc>
-    <lastmod>2025-03-02T22:00:55.418Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/subscribe.html</loc>
-    <lastmod>2025-03-02T22:00:55.462Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.418Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/about.html</loc>
-    <lastmod>2025-03-02T22:00:55.417Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/02-16-the-missing-dimension/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.441Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/02-08-small-sat-high-res-imagery/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.424Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/02-08-look-at-usgs-lidar-data-online/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.418Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.438Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/02-24-geospatial-tech-radar-by-element84/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.456Z</lastmod>
+    <lastmod>2025-03-03T20:27:28.440Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-12-the-format-that-shall-not-be-named/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.438Z</lastmod>
+    <lastmod>2025-03-03T20:27:28.442Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/02-24-geospatial-tech-radar-by-element84/index.html</loc>
+    <lastmod>2025-03-03T20:27:28.461Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html</loc>
+    <lastmod>2025-03-03T20:27:28.442Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/02-08-look-at-usgs-lidar-data-online/index.html</loc>
+    <lastmod>2025-03-03T20:27:28.422Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/02-08-small-sat-high-res-imagery/index.html</loc>
+    <lastmod>2025-03-03T20:27:28.429Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/02-16-the-missing-dimension/index.html</loc>
+    <lastmod>2025-03-03T20:27:28.445Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/about.html</loc>
+    <lastmod>2025-03-03T20:27:28.421Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/index.html</loc>
+    <lastmod>2025-03-03T20:27:28.422Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/subscribe.html</loc>
+    <lastmod>2025-03-03T20:27:28.470Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/follow.html</loc>
+    <lastmod>2025-03-03T20:27:28.422Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/02-04-hello-world/index.html</loc>
+    <lastmod>2025-03-03T20:27:28.422Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/02-20-cloud-native-web-app-case-study/index.html</loc>
+    <lastmod>2025-03-03T20:27:28.447Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html</loc>
+    <lastmod>2025-03-03T20:27:28.460Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03-01-toponyms/index.html</loc>
+    <lastmod>2025-03-03T20:27:28.462Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03-01-geoparquet-to-come-to-esri-arcgis-pro/index.html</loc>
+    <lastmod>2025-03-03T20:27:28.462Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03-03-office-for-geoinformation-canton-thurgau-on-linkedin/index.html</loc>
+    <lastmod>2025-03-03T20:27:28.469Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.440Z</lastmod>
+    <lastmod>2025-03-03T20:27:28.444Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-26-normalize-your-choropleths/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.457Z</lastmod>
+    <lastmod>2025-03-03T20:27:28.462Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02-20-python-uv/index.html</loc>
-    <lastmod>2025-03-02T22:00:55.452Z</lastmod>
+    <lastmod>2025-03-03T20:27:28.456Z</lastmod>
   </url>
 </urlset>
