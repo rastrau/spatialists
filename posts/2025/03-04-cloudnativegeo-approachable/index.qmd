@@ -1,0 +1,19 @@
+---
+title: "#cloudnativegeo: Approachable"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-04 19:57"
+image: "cloudnativegeo-zine-cog.jpg"
+description: "There is considerable technical writing around #cloudnativegeo data formats. For a more accessible introduction, check out the 'Optimizing Geospatial for the Cloud' zine by #DevelopmentSeed which uses storytelling to break down technical barriers."
+---
+
+There is plenty of (quite) technical content around cloud-optimized geospatial data formats (#cloudnativegeo, for short). For example, the comprehensive [format guide by the Cloud-Native Geo Forum](https://guide.cloudnativegeo.org) (CNG) or, in the Swiss context, the shorter [guide](https://www.opengis.ch/2024/04/09/cloud-optimized-geospatial-formats/) on behalf of [GeoStandards.ch](https://geostandards.ch)). 
+
+If you would enjoy a perhaps more accessible approach than studying such technical publications, you may want to look into the cloudnativegeo zine^["zine" is short for "magazine" or "fanzine"] recently issued by [Development Seed](https://developmentseed.org) &mdash; "[Optimizing Geospatial for the Cloud](https://zines.developmentseed.org/zines/cloud-native/#zine)":
+
+[![An excerpt from "Optimizing Geospatial for the Cloud"](cloudnativegeo-zine-geoparquet.jpg "An excerpt from 'Optimizing Geospatial for the Cloud'")](https://zines.developmentseed.org/zines/cloud-native/#zine)
+
+You can peruse the short (24 pages) zine [online](https://zines.developmentseed.org/zines/cloud-native/#zine/) (personally, I could do without the acoustic skeumorphism^[skeuomorphism in digital user experience design is the approach of making a digital thing look and/or behave like their real-world counterpart], but that's just a minuscule quibble).
+
+Interestingly, Development Seed have also published a [behind-the-scenes blogpost](https://developmentseed.org/blog/2025-02-17-cloud-data-zine/) that explains some of the thinking behind making a zine.
