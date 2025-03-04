@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Mon, 03 Mar 2025 21:08:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 04 Mar 2025 19:57:00 GMT</lastBuildDate>
+<item>
+  <title>#cloudnativegeo: Approachable</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/03-04-cloudnativegeo-approachable/</link>
+  <description><![CDATA[ There is considerable technical writing around #cloudnativegeo data formats. For a more accessible introduction, check out the ‘Optimizing Geospatial for the Cloud’ zine by #DevelopmentSeed which uses storytelling to break down technical barriers. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/03-04-cloudnativegeo-approachable/</guid>
+  <pubDate>Tue, 04 Mar 2025 19:57:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/03-04-cloudnativegeo-approachable/cloudnativegeo-zine-cog.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Office for Geoinformation Canton Thurgau on LinkedIn</title>
   <dc:creator>Ralph Straumann</dc:creator>
