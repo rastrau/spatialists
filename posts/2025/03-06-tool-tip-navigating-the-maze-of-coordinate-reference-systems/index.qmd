@@ -1,0 +1,23 @@
+---
+title: "Tool tip: Navigating the maze of coordinate reference systems"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-06 07:44"
+image: "susan-q-yin-Ctaj_HCqW84-unsplash.jpg"
+description: "Many people struggle with coordinate reference systems (#CRSs). Who can blame them? But there is a tool that can help you out if you find yourself experiencing the same predicament."
+---
+
+In my experience, early career geospatial professionals often, geo-adjacent professionals virtually always, struggle with coordinate reference systems (CRSs). Who can blame them: CRSs can be confusing from a theoretical perspective, and handling them in your day-to-day GIS workflows even more so.
+
+In comes [ihatecoordinatesystems.com](https://ihatecoordinatesystems.com) by Dan Mahr: While the naming is *very on the nose*, this website provides an invaluable service. Structured around 12 common frustrations and questions, it serves as a refreshingly practical problem-solving guide for CRS issues.
+
+Items include, for example (the actual section headings add the emphatic *"I hate coordinate systems!"* 😃):
+
+- [My dataset is off the coast of Africa!](https://ihatecoordinatesystems.com/#null-island) — hint: Null Island
+- [My dataset is not located where it should be!](https://ihatecoordinatesystems.com/#wrong-crs)
+- [My dataset is slightly offset from where it should be!](https://ihatecoordinatesystems.com/#wrong-gcs)
+
+For Switzerland, maybe we should add *"My dataset seems to be located in eastern Europe / in the Atlantic off the coast of France"* and *"My dataset has Switzerland in portrait rather than landscape mode"*...
+
+The site offers another exceptional feature: if your dataset has an incorrect CRS specified, [you can enter](https://ihatecoordinatesystems.com/#correct-crs) an approximate latitude and longitude along with the corresponding X and Y coordinates from your dataset, and ihatecoordinatesystems.com will attempt to identify the correct CRS! Needless to say, this functionality can save your day.
