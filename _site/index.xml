@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Tue, 04 Mar 2025 19:57:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 06 Mar 2025 07:44:00 GMT</lastBuildDate>
+<item>
+  <title>Tool tip: Navigating the maze of coordinate reference systems</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/03-06-tool-tip-navigating-the-maze-of-coordinate-reference-systems/</link>
+  <description><![CDATA[ Many people struggle with coordinate reference systems (#CRSs). Who can blame them? But there is a tool that can help you out if you find yourself experiencing the same predicament. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/03-06-tool-tip-navigating-the-maze-of-coordinate-reference-systems/</guid>
+  <pubDate>Thu, 06 Mar 2025 07:44:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/03-06-tool-tip-navigating-the-maze-of-coordinate-reference-systems/susan-q-yin-Ctaj_HCqW84-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>#cloudnativegeo: Approachable</title>
   <dc:creator>Ralph Straumann</dc:creator>
