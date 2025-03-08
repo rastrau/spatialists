@@ -22,7 +22,7 @@ SRTM travelled on board of Space Shuttle Endeavour on the STS^[Space Transportat
 System]-99 mission in February 2000. Technically, it was a single-pass interferometric 
 C-band SAR^[Synthetic Aperture Radar] system with the second antenna placed on a roughly 
 60 meter long mast that had to be deployed from the Shuttle's transport bay. During 
-data capture in on orbit 233 km above the Earth, the crew had to change data recording 
+data capture in an orbit 233 km above the Earth, the crew had to change data recording 
 tapes every 30 minutes. More than 200 hours of data collection was done through 11 
 days of flight resulting in more than 12 terabytes of data on the shape of the Earth 
 surface. 
