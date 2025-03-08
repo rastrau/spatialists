@@ -1,0 +1,44 @@
+---
+title: "25 years Shuttle Radar Topography Mission"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-08 17:52"
+image: "satellite-image-of-dape-peninsula-NASA-public-domain.jpg"
+description: "It's the 25<sup>th</sup> anniversary of the Shuttle Radar Topography Mission (SRTM)! This mission 
+revolutionized Earth observation by creating the first near-global high-resolution digital elevation model. A 
+lock back on this fantastic achievement."
+---
+
+February marked the 25 year anniversary of the 
+[Shuttle Radar Topography Mission](https://en.wikipedia.org/wiki/Shuttle_Radar_Topography_Mission) 
+(SRTM) which gave us the then revolutionary global^[well, due to the inclined orbit 
+of course not *truly* global] high resolution^[dozens of meters] elevation dataset 
+of the same name. What an achievement!
+
+![A NASA render of the Cape Peninsula and Cape of Good Hope in South Africa that combines Landsat imagery and SRTM elevation data](satellite-image-of-dape-peninsula-NASA-public-domain.jpg "A NASA render of the Cape Peninsula and Cape of Good Hope in South Africa that combines Landsat imagery and SRTM elevation data")
+ 
+SRTM travelled on board of Space Shuttle Endeavour on the STS^[Space Transportation 
+System]-99 mission in February 2000. Technically, it was a single-pass interferometric 
+C-band SAR^[Synthetic Aperture Radar] system with the second antenna placed on a roughly 
+60 meter long mast that had to be deployed from the Shuttle's transport bay. During 
+data capture in on orbit 233 km above the Earth, the crew had to change data recording 
+tapes every 30 minutes. More than 200 hours of data collection was done through 11 
+days of flight resulting in more than 12 terabytes of data on the shape of the Earth 
+surface. 
+
+Initially, SRTM digital elevation models were offered at 1-arcsecond resolution over 
+the USA and at 3-arcsecond resolution in the rest of the world. I still remember 
+from working with SRTM data that these resolutions equate to approximately 30 meters 
+and 90 meters, respectively, at the equator^[the resolution is higher towards the 
+poles]. Today improved, e.g. void-filled, SRTM data is available globally at 
+1-arcsecond resolution.
+
+To celebrate the occasion, there is an 
+[interesting look back on SRTM by NASA](https://www.nasa.gov/history/25-years-ago-sts-99-the-shuttle-radar-topography-mission/) 
+as well as [one by the DLR](https://www.dlr.de/en/latest/news/2025/how-a-space-shuttle-mission-revolutionised-earth-observation) 
+from which the video below is sourced (in German, but English subtitles are available). 
+
+Enjoy!
+
+{{< video https://www.youtube.com/watch?v=SlB0XGEO4R8 >}}
