@@ -7,7 +7,7 @@ date: "2025-03-08 17:52"
 image: "satellite-image-of-dape-peninsula-NASA-public-domain.jpg"
 description: "It's the 25<sup>th</sup> anniversary of the Shuttle Radar Topography Mission (SRTM)! This mission 
 revolutionized Earth observation by creating the first near-global high-resolution digital elevation model. A 
-lock back on this fantastic achievement."
+look back on this fantastic achievement."
 ---
 
 February marked the 25 year anniversary of the 
