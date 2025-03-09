@@ -11,7 +11,7 @@ listing:
   sort-ui: false
   filter-ui: false
   image-placeholder: assets/titlecard.jpg
-  max-description-length: 175
+  max-description-length: 250
   date-format: "DD.MM.YYYY HH:mm"
 page-layout: full
 title-block-banner: false
