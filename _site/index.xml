@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Thu, 06 Mar 2025 07:44:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 08 Mar 2025 17:52:00 GMT</lastBuildDate>
+<item>
+  <title>25 years Shuttle Radar Topography Mission</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/03-08-25-years-shuttle-radar-topography-mission/</link>
+  <description><![CDATA[ It’s the 25th anniversary of the Shuttle Radar Topography Mission (SRTM)! This mission revolutionized Earth observation by creating the first near-global high-resolution digital elevation model. A lock back on this fantastic achievement. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/03-08-25-years-shuttle-radar-topography-mission/</guid>
+  <pubDate>Sat, 08 Mar 2025 17:52:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/03-08-25-years-shuttle-radar-topography-mission/satellite-image-of-dape-peninsula-NASA-public-domain.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Tool tip: Navigating the maze of coordinate reference systems</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/02-08-small-sat-high-res-imagery/</guid>
   <pubDate>Sat, 08 Feb 2025 12:47:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-08-small-sat-high-res-imagery/sample-imagery.png" medium="image" type="image/png" height="95" width="144"/>
-</item>
-<item>
-  <title>Hello world</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/02-04-hello-world/</link>
-  <description><![CDATA[ This is the first post. Hello world! ]]></description>
-  <guid>https://spatialists.ch/posts/2025/02-04-hello-world/</guid>
-  <pubDate>Tue, 04 Feb 2025 23:01:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/assets/titlecard.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
