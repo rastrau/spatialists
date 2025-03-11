@@ -1,0 +1,69 @@
+---
+title: "Central nodes* in geospatial"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-11 15:07"
+image: "thomas-couillard-ug0gPPYvG1M-unsplash.jpg"
+description: "Few weeks ago, [Brian Monheiser](https://www.linkedin.com/in/brian-monheiser/) has issued call on LinkedIn: Who are the top 10 living geospatial thought leaders whose insights you prioritize, whose talks you never miss, and whose writings you always read?"
+---
+
+Few weeks ago, [Brian Monheiser](https://www.linkedin.com/in/brian-monheiser/) has issued 
+call on LinkedIn: 
+
+> Who are the top 10 living geospatial thought leaders whose insights you prioritize, 
+whose talks you never miss, and whose writings you always read?
+
+And the [results are in](https://thespatialjefe.substack.com/p/geospatials-brightest-minds-142-thought). 
+
+But first: Personally, I strongly dislike the term "thought leaders." For one, I don't like my 
+thoughts to be led all that much. Second, it rings a bit hollow to me and evokes the *bad* 
+aspects of LinkedIn as well as hard- or soft-paywalled Medium and 
+[Substack](https://en.wikipedia.org/wiki/Substack#Criticism) posts^[I view the last two 
+as an anti-pattern for knowledge sharing and community building, unfortunately]. That said, I 
+like how the rest of the question is phrased: *... whose insights you prioritize, whose talks 
+you never miss, and whose writings you always read?*
+
+Of course, the afore-mentioned call suffers from network / bubble effects *(who has seen / 
+shared / heeded the LinkedIn call?)*. As such, many names are from the English-speaking 
+world^[Brian's [post](https://thespatialjefe.substack.com/p/geospatials-brightest-minds-142-thought) has maps] 
+and also traditionally male. 
+
+With that out of the way: I find the list nevertheless interesting. It definitely features 
+some very inspiring people and I am considering to connect with, or at least 
+follow, some of them (I follow^[or followed, on Twitter] some of them already).
+
+Below, I 
+researched (hopefully correctly^[[corrections welcome](mailto:mail@spatialists.ch)], it wasn't 
+always trivial with some of the more common names) the LinkedIn profiles and current job titles 
+and affiliations of 
+[those geospatial experts that were submitted at least twice](https://thespatialjefe.substack.com/p/geospatials-brightest-minds-142-thought):
+
+| Name         | Role                                      |
+|--------------|-------------------------------------------|
+| [Paul Ramsey](https://www.linkedin.com/in/paul-ramsey-717134/)          | Executive Geospatial Engineer at Crunchy Data |
+| [Chris Tucker](https://www.linkedin.com/in/christopher-t-5595689/)      | Chairman of the American Geographical Society |
+| [Nicholas Brown](https://www.linkedin.com/in/nicholas-brown-089222106/) | Head of Office at the United Nations Global Geodetic Centre of Excellence | 
+| [Tee Barr](https://www.linkedin.com/in/teebarr/)                        | Director of Product – Geospatial at Verisk  |
+| [Steven Pousty](https://www.linkedin.com/in/thesteve0/)                 | Principal Developer Advocate at Voxel51 |
+| [Will Cadell](https://www.linkedin.com/in/willcadell/)                  | Founder and CEO of Sparkgeo |
+| [Chris Holmes](https://www.linkedin.com/in/opencholmes/)                | Fellow and VP Product/Strategy/Partnerships at Planet |
+| [Keith Masback](https://www.linkedin.com/in/keithmasback/)              | Principal Consultant at PLUM RUN |
+| Dee Jordan                                                              | ? | 
+| [Lee Schwartz](https://www.linkedin.com/in/lee-schwartz-8391b257/)      | Geographer at United States Department of State |
+| [Patrick Cozzi](https://www.linkedin.com/in/patrickcozzi/)              | Chief Platform Officer at Bentley Systems, Founder and CEO of Cesium |
+| [Peter Rabley](https://www.linkedin.com/in/peterrabley/)                | CEO of The Open Geospatial Consortium (OGC) |
+| [Anthony Calamito](https://www.linkedin.com/in/anthony-calamito/)       | Co-Founder and Vice President of GEO261 |
+| [Linda Foster](https://www.linkedin.com/in/lmfoster/)                   | Global Manager Land Records/Cadastre at Esri |
+| [Cath[e]rine Nakalembe](https://www.linkedin.com/in/catherinenakalembe/)| Assistant Professor at the Department of Geographical Sciences at the University of Maryland |
+| [Dawn Wright](https://www.linkedin.com/in/deepseadawn/)                 | Chief Scientist at Esri |
+| [Narelle Underwood](https://www.linkedin.com/in/narelleunderwood/)      | Surveyor-General and Executive Director Spatial Services at the New South Wales Department of Customer Service |
+| [Kevin Pomfret](https://www.linkedin.com/in/kevinpomfret/)              | Attorney at Williams Mullen, Member of the UNGGIM Policy and Legal Working Group |
+| [Josh[ua] Campbell](https://www.linkedin.com/in/joshuascampbell/)       | Founder and CEO of Sand Hill Geographic |
+| [Nadine Alameh](https://www.linkedin.com/in/nadinealameh/)              | Executive Director of the Taylor Geospatial Institute |
+| [Ben[jamin] Tuttle](https://www.linkedin.com/in/benjamintuttle/)        | CTO of EOI Space | 
+| [Greg Scott](https://www.linkedin.com/in/greg-scott-4605541a/)          | Executive Director, SDG Data Alliance of the PVBLIC Foundation | 
+
+Spontaneously, I would add [Brian Timoney](https://www.linkedin.com/in/brian-timoney-a760534), among others.
+
+\* for lack of a better word
