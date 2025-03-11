@@ -15,7 +15,7 @@ div.quarto-title-banner {
 /* Optional: Remove navbar shadow or add border */
 .navbar {
   box-shadow: none !important;
-  border-bottom: 0px solid #373534 !important;
+  border-bottom: 0px !important;
 }
 
 div.listing-date,
@@ -72,3 +72,25 @@ h3 {
 h3.listing-title {
   font-size: 1.55rem !important;
 }
+
+.table {
+  background-color: rgb(15, 37, 55) !important; /* Dark gray background */
+}
+
+.table th,
+.table td {
+  border-color: #3c4d5b;
+}
+
+.table th {
+  background-color: #030F1A; /* Dark gray background */
+}
+
+.table tr:nth-child(odd) {
+  background-color: #03121F !important; /* Slightly lighter background for odd rows */
+}
+
+.table tr:nth-child(even) {
+  background-color: #03121F !important; /* Dark gray background for even rows */
+}
+
