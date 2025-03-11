@@ -8,7 +8,7 @@ image: "thomas-couillard-ug0gPPYvG1M-unsplash.jpg"
 description: "Few weeks ago, [Brian Monheiser](https://www.linkedin.com/in/brian-monheiser/) has issued call on LinkedIn: Who are the top 10 living geospatial thought leaders whose insights you prioritize, whose talks you never miss, and whose writings you always read?"
 ---
 
-Few weeks ago, [Brian Monheiser](https://www.linkedin.com/in/brian-monheiser/) has issued 
+Few weeks ago, [Brian Monheiser](https://www.linkedin.com/in/brian-monheiser/) has issued a 
 call on LinkedIn: 
 
 > Who are the top 10 living geospatial thought leaders whose insights you prioritize, 
