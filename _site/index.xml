@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Tue, 11 Mar 2025 15:07:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 13 Mar 2025 06:40:00 GMT</lastBuildDate>
+<item>
+  <title>Going forward, maps for AI</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/03-13-going-forward-maps-for-ai/</link>
+  <description><![CDATA[ Here’s a big geospatial #AI wager: #Niantic, maker of AR game Pokémon Go among others, has announced that Scopely will acquire its game business and that Niantic will be spinning out a new geospatial #AI company, Niantic Spatial Inc. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/03-13-going-forward-maps-for-ai/</guid>
+  <pubDate>Thu, 13 Mar 2025 06:40:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/03-13-going-forward-maps-for-ai/mika-baumeister-NnYbRvZUi9A-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Central nodes* in geospatial</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/</guid>
   <pubDate>Sat, 08 Feb 2025 19:51:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/topodisc-bundesgasse.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Look at USGS LiDAR data online</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/02-08-look-at-usgs-lidar-data-online/</link>
-  <description><![CDATA[ At <a href="https://usgs.entwine.io" class="uri">https://usgs.entwine.io</a> you can peruse more than 2,000 <a href="https://www.usgs.gov/">USGS</a> <a href="https://www.usgs.gov/core-science-systems/ngp/3dep">3D Elevation Program</a> (3DEP) LiDAR datasets that have been made available through the <a href="https://registry.opendata.aws/usgs-lidar/">AWS Public Dataset Program</a>. The data amounts to 70,409,082,675,345 LiDAR points at the time of writing. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/02-08-look-at-usgs-lidar-data-online/</guid>
-  <pubDate>Sat, 08 Feb 2025 19:10:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/02-08-look-at-usgs-lidar-data-online/usgs-entwine-boston.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
