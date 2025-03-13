@@ -98,6 +98,9 @@ ul.task-list li input[type="checkbox"] {
 <script>
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.spatialists.ch"]);
+  _paq.push(["setDomains", ["*.spatialists.ch/matomo"]]);
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
@@ -108,11 +111,7 @@ ul.task-list li input[type="checkbox"] {
     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<!-- End Matomo Code -->
-
-
-<link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Toponyms – spatialists.ch – geospatial news">
+<noscript></noscript><meta property="og:title" content="Toponyms – spatialists.ch – geospatial news">
 <meta property="og:description" content="Weekend diversion: Mapmakers (or their financers) got to name a lot of places. There’s a website and a Mastodon account that makes it its purpose to surface the sometimes odd and sometimes funny toponyms …">
 <meta property="og:image" content="https://spatialists.ch/posts/2025/03-01-toponyms/le-pont-qui-branle.png">
 <meta property="og:site_name" content="spatialists.ch – geospatial news">
@@ -124,9 +123,14 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:image-height" content="800">
 <meta name="twitter:image-width" content="1200">
 <meta name="twitter:card" content="summary_large_image">
-</head>
+</head><body class="nav-fixed fullcontent"><p><img referrerpolicy="no-referrer-when-downgrade" src="//spatialists.ch/matomo/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt=""></p>
+<!-- End Matomo Code -->
 
-<body class="nav-fixed fullcontent">
+
+<link rel="stylesheet" href="../../../styles.css">
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
