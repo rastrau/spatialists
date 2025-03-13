@@ -1,0 +1,15 @@
+---
+title: "Google and Esri collaboration in 3D"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-13 07:10"
+image: "3d-scene.jpg"
+description: "#Google and #Esri have agreed on a collaboration that will bring photorealistic #3D data from Google Maps into the #ArcGIS ecosystem, starting in fall."
+---
+
+Google and Esri have agreed on a collaboration that will bring photorealistic 3D data from Google Maps into the ArcGIS ecosystem, starting in fall. The Google Maps data covers 2,500 cities in around 50 countries. Technologically, this collaboration leverages the [OGC community standard "3D Tiles"](https://www.ogc.org/publications/standard/3dtiles/).
+
+![Google photorealistic 3D scenes in Esri Scene Viewer (source: Esri (fair use))](3d-scenes.gif "Google photorealistic 3D scenes in Esri Scene Viewer (source: Esri (fair use))")
+
+More info can be gained from [Business Wire](https://www.businesswire.com/news/home/20250310425834/en/Esri-Collaborates-with-Google-Maps-Platform-to-Offer-High-Quality-Photorealistic-3D-Tiles) and from [Esri](https://www.esri.com/arcgis-blog/products/arcgis/announcements/high-quality-photorealistic-3d-tiles-in-arcgis/).
