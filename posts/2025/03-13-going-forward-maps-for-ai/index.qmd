@@ -1,0 +1,15 @@
+---
+title: "Going forward, maps for AI"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-13 06:40"
+image: "mika-baumeister-NnYbRvZUi9A-unsplash.jpg"
+description: "Here's a big geospatial #AI wager: #Niantic, maker of AR game Pokémon Go among others, has announced that Scopely will acquire its game business and that Niantic will be spinning out a new geospatial #AI company, Niantic Spatial Inc."
+---
+
+Here's a big geospatial AI wager: Niantic^[A little history: Niantic was founded as a Google startup in 2010 and become independent in 2015.], maker of AR game Pokémon Go [has announced a major change of direction](https://www.linkedin.com/posts/john-hanke-6a896_today-marks-the-closing-of-one-chapter-and-activity-7305558206666158080-wRG5/). Scopely will acquire Niantic's game business including its intellectual property, such as [Pokémon Go](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go), for 3.5 billion dollars. At the same time, Niantic will be spinning out a new geospatial AI company, Niantic Spatial Inc.
+
+From Niantic's [CEO](https://www.linkedin.com/posts/john-hanke-6a896_today-marks-the-closing-of-one-chapter-and-activity-7305558206666158080-wRG5): 
+
+> [W]e’re in the midst of seismic changes in technology, with AI evolving rapidly. Existing maps were built for people to read and navigate but now there is a need for a new kind of map that makes the world intelligible for machines, for everything from smart glasses to humanoid robots, so they can understand and navigate the physical world. Today's LLMs represent the first step towards a future where a variety of expert models collaborate to reason and understand complex problems, and many of those problems will require deep and accurate knowledge of the physical world. Niantic is building the models that will help AI move beyond the screen and into the real world.
