@@ -7,6 +7,11 @@ a:hover {
   color: #ffffff; /* Change color on hover */
 }
 
+figcaption > a {
+  color: #ababab !important; /* Default link color */
+  text-decoration: underline; /* Underline the link */
+}
+
 body,
 div.quarto-title-banner {
   color: #f7f8f9;

@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Thu, 13 Mar 2025 07:10:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 15 Mar 2025 18:04:00 GMT</lastBuildDate>
+<item>
+  <title>EMBAG/LMETA does not make open geodata</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/03-15-embag-lmeta-does-not-make-open-geodata/</link>
+  <description><![CDATA[ The #EMBAG or #LMETA, a Swiss federal law enacted at the start of 2024 mandates #OpenData. But there seems to be a confusion about its effects on geoinformation. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/03-15-embag-lmeta-does-not-make-open-geodata/</guid>
+  <pubDate>Sat, 15 Mar 2025 18:04:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/03-15-embag-lmeta-does-not-make-open-geodata/ansgar-scheffold-0eEbHHyMFIY-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Google and Esri collaboration in 3D</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/</guid>
   <pubDate>Tue, 11 Feb 2025 18:21:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/flooding-travel-times.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Prix Carto 2025</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/02-10-prix-carto-2025/</link>
-  <description><![CDATA[ The <a href="https://kartografie.ch">Swiss Society of Cartography</a> (Schweizerische Gesellschaft für Kartografie, SGK) is set to host the prestigious bi-annual Prix Carto awards during its autumn meeting in 2025. This event celebrates innovative and outstanding cartographic products with a connection to Switzerland. The award highlights excellence in cartography, geomatics, and geovisualization, offering recognition across multiple categories. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/02-10-prix-carto-2025/</guid>
-  <pubDate>Mon, 10 Feb 2025 19:51:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/02-10-prix-carto-2025/prix-carto-2023-eduard.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
