@@ -1,0 +1,38 @@
+---
+title: "EMBAG/LMETA does not make open geodata"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-15 18:04"
+image: "ansgar-scheffold-0eEbHHyMFIY-unsplash.jpg"
+description: "The #EMBAG or #LMETA, a Swiss federal law enacted at the start of 2024 mandates #OpenData. But there seems to be a confusion about its effects on geoinformation."
+---
+
+![The Federal Palace of Switzerland (Photo by [Ansgar Scheffold](https://unsplash.com/@ansgarscheffold))](ansgar-scheffold-0eEbHHyMFIY-unsplash.jpg "The Federal Palace of Switzerland")
+
+The EMBAG[^EMBAG] or LMETA[^LMETA], a Swiss federal law enacted at the start of 2024[^history], aims to promote digital workflows for federal government processes ("digital first"). To that end, it for example lays out principles to promote e-government at the federal level and for collaborating with other e-government entities. Among other things, the EMBAG/LMETA further mandates that:
+
+- software developed by or for federal authorities must, in principle, be *open-source* ([article 9](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_9)) 
+- data acquired, generated or stored by federal authorities for fulfilling their tasks must, in principle, be *open data* ([article 10](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10)).
+
+I often encounter the opinion that because of this the EMBAG/LMETA *mandates geodata of the federal government to be open data*^[For lower levels of government in Switzerland, the EMBAG/LMETA is not binding anyway.]. However, this is *not* the case, as I learned about a year ago. But beware: IANAL, that is, *I Am Not A Lawyer*, as they say.
+
+The relevant part of the EMBAG/LMETA is Art. 10 Abs. 2 lit. b or Art. 10 Al. 2 let. b, respectively (below in machine-translation):
+
+> [Not made publicly accessible are:] Data that are not published or only published under more restrictive conditions based on cantonal or other federal regulations, particularly due to provisions concerning copyrights, confidentiality obligations whose violation is subject to criminal prosecution, information security, and official registers;
+
+A key term here is *"particularly due to"*, meaning that what follows is not an exhaustive list. In order to learn more, it's instructive to check the message of the Federal Council that accompanied the draft for the EMBAG/LMETA: [in German](https://www.fedlex.admin.ch/eli/fga/2022/804/de) / [in French](https://www.fedlex.admin.ch/eli/fga/2022/804/fr). 
+
+:::{.callout-note title="What is a message of the Federal Council?" collapse="true"}
+[Federal Council messages](https://de.wikipedia.org/wiki/Botschaft_des_Bundesrates) ("Botschaft" in German, "Message" in French) accompany draft decrees. They are regulated in [Art. 141 of the Swiss Parliament Law](https://www.fedlex.admin.ch/eli/cc/2003/510/de#art_141). Their purpose is to inform the parliament about the intent and the goals behind a draft decree, the problems it aims to solve, implications for basic rights, financial and personnel impacts etc. Federal Council messages are important because they are regularly used by the Swiss judiciary as interpretative aids to clarify (if needed) the meaning of the corresponding decrees.
+:::
+
+Where the message of the Federal Council discusses Art. 10, we find the following (machine-translation):
+
+> The list of legal bases in letter b is not formulated exhaustively and can, in principle, include additional legal foundations. However, the legislator is required to be guided by the "open data by default" principle established in paragraph 1 and to allow additional exceptions only restrictively and after carefully weighing the interests involved. For example, in the field of geoinformation, there are already special legal regulations for access to and use of official geodata that take precedence over EMBAG/LMETA Article 10, but which also anchor the Open Government Data (OGD) principle.
+
+To conclude, from my layperson's perspective: The EMBAG/LMETA does *not* advance OGD for geodata, as previous regulations specific to the geospatial field take precedence. 
+
+[^EMBAG]: Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG) 
+[^LMETA]: Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA)
+[^history]: If you are interested in the full history of the legislative process around EMBAG/LMETA, you can see that [here in German](https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20220022) or [here in French](https://www.parlament.ch/fr/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20220022). If you are interested in even more detail about some of the changes the law experienced over its drafting phase, the documents of the consultation procedure are also available ([German](https://www.fedlex.admin.ch/de/consultation-procedures/ended/2020#https://fedlex.data.admin.ch/eli/dl/proj/6020/72/cons_1)/[French](https://www.fedlex.admin.ch/fr/consultation-procedures/ended/2020#https://fedlex.data.admin.ch/eli/dl/proj/6020/72/cons_1)).
