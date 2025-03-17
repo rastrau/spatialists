@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Sat, 15 Mar 2025 18:04:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 17 Mar 2025 22:18:00 GMT</lastBuildDate>
+<item>
+  <title>Open data at a glance</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/03-17-open-data-at-a-glance/</link>
+  <description><![CDATA[ #ASIT has published an #opendata guide for #geodata. The guide covers the essentials and strikes a very nice balance with respect to covering the topic in enough depth to be valuable, while not being trivial and also not covering every tiny detail. Recommended reading for anybody interested in open data! ]]></description>
+  <guid>https://spatialists.ch/posts/2025/03-17-open-data-at-a-glance/</guid>
+  <pubDate>Mon, 17 Mar 2025 22:18:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/03-17-open-data-at-a-glance/asit-open-data-guide.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>EMBAG/LMETA does not make open geodata</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/02-12-the-format-that-shall-not-be-named/</guid>
   <pubDate>Thu, 13 Feb 2025 06:28:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-12-the-format-that-shall-not-be-named/nana-smirnova-IEiAmhXehwE-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>The impact of flooding-induced road disruptions on emergency services accessibility</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/</link>
-  <description><![CDATA[ Quite a mouthful, that title: <em>“Road network disruptions during extreme flooding events and their impact on the access to emergency medical services: A spatiotemporal vulnerability analysis”</em>. From a Swiss-Austrian team comes this interesting analysis of how disruptions in the road network of the canton of Berne that are induced by extreme flooding events affect the population’s access to emergency medical services (EMS). The <a href="https://doi.org/10.1016/j.scitotenv.2024.177140">paper is open-access</a>. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/</guid>
-  <pubDate>Tue, 11 Feb 2025 18:21:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/flooding-travel-times.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
