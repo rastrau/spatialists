@@ -1,0 +1,32 @@
+---
+title: "Open data at a glance"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-17 22:18"
+image: "asit-open-data-guide.jpg"
+description: "#ASIT has published an #opendata guide for #geodata. The guide covers the essentials and strikes a very nice balance with respect to covering the topic in enough depth to be valuable, while not being trivial and also not covering every tiny detail. Recommended reading for anybody interested in open data!"
+---
+
+[ASIT](https://asit-asso.ch) has published an open data guide for geodata. It's [freely available](https://asit-asso.ch/opendata) with their other open-data-themed resources.
+
+I like this practical guide, more than [earlier attempts](https://www.kgk-cgc.ch/application/files/5815/4281/9959/OGD-Leitfaden-V1.1de-mitAnhang.pdf) to approach the topic from a geodata perspective. This new guide is very nicely designed, easy to read, and motivating to data owners. I think it strikes a very nice balance with respect to covering the topic in enough depth to be valuable, while not being trivial and also not covering every tiny detail so that it becomes tiring or boring.
+
+![Closed, shared, and open data as visualized in the guide (source: ASIT (fair use)))](opening-data.jpg "Closed, shared, and open data visualized by ASIT")
+
+The guide:
+
+- explains the fundamental principles and motivations behind open data
+- addresses some of the frequent fears of data owners
+- outlines a simplified five-step process and also 
+- lets three experts (from Lausanne, Fribourg and of swisstopo) weigh in with their experience
+
+As added bonuses, it for example briefly covers private initivates for opening data, usage conditions (versus licenses), the list of base geodata as a starting point for an open data catalog, and open data formats^[Albeit, a minor drawback: without mentioning cloud-native formats. Maybe something for the 2<sup>nd</sup> edition.].
+
+One of the key takeaways (translated): 
+
+> Remember: Open data should be seen as an opportunity. It is a stimulating and rewarding process, which can benefit public services, citizens and businesses alike.
+
+What's not to like. [Recommended reading](https://asit-asso.ch/storage/app/media/brochures/ASIT_brochure_14_OpenData.pdf).
+
+
