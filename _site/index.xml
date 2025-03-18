@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Mon, 17 Mar 2025 22:18:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 18 Mar 2025 22:01:00 GMT</lastBuildDate>
+<item>
+  <title>Best practices for Cloud-Optimized GeoTIFFs</title>
+  <dc:creator>David Oesch</dc:creator>
+  <link>https://spatialists.ch/posts/2025/03-18-Best-practices-for-cloud-optimized-geotiffs/</link>
+  <description><![CDATA[ Cloud-Optimized #GeoTIFFs (#COG-s) have revolutionized the way large geospatial raster datasets are accessed and processed. From GeoStandards comes Best Practices Guide for this #cloudnativegeo format. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/03-18-Best-practices-for-cloud-optimized-geotiffs/</guid>
+  <pubDate>Tue, 18 Mar 2025 22:01:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Open data at a glance</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -127,7 +136,7 @@
 </item>
 <item>
   <title>Geospatial tech radar by Element 84</title>
-  <dc:creator>Guest author Stephan Heuel</dc:creator>
+  <dc:creator>Stephan Heuel</dc:creator>
   <link>https://spatialists.ch/posts/2025/02-24-geospatial-tech-radar-by-element84/</link>
   <description><![CDATA[ So-called ‘Tech Radars’, popularized by ThoughtWorks in 2010, have become essential tools for organizations to assess and communicate emerging technology trends. From Element 84 comes a particular interesting one for geospatial technologies. ]]></description>
   <guid>https://spatialists.ch/posts/2025/02-24-geospatial-tech-radar-by-element84/</guid>
@@ -172,7 +181,7 @@
 </item>
 <item>
   <title>The missing dimension: Why geospatial needs to prioritize time</title>
-  <dc:creator>Guest author David Oesch</dc:creator>
+  <dc:creator>David Oesch</dc:creator>
   <link>https://spatialists.ch/posts/2025/02-16-the-missing-dimension/</link>
   <description><![CDATA[ Time for change: Will Cadell argues geospatial tools must shift from static maps to dynamic 3D/4D platforms, prioritizing time-driven insights over location alone. ]]></description>
   <guid>https://spatialists.ch/posts/2025/02-16-the-missing-dimension/</guid>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/</guid>
   <pubDate>Thu, 13 Feb 2025 22:24:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>The format that shall not be named</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/02-12-the-format-that-shall-not-be-named/</link>
-  <description><![CDATA[ … for I am not interested in the Shapefile Wars and I do not want to wake up the geospatial format zealots. But: By now, a cultural history of the Shapefile, the world’s foremost geospatial data format<sup>1</sup> since the early 1990s (!), would be warranted, such is its impact. James Fee’s article “<a href="https://jamesfee.org/2025/02/12/shapefile-the-persistent-legacy-of.html">Shapefile: The Persistent Legacy of a GIS Workhorse</a>” makes the point: ]]></description>
-  <guid>https://spatialists.ch/posts/2025/02-12-the-format-that-shall-not-be-named/</guid>
-  <pubDate>Thu, 13 Feb 2025 06:28:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/02-12-the-format-that-shall-not-be-named/nana-smirnova-IEiAmhXehwE-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

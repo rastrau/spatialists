@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-02-16">
-<meta name="description" content="Time for change: Will Cadell argues geospatial tools must shift from static maps to dynamic 3D/4D platforms, prioritizing time-driven insights over location alone.">
+<meta name="author" content="David Oesch">
+<meta name="dcterms.date" content="2025-03-18">
+<meta name="description" content="Cloud-Optimized #GeoTIFFs (#COG-s) have revolutionized the way large geospatial raster datasets are accessed and processed. From GeoStandards comes Best Practices Guide for this #cloudnativegeo format.">
 
-<title>The missing dimension: Why geospatial needs to prioritize time – spatialists.ch – geospatial news</title>
+<title>Best practices for Cloud-Optimized GeoTIFFs – spatialists.ch – geospatial news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -114,13 +115,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="The missing dimension: Why geospatial needs to prioritize time – spatialists.ch – geospatial news">
-<meta property="og:description" content="Time for change: Will Cadell argues geospatial tools must shift from static maps to dynamic 3D/4D platforms, prioritizing time-driven insights over location alone.">
-<meta property="og:image" content="https://spatialists.ch/posts/2025/02-16-the-missing-dimension/kobu-agency-hTtK6tvTRY0-unsplash.jpg">
+<meta property="og:title" content="Best practices for Cloud-Optimized GeoTIFFs – spatialists.ch – geospatial news">
+<meta property="og:description" content="Cloud-Optimized #GeoTIFFs (#COG-s) have revolutionized the way large geospatial raster datasets are accessed and processed. From GeoStandards comes Best Practices Guide for this #cloudnativegeo format.">
+<meta property="og:image" content="https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg">
 <meta property="og:site_name" content="spatialists.ch – geospatial news">
-<meta name="twitter:title" content="The missing dimension: Why geospatial needs to prioritize time – spatialists.ch – geospatial news">
-<meta name="twitter:description" content="Time for change: Will Cadell argues geospatial tools must shift from static maps to dynamic 3D/4D platforms, prioritizing time-driven insights over location alone.">
-<meta name="twitter:image" content="https://spatialists.ch/posts/2025/02-16-the-missing-dimension/kobu-agency-hTtK6tvTRY0-unsplash.jpg">
+<meta name="twitter:title" content="Best practices for Cloud-Optimized GeoTIFFs – spatialists.ch – geospatial news">
+<meta name="twitter:description" content="Cloud-Optimized #GeoTIFFs (#COG-s) have revolutionized the way large geospatial raster datasets are accessed and processed. From GeoStandards comes Best Practices Guide for this #cloudnativegeo format.">
+<meta name="twitter:image" content="https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -168,10 +169,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">The missing dimension: Why geospatial needs to prioritize time</h1>
+      <h1 class="title">Best practices for Cloud-Optimized GeoTIFFs</h1>
                   <div>
         <div class="description">
-          Time for change: Will Cadell argues geospatial tools must shift from static maps to dynamic 3D/4D platforms, prioritizing time-driven insights over location alone.
+          Cloud-Optimized #GeoTIFFs (#COG-s) have revolutionized the way large geospatial raster datasets are accessed and processed. From GeoStandards comes Best Practices Guide for this #cloudnativegeo format.
         </div>
       </div>
                 </div>
@@ -180,11 +181,17 @@ ul.task-list li input[type="checkbox"] {
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://www.linkedin.com/in/davidoesch">David Oesch</a> </p>
+            </div>
+    </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 16, 2025</p>
+        <p class="date">March 18, 2025</p>
       </div>
     </div>
     
@@ -203,32 +210,43 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<blockquote class="blockquote">
-<p>“Change is the EO<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> product: The problem is that we so rarely sell it.”</p>
-</blockquote>
-<p>A bold statement from Will Cadell in his recent article <a href="https://www.strategicgeospatial.com/p/time-for-a-change">Time for a Change</a>. While Earth observation has always been about detecting change, Cadell argues that the industry still struggles to treat time as a structured and fundamental dimension.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="kobu-agency-hTtK6tvTRY0-unsplash.jpg" title="Change over time" class="img-fluid figure-img"></p>
-<figcaption>Change over time</figcaption>
-</figure>
+<p>Cloud-Optimized GeoTIFFs (COGs) have revolutionized the way large geospatial raster datasets are accessed and processed. By enabling efficient, selective retrieval of data without requiring full downloads<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, they are set to become a key element in modern geospatial infrastructures. To ensure seamless integration within the Swiss (or any) geospatial ecosystem, a structured approach to creating and using COGs is essential.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="What are COGs?">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<p>The gap: Geospatial tools remain rooted in static, two-dimensional thinking. Time sliders and animated GIFs are useful, but they fall short of truly integrating time into analysis.</p>
-<p>How to tackle this? – Future geospatial platforms must embrace 3D and 4D visualization, even if that means losing traditional geographical representation – because understanding change matters more than simply mapping it. Cadell again:</p>
-<blockquote class="blockquote">
-<p>“Measuring geography through time often means we lose the geographical representation, but that’s ok!”</p>
-</blockquote>
-<p>This shift in perspective is crucial. Whether for climate monitoring, disaster response, or financial markets, geospatial intelligence isn’t just about where things are – it’s about how and why they change.</p>
-<p>Perhaps it’s time to stop selling static maps and start delivering dynamic, time-driven insights – think dashboards<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<div class="callout-title-container flex-fill">
+What are COGs?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>COGs conform to the well-established GeoTIFF format but introduce internal optimizations that allow for cloud-based streaming and efficient tiling<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. These characteristics make COGs particularly suitable for large-scale datasets, reducing the need for redundant storage and computational overhead.</p>
+</div>
+</div>
+</div>
+<section id="best-practices" class="level1">
+<h1>Best practices</h1>
+<p>To support the Swiss geospatial community (aka EPSG:2056 users or, simply, #SwissGIS) in adopting COGs, GeoStandards.ch <a href="https://github.com/geostandards-ch/cog-best-practices">offers a COG Best Practices Guide</a> structured around common use cases. This guide provides decision trees, optimized command-line workflows, and recommendations to ensure COGs are created effectively and with good results in and for the Swiss geospatial context.</p>
+<p>The conversion of non-COG raster data to COGs involves critical decisions based on the intended use case. Whether for visualization, analysis, or numerical data storage, the compression method and format parameters must be carefully chosen<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. The structured decision tree in the GeoStandards.ch guide helps users determine the best approach, balancing file size, performance, and data integrity.</p>
+</section>
+<section id="contributing" class="level1">
+<h1>Contributing</h1>
+<p>The <a href="https://github.com/geostandards-ch/cog-best-practices">COG Best Practices Guide</a> is a community-driven initiative. Contributions are encouraged from all users, whether by refining workflows, adding use cases, or improving documentation. By working together, we can establish a robust, standardized approach to handling geospatial data in Swiss infrastructures.</p>
+<p>To participate, visit the <a href="https://github.com/geostandards-ch/cog-best-practices">GitHub repository</a> and contribute via pull requests or by submitting issues. Every input — whether a code snippet, an optimization tip, a question, or a new use case — helps strengthen the guide.</p>
 
 
+</section>
 
 
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>Earth observation<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>But be aware of the dashboard trap: <a href="https://www.reddit.com/r/BusinessIntelligence/comments/z335op/building_useless_dashboards/">Building useless dashboards</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>this is the core of “cloud-native”<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>see the <a href="https://gdal.org/drivers/raster/cog.html">GDAL COG Driver Documentation</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>see also the <a href="https://kokoalberti.com/articles/geotiff-compression-optimization-guide">Compression Optimization Guide</a> by Koko Alberti<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
