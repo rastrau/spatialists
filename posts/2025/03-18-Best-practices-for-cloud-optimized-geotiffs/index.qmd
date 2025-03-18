@@ -1,0 +1,27 @@
+---
+title: "Best practices for Cloud-Optimized GeoTIFFs"
+author:
+  - name: David Oesch
+    url: https://www.linkedin.com/in/davidoesch
+date: "2025-03-18 22:01"
+image: "../02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
+description: "Cloud-Optimized #GeoTIFFs (#COG-s) have revolutionized the way large geospatial raster datasets are accessed and processed. From GeoStandards comes Best Practices Guide for this #cloudnativegeo format."
+---
+
+Cloud-Optimized GeoTIFFs (COGs) have revolutionized the way large geospatial raster datasets are accessed and processed. By enabling efficient, selective retrieval of data without requiring full downloads^[this is the core of "cloud-native"], they are set to become a key element in modern geospatial infrastructures. To ensure seamless integration within the Swiss (or any) geospatial ecosystem, a structured approach to creating and using COGs is essential.
+
+:::{.callout-note title="What are COGs?" collapse="true"}
+COGs conform to the well-established GeoTIFF format but introduce internal optimizations that allow for cloud-based streaming and efficient tiling^[see the [GDAL COG Driver Documentation](https://gdal.org/drivers/raster/cog.html)]. These characteristics make COGs particularly suitable for large-scale datasets, reducing the need for redundant storage and computational overhead.
+:::
+
+# Best practices
+
+To support the Swiss geospatial community (aka EPSG:2056 users or, simply, #SwissGIS) in adopting COGs, GeoStandards.ch [offers a COG Best Practices Guide](https://github.com/geostandards-ch/cog-best-practices) structured around common use cases. This guide provides decision trees, optimized command-line workflows, and recommendations to ensure COGs are created effectively and with good results in and for the Swiss geospatial context.
+
+The conversion of non-COG raster data to COGs involves critical decisions based on the intended use case. Whether for visualization, analysis, or numerical data storage, the compression method and format parameters must be carefully chosen^[see also the [Compression Optimization Guide](https://kokoalberti.com/articles/geotiff-compression-optimization-guide) by Koko Alberti]. The structured decision tree in the GeoStandards.ch guide helps users determine the best approach, balancing file size, performance, and data integrity.
+
+# Contributing
+
+The [COG Best Practices Guide](https://github.com/geostandards-ch/cog-best-practices) is a community-driven initiative. Contributions are encouraged from all users, whether by refining workflows, adding use cases, or improving documentation. By working together, we can establish a robust, standardized approach to handling geospatial data in Swiss infrastructures.
+
+To participate, visit the [GitHub repository](https://github.com/geostandards-ch/cog-best-practices) and contribute via pull requests or by submitting issues. Every input — whether a code snippet, an optimization tip, a question, or a new use case — helps strengthen the guide.
