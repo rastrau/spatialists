@@ -1,7 +1,8 @@
 ---
 title: "The missing dimension: Why geospatial needs to prioritize time"
 author:
-  - name: "Guest author David Oesch"
+  - name: "David Oesch"
+  - url: https://www.linkedin.com/in/davidoesch
 date: "2025-02-16 21:54"
 image: "kobu-agency-hTtK6tvTRY0-unsplash.jpg"
 description: "Time for change: Will Cadell argues geospatial tools must shift 
