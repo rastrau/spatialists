@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Tue, 18 Mar 2025 22:01:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 21 Mar 2025 17:46:00 GMT</lastBuildDate>
+<item>
+  <title>Labeling master class</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/03-21-labeling-master-class/</link>
+  <description><![CDATA[ From cartographer Andy Skinner comes this very useful resource about #labels in #cartography for both interactive and static #maps. Scale, transparency-and-opacity, hue, tone, halos, … – this guide covers many different visual variables and how they can be used to make the information in a map easier to grasp. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/03-21-labeling-master-class/</guid>
+  <pubDate>Fri, 21 Mar 2025 17:46:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/03-21-labeling-master-class/map-labels.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Best practices for Cloud-Optimized GeoTIFFs</title>
   <dc:creator>David Oesch</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/02-16-the-missing-dimension/</guid>
   <pubDate>Sun, 16 Feb 2025 21:54:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-16-the-missing-dimension/kobu-agency-hTtK6tvTRY0-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>GeoParquet 2.0</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/</link>
-  <description><![CDATA[ Exciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/</guid>
-  <pubDate>Thu, 13 Feb 2025 22:24:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
