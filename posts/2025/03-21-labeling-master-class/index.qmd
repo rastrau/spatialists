@@ -1,0 +1,17 @@
+---
+title: "Labeling master class"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-21 17:46"
+image: "map-labels.jpg"
+description: "From cartographer Andy Skinner comes this very useful resource about #labels in #cartography for both interactive and static #maps. Scale, transparency-and-opacity, hue, tone, halos, ... – this guide covers many different visual variables and how they can be used to make the information in a map easier to grasp."
+---
+
+From [cartographer Andy Skinner](https://storymaps.arcgis.com/stories/bb764e62afe74da7a0e5841068b14473) comes [this very useful resource about cartographic labeling](https://storymaps.arcgis.com/stories/66414c82f2f34db0885c9b5553f4f024) for both interactive and static maps. While this guide comes in the form of an ArcGIS storymap, it is software-agnostic.
+
+![An area with a challenging label density, but clear visual hierarchy (source: Andy Skinner (fair use))](label-density.jpg "An area with a challenging label density, but clear visual hierarchy (source: Andy Skinner (fair use))")
+
+Scale, transparency-and-opacity, hue, tone, halos, ... – this guide covers many different visual variables and how they can be used, on their own or together, to make a map a lot more aesthetic *and* the information it contains easier to grasp.
+
+The labeling guide is part of a six-part^[for now (?)] series in which Andy Skinner looks at his work. The other parts are listed at the bottom of the page.
