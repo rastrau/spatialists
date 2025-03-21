@@ -12,7 +12,7 @@ description: "#ASIT has published an #opendata guide for #geodata. The guide cov
 
 I like this practical guide, more than [earlier attempts](https://www.kgk-cgc.ch/application/files/5815/4281/9959/OGD-Leitfaden-V1.1de-mitAnhang.pdf) to approach the topic from a geodata perspective. This new guide is very nicely designed, easy to read, and motivating to data owners. I think it strikes a very nice balance with respect to covering the topic in enough depth to be valuable, while not being trivial and also not covering every tiny detail so that it becomes tiring or boring.
 
-![Closed, shared, and open data as visualized in the guide (source: ASIT (fair use)))](opening-data.jpg "Closed, shared, and open data visualized by ASIT")
+![Closed, shared, and open data as visualized in the guide (source: ASIT (fair use))](opening-data.jpg "Closed, shared, and open data visualized by ASIT")
 
 The guide:
 
