@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Tue, 25 Mar 2025 17:36:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 25 Mar 2025 22:56:00 GMT</lastBuildDate>
+<item>
+  <title>Why cloud-native?</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/03-25-why-cloud-native/</link>
+  <description><![CDATA[ Kyle Barron, cloud engineer at Development Seed and developer of Lonboard, offers interesting insights into the cloudnativegeo paradigm in a recent interview with CNG. He discusses Parquet, GeoParquet, and GeoArrow, explaining their characteristics and potential to significantly improve geospatial data handling. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/03-25-why-cloud-native/</guid>
+  <pubDate>Tue, 25 Mar 2025 22:56:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>GeoAI: State-of-play in 2025</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/02-20-cloud-native-web-app-case-study/</guid>
   <pubDate>Thu, 20 Feb 2025 17:48:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-20-cloud-native-web-app-case-study/swiss-rooftop-explorer-screenshot.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Just out: SGS Action Plan 2025</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/02-17-sgs-action-plan-2025/</link>
-  <description><![CDATA[ The SGS board has just published the Action Plan 2025 for the Swiss Geoinformation Strategy. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/02-17-sgs-action-plan-2025/</guid>
-  <pubDate>Mon, 17 Feb 2025 19:56:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/02-17-sgs-action-plan-2025/sgs.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
