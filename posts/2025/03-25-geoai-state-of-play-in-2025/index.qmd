@@ -1,0 +1,19 @@
+---
+title: "GeoAI: State-of-play in 2025"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-25 17:36"
+image: "shahadat-rahman-voM1Z9cGPCU-unsplash.jpg"
+description: "The Innovation Booster #ArtificialIntelligence has released a concise review of #GeoAI in Switzerland. The report highlights significant players, innovations, and developments in the field, showcasing how #AI is being integrated into #GIS applications by established providers and startups alike. It further identifies three main areas where AI is currently being applied in GIS."
+---
+
+The [Innosuisse](https://www.innosuisse.admin.ch/)-funded [Innovation Booster Artificial Intelligence](https://ai-booster.ch/) has published [a review of GeoAI in Switzerland](https://ai-booster.ch/geoai-in-switzerland-innovations-developments-and-perspectives/). The short report has been compiled by the Focus Group "Spatial Data Analytics" comprising Nicolas Lenz, Stefan Keller and Reik Leiterer. It summarizes important players, innovations, developments over the last four years and future directions of the use of *purpose-optimized artificial intelligence*^[specifically, machine and deep learning] *methods for geospatial tasks*^[For now, this is my rough working definition for the emerging field of "GeoAI".].
+
+The report establishes that well-known Swiss GIS providers – EBP^[Transparency note: I work here.], Esri Switzerland, Geocloud, GeoDataSolutions, GeoWerkstatt, Hexagon, Meteotest and more, unnamed, firms – have made progress integrating AI into GIS applications. Within the start-up- and small-company-space, the report identifies three main avenues in which AI is applied for GIS purposes: 
+
+- User-friendly use of GIS and geodata — think: voice-control, search and data extraction
+- Applications in environment and agriculture — think: remote sensing / Earth observation, smart farming and weather forecasts
+- Applications in spatial planning and supply chain management — think: urban analytics and supply chain risk modelling
+
+You can read the approximately two-page report [here](https://ai-booster.ch/geoai-in-switzerland-innovations-developments-and-perspectives/).
