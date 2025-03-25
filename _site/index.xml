@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Fri, 21 Mar 2025 17:46:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 25 Mar 2025 17:36:00 GMT</lastBuildDate>
+<item>
+  <title>GeoAI: State-of-play in 2025</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/03-25-geoai-state-of-play-in-2025/</link>
+  <description><![CDATA[ The Innovation Booster #ArtificialIntelligence has released a concise review of #GeoAI in Switzerland. The report highlights significant players, innovations, and developments in the field, showcasing how #AI is being integrated into #GIS applications by established providers and startups alike. It further identifies three main areas where AI is currently being applied in GIS. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/03-25-geoai-state-of-play-in-2025/</guid>
+  <pubDate>Tue, 25 Mar 2025 17:36:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/03-25-geoai-state-of-play-in-2025/shahadat-rahman-voM1Z9cGPCU-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Labeling master class</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/02-17-sgs-action-plan-2025/</guid>
   <pubDate>Mon, 17 Feb 2025 19:56:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-17-sgs-action-plan-2025/sgs.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>The missing dimension: Why geospatial needs to prioritize time</title>
-  <dc:creator>David Oesch</dc:creator>
-  <link>https://spatialists.ch/posts/2025/02-16-the-missing-dimension/</link>
-  <description><![CDATA[ Time for change: Will Cadell argues geospatial tools must shift from static maps to dynamic 3D/4D platforms, prioritizing time-driven insights over location alone. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/02-16-the-missing-dimension/</guid>
-  <pubDate>Sun, 16 Feb 2025 21:54:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/02-16-the-missing-dimension/kobu-agency-hTtK6tvTRY0-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
