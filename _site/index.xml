@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Tue, 25 Mar 2025 22:56:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 26 Mar 2025 18:37:00 GMT</lastBuildDate>
+<item>
+  <title>Open doors at swisstopo</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/03-26-open-doors-at-swisstopo/</link>
+  <description><![CDATA[ The Federal Office of Topography #swisstopo is opening its doors to the public on May 24. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/03-26-open-doors-at-swisstopo/</guid>
+  <pubDate>Wed, 26 Mar 2025 18:37:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/03-26-open-doors-at-swisstopo/swisstopo.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Why cloud-native?</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/02-20-python-uv/</guid>
   <pubDate>Thu, 20 Feb 2025 19:52:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-20-python-uv/uv-logo.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Cloud-native web app: A case study</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/02-20-cloud-native-web-app-case-study/</link>
-  <description><![CDATA[ From Stephan Heuel comes a very interesting case study that explores the possibilies of web apps based on the ‘cloud-native geo’ paradigm, the Swiss Rooftop Explorer. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/02-20-cloud-native-web-app-case-study/</guid>
-  <pubDate>Thu, 20 Feb 2025 17:48:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/02-20-cloud-native-web-app-case-study/swiss-rooftop-explorer-screenshot.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
