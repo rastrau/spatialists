@@ -1,0 +1,27 @@
+---
+title: "The origins of GIScience in Switzerland with Rob Weibel"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-27 19:04"
+image: "Robert-Weibel.jpg"
+description: "Robert Weibel, Professor of Geographic Information Science at the University of Zurich, retired at the end of January 2025 after a distinguished career spanning over three decades. In an interview, Rob reflects on the remarkable evolution of Geographic Information Science, from its early days to its current status as a widely accepted scientific sub-discipline of geography."
+---
+
+[Robert Weibel](https://www.geo.uzh.ch/en/units/gis/staff/robertweibel), UZH professor for Geographic Information Science, (semi-)retired this year. On this occasion, the [Department of Geography of the University of Zurich](https://www.geo.uzh.ch)[^1] did an [interview with Rob](https://www.geo.uzh.ch/de/news/who-s-who/robert-weibel.html). 
+
+[![Robert Weibel (source: UZH)](Robert-Weibel.jpg "Robert Weibel")](https://www.geo.uzh.ch/de/news/who-s-who/robert-weibel.html)
+
+It's a very interesting look at 30+ years of GI Systems and GI Science: From a lot of initial skepticism to the search for an epistemological foundation for GIS and eventually broad acceptance as a scientific sub-discipline of geography. And also from scarce beginnings to essentially freely available location technology, smartphone apps and an age of seeming abundance of geospatial data – and ethical questions regarding its responsible use.
+
+[From the interview](https://www.geo.uzh.ch/de/news/who-s-who/robert-weibel.html) (machine-translation):
+
+> *You mentioned teaching. Over the years you have guided many students. What was particularly important to you in this process?*
+> 
+> I wanted to give students an insight into what's happening in the "real world." I took them to GIS companies and to the relevant departments in the public administration. In lectures and exercises, we of course also provided many examples. But the immediacy when you're "in the field" is simply different – just like in other geographical subdisciplines, when glaciologists take students to the glacier or human geographers visit international organizations. 
+> 
+The interest was always mutual. The companies wanted to present their internships, and the students got a direct impression of what to expect in their professional lives – and that they are welcome in the industry. I enjoy seeing what positions our GIS graduates hold today. It gives me the feeling that I have made an impact.
+
+Definitely in my life.
+
+[^1]: Apparently, the Department of Geography of the University of Zurich was the first institute in continental europe to have a chair dedicated to GIS – already in 1981. 
