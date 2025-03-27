@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Wed, 26 Mar 2025 18:37:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 27 Mar 2025 19:04:00 GMT</lastBuildDate>
+<item>
+  <title>The origins of GIScience in Switzerland with Rob Weibel</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/03-27-the-origins-of-giscience-in-switzerland-with-rob-weibel/</link>
+  <description><![CDATA[ Robert Weibel, Professor of Geographic Information Science at the University of Zurich, retired at the end of January 2025 after a distinguished career spanning over three decades. In an interview, Rob reflects on the remarkable evolution of Geographic Information Science, from its early days to its current status as a widely accepted scientific sub-discipline of geography. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/03-27-the-origins-of-giscience-in-switzerland-with-rob-weibel/</guid>
+  <pubDate>Thu, 27 Mar 2025 19:04:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/03-27-the-origins-of-giscience-in-switzerland-with-rob-weibel/Robert-Weibel.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Open doors at swisstopo</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/</guid>
   <pubDate>Fri, 21 Feb 2025 22:42:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/geodienste-ch-stac.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Python uv</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/02-20-python-uv/</link>
-  <description><![CDATA[ #uv is a relatively new #Python project management tool that has been gaining attention for its ease-of-use and speed. It has quickly become a popular choice for easy installation and environment and dependency management in Python projects. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/02-20-python-uv/</guid>
-  <pubDate>Thu, 20 Feb 2025 19:52:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/02-20-python-uv/uv-logo.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
