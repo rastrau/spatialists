@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Thu, 27 Mar 2025 19:04:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 31 Mar 2025 07:21:00 GMT</lastBuildDate>
+<item>
+  <title>New map viewer for the canton of Aargau</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/03-31-new-map-viewer-for-the-canton-of-aargau/</link>
+  <description><![CDATA[ A few days ago, the Canton of #Aargau unveiled its new browser-based map viewer, built using #OpenLayers and #React. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/03-31-new-map-viewer-for-the-canton-of-aargau/</guid>
+  <pubDate>Mon, 31 Mar 2025 07:21:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/03-31-new-map-viewer-for-the-canton-of-aargau/ag-map-viewer.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>The origins of GIScience in Switzerland with Rob Weibel</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/02-24-geospatial-tech-radar-by-element84/</guid>
   <pubDate>Mon, 24 Feb 2025 07:05:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-24-geospatial-tech-radar-by-element84/element-84-geospatial-tech-radar.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>geodienste.ch: STAC API and OGC API Features</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/</link>
-  <description><![CDATA[ With its newest release, #KGK/#CGC offers an OGC #STAC API as well as #OGC API Features for data on geodienste.ch, in accordance with #eCH-0056. Assets seem limited to XTF files, though. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/</guid>
-  <pubDate>Fri, 21 Feb 2025 22:42:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/geodienste-ch-stac.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
