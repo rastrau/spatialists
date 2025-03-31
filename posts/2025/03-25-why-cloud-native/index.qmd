@@ -1,0 +1,31 @@
+---
+title: "Why cloud-native?"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-25 22:56"
+image: "../02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
+description: "Kyle Barron, cloud engineer at Development Seed and developer of Lonboard, offers interesting insights into the cloudnativegeo paradigm in a recent interview with CNG. He discusses Parquet, GeoParquet, and GeoArrow, explaining their characteristics and potential to significantly improve geospatial data handling."
+---
+
+The Cloud-Native Geospatial Forum (CNG) features an interesting [interview with Kyle Barron](https://cloudnativegeo.org/blog/2024/12/interview-with-kyle-barron-on-geoarrow-and-geoparquet-and-the-future-of-geospatial-data-analysis/), cloud Engineer at [Development Seed](https://developmentseed.org) and, among other roles, developer behind the Python-based "big data"-capable geovisualization library [Lonboard](https://github.com/developmentseed/lonboard)^[As to the name: you know, [like "longboard", but with "lon(gitude)"](https://developmentseed.org/lonboard/latest/#why-the-name)]. The interview was published back in December, but if you haven't read it yet, it is still well worth your time.
+
+![Structure of a Parquet or GeoParquet file as visualized by [CNG](https://cloudnativegeo.org/blog/2024/12/interview-with-kyle-barron-on-geoarrow-and-geoparquet-and-the-future-of-geospatial-data-analysis/)](geoparquet-file.png "Structure of a Parquet or GeoParquet file as visualized by CNG")
+
+In the interview, Kyle covers and touches upon, among others: 
+
+- **Parquet and GeoParquet** and their characteristics as well as suitable use-cases for these formats
+- **GeoArrow**, a very fast and efficient in-memory representation of geospatial data
+- **stac-geoparquet**, a converter between STAC items, GeoParquet and other formats
+- **Apache Iceberg**, an open table format for analytics applications
+
+These days, Parquet and GeoParquet are talked about quite often among geospatial 
+professionals. But take note also of GeoArrow. While GeoArrow plays particularly well with GeoParquet, it is not tied to that format and can be used to improve geospatial workflows that involve other formats, too.
+
+From Kyle:
+
+> Historically, GeoPandas and GDAL didn’t have a way to share a collection of data at a binary level. So GDAL (via the fiona driver) would effectively create GeoJSON Python objects for GeoPandas to consume. This is horribly inefficient. Since GDAL 3.6, GDAL has supported reading into GeoArrow and since GDAL 3.8 it has supported writing from GeoArrow.
+
+> GDAL’s adoption of GeoArrow made it 23x faster to read FlatGeobuf and GeoPackage into GeoPandas. 
+
+Be it through [GDAL](https://gdal.org) or [dozens of other tools](https://gdal.org/en/stable/software_using_gdal.html) such as [FME](https://support.safe.com/hc/en-us/articles/25407598462349-GDAL-Deprecations-in-FME): You may very well have already benefitted from the work around #cloudnativegeo and, in particular, GeoArrow.

@@ -1,0 +1,16 @@
+---
+title: "Open doors at swisstopo"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-26 18:37"
+image: "swisstopo.jpg"
+description: "The Federal Office of Topography #swisstopo is opening its doors to the public on May 24."
+---
+
+I stumbled upon this completely haphazardly, but [swisstopo plans to open its doors to the public on Saturday, 24th of May](https://www.swisstopo.admin.ch/en/open-day-at-swisstopo-2025):
+
+> From maps and aerial photographs, coordinate systems and 3D models to national borders and documentation of the underground: Find out more about the many and varied tasks of swisstopo and how our work supports you every day. This is your opportunity to take a look behind the scenes at swisstopo and talk to our experts.
+
+I'll save the date. More details will likely follow.
+
