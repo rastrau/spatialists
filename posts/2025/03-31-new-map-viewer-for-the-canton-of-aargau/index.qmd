@@ -1,0 +1,17 @@
+---
+title: "New map viewer for the canton of Aargau"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-03-31 07:21"
+image: "ag-map-viewer.jpg"
+description: "A few days ago, the Canton of #Aargau unveiled its new browser-based map viewer, built using #OpenLayers and #React."
+---
+
+A few days ago, the Canton of Aargau unveiled its [new browser-based map viewer](https://www.ag.ch/geoportal/apps/onlinekarten) called "Online Karten":
+
+[![The new map viewer of the canton of Aargau](ag-map-viewer.jpg "The new map viewer of the canton of Aargau")](https://www.ag.ch/geoportal/apps/onlinekarten)
+
+Based on the available information, the new viewer appears to be built using [React](https://react.dev/) and [OpenLayers](https://openlayers.org/).
+
+The [old map viewer](https://www.ag.ch/app/agisviewer4/v1/agisviewer.html?) will remain accessible until August. 
