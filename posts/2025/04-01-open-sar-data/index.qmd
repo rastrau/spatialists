@@ -1,0 +1,21 @@
+---
+title: "Open SAR data"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-04-01 17:31"
+image: "sentinel-1.jpg"
+description: "Synthetic Aperture Radar (#SAR) is an interesting #remotesensing technology that captures high-resolution data of the Earth's surface, regardless of weather or lighting conditions. This curated collection of open SAR data sources provides an excellent starting point for exploring this powerful technology, whether for research, experimentation, or practical applications."
+---
+
+Synthetic Aperture Radar (SAR) is an interesting, albeit definitely non-trivial, remote sensing technology. As an actively sensing technology^[Meaning: SAR systems actively emit electromagnetic energy and receive whatever share of this energy is reflected back to them.] that is independent of both weather and of lighting conditions^[Unlike optical sensors, SAR systems can acquire data also at night.]. This property makes them a very interesting option for continuous monitoring tasks. 
+
+![Sentinel-1 (&copy; ESA / P. Carril)](sentinel-1.jpg "Sentinel-1 (&copy; ESA / P. Carril)")
+
+Depending on the wavelength used, SAR can penetrate vegetation, forests, ice, soil and even some structures and give us information about the conditions beneath. Polarization modes (upon emission and reception of signals) can highlight structural information. Through more advanced concepts such as interferometry or InSAR^[Interferometric SAR], we can measure very small deformations of the Earth's surface from space, for example in volcanic or earthquake regions.
+
+EarthByte Lab has compiled a [small collection of sources for open SAR data](https://earthbytelab.com/blogs/sar-data-analysis/). It features "usual suspects" such as Copernicus, NASA, USGS, but also covers newer and less known otions, such as Umbra. The listed use cases are too generic to be very helpful, in my opinion, but the notes on availability and, of course, the access links are a good resource if you want to look into SAR resources.
+
+If you aren't yet familiar with SAR, you may appreciate the brief video below.
+
+{{< video https://www.youtube.com/watch?v=FJWzLxdSMyA >}}
