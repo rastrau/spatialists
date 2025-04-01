@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Mon, 31 Mar 2025 07:21:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 01 Apr 2025 17:31:00 GMT</lastBuildDate>
+<item>
+  <title>Open SAR data</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/04-01-open-sar-data/</link>
+  <description><![CDATA[ Synthetic Aperture Radar (#SAR) is an interesting #remotesensing technology that captures high-resolution data of the Earth’s surface, regardless of weather or lighting conditions. This curated collection of open SAR data sources provides an excellent starting point for exploring this powerful technology, whether for research, experimentation, or practical applications. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/04-01-open-sar-data/</guid>
+  <pubDate>Tue, 01 Apr 2025 17:31:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/04-01-open-sar-data/sentinel-1.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>New map viewer for the canton of Aargau</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/02-26-normalize-your-choropleths/</guid>
   <pubDate>Wed, 26 Feb 2025 18:51:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-26-normalize-your-choropleths/data-normalization.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Geospatial tech radar by Element 84</title>
-  <dc:creator>Stephan Heuel</dc:creator>
-  <link>https://spatialists.ch/posts/2025/02-24-geospatial-tech-radar-by-element84/</link>
-  <description><![CDATA[ So-called ‘Tech Radars’, popularized by ThoughtWorks in 2010, have become essential tools for organizations to assess and communicate emerging technology trends. From Element 84 comes a particular interesting one for geospatial technologies. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/02-24-geospatial-tech-radar-by-element84/</guid>
-  <pubDate>Mon, 24 Feb 2025 07:05:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/02-24-geospatial-tech-radar-by-element84/element-84-geospatial-tech-radar.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
