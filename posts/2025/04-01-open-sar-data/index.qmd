@@ -12,10 +12,10 @@ Synthetic Aperture Radar (SAR) is an interesting, albeit definitely non-trivial,
 
 ![Sentinel-1 (&copy; ESA / P. Carril)](sentinel-1.jpg "Sentinel-1 (&copy; ESA / P. Carril)")
 
-Depending on the wavelength used, SAR can penetrate vegetation, forests, ice, soil and even some structures and give us information about the conditions beneath. Polarization modes (upon emission and reception of signals) can highlight structural information. Through more advanced concepts such as interferometry or InSAR^[Interferometric SAR], we can measure very small deformations of the Earth's surface from space, for example in volcanic or earthquake regions.
+Depending on the wavelength used, SAR can penetrate vegetation, forests, ice, soil and even some structures and give us information about the conditions beneath. Polarization modes (upon emission and reception of signals) can highlight structural information. Through more advanced concepts such as interferometric SAR or InSAR^[Interferometric SAR], we can measure very small deformations of the Earth's surface from space, for example in volcanic or earthquake regions.
 
-EarthByte Lab has compiled a [small collection of sources for open SAR data](https://earthbytelab.com/blogs/sar-data-analysis/). It features "usual suspects" such as Copernicus, NASA, USGS, but also covers newer and less known otions, such as Umbra. The listed use cases are too generic to be very helpful, in my opinion, but the notes on availability and, of course, the access links are a good resource if you want to look into SAR resources.
+EarthByte Lab has compiled a [small collection of sources for open SAR data](https://earthbytelab.com/blogs/sar-data-analysis/). It features "usual suspects" such as Copernicus, NASA, USGS, but also covers newer and less known options, such as Umbra. The listed use cases are too generic to be very helpful, in my opinion, but the notes on availability and, of course, the access links are a good resource if you want to look into SAR.
 
-If you aren't yet familiar with SAR, you may appreciate the brief video below.
+If you aren't yet familiar with SAR, you may also appreciate the brief explanatory video below.
 
 {{< video https://www.youtube.com/watch?v=FJWzLxdSMyA >}}
