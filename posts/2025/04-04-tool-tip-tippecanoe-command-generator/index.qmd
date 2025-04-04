@@ -5,7 +5,7 @@ author:
     url: https://ralphstraumann.ch
 date: "2025-04-04 14:34"
 image: "tippecanoe-command-generator.png"
-description: ""
+description: "If you create, or are curious about, #VectorTiles, you may have come across the command line utility #Tippecanoe (TIP-ə-kə-NOO). It's probably no secret that its usage is not entirely trivial, but there is a helpful tool for this now."
 ---
 
 If you create, or are curious about, vector tiles, you may have come across the command line utility Tippecanoe[^tippecanoe] (TIP-ə-kə-NOO). It's probably no secret that its [usage is not entirely trivial](https://github.com/mapbox/tippecanoe?tab=readme-ov-file#usage).
