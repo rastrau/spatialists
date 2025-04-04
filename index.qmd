@@ -2,6 +2,7 @@
 title: ""
 listing:
   contents: posts
+  page-size: 10
   sort: "date desc"
   type: default
   feed: 
