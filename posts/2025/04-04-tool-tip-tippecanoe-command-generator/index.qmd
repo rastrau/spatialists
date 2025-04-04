@@ -1,0 +1,19 @@
+---
+title: "Tool tip: Tippecanoe Command Generator"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-04-04 14:34"
+image: "tippecanoe-command-generator.png"
+description: ""
+---
+
+If you create, or are curious about, vector tiles, you may have come across the command line utility Tippecanoe[^tippecanoe] (TIP-ə-kə-NOO). It's probably no secret that its [usage is not entirely trivial](https://github.com/mapbox/tippecanoe?tab=readme-ov-file#usage).
+
+In a similar vein to [the best practice guide for Cloud-Optimized GeoTIFFs](http://localhost:3689/posts/2025/03-18-best-practices-for-cloud-optimized-geotiffs/) by GeoStandards.ch, Cameron Kruse has built the [Tippecanoe Command Generator](https://maptiling.streamlit.app/). It's a [Streamlit](https://streamlit.io/) app that takes you through *Basic Options*, *Zoom & Detail*, *Feature Handling*, *Attributes* and *Advanced Options* and creates a Tippecanoe command custom-tailored to your requirements. The tool is [open-source](https://github.com/bridgestoprosperity/map-tiling-tools) and free of AI / LLMs.
+
+[![The Tippecanoe Command Generator](tippecanoe-command-generator.png "The Tippecanoe Command Generator")](https://maptiling.streamlit.app/)
+
+Cameron Kruse has also published an article titled ["The Dark Art of Vector Map Tiling"](https://medium.com/fika-blog/the-dark-art-of-vector-map-tiling-b417a3813df5) where he goes into detail about the Tippecanoe Command Generator, gives additional tips and also points to valuable resources such as map tile viewers.
+
+[^tippecanoe]: This post marks the first instance where I researched the name: It's a [joking reference](https://github.com/mapbox/tippecanoe?tab=readme-ov-file#name) to [a "tiler" (or "Tyler")](https://en.wikipedia.org/wiki/Tippecanoe_and_Tyler_Too) and more basically a river, county and a [battleground](https://en.wikipedia.org/wiki/Battle_of_Tippecanoe).
