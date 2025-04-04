@@ -21,7 +21,7 @@
   <title>Tool tip: Tippecanoe Command Generator</title>
   <dc:creator>Ralph Straumann</dc:creator>
   <link>https://spatialists.ch/posts/2025/04-04-tool-tip-tippecanoe-command-generator/</link>
-  <description><![CDATA[ If you create, or are curious about, vector tiles, you may have come across the command line utility Tippecanoe<sup>1</sup> (TIP-ə-kə-NOO). It’s probably no secret that its <a href="https://github.com/mapbox/tippecanoe?tab=readme-ov-file#usage">usage is not entirely trivial</a>. ]]></description>
+  <description><![CDATA[ If you create, or are curious about, #VectorTiles, you may have come across the command line utility #Tippecanoe (TIP-ə-kə-NOO). It’s probably no secret that its usage is not entirely trivial, but there is a helpful tool for this now. ]]></description>
   <guid>https://spatialists.ch/posts/2025/04-04-tool-tip-tippecanoe-command-generator/</guid>
   <pubDate>Fri, 04 Apr 2025 14:34:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/04-04-tool-tip-tippecanoe-command-generator/tippecanoe-command-generator.png" medium="image" type="image/png" height="96" width="144"/>
