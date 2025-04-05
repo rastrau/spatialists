@@ -1,0 +1,28 @@
+---
+title: "Serving vector tiles, fast"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-04-05 16:05"
+image: "ganesh-partheeban-A9pIo2VEI5A-unsplash.jpg"
+description: "Want to serve #VectorTiles to your users? Fabian Rechsteiner’s benchmark pits six open-source servers (#BBOX, #ldproxy, #Martin, #pg_tileserv, #Tegola, #TiPg) against each other, revealing stark speed differences."
+---
+
+Once you have [created your vector tiles](../04-04-tool-tip-tippecanoe-command-generator/), typically you look for a solution to serve them to clients. From [Fabian Rechsteiner](https://www.linkedin.com/in/fabian-rechsteiner/) comes an interesting speed comparison of open-source solutions[^occasion]: ["Performance comparison of open source vector tiles server solutions for providing geodata from PostGIS databases"](https://github.com/FabianRechsteiner/vector-tiles-benchmark). The GitHub repo highlights speed comparisons between six vector tile servers across different tests:
+
+- BBOX
+- ldproxy
+- Martin
+- pg_tileserv
+- Tegola
+- TiPg
+
+Besides the [statistics in the benchmark repository](https://github.com/FabianRechsteiner/vector-tiles-benchmark), Fabian Rechsteiner has published an eye-opening interactive side-by-side comparison of the six vector tile servers using a MapLibre client and data from the canton of Thurgau at <https://vectormap.ch>:
+
+![Visual performance test (source: Fabian Rechsteiner)](fabian-rechsteiner-visual-performance-test.mp4 "Visual performance test (source: Fabian Rechsteiner)")
+
+[Fabian Rechsteiner's benchmark repository](https://github.com/FabianRechsteiner/vector-tiles-benchmark) contains the code to roll your own tests (or maybe update his results a few months down the road). These insights are the results of his [Master's thesis](https://unigis.at/files/Mastertheses/Full/107112.pdf) at the University of Salzburg, which is also [publicly available (pdf, in German)](https://unigis.at/files/Mastertheses/Full/107112.pdf). If you have a subscription, you can also read a shorter [article on the analysis in Geomatik Schweiz, edition 11-12/2024](https://geomatik.ch) (paywalled, in German).
+
+[^occasion]: I was reminded of this speed benchmark, specifically of an article about it in Geomatik Schweiz, by [comment from Xavier Mérour](https://www.linkedin.com/feed/update/urn:li:activity:7313906270539792386?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7313906270539792386%2C7313955020389974016%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287313955020389974016%2Curn%3Ali%3Aactivity%3A7313906270539792386%29) (merci!).
+
+Obviously, speed shouldn't be the only quality dimension to decide on a vector tile server. But it is certainly an important one.
