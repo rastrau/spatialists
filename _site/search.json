@@ -298,14 +298,14 @@
     "href": "posts/2025/04-05-serving-vector-tiles-fast/index.html",
     "title": "Serving vector tiles, fast",
     "section": "",
-    "text": "Once you have created your vector tiles, typically you look for a solution to serve them to clients. From Fabian Rechsteiner comes an interesting speed comparison of open-source solutions1: “Performance comparison of open source vector tiles server solutions for providing geodata from PostGIS databases”. The GitHub repo highlights speed comparisons between six vector tile servers across different tests:\nBesides the statistics in the benchmark repository, Fabian Rechsteiner has published an eye-opening interactive side-by-side comparison of the six vector tile servers using a MapLibre client and data from the canton of Thurgau at https://vectormap.ch:\nFabian Rechsteiner’s benchmark repository contains the code to roll your own tests (or maybe update his results a few months down the road). These insights are the results of his Master’s thesis at the University of Salzburg, which is also publicly available (pdf, in German). If you have a subscription, you can also read a shorter article on the analysis in Geomatik Schweiz, edition 11-12/2024 (paywalled, in German).\nObviously, speed shouldn’t be the only quality dimension to decide on a vector tile server. But it is certainly an important one."
+    "text": "Once you have created your vector tiles, typically you look for a solution to serve them to clients. From Fabian Rechsteiner comes an interesting speed comparison of open-source solutions1: “Performance comparison of open source vector tiles server solutions for providing geodata from PostGIS databases”. The GitHub repo highlights speed comparisons between six vector tile servers across different tests:\nBesides the statistics in the benchmark repository, Fabian Rechsteiner has published an eye-opening interactive side-by-side comparison of the six vector tile servers using a MapLibre client and data from the canton of Thurgau at https://vectormap.ch:\nFabian Rechsteiner’s benchmark repository contains the code to roll your own tests (or maybe update his results a few months down the road). These insights are the results of his Master’s thesis at the University of Salzburg, which is also publicly available (pdf, in German). If you have a subscription, you can also read a shorter article on the analysis in Geomatik Schweiz, edition 11-12/2024 (paywalled, in German).\nObviously, speed isn’t the only quality dimension to decide on a vector tile server. But it is certainly an important one."
   },
   {
     "objectID": "posts/2025/04-05-serving-vector-tiles-fast/index.html#footnotes",
     "href": "posts/2025/04-05-serving-vector-tiles-fast/index.html#footnotes",
     "title": "Serving vector tiles, fast",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nI was reminded of this speed benchmark, specifically of an article about it in Geomatik Schweiz, by comment from Xavier Mérour (merci!).↩︎"
+    "text": "Footnotes\n\n\nI was reminded of this speed benchmark, specifically of an article about it in Geomatik Schweiz, by a comment from Xavier Mérour (merci!).↩︎"
   },
   {
     "objectID": "posts/2025/02-20-cloud-native-web-app-case-study/index.html",
