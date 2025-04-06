@@ -53,7 +53,6 @@ author:
 date: "{date_time}"
 image: ""
 description: ""
-draft: true
 ---
 
 Blog post...
