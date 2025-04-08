@@ -11,6 +11,16 @@ DEFAULT_AUTHOR_NAME = "Ralph Straumann"
 DEFAULT_AUTHOR_URL = "https://ralphstraumann.ch"
 
 def normalize_special_chars(text):
+    """
+    Normalize a given text by converting it to NFKD Unicode form and removing 
+    non-ASCII characters.
+
+    Args:
+        text (str): The input string to be normalized.
+
+    Returns:
+        str: A normalized string with non-ASCII characters removed.
+    """
     # Normalize to NFKD form
     normalized = unicodedata.normalize('NFKD', text)
     # Remove non-ASCII characters
@@ -18,6 +28,26 @@ def normalize_special_chars(text):
     return ascii_text
 
 def create_blog_post():
+    """
+    Creates a draft blog post file with frontmatter metadata.
+    
+    This function prompts the user for a blog post title, generates a directory
+    and file structure based on the current date and a slugified version of the 
+    title, and writes a frontmatter template to the file. If the file already 
+    exists, the user is prompted to confirm overwriting it.
+    Steps:
+    1. Prompts the user for the blog post title.
+    2. Generates the current date and time, shifted 15 minutes into the future.
+    3. Creates a slug from the title by normalizing and formatting it.
+    4. Constructs the directory and file path based on the date and slug.
+    5. Creates the necessary directories if they do not exist.
+    6. Writes a frontmatter template to the file, including metadata such as 
+       title, author, date, and placeholders for image and description.
+    7. Prompts the user for confirmation if the file already exists.
+
+    Returns:
+        None
+    """
     # Prompt user for blog post title
     title = input("Enter the blog post title: ").strip()
     
@@ -35,7 +65,6 @@ def create_blog_post():
     slug = normalize_special_chars(title)
     slug = re.sub(r"[^\w\s-]", "", slug).strip().lower()
     slug = re.sub(r"[\s]+", "-", slug)
-    slug = slug.replace("draft", "DRAFT")
     
     # Define the file path
     directory_path = os.path.join("posts", year, f"{month}-{day}-{slug}")
@@ -59,9 +88,17 @@ Blog post...
 """
     
     # Write the frontmatter to the file
-    with open(file_path, "w", encoding="utf-8") as f:
-        f.write(frontmatter)
-    
+    if os.path.exists(file_path):
+        overwrite = input(f"The file {file_path} already exists. Overwrite? (y/n): ").strip().lower()
+        if overwrite == 'y':
+            with open(file_path, "w", encoding="utf-8") as f:
+                f.write(frontmatter)
+        else:
+            print("Operation cancelled. No file was overwritten.") 
+    else:
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(frontmatter)
+        
     print(f"Draft blog post created at: {file_path}")
 
 # Run the program
