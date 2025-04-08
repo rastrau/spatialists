@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.43</generator>
-<lastBuildDate>Sat, 05 Apr 2025 16:05:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 08 Apr 2025 22:28:00 GMT</lastBuildDate>
+<item>
+  <title>Drought, Lake Constance and Sentinel-2</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/04-08-drought-lake-constance-and-sentinel-2/</link>
+  <description><![CDATA[ Switzerland has experienced an exceptionally dry period, with Lake Constance’s water levels dropping to their lowest in decades due to little rainfall and snowmelt from the Alps. Recent Sentinel-2 satellite data and gauging station records reveal the current situation. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/04-08-drought-lake-constance-and-sentinel-2/</guid>
+  <pubDate>Tue, 08 Apr 2025 22:28:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/04-08-drought-lake-constance-and-sentinel-2/obersee.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Serving vector tiles, fast</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/03-03-office-for-geoinformation-canton-thurgau-on-linkedin/</guid>
   <pubDate>Mon, 03 Mar 2025 21:08:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/03-03-office-for-geoinformation-canton-thurgau-on-linkedin/geoinformation-strategy-tg.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>GeoParquet to come to Esri ArcGIS Pro</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/03-01-geoparquet-to-come-to-esri-arcgis-pro/</link>
-  <description><![CDATA[ #cloudnativegeo and #GeoParquet news: Chris Holmes shares that the status of a petition for GeoParquet support in #Esri #ArcGIS Pro has changed to “In product plan”. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/03-01-geoparquet-to-come-to-esri-arcgis-pro/</guid>
-  <pubDate>Sat, 01 Mar 2025 19:07:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
