@@ -1,0 +1,23 @@
+---
+title: "Drought, Lake Constance and Sentinel-2"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-04-08 22:28"
+image: "obersee.jpg"
+description: "Switzerland has experienced an exceptionally dry period, with Lake Constance's water levels dropping to their lowest in decades due to little rainfall and snowmelt from the Alps. Recent Sentinel-2 satellite data and gauging station records reveal the current situation."
+---
+
+Switzerland has recently experienced an unusually dry period with minimal rainfall, causing water levels in Lake Constance to drop to a historic low — the lowest recorded in 40 years according to experts in the media. Having observed the situation firsthand recently, I decided to explore remote sensing and other data sources to better understand the current conditions and the potential risks of an impending drought. I shared [my findings online](https://www.linkedin.com/feed/update/urn:li:activity:7314736416775626752/) yesterday, where they garnered significant interest, thus I decided to share them here as well (my apologies if you have seen them before).
+
+Specifically, I briefly analyzed Sentinel-2 satellite data (true-color imagery and the Normalized Difference Water Index, NDWI) from April 5<sup>th</sup>, combined with geodata from swisstopo's swissTLM<sup>3D</sup> and gauging data to assess the lake's extent and water levels:
+
+![The *Untersee*, captured in Sentinel-2 true-color imagery (source: Copernicus/ESA), is shown here with a red outline indicating the typical shoreline of Lake Constance. While it is common for the water level to drop below the usual shoreline during winter, the extent of this recession is unusually pronounced this year.](untersee-true-color.jpg "The Untersee, captured in Sentinel-2 true-color imagery (source: Copernicus/ESA), is shown here with a red outline indicating the typical shoreline of Lake Constance. While it is common for the water level to drop below the usual shoreline during winter, the extent of this recession is unusually pronounced this year.")
+
+![The area surrounding *Reichenau* island is depicted using Sentinel-2 data, analyzed through the Normalized Difference Water Index (NDWI; source: Copernicus/ESA) to highlight current water conditions.](reichenau-ndwi.png "The area surrounding Reichenau island is depicted using Sentinel-2 data, analyzed through the Normalized Difference Water Index (NDWI; source: Copernicus/ESA) to highlight current water conditions.")
+
+![Current and historical water levels at the gauging station in Berlingen. In 2022 (in yellow), the water level was at a similarly low level as today, albeit in summer. (source: [FOEN](https://www.hydrodaten.admin.ch/en/seen-und-fluesse/messstationen-zustand))](gauging-station-bafu.jpg "Current and historical water levels at the gauging station in Berlingen. In 2022 (in yellow), the water level was at a similarly low level as today, albeit in summer. (source: FOEN)")
+
+![Lakehouse over dry ground along the upper part of Lake Constance as of March 23<sup>rd</sup> (personal photograph)](obersee.jpg "Lakehouse over dry ground along the upper part of Lake Constance as of March 23<sup>rd</sup> (personal photograph)")
+
+You can see more results as well as the ensuing discussion [on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7314736416775626752/) (if you have a user account) or (with less discussion) [on Mastodon](https://swiss.social/@rastrau/114292763996782589) (no login required).
