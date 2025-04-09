@@ -1,0 +1,37 @@
+---
+title: "Spatial data old and new"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-04-09 20:41"
+image: "anthony-riera-y9A2gA0FLc8-unsplash.jpg"
+description: 'Martin Fleischmann’s course on Spatial #DataScience provides an introduction to spatial #data analysis using Python. One short section, "Spatial Data Old and New", explores the evolution of spatial data, contrasting traditional, carefully curated datasets with modern, rapidly generated data, and offers fresh perspectives on conventional ideas about spatial data.'
+---
+
+Martin Fleischmann^[Among other things, Martin Fleischmann is [the developer or one of the developers](https://martinfleischmann.net/longer-bio/) behind such geospatial tools as `momepy`, `GeoPandas`, and `PySAL`.] teaches [a course on Spatial Data Science](https://martinfleischmann.net/sds/micro/) through [Charles University](https://cuni.cz/UKEN-1.html) in Prague. The course is taught online and is open to anyone. Although I haven’t had the time to really dive into the material yet, one section titled [*"Spatial data old and new"*](https://martinfleischmann.net/sds/micro/geographic_data/concepts.html) caught my attention. In it, Martin Fleischmann introduces a dichotomy of spatial data: 
+
+- *Old* – think: purposefully collected, carefully crafted, expensive, and slow – *versus*
+- *New* – think: incidental or repurposed, detailed, fast
+
+He then goes on and suggests classifications of the "new spatial data" from two sources:
+
+- According to Lazer & Radford (2017)[^LazerRadford]:
+  - *Digital life:* social media platforms, Wikipedia, etc.
+  - *Digital traces:* records of digital actions such as metadata on media use
+  - *Digitalised life:* non-inherently digital aspects of life recorded in digital form, e.g. in government records or on the web
+
+- According to Arribas-Bel (2014)[^Arribas-Bel]:
+  - *Bottom-up:* Citizens as "sensors"
+  - *Intermediate:* Digital businesses
+  - *Top-down:* Open Government Data
+
+While I'm not entirely convinced by these classifications and concepts, they offer a fresh (to me) perspective on some aspects of spatial data and seem to complement some traditional concepts^[for example, distinctions such as "official/authoritative" vs. "crowdsourcing", concepts like (so-called) "volunteered geographic information", and the "cathedral vs. bazaar" model of thinking about data]. Even after [roughly 20 years of recent "neogeography"](https://en.wikipedia.org/wiki/Neogeography), it seems to me, there are still crucial debates and important developments in the geoinformation industry (also in Switzerland) that revolve around these ideas.
+
+![[*The Fighting Temeraire*](https://en.wikipedia.org/wiki/The_Fighting_Temeraire) by William Turner, as famously [seen in *Skyfall*](https://www.youtube.com/watch?v=VMhpecmv0rQ)](the-fighting-temeraire.jpg "The Fighting Temeraire by William Turner, as famously seen in Skyfall")
+
+[^LazerRadford]: David Lazer and Jason Radford (2017): [Data Ex Machina: Introduction to Big Data](https://www.annualreviews.org/content/journals/10.1146/annurev-soc-060116-053457). Annual Review of Sociology, 43(1): 19–39.
+
+[^Arribas-Bel]: Daniel Arribas-Bel (2014): [Accidental, Open and Everywhere: Emerging Data Sources for the Understanding of Cities](https://doi.org/10.1016/j.apgeog.2013.09.012). Applied Geography, 49: 45–53.
+
+
+
