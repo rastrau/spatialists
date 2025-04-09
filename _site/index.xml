@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.43</generator>
-<lastBuildDate>Tue, 08 Apr 2025 22:28:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 09 Apr 2025 20:41:00 GMT</lastBuildDate>
+<item>
+  <title>Spatial data old and new</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/04-09-spatial-data-old-and-new/</link>
+  <description><![CDATA[ Martin Fleischmann’s course on Spatial #DataScience provides an introduction to spatial #data analysis using Python. One short section, “Spatial Data Old and New”, explores the evolution of spatial data, contrasting traditional, carefully curated datasets with modern, rapidly generated data, and offers fresh perspectives on conventional ideas about spatial data. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/04-09-spatial-data-old-and-new/</guid>
+  <pubDate>Wed, 09 Apr 2025 20:41:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/04-09-spatial-data-old-and-new/anthony-riera-y9A2gA0FLc8-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Drought, Lake Constance and Sentinel-2</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/03-04-cloudnativegeo-approachable/</guid>
   <pubDate>Tue, 04 Mar 2025 19:57:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/03-04-cloudnativegeo-approachable/cloudnativegeo-zine-cog.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Office for Geoinformation Canton Thurgau on LinkedIn</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/03-03-office-for-geoinformation-canton-thurgau-on-linkedin/</link>
-  <description><![CDATA[ Starting today, the Office for #Geoinformation of the Canton of #Thurgau has a #LinkedIn account. This made me wonder, how many other cantonal geoinformation offices have a similar presence. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/03-03-office-for-geoinformation-canton-thurgau-on-linkedin/</guid>
-  <pubDate>Mon, 03 Mar 2025 21:08:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/03-03-office-for-geoinformation-canton-thurgau-on-linkedin/geoinformation-strategy-tg.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
