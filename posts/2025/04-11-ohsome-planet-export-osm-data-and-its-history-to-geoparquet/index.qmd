@@ -1,0 +1,24 @@
+---
+title: "ohsome-planet: Export OSM data and its history to GeoParquet"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-04-11 21:49"
+image: "george-pagan-iii-4zs2aNnHkec-unsplash.jpg"
+description: "The GIScience Research Group at Heidelberg University and HeiGIT have released version 1.0.0 of #ohsome-planet, a tool for #cloudnative access to #OpenStreetMap (#OSM) data using the #GeoParquet format. Originally developed as an internal tool, it now enables users to create customizable OSM data exports with Java 21 and PBF input files."
+---
+
+The [GIScience Research Group](https://www.geog.uni-heidelberg.de/gis/) at Heidelberg University and [HeiGIT](https://www.heigit.org/) have published the [release 1.0.0 "Kawésqar"](https://github.com/GIScience/ohsome-planet/releases/tag/1.0.0) of `ohsome-planet`: 
+
+[![ohsome-planet 1.0.0 - "Kawésqar"](ohsome-planet.jpg 'ohsome-planet 1.0.0 - "Kawésqar"')](https://github.com/GIScience/ohsome-planet/releases/tag/1.0.0)
+
+This same consortium previously provided cloud-native access to OpenStreetMap (OSM) data[^osm] *including its edit history*, as presented in a [workshop](https://2024.stateofthemap.org/sessions/L7SUBJ/)[^slides] at the 2024 State of the Map conference.
+
+[`ohsome-planet`](https://github.com/GIScience/ohsome-planet/releases/tag/1.0.0) was initially an internal tool used by the consortium to provide OSM data cloud-natively^[Not sure this is a real adverb (?) – oh well.] in the GeoParquet format. Using `ohsome-planet`, anybody can now create similar customizable exports. The tool relies on Java 21 and users have to build it themselves. The input data needs to be provided in the standard PBF format which can be obtained for defined geographic areas for example from [Geofabrik](https://www.geofabrik.de)[^formats].
+
+If this interests you, make sure to [read the blog post with the announcement](https://giscienceblog.uni-heidelberg.de/2025/03/25/first-release-of-ohsome-planet-osm-history-data-in-geoparquet-format/).
+
+[^osm]: The [data structure of OSM](https://wiki.openstreetmap.org/wiki/Elements) with its [key-value-tagging scheme](https://wiki.openstreetmap.org/wiki/Tags) can be daunting to use, or render usable, in a relational database or in GIS environments.
+[^slides]: If this interests you, follow the link and make sure not to miss looking through the slides on the left.
+[^formats]: By the way: Besides PBF, Geofabrik provides other formats, some for free, some for a fee: [Shapefile](https://spatialists.ch/posts/2025/02-12-the-format-that-shall-not-be-named/), GeoPackage, GeoJSON, and File Geodatabase. 
+
