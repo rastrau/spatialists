@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.43</generator>
-<lastBuildDate>Wed, 09 Apr 2025 20:41:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 11 Apr 2025 21:49:00 GMT</lastBuildDate>
+<item>
+  <title>ohsome-planet: Export OSM data and its history to GeoParquet</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/04-11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/</link>
+  <description><![CDATA[ The GIScience Research Group at Heidelberg University and HeiGIT have released version 1.0.0 of #ohsome-planet, a tool for #cloudnative access to #OpenStreetMap (#OSM) data using the #GeoParquet format. Originally developed as an internal tool, it now enables users to create customizable OSM data exports with Java 21 and PBF input files. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/04-11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/</guid>
+  <pubDate>Fri, 11 Apr 2025 21:49:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/04-11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/george-pagan-iii-4zs2aNnHkec-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Spatial data old and new</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/03-06-tool-tip-navigating-the-maze-of-coordinate-reference-systems/</guid>
   <pubDate>Thu, 06 Mar 2025 07:44:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/03-06-tool-tip-navigating-the-maze-of-coordinate-reference-systems/susan-q-yin-Ctaj_HCqW84-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>#cloudnativegeo: Approachable</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/03-04-cloudnativegeo-approachable/</link>
-  <description><![CDATA[ There is considerable technical writing around #cloudnativegeo data formats. For a more accessible introduction, check out the ‘Optimizing Geospatial for the Cloud’ zine by #DevelopmentSeed which uses storytelling to break down technical barriers. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/03-04-cloudnativegeo-approachable/</guid>
-  <pubDate>Tue, 04 Mar 2025 19:57:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/03-04-cloudnativegeo-approachable/cloudnativegeo-zine-cog.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
