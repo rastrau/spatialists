@@ -1,0 +1,32 @@
+---
+title: "Tool tip: Mapshaper"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-04-12 18:28"
+image: "george-pagan-iii-WwCTFNpZx8g-unsplash.jpg"
+description: "#Mapshaper is a lightweight yet powerful geospatial toolkit offering #topology-aware #simplification (via Douglas-Peucker and Visvalingam algorithms), spatial operations, and more. Available across Windows, macOS, and Linux, it includes a browser-based interface for real-time simplification previews."
+---
+
+Mapshaper is a specialist software for tasks like simplifying geodata, editing its attributes, format conversions, certain spatial overlay operations, filtering, and more. Mapshaper can be run on Windows, on macOS, and on Linux. Or users can use the online tool at [mapshaper.org](https://mapshaper.org). Mapshaper supports various file formats, for example GeoJSON, TopoJSON, Shapefile, and CSV files with latitude and longitude information.
+
+Mapshaper is actually a set of tools:
+
+- the online tool at [mapshaper.org](https://mapshaper.org)
+- `mapshaper-gui`: runs the browser-based GUI of [mapshaper.org](https://mapshaper.org) locally on your machine, thus you don't have to upload data to somebody else's server to use the convencience of the GUI
+- `mapshaper`: runs the mapshaper commands
+- `mapshaper-xl`: same as `mapshaper` but runs with more RAM to able to process larger files
+
+Mapshaper particularly excels at simplification offering three algorithmus:
+
+- [Douglas-Peucker](https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm) (or Poiker): run-of-the-mill, supported by most tools
+- [Visvalingam](https://en.wikipedia.org/wiki/Visvalingam%E2%80%93Whyatt_algorithm) effective area
+- [Visvalingam](https://en.wikipedia.org/wiki/Visvalingam%E2%80%93Whyatt_algorithm) weighted area
+
+Mapshaper offers [topologically consistent simplification](https://github.com/mbloch/mapshaper/wiki/Topology-Issues). This means, simplification of polygonal data is done so that shared edges are simplified concordantly. What is great about the browser-based interface is that the degree of simplification can be chosen on a continuous scale and the tool shows the result interactively and also indicates how much of the data (vertices) would be removed at the current settings.
+
+![Municipality boundaries around Bern in swissBOUNDARIES<sup>3D</sup>](municipality-boundaries-100perc.png "Municipality boundaries around Bern in swissBOUNDARIES3D")
+
+![Municipality boundaries simplified by 80% (that is, 80% of all vertices have been removed)](municipality-boundaries-20perc.png "Municipality boundaries simplified by 80% (that is, 80% of all vertices have been removed)")
+
+There is a [Mapshaper wiki](https://github.com/mbloch/mapshaper/wiki) with tips how to use the tool and [command reference for using the command line tools](https://github.com/mbloch/mapshaper/wiki/Command-Reference).
