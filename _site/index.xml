@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.43</generator>
-<lastBuildDate>Fri, 11 Apr 2025 21:49:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 12 Apr 2025 18:28:00 GMT</lastBuildDate>
+<item>
+  <title>Tool tip: Mapshaper</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/04-12-tool-tip-mapshaper/</link>
+  <description><![CDATA[ #Mapshaper is a lightweight yet powerful geospatial toolkit offering #topology-aware #simplification (via Douglas-Peucker and Visvalingam algorithms), spatial operations, and more. Available across Windows, macOS, and Linux, it includes a browser-based interface for real-time simplification previews. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/04-12-tool-tip-mapshaper/</guid>
+  <pubDate>Sat, 12 Apr 2025 18:28:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/04-12-tool-tip-mapshaper/george-pagan-iii-WwCTFNpZx8g-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>ohsome-planet: Export OSM data and its history to GeoParquet</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/03-08-25-years-shuttle-radar-topography-mission/</guid>
   <pubDate>Sat, 08 Mar 2025 17:52:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/03-08-25-years-shuttle-radar-topography-mission/satellite-image-of-dape-peninsula-NASA-public-domain.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Tool tip: Navigating the maze of coordinate reference systems</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/03-06-tool-tip-navigating-the-maze-of-coordinate-reference-systems/</link>
-  <description><![CDATA[ Many people struggle with coordinate reference systems (#CRSs). Who can blame them? But there is a tool that can help you out if you find yourself experiencing the same predicament. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/03-06-tool-tip-navigating-the-maze-of-coordinate-reference-systems/</guid>
-  <pubDate>Thu, 06 Mar 2025 07:44:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/03-06-tool-tip-navigating-the-maze-of-coordinate-reference-systems/susan-q-yin-Ctaj_HCqW84-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
