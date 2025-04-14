@@ -1,0 +1,18 @@
+---
+title: "New geospatial data in Google BigQuery"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-04-14 20:43"
+image: "javier-miranda-Jn2EaLLYZfY-unsplash.jpg"
+description: "#Google is adding geospatial content to its #DWH solution #BigQuery. Additions encompass annotated Street View #imagery, Places (#POI) data, and #traffic data, among others."
+---
+
+Google announced that it has newly added geospatial data into [BigQuery](https://cloud.google.com/bigquery)^[Google's [data warehouse (DWH) Platform-as-a-Service offering](https://en.wikipedia.org/wiki/BigQuery)]. According to the [announcement](https://mapsplatform.google.com/resources/blog/whats-new-with-google-maps-platform-geospatial-analytics-generative-ai-and-weather/) and an [accompanying blog post](https://cloud.google.com/blog/topics/sustainability/new-geospatial-datasets-in-bigquery) the additions encompass:
+
+- ["Imagery Insights"](https://mapsplatform.google.com/maps-products/geospatial-analytics/#imagery-insights) data: This data applies "Vertex AI" to Google Street View imagery "to identify, detect, and see the condition of key infrastructure objects, like telephone poles, street signs, roads, and bridges."
+- ["Places Insights"](https://mapsplatform.google.com/maps-products/geospatial-analytics/#places-insights) data: This data offers "customized, aggregated insights about many places (...) based on ratings, store hours, parking, wheelchair accessibility, and more."
+- ["Roads Management Insights"](https://mapsplatform.google.com/maps-products/geospatial-analytics/#roads-management-insights) data: This data allows users to "analyze traffic data and improve roads with historical and real-time traffic information."
+- Google Earth Engine data and analysis functions: This adds "a new geospatial function" (sic[^function]) and 20 new ©datasets from Google Earth Engine to BigQuery.
+
+[^function]: [Digging deeper](https://cloud.google.com/blog/topics/sustainability/new-geospatial-datasets-in-bigquery), this probably refers to a function called `ST_REGIONSTATS()`. [Digging even deeper](https://cloud.google.com/bigquery/docs/raster-data#overview), it sounds like `ST_REGIONSTATS()` is some kind of zonal statistics function, in GIS parlance, for Google Earth Engine data.
