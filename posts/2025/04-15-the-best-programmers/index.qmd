@@ -1,0 +1,15 @@
+---
+title: "The best programmers"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-04-15 19:05"
+image: "arthur-9CfHPa6YM4Y-unsplash.jpg"
+description: "Many geospatial professions involve – varying degrees of – #programming. In a new article, Matthias Endler has collected fundamental #traits that the best #programmers he knows seem to share."
+---
+
+Many geospatial professions involve – varying degrees of – programming: GIS developer^[That is, developer of GIS software.], (geospatial) web or application developer, spatial data scientist and data engineer, GIS analyst, etc. In his [blog](https://endler.dev/), [Matthias Endler](https://endler.dev/about) has published [an article about traits that, in his opinion, the best programmers share](https://endler.dev/2025/best-programmers/). The article is not specifically about software development in the geospatial domain, but the points it lists are interesting and ought to transfer just fine to sub-disciplines of *developing*. 
+
+From the intro to the [blog post](https://endler.dev/2025/best-programmers/):
+
+> In the hope that this will be an inspiration to someone out there, I wrote down the traits I observed in the most exceptional people in our craft. I wish I had that list when I was starting out. Had I followed this path, it would have saved me a lot of time.
