@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.43</generator>
-<lastBuildDate>Mon, 14 Apr 2025 20:43:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 15 Apr 2025 19:05:00 GMT</lastBuildDate>
+<item>
+  <title>The best programmers</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/04-15-the-best-programmers/</link>
+  <description><![CDATA[ Many geospatial professions involve – varying degrees of – #programming. In a new article, Matthias Endler has collected fundamental #traits that the best #programmers he knows seem to share. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/04-15-the-best-programmers/</guid>
+  <pubDate>Tue, 15 Apr 2025 19:05:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/04-15-the-best-programmers/arthur-9CfHPa6YM4Y-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>New geospatial data in Google BigQuery</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/03-13-going-forward-maps-for-ai/</guid>
   <pubDate>Thu, 13 Mar 2025 06:40:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/03-13-going-forward-maps-for-ai/mika-baumeister-NnYbRvZUi9A-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Central nodes* in geospatial</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/03-11-central-nodes-in-geospatial/</link>
-  <description><![CDATA[ Few weeks ago, Brian Monheiser has issued this call on LinkedIn: Who are the top 10 living geospatial thought leaders whose insights you prioritize, whose talks you never miss, and whose writings you always read? ]]></description>
-  <guid>https://spatialists.ch/posts/2025/03-11-central-nodes-in-geospatial/</guid>
-  <pubDate>Tue, 11 Mar 2025 15:07:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/03-11-central-nodes-in-geospatial/thomas-couillard-ug0gPPYvG1M-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
