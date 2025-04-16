@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.43</generator>
-<lastBuildDate>Tue, 15 Apr 2025 19:05:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 16 Apr 2025 21:11:00 GMT</lastBuildDate>
+<item>
+  <title>Writing good tutorials</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/04-16-writing-good-tutorials/</link>
+  <description><![CDATA[ How do you convey complicated technical GIS and geospatial information to a potentially diverse audience clearly and helpfully? – Two blog posts, 10 years apart, offer some answers. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/04-16-writing-good-tutorials/</guid>
+  <pubDate>Wed, 16 Apr 2025 21:11:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/04-16-writing-good-tutorials/writing-for-everyone.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>The best programmers</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/03-13-google-and-esri-collaboration-in-3d/</guid>
   <pubDate>Thu, 13 Mar 2025 07:10:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/03-13-google-and-esri-collaboration-in-3d/3d-scene.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Going forward, maps for AI</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/03-13-going-forward-maps-for-ai/</link>
-  <description><![CDATA[ Here’s a big geospatial #AI wager: #Niantic, maker of AR game Pokémon Go among others, has announced that Scopely will acquire its game business and that Niantic will be spinning out a new geospatial #AI company, Niantic Spatial Inc. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/03-13-going-forward-maps-for-ai/</guid>
-  <pubDate>Thu, 13 Mar 2025 06:40:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/03-13-going-forward-maps-for-ai/mika-baumeister-NnYbRvZUi9A-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
