@@ -5,14 +5,14 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>spatialists.ch – geospatial news</title>
+<title>Spatialists – geospatial news</title>
 <link>https://spatialists.ch/</link>
 <atom:link href="https://spatialists.ch/index.xml" rel="self" type="application/rss+xml"/>
-<description>A blog about geospatial topics</description>
+<description>A blog for geospatial professionals</description>
 <language>en</language>
 <image>
 <url>https://spatialists.ch/assets/titlecard.jpg</url>
-<title>spatialists.ch – geospatial news</title>
+<title>Spatialists – geospatial news</title>
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.43</generator>
