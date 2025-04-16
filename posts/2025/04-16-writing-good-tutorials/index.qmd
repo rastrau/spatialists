@@ -1,0 +1,20 @@
+---
+title: "Writing good tutorials"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-04-16 21:11"
+image: "writing-for-everyone.png"
+description: "How do you convey complicated technical GIS and geospatial information to a potentially diverse audience clearly and helpfully? – Two blog posts, 10 years apart, offer some answers."
+---
+
+Heather Smith and the Tutorials team at Esri have published a [blog post](https://www.esri.com/arcgis-blog/products/story-maps/education/write-your-own-gis-tutorial) on writing effective tutorials about GIS and geospatial topics. However, the most valuable part is not the blog post itself but the [draft tutorial it links to](https://storymaps.arcgis.com/templates/8fae855caba84e54b87bddc3a0d6f50f), which includes explanations and instructions *for tutorial writers*.[^non-proprietary] On a separate page, there is a [collection of six tips](https://storymaps.arcgis.com/stories/5d7f6d0100da41549868412675ae835e) from the Tutorials team on how to improve your tutorial-writing skills, offering excellent advice.
+
+This post reminded my of another one: Already 10 years (!) ago[^mark], [Katy DeCorah](https://katydecorah.com/) (then at Mapbox, now at Microsoft) published *[Writing for everyone](https://katydecorah.com/writing-for-everyone/#0):*
+
+[![*Writing for everyone* by Katy DeCorah](writing-for-everyone.png "Writing for everyone, by Katy DeCorah")](https://katydecorah.com/writing-for-everyone/#0)
+
+This concise collection of tips offers outstanding advice on writing technical content clearly and with empathy for readers.^[And probably a reason why, in my view, Mapbox was a breath of fresh air at the time.] Definitely recommended reading.
+
+[^non-proprietary]: This material is presented in the form of a so-called ArcGIS StoryMap, but the ideas in the material are system- and vendor-independent.
+[^mark]: You can probably tell: It clearly left a mark, it was so eye-opening for me at the time. Thanks to my "second brain", I was able to find this resource again.
