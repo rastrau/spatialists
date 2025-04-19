@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.43</generator>
-<lastBuildDate>Wed, 16 Apr 2025 21:11:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 19 Apr 2025 16:53:00 GMT</lastBuildDate>
+<item>
+  <title>Automatic relative elevation model generation</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/04-19-automatic-relative-elevation-model-generation/</link>
+  <description><![CDATA[ OpenTopography’s #RiverREM is a #Python-based tool that automates the creation and visualization of relative elevation models (REMs) from digital elevation models, making it easier than ever for scientists, artists, and enthusiasts to explore the dynamic history and structure of river landscapes. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/04-19-automatic-relative-elevation-model-generation/</guid>
+  <pubDate>Sat, 19 Apr 2025 16:53:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/04-19-automatic-relative-elevation-model-generation/birch-creek-cropped.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Writing good tutorials</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/03-15-embag-lmeta-does-not-make-open-geodata/</guid>
   <pubDate>Sat, 15 Mar 2025 18:04:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/03-15-embag-lmeta-does-not-make-open-geodata/ansgar-scheffold-0eEbHHyMFIY-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Google and Esri collaboration in 3D</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/03-13-google-and-esri-collaboration-in-3d/</link>
-  <description><![CDATA[ #Google and #Esri have agreed on a collaboration that will bring photorealistic #3D data from Google Maps into the #ArcGIS ecosystem, starting in fall. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/03-13-google-and-esri-collaboration-in-3d/</guid>
-  <pubDate>Thu, 13 Mar 2025 07:10:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/03-13-google-and-esri-collaboration-in-3d/3d-scene.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
