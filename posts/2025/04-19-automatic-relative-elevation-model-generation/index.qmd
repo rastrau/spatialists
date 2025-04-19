@@ -1,0 +1,16 @@
+---
+title: "Automatic relative elevation model generation"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-04-19 16:53"
+image: "birch-creek-cropped.jpg"
+description: "OpenTopography’s #RiverREM is a #Python-based tool that automates the creation and visualization of relative elevation models (REMs) from digital elevation models, making it easier than ever for scientists, artists, and enthusiasts to explore the dynamic history and structure of river landscapes."
+---
+
+![Relative elevation model (REM) of Neches River (source: [OpenTopography](https://opentopography.org/blog/new-package-automates-river-relative-elevation-model-rem-generation) (fair use))](neches-river.jpg "Relative elevation model (REM) of Neches River (source: OpenTopography)")
+
+Art with scientific merit: Cartographer [Dan Coe has popularized this type of visualization](https://dancoecarto.com/) of elevations along rivers and floodplains that have the [overall trend in river elevation removed](https://www.dnr.wa.gov/publications/ger_presentations_dmt_2016_coe.pdf). This technique leaves behind elevation fluctuations more or less relative to the river. Once the elevations in this "relative elevation model" (REM) are rendered, the data exposes – even shallow – current and historical fluvial geomorphology.
+
+[OpenTopography](https://github.com/OpenTopography) offers [`RiverREM`](https://github.com/OpenTopography/RiverREM), a Python-based tool for generating and visualizing REMs automatically. The tool requires only a digital elevation model (DEM) and, optionally, a river centerline^[If no river centerline is given, the tool looks for one in OpenStreetMap, using the bounding box around the input DEM.] to run.
+
