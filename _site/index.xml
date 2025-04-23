@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.43</generator>
-<lastBuildDate>Wed, 23 Apr 2025 17:48:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 23 Apr 2025 18:18:00 GMT</lastBuildDate>
+<item>
+  <title>Boeing to sell Digital Aviation Solutions</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/04-23-boeing-to-sell-digital-aviation-solutions/</link>
+  <description><![CDATA[ Airplane builder #Boeing plans to sell its Digital #Aviation Solutions at 10.55 billion US Dollars. The sale includes several geospatial(-adjacent) subsidiaries and brands. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/04-23-boeing-to-sell-digital-aviation-solutions/</guid>
+  <pubDate>Wed, 23 Apr 2025 18:18:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/04-23-boeing-to-sell-digital-aviation-solutions/joao-xWwf1fQX9EE-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Deadlines for Prix Carto 2025 approaching</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/03-18-Best-practices-for-cloud-optimized-geotiffs/</guid>
   <pubDate>Tue, 18 Mar 2025 22:01:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Open data at a glance</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/03-17-open-data-at-a-glance/</link>
-  <description><![CDATA[ #ASIT has published an #opendata guide for #geodata. The guide covers the essentials and strikes a very nice balance with respect to covering the topic in enough depth to be valuable, while not being trivial and also not covering every tiny detail. Recommended reading for anybody interested in open data! ]]></description>
-  <guid>https://spatialists.ch/posts/2025/03-17-open-data-at-a-glance/</guid>
-  <pubDate>Mon, 17 Mar 2025 22:18:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/03-17-open-data-at-a-glance/asit-open-data-guide.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
