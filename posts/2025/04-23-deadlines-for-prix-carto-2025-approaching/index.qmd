@@ -1,0 +1,31 @@
+---
+title: "Deadlines for Prix Carto 2025 approaching"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-04-23 17:48"
+image: "prix-carto-edu-2021.jpg"
+description: "Heads-up: Two deadlines for the 2025 instalment of the prestigious bi-annual #PrixCarto, awarded by the Swiss Society of #Cartography, are approaching."
+---
+
+Two deadlines for the 2025 instalment of the prestigious bi-annual Prix 
+Carto^[Transparency note: I'm part of the jury team.], awarded by the 
+[Swiss Society of Cartography](https://kartografie.ch) (SSC), are approaching: 
+
+- Submissions until April 30 will be part of the Map Exhibition at the 
+[International Cartographic Conference](https://icaci.org/icc/) (ICC) in 
+Vancouver. 
+- The window for Prix Carto 2025 submissions will definitely close on June 30.
+
+[Submissions for the 2025 awards can be handed in online](https://kartografie.ch/prix-carto/).
+
+For context: The SSC Prix Carto award night will be held in autumn. The event 
+celebrates innovative and outstanding cartographic products with a connection to 
+Switzerland. The Prix Carto highlights excellence in cartography, geomatics, and 
+geovisualization, offering recognition across multiple categories.
+
+Besides its main category, the Prix Carto also includes two special awards to 
+foster young talent: the "Prix Carto – start", aimed at school students and 
+apprentices, and the "Prix Carto – edu", designed for university students and 
+adults in training programs. Both of the "young talent" awards carry a prize of 
+500 Swiss Francs.
