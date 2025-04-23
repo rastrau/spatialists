@@ -1,0 +1,21 @@
+---
+title: "Boeing to sell Digital Aviation Solutions"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-04-23 18:18"
+image: "joao-xWwf1fQX9EE-unsplash.jpg"
+description: "Airplane builder #Boeing plans to sell its Digital #Aviation Solutions at 10.55 billion US Dollars. The sale includes several geospatial(-adjacent) subsidiaries and brands."
+---
+
+Airplane builder [Boeing plans to sell its Digital Aviation Solutions](https://boeing.mediaroom.com/2025-04-22-Boeing-to-Sell-Portions-of-Digital-Aviation-Solutions-to-Thoma-Bravo-for-10-55-Billion) to 
+the investment company Thoma Bravo. The price is set at 10.55 
+billion^[To be clear: "Milliarden" in German, "milliards" in French.] US Dollars. The sale [includes the 
+following subsidiaries / brands](https://www.privateequitywire.co.uk/apollo-blackstone-anchor-4bn-private-credit-deal-for-thoma-bravos-jeppesen-deal/):
+
+- [Jeppesen](https://en.wikipedia.org/wiki/Jeppesen): *"a company offering navigational information, operations planning tools, flight planning products and software. Jeppesen's aeronautical navigation charts are often called 'Jepp charts' or simply 'Jepps' by pilots, due to the charts' popularity. This popularity extends to electronic charts, which are increasingly favored over paper charts by pilots and mariners as mobile computing devices, electronic flight bags, integrated electronic bridge systems and other display devices become more common and readily available."* (per Wikipedia)
+- [Foreflight](https://en.wikipedia.org/wiki/ForeFlight): *"an [information management solution] for iOS and iPadOS devices designed to assist pilots and corporate flight departments with flight planning. It includes information about facilities such as airports, [navigation aids], and air traffic ontrol facilities." (ditto)
+- [AerData](https://www.crunchbase.com/organization/aerdata): *"a provider of software and back office services for aircraft asset managers in the Netherlands."* (per Crunchbase)
+- [Ozrunways](https://www.crunchbase.com/organization/ozrunways): *"Australia's number one [information management solution], flight planner and GPS navigator for iPad and iPhone."* (ditto)
+
+Quite some (renowned) *geospatial* in this deal. It's not often that you see a precise valuation attached.
