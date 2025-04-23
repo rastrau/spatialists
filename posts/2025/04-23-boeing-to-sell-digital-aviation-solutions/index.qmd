@@ -4,7 +4,7 @@ author:
   - name: Ralph Straumann
     url: https://ralphstraumann.ch
 date: "2025-04-23 18:18"
-image: "joao-xWwf1fQX9EE-unsplash.jpg"
+image: "johnny-williams-X5hGlLv6BkE-unsplash.jpg"
 description: "Airplane builder #Boeing plans to sell its Digital #Aviation Solutions at 10.55 billion US Dollars. The sale includes several geospatial(-adjacent) subsidiaries and brands."
 ---
 
@@ -19,3 +19,5 @@ following subsidiaries / brands](https://www.privateequitywire.co.uk/apollo-blac
 - [Ozrunways](https://www.crunchbase.com/organization/ozrunways): *"Australia's number one [information management solution], flight planner and GPS navigator for iPad and iPhone."* (ditto)
 
 Quite some (renowned) *geospatial* in this deal. It's not often that you see a precise valuation attached.
+
+![Taxiing (Photo by [Johnny Williams](https://unsplash.com/@johnnycapture))](johnny-williams-X5hGlLv6BkE-unsplash.jpg "Taxiing (Photo by Johnny Williams)")
