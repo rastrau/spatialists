@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.43</generator>
-<lastBuildDate>Sat, 19 Apr 2025 16:53:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 23 Apr 2025 17:48:00 GMT</lastBuildDate>
+<item>
+  <title>Deadlines for Prix Carto 2025 approaching</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/04-23-deadlines-for-prix-carto-2025-approaching/</link>
+  <description><![CDATA[ Heads-up: Two deadlines for the 2025 instalment of the prestigious bi-annual #PrixCarto, awarded by the Swiss Society of #Cartography, are approaching. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/04-23-deadlines-for-prix-carto-2025-approaching/</guid>
+  <pubDate>Wed, 23 Apr 2025 17:48:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/04-23-deadlines-for-prix-carto-2025-approaching/prix-carto-edu-2021.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Automatic relative elevation model generation</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/03-17-open-data-at-a-glance/</guid>
   <pubDate>Mon, 17 Mar 2025 22:18:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/03-17-open-data-at-a-glance/asit-open-data-guide.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>EMBAG/LMETA does not make open geodata</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/03-15-embag-lmeta-does-not-make-open-geodata/</link>
-  <description><![CDATA[ The #EMBAG or #LMETA, a Swiss federal law enacted at the start of 2024 mandates #OpenData. But there seems to be a confusion about its effects on geoinformation. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/03-15-embag-lmeta-does-not-make-open-geodata/</guid>
-  <pubDate>Sat, 15 Mar 2025 18:04:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/03-15-embag-lmeta-does-not-make-open-geodata/ansgar-scheffold-0eEbHHyMFIY-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
