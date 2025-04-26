@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.43</generator>
-<lastBuildDate>Sat, 26 Apr 2025 15:51:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 26 Apr 2025 18:21:00 GMT</lastBuildDate>
+<item>
+  <title>GeoServer Cloud adds GeoParquet data source support</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/04-26-geoserver-cloud-adds-geoparquet-data-source-support/</link>
+  <description><![CDATA[ #GeoServer Cloud 2.27.0.0, a cloud-native, microservices-based version of GeoServer, now supports #GeoParquet DataStores, expanding its compatibility with modern #cloudnative geospatial formats alongside #FlatGeoBuf and Cloud-Optimized GeoTIFF (#COG). ]]></description>
+  <guid>https://spatialists.ch/posts/2025/04-26-geoserver-cloud-adds-geoparquet-data-source-support/</guid>
+  <pubDate>Sat, 26 Apr 2025 18:21:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/04-26-geoserver-cloud-adds-geoparquet-data-source-support/tomasz-sroka-eaxgNP4cpY8-unsplash.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Colloquium: State of SGS implementation</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/03-25-geoai-state-of-play-in-2025/</guid>
   <pubDate>Tue, 25 Mar 2025 17:36:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/03-25-geoai-state-of-play-in-2025/shahadat-rahman-voM1Z9cGPCU-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Labeling master class</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/03-21-labeling-master-class/</link>
-  <description><![CDATA[ From cartographer Andy Skinner comes this very useful resource about #labels in #cartography for both interactive and static #maps. Scale, transparency-and-opacity, hue, tone, halos, … – this guide covers many different visual variables and how they can be used to make the information in a map easier to grasp. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/03-21-labeling-master-class/</guid>
-  <pubDate>Fri, 21 Mar 2025 17:46:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/03-21-labeling-master-class/map-labels.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
