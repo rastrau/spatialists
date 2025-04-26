@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.6.43</generator>
-<lastBuildDate>Wed, 23 Apr 2025 18:18:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 26 Apr 2025 15:51:00 GMT</lastBuildDate>
+<item>
+  <title>Colloquium: State of SGS implementation</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/04-26-colloquium-state-of-sgs-implementation/</link>
+  <description><![CDATA[ The Swiss #Geoinformation Strategy (#SGS), launched in 2020, aims to make reliable, detailed, and up-to-date geoinformation easily accessible and interconnected across #Switzerland. On May 2, #Swisstopo will host a colloquium to review the progress of SGS implementation and ongoing projects. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/04-26-colloquium-state-of-sgs-implementation/</guid>
+  <pubDate>Sat, 26 Apr 2025 15:51:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/04-26-colloquium-state-of-sgs-implementation/sgs.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Boeing to sell Digital Aviation Solutions</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/03-21-labeling-master-class/</guid>
   <pubDate>Fri, 21 Mar 2025 17:46:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/03-21-labeling-master-class/map-labels.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Best practices for Cloud-Optimized GeoTIFFs</title>
-  <dc:creator>David Oesch</dc:creator>
-  <link>https://spatialists.ch/posts/2025/03-18-Best-practices-for-cloud-optimized-geotiffs/</link>
-  <description><![CDATA[ Cloud-Optimized #GeoTIFFs (#COG-s) have revolutionized the way large geospatial raster datasets are accessed and processed. From GeoStandards comes Best Practices Guide for this #cloudnativegeo format. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/03-18-Best-practices-for-cloud-optimized-geotiffs/</guid>
-  <pubDate>Tue, 18 Mar 2025 22:01:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
