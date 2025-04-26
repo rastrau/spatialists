@@ -1,0 +1,26 @@
+---
+title: "GeoServer Cloud adds GeoParquet data source support"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-04-26 18:21"
+image: "tomasz-sroka-eaxgNP4cpY8-unsplash.jpeg"
+description: "#GeoServer Cloud 2.27.0.0, a cloud-native, microservices-based version of GeoServer, 
+now supports #GeoParquet DataStores, expanding its compatibility with modern #cloudnative geospatial 
+formats alongside #FlatGeoBuf and Cloud-Optimized GeoTIFF (#COG)."
+---
+
+[GeoServer Cloud](https://geoserver.org/geoserver-cloud/) is a cloud-native version of 
+[GeoServer](https://geoserver.org/) built using dockerized microservices. 
+[Release 2.27.0.0](https://github.com/geoserver/geoserver-cloud/releases/tag/v2.27.0.0) 
+from two days ago adds support for input data in 
+[GeoParquet DataStores](https://docs.geotools.org/latest/userguide/unsupported/geoparquet.html). 
+This broadens the existing support of cloud-native input data formats which already encompassed 
+[FlatGeoBuf](https://github.com/geoserver/geoserver-cloud/tree/main/src/extensions/input-formats/vector-formats) 
+and [Cloud Optimized GeoTIFF (COG)](https://github.com/geoserver/geoserver-cloud/tree/main/src/extensions/input-formats/raster-formats).
+
+Not a GeoServer (sans "Cloud") expert, but from what I could gather from the 
+[docs](https://docs.geoserver.org/stable/en/user/data/vector/index.html#data-vector) 
+and the [extensions page](https://geoserver.org/release/stable/), GeoServer proper 
+does not seem to support GeoParquet, FGB, and COG (but, for example, a 
+[directory of shapefiles](https://docs.geoserver.org/stable/en/user/data/vector/directory.html)).
