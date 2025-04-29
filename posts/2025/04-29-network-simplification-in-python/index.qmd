@@ -1,0 +1,23 @@
+---
+title: "Network simplification in Python"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-04-29 22:41"
+image: "john-lockwood-FcLq69V7Rsc-unsplash.jpg"
+description: "neatnet: A new #Python package from Martin Fleischmann, Anastassia Vybornova, and James Gaboardi offers promising functionality for #network simplification."
+---
+
+If you have worked with GIS in transportation, you have almost inevitably come across the problem of network simplification. Maybe you wanted to do map-matching^[One of the harder problems in GIS, if you ask me.] between different street networks[^networks] where one of the networks was much more detailled than the other. Over the years, various algorithms and tools have been developed for network simplification, but none seemed to quite be able to tackle the problem.
+
+Now, an interesting approach comes from [Martin Fleischmann](https://martinfleischmann.net), [Anastassia Vybornova](https://github.com/anastassiavybornova) and [James Gaboardi](https://github.com/jGaboardi) (with support from [Anna Brázdová](https://github.com/Kryndlea) and [Daniela Dančejová](https://github.com/dancejod)) in the form of the Python package `neatnet`. The results look promising, also compared to earlier algorithms. Besides the simplification itself, `neatnet` also handles potentially [important pre-processing steps](https://uscuni.org/neatnet/simple_preprocessing.html) such as repair of dangling nodes and removal of pseudo-nodes.
+
+![Comparison of `neatnet` with other algorithms (Source: Fleischmann et al., 2025 (CC-BY-NC-SA))](fig_situations-selection.png "Comparison of neatnet with other algorithms (Source: [Fleischmann et al., 2025](https://arxiv.org/abs/2504.16198) (CC-BY-NC-SA))")
+
+If this interests you, there is:
+
+- a short [blog post](https://martinfleischmann.net/simplification-of-street-networks/) by Martin Fleischmann
+- a [pre-print of a scientific publication](https://arxiv.org/abs/2504.16198)
+- and, of course, the [Python package itself and the documentation](https://uscuni.org/neatnet/)
+
+[^networks]: I have gained my share of experiences with the networks underlying the [NPVM](https://www.are.admin.ch/npvm)/[MNTP](https://www.are.admin.ch/are/fr/home/mobilite/bases-et-donnees/modelisation-des-transports/mntp.html), [MISTRA BS](https://www.astra.admin.ch/astra/de/home/fachleute/weitere-bereiche/fachanwendungen/basissystem-bs.html), data from [STRAVA](https://metroview.strava.com) (a "massaged" version of OpenStreetMap), and data from [HERE](https://developer.here.com), for example.
