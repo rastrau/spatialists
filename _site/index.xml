@@ -15,8 +15,17 @@
 <title>Spatialists – geospatial news</title>
 <link>https://spatialists.ch/</link>
 </image>
-<generator>quarto-1.6.43</generator>
-<lastBuildDate>Sat, 26 Apr 2025 18:21:00 GMT</lastBuildDate>
+<generator>quarto-1.7.29</generator>
+<lastBuildDate>Tue, 29 Apr 2025 22:41:00 GMT</lastBuildDate>
+<item>
+  <title>Network simplification in Python</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/04-29-network-simplification-in-python/</link>
+  <description><![CDATA[ neatnet: A new #Python package from Martin Fleischmann, Anastassia Vybornova, and James Gaboardi offers promising functionality for #network simplification. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/04-29-network-simplification-in-python/</guid>
+  <pubDate>Tue, 29 Apr 2025 22:41:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/04-29-network-simplification-in-python/john-lockwood-FcLq69V7Rsc-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>GeoServer Cloud adds GeoParquet data source support</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/03-25-why-cloud-native/</guid>
   <pubDate>Tue, 25 Mar 2025 22:56:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>GeoAI: State-of-play in 2025</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/03-25-geoai-state-of-play-in-2025/</link>
-  <description><![CDATA[ The Innovation Booster #ArtificialIntelligence has released a concise review of #GeoAI in Switzerland. The report highlights significant players, innovations, and developments in the field, showcasing how #AI is being integrated into #GIS applications by established providers and startups alike. It further identifies three main areas where AI is currently being applied in GIS. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/03-25-geoai-state-of-play-in-2025/</guid>
-  <pubDate>Tue, 25 Mar 2025 17:36:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/03-25-geoai-state-of-play-in-2025/shahadat-rahman-voM1Z9cGPCU-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

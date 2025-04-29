@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ralph Straumann">
-<meta name="dcterms.date" content="2025-02-26">
-<meta name="description" content="Much (but – judging from experience – not yet enough) metaphorical ink has been spilled on this cartographic topic: Which kind of metrics lend themselves to be mapped using …">
+<meta name="dcterms.date" content="2025-04-29">
+<meta name="description" content="neatnet: A new #Python package from Martin Fleischmann, Anastassia Vybornova, and James Gaboardi offers promising functionality for #network simplification.">
 
-<title>Normalize choropleths – Spatialists – geospatial news</title>
+<title>Network simplification in Python – Spatialists – geospatial news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,13 +116,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Normalize choropleths – Spatialists – geospatial news">
-<meta property="og:description" content="Much (but – judging from experience – not yet enough) metaphorical ink has been spilled on this cartographic topic: Which kind of metrics lend themselves to be mapped using …">
-<meta property="og:image" content="https://spatialists.ch/posts/2025/02-26-normalize-your-choropleths/data-normalization.jpg">
+<meta property="og:title" content="Network simplification in Python – Spatialists – geospatial news">
+<meta property="og:description" content="neatnet: A new #Python package from Martin Fleischmann, Anastassia Vybornova, and James Gaboardi offers promising functionality for #network simplification.">
+<meta property="og:image" content="https://spatialists.ch/posts/2025/04-29-network-simplification-in-python/john-lockwood-FcLq69V7Rsc-unsplash.jpg">
 <meta property="og:site_name" content="Spatialists – geospatial news">
-<meta name="twitter:title" content="Normalize choropleths – Spatialists – geospatial news">
-<meta name="twitter:description" content="Much (but – judging from experience – not yet enough) metaphorical ink has been spilled on this cartographic topic: Which kind of metrics lend themselves to be mapped using …">
-<meta name="twitter:image" content="https://spatialists.ch/posts/2025/02-26-normalize-your-choropleths/data-normalization.jpg">
+<meta name="twitter:title" content="Network simplification in Python – Spatialists – geospatial news">
+<meta name="twitter:description" content="neatnet: A new #Python package from Martin Fleischmann, Anastassia Vybornova, and James Gaboardi offers promising functionality for #network simplification.">
+<meta name="twitter:image" content="https://spatialists.ch/posts/2025/04-29-network-simplification-in-python/john-lockwood-FcLq69V7Rsc-unsplash.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -170,10 +170,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Normalize choropleths</h1>
+      <h1 class="title">Network simplification in Python</h1>
                   <div>
         <div class="description">
-          Much (but – judging from experience – not yet enough) metaphorical ink has been spilled on this cartographic topic: Which kind of metrics lend themselves to be mapped using …
+          neatnet: A new #Python package from Martin Fleischmann, Anastassia Vybornova, and James Gaboardi offers promising functionality for #network simplification.
         </div>
       </div>
                 </div>
@@ -192,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 26, 2025</p>
+        <p class="date">April 29, 2025</p>
       </div>
     </div>
     
@@ -211,15 +211,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Much (but – judging from experience – not yet enough) metaphorical ink has been spilled on this cartographic topic: Which kind of metrics lend themselves to be mapped using a choropleth map<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Or, the other way around: How should I prepare my data in order to use it in a choropleth map?</p>
-<p>Cartographer <a href="https://www.linkedin.com/in/heather-smith-95676689">Heather Smith</a> has produced a <a href="https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7294819040991092736">video</a> that explains the factors requiring data normalization as well as some techniques for normalization in very simple terms:</p>
+<p>If you have worked with GIS in transportation, you have almost inevitably come across the problem of network simplification. Maybe you wanted to do map-matching<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> between different street networks<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> where one of the networks was much more detailled than the other. Over the years, various algorithms and tools have been developed for network simplification, but none seemed to quite be able to tackle the problem.</p>
+<p>Now, an interesting approach comes from <a href="https://martinfleischmann.net">Martin Fleischmann</a>, <a href="https://github.com/anastassiavybornova">Anastassia Vybornova</a> and <a href="https://github.com/jGaboardi">James Gaboardi</a> (with support from <a href="https://github.com/Kryndlea">Anna Brázdová</a> and <a href="https://github.com/dancejod">Daniela Dančejová</a>) in the form of the Python package <code>neatnet</code>. The results look promising, also compared to earlier algorithms. Besides the simplification itself, <code>neatnet</code> also handles potentially <a href="https://uscuni.org/neatnet/simple_preprocessing.html">important pre-processing steps</a> such as repair of dangling nodes and removal of pseudo-nodes.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7294819040991092736"><img src="data-normalization.jpg" title="Choropleth maps require derived, or normalized, metrics" class="img-fluid figure-img"></a></p>
-<figcaption>Choropleth maps require derived, or normalized, metrics</figcaption>
+<p><img src="fig_situations-selection.png" title="Comparison of neatnet with other algorithms (Source: [Fleischmann et al., 2025](https://arxiv.org/abs/2504.16198) (CC-BY-NC-SA))" class="img-fluid figure-img"></p>
+<figcaption>Comparison of <code>neatnet</code> with other algorithms (Source: Fleischmann et al., 2025 (CC-BY-NC-SA))</figcaption>
 </figure>
 </div>
-<p>The techniques shown are not tied to any particular software. The video is part of a three-part series on designing choropleth maps with <a href="https://www.linkedin.com/feed/update/urn:li:activity:7293715794285182977">part 1 here</a> and <a href="https://www.linkedin.com/feed/update/urn:li:activity:7295415002151165953">part 3 here</a>.</p>
+<p>If this interests you, there is:</p>
+<ul>
+<li>a short <a href="https://martinfleischmann.net/simplification-of-street-networks/">blog post</a> by Martin Fleischmann</li>
+<li>a <a href="https://arxiv.org/abs/2504.16198">pre-print of a scientific publication</a></li>
+<li>and, of course, the <a href="https://uscuni.org/neatnet/">Python package itself and the documentation</a></li>
+</ul>
 
 
 
@@ -227,7 +232,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>i.e., a thematic map that uses different colors or shading of areas to represent data<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>One of the harder problems in GIS, if you ask me.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>I have gained my share of experiences with the networks underlying the <a href="https://www.are.admin.ch/npvm">NPVM</a>/<a href="https://www.are.admin.ch/are/fr/home/mobilite/bases-et-donnees/modelisation-des-transports/mntp.html">MNTP</a>, <a href="https://www.astra.admin.ch/astra/de/home/fachleute/weitere-bereiche/fachanwendungen/basissystem-bs.html">MISTRA BS</a>, data from <a href="https://metroview.strava.com">STRAVA</a> (a “massaged” version of OpenStreetMap), and data from <a href="https://developer.here.com">HERE</a>, for example.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
