@@ -1,0 +1,23 @@
+---
+title: "Testing autonomous GIS"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-04-30 11:24"
+image: "alberto-moya-bUUrG6CMHiA-unsplash.jpg"
+description: "The Système d’information du territoire à Genève (#SITG) has explored #autonomous #GIS capabilities by combining #AI/#LLM technology with geoprocessing and visualization. The suite of tests is explained in an article that also highlights limitations, the most important challenges and findings as well as directions for future exploration."
+---
+
+The Système d'information du territoire à Genève (SITG) has conducted interesting tests combining generative AI (LLMs), spatial processing functions and – I suspect – a webmapping framework in a REPL-environment^["[Read-Eval-Print Loop](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)" for interactive development and piecewise execution of code. Typical REPL environments in the data domain are [Jupyter Notebooks](https://jupyter.org/) and maybe [Observable Notebooks](https://observablehq.com/platform/notebooks).]. 
+
+The tests are based on the framework [LLM-Geo](https://github.com/gladcolor/LLM-Geo). The results are summarized in a blog post "[Vers les SIG autonome](https://sitg.ge.ch/actualites/les-sig-autonomes)" (in French). The tests looked at five principles for AI use in "geo" (machine-translation):
+
+> - Auto-generation: Ability to automatically generate analyses and solutions.
+> - Auto-organization: Autonomous structuring and management of data without intervention.
+> - Auto-verification: Automatic validation of results to ensure reliability.
+> - Auto-execution: Ability to perform spatial analyses independently.
+> - Auto-growth: Continuous learning and system improvement based on its experiences.
+
+![An example of a test conducted by the SITG that involves data ingestion and conversion, thematic filtering, a spatial overlay operation and visual output](cas2-jointuresspatiales.jpg "An example of a test conducted by the SITG that involves data ingestion and conversion, thematic filtering, a spatial overlay operation and visual output")
+
+There is a good accounting of limitations and challenges, interesting findings as well as directions for follow-up work. [Recommended reading](https://sitg.ge.ch/actualites/les-sig-autonomes).
