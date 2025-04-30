@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2025/04-30-testing-autonomous-gis/index.html",
       "/posts/2025/04-29-network-simplification-in-python/index.html",
       "/posts/2025/04-26-geoserver-cloud-adds-geoparquet-data-source-support/index.html",
       "/posts/2025/04-26-colloquium-state-of-sgs-implementation/index.html",

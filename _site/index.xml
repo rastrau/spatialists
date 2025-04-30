@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.29</generator>
-<lastBuildDate>Tue, 29 Apr 2025 22:41:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 30 Apr 2025 11:24:00 GMT</lastBuildDate>
+<item>
+  <title>Testing autonomous GIS</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/04-30-testing-autonomous-gis/</link>
+  <description><![CDATA[ The Système d’information du territoire à Genève (#SITG) has explored #autonomous #GIS capabilities by combining #AI/#LLM technology with geoprocessing and visualization. The suite of tests is explained in an article that also highlights limitations, the most important challenges and findings as well as directions for future exploration. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/04-30-testing-autonomous-gis/</guid>
+  <pubDate>Wed, 30 Apr 2025 11:24:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/04-30-testing-autonomous-gis/alberto-moya-bUUrG6CMHiA-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Network simplification in Python</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/03-26-open-doors-at-swisstopo/</guid>
   <pubDate>Wed, 26 Mar 2025 18:37:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/03-26-open-doors-at-swisstopo/swisstopo.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Why cloud-native?</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/03-25-why-cloud-native/</link>
-  <description><![CDATA[ Kyle Barron, cloud engineer at Development Seed and developer of Lonboard, offers interesting insights into the cloudnativegeo paradigm in a recent interview with CNG. He discusses Parquet, GeoParquet, and GeoArrow, explaining their characteristics and potential to significantly improve geospatial data handling. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/03-25-why-cloud-native/</guid>
-  <pubDate>Tue, 25 Mar 2025 22:56:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
