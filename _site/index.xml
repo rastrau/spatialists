@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.29</generator>
-<lastBuildDate>Wed, 30 Apr 2025 11:24:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 04 May 2025 13:56:00 GMT</lastBuildDate>
+<item>
+  <title>Marco Bernasocchi on QField</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/05-04-marco-bernasocchi-on-qfield/</link>
+  <description><![CDATA[ A recent #Mapscaping podcast episode features Marco Bernasocchi who shares the story behind #QField – a mobile app for field data collection. Marco Bernasocchi discusses the evolution of QField and QFieldCloud and the broader open-source movement. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/05-04-marco-bernasocchi-on-qfield/</guid>
+  <pubDate>Sun, 04 May 2025 13:56:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/05-04-marco-bernasocchi-on-qfield/gerold-hinzen-WoZs8gGyQBY-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Testing autonomous GIS</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/03-27-the-origins-of-giscience-in-switzerland-with-rob-weibel/</guid>
   <pubDate>Thu, 27 Mar 2025 19:04:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/03-27-the-origins-of-giscience-in-switzerland-with-rob-weibel/Robert-Weibel.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Open doors at swisstopo</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/03-26-open-doors-at-swisstopo/</link>
-  <description><![CDATA[ The Federal Office of Topography #swisstopo is opening its doors to the public on May 24. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/03-26-open-doors-at-swisstopo/</guid>
-  <pubDate>Wed, 26 Mar 2025 18:37:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/03-26-open-doors-at-swisstopo/swisstopo.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
