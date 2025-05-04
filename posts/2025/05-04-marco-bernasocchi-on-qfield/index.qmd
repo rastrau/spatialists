@@ -1,0 +1,20 @@
+---
+title: "Marco Bernasocchi on QField"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-05-04 13:56"
+image: "gerold-hinzen-WoZs8gGyQBY-unsplash.jpg"
+description: "A recent #Mapscaping podcast episode features Marco Bernasocchi who shares the story behind #QField – a mobile app for field data collection. Marco Bernasocchi discusses the evolution of QField and QFieldCloud and the broader open-source movement."
+---
+
+A while ago[^delay], the [Mapscaping podcast](https://mapscaping.com) had an interview with [Marco Bernasocchi](https://berna.io), founder and CEO of [OPENGIS.ch](https://opengis.ch), chair of the [QGIS Project Steering Committe](https://www.qgis.org/community/organisation/) and [OSGeo board member](https://www.osgeo.org/about/board/). In the podcast episode, Marco Bernasocchi gives insight into the origins of [QField](https://qfield.org) and speaks about current developments around QField, QFieldCloud and QFieldSync, but also a bit more broadly about the open-source movement. 
+
+From the podcast:
+
+> It’s really, really neat to see what our tool is doing worldwide, how much people are using it. I don’t know if I mentioned before, we have almost a million downloads and are doing 320,000 active users per month. And this number is only on Android. We don’t know about, obviously, MacOS, Linux, and Windows.
+
+[Here's the episode](https://mapscaping.com/podcast/qfield/). There is also an (automatic) transcript.
+
+[^delay]: Beware, this *might* be old news to you: The podcast episode is from September. I'm a bit behind with my podcast queue.
+
