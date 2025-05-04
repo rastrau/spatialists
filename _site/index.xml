@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.29</generator>
-<lastBuildDate>Sun, 04 May 2025 13:56:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 04 May 2025 15:08:00 GMT</lastBuildDate>
+<item>
+  <title>Unofficial public transport maps</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/05-04-unofficial-public-transport-maps/</link>
+  <description><![CDATA[ “Lars’ Transport Maps” is a project by a transport planner passionate about #train-travel and #mapdesign, offering a growing collection of unofficial #publictransport maps for European countries. The maps cover a wide range of services with particular depth given to the Swiss #rail network, featuring a detailed historical series since 1982. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/05-04-unofficial-public-transport-maps/</guid>
+  <pubDate>Sun, 04 May 2025 15:08:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/05-04-unofficial-public-transport-maps/lars-transport-map-switzerland.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Marco Bernasocchi on QField</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/03-31-new-map-viewer-for-the-canton-of-aargau/</guid>
   <pubDate>Mon, 31 Mar 2025 07:21:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/03-31-new-map-viewer-for-the-canton-of-aargau/ag-map-viewer.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>The origins of GIScience in Switzerland with Rob Weibel</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/03-27-the-origins-of-giscience-in-switzerland-with-rob-weibel/</link>
-  <description><![CDATA[ Robert Weibel, Professor of Geographic Information Science at the University of Zurich, retired at the end of January 2025 after a distinguished career spanning over three decades. In an interview, Rob reflects on the remarkable evolution of Geographic Information Science, from its early days to its current status as a widely accepted scientific sub-discipline of geography. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/03-27-the-origins-of-giscience-in-switzerland-with-rob-weibel/</guid>
-  <pubDate>Thu, 27 Mar 2025 19:04:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/03-27-the-origins-of-giscience-in-switzerland-with-rob-weibel/Robert-Weibel.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
