@@ -1,0 +1,34 @@
+---
+title: "Unofficial public transport maps"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-05-04 15:08"
+image: "lars-transport-map-switzerland.jpg"
+description: '"Lars’ Transport Maps" is a project by a transport planner passionate about #train-travel and #mapdesign, offering a growing collection of unofficial #publictransport maps for European countries. The maps cover a wide range of services with particular depth given to the Swiss #rail network, featuring a detailed historical series since 1982.'
+---
+
+[Lars' Transport Maps](https://larstransportmaps.com/) is the project of a transport planner based in Switzerland who "love[s] travelling through Europe by train and creating transport maps". The site features a growing collection of visually appealing, though unofficial, public transport maps. So, far the following countries are included: 
+
+- Austria
+- Belgium
+- Denmark
+- Finland
+- France
+- Germany
+- Luxembourg
+- Netherlands
+- Norway
+- Sweden and
+- Switzerland
+
+The maps cover the regular train network, general train services, high-speed trains, long-distance trains, and night trains, among others. Many of the maps appear to receive annual updates. 
+
+![Long-distance Rail in Switzerland 2025 (source: [Lars' Transport Maps](https://larstransportmaps.com/2025/01/06/long-distance-rail-in-switzerland-2025/))](lars-transport-map-switzerland.jpg "Long-distance Rail in Switzerland 2025 (source: Lars' Transport Maps)")
+
+The [Swiss train network](https://larstransportmaps.com/2022/02/09/the-evolution-of-long-distance-traffic-in-switzerland-since-1982/) is covered in particularly great detail with [an article and a series of maps tracing changes since 1982](https://larstransportmaps.com/2022/02/09/the-evolution-of-long-distance-traffic-in-switzerland-since-1982/).
+
+All the maps are worth exploring; personally, I found the [French high-speed train network](https://larstransportmaps.com/2025/02/23/high-speed-rail-in-france-2025/) especially striking.
+
+
+
