@@ -1,0 +1,29 @@
+---
+title: '"Dis, pourquoi?" on toponyms and maps'
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-05-05 22:40"
+image: "the-new-york-public-library-Gfo7CyXkx3g-unsplash.jpg"
+description: "Over the past two weeks, #RTS’s “Dis, pourquoi?” dedicated its episodes to an in-depth look at #toponymy and at #maps and #cartography, featuring Frédéric Giraut of the University of Geneva for the former and Pascal Marguerat and Raphaël Bovier of #Swisstopo for the latter topic."
+---
+
+The program "[Dis, pourquoi?](https://www.rts.ch/audio-podcast/2021/emission/dis-pourquoi-25785419.html)" on RTS^[Radio Télévision Suisse] devoted the last two weeks to geospatial topics: 
+
+From April 21 to April 25, the show aired five episodes focused on **toponyms**^[place names] **and toponymy**^[the study of place names], featuring [Frédéric Giraut](https://www.unige.ch/sciences-societe/geo/membres/enseignants/girautfrederic), professor of human geography at the University of Geneva and coordinator of the [UNESCO chair in inclusive toponymy "Naming the World"](https://www.unige.ch/medias/en/2021/une-nouvelle-chaire-unesco-en-toponymie-inclusive) (all episodes are in French):
+
+- Toponymy 1/5: [What is toponymy?](https://www.rts.ch/audio-podcast/2025/audio/qu-est-ce-que-la-toponymie-toponymie-1-5-28860393.html)
+- Toponymy 2/5: [What are the challenges of toponymy?](https://www.rts.ch/audio-podcast/2025/audio/quels-sont-les-enjeux-de-la-toponymie-toponymie-2-5-28861317.html)
+- Toponymy 3/5: [Do we need to rename streets?](https://www.rts.ch/audio-podcast/2025/audio/faut-il-rebaptiser-les-noms-de-rue-toponymie-3-5-28862228.html)
+- Toponymy 4/5: [What is addressing?](https://www.rts.ch/audio-podcast/2025/audio/qu-est-ce-que-l-adressage-toponymie-4-5-28863339.html)
+- Toponymy 5/5: [What are the challenges of toponymy in the Global South?](https://www.rts.ch/audio-podcast/2025/audio/quels-sont-les-enjeux-de-la-toponymie-dans-le-sud-toponymie-5-5-28864229.html)
+
+From April 28 to May 2, the program presented five episodes on **maps**, exploring their history, current production, and future, with Pascal Marguerat, cartographer at Swisstopo, the Swiss Federal Office of Topography, and [Raphaël Bovier](https://www.linkedin.com/in/raphaël-bovier-3894199/), responsible for digital data distribution at Swisstopo (these episodes are also in French):
+
+- Maps 1/5: [What is a map?](https://www.rts.ch/audio-podcast/2025/audio/qu-est-ce-qu-une-carte-cartes-1-5-28866840.html)
+- Maps 2/5: [What is the history of cartography?](https://www.rts.ch/audio-podcast/2025/audio/quelle-est-l-histoire-de-la-cartographie-cartes-2-5-28867894.html)
+- Maps 3/5: [What do maps tell?](https://www.rts.ch/audio-podcast/2025/audio/que-racontent-les-cartes-cartes-3-5-28868969.html)
+- Maps 4/5: [How do you produce a map today?](https://www.rts.ch/audio-podcast/2025/audio/comment-fait-on-une-carte-aujourd-hui-cartes-4-5-28870002.html)
+- Maps 5/5: [What is the future of cartography?](https://www.rts.ch/audio-podcast/2025/audio/quel-est-le-futur-de-la-cartographie-cartes-5-5-28871164.html)
+
+!["Carte générale de l'atlas Suisse", 1802, from [The New York Public Library Digital Collections](https://digitalcollections.nypl.org/items/b43ab709-17b9-f298-e040-e00a18061e2f)](the-new-york-public-library-Gfo7CyXkx3g-unsplash-large.jpg ""Carte générale de l'atlas Suisse", 1802, from The New York Public Library Digital Collections")
