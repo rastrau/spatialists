@@ -15,8 +15,17 @@
 <title>Spatialists – geospatial news</title>
 <link>https://spatialists.ch/</link>
 </image>
-<generator>quarto-1.7.29</generator>
-<lastBuildDate>Sun, 04 May 2025 15:08:00 GMT</lastBuildDate>
+<generator>quarto-1.7.30</generator>
+<lastBuildDate>Mon, 05 May 2025 22:40:00 GMT</lastBuildDate>
+<item>
+  <title>“Dis, pourquoi?” on toponyms and maps</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/05-05-dis-pourquoi-on-toponyms-and-maps/</link>
+  <description><![CDATA[ Over the past two weeks, #RTS’s “Dis, pourquoi?” dedicated its episodes to an in-depth look at #toponymy and at #maps and #cartography, featuring Frédéric Giraut of the University of Geneva for the former and Pascal Marguerat and Raphaël Bovier of #Swisstopo for the latter topic. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/05-05-dis-pourquoi-on-toponyms-and-maps/</guid>
+  <pubDate>Mon, 05 May 2025 22:40:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/05-05-dis-pourquoi-on-toponyms-and-maps/the-new-york-public-library-Gfo7CyXkx3g-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Unofficial public transport maps</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/04-01-open-sar-data/</guid>
   <pubDate>Tue, 01 Apr 2025 17:31:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/04-01-open-sar-data/sentinel-1.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>New map viewer for the canton of Aargau</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/03-31-new-map-viewer-for-the-canton-of-aargau/</link>
-  <description><![CDATA[ A few days ago, the Canton of #Aargau unveiled its new browser-based map viewer, built using #OpenLayers and #React. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/03-31-new-map-viewer-for-the-canton-of-aargau/</guid>
-  <pubDate>Mon, 31 Mar 2025 07:21:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/03-31-new-map-viewer-for-the-canton-of-aargau/ag-map-viewer.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
