@@ -35,7 +35,7 @@ by your run-off-the-mill GIS software. More of this, please.
 
 [^O'Sullivan]: "O'Sullivan" in GIS... – Wait, what is this bell going off in my head? 
 I was very pleased to realize that I was looking at the website of the O'Sullivan 
-of "O'Sullivan and Unwin (2003)" (or 2010, 2nd ed.). This is [my all-time favorite 
-book on GIS and spatial analyis](https://dosull.github.io/books.html).
+of "O'Sullivan and Unwin (2003): Geographic Information Analysis" (or 2010, 2nd ed.). 
+This is [my all-time favorite book on GIS and spatial analyis](https://dosull.github.io/books.html).
 
 [^RobRoth]: See [here](https://andywoodruff.com/blog/value-by-alpha-maps/), for example.
