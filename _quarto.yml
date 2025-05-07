@@ -32,3 +32,6 @@ format:
       - file: mailerlite-newsletter-form-code.html
       - file: mastodon-verification-code.html
       - file: matomo-statistics-code.html
+
+execute:
+  freeze: auto
