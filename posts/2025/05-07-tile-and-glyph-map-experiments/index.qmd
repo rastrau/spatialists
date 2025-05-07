@@ -1,0 +1,41 @@
+---
+title: "Tile and glyph map experiments"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-05-07 21:53"
+image: "map-weave.jpg"
+description: "David O’Sullivan explores innovative visualizations of complex #multivariate data on #maps, using a case study with three variables. His article showcases creative #mapping techniques pushing the boundaries of traditional GIS #visualization."
+---
+
+From David O'Sullivan[^O'Sullivan], self-described geospatial "problem solver, researcher, 
+analyst, communicator, and trainer":
+
+> In this post I look at a relatively simple example of [the problem of presenting 
+complex multivariate data in single map views] (...) I’m deliberately not going to 
+say what the data represent. Suffice to say we have three variables, shown below 
+for a chunk of New Zealand. From left to right, these are a resource potentially 
+at risk, and two risk factors.
+
+David O'Sullivan walks us through various considerations and design alternatives 
+to show the afore-mentioned data in a single map: tile maps using tilings of 
+squares and other shapes, glyph maps, tile maps with diagrams, and a tile map 
+combined with the *value-by-alpha* method popularized by Rob Roth[^RobRoth], for example.
+
+![Just one of the explorations: Tri-partite hexagon-based tiling scheme displaying three variables (source: David O'Sullivan)](07-3-slices-hex.png "Just one of the explorations: Tri-partite hexagon-based tiling scheme displaying three variables (source: David O'Sullivan)")
+
+In this article, I also learned about 
+[MapWeaver](https://dosull.github.io/mapweaver/app/), a software that allows you 
+to conduct your own experiments with various tiling schemes, and the underlying 
+[Python package `weavingspace`](https://github.com/DOSull/weaving-space).
+
+I *love* the out-of-the-box experimentation of this article and the more 
+avant-garde approaches that challenge traditional visualization methods offered 
+by your run-off-the-mill GIS software. More of this, please.
+
+[^O'Sullivan]: "O'Sullivan" in GIS... – Wait, what is this bell going off in my head? 
+I was very pleased to realize that I was looking at the website of the O'Sullivan 
+of "O'Sullivan and Unwin (2003)" (or 2010, 2nd ed.). This is [my all-time favorite 
+book on GIS and spatial analyis](https://dosull.github.io/books.html).
+
+[^RobRoth]: See [here](https://andywoodruff.com/blog/value-by-alpha-maps/), for example.
