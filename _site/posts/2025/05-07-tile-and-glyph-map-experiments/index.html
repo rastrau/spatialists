@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ralph Straumann">
-<meta name="dcterms.date" content="2025-03-15">
-<meta name="description" content="The #EMBAG or #LMETA, a Swiss federal law enacted at the start of 2024 mandates #OpenData. But there seems to be a confusion about its effects on geoinformation.">
+<meta name="dcterms.date" content="2025-05-07">
+<meta name="description" content="David O’Sullivan explores innovative visualizations of complex #multivariate data on #maps, using a case study with three variables. His article showcases creative #mapping techniques pushing the boundaries of traditional GIS #visualization.">
 
-<title>EMBAG/LMETA does not make open geodata – Spatialists – geospatial news</title>
+<title>Tile and glyph map experiments – Spatialists – geospatial news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,13 +116,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="EMBAG/LMETA does not make open geodata – Spatialists – geospatial news">
-<meta property="og:description" content="The #EMBAG or #LMETA, a Swiss federal law enacted at the start of 2024 mandates #OpenData. But there seems to be a confusion about its effects on geoinformation.">
-<meta property="og:image" content="https://spatialists.ch/posts/2025/03-15-embag-lmeta-does-not-make-open-geodata/ansgar-scheffold-0eEbHHyMFIY-unsplash.jpg">
+<meta property="og:title" content="Tile and glyph map experiments – Spatialists – geospatial news">
+<meta property="og:description" content="David O’Sullivan explores innovative visualizations of complex #multivariate data on #maps, using a case study with three variables. His article showcases creative #mapping techniques pushing the boundaries of traditional GIS #visualization.">
+<meta property="og:image" content="https://spatialists.ch/posts/2025/05-07-tile-and-glyph-map-experiments/map-weave.jpg">
 <meta property="og:site_name" content="Spatialists – geospatial news">
-<meta name="twitter:title" content="EMBAG/LMETA does not make open geodata – Spatialists – geospatial news">
-<meta name="twitter:description" content="The #EMBAG or #LMETA, a Swiss federal law enacted at the start of 2024 mandates #OpenData. But there seems to be a confusion about its effects on geoinformation.">
-<meta name="twitter:image" content="https://spatialists.ch/posts/2025/03-15-embag-lmeta-does-not-make-open-geodata/ansgar-scheffold-0eEbHHyMFIY-unsplash.jpg">
+<meta name="twitter:title" content="Tile and glyph map experiments – Spatialists – geospatial news">
+<meta name="twitter:description" content="David O’Sullivan explores innovative visualizations of complex #multivariate data on #maps, using a case study with three variables. His article showcases creative #mapping techniques pushing the boundaries of traditional GIS #visualization.">
+<meta name="twitter:image" content="https://spatialists.ch/posts/2025/05-07-tile-and-glyph-map-experiments/map-weave.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -170,10 +170,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">EMBAG/LMETA does not make open geodata</h1>
+      <h1 class="title">Tile and glyph map experiments</h1>
                   <div>
         <div class="description">
-          The #EMBAG or #LMETA, a Swiss federal law enacted at the start of 2024 mandates #OpenData. But there seems to be a confusion about its effects on geoinformation.
+          David O’Sullivan explores innovative visualizations of complex #multivariate data on #maps, using a case study with three variables. His article showcases creative #mapping techniques pushing the boundaries of traditional GIS #visualization.
         </div>
       </div>
                 </div>
@@ -192,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">March 15, 2025</p>
+        <p class="date">May 7, 2025</p>
       </div>
     </div>
     
@@ -211,44 +211,19 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<p>From David O’Sullivan<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, self-described geospatial “problem solver, researcher, analyst, communicator, and trainer”:</p>
+<blockquote class="blockquote">
+<p>In this post I look at a relatively simple example of [the problem of presenting complex multivariate data in single map views] (…) I’m deliberately not going to say what the data represent. Suffice to say we have three variables, shown below for a chunk of New Zealand. From left to right, these are a resource potentially at risk, and two risk factors.</p>
+</blockquote>
+<p>David O’Sullivan walks us through various considerations and design alternatives to show the afore-mentioned data in a single map: tile maps using tilings of squares and other shapes, glyph maps, tile maps with diagrams, and a tile map combined with the <em>value-by-alpha</em> method popularized by Rob Roth<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, for example.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="ansgar-scheffold-0eEbHHyMFIY-unsplash.jpg" title="The Federal Palace of Switzerland" class="img-fluid figure-img"></p>
-<figcaption>The Federal Palace of Switzerland (Photo by <a href="https://unsplash.com/@ansgarscheffold">Ansgar Scheffold</a>)</figcaption>
+<p><img src="07-3-slices-hex.png" title="Just one of the explorations: Tri-partite hexagon-based tiling scheme displaying three variables (source: David O'Sullivan)" class="img-fluid figure-img"></p>
+<figcaption>Just one of the explorations: Tri-partite hexagon-based tiling scheme displaying three variables (source: David O’Sullivan)</figcaption>
 </figure>
 </div>
-<p>The EMBAG<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> or LMETA<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, a Swiss federal law enacted at the start of 2024<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>, aims to promote digital workflows for federal government processes (“digital first”). To that end, it for example lays out principles to promote e-government at the federal level and for collaborating with other e-government entities. Among other things, the EMBAG/LMETA further mandates that:</p>
-<ul>
-<li>software developed by or for federal authorities must, in principle, be <em>open-source</em> (<a href="https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_9">article 9</a>)</li>
-<li>data acquired, generated or stored by federal authorities for fulfilling their tasks must, in principle, be <em>open data</em> (<a href="https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10">article 10</a>).</li>
-</ul>
-<p>I often encounter the opinion that because of this the EMBAG/LMETA <em>mandates geodata of the federal government to be open data</em><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>. However, this is <em>not</em> the case, as I learned about a year ago. But beware: IANAL, that is, <em>I Am Not A Lawyer</em>, as they say.</p>
-<p>The relevant part of the EMBAG/LMETA is Art. 10 Abs. 2 lit. b or Art. 10 Al. 2 let. b, respectively (below in machine-translation):</p>
-<blockquote class="blockquote">
-<p>[Not made publicly accessible are:] Data that are not published or only published under more restrictive conditions based on cantonal or other federal regulations, particularly due to provisions concerning copyrights, confidentiality obligations whose violation is subject to criminal prosecution, information security, and official registers;</p>
-</blockquote>
-<p>A key term here is <em>“particularly due to”</em>, meaning that what follows is not an exhaustive list. In order to learn more, it’s instructive to check the message of the Federal Council that accompanied the draft for the EMBAG/LMETA: <a href="https://www.fedlex.admin.ch/eli/fga/2022/804/de">in German</a> / <a href="https://www.fedlex.admin.ch/eli/fga/2022/804/fr">in French</a>.</p>
-<div class="callout callout-style-default callout-note callout-titled" title="What is a message of the Federal Council?">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-What is a message of the Federal Council?
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><a href="https://de.wikipedia.org/wiki/Botschaft_des_Bundesrates">Federal Council messages</a> (“Botschaft” in German, “Message” in French) accompany draft decrees. They are regulated in <a href="https://www.fedlex.admin.ch/eli/cc/2003/510/de#art_141">Art. 141 of the Swiss Parliament Law</a>. Their purpose is to inform the parliament about the intent and the goals behind a draft decree, the problems it aims to solve, implications for basic rights, financial and personnel impacts etc. Federal Council messages are important because they are regularly used by the Swiss judiciary as interpretative aids to clarify (if needed) the meaning of the corresponding decrees.</p>
-</div>
-</div>
-</div>
-<p>Where the message of the Federal Council discusses Art. 10, we find the following (machine-translation):</p>
-<blockquote class="blockquote">
-<p>The list of legal bases in letter b is not formulated exhaustively and can, in principle, include additional legal foundations. However, the legislator is required to be guided by the “open data by default” principle established in paragraph 1 and to allow additional exceptions only restrictively and after carefully weighing the interests involved. For example, in the field of geoinformation, there are already special legal regulations for access to and use of official geodata that take precedence over EMBAG/LMETA Article 10, but which also anchor the Open Government Data (OGD) principle.</p>
-</blockquote>
-<p>To conclude, from my layperson’s perspective: The EMBAG/LMETA does <em>not</em> advance OGD for geodata, as previous regulations specific to the geospatial field take precedence.</p>
+<p>In this article, I also learned about <a href="https://dosull.github.io/mapweaver/app/">MapWeaver</a>, a software that allows you to conduct your own experiments with various tiling schemes, and the underlying <a href="https://github.com/DOSull/weaving-space">Python package <code>weavingspace</code></a>.</p>
+<p>I <em>love</em> the out-of-the-box experimentation of this article and the more avant-garde approaches that challenge traditional visualization methods offered by your run-off-the-mill GIS software. More of this, please.</p>
 
 
 
@@ -256,10 +231,8 @@ What is a message of the Federal Council?
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG)<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA)<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>If you are interested in the full history of the legislative process around EMBAG/LMETA, you can see that <a href="https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20220022">here in German</a> or <a href="https://www.parlament.ch/fr/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20220022">here in French</a>. If you are interested in even more detail about some of the changes the law experienced over its drafting phase, the documents of the consultation procedure are also available (<a href="https://www.fedlex.admin.ch/de/consultation-procedures/ended/2020#https://fedlex.data.admin.ch/eli/dl/proj/6020/72/cons_1">German</a>/<a href="https://www.fedlex.admin.ch/fr/consultation-procedures/ended/2020#https://fedlex.data.admin.ch/eli/dl/proj/6020/72/cons_1">French</a>).<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>For lower levels of government in Switzerland, the EMBAG/LMETA is not binding anyway.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>“O’Sullivan” in GIS… – Wait, what is this bell going off in my head? I was very pleased to realize that I was looking at the website of the O’Sullivan of “O’Sullivan and Unwin (2003)” (or 2010, 2nd ed.). This is <a href="https://dosull.github.io/books.html">my all-time favorite book on GIS and spatial analyis</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>See <a href="https://andywoodruff.com/blog/value-by-alpha-maps/">here</a>, for example.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

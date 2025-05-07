@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.30</generator>
-<lastBuildDate>Mon, 05 May 2025 22:40:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 07 May 2025 21:53:00 GMT</lastBuildDate>
+<item>
+  <title>Tile and glyph map experiments</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/05-07-tile-and-glyph-map-experiments/</link>
+  <description><![CDATA[ David O’Sullivan explores innovative visualizations of complex #multivariate data on #maps, using a case study with three variables. His article showcases creative #mapping techniques pushing the boundaries of traditional GIS #visualization. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/05-07-tile-and-glyph-map-experiments/</guid>
+  <pubDate>Wed, 07 May 2025 21:53:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/05-07-tile-and-glyph-map-experiments/map-weave.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>“Dis, pourquoi?” on toponyms and maps</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/04-04-tool-tip-tippecanoe-command-generator/</guid>
   <pubDate>Fri, 04 Apr 2025 14:34:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/04-04-tool-tip-tippecanoe-command-generator/tippecanoe-command-generator.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Open SAR data</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/04-01-open-sar-data/</link>
-  <description><![CDATA[ Synthetic Aperture Radar (#SAR) is an interesting #remotesensing technology that captures high-resolution data of the Earth’s surface, regardless of weather or lighting conditions. This curated collection of open SAR data sources provides an excellent starting point for exploring this powerful technology, whether for research, experimentation, or practical applications. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/04-01-open-sar-data/</guid>
-  <pubDate>Tue, 01 Apr 2025 17:31:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/04-01-open-sar-data/sentinel-1.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
