@@ -31,7 +31,7 @@ to conduct your own experiments with various tiling schemes, and the underlying
 
 I *love* the out-of-the-box experimentation of [this article](https://dosull.github.io/posts/2025-05-02-tiles-and-glyphs/tiles-and-glyphs.html) and the more 
 avant-garde approaches that challenge traditional visualization methods offered 
-by your run-off-the-mill GIS software. More of this, please.
+by your run-of-the-mill GIS software. More of this, please.
 
 [^O'Sullivan]: "O'Sullivan" in GIS... – Wait, what is this bell going off in my head? 
 I was very pleased to realize that I was looking at the website of the O'Sullivan 
