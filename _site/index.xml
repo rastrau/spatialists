@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.30</generator>
-<lastBuildDate>Wed, 07 May 2025 21:53:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 08 May 2025 19:41:00 GMT</lastBuildDate>
+<item>
+  <title>Snap Map: Spatial social</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/05-08-snap-map-spatial-social/</link>
+  <description><![CDATA[ Apparently, #Snapchat, like other #socialmedia companies, has been exploring geospatial use-cases. TechCrunch compiled some interesting usage numbers. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/05-08-snap-map-spatial-social/</guid>
+  <pubDate>Thu, 08 May 2025 19:41:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/05-08-snap-map-spatial-social/kaleb-nimz--5rA4DRrEXU-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Tile and glyph map experiments</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/04-05-serving-vector-tiles-fast/</guid>
   <pubDate>Sat, 05 Apr 2025 16:05:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/04-05-serving-vector-tiles-fast/ganesh-partheeban-A9pIo2VEI5A-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Tool tip: Tippecanoe Command Generator</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/04-04-tool-tip-tippecanoe-command-generator/</link>
-  <description><![CDATA[ If you create, or are curious about, #VectorTiles, you may have come across the command line utility #Tippecanoe (TIP-ə-kə-NOO). It’s probably no secret that its usage is not entirely trivial, but there is a helpful tool for this now. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/04-04-tool-tip-tippecanoe-command-generator/</guid>
-  <pubDate>Fri, 04 Apr 2025 14:34:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/04-04-tool-tip-tippecanoe-command-generator/tippecanoe-command-generator.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
