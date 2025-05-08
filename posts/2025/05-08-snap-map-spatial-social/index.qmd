@@ -1,0 +1,37 @@
+---
+title: "Snap Map: Spatial social"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-05-08 19:41"
+image: "kaleb-nimz--5rA4DRrEXU-unsplash.jpg"
+description: "Apparently, #Snapchat, like other #socialmedia companies, has been 
+exploring geospatial use-cases. TechCrunch compiled some interesting usage numbers."
+---
+
+Spatial social^[I just made up this term, 
+I [*think*](https://www.everythingisaremix.info/watch-the-series/)] – Apparently, 
+Snapchat, like other social media companies, has been exploring geospatial 
+use-cases. From [TechCrunch (which also compiles a few more examples of spatial 
+social)](https://techcrunch.com/2025/05/07/snap-map-reaches-new-milestone-of-400m-monthly-active-users/):
+
+> Snapchat announced on Wednesday that Snap Map now has more than 400 million 
+monthly active users[^MAU], a new milestone for one of the app’s core features. (...) 
+[The Snapchat feature] now offers ways for users to discover local hotspots and 
+find things to do. (...)
+
+And:
+
+> Last year, the company launched a "Footsteps" feature that lets you see how 
+much of the world you’ve explored and track where you’ve traveled. Plus, 
+Snapchat rolled out "Promoted Places" on Snap Map as a way for users to 
+discover new places. For brands, Promoted Places offers the ability to 
+advertise and showcase all of their locations on Snap Map.
+
+For – admittedly slightly oblique – comparison: [In 2023](https://www.swisstopo.admin.ch/de/swisstopo-in-zahlen), 
+map.geo.admin.ch recorded approximately 2 million monthly *visits*. Thus, 
+presumably: Quite a bit fewer users. But of course, of exclusively people with 
+interest in Switzerland.
+
+[^MAU]: [Monthly active users](https://en.wikipedia.org/wiki/Active_users), 
+often "MAUs", are a key software performance metric.
