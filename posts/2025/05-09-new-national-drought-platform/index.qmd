@@ -11,7 +11,7 @@ description: "The Federal Government has launched a new National #Drought Platfo
 Yesterday, the Federal Government has launched a [new national platform to monitor draught 
 risks](https://www.trockenheit.admin.ch/en). The platform was jointly developed by the 
 [Federal Office for the Environment](https://www.bafu.admin.ch/bafu/en/home.html) (FOEN), 
-[MeteoSwitzerland](https://www.meteoswiss.admin.ch/#tab=forecast-map), and 
+[MeteoSwiss](https://www.meteoswiss.admin.ch/#tab=forecast-map), and 
 [Swisstopo](https://www.swisstopo.admin.ch/en). From the press release (in 
 [German](https://www.news.admin.ch/de/newnsb/uM-Mc120LtpPl7uVuRkti), in 
 [French](https://www.news.admin.ch/fr/newnsb/uM-Mc120LtpPl7uVuRkti)):
