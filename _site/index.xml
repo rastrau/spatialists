@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.30</generator>
-<lastBuildDate>Thu, 08 May 2025 19:41:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 09 May 2025 16:48:00 GMT</lastBuildDate>
+<item>
+  <title>New national drought platform</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/05-09-new-national-drought-platform/</link>
+  <description><![CDATA[ The Federal Government has launched a new National #Drought Platform providing standardized, up-to-date information and forecasts on drought risks across Switzerland. The platform integrates #remotesensing data for #vegetation health and data on precipitation, soil moisture, rivers, lakes, and groundwater. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/05-09-new-national-drought-platform/</guid>
+  <pubDate>Fri, 09 May 2025 16:48:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/05-09-new-national-drought-platform/map-view.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Snap Map: Spatial social</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/04-08-drought-lake-constance-and-sentinel-2/</guid>
   <pubDate>Tue, 08 Apr 2025 22:28:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/04-08-drought-lake-constance-and-sentinel-2/obersee.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Serving vector tiles, fast</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/04-05-serving-vector-tiles-fast/</link>
-  <description><![CDATA[ Want to serve #VectorTiles to your users? Fabian Rechsteiner’s benchmark pits six open-source servers (#BBOX, #ldproxy, #Martin, #pg_tileserv, #Tegola, #TiPg) against each other, revealing stark speed differences. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/04-05-serving-vector-tiles-fast/</guid>
-  <pubDate>Sat, 05 Apr 2025 16:05:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/04-05-serving-vector-tiles-fast/ganesh-partheeban-A9pIo2VEI5A-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
