@@ -22,8 +22,9 @@ also be retrieved. Existing monitoring networks and forecasting models have been
 information based on satellite data and long-term forecasts, e.g. for precipitation. Measurement data 
 on soil moisture and water temperatures is also expected to be integrated from 2026.
 
-There is also an introductory video in [German](https://www.youtube.com/watch?v=wZaa1EoL4Jk) and in 
-[French](https://www.youtube.com/watch?v=1Hy__fDMVpo) (translated subtitles available).
+There is also an introductory video in [English](https://www.youtube.com/watch?v=K8WepUyKrtw), 
+in [German](https://www.youtube.com/watch?v=wZaa1EoL4Jk), and in 
+[French](https://www.youtube.com/watch?v=1Hy__fDMVpo).
 
 ![In the [drill-down view](https://www.trockenheit.admin.ch/de/regionen/47-alpstein/aktuelle-lage), the National Drought Platform offers a lot of detail about the monitoring regions. Much more data is available beneath the "fold".](rhine-valley.png 'In the drill-down view, the National Drought Platform offers a lot of detail about the monitoring regions. Much more data is available beneath the "fold".')
 
