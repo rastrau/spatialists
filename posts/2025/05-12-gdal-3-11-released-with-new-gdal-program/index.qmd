@@ -1,0 +1,34 @@
+---
+title: "GDAL 3.11 released with new gdal program"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-05-12 22:26"
+image: "dmitriy-demidov-iuuJC_pjLU0-unsplash.jpg"
+description: 'As of Friday, #GDAL 3.11.0 "Eganville" has been released. Starting with GDAL 3.11, parts of the GDAL utilities are available from a new single gdal program which accepts commands and subcommands. This simplifies and unifies GDAL syntax.'
+---
+
+As of Friday, GDAL 3.11.0 "Eganville" has been [released](https://lists.osgeo.org/pipermail/gdal-dev/2025-May/060547.html). Starting with GDAL 3.11, parts of the GDAL utilities are available from a new single `gdal` program which accepts commands and subcommands. This simplifies and unifies GDAL syntax. More detail can be found on the [`gdal` manual page](https://gdal.org/en/latest/programs/index.html#gdal-application).
+
+The [migration guide](https://gdal.org/en/latest/programs/migration_guide_to_gdal_cli.html#migration-guide-to-gdal-cli) includes several examples:
+
+- Getting information on a raster dataset in human-readable format:<br><br>
+  `gdalinfo my.tif` becomes<br><br>
+  `gdal raster info --format=text my.tif`
+
+- Getting information on a vector dataset in human-readable format:<br><br>
+`ogrinfo -al -so my.gpkg` becomes<br><br>
+`gdal vector info --format=text my.gpkg`
+
+- Converting a georeferenced netCDF file to cloud-optimized GeoTIFF:<br><br>
+`gdal_translate -of COG in.nc out.tif` becomes<br><br>
+`gdal raster convert --of=COG in.nc out.tif`
+
+- Clipping a raster with a bounding box:<br><br>
+`gdal_translate -projwin 2 50 3 49 in.tif out.tif` becomes<br><br>
+`gdal raster clip --bbox=2,49,3,50 in.tif out.tif`
+
+For those interested: On June 3, the GDAL Project Steering Committee will host a [webinar on the modernization of GDAL](https://lists.osgeo.org/pipermail/gdal-dev/2025-May/060567.html):
+
+> The 2024 GDAL User Survey showed the GDAL Command Line Interface (CLI) to be in need of modernization, and GDAL 3.11.0 is the first release to provide a substantial refactoring of the common interaction point of many with the nearly 27 year old software project. (...)<br>
+> Existing GDAL CLIs will continue to be supported as-is, but we hope the new CLI will make it easier to explore, learn, and reason about GDAL while manipulating geospatial data. In celebration of the release, Even Rouault, Dan Baston, Mike Smith, and Howard Butler of the GDAL project will be hosting a webinar to provide a deep dive into the new CLI on June 3rd at 1400 UTC.
