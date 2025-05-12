@@ -1,0 +1,29 @@
+---
+title: "Recording: Colloquium on the state of SGS implementation"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-05-12 22:12"
+image: "sgs.png"
+description: "#Swisstopo hosted a #colloquium to present the current state of Swiss Geoinformation Strategy (#SGS) implementation and ongoing SGS projects. Now, the recording is online."
+---
+
+![Busy bees – Swiss Geoinformation Strategy (SGS) 2020](sgs.png "Busy bees – Swiss Geoinformation Strategy (SGS) 2020")
+
+On May 2, Swisstopo hosted a [colloquium](https://www.swisstopo.admin.ch/de/strategie-geoinformation-schweiz) to present the current state of [Swiss Geoinformation Strategy (SGS)](https://www.geo.admin.ch/de/strategie-und-umsetzung) implementation and ongoing SGS projects. 
+
+Now, the [recording is online](https://www.youtube.com/watch?v=6Kkgn_JJLvo). The colloquium is in German and in French, slides are usually bilingual. The video has auto-generated captions and auto-translations of those:
+
+{{< video https://www.youtube.com/watch?v=6Kkgn_JJLvo >}}
+
+Contributors and contributions:
+
+- Christine Najar: State of SGS implementation
+- Peter Staub: What drives us?
+- Pasquale di Donato: LLMs for geospatial
+- Christine Najar: Digital Twin
+- Evi Rothenbühler: Climate monitoring
+- Beat Tschanz: Geoplatform Switzerland
+- Christine Najar and Peter Staub: Q&A
+
+
