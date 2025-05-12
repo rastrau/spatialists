@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.30</generator>
-<lastBuildDate>Fri, 09 May 2025 16:48:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 12 May 2025 22:12:00 GMT</lastBuildDate>
+<item>
+  <title>Recording: Colloquium on the state of SGS implementation</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/05-12-recording-colloquium-on-the-state-of-sgs-implementation/</link>
+  <description><![CDATA[ #Swisstopo hosted a #colloquium to present the current state of Swiss Geoinformation Strategy (#SGS) implementation and ongoing SGS projects. Now, the recording is online. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/05-12-recording-colloquium-on-the-state-of-sgs-implementation/</guid>
+  <pubDate>Mon, 12 May 2025 22:12:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/05-12-recording-colloquium-on-the-state-of-sgs-implementation/sgs.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>New national drought platform</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/04-09-spatial-data-old-and-new/</guid>
   <pubDate>Wed, 09 Apr 2025 20:41:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/04-09-spatial-data-old-and-new/anthony-riera-y9A2gA0FLc8-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Drought, Lake Constance and Sentinel-2</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/04-08-drought-lake-constance-and-sentinel-2/</link>
-  <description><![CDATA[ Switzerland has experienced an exceptionally dry period, with Lake Constance’s water levels dropping to their lowest in decades due to little rainfall and snowmelt from the Alps. Recent Sentinel-2 satellite data and gauging station records reveal the current situation. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/04-08-drought-lake-constance-and-sentinel-2/</guid>
-  <pubDate>Tue, 08 Apr 2025 22:28:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/04-08-drought-lake-constance-and-sentinel-2/obersee.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
