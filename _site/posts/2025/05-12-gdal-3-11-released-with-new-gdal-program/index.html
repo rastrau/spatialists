@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ralph Straumann">
+<meta name="dcterms.date" content="2025-05-12">
+<meta name="description" content="As of Friday, #GDAL 3.11.0 “Eganville” has been released. Starting with GDAL 3.11, parts of the GDAL utilities are available from a new single gdal program which accepts commands and subcommands. This simplifies and unifies GDAL syntax.">
 
-<title>Follow the RSS feed or in the Fediverse – Spatialists – geospatial news</title>
+<title>GDAL 3.11 released with new gdal program – Spatialists – geospatial news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./assets/favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2b3e328b71be8d25427581baeb23079b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1c9442b6a6a06c02dd4d42c680fde4d2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../assets/favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2b3e328b71be8d25427581baeb23079b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-1c9442b6a6a06c02dd4d42c680fde4d2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -111,23 +115,25 @@ ul.task-list li input[type="checkbox"] {
 <!-- End Matomo Code -->
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Follow the RSS feed or in the Fediverse – Spatialists – geospatial news">
-<meta property="og:description" content="A blog for geospatial professionals">
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="GDAL 3.11 released with new gdal program – Spatialists – geospatial news">
+<meta property="og:description" content="As of Friday, #GDAL 3.11.0 “Eganville” has been released. Starting with GDAL 3.11, parts of the GDAL utilities are available from a new single gdal program which accepts commands and subcommands. This simplifies and unifies GDAL syntax.">
+<meta property="og:image" content="https://spatialists.ch/posts/2025/05-12-gdal-3-11-released-with-new-gdal-program/dmitriy-demidov-iuuJC_pjLU0-unsplash.jpg">
 <meta property="og:site_name" content="Spatialists – geospatial news">
-<meta name="twitter:title" content="Follow the RSS feed or in the Fediverse – Spatialists – geospatial news">
-<meta name="twitter:description" content="A blog for geospatial professionals">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="GDAL 3.11 released with new gdal program – Spatialists – geospatial news">
+<meta name="twitter:description" content="As of Friday, #GDAL 3.11.0 “Eganville” has been released. Starting with GDAL 3.11, parts of the GDAL utilities are available from a new single gdal program which accepts commands and subcommands. This simplifies and unifies GDAL syntax.">
+<meta name="twitter:image" content="https://spatialists.ch/posts/2025/05-12-gdal-3-11-released-with-new-gdal-program/dmitriy-demidov-iuuJC_pjLU0-unsplash.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Spatialists – geospatial news</span>
     </a>
   </div>
@@ -138,19 +144,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./subscribe.html"> 
+    <a class="nav-link" href="../../../subscribe.html"> 
 <span class="menu-text">Subscribe</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./follow.html" aria-current="page"> 
+    <a class="nav-link" href="../../../follow.html"> 
 <span class="menu-text">Follow</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contribute.html"> 
+    <a class="nav-link" href="../../../contribute.html"> 
 <span class="menu-text">Contribute</span></a>
   </li>  
 </ul>
@@ -161,61 +167,75 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">GDAL 3.11 released with new gdal program</h1>
+                  <div>
+        <div class="description">
+          As of Friday, #GDAL 3.11.0 “Eganville” has been released. Starting with GDAL 3.11, parts of the GDAL utilities are available from a new single gdal program which accepts commands and subcommands. This simplifies and unifies GDAL syntax.
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://ralphstraumann.ch">Ralph Straumann</a> </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 12, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Follow the RSS feed or in the Fediverse</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header> 
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>Follow Spatialists through the RSS feed using this address:</p>
-<p><a href="https://spatialists.ch/index.xml" class="uri">https://spatialists.ch/index.xml</a></p>
-<p>Or follow Spatialists on Mastodon:</p>
-<p><a href="https://mapstodon.space/@spatialists" class="uri">https://mapstodon.space/@spatialists</a></p>
-<p><br><br></p>
-<section id="what-is-an-rss-feed" class="level2">
-<h2 data-anchor-id="what-is-an-rss-feed">What is an RSS feed?<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h2>
-<p>An RSS feed contains the latest content of this site in a form that a feedreader app understands. Tons of websites already have feeds, mostly news sites and blogs.</p>
-<p>Whenever you see a website with a feed, that means you can subscribe to that site using a feedreader app. The feedreader checks the feeds you have subscribed to automatically from time to time. If you subscribe to only one site, you might say “This doesn’t save me much time over occasionally checking that site myself.” But if you end up subscribing to a dozen or more sites, you’ll find that your feedreader becomes <em>the</em> place for news.</p>
-</section>
-<section id="what-is-great-about-rss-feeds" class="level2">
-<h2 data-anchor-id="what-is-great-about-rss-feeds">What is great about RSS feeds?</h2>
-<p>Using RSS, you won’t miss content and there won’t be spam. RSS provides you with a non-algorithmic timeline of the content that interests you – unlike modern social media platforms.</p>
-</section>
-<section id="how-do-i-get-a-feedreader-app" class="level2">
-<h2 data-anchor-id="how-do-i-get-a-feedreader-app">How do I get a feedreader app?</h2>
-<p>There are many different options to choose from. Wikipedia has an <a href="https://en.wikipedia.org/wiki/Comparison_of_feed_aggregators">overview of feedreaders</a>. Personally, I use <a href="https://feedly.com">Feedly</a>. It can be used in a browser or as native app on mobile.</p>
-</section>
-<section id="how-do-i-subscribe-to-a-feed" class="level2">
-<h2 data-anchor-id="how-do-i-subscribe-to-a-feed">How do I subscribe to a feed?</h2>
-<p>You need the URL of the feed. Some feedreaders also have built-in methods to try and find a feed, given only the website URL.</p>
-<p>If you want to follow Spatialists, copy the address of its feed, <a href="https://spatialists.ch/index.xml" class="uri">https://spatialists.ch/index.xml</a>, and add it to the subscriptions in your feedreader app. To achieve this, usually, you paste the address after having pressed a button “Add Feed”, “Add Content”, “Subscribe” or in the search function of the app.</p>
-<p>You’re done! You can now read the latest Spatialists content in your feedreader!</p>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
-</section>
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
-<ol>
-<li id="fn1"><p>These explanations are based on <a href="https://aboutfeeds.com">aboutfeeds.com</a>, CC-BY-NC-SA <a href="https://interconnected.org/">Matt Webb</a>. The article <a href="https://news.itsfoss.com/why-use-rss-feeds/">“Why I still love and use RSS feeds in 2025”</a> goes into a bit more detail regarding the advantages of consuming news through RSS instead of an algorithmic feed.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main></div>
-    </div>
-  </div>
-</div>
- <!-- /main -->
+
+<p>As of Friday, GDAL 3.11.0 “Eganville” has been <a href="https://lists.osgeo.org/pipermail/gdal-dev/2025-May/060547.html">released</a>. Starting with GDAL 3.11, parts of the GDAL utilities are available from a new single <code>gdal</code> program which accepts commands and subcommands. This simplifies and unifies GDAL syntax. More detail can be found on the <a href="https://gdal.org/en/latest/programs/index.html#gdal-application"><code>gdal</code> manual page</a>.</p>
+<p>The <a href="https://gdal.org/en/latest/programs/migration_guide_to_gdal_cli.html#migration-guide-to-gdal-cli">migration guide</a> includes several examples:</p>
+<ul>
+<li><p>Getting information on a raster dataset in human-readable format:<br><br> <code>gdalinfo my.tif</code> becomes<br><br> <code>gdal raster info --format=text my.tif</code></p></li>
+<li><p>Getting information on a vector dataset in human-readable format:<br><br> <code>ogrinfo -al -so my.gpkg</code> becomes<br><br> <code>gdal vector info --format=text my.gpkg</code></p></li>
+<li><p>Converting a georeferenced netCDF file to cloud-optimized GeoTIFF:<br><br> <code>gdal_translate -of COG in.nc out.tif</code> becomes<br><br> <code>gdal raster convert --of=COG in.nc out.tif</code></p></li>
+<li><p>Clipping a raster with a bounding box:<br><br> <code>gdal_translate -projwin 2 50 3 49 in.tif out.tif</code> becomes<br><br> <code>gdal raster clip --bbox=2,49,3,50 in.tif out.tif</code></p></li>
+</ul>
+<p>For those interested: On June 3, the GDAL Project Steering Committee will host a <a href="https://lists.osgeo.org/pipermail/gdal-dev/2025-May/060567.html">webinar on the modernization of GDAL</a>:</p>
+<blockquote class="blockquote">
+<p>The 2024 GDAL User Survey showed the GDAL Command Line Interface (CLI) to be in need of modernization, and GDAL 3.11.0 is the first release to provide a substantial refactoring of the common interaction point of many with the nearly 27 year old software project. (…)<br> Existing GDAL CLIs will continue to be supported as-is, but we hope the new CLI will make it easier to explore, learn, and reason about GDAL while manipulating geospatial data. In celebration of the release, Even Rouault, Dan Baston, Mike Smith, and Howard Butler of the GDAL project will be hosting a webinar to provide a deep dive into the new CLI on June 3rd at 1400 UTC.</p>
+</blockquote>
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

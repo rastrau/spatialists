@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.30</generator>
-<lastBuildDate>Mon, 12 May 2025 22:12:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 12 May 2025 22:26:00 GMT</lastBuildDate>
+<item>
+  <title>GDAL 3.11 released with new gdal program</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/05-12-gdal-3-11-released-with-new-gdal-program/</link>
+  <description><![CDATA[ As of Friday, #GDAL 3.11.0 “Eganville” has been released. Starting with GDAL 3.11, parts of the GDAL utilities are available from a new single gdal program which accepts commands and subcommands. This simplifies and unifies GDAL syntax. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/05-12-gdal-3-11-released-with-new-gdal-program/</guid>
+  <pubDate>Mon, 12 May 2025 22:26:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/05-12-gdal-3-11-released-with-new-gdal-program/dmitriy-demidov-iuuJC_pjLU0-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Recording: Colloquium on the state of SGS implementation</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/04-11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/</guid>
   <pubDate>Fri, 11 Apr 2025 21:49:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/04-11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/george-pagan-iii-4zs2aNnHkec-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Spatial data old and new</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/04-09-spatial-data-old-and-new/</link>
-  <description><![CDATA[ Martin Fleischmann’s course on Spatial #DataScience provides an introduction to spatial #data analysis using Python. One short section, “Spatial Data Old and New”, explores the evolution of spatial data, contrasting traditional, carefully curated datasets with modern, rapidly generated data, and offers fresh perspectives on conventional ideas about spatial data. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/04-09-spatial-data-old-and-new/</guid>
-  <pubDate>Wed, 09 Apr 2025 20:41:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/04-09-spatial-data-old-and-new/anthony-riera-y9A2gA0FLc8-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
