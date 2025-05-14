@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Mon, 12 May 2025 22:26:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 14 May 2025 17:23:00 GMT</lastBuildDate>
+<item>
+  <title>Tool-tip: Multi-scale terrain analysis</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/</link>
+  <description><![CDATA[ #Terrain is inherently #multiscale, with features and surface variations that must be analyzed across a range of spatial scales. New tools in #ArcGISPro 3.4 and 3.5 along with advanced options in #SAGA GIS and #LandSerf, make it possible to compute multi-scale surface metrics for more nuanced #terrainanalysis. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/</guid>
+  <pubDate>Wed, 14 May 2025 17:23:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/achim-ruhnau-0HTMREd2KdM-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>GDAL 3.11 released with new gdal program</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/04-12-tool-tip-mapshaper/</guid>
   <pubDate>Sat, 12 Apr 2025 18:28:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/04-12-tool-tip-mapshaper/george-pagan-iii-WwCTFNpZx8g-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>ohsome-planet: Export OSM data and its history to GeoParquet</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/04-11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/</link>
-  <description><![CDATA[ The GIScience Research Group at Heidelberg University and HeiGIT have released version 1.0.0 of #ohsome-planet, a tool for #cloudnative access to #OpenStreetMap (#OSM) data using the #GeoParquet format. Originally developed as an internal tool, it now enables users to create customizable OSM data exports with Java 21 and PBF input files. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/04-11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/</guid>
-  <pubDate>Fri, 11 Apr 2025 21:49:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/04-11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/george-pagan-iii-4zs2aNnHkec-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

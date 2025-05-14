@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ralph Straumann">
+<meta name="dcterms.date" content="2025-05-14">
+<meta name="description" content="#Terrain is inherently #multiscale, with features and surface variations that must be analyzed across a range of spatial scales. New tools in #ArcGISPro 3.4 and 3.5 along with advanced options in #SAGA GIS and #LandSerf, make it possible to compute multi-scale surface metrics for more nuanced #terrainanalysis.">
 
-<title>Contribute – Spatialists – geospatial news</title>
+<title>Tool-tip: Multi-scale terrain analysis – Spatialists – geospatial news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./assets/favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1c9442b6a6a06c02dd4d42c680fde4d2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../assets/favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-1c9442b6a6a06c02dd4d42c680fde4d2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -111,23 +115,25 @@ ul.task-list li input[type="checkbox"] {
 <!-- End Matomo Code -->
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Contribute – Spatialists – geospatial news">
-<meta property="og:description" content="A blog for geospatial professionals">
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="Tool-tip: Multi-scale terrain analysis – Spatialists – geospatial news">
+<meta property="og:description" content="#Terrain is inherently #multiscale, with features and surface variations that must be analyzed across a range of spatial scales. New tools in #ArcGISPro 3.4 and 3.5 along with advanced options in #SAGA GIS and #LandSerf, make it possible to compute multi-scale surface metrics for more nuanced #terrainanalysis.">
+<meta property="og:image" content="https://spatialists.ch/posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/achim-ruhnau-0HTMREd2KdM-unsplash.jpg">
 <meta property="og:site_name" content="Spatialists – geospatial news">
-<meta name="twitter:title" content="Contribute – Spatialists – geospatial news">
-<meta name="twitter:description" content="A blog for geospatial professionals">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Tool-tip: Multi-scale terrain analysis – Spatialists – geospatial news">
+<meta name="twitter:description" content="#Terrain is inherently #multiscale, with features and surface variations that must be analyzed across a range of spatial scales. New tools in #ArcGISPro 3.4 and 3.5 along with advanced options in #SAGA GIS and #LandSerf, make it possible to compute multi-scale surface metrics for more nuanced #terrainanalysis.">
+<meta name="twitter:image" content="https://spatialists.ch/posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/achim-ruhnau-0HTMREd2KdM-unsplash.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Spatialists – geospatial news</span>
     </a>
   </div>
@@ -138,19 +144,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./subscribe.html"> 
+    <a class="nav-link" href="../../../subscribe.html"> 
 <span class="menu-text">Subscribe</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./follow.html"> 
+    <a class="nav-link" href="../../../follow.html"> 
 <span class="menu-text">Follow</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./contribute.html" aria-current="page"> 
+    <a class="nav-link" href="../../../contribute.html"> 
 <span class="menu-text">Contribute</span></a>
   </li>  
 </ul>
@@ -161,30 +167,83 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Tool-tip: Multi-scale terrain analysis</h1>
+                  <div>
+        <div class="description">
+          #Terrain is inherently #multiscale, with features and surface variations that must be analyzed across a range of spatial scales. New tools in #ArcGISPro 3.4 and 3.5 along with advanced options in #SAGA GIS and #LandSerf, make it possible to compute multi-scale surface metrics for more nuanced #terrainanalysis.
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://ralphstraumann.ch">Ralph Straumann</a> </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 14, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Contribute</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><main class="content" id="quarto-document-content">
-<p>On this site, I aim to share interesting (to me) news in the geospatial domain. Do you have something you would like to share with the audience of spatialists.ch?</p>
-<p><strong>You can submit a post or post idea through <a href="https://github.com/rastrau/spatialists/issues/new?template=submit-post.yml">GitHub</a> or by <a href="mailto:info@spatialists.ch">email</a>.</strong></p>
-<p>By submitting material you confirm that: a) you have the right to submit it. b) you understand and agree that this project, spatialists.ch, and thus your contribution is public and that a record of the contribution including all personal information you submit with it is maintained indefinitely and may be redistributed consistent with this project and the license(s) involved.</p>
-<p><a href="mailto:mail@ralphstraumann.ch">Reach out</a> with any questions.</p>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
-</main>  
+
+
+
+<p>Terrain is a multi-scale (or even fractal<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>) phenomenon. Thus, with Wood (1996)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> we can state:</p>
+<blockquote class="blockquote">
+<p>It would seem ludicrous to only consider surface variation at a fixed scale when an assessment of an entire landscape is desired. Our own judgements both scientifically and “intuitively” rely on an appreciation of landscape at a variety of scales simultaneously.</p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="multi-scale-maximum-curvature.jpg" title="Multi-scale maximum curvature computed over the range of 3-by-3 to 11-by-11 neighborhoods (source: Geländeanalysen 2.0)" class="img-fluid figure-img"></p>
+<figcaption>Multi-scale maximum curvature computed over the range of 3-by-3 to 11-by-11 neighborhoods (source: <a href="https://digital.ebp.ch/2017/02/23/gelaendeanalysen-2-0/">Geländeanalysen 2.0</a><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>)</figcaption>
+</figure>
 </div>
- <!-- /main -->
+<p>Thus, it is interesting that <a href="https://www.esri.com/arcgis-blog/products/spatial-analyst/analytics/analyze-terrain-with-the-new-multiscale-surface-tools-in-arcgis">ArcGIS Pro 3.4 and 3.5 add functions</a> for computing the <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/multiscale-surface-percentile.htm">multi-scale surface percentile</a>, the <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/multiscale-surface-difference.htm">multi-scale surface difference</a>, and the <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/multiscale-surface-deviation.htm">multi-scale surface deviation</a>, respectively.</p>
+<p>More advanced geomorphometric parameters such as multi-scale surface shape classification, various kinds of multi-scale curvatures, and more can be computed using <a href="https://en.wikipedia.org/wiki/SAGA_GIS">SAGA GIS</a> (e.g.&nbsp;through QGIS with the <a href="https://plugins.qgis.org/plugins/processing_saga_nextgen/">appropriate plug-in</a>) or using <a href="https://www.staff.city.ac.uk/~jwo/landserf/">LandSerf</a> by the afore-mentioned Jo Wood.</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>The fractal dimension of a terrain surface can be estimated (similarly to the more famous example regarding the fractal dimension of coastlines). In fact, I have done so for Switzerland using Swisstopo DEMs years ago. But that nugget of information is lost to the implosion of Twitter.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Cf. also pp.&nbsp;45 <a href="https://ralphstraumann.ch/downloads/PhD_Thesis_Ralph_Straumann_compressed.pdf">here</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Transparency note: Link points to an article by myself on the blog of my employer.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
