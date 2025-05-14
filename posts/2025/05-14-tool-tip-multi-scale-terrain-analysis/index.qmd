@@ -1,0 +1,23 @@
+---
+title: "Tool-tip: Multi-scale terrain analysis"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-05-14 17:23"
+image: "achim-ruhnau-0HTMREd2KdM-unsplash.jpg"
+description: "#Terrain is inherently #multiscale, with features and surface variations that must be analyzed across a range of spatial scales. New tools in #ArcGISPro 3.4 and 3.5 along with advanced options in #SAGA GIS and #LandSerf, make it possible to compute multi-scale surface metrics for more nuanced #terrainanalysis."
+---
+
+Terrain is a multi-scale (or even fractal[^fractal]) phenomenon. Thus, with Wood (1996)^[Cf. also pp. 45 [here](https://ralphstraumann.ch/downloads/PhD_Thesis_Ralph_Straumann_compressed.pdf)] we can state:
+
+> It would seem ludicrous to only consider surface variation at a fixed scale when an assessment of an entire landscape is desired. Our own judgements both scientifically and "intuitively" rely on an appreciation of landscape at a variety of scales simultaneously.
+
+![Multi-scale maximum curvature computed over the range of 3-by-3 to 11-by-11 neighborhoods (source: [Geländeanalysen 2.0](https://digital.ebp.ch/2017/02/23/gelaendeanalysen-2-0/)[^self-citation])](multi-scale-maximum-curvature.jpg "Multi-scale maximum curvature computed over the range of 3-by-3 to 11-by-11 neighborhoods (source: Geländeanalysen 2.0)")
+
+Thus, it is interesting that [ArcGIS Pro 3.4 and 3.5 add functions](https://www.esri.com/arcgis-blog/products/spatial-analyst/analytics/analyze-terrain-with-the-new-multiscale-surface-tools-in-arcgis) for computing the [multi-scale surface percentile](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/multiscale-surface-percentile.htm), the [multi-scale surface difference](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/multiscale-surface-difference.htm), and the [multi-scale surface deviation](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/multiscale-surface-deviation.htm), respectively. 
+
+More advanced geomorphometric parameters such as multi-scale surface shape classification, various kinds of multi-scale curvatures, and more can be computed using [SAGA GIS](https://en.wikipedia.org/wiki/SAGA_GIS) (e.g. through QGIS with the [appropriate plug-in](https://plugins.qgis.org/plugins/processing_saga_nextgen/)) or using [LandSerf](https://www.staff.city.ac.uk/~jwo/landserf/) by the afore-mentioned Jo Wood.
+
+[^fractal]: The fractal dimension of a terrain surface can be estimated (similarly to the more famous example regarding the fractal dimension of coastlines). In fact, I have done so for Switzerland using Swisstopo DEMs years ago. But that nugget of information is lost to the implosion of Twitter.
+
+[^self-citation]: Transparency note: Link points to an article by myself on the blog of my employer.
