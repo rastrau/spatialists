@@ -1,0 +1,20 @@
+---
+title: "GeoParquet arriving in ArcGIS Pro 3.5"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-05-16 17:43"
+image: "../../../assets/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
+description: "With version 3.5, users can now natively work with #GeoParquet files in #ArcGIS Pro, either by creating multifile feature connections or by accessing individual #Parquet files stored locally or in Amazon #S3. This streamlines the integration of #cloudnative data, though currently with specific requirements and limitations."
+---
+
+Update from the cloud-native front: With version 3.5, ArcGIS Pro now has [native support for the cloud-native GeoParquet format](https://pro.arcgis.com/en/pro-app/latest/help/data/parquet/parquet-in-arcgis.htm): 
+
+> Beginning with ArcGIS Pro 3.5, there are two ways you can work with Apache Parquet files. Each serves a different purpose and has different requirements as follows:
+> 
+> - Create a multifile feature connection from multiple Parquet files that have the same schema (...)
+> - Access a single Parquet file stored on a local drive or in an Amazon Simple Storage Service (S3) bucket
+
+The GeoParquet support comes with specific requirements and limitations, which are detailed [in the documentation](https://pro.arcgis.com/en/pro-app/latest/help/data/parquet/parquet-in-arcgis.htm) and in an [accompanying FAQ on "using a Parquet file in ArcGIS Pro"](https://pro.arcgis.com/en/pro-app/latest/help/data/parquet/faqs-parquet-in-maps.htm). 
+
+Chris Holmes of Planet shared [his thoughts and assessment on LinkedIn](https://www.linkedin.com/posts/opencholmes_parquet-in-arcgis-pro-activity-7328617641911164928-YcDN).
