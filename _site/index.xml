@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Wed, 14 May 2025 17:23:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 16 May 2025 17:43:00 GMT</lastBuildDate>
+<item>
+  <title>GeoParquet arriving in ArcGIS Pro 3.5</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/05-16-geoparquet-arriving-in-arcgis-pro-35/</link>
+  <description><![CDATA[ With version 3.5, users can now natively work with #GeoParquet files in #ArcGIS Pro, either by creating multifile feature connections or by accessing individual #Parquet files stored locally or in Amazon #S3. This streamlines the integration of #cloudnative data, though currently with specific requirements and limitations. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/05-16-geoparquet-arriving-in-arcgis-pro-35/</guid>
+  <pubDate>Fri, 16 May 2025 17:43:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/assets/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Tool-tip: Multi-scale terrain analysis</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/04-14-new-geospatial-data-in-google-bigquery/</guid>
   <pubDate>Mon, 14 Apr 2025 20:43:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/04-14-new-geospatial-data-in-google-bigquery/javier-miranda-Jn2EaLLYZfY-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Tool tip: Mapshaper</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/04-12-tool-tip-mapshaper/</link>
-  <description><![CDATA[ #Mapshaper is a lightweight yet powerful geospatial toolkit offering #topology-aware #simplification (via Douglas-Peucker and Visvalingam algorithms), spatial operations, and more. Available across Windows, macOS, and Linux, it includes a browser-based interface for real-time simplification previews. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/04-12-tool-tip-mapshaper/</guid>
-  <pubDate>Sat, 12 Apr 2025 18:28:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/04-12-tool-tip-mapshaper/george-pagan-iii-WwCTFNpZx8g-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
