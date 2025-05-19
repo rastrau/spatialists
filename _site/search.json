@@ -56,347 +56,284 @@
     "text": "Footnotes\n\n\nadditions welcome!↩︎"
   },
   {
-    "objectID": "posts/2025/02-20-cloud-native-web-app-case-study/index.html",
-    "href": "posts/2025/02-20-cloud-native-web-app-case-study/index.html",
-    "title": "Cloud-native web app: A case study",
+    "objectID": "posts/2025/03-21-labeling-master-class/index.html",
+    "href": "posts/2025/03-21-labeling-master-class/index.html",
+    "title": "Labeling master class",
     "section": "",
-    "text": "From Stephan Heuel comes a very interesting case study that explores the possibilies of web apps based on the “cloud-native geo” paradigm: The “Swiss Rooftop Explorer” project demonstrates a cloud-native approach to accessing and visualizing geospatial data, specifically roof heights of buildings in Switzerland based on swisstopo’s swissBUILDINGS3D dataset.\n\n\n\nStephan Heuel’s Swiss Rooftop Explorer\n\n\nInstead of relying on traditional GIS server architecture and infrastructure , the project leverages GeoParquet, DuckDB, Tippecanoe, PMTiles, and DuckDB-WASM for efficient data processing, storage and delivery. The toolchain is entirely open and in his blog post, Stephan Heuel compares the cloud-native approach to that of a more traditional GIS tech stack:\n\n(…) I truly believe that there is something big behind all of this: The current (classic) web map architecture includes a publication database and a heavy and costly API layer. Just imagine you can get rid of both of them entirely while the user experience is the same!\n\nThe source for learning more about the “cloud-native geo” paradigm is of course the Cloud-Native Geospatial Forum.\nIn the Swiss geospatial industry, data is distributed in cloud-native formats e.g. under the swissEO product line (cf. also here for some more background). To my knowledge, in Switzerland the “cloud-native geo” paradigm has (only, I think (?)) been covered in a GeoStandards.ch-issued whitepaper by OPENGIS.ch, in the digital.ebp.ch blog and of course here, so far."
+    "text": "From cartographer Andy Skinner comes this very useful resource about cartographic labeling for both interactive and static maps. While this guide comes in the form of an ArcGIS storymap, it is software-agnostic.\nScale, transparency-and-opacity, hue, tone, halos, … – this guide covers many different visual variables and how they can be used, on their own or together, to make a map a lot more aesthetic and the information it contains easier to grasp.\nThe labeling guide is part of a six-part1 series in which Andy Skinner looks at his work. The other parts are listed at the bottom of the page."
   },
   {
-    "objectID": "posts/2025/02-12-the-format-that-shall-not-be-named/index.html",
-    "href": "posts/2025/02-12-the-format-that-shall-not-be-named/index.html",
-    "title": "The format that shall not be named",
-    "section": "",
-    "text": "… for I am not interested in the Shapefile Wars and I do not want to wake up the geospatial format zealots. But: By now, a cultural history of the Shapefile, the world’s foremost geospatial data format1 since the early 1990s (!), would be warranted, such is its impact. James Fee’s article “Shapefile: The Persistent Legacy of a GIS Workhorse” makes the point:\nLuckily, I don’t usually have to cater to workflows that rely on Shapefiles at all2.\nAs to alternatives, there are many to chose from. I find it hard to name “the best” data format, since it very much depends:\nI do find GeoParquet and FlatGeoBuf particulary interesting vector data formats, for some of my use cases – ymmv3, obviously."
-  },
-  {
-    "objectID": "posts/2025/02-12-the-format-that-shall-not-be-named/index.html#footnotes",
-    "href": "posts/2025/02-12-the-format-that-shall-not-be-named/index.html#footnotes",
-    "title": "The format that shall not be named",
+    "objectID": "posts/2025/03-21-labeling-master-class/index.html#footnotes",
+    "href": "posts/2025/03-21-labeling-master-class/index.html#footnotes",
+    "title": "Labeling master class",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nmuch in the same way Excel is the world’s foremost “database” – besides SQLite↩︎\nOne exception comes to mind: to my dismay, a popular traffic modelling software only supports Shapefile for GIS data exchange.↩︎\nyour mileage may vary↩︎"
+    "text": "Footnotes\n\n\nfor now (?)↩︎"
   },
   {
-    "objectID": "posts/2025/02-26-normalize-your-choropleths/index.html",
-    "href": "posts/2025/02-26-normalize-your-choropleths/index.html",
-    "title": "Normalize choropleths",
+    "objectID": "posts/2025/05-08-snap-map-spatial-social/index.html",
+    "href": "posts/2025/05-08-snap-map-spatial-social/index.html",
+    "title": "Snap Map: Spatial social",
     "section": "",
-    "text": "Much (but – judging from experience – not yet enough) metaphorical ink has been spilled on this cartographic topic: Which kind of metrics lend themselves to be mapped using a choropleth map1. Or, the other way around: How should I prepare my data in order to use it in a choropleth map?\nCartographer Heather Smith has produced a video that explains the factors requiring data normalization as well as some techniques for normalization in very simple terms:\nThe techniques shown are not tied to any particular software. The video is part of a three-part series on designing choropleth maps with part 1 here and part 3 here."
+    "text": "Spatial social1 – Apparently, Snapchat, like other social media companies, has been exploring geospatial use-cases. From TechCrunch (which also compiles a few more examples of spatial social):\nAnd:\nFor – admittedly slightly oblique – comparison: In 2023, map.geo.admin.ch recorded approximately 2 million monthly visits. Thus, presumably: Quite a bit fewer users. But of course, of exclusively people with interest in Switzerland."
   },
   {
-    "objectID": "posts/2025/02-26-normalize-your-choropleths/index.html#footnotes",
-    "href": "posts/2025/02-26-normalize-your-choropleths/index.html#footnotes",
-    "title": "Normalize choropleths",
+    "objectID": "posts/2025/05-08-snap-map-spatial-social/index.html#footnotes",
+    "href": "posts/2025/05-08-snap-map-spatial-social/index.html#footnotes",
+    "title": "Snap Map: Spatial social",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\ni.e., a thematic map that uses different colors or shading of areas to represent data↩︎"
+    "text": "Footnotes\n\n\nI just made up this term, I think↩︎\nMonthly active users, often “MAUs”, are a key software performance metric.↩︎"
   },
   {
-    "objectID": "posts/2025/03-06-tool-tip-navigating-the-maze-of-coordinate-reference-systems/index.html",
-    "href": "posts/2025/03-06-tool-tip-navigating-the-maze-of-coordinate-reference-systems/index.html",
-    "title": "Tool tip: Navigating the maze of coordinate reference systems",
+    "objectID": "posts/2025/03-31-new-map-viewer-for-the-canton-of-aargau/index.html",
+    "href": "posts/2025/03-31-new-map-viewer-for-the-canton-of-aargau/index.html",
+    "title": "New map viewer for the canton of Aargau",
     "section": "",
-    "text": "In my experience, early career geospatial professionals often, geo-adjacent professionals virtually always, struggle with coordinate reference systems (CRSs). Who can blame them: CRSs can be confusing from a theoretical perspective, and handling them in your day-to-day GIS workflows even more so.\nIn comes ihatecoordinatesystems.com by Dan Mahr: While the naming is very on the nose, this website provides an invaluable service. Structured around 12 common frustrations and questions, it serves as a refreshingly practical problem-solving guide for CRS issues.\nItems include, for example (the actual section headings add the emphatic “I hate coordinate systems!” 😃):\n\nMy dataset is off the coast of Africa! — hint: Null Island\nMy dataset is not located where it should be!\nMy dataset is slightly offset from where it should be!\n\nFor Switzerland, maybe we should add “My dataset seems to be located in eastern Europe / in the Atlantic off the coast of France” and “My dataset has Switzerland in portrait rather than landscape mode”…\nThe site offers another exceptional feature: if your dataset has an incorrect CRS specified, you can enter an approximate latitude and longitude along with the corresponding X and Y coordinates from your dataset, and ihatecoordinatesystems.com will attempt to identify the correct CRS! Needless to say, this functionality can save your day."
+    "text": "A few days ago, the Canton of Aargau unveiled its new browser-based map viewer called “Online Karten”:\n\n\n\nThe new map viewer of the canton of Aargau\n\n\nBased on the available information, the new viewer appears to be built using React and OpenLayers.\nThe old map viewer will remain accessible until August."
   },
   {
-    "objectID": "posts/2025/04-19-automatic-relative-elevation-model-generation/index.html",
-    "href": "posts/2025/04-19-automatic-relative-elevation-model-generation/index.html",
-    "title": "Automatic relative elevation model generation",
+    "objectID": "posts/2025/05-12-recording-colloquium-on-the-state-of-sgs-implementation/index.html",
+    "href": "posts/2025/05-12-recording-colloquium-on-the-state-of-sgs-implementation/index.html",
+    "title": "Recording: Colloquium on the state of SGS implementation",
     "section": "",
-    "text": "Relative elevation model (REM) of Neches River (source: OpenTopography (fair use))\nArt with scientific merit: Cartographer Dan Coe has popularized this type of visualization of elevations along rivers and floodplains that have the overall trend in river elevation removed. This technique leaves behind elevation fluctuations more or less relative to the river. Once the elevations in this “relative elevation model” (REM) are rendered, the data exposes – even shallow – current and historical fluvial geomorphology.\nOpenTopography offers RiverREM, a Python-based tool for generating and visualizing REMs automatically. The tool requires only a digital elevation model (DEM) and, optionally, a river centerline1 to run."
+    "text": "Busy bees – Swiss Geoinformation Strategy (SGS) 2020\n\n\nOn May 2, Swisstopo hosted a colloquium to present the current state of Swiss Geoinformation Strategy (SGS) implementation and ongoing SGS projects.\nNow, the recording is online. The colloquium is in German and in French, slides are usually bilingual. The video has auto-generated captions and auto-translations of those:\n\nContributors and contributions:\n\nChristine Najar: State of SGS implementation\nPeter Staub: What drives us?\nPasquale di Donato: LLMs for geospatial\nChristine Najar: Digital Twin\nEvi Rothenbühler: Climate monitoring\nBeat Tschanz: Geoplatform Switzerland\nChristine Najar and Peter Staub: Q&A"
   },
   {
-    "objectID": "posts/2025/04-19-automatic-relative-elevation-model-generation/index.html#footnotes",
-    "href": "posts/2025/04-19-automatic-relative-elevation-model-generation/index.html#footnotes",
-    "title": "Automatic relative elevation model generation",
+    "objectID": "posts/2025/02-16-the-missing-dimension/index.html",
+    "href": "posts/2025/02-16-the-missing-dimension/index.html",
+    "title": "The missing dimension: Why geospatial needs to prioritize time",
+    "section": "",
+    "text": "“Change is the EO1 product: The problem is that we so rarely sell it.”\nA bold statement from Will Cadell in his recent article Time for a Change. While Earth observation has always been about detecting change, Cadell argues that the industry still struggles to treat time as a structured and fundamental dimension.\nThe gap: Geospatial tools remain rooted in static, two-dimensional thinking. Time sliders and animated GIFs are useful, but they fall short of truly integrating time into analysis.\nHow to tackle this? – Future geospatial platforms must embrace 3D and 4D visualization, even if that means losing traditional geographical representation – because understanding change matters more than simply mapping it. Cadell again:\nThis shift in perspective is crucial. Whether for climate monitoring, disaster response, or financial markets, geospatial intelligence isn’t just about where things are – it’s about how and why they change.\nPerhaps it’s time to stop selling static maps and start delivering dynamic, time-driven insights – think dashboards2"
+  },
+  {
+    "objectID": "posts/2025/02-16-the-missing-dimension/index.html#footnotes",
+    "href": "posts/2025/02-16-the-missing-dimension/index.html#footnotes",
+    "title": "The missing dimension: Why geospatial needs to prioritize time",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nIf no river centerline is given, the tool looks for one in OpenStreetMap, using the bounding box around the input DEM.↩︎"
+    "text": "Footnotes\n\n\nEarth observation↩︎\nBut be aware of the dashboard trap: Building useless dashboards↩︎"
   },
   {
-    "objectID": "posts/2025/03-25-geoai-state-of-play-in-2025/index.html",
-    "href": "posts/2025/03-25-geoai-state-of-play-in-2025/index.html",
-    "title": "GeoAI: State-of-play in 2025",
+    "objectID": "posts/2025/03-26-open-doors-at-swisstopo/index.html",
+    "href": "posts/2025/03-26-open-doors-at-swisstopo/index.html",
+    "title": "Open doors at swisstopo",
     "section": "",
-    "text": "The Innosuisse-funded Innovation Booster Artificial Intelligence has published a review of GeoAI in Switzerland. The short report has been compiled by the Focus Group “Spatial Data Analytics” comprising Nicolas Lenz, Stefan Keller and Reik Leiterer. It summarizes important players, innovations, developments over the last four years and future directions of the use of purpose-optimized artificial intelligence1 methods for geospatial tasks2.\nThe report establishes that well-known Swiss GIS providers – EBP3, Esri Switzerland, Geocloud, GeoDataSolutions, GeoWerkstatt, Hexagon, Meteotest and more, unnamed, firms – have made progress integrating AI into GIS applications. Within the start-up- and small-company-space, the report identifies three main avenues in which AI is applied for GIS purposes:\nYou can read the approximately two-page report here."
+    "text": "I stumbled upon this completely haphazardly, but swisstopo plans to open its doors to the public on Saturday, 24th of May:\n\nFrom maps and aerial photographs, coordinate systems and 3D models to national borders and documentation of the underground: Find out more about the many and varied tasks of swisstopo and how our work supports you every day. This is your opportunity to take a look behind the scenes at swisstopo and talk to our experts.\n\nI’ll save the date. More details will likely follow."
   },
   {
-    "objectID": "posts/2025/03-25-geoai-state-of-play-in-2025/index.html#footnotes",
-    "href": "posts/2025/03-25-geoai-state-of-play-in-2025/index.html#footnotes",
-    "title": "GeoAI: State-of-play in 2025",
+    "objectID": "posts/2025/02-04-hello-world/index.html",
+    "href": "posts/2025/02-04-hello-world/index.html",
+    "title": "Hello world",
+    "section": "",
+    "text": "This is the first post. Hello world!\nLet’s see where this goes."
+  },
+  {
+    "objectID": "posts/2025/02-08-look-at-usgs-lidar-data-online/index.html",
+    "href": "posts/2025/02-08-look-at-usgs-lidar-data-online/index.html",
+    "title": "Look at USGS LiDAR data online",
+    "section": "",
+    "text": "At https://usgs.entwine.io you can peruse more than 2,000 USGS 3D Elevation Program (3DEP) LiDAR datasets that have been made available through the AWS Public Dataset Program. The data amounts to 70,409,082,675,345 LiDAR points at the time of writing.\n\n\n\nA LiDAR view of Boston\n\n\nThe datasets cover most of the USA and can be looked at in the browser using Potree-based or Cesium-based viewers. The data has been processed into the Entwine Point Tile format which combines JSON for metadata and LAZ for data for performance."
+  },
+  {
+    "objectID": "posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html",
+    "href": "posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html",
+    "title": "geodienste.ch: STAC API and OGC API Features",
+    "section": "",
+    "text": "KGK-CGC published a new release (4.0.2) of their geoservices platform geodienste.ch. Notable excerpt from the release notes under the item “Implement selected parts of eCH-0056 v4.1.0”1:\nWhile QGIS and its STAC API Browser Plugin shows me an error for the STAC at https://geodienste.ch/stac, it does pass validation with STAC Lint and works in Rocket.\nOddly, assets seem to be limited to XTF2 files at the moment, although geodienste.ch offers other, more operative data formats outside of its STAC."
+  },
+  {
+    "objectID": "posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html#footnotes",
+    "href": "posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html#footnotes",
+    "title": "geodienste.ch: STAC API and OGC API Features",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nspecifically, machine and deep learning↩︎\nFor now, this is my rough working definition for the emerging field of “GeoAI”.↩︎\nTransparency note: I work here.↩︎"
+    "text": "Footnotes\n\n\nAnwendungsprofil Geodienste / Profil d’application des géoservices↩︎\nInterlis transfer format↩︎"
   },
   {
-    "objectID": "posts/2025/04-08-drought-lake-constance-and-sentinel-2/index.html",
-    "href": "posts/2025/04-08-drought-lake-constance-and-sentinel-2/index.html",
-    "title": "Drought, Lake Constance and Sentinel-2",
+    "objectID": "posts/2025/03-11-central-nodes-in-geospatial/index.html",
+    "href": "posts/2025/03-11-central-nodes-in-geospatial/index.html",
+    "title": "Central nodes* in geospatial",
     "section": "",
-    "text": "Switzerland has recently experienced an unusually dry period with minimal rainfall, causing water levels in Lake Constance to drop to a historic low — the lowest recorded in 40 years according to experts in the media. Having observed the situation firsthand recently, I decided to explore remote sensing and other data sources to better understand the current conditions and the potential risks of an impending drought. I shared my findings online yesterday, where they garnered significant interest, thus I decided to share them here as well (my apologies if you have seen them before).\nSpecifically, I briefly analyzed Sentinel-2 satellite data (true-color imagery and the Normalized Difference Water Index, NDWI) from April 5th, combined with geodata from swisstopo’s swissTLM3D and gauging data to assess the lake’s extent and water levels:\n\n\n\nThe Untersee, captured in Sentinel-2 true-color imagery (source: Copernicus/ESA), is shown here with a red outline indicating the typical shoreline of Lake Constance. While it is common for the water level to drop below the usual shoreline during winter, the extent of this recession is unusually pronounced this year.\n\n\n\n\n\nThe area surrounding Reichenau island is depicted using Sentinel-2 data, analyzed through the Normalized Difference Water Index (NDWI; source: Copernicus/ESA) to highlight current water conditions.\n\n\n\n\n\nCurrent and historical water levels at the gauging station in Berlingen. In 2022 (in yellow), the water level was at a similarly low level as today, albeit in summer. (source: FOEN)\n\n\n\n\n\nLakehouse over dry ground along the upper part of Lake Constance as of March 23rd (personal photograph)\n\n\nYou can see more results as well as the ensuing discussion on LinkedIn (if you have a user account) or (with less discussion) on Mastodon (no login required)."
+    "text": "Few weeks ago, Brian Monheiser has issued a call on LinkedIn:\nAnd the results are in.\nBut first: Personally, I strongly dislike the term “thought leaders.” For one, I don’t like my thoughts to be led all that much. Second, it rings a bit hollow to me and evokes the bad aspects of LinkedIn as well as hard- or soft-paywalled Medium and Substack posts1. That said, I like how the rest of the question is phrased: … whose insights you prioritize, whose talks you never miss, and whose writings you always read?\nOf course, the afore-mentioned call suffers from network / bubble effects (who has seen / shared / heeded the LinkedIn call?). As such, many names are from the English-speaking world2 and also traditionally male.\nWith that out of the way: I find the list nevertheless interesting. It definitely features some very inspiring people and I am considering to connect with, or at least follow, some of them (I follow3 some of them already).\nBelow, I researched (hopefully correctly4, it wasn’t always trivial with some of the more common names) the LinkedIn profiles and current job titles and affiliations of those geospatial experts that were submitted at least twice:\nSpontaneously, I would add Brian Timoney, among others.\n* for lack of a better word"
   },
   {
-    "objectID": "posts/2025/02-13-geoparquet-2.0/index.html",
-    "href": "posts/2025/02-13-geoparquet-2.0/index.html",
-    "title": "GeoParquet 2.0",
-    "section": "",
-    "text": "On the heels of this, news from the #cloudnative and #cloudnativegeo world:\nand\nWhat does it mean? Well, GEOMETRY and GEOGRAPHY are now native logical data types in both Apache Parquet1 and Apache Iceberg2, just like, e.g., INT32 is. This is a big step for mainstreaming “geo” in the cloud-native3 data community.\nWhat’s going to be even more interesting are the next steps in order to make the cloud-native paradigm work better for spatial data. The rough roadmap and more details are available from CNG."
-  },
-  {
-    "objectID": "posts/2025/02-13-geoparquet-2.0/index.html#footnotes",
-    "href": "posts/2025/02-13-geoparquet-2.0/index.html#footnotes",
-    "title": "GeoParquet 2.0",
+    "objectID": "posts/2025/03-11-central-nodes-in-geospatial/index.html#footnotes",
+    "href": "posts/2025/03-11-central-nodes-in-geospatial/index.html#footnotes",
+    "title": "Central nodes* in geospatial",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nan open-source, columnar storage file format designed for efficient data processing↩︎\nan open-source, high-performance table format for large datasets in data lakes↩︎\ni.e.  taking full advantage of the cloud computing model; in the data world typically through enabling partial downloads of file contents through so-called HTTP range requests↩︎"
+    "text": "Footnotes\n\n\nI view the last two as an anti-pattern for knowledge sharing and community building, unfortunately↩︎\nBrian’s post has maps↩︎\nor followed, on Twitter↩︎\ncorrections welcome↩︎"
   },
   {
-    "objectID": "posts/2025/04-15-the-best-programmers/index.html",
-    "href": "posts/2025/04-15-the-best-programmers/index.html",
-    "title": "The best programmers",
+    "objectID": "posts/2025/05-16-geoparquet-arriving-in-arcgis-pro-35/index.html",
+    "href": "posts/2025/05-16-geoparquet-arriving-in-arcgis-pro-35/index.html",
+    "title": "GeoParquet arriving in ArcGIS Pro 3.5",
     "section": "",
-    "text": "Many geospatial professions involve – varying degrees of – programming: GIS developer1, (geospatial) web or application developer, spatial data scientist and data engineer, GIS analyst, etc. In his blog, Matthias Endler has published an article about traits that, in his opinion, the best programmers share. The article is not specifically about software development in the geospatial domain, but the points it lists are interesting and ought to transfer just fine to sub-disciplines of developing.\nFrom the intro to the blog post:"
+    "text": "Update from the cloud-native front: With version 3.5, ArcGIS Pro now has native support for the cloud-native GeoParquet format:\n\nBeginning with ArcGIS Pro 3.5, there are two ways you can work with Apache Parquet files. Each serves a different purpose and has different requirements as follows:\n\nCreate a multifile feature connection from multiple Parquet files that have the same schema (…)\nAccess a single Parquet file stored on a local drive or in an Amazon Simple Storage Service (S3) bucket\n\n\nThe GeoParquet support comes with specific requirements and limitations, which are detailed in the documentation and in an accompanying FAQ on “using a Parquet file in ArcGIS Pro”.\nChris Holmes of Planet shared his thoughts and assessment on LinkedIn."
   },
   {
-    "objectID": "posts/2025/04-15-the-best-programmers/index.html#footnotes",
-    "href": "posts/2025/04-15-the-best-programmers/index.html#footnotes",
-    "title": "The best programmers",
+    "objectID": "posts/2025/05-04-unofficial-public-transport-maps/index.html",
+    "href": "posts/2025/05-04-unofficial-public-transport-maps/index.html",
+    "title": "Unofficial public transport maps",
+    "section": "",
+    "text": "Lars’ Transport Maps is the project of a transport planner based in Switzerland who “love[s] travelling through Europe by train and creating transport maps”. The site features a growing collection of visually appealing, though unofficial, public transport maps. So, far the following countries are included:\n\nAustria\nBelgium\nDenmark\nFinland\nFrance\nGermany\nLuxembourg\nNetherlands\nNorway\nSweden and\nSwitzerland\n\nThe maps cover the regular train network, general train services, high-speed trains, long-distance trains, and night trains, among others. Many of the maps appear to receive annual updates.\n\n\n\nLong-distance Rail in Switzerland 2025 (source: Lars’ Transport Maps)\n\n\nThe Swiss train network is covered in particularly great detail with an article and a series of maps tracing changes since 1982.\nAll the maps are worth exploring; personally, I found the French high-speed train network especially striking."
+  },
+  {
+    "objectID": "posts/2025/02-08-small-sat-high-res-imagery/index.html",
+    "href": "posts/2025/02-08-small-sat-high-res-imagery/index.html",
+    "title": "Small sat high-res imagery",
+    "section": "",
+    "text": "The commodification of high-resolution optical satellite imagery continues. In the domain of small satellites, ONGLAISAT of the Tokyo-based company ArkEdge Space developed in collaboration with the Taiwan Space Agency TASA has achieved a spatial resolution of approximately 2.5 meters from a relatively low orbit of 410 kilometers.\nFrom the press release:\nWhile the sample image displayed here may also show some of the current limitations of TDI, it’s nevertheless an exciting development to potentially have this spatial resolution available from small space-borne platforms."
+  },
+  {
+    "objectID": "posts/2025/02-08-small-sat-high-res-imagery/index.html#footnotes",
+    "href": "posts/2025/02-08-small-sat-high-res-imagery/index.html#footnotes",
+    "title": "Small sat high-res imagery",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nThat is, developer of GIS software.↩︎"
+    "text": "Footnotes\n\n\nTime delay integration, a forward-motion compensation technique↩︎"
   },
   {
-    "objectID": "posts/2025/04-05-serving-vector-tiles-fast/index.html",
-    "href": "posts/2025/04-05-serving-vector-tiles-fast/index.html",
-    "title": "Serving vector tiles, fast",
+    "objectID": "posts/2025/02-20-python-uv/index.html",
+    "href": "posts/2025/02-20-python-uv/index.html",
+    "title": "Python uv",
     "section": "",
-    "text": "Once you have created your vector tiles, typically you look for a solution to serve them to clients. From Fabian Rechsteiner comes an interesting speed comparison1 of open-source solutions for a slightly different context: Serving vector tiles not from PMTiles or MBTiles, but from a PostGIS instance. The GitHub repo highlights speed comparisons between six vector tile servers across different tests:\nBesides the statistics in the benchmark repository, Fabian Rechsteiner has published an eye-opening interactive side-by-side comparison of the six vector tile servers using a MapLibre client and data from the canton of Thurgau at https://vectormap.ch:\nFabian Rechsteiner’s benchmark repository contains the code to roll your own tests (or maybe update his results a few months down the road). These insights are the results of his Master’s thesis at the University of Salzburg, which is also publicly available (pdf, in German). If you have a subscription, you can also read a shorter article on the analysis in Geomatik Schweiz, edition 11-12/2024 (paywalled, in German).\nObviously, speed isn’t the only quality dimension to decide on a vector tile server. But it is certainly an important one."
+    "text": "uv by Astral (also behind Ruff) is a new-ish Python project management tool that you may have already heard praise about. uv simplifies environment and dependency management for Python (truly, finally) and is blazingly fast, thus potentially streamlining also geospatial workflows reliant on libraries such as GeoPandas, rasterio and the like.\nIf you use Python in your geospatial tooling, I highly recommend reading this very level-headed and thorough one-year review of uv by Bite Code!\nSnippets:\n\nuv’s vision is brilliant. There, I said it.\n\nBut also (… level-headed):\n\nBasically, there are 5 situations when you should not use uv.\n\nAs to the name, cf."
   },
   {
-    "objectID": "posts/2025/04-05-serving-vector-tiles-fast/index.html#footnotes",
-    "href": "posts/2025/04-05-serving-vector-tiles-fast/index.html#footnotes",
-    "title": "Serving vector tiles, fast",
+    "objectID": "posts/2025/04-30-testing-autonomous-gis/index.html",
+    "href": "posts/2025/04-30-testing-autonomous-gis/index.html",
+    "title": "Testing autonomous GIS",
+    "section": "",
+    "text": "The Système d’information du territoire à Genève (SITG) has conducted interesting tests combining generative AI (LLMs), spatial processing functions and – I suspect – a webmapping framework in a REPL-environment1.\nThe tests are based on the framework LLM-Geo. The results are summarized in a blog post “Vers les SIG autonome” (in French). The tests looked at five principles for AI use in “geo” (machine-translation):\nThere is a good accounting of limitations and challenges, interesting findings as well as directions for follow-up work. Recommended reading."
+  },
+  {
+    "objectID": "posts/2025/04-30-testing-autonomous-gis/index.html#footnotes",
+    "href": "posts/2025/04-30-testing-autonomous-gis/index.html#footnotes",
+    "title": "Testing autonomous GIS",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nI was reminded of this speed benchmark, specifically of an article about it in Geomatik Schweiz, by a comment from Xavier Mérour (merci!).↩︎"
+    "text": "Footnotes\n\n\n“Read-Eval-Print Loop” for interactive development and piecewise execution of code. Typical REPL environments in the data domain are Jupyter Notebooks and maybe Observable Notebooks.↩︎"
   },
   {
-    "objectID": "posts/2025/03-01-toponyms/index.html",
-    "href": "posts/2025/03-01-toponyms/index.html",
-    "title": "Toponyms",
+    "objectID": "posts/2025/04-11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/index.html",
+    "href": "posts/2025/04-11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/index.html",
+    "title": "ohsome-planet: Export OSM data and its history to GeoParquet",
     "section": "",
-    "text": "Weekend diversion: Mapmakers (or their financers) got to name a lot of places. There’s a website and a Mastodon account that makes it its purpose to surface the sometimes odd and sometimes funny toponyms1 that have found their way into the official Swisstopo maps (many are in German or Swiss-German) and their etymology. Either outlet offers an RSS feed2."
+    "text": "The GIScience Research Group at Heidelberg University and HeiGIT have published the release 1.0.0 “Kawésqar” of ohsome-planet:\nThis same consortium previously provided cloud-native access to OpenStreetMap (OSM) data1 including its edit history, as presented in a workshop2 at the 2024 State of the Map conference.\nohsome-planet was initially an internal tool used by the consortium to provide OSM data cloud-natively3 in the GeoParquet format. Using ohsome-planet, anybody can now create similar customizable exports. The tool relies on Java 21 and users have to build it themselves. The input data needs to be provided in the standard PBF format which can be obtained for defined geographic areas for example from Geofabrik4.\nIf this interests you, make sure to read the blog post with the announcement."
   },
   {
-    "objectID": "posts/2025/03-01-toponyms/index.html#footnotes",
-    "href": "posts/2025/03-01-toponyms/index.html#footnotes",
-    "title": "Toponyms",
+    "objectID": "posts/2025/04-11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/index.html#footnotes",
+    "href": "posts/2025/04-11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/index.html#footnotes",
+    "title": "ohsome-planet: Export OSM data and its history to GeoParquet",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nplace names↩︎\nYou can follow any Fediverse (e.g. Mastodon or Pixelfed) account through RSS, even if you are not part of the Fediverse. Simply add .rss the URL of their profile page. It’s the open web, after all.↩︎"
+    "text": "Footnotes\n\n\nThe data structure of OSM with its key-value-tagging scheme can be daunting to use, or render usable, in a relational database or in GIS environments.↩︎\nIf this interests you, follow the link and make sure not to miss looking through the slides on the left.↩︎\nNot sure this is a real adverb (?) – oh well.↩︎\nBy the way: Besides PBF, Geofabrik provides other formats, some for free, some for a fee: Shapefile, GeoPackage, GeoJSON, and File Geodatabase.↩︎"
   },
   {
-    "objectID": "posts/2025/04-23-boeing-to-sell-digital-aviation-solutions/index.html",
-    "href": "posts/2025/04-23-boeing-to-sell-digital-aviation-solutions/index.html",
-    "title": "Boeing to sell Digital Aviation Solutions",
+    "objectID": "posts/2025/05-09-new-national-drought-platform/index.html",
+    "href": "posts/2025/05-09-new-national-drought-platform/index.html",
+    "title": "New national drought platform",
     "section": "",
-    "text": "Airplane builder Boeing plans to sell its Digital Aviation Solutions to the investment company Thoma Bravo. The price is set at 10.55 billion1 US Dollars. The sale includes the following subsidiaries / brands:\nQuite some (renowned) geospatial in this deal. It’s not often that you see a precise valuation attached."
+    "text": "Yesterday, the Federal Government has launched a new national platform to monitor draught risks. The platform was jointly developed by the Federal Office for the Environment (FOEN), MeteoSwiss, and Swisstopo. From the press release (in German, in French):\nThere is also an introductory video in English, in German, and in French.\nThe National Drought Platform offers data on:\nParticularly interesting for geospatial professionals: The state of the vegetation is based on the so-called Vegetation Health Index (VHI) which is in turn based on analysis of remote sensing data.1"
   },
   {
-    "objectID": "posts/2025/04-23-boeing-to-sell-digital-aviation-solutions/index.html#footnotes",
-    "href": "posts/2025/04-23-boeing-to-sell-digital-aviation-solutions/index.html#footnotes",
-    "title": "Boeing to sell Digital Aviation Solutions",
+    "objectID": "posts/2025/05-09-new-national-drought-platform/index.html#footnotes",
+    "href": "posts/2025/05-09-new-national-drought-platform/index.html#footnotes",
+    "title": "New national drought platform",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nTo be clear: “Milliarden” in German, “milliards” in French.↩︎"
+    "text": "Footnotes\n\n\nTransparency note: My employer has made a small contribution to the processing.↩︎"
   },
   {
-    "objectID": "posts/2025/03-13-google-and-esri-collaboration-in-3d/index.html",
-    "href": "posts/2025/03-13-google-and-esri-collaboration-in-3d/index.html",
-    "title": "Google and Esri collaboration in 3D",
+    "objectID": "posts/2025/03-13-going-forward-maps-for-ai/index.html",
+    "href": "posts/2025/03-13-going-forward-maps-for-ai/index.html",
+    "title": "Going forward, maps for AI",
     "section": "",
-    "text": "Google and Esri have agreed on a collaboration that will bring photorealistic 3D data from Google Maps into the ArcGIS ecosystem, starting in fall. The Google Maps data covers 2,500 cities in around 50 countries. Technologically, this collaboration leverages the OGC community standard “3D Tiles”.\n\n\n\nGoogle photorealistic 3D scenes in Esri Scene Viewer (source: Esri (fair use))\n\n\nMore info can be gained from Business Wire and from Esri."
+    "text": "Here’s a big geospatial AI wager: Niantic1, maker of AR game Pokémon Go has announced a major change of direction. Scopely will acquire Niantic’s game business including its intellectual property, such as Pokémon Go, for 3.5 billion dollars. At the same time, Niantic will be spinning out a new geospatial AI company, Niantic Spatial Inc.\nFrom Niantic’s CEO:"
   },
   {
-    "objectID": "posts/2025/04-26-colloquium-state-of-sgs-implementation/index.html",
-    "href": "posts/2025/04-26-colloquium-state-of-sgs-implementation/index.html",
-    "title": "Colloquium: State of SGS implementation",
-    "section": "",
-    "text": "The implementation of the Swiss Geoinformation Strategy (SGS) began in 2020. In February, the Coordinating Agency for Federal Geographical Information, GCG and the Conference of the Cantonal Geoinformation and Cadastral Offices (KGK / CGC) published this year’s SGS action plan (German / French).\nOn May 2, Swisstopo will host a colloquium to present the current state of SGS implementation and ongoing SGS projects. This event will take place both in Wabern and online.\n\n\n\nBusy bees – Swiss Geoinformation Strategy (SGS) 2020"
-  },
-  {
-    "objectID": "posts/2025/03-25-why-cloud-native/index.html",
-    "href": "posts/2025/03-25-why-cloud-native/index.html",
-    "title": "Why cloud-native?",
-    "section": "",
-    "text": "The Cloud-Native Geospatial Forum (CNG) features an interesting interview with Kyle Barron, cloud Engineer at Development Seed and, among other roles, developer behind the Python-based “big data”-capable geovisualization library Lonboard1. The interview was published back in December, but if you haven’t read it yet, it is still well worth your time.\nIn the interview, Kyle covers and touches upon, among others:\nThese days, Parquet and GeoParquet are talked about quite often among geospatial professionals. But take note also of GeoArrow. While GeoArrow plays particularly well with GeoParquet, it is not tied to that format and can be used to improve geospatial workflows that involve other formats, too.\nFrom Kyle:\nBe it through GDAL or dozens of other tools such as FME: You may very well have already benefitted from the work around #cloudnativegeo and, in particular, GeoArrow."
-  },
-  {
-    "objectID": "posts/2025/03-25-why-cloud-native/index.html#footnotes",
-    "href": "posts/2025/03-25-why-cloud-native/index.html#footnotes",
-    "title": "Why cloud-native?",
+    "objectID": "posts/2025/03-13-going-forward-maps-for-ai/index.html#footnotes",
+    "href": "posts/2025/03-13-going-forward-maps-for-ai/index.html#footnotes",
+    "title": "Going forward, maps for AI",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nAs to the name: you know, like “longboard”, but with “lon(gitude)”↩︎"
+    "text": "Footnotes\n\n\nA little history: Niantic was founded as a Google startup in 2010 and become independent in 2015.↩︎"
   },
   {
-    "objectID": "posts/2025/02-17-sgs-action-plan-2025/index.html",
-    "href": "posts/2025/02-17-sgs-action-plan-2025/index.html",
-    "title": "Just out: SGS Action Plan 2025",
+    "objectID": "posts/2025/04-09-spatial-data-old-and-new/index.html",
+    "href": "posts/2025/04-09-spatial-data-old-and-new/index.html",
+    "title": "Spatial data old and new",
     "section": "",
-    "text": "Fresh from the SGS board1: The Swiss Geoinformation Strategy (SGS) action plan for the year 2025 has just been published, after formal approval by the Coordinating Agency for federal geographical information, GCG (GKG / GCS in German and French, respectively), and the Conference of the Cantonal Geoinformation and Cadastral Offices (KGK / CGC). The action plan is available in German and in French (pdf).\nThe action plan adopts actions in the following SGS domains:\nNo new actions are adopted for the SGS domains “Development of geodata science” and “Further development of digital platforms”."
+    "text": "Martin Fleischmann1 teaches a course on Spatial Data Science through Charles University in Prague. The course is taught online and is open to anyone. Although I haven’t had the time to really dive into the material yet, one section titled “Spatial data old and new” caught my attention. In it, Martin Fleischmann introduces a dichotomy of spatial data:\nHe then goes on and suggests classifications of the “new spatial data” from two sources:\nWhile I’m not entirely convinced by these classifications and concepts, they offer a fresh (to me) perspective on some aspects of spatial data and seem to complement some traditional concepts4. Even after roughly 20 years of recent “neogeography”, it seems to me, there are still crucial debates and important developments in the geoinformation industry (also in Switzerland) that revolve around these ideas."
   },
   {
-    "objectID": "posts/2025/02-17-sgs-action-plan-2025/index.html#footnotes",
-    "href": "posts/2025/02-17-sgs-action-plan-2025/index.html#footnotes",
-    "title": "Just out: SGS Action Plan 2025",
+    "objectID": "posts/2025/04-09-spatial-data-old-and-new/index.html#footnotes",
+    "href": "posts/2025/04-09-spatial-data-old-and-new/index.html#footnotes",
+    "title": "Spatial data old and new",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nthe organisation tasked with strategic oversight and steering of the implementation of the Swiss Geoinformation Strategy from 2020↩︎"
+    "text": "Footnotes\n\n\nAmong other things, Martin Fleischmann is the developer or one of the developers behind such geospatial tools as momepy, GeoPandas, and PySAL.↩︎\nDavid Lazer and Jason Radford (2017): Data Ex Machina: Introduction to Big Data. Annual Review of Sociology, 43(1): 19–39.↩︎\nDaniel Arribas-Bel (2014): Accidental, Open and Everywhere: Emerging Data Sources for the Understanding of Cities. Applied Geography, 49: 45–53.↩︎\nfor example, distinctions such as “official/authoritative” vs. “crowdsourcing”, concepts like (so-called) “volunteered geographic information”, and the “cathedral vs. bazaar” model of thinking about data↩︎"
   },
   {
-    "objectID": "posts/2025/02-10-prix-carto-2025/index.html",
-    "href": "posts/2025/02-10-prix-carto-2025/index.html",
-    "title": "Prix Carto 2025",
+    "objectID": "posts/2025/03-27-the-origins-of-giscience-in-switzerland-with-rob-weibel/index.html",
+    "href": "posts/2025/03-27-the-origins-of-giscience-in-switzerland-with-rob-weibel/index.html",
+    "title": "The origins of GIScience in Switzerland with Rob Weibel",
     "section": "",
-    "text": "The Swiss Society of Cartography (Schweizerische Gesellschaft für Kartografie, SGK) is set to host the prestigious bi-annual Prix Carto awards during its autumn meeting in 2025. This event celebrates innovative and outstanding cartographic products with a connection to Switzerland. The award highlights excellence in cartography, geomatics, and geovisualization, offering recognition across multiple categories.\nBesides its main category, the Prix Carto also includes two special awards to foster young talent: the “Prix Carto – start”, aimed at school students and apprentices, and the “Prix Carto – edu”, designed for university students and adults in training programs. Both of the “young talent” awards carry a prize of 500 Swiss Francs.\nSubmissions for the 2025 awards are now open, with participants required to submit their entries through an official form on the SGK website. The SGK encourages widespread participation from both seasoned professionals and emerging talents."
+    "text": "Robert Weibel, UZH professor for Geographic Information Science, (semi-)retired this year. On this occasion, the Department of Geography of the University of Zurich1 did an interview with Rob.\nIt’s a very interesting look at 30+ years of GI Systems and GI Science: From a lot of initial skepticism to the search for an epistemological foundation for GIS and eventually broad acceptance as a scientific sub-discipline of geography. And also from scarce beginnings to essentially freely available location technology, smartphone apps and an age of seeming abundance of geospatial data – and ethical questions regarding its responsible use.\nFrom the interview:\nDefinitely in my life."
   },
   {
-    "objectID": "posts/2025/04-16-writing-good-tutorials/index.html",
-    "href": "posts/2025/04-16-writing-good-tutorials/index.html",
-    "title": "Writing good tutorials",
-    "section": "",
-    "text": "Heather Smith and the Tutorials team at Esri have published a blog post on writing effective tutorials about GIS and geospatial topics. However, the most valuable part is not the blog post itself but the draft tutorial it links to, which includes explanations and instructions for tutorial writers.1 On a separate page, there is a collection of six tips from the Tutorials team on how to improve your tutorial-writing skills, offering excellent advice.\nThis post reminded my of another one: Already 10 years (!) ago2, Katy DeCorah (then at Mapbox, now at Microsoft) published Writing for everyone:\nThis concise collection of tips offers outstanding advice on writing technical content clearly and with empathy for readers.3 Definitely recommended reading."
-  },
-  {
-    "objectID": "posts/2025/04-16-writing-good-tutorials/index.html#footnotes",
-    "href": "posts/2025/04-16-writing-good-tutorials/index.html#footnotes",
-    "title": "Writing good tutorials",
+    "objectID": "posts/2025/03-27-the-origins-of-giscience-in-switzerland-with-rob-weibel/index.html#footnotes",
+    "href": "posts/2025/03-27-the-origins-of-giscience-in-switzerland-with-rob-weibel/index.html#footnotes",
+    "title": "The origins of GIScience in Switzerland with Rob Weibel",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nThis material is presented in the form of a so-called ArcGIS StoryMap, but the ideas in the material are system- and vendor-independent.↩︎\nYou can probably tell: It clearly left a mark, it was so eye-opening for me at the time. Thanks to my “second brain”, I was able to find this resource again.↩︎\nAnd probably a reason why, in my view, Mapbox was a breath of fresh air at the time.↩︎"
+    "text": "Footnotes\n\n\nApparently, the Department of Geography of the University of Zurich was the first institute in continental europe to have a chair dedicated to GIS – already in 1981.↩︎"
   },
   {
-    "objectID": "posts/2025/04-14-new-geospatial-data-in-google-bigquery/index.html",
-    "href": "posts/2025/04-14-new-geospatial-data-in-google-bigquery/index.html",
-    "title": "New geospatial data in Google BigQuery",
+    "objectID": "posts/2025/04-26-geoserver-cloud-adds-geoparquet-data-source-support/index.html",
+    "href": "posts/2025/04-26-geoserver-cloud-adds-geoparquet-data-source-support/index.html",
+    "title": "GeoServer Cloud adds GeoParquet data source support",
     "section": "",
-    "text": "Google announced that it has newly added geospatial data into BigQuery1. According to the announcement and an accompanying blog post the additions encompass:"
+    "text": "GeoServer Cloud is a cloud-native version of GeoServer built using dockerized microservices. Release 2.27.0.0 from two days ago adds support for input data in GeoParquet DataStores. This broadens the existing support of cloud-native input data formats which already encompassed FlatGeoBuf and Cloud Optimized GeoTIFF (COG).\nNot a GeoServer (sans “Cloud”) expert, but from what I could gather from the docs and the extensions page, GeoServer proper does not seem to support GeoParquet, FGB, and COG (but, for example, a directory of shapefiles)."
   },
   {
-    "objectID": "posts/2025/04-14-new-geospatial-data-in-google-bigquery/index.html#footnotes",
-    "href": "posts/2025/04-14-new-geospatial-data-in-google-bigquery/index.html#footnotes",
-    "title": "New geospatial data in Google BigQuery",
+    "objectID": "posts/2025/05-19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/index.html",
+    "href": "posts/2025/05-19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/index.html",
+    "title": "MVT, MBT, PMTiles: Everything to know about vector tiles",
+    "section": "",
+    "text": "From OpenStreetMap contributor Daniel-J-H, comes this blog post about “Everything you wanted to know about vector tiles (But were afraid to ask)”. It’s one year old, but still a great overview of various formats – Mapbox Vector Tiles (MVT), MBTiles, and Protomaps’s PMTiles – and underpinning technologies, complete with tips how to make your own. Great opening, too:\n\nTo understand how revolutionary vector maps were we have to go back in time to the early 2010s. One Direction is raising to international fame and raster maps are at the height of their popularity. Folks creating raster web maps rendering OpenStreetMap data into beautiful 256x256 pixel images. But raster maps come with limitations.\n\n\n\n\nFreely rotating labels – just one of the benefits of vector tiles (source: CC BY-NC-SA [Daniel-J-H](https://www.openstreetmap.org/user/daniel-j-h))"
+  },
+  {
+    "objectID": "posts/2025/03-04-cloudnativegeo-approachable/index.html",
+    "href": "posts/2025/03-04-cloudnativegeo-approachable/index.html",
+    "title": "#cloudnativegeo: Approachable",
+    "section": "",
+    "text": "There is plenty of (quite) technical content around cloud-optimized geospatial data formats (#cloudnativegeo, for short). For example, the comprehensive format guide by the Cloud-Native Geo Forum (CNG) or, in the Swiss context, the shorter guide on behalf of GeoStandards.ch.\nIf you would enjoy a perhaps more accessible approach than studying such technical publications, you may want to look into the cloudnativegeo zine1 recently issued by Development Seed — “Optimizing Geospatial for the Cloud”:\nYou can peruse the short (24 pages) zine online (personally, I could do without the acoustic skeuomorphism2, but that’s just a minuscule quibble).\nInterestingly, Development Seed have also published a behind-the-scenes blogpost that explains some of the thinking behind making a zine."
+  },
+  {
+    "objectID": "posts/2025/03-04-cloudnativegeo-approachable/index.html#footnotes",
+    "href": "posts/2025/03-04-cloudnativegeo-approachable/index.html#footnotes",
+    "title": "#cloudnativegeo: Approachable",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nGoogle’s data warehouse (DWH) Platform-as-a-Service offering↩︎\nDigging deeper, this probably refers to a function called ST_REGIONSTATS(). Digging even deeper, it sounds like ST_REGIONSTATS() is some kind of zonal statistics function, in GIS parlance, for Google Earth Engine data.↩︎"
+    "text": "Footnotes\n\n\n“zine” is short for “magazine” or “fanzine”↩︎\nskeuomorphism in digital user experience design is the approach of making a digital thing look and/or behave like their real-world counterpart↩︎"
   },
   {
-    "objectID": "posts/2025/05-04-marco-bernasocchi-on-qfield/index.html",
-    "href": "posts/2025/05-04-marco-bernasocchi-on-qfield/index.html",
-    "title": "Marco Bernasocchi on QField",
+    "objectID": "posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html",
+    "href": "posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html",
+    "title": "The impact of flooding-induced road disruptions on emergency services accessibility",
     "section": "",
-    "text": "A while ago1, the Mapscaping podcast had an interview with Marco Bernasocchi, founder and CEO of OPENGIS.ch, chair of the QGIS Project Steering Committe and OSGeo board member. In the podcast episode, Marco Bernasocchi gives insight into the origins of QField and speaks about current developments around QField, QFieldCloud and QFieldSync, but also a bit more broadly about the open-source movement.\nFrom the podcast:\nHere’s the episode. There is also an (automatic) transcript."
+    "text": "Quite a mouthful, that title: “Road network disruptions during extreme flooding events and their impact on the access to emergency medical services: A spatiotemporal vulnerability analysis”. From a Swiss-Austrian team comes this interesting analysis of how disruptions in the road network of the canton of Berne that are induced by extreme flooding events affect the population’s access to emergency medical services (EMS). The paper is open-access.\nIt seems, event-specific EMS accessibility is an under-studied topic, but certainly relevant with extreme rain and flooding events on the increase due to climate change. The researchers studied accessibility and changes in accessibility in 1 km spatial and 1 hour temporal resolution through a simulated flooding event over six days, among other things.\nFrom the paper:\n\nIn the context of flood disasters, further investigation into complex and cascading impacts would be advantageous for more informed and effective management of dynamic flood risk. (…) existing infrastructure was designed before increasingly more extreme events due to climate change have been and expect to continue occurring. Preparing for rare but high consequence flood events is a core part of undertaking anticipatory actions by emergency managers, rather than acting only after the onset of a flood event. Such preparations involve custom measures that incorporate local context to reduce societal vulnerabilities."
   },
   {
-    "objectID": "posts/2025/05-04-marco-bernasocchi-on-qfield/index.html#footnotes",
-    "href": "posts/2025/05-04-marco-bernasocchi-on-qfield/index.html#footnotes",
-    "title": "Marco Bernasocchi on QField",
+    "objectID": "posts/2025/05-07-tile-and-glyph-map-experiments/index.html",
+    "href": "posts/2025/05-07-tile-and-glyph-map-experiments/index.html",
+    "title": "Tile and glyph map experiments",
+    "section": "",
+    "text": "From David O’Sullivan1, self-described geospatial “problem solver, researcher, analyst, communicator, and trainer”:\nDavid O’Sullivan walks us through various considerations and design alternatives to show the afore-mentioned data in a single map: tile maps using tilings of squares and other shapes, glyph maps, tile maps with diagrams, and a tile map combined with the value-by-alpha method popularized by Rob Roth2, for example.\nIn this article, I also learned about MapWeaver, a software that allows you to conduct your own experiments with various tiling schemes, and the underlying Python package weavingspace.\nI love the out-of-the-box experimentation of this article and the more avant-garde approaches that challenge traditional visualization methods offered by your run-of-the-mill GIS software. More of this, please."
+  },
+  {
+    "objectID": "posts/2025/05-07-tile-and-glyph-map-experiments/index.html#footnotes",
+    "href": "posts/2025/05-07-tile-and-glyph-map-experiments/index.html#footnotes",
+    "title": "Tile and glyph map experiments",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nBeware, this might be old news to you: The podcast episode is from September. I’m a bit behind with my podcast queue.↩︎"
+    "text": "Footnotes\n\n\n“O’Sullivan” in GIS… – Wait, what is this bell going off in my head? I was very pleased to realize that I was looking at the website of the O’Sullivan of “O’Sullivan and Unwin (2003): Geographic Information Analysis” (or 2010, 2nd ed.). This is my all-time favorite book on GIS and spatial analyis.↩︎\nSee here, for example.↩︎"
   },
   {
-    "objectID": "posts/2025/03-08-25-years-shuttle-radar-topography-mission/index.html",
-    "href": "posts/2025/03-08-25-years-shuttle-radar-topography-mission/index.html",
-    "title": "25 years Shuttle Radar Topography Mission",
+    "objectID": "posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html",
+    "href": "posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html",
+    "title": "Topodiscs: Custom 3D-printed Swiss landscapes",
     "section": "",
-    "text": "February marked the 25 year anniversary of the Shuttle Radar Topography Mission (SRTM) which gave us the then revolutionary global1 high resolution2 elevation dataset of the same name. What an achievement!\nSRTM travelled on board of Space Shuttle Endeavour on the STS3-99 mission in February 2000. Technically, it was a single-pass interferometric C-band SAR4 system with the second antenna placed on a roughly 60 meter long mast that had to be deployed from the Shuttle’s transport bay. During data capture in an orbit 233 km above the Earth, the crew had to change data recording tapes every 30 minutes. More than 200 hours of data collection was done through 11 days of flight resulting in more than 12 terabytes of data on the shape of the Earth surface.\nInitially, SRTM digital elevation models were offered at 1-arcsecond resolution over the USA and at 3-arcsecond resolution in the rest of the world. I still remember from working with SRTM data that these resolutions equate to approximately 30 meters and 90 meters, respectively, at the equator5. Today improved, e.g. void-filled, SRTM data is available globally at 1-arcsecond resolution.\nTo celebrate the occasion, there is an interesting look back on SRTM by NASA as well as one by the DLR from which the video below is sourced (in German, but English subtitles are available).\nEnjoy!"
-  },
-  {
-    "objectID": "posts/2025/03-08-25-years-shuttle-radar-topography-mission/index.html#footnotes",
-    "href": "posts/2025/03-08-25-years-shuttle-radar-topography-mission/index.html#footnotes",
-    "title": "25 years Shuttle Radar Topography Mission",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nwell, due to the inclined orbit of course not truly global↩︎\ndozens of meters↩︎\nSpace Transportation System↩︎\nSynthetic Aperture Radar↩︎\nthe resolution is higher towards the poles↩︎"
-  },
-  {
-    "objectID": "posts/2025/03-17-open-data-at-a-glance/index.html",
-    "href": "posts/2025/03-17-open-data-at-a-glance/index.html",
-    "title": "Open data at a glance",
-    "section": "",
-    "text": "ASIT has published an open data guide for geodata. It’s freely available with their other open-data-themed resources.\nI like this practical guide, more than earlier attempts to approach the topic from a geodata perspective. This new guide is very nicely designed, easy to read, and motivating to data owners. I think it strikes a very nice balance with respect to covering the topic in enough depth to be valuable, while not being trivial and also not covering every tiny detail so that it becomes tiring or boring.\nThe guide:\nAs added bonuses, it for example briefly covers private initivates for opening data, usage conditions (versus licenses), the list of base geodata as a starting point for an open data catalog, and open data formats1.\nOne of the key takeaways (translated):\nWhat’s not to like. Recommended reading."
-  },
-  {
-    "objectID": "posts/2025/03-17-open-data-at-a-glance/index.html#footnotes",
-    "href": "posts/2025/03-17-open-data-at-a-glance/index.html#footnotes",
-    "title": "Open data at a glance",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nAlbeit, a minor drawback: without mentioning cloud-native formats. Maybe something for the 2nd edition.↩︎"
-  },
-  {
-    "objectID": "posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/index.html",
-    "href": "posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/index.html",
-    "title": "Tool-tip: Multi-scale terrain analysis",
-    "section": "",
-    "text": "Terrain is a multi-scale (or even fractal1) phenomenon. Thus, with Wood (1996)2 we can state:\nThus, it is interesting that ArcGIS Pro 3.4 and 3.5 add functions for computing the multi-scale surface percentile, the multi-scale surface difference, and the multi-scale surface deviation, respectively.\nMore advanced geomorphometric parameters such as multi-scale surface shape classification, various kinds of multi-scale curvatures, and more can be computed using SAGA GIS (e.g. through QGIS with the appropriate plug-in) or using LandSerf by the afore-mentioned Jo Wood."
-  },
-  {
-    "objectID": "posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/index.html#footnotes",
-    "href": "posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/index.html#footnotes",
-    "title": "Tool-tip: Multi-scale terrain analysis",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nThe fractal dimension of a terrain surface can be estimated (similarly to the more famous example regarding the fractal dimension of coastlines). In fact, I have done so for Switzerland using Swisstopo DEMs years ago. But that nugget of information is lost to the implosion of Twitter.↩︎\nCf. also pp. 45 here↩︎\nTransparency note: Link points to an article by myself on the blog of my employer.↩︎"
-  },
-  {
-    "objectID": "posts/2025/03-18-Best-practices-for-cloud-optimized-geotiffs/index.html",
-    "href": "posts/2025/03-18-Best-practices-for-cloud-optimized-geotiffs/index.html",
-    "title": "Best practices for Cloud-Optimized GeoTIFFs",
-    "section": "",
-    "text": "Cloud-Optimized GeoTIFFs (COGs) have revolutionized the way large geospatial raster datasets are accessed and processed. By enabling efficient, selective retrieval of data without requiring full downloads1, they are set to become a key element in modern geospatial infrastructures. To ensure seamless integration within the Swiss (or any) geospatial ecosystem, a structured approach to creating and using COGs is essential."
-  },
-  {
-    "objectID": "posts/2025/03-18-Best-practices-for-cloud-optimized-geotiffs/index.html#footnotes",
-    "href": "posts/2025/03-18-Best-practices-for-cloud-optimized-geotiffs/index.html#footnotes",
-    "title": "Best practices for Cloud-Optimized GeoTIFFs",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nthis is the core of “cloud-native”↩︎\nsee the GDAL COG Driver Documentation↩︎\nsee also the Compression Optimization Guide by Koko Alberti↩︎"
-  },
-  {
-    "objectID": "posts/2025/04-23-deadlines-for-prix-carto-2025-approaching/index.html",
-    "href": "posts/2025/04-23-deadlines-for-prix-carto-2025-approaching/index.html",
-    "title": "Deadlines for Prix Carto 2025 approaching",
-    "section": "",
-    "text": "Two deadlines for the 2025 instalment of the prestigious bi-annual Prix Carto1, awarded by the Swiss Society of Cartography (SSC), are approaching:\nSubmissions for the 2025 awards can be handed in online.\nFor context: The SSC Prix Carto award night will be held in autumn. The event celebrates innovative and outstanding cartographic products with a connection to Switzerland. The Prix Carto highlights excellence in cartography, geomatics, and geovisualization, offering recognition across multiple categories.\nBesides its main category, the Prix Carto also includes two special awards to foster young talent: the “Prix Carto – start”, aimed at school students and apprentices, and the “Prix Carto – edu”, designed for university students and adults in training programs. Both of the “young talent” awards carry a prize of 500 Swiss Francs."
-  },
-  {
-    "objectID": "posts/2025/04-23-deadlines-for-prix-carto-2025-approaching/index.html#footnotes",
-    "href": "posts/2025/04-23-deadlines-for-prix-carto-2025-approaching/index.html#footnotes",
-    "title": "Deadlines for Prix Carto 2025 approaching",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nTransparency note: I’m part of the jury team.↩︎"
-  },
-  {
-    "objectID": "posts/2025/04-29-network-simplification-in-python/index.html",
-    "href": "posts/2025/04-29-network-simplification-in-python/index.html",
-    "title": "Network simplification in Python",
-    "section": "",
-    "text": "If you have worked with GIS in transportation, you have almost inevitably come across the problem of network simplification. Maybe you wanted to do map-matching1 between different street networks2 where one of the networks was much more detailled than the other. Over the years, various algorithms and tools have been developed for network simplification, but none seemed to quite be able to tackle the problem.\nNow, an interesting approach comes from Martin Fleischmann, Anastassia Vybornova and James Gaboardi (with support from Anna Brázdová and Daniela Dančejová) in the form of the Python package neatnet. The results look promising, also compared to earlier algorithms. Besides the simplification itself, neatnet also handles potentially important pre-processing steps such as repair of dangling nodes and removal of pseudo-nodes.\nIf this interests you, there is:"
-  },
-  {
-    "objectID": "posts/2025/04-29-network-simplification-in-python/index.html#footnotes",
-    "href": "posts/2025/04-29-network-simplification-in-python/index.html#footnotes",
-    "title": "Network simplification in Python",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nOne of the harder problems in GIS, if you ask me.↩︎\nI have gained my share of experiences with the networks underlying the NPVM/MNTP, MISTRA BS, data from STRAVA (a “massaged” version of OpenStreetMap), and data from HERE, for example.↩︎"
-  },
-  {
-    "objectID": "contribute.html",
-    "href": "contribute.html",
-    "title": "Contribute",
-    "section": "",
-    "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. Do you have something you would like to share with the audience of spatialists.ch?\nYou can submit a post or post idea through GitHub or by email.\nBy submitting material you confirm that: a) you have the right to submit it. b) you understand and agree that this project, spatialists.ch, and thus your contribution is public and that a record of the contribution including all personal information you submit with it is maintained indefinitely and may be redistributed consistent with this project and the license(s) involved.\nReach out with any questions."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. No guarantees regarding anything – frequency, quality or that it even stays around. We’ll see how this will develop, and into what.\nIt’s not meant as a mid-2000s to early 2010s-style full-fledged blog with longform articles, commentary and opinion, but rather as a microblogging-style news curation service that is entirely indepedent of social platforms and entirely dependent on my interests and capacity to publish.\nTo who does ‘I’ refer, above? For now, this is mainly run by Ralph and the occasional contributor. The author responsible for each post is indicated in the byline above the post and also on the main page.\nReach out with questions, feedback, ideas or if you’d like to contribute."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Spatialists – geospatial news",
-    "section": "",
-    "text": "MVT, MBT, PMTiles: Everything to know about vector tiles\n\n\nDaniel-J-H offers a comprehensive overview of #vectortiles technology, including #Mapbox Vector Tiles (#MVT), #MBTiles, and #Protomaps’s #PMTiles. The post explains the evolution from #raster to #vector #maps, compares key formats and technologies…\n\n\n\n\n\n19.05.2025 18:32\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGeoParquet arriving in ArcGIS Pro 3.5\n\n\nWith version 3.5, users can now natively work with #GeoParquet files in #ArcGIS Pro, either by creating multifile feature connections or by accessing individual #Parquet files stored locally or in Amazon #S3. This streamlines the integration of…\n\n\n\n\n\n16.05.2025 17:43\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTool-tip: Multi-scale terrain analysis\n\n\n#Terrain is inherently #multiscale, with features and surface variations that must be analyzed across a range of spatial scales. New tools in #ArcGISPro 3.4 and 3.5 along with advanced options in #SAGA GIS and #LandSerf, make it possible to compute…\n\n\n\n\n\n14.05.2025 17:23\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGDAL 3.11 released with new gdal program\n\n\nAs of Friday, #GDAL 3.11.0 “Eganville” has been released. Starting with GDAL 3.11, parts of the GDAL utilities are available from a new single gdal program which accepts commands and subcommands. This simplifies and unifies GDAL syntax.\n\n\n\n\n\n12.05.2025 22:26\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nRecording: Colloquium on the state of SGS implementation\n\n\n#Swisstopo hosted a #colloquium to present the current state of Swiss Geoinformation Strategy (#SGS) implementation and ongoing SGS projects. Now, the recording is online.\n\n\n\n\n\n12.05.2025 22:12\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nNew national drought platform\n\n\nThe Federal Government has launched a new National #Drought Platform providing standardized, up-to-date information and forecasts on drought risks across Switzerland. The platform integrates #remotesensing data for #vegetation health and data on…\n\n\n\n\n\n09.05.2025 16:48\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nSnap Map: Spatial social\n\n\nApparently, #Snapchat, like other #socialmedia companies, has been exploring geospatial use-cases. TechCrunch compiled some interesting usage numbers.\n\n\n\n\n\n08.05.2025 19:41\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTile and glyph map experiments\n\n\nDavid O’Sullivan explores innovative visualizations of complex #multivariate data on #maps, using a case study with three variables. His article showcases creative #mapping techniques pushing the boundaries of traditional GIS #visualization.\n\n\n\n\n\n07.05.2025 21:53\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\n“Dis, pourquoi?” on toponyms and maps\n\n\nOver the past two weeks, #RTS’s “Dis, pourquoi?” dedicated its episodes to an in-depth look at #toponymy and at #maps and #cartography, featuring Frédéric Giraut of the University of Geneva for the former and Pascal Marguerat and Raphaël Bovier of…\n\n\n\n\n\n05.05.2025 22:40\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nUnofficial public transport maps\n\n\n“Lars’ Transport Maps” is a project by a transport planner passionate about #train-travel and #mapdesign, offering a growing collection of unofficial #publictransport maps for European countries. The maps cover a wide range of services with…\n\n\n\n\n\n04.05.2025 15:08\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nMarco Bernasocchi on QField\n\n\nA recent #Mapscaping podcast episode features Marco Bernasocchi who shares the story behind #QField – a mobile app for field data collection. Marco Bernasocchi discusses the evolution of QField and QFieldCloud and the broader open-source movement.\n\n\n\n\n\n04.05.2025 13:56\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTesting autonomous GIS\n\n\nThe Système d’information du territoire à Genève (#SITG) has explored #autonomous #GIS capabilities by combining #AI/#LLM technology with geoprocessing and visualization. The suite of tests is explained in an article that also highlights…\n\n\n\n\n\n30.04.2025 11:24\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nNetwork simplification in Python\n\n\nneatnet: A new #Python package from Martin Fleischmann, Anastassia Vybornova, and James Gaboardi offers promising functionality for #network simplification.\n\n\n\n\n\n29.04.2025 22:41\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGeoServer Cloud adds GeoParquet data source support\n\n\n#GeoServer Cloud 2.27.0.0, a cloud-native, microservices-based version of GeoServer, now supports #GeoParquet DataStores, expanding its compatibility with modern #cloudnative geospatial formats alongside #FlatGeoBuf and Cloud-Optimized GeoTIFF…\n\n\n\n\n\n26.04.2025 18:21\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nColloquium: State of SGS implementation\n\n\nThe Swiss #Geoinformation Strategy (#SGS), launched in 2020, aims to make reliable, detailed, and up-to-date geoinformation easily accessible and interconnected across #Switzerland. On May 2, #Swisstopo will host a colloquium to review the progress…\n\n\n\n\n\n26.04.2025 15:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nBoeing to sell Digital Aviation Solutions\n\n\nAirplane builder #Boeing plans to sell its Digital #Aviation Solutions for 10.55 billion US Dollars. The sale includes several geospatial(-adjacent) subsidiaries and brands.\n\n\n\n\n\n23.04.2025 18:18\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nDeadlines for Prix Carto 2025 approaching\n\n\nHeads-up: Two deadlines for the 2025 instalment of the prestigious bi-annual #PrixCarto, awarded by the Swiss Society of #Cartography, are approaching.\n\n\n\n\n\n23.04.2025 17:48\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nAutomatic relative elevation model generation\n\n\nOpenTopography’s #RiverREM is a #Python-based tool that automates the creation and visualization of relative elevation models (REMs) from digital elevation models, making it easier than ever for scientists, artists, and enthusiasts to explore the…\n\n\n\n\n\n19.04.2025 16:53\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nWriting good tutorials\n\n\nHow do you convey complicated technical GIS and geospatial information to a potentially diverse audience clearly and helpfully? – Two blog posts, 10 years apart, offer some answers.\n\n\n\n\n\n16.04.2025 21:11\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe best programmers\n\n\nMany geospatial professions involve – varying degrees of – #programming. In a new article, Matthias Endler has collected fundamental #traits that the best #programmers he knows seem to share.\n\n\n\n\n\n15.04.2025 19:05\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nNew geospatial data in Google BigQuery\n\n\n#Google is adding geospatial content to its #DWH solution #BigQuery. Additions encompass annotated Street View #imagery, Places (#POI) data, and #traffic data, among others.\n\n\n\n\n\n14.04.2025 20:43\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTool tip: Mapshaper\n\n\n#Mapshaper is a lightweight yet powerful geospatial toolkit offering #topology-aware #simplification (via Douglas-Peucker and Visvalingam algorithms), spatial operations, and more. Available across Windows, macOS, and Linux, it includes a…\n\n\n\n\n\n12.04.2025 18:28\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nohsome-planet: Export OSM data and its history to GeoParquet\n\n\nThe GIScience Research Group at Heidelberg University and HeiGIT have released version 1.0.0 of #ohsome-planet, a tool for #cloudnative access to #OpenStreetMap (#OSM) data using the #GeoParquet format. Originally developed as an internal tool, it…\n\n\n\n\n\n11.04.2025 21:49\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial data old and new\n\n\nMartin Fleischmann’s course on Spatial #DataScience provides an introduction to spatial #data analysis using Python. One short section, “Spatial Data Old and New”, explores the evolution of spatial data, contrasting traditional, carefully curated…\n\n\n\n\n\n09.04.2025 20:41\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nDrought, Lake Constance and Sentinel-2\n\n\nSwitzerland has experienced an exceptionally dry period, with Lake Constance’s water levels dropping to their lowest in decades due to little rainfall and snowmelt from the Alps. Recent Sentinel-2 satellite data and gauging station records reveal…\n\n\n\n\n\n08.04.2025 22:28\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nServing vector tiles, fast\n\n\nWant to serve #VectorTiles to your users? Fabian Rechsteiner’s benchmark pits six open-source servers (#BBOX, #ldproxy, #Martin, #pg_tileserv, #Tegola, #TiPg) against each other, revealing stark speed differences.\n\n\n\n\n\n05.04.2025 16:05\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTool tip: Tippecanoe Command Generator\n\n\nIf you create, or are curious about, #VectorTiles, you may have come across the command line utility #Tippecanoe (TIP-ə-kə-NOO). It’s probably no secret that its usage is not entirely trivial, but there is a helpful tool for this now.\n\n\n\n\n\n04.04.2025 14:34\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nOpen SAR data\n\n\nSynthetic Aperture Radar (#SAR) is an interesting #remotesensing technology that captures high-resolution data of the Earth’s surface, regardless of weather or lighting conditions. This curated collection of open SAR data sources provides an…\n\n\n\n\n\n01.04.2025 17:31\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nNew map viewer for the canton of Aargau\n\n\nA few days ago, the Canton of #Aargau unveiled its new browser-based map viewer, built using #OpenLayers and #React.\n\n\n\n\n\n31.03.2025 07:21\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe origins of GIScience in Switzerland with Rob Weibel\n\n\nRobert Weibel, Professor of Geographic Information Science at the University of Zurich, retired at the end of January 2025 after a distinguished career spanning over three decades. In an interview, Rob reflects on the remarkable evolution of…\n\n\n\n\n\n27.03.2025 19:04\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nOpen doors at swisstopo\n\n\nThe Federal Office of Topography #swisstopo is opening its doors to the public on May 24.\n\n\n\n\n\n26.03.2025 18:37\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nWhy cloud-native?\n\n\nKyle Barron, cloud engineer at Development Seed and developer of Lonboard, offers interesting insights into the cloudnativegeo paradigm in a recent interview with CNG. He discusses Parquet, GeoParquet, and GeoArrow, explaining their characteristics…\n\n\n\n\n\n25.03.2025 22:56\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGeoAI: State-of-play in 2025\n\n\nThe Innovation Booster #ArtificialIntelligence has released a concise review of #GeoAI in Switzerland. The report highlights significant players, innovations, and developments in the field, showcasing how #AI is being integrated into #GIS…\n\n\n\n\n\n25.03.2025 17:36\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nLabeling master class\n\n\nFrom cartographer Andy Skinner comes this very useful resource about #labels in #cartography for both interactive and static #maps. Scale, transparency-and-opacity, hue, tone, halos, … – this guide covers many different visual variables and how…\n\n\n\n\n\n21.03.2025 17:46\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nBest practices for Cloud-Optimized GeoTIFFs\n\n\nCloud-Optimized #GeoTIFFs (#COG-s) have revolutionized the way large geospatial raster datasets are accessed and processed. From GeoStandards comes Best Practices Guide for this #cloudnativegeo format.\n\n\n\n\n\n18.03.2025 22:01\n\n\nDavid Oesch\n\n\n\n\n\n\n\n\n\n\n\n\nOpen data at a glance\n\n\n#ASIT has published an #opendata guide for #geodata. The guide covers the essentials and strikes a very nice balance with respect to covering the topic in enough depth to be valuable, while not being trivial and also not covering every tiny detail.…\n\n\n\n\n\n17.03.2025 22:18\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nEMBAG/LMETA does not make open geodata\n\n\nThe #EMBAG or #LMETA, a Swiss federal law enacted at the start of 2024 mandates #OpenData. But there seems to be a confusion about its effects on geoinformation.\n\n\n\n\n\n15.03.2025 18:04\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGoogle and Esri collaboration in 3D\n\n\n#Google and #Esri have agreed on a collaboration that will bring photorealistic #3D data from Google Maps into the #ArcGIS ecosystem, starting in fall.\n\n\n\n\n\n13.03.2025 07:10\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGoing forward, maps for AI\n\n\nHere’s a big geospatial #AI wager: #Niantic, maker of AR game Pokémon Go among others, has announced that Scopely will acquire its game business and that Niantic will be spinning out a new geospatial #AI company, Niantic Spatial Inc.\n\n\n\n\n\n13.03.2025 06:40\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nCentral nodes* in geospatial\n\n\nFew weeks ago, Brian Monheiser has issued this call on LinkedIn: Who are the top 10 living geospatial thought leaders whose insights you prioritize, whose talks you never miss, and whose writings you…\n\n\n\n\n\n11.03.2025 15:07\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\n25 years Shuttle Radar Topography Mission\n\n\nIt’s the 25th anniversary of the Shuttle Radar Topography Mission (SRTM)! This mission revolutionized Earth observation by creating the first near-global high-resolution digital elevation model. A look back on this fantastic achievement.\n\n\n\n\n\n08.03.2025 17:52\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTool tip: Navigating the maze of coordinate reference systems\n\n\nMany people struggle with coordinate reference systems (#CRSs). Who can blame them? But there is a tool that can help you out if you find yourself experiencing the same predicament.\n\n\n\n\n\n06.03.2025 07:44\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\ncloudnativegeo: Approachable\n\n\nThere is considerable technical writing around #cloudnativegeo data formats. For a more accessible introduction, check out the ‘Optimizing Geospatial for the Cloud’ zine by #DevelopmentSeed which uses storytelling to break down technical barriers.\n\n\n\n\n\n04.03.2025 19:57\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nOffice for Geoinformation Canton Thurgau on LinkedIn\n\n\nStarting today, the Office for #Geoinformation of the Canton of #Thurgau has a #LinkedIn account. This made me wonder, how many other cantonal geoinformation offices have a similar presence.\n\n\n\n\n\n03.03.2025 21:08\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGeoParquet to come to Esri ArcGIS Pro\n\n\n#cloudnativegeo and #GeoParquet news: Chris Holmes shares that the status of a petition for GeoParquet support in #Esri #ArcGIS Pro has changed to “In product plan”.\n\n\n\n\n\n01.03.2025 19:07\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nToponyms\n\n\nWeekend diversion: Mapmakers (or their financers) got to name a lot of places. There’s a website and a Mastodon account that makes it its purpose to surface the sometimes odd and sometimes funny toponyms …\n\n\n\n\n\n01.03.2025 16:25\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nNormalize choropleths\n\n\nMuch (but – judging from experience – not yet enough) metaphorical ink has been spilled on this cartographic topic: Which kind of metrics lend themselves to be mapped using …\n\n\n\n\n\n26.02.2025 18:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGeospatial tech radar by Element 84\n\n\nSo-called ‘Tech Radars’, popularized by ThoughtWorks in 2010, have become essential tools for organizations to assess and communicate emerging technology trends. From Element 84 comes a particular interesting one for geospatial technologies.\n\n\n\n\n\n24.02.2025 07:05\n\n\nStephan Heuel\n\n\n\n\n\n\n\n\n\n\n\n\ngeodienste.ch: STAC API and OGC API Features\n\n\nWith its newest release, #KGK/#CGC offers an OGC #STAC API as well as #OGC API Features for data on geodienste.ch, in accordance with #eCH-0056. Assets seem limited to XTF files, though.\n\n\n\n\n\n21.02.2025 22:42\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nPython uv\n\n\n#uv is a relatively new #Python project management tool that has been gaining attention for its ease-of-use and speed. It has quickly become a popular choice for easy installation and environment and dependency management in Python projects.\n\n\n\n\n\n20.02.2025 19:52\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nCloud-native web app: A case study\n\n\nFrom Stephan Heuel comes a very interesting case study that explores the possibilies of web apps based on the ‘cloud-native geo’ paradigm, the Swiss Rooftop Explorer.\n\n\n\n\n\n20.02.2025 17:48\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nJust out: SGS Action Plan 2025\n\n\nThe SGS board has just published the Action Plan 2025 for the Swiss Geoinformation Strategy.\n\n\n\n\n\n17.02.2025 19:56\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe missing dimension: Why geospatial needs to prioritize time\n\n\nTime for change: Will Cadell argues geospatial tools must shift from static maps to dynamic 3D/4D platforms, prioritizing time-driven insights over location alone.\n\n\n\n\n\n16.02.2025 21:54\n\n\nDavid Oesch\n\n\n\n\n\n\n\n\n\n\n\n\nGeoParquet 2.0\n\n\nExciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg.\n\n\n\n\n\n13.02.2025 22:24\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe format that shall not be named\n\n\n\n\n\n\n\n\n13.02.2025 06:28\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe impact of flooding-induced road disruptions on emergency services accessibility\n\n\n\n\n\n\n\n\n11.02.2025 18:21\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nPrix Carto 2025\n\n\n\n\n\n\n\n\n10.02.2025 19:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTopodiscs: Custom 3D-printed Swiss landscapes\n\n\n\n\n\n\n\n\n08.02.2025 19:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nLook at USGS LiDAR data online\n\n\n\n\n\n\n\n\n08.02.2025 19:10\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nSmall sat high-res imagery\n\n\n\n\n\n\n\n\n08.02.2025 12:47\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nHello world\n\n\n\n\n\n\n\n\n04.02.2025 23:01\n\n\nRalph Straumann\n\n\n\n\n\nNo matching items"
+    "text": "A new (currently, beta) service from Stephan Heuel, https://topoprint.ch offers an innovative way to interact with Switzerland’s topography. By combining high-resolution Swisstopo datasets with 3D printing technology, users can create detailed, tangible models – Topodiscs – of any location in Switzerland.\nTopodiscs are compact, 3D-printable models that represent terrain, buildings, and infrastructure within a defined radius. Users can choose locations by address or CH1903+ LV95 / EPSG:2056 coordinates through either Mastodon or Telegram and receive an STL file for 3D printing (adding a 3D-print-on-demand service is on the roadmap).\n\n\n\nA Topodisc of the area around the Federal Palace of Switzerland"
   },
   {
     "objectID": "follow.html",
@@ -441,284 +378,354 @@
     "text": "Footnotes\n\n\nThese explanations are based on aboutfeeds.com, CC-BY-NC-SA Matt Webb. The article “Why I still love and use RSS feeds in 2025” goes into a bit more detail regarding the advantages of consuming news through RSS instead of an algorithmic feed.↩︎"
   },
   {
-    "objectID": "posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html",
-    "href": "posts/2025/02-08-topodiscs-custom-3D-printed-swiss-landscapes/index.html",
-    "title": "Topodiscs: Custom 3D-printed Swiss landscapes",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Spatialists – geospatial news",
     "section": "",
-    "text": "A new (currently, beta) service from Stephan Heuel, https://topoprint.ch offers an innovative way to interact with Switzerland’s topography. By combining high-resolution Swisstopo datasets with 3D printing technology, users can create detailed, tangible models – Topodiscs – of any location in Switzerland.\nTopodiscs are compact, 3D-printable models that represent terrain, buildings, and infrastructure within a defined radius. Users can choose locations by address or CH1903+ LV95 / EPSG:2056 coordinates through either Mastodon or Telegram and receive an STL file for 3D printing (adding a 3D-print-on-demand service is on the roadmap).\n\n\n\nA Topodisc of the area around the Federal Palace of Switzerland"
+    "text": "Linked data explainer: Addresses\n\n\nEver wondered how #linkeddata can help clarify the messy world, in general and with respect to postal addresses? – A blog post breaks down the basics using real-world examples using addresses. The article highlights how humans and computers…\n\n\n\n\n\n19.05.2025 22:27\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nMVT, MBT, PMTiles: Everything to know about vector tiles\n\n\nDaniel-J-H offers a comprehensive overview of #vectortiles technology, including #Mapbox Vector Tiles (#MVT), #MBTiles, and #Protomaps’s #PMTiles. The post explains the evolution from #raster to #vector #maps, compares key formats and technologies…\n\n\n\n\n\n19.05.2025 18:32\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGeoParquet arriving in ArcGIS Pro 3.5\n\n\nWith version 3.5, users can now natively work with #GeoParquet files in #ArcGIS Pro, either by creating multifile feature connections or by accessing individual #Parquet files stored locally or in Amazon #S3. This streamlines the integration of…\n\n\n\n\n\n16.05.2025 17:43\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTool-tip: Multi-scale terrain analysis\n\n\n#Terrain is inherently #multiscale, with features and surface variations that must be analyzed across a range of spatial scales. New tools in #ArcGISPro 3.4 and 3.5 along with advanced options in #SAGA GIS and #LandSerf, make it possible to compute…\n\n\n\n\n\n14.05.2025 17:23\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGDAL 3.11 released with new gdal program\n\n\nAs of Friday, #GDAL 3.11.0 “Eganville” has been released. Starting with GDAL 3.11, parts of the GDAL utilities are available from a new single gdal program which accepts commands and subcommands. This simplifies and unifies GDAL syntax.\n\n\n\n\n\n12.05.2025 22:26\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nRecording: Colloquium on the state of SGS implementation\n\n\n#Swisstopo hosted a #colloquium to present the current state of Swiss Geoinformation Strategy (#SGS) implementation and ongoing SGS projects. Now, the recording is online.\n\n\n\n\n\n12.05.2025 22:12\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nNew national drought platform\n\n\nThe Federal Government has launched a new National #Drought Platform providing standardized, up-to-date information and forecasts on drought risks across Switzerland. The platform integrates #remotesensing data for #vegetation health and data on…\n\n\n\n\n\n09.05.2025 16:48\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nSnap Map: Spatial social\n\n\nApparently, #Snapchat, like other #socialmedia companies, has been exploring geospatial use-cases. TechCrunch compiled some interesting usage numbers.\n\n\n\n\n\n08.05.2025 19:41\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTile and glyph map experiments\n\n\nDavid O’Sullivan explores innovative visualizations of complex #multivariate data on #maps, using a case study with three variables. His article showcases creative #mapping techniques pushing the boundaries of traditional GIS #visualization.\n\n\n\n\n\n07.05.2025 21:53\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\n“Dis, pourquoi?” on toponyms and maps\n\n\nOver the past two weeks, #RTS’s “Dis, pourquoi?” dedicated its episodes to an in-depth look at #toponymy and at #maps and #cartography, featuring Frédéric Giraut of the University of Geneva for the former and Pascal Marguerat and Raphaël Bovier of…\n\n\n\n\n\n05.05.2025 22:40\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nUnofficial public transport maps\n\n\n“Lars’ Transport Maps” is a project by a transport planner passionate about #train-travel and #mapdesign, offering a growing collection of unofficial #publictransport maps for European countries. The maps cover a wide range of services with…\n\n\n\n\n\n04.05.2025 15:08\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nMarco Bernasocchi on QField\n\n\nA recent #Mapscaping podcast episode features Marco Bernasocchi who shares the story behind #QField – a mobile app for field data collection. Marco Bernasocchi discusses the evolution of QField and QFieldCloud and the broader open-source movement.\n\n\n\n\n\n04.05.2025 13:56\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTesting autonomous GIS\n\n\nThe Système d’information du territoire à Genève (#SITG) has explored #autonomous #GIS capabilities by combining #AI/#LLM technology with geoprocessing and visualization. The suite of tests is explained in an article that also highlights…\n\n\n\n\n\n30.04.2025 11:24\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nNetwork simplification in Python\n\n\nneatnet: A new #Python package from Martin Fleischmann, Anastassia Vybornova, and James Gaboardi offers promising functionality for #network simplification.\n\n\n\n\n\n29.04.2025 22:41\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGeoServer Cloud adds GeoParquet data source support\n\n\n#GeoServer Cloud 2.27.0.0, a cloud-native, microservices-based version of GeoServer, now supports #GeoParquet DataStores, expanding its compatibility with modern #cloudnative geospatial formats alongside #FlatGeoBuf and Cloud-Optimized GeoTIFF…\n\n\n\n\n\n26.04.2025 18:21\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nColloquium: State of SGS implementation\n\n\nThe Swiss #Geoinformation Strategy (#SGS), launched in 2020, aims to make reliable, detailed, and up-to-date geoinformation easily accessible and interconnected across #Switzerland. On May 2, #Swisstopo will host a colloquium to review the progress…\n\n\n\n\n\n26.04.2025 15:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nBoeing to sell Digital Aviation Solutions\n\n\nAirplane builder #Boeing plans to sell its Digital #Aviation Solutions for 10.55 billion US Dollars. The sale includes several geospatial(-adjacent) subsidiaries and brands.\n\n\n\n\n\n23.04.2025 18:18\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nDeadlines for Prix Carto 2025 approaching\n\n\nHeads-up: Two deadlines for the 2025 instalment of the prestigious bi-annual #PrixCarto, awarded by the Swiss Society of #Cartography, are approaching.\n\n\n\n\n\n23.04.2025 17:48\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nAutomatic relative elevation model generation\n\n\nOpenTopography’s #RiverREM is a #Python-based tool that automates the creation and visualization of relative elevation models (REMs) from digital elevation models, making it easier than ever for scientists, artists, and enthusiasts to explore the…\n\n\n\n\n\n19.04.2025 16:53\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nWriting good tutorials\n\n\nHow do you convey complicated technical GIS and geospatial information to a potentially diverse audience clearly and helpfully? – Two blog posts, 10 years apart, offer some answers.\n\n\n\n\n\n16.04.2025 21:11\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe best programmers\n\n\nMany geospatial professions involve – varying degrees of – #programming. In a new article, Matthias Endler has collected fundamental #traits that the best #programmers he knows seem to share.\n\n\n\n\n\n15.04.2025 19:05\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nNew geospatial data in Google BigQuery\n\n\n#Google is adding geospatial content to its #DWH solution #BigQuery. Additions encompass annotated Street View #imagery, Places (#POI) data, and #traffic data, among others.\n\n\n\n\n\n14.04.2025 20:43\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTool tip: Mapshaper\n\n\n#Mapshaper is a lightweight yet powerful geospatial toolkit offering #topology-aware #simplification (via Douglas-Peucker and Visvalingam algorithms), spatial operations, and more. Available across Windows, macOS, and Linux, it includes a…\n\n\n\n\n\n12.04.2025 18:28\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nohsome-planet: Export OSM data and its history to GeoParquet\n\n\nThe GIScience Research Group at Heidelberg University and HeiGIT have released version 1.0.0 of #ohsome-planet, a tool for #cloudnative access to #OpenStreetMap (#OSM) data using the #GeoParquet format. Originally developed as an internal tool, it…\n\n\n\n\n\n11.04.2025 21:49\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial data old and new\n\n\nMartin Fleischmann’s course on Spatial #DataScience provides an introduction to spatial #data analysis using Python. One short section, “Spatial Data Old and New”, explores the evolution of spatial data, contrasting traditional, carefully curated…\n\n\n\n\n\n09.04.2025 20:41\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nDrought, Lake Constance and Sentinel-2\n\n\nSwitzerland has experienced an exceptionally dry period, with Lake Constance’s water levels dropping to their lowest in decades due to little rainfall and snowmelt from the Alps. Recent Sentinel-2 satellite data and gauging station records reveal…\n\n\n\n\n\n08.04.2025 22:28\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nServing vector tiles, fast\n\n\nWant to serve #VectorTiles to your users? Fabian Rechsteiner’s benchmark pits six open-source servers (#BBOX, #ldproxy, #Martin, #pg_tileserv, #Tegola, #TiPg) against each other, revealing stark speed differences.\n\n\n\n\n\n05.04.2025 16:05\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTool tip: Tippecanoe Command Generator\n\n\nIf you create, or are curious about, #VectorTiles, you may have come across the command line utility #Tippecanoe (TIP-ə-kə-NOO). It’s probably no secret that its usage is not entirely trivial, but there is a helpful tool for this now.\n\n\n\n\n\n04.04.2025 14:34\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nOpen SAR data\n\n\nSynthetic Aperture Radar (#SAR) is an interesting #remotesensing technology that captures high-resolution data of the Earth’s surface, regardless of weather or lighting conditions. This curated collection of open SAR data sources provides an…\n\n\n\n\n\n01.04.2025 17:31\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nNew map viewer for the canton of Aargau\n\n\nA few days ago, the Canton of #Aargau unveiled its new browser-based map viewer, built using #OpenLayers and #React.\n\n\n\n\n\n31.03.2025 07:21\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe origins of GIScience in Switzerland with Rob Weibel\n\n\nRobert Weibel, Professor of Geographic Information Science at the University of Zurich, retired at the end of January 2025 after a distinguished career spanning over three decades. In an interview, Rob reflects on the remarkable evolution of…\n\n\n\n\n\n27.03.2025 19:04\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nOpen doors at swisstopo\n\n\nThe Federal Office of Topography #swisstopo is opening its doors to the public on May 24.\n\n\n\n\n\n26.03.2025 18:37\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nWhy cloud-native?\n\n\nKyle Barron, cloud engineer at Development Seed and developer of Lonboard, offers interesting insights into the cloudnativegeo paradigm in a recent interview with CNG. He discusses Parquet, GeoParquet, and GeoArrow, explaining their characteristics…\n\n\n\n\n\n25.03.2025 22:56\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGeoAI: State-of-play in 2025\n\n\nThe Innovation Booster #ArtificialIntelligence has released a concise review of #GeoAI in Switzerland. The report highlights significant players, innovations, and developments in the field, showcasing how #AI is being integrated into #GIS…\n\n\n\n\n\n25.03.2025 17:36\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nLabeling master class\n\n\nFrom cartographer Andy Skinner comes this very useful resource about #labels in #cartography for both interactive and static #maps. Scale, transparency-and-opacity, hue, tone, halos, … – this guide covers many different visual variables and how…\n\n\n\n\n\n21.03.2025 17:46\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nBest practices for Cloud-Optimized GeoTIFFs\n\n\nCloud-Optimized #GeoTIFFs (#COG-s) have revolutionized the way large geospatial raster datasets are accessed and processed. From GeoStandards comes Best Practices Guide for this #cloudnativegeo format.\n\n\n\n\n\n18.03.2025 22:01\n\n\nDavid Oesch\n\n\n\n\n\n\n\n\n\n\n\n\nOpen data at a glance\n\n\n#ASIT has published an #opendata guide for #geodata. The guide covers the essentials and strikes a very nice balance with respect to covering the topic in enough depth to be valuable, while not being trivial and also not covering every tiny detail.…\n\n\n\n\n\n17.03.2025 22:18\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nEMBAG/LMETA does not make open geodata\n\n\nThe #EMBAG or #LMETA, a Swiss federal law enacted at the start of 2024 mandates #OpenData. But there seems to be a confusion about its effects on geoinformation.\n\n\n\n\n\n15.03.2025 18:04\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGoogle and Esri collaboration in 3D\n\n\n#Google and #Esri have agreed on a collaboration that will bring photorealistic #3D data from Google Maps into the #ArcGIS ecosystem, starting in fall.\n\n\n\n\n\n13.03.2025 07:10\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGoing forward, maps for AI\n\n\nHere’s a big geospatial #AI wager: #Niantic, maker of AR game Pokémon Go among others, has announced that Scopely will acquire its game business and that Niantic will be spinning out a new geospatial #AI company, Niantic Spatial Inc.\n\n\n\n\n\n13.03.2025 06:40\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nCentral nodes* in geospatial\n\n\nFew weeks ago, Brian Monheiser has issued this call on LinkedIn: Who are the top 10 living geospatial thought leaders whose insights you prioritize, whose talks you never miss, and whose writings you…\n\n\n\n\n\n11.03.2025 15:07\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\n25 years Shuttle Radar Topography Mission\n\n\nIt’s the 25th anniversary of the Shuttle Radar Topography Mission (SRTM)! This mission revolutionized Earth observation by creating the first near-global high-resolution digital elevation model. A look back on this fantastic achievement.\n\n\n\n\n\n08.03.2025 17:52\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTool tip: Navigating the maze of coordinate reference systems\n\n\nMany people struggle with coordinate reference systems (#CRSs). Who can blame them? But there is a tool that can help you out if you find yourself experiencing the same predicament.\n\n\n\n\n\n06.03.2025 07:44\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\ncloudnativegeo: Approachable\n\n\nThere is considerable technical writing around #cloudnativegeo data formats. For a more accessible introduction, check out the ‘Optimizing Geospatial for the Cloud’ zine by #DevelopmentSeed which uses storytelling to break down technical barriers.\n\n\n\n\n\n04.03.2025 19:57\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nOffice for Geoinformation Canton Thurgau on LinkedIn\n\n\nStarting today, the Office for #Geoinformation of the Canton of #Thurgau has a #LinkedIn account. This made me wonder, how many other cantonal geoinformation offices have a similar presence.\n\n\n\n\n\n03.03.2025 21:08\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGeoParquet to come to Esri ArcGIS Pro\n\n\n#cloudnativegeo and #GeoParquet news: Chris Holmes shares that the status of a petition for GeoParquet support in #Esri #ArcGIS Pro has changed to “In product plan”.\n\n\n\n\n\n01.03.2025 19:07\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nToponyms\n\n\nWeekend diversion: Mapmakers (or their financers) got to name a lot of places. There’s a website and a Mastodon account that makes it its purpose to surface the sometimes odd and sometimes funny toponyms …\n\n\n\n\n\n01.03.2025 16:25\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nNormalize choropleths\n\n\nMuch (but – judging from experience – not yet enough) metaphorical ink has been spilled on this cartographic topic: Which kind of metrics lend themselves to be mapped using …\n\n\n\n\n\n26.02.2025 18:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nGeospatial tech radar by Element 84\n\n\nSo-called ‘Tech Radars’, popularized by ThoughtWorks in 2010, have become essential tools for organizations to assess and communicate emerging technology trends. From Element 84 comes a particular interesting one for geospatial technologies.\n\n\n\n\n\n24.02.2025 07:05\n\n\nStephan Heuel\n\n\n\n\n\n\n\n\n\n\n\n\ngeodienste.ch: STAC API and OGC API Features\n\n\nWith its newest release, #KGK/#CGC offers an OGC #STAC API as well as #OGC API Features for data on geodienste.ch, in accordance with #eCH-0056. Assets seem limited to XTF files, though.\n\n\n\n\n\n21.02.2025 22:42\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nPython uv\n\n\n#uv is a relatively new #Python project management tool that has been gaining attention for its ease-of-use and speed. It has quickly become a popular choice for easy installation and environment and dependency management in Python projects.\n\n\n\n\n\n20.02.2025 19:52\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nCloud-native web app: A case study\n\n\nFrom Stephan Heuel comes a very interesting case study that explores the possibilies of web apps based on the ‘cloud-native geo’ paradigm, the Swiss Rooftop Explorer.\n\n\n\n\n\n20.02.2025 17:48\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nJust out: SGS Action Plan 2025\n\n\nThe SGS board has just published the Action Plan 2025 for the Swiss Geoinformation Strategy.\n\n\n\n\n\n17.02.2025 19:56\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe missing dimension: Why geospatial needs to prioritize time\n\n\nTime for change: Will Cadell argues geospatial tools must shift from static maps to dynamic 3D/4D platforms, prioritizing time-driven insights over location alone.\n\n\n\n\n\n16.02.2025 21:54\n\n\nDavid Oesch\n\n\n\n\n\n\n\n\n\n\n\n\nGeoParquet 2.0\n\n\nExciting news from the #cloudnative and #cloudnativegeo world: GEOMETRY and GEOGRAPHY become native data types in both #Parquet and #Iceberg.\n\n\n\n\n\n13.02.2025 22:24\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe format that shall not be named\n\n\n\n\n\n\n\n\n13.02.2025 06:28\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nThe impact of flooding-induced road disruptions on emergency services accessibility\n\n\n\n\n\n\n\n\n11.02.2025 18:21\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nPrix Carto 2025\n\n\n\n\n\n\n\n\n10.02.2025 19:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nTopodiscs: Custom 3D-printed Swiss landscapes\n\n\n\n\n\n\n\n\n08.02.2025 19:51\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nLook at USGS LiDAR data online\n\n\n\n\n\n\n\n\n08.02.2025 19:10\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nSmall sat high-res imagery\n\n\n\n\n\n\n\n\n08.02.2025 12:47\n\n\nRalph Straumann\n\n\n\n\n\n\n\n\n\n\n\n\nHello world\n\n\n\n\n\n\n\n\n04.02.2025 23:01\n\n\nRalph Straumann\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/2025/05-07-tile-and-glyph-map-experiments/index.html",
-    "href": "posts/2025/05-07-tile-and-glyph-map-experiments/index.html",
-    "title": "Tile and glyph map experiments",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "From David O’Sullivan1, self-described geospatial “problem solver, researcher, analyst, communicator, and trainer”:\nDavid O’Sullivan walks us through various considerations and design alternatives to show the afore-mentioned data in a single map: tile maps using tilings of squares and other shapes, glyph maps, tile maps with diagrams, and a tile map combined with the value-by-alpha method popularized by Rob Roth2, for example.\nIn this article, I also learned about MapWeaver, a software that allows you to conduct your own experiments with various tiling schemes, and the underlying Python package weavingspace.\nI love the out-of-the-box experimentation of this article and the more avant-garde approaches that challenge traditional visualization methods offered by your run-of-the-mill GIS software. More of this, please."
+    "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. No guarantees regarding anything – frequency, quality or that it even stays around. We’ll see how this will develop, and into what.\nIt’s not meant as a mid-2000s to early 2010s-style full-fledged blog with longform articles, commentary and opinion, but rather as a microblogging-style news curation service that is entirely indepedent of social platforms and entirely dependent on my interests and capacity to publish.\nTo who does ‘I’ refer, above? For now, this is mainly run by Ralph and the occasional contributor. The author responsible for each post is indicated in the byline above the post and also on the main page.\nReach out with questions, feedback, ideas or if you’d like to contribute."
   },
   {
-    "objectID": "posts/2025/05-07-tile-and-glyph-map-experiments/index.html#footnotes",
-    "href": "posts/2025/05-07-tile-and-glyph-map-experiments/index.html#footnotes",
-    "title": "Tile and glyph map experiments",
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "Contribute",
+    "section": "",
+    "text": "On this site, I aim to share interesting (to me) news in the geospatial domain. Do you have something you would like to share with the audience of spatialists.ch?\nYou can submit a post or post idea through GitHub or by email.\nBy submitting material you confirm that: a) you have the right to submit it. b) you understand and agree that this project, spatialists.ch, and thus your contribution is public and that a record of the contribution including all personal information you submit with it is maintained indefinitely and may be redistributed consistent with this project and the license(s) involved.\nReach out with any questions."
+  },
+  {
+    "objectID": "posts/2025/04-29-network-simplification-in-python/index.html",
+    "href": "posts/2025/04-29-network-simplification-in-python/index.html",
+    "title": "Network simplification in Python",
+    "section": "",
+    "text": "If you have worked with GIS in transportation, you have almost inevitably come across the problem of network simplification. Maybe you wanted to do map-matching1 between different street networks2 where one of the networks was much more detailled than the other. Over the years, various algorithms and tools have been developed for network simplification, but none seemed to quite be able to tackle the problem.\nNow, an interesting approach comes from Martin Fleischmann, Anastassia Vybornova and James Gaboardi (with support from Anna Brázdová and Daniela Dančejová) in the form of the Python package neatnet. The results look promising, also compared to earlier algorithms. Besides the simplification itself, neatnet also handles potentially important pre-processing steps such as repair of dangling nodes and removal of pseudo-nodes.\nIf this interests you, there is:"
+  },
+  {
+    "objectID": "posts/2025/04-29-network-simplification-in-python/index.html#footnotes",
+    "href": "posts/2025/04-29-network-simplification-in-python/index.html#footnotes",
+    "title": "Network simplification in Python",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\n“O’Sullivan” in GIS… – Wait, what is this bell going off in my head? I was very pleased to realize that I was looking at the website of the O’Sullivan of “O’Sullivan and Unwin (2003): Geographic Information Analysis” (or 2010, 2nd ed.). This is my all-time favorite book on GIS and spatial analyis.↩︎\nSee here, for example.↩︎"
+    "text": "Footnotes\n\n\nOne of the harder problems in GIS, if you ask me.↩︎\nI have gained my share of experiences with the networks underlying the NPVM/MNTP, MISTRA BS, data from STRAVA (a “massaged” version of OpenStreetMap), and data from HERE, for example.↩︎"
   },
   {
-    "objectID": "posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html",
-    "href": "posts/2025/02-11-impact-of-flooding-induced-road-disruptions-on-ems/index.html",
-    "title": "The impact of flooding-induced road disruptions on emergency services accessibility",
+    "objectID": "posts/2025/04-23-deadlines-for-prix-carto-2025-approaching/index.html",
+    "href": "posts/2025/04-23-deadlines-for-prix-carto-2025-approaching/index.html",
+    "title": "Deadlines for Prix Carto 2025 approaching",
     "section": "",
-    "text": "Quite a mouthful, that title: “Road network disruptions during extreme flooding events and their impact on the access to emergency medical services: A spatiotemporal vulnerability analysis”. From a Swiss-Austrian team comes this interesting analysis of how disruptions in the road network of the canton of Berne that are induced by extreme flooding events affect the population’s access to emergency medical services (EMS). The paper is open-access.\nIt seems, event-specific EMS accessibility is an under-studied topic, but certainly relevant with extreme rain and flooding events on the increase due to climate change. The researchers studied accessibility and changes in accessibility in 1 km spatial and 1 hour temporal resolution through a simulated flooding event over six days, among other things.\nFrom the paper:\n\nIn the context of flood disasters, further investigation into complex and cascading impacts would be advantageous for more informed and effective management of dynamic flood risk. (…) existing infrastructure was designed before increasingly more extreme events due to climate change have been and expect to continue occurring. Preparing for rare but high consequence flood events is a core part of undertaking anticipatory actions by emergency managers, rather than acting only after the onset of a flood event. Such preparations involve custom measures that incorporate local context to reduce societal vulnerabilities."
+    "text": "Two deadlines for the 2025 instalment of the prestigious bi-annual Prix Carto1, awarded by the Swiss Society of Cartography (SSC), are approaching:\nSubmissions for the 2025 awards can be handed in online.\nFor context: The SSC Prix Carto award night will be held in autumn. The event celebrates innovative and outstanding cartographic products with a connection to Switzerland. The Prix Carto highlights excellence in cartography, geomatics, and geovisualization, offering recognition across multiple categories.\nBesides its main category, the Prix Carto also includes two special awards to foster young talent: the “Prix Carto – start”, aimed at school students and apprentices, and the “Prix Carto – edu”, designed for university students and adults in training programs. Both of the “young talent” awards carry a prize of 500 Swiss Francs."
   },
   {
-    "objectID": "posts/2025/03-04-cloudnativegeo-approachable/index.html",
-    "href": "posts/2025/03-04-cloudnativegeo-approachable/index.html",
-    "title": "#cloudnativegeo: Approachable",
-    "section": "",
-    "text": "There is plenty of (quite) technical content around cloud-optimized geospatial data formats (#cloudnativegeo, for short). For example, the comprehensive format guide by the Cloud-Native Geo Forum (CNG) or, in the Swiss context, the shorter guide on behalf of GeoStandards.ch.\nIf you would enjoy a perhaps more accessible approach than studying such technical publications, you may want to look into the cloudnativegeo zine1 recently issued by Development Seed — “Optimizing Geospatial for the Cloud”:\nYou can peruse the short (24 pages) zine online (personally, I could do without the acoustic skeuomorphism2, but that’s just a minuscule quibble).\nInterestingly, Development Seed have also published a behind-the-scenes blogpost that explains some of the thinking behind making a zine."
-  },
-  {
-    "objectID": "posts/2025/03-04-cloudnativegeo-approachable/index.html#footnotes",
-    "href": "posts/2025/03-04-cloudnativegeo-approachable/index.html#footnotes",
-    "title": "#cloudnativegeo: Approachable",
+    "objectID": "posts/2025/04-23-deadlines-for-prix-carto-2025-approaching/index.html#footnotes",
+    "href": "posts/2025/04-23-deadlines-for-prix-carto-2025-approaching/index.html#footnotes",
+    "title": "Deadlines for Prix Carto 2025 approaching",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\n“zine” is short for “magazine” or “fanzine”↩︎\nskeuomorphism in digital user experience design is the approach of making a digital thing look and/or behave like their real-world counterpart↩︎"
+    "text": "Footnotes\n\n\nTransparency note: I’m part of the jury team.↩︎"
   },
   {
-    "objectID": "posts/2025/05-19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/index.html",
-    "href": "posts/2025/05-19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/index.html",
-    "title": "MVT, MBT, PMTiles: Everything to know about vector tiles",
+    "objectID": "posts/2025/03-18-Best-practices-for-cloud-optimized-geotiffs/index.html",
+    "href": "posts/2025/03-18-Best-practices-for-cloud-optimized-geotiffs/index.html",
+    "title": "Best practices for Cloud-Optimized GeoTIFFs",
     "section": "",
-    "text": "From OpenStreetMap contributor Daniel-J-H, comes this blog post about “Everything you wanted to know about vector tiles (But were afraid to ask)”. It’s one year old, but still a great overview of various formats – Mapbox Vector Tiles (MVT), MBTiles, and Protomaps’s PMTiles – and underpinning technologies, complete with tips how to make your own. Great opening, too:\n\nTo understand how revolutionary vector maps were we have to go back in time to the early 2010s. One Direction is raising to international fame and raster maps are at the height of their popularity. Folks creating raster web maps rendering OpenStreetMap data into beautiful 256x256 pixel images. But raster maps come with limitations.\n\n\n\n\nFreely rotating labels – just one of the benefits of vector tiles (source: CC BY-NC-SA [Daniel-J-H](https://www.openstreetmap.org/user/daniel-j-h))"
+    "text": "Cloud-Optimized GeoTIFFs (COGs) have revolutionized the way large geospatial raster datasets are accessed and processed. By enabling efficient, selective retrieval of data without requiring full downloads1, they are set to become a key element in modern geospatial infrastructures. To ensure seamless integration within the Swiss (or any) geospatial ecosystem, a structured approach to creating and using COGs is essential."
   },
   {
-    "objectID": "posts/2025/04-26-geoserver-cloud-adds-geoparquet-data-source-support/index.html",
-    "href": "posts/2025/04-26-geoserver-cloud-adds-geoparquet-data-source-support/index.html",
-    "title": "GeoServer Cloud adds GeoParquet data source support",
-    "section": "",
-    "text": "GeoServer Cloud is a cloud-native version of GeoServer built using dockerized microservices. Release 2.27.0.0 from two days ago adds support for input data in GeoParquet DataStores. This broadens the existing support of cloud-native input data formats which already encompassed FlatGeoBuf and Cloud Optimized GeoTIFF (COG).\nNot a GeoServer (sans “Cloud”) expert, but from what I could gather from the docs and the extensions page, GeoServer proper does not seem to support GeoParquet, FGB, and COG (but, for example, a directory of shapefiles)."
-  },
-  {
-    "objectID": "posts/2025/03-27-the-origins-of-giscience-in-switzerland-with-rob-weibel/index.html",
-    "href": "posts/2025/03-27-the-origins-of-giscience-in-switzerland-with-rob-weibel/index.html",
-    "title": "The origins of GIScience in Switzerland with Rob Weibel",
-    "section": "",
-    "text": "Robert Weibel, UZH professor for Geographic Information Science, (semi-)retired this year. On this occasion, the Department of Geography of the University of Zurich1 did an interview with Rob.\nIt’s a very interesting look at 30+ years of GI Systems and GI Science: From a lot of initial skepticism to the search for an epistemological foundation for GIS and eventually broad acceptance as a scientific sub-discipline of geography. And also from scarce beginnings to essentially freely available location technology, smartphone apps and an age of seeming abundance of geospatial data – and ethical questions regarding its responsible use.\nFrom the interview:\nDefinitely in my life."
-  },
-  {
-    "objectID": "posts/2025/03-27-the-origins-of-giscience-in-switzerland-with-rob-weibel/index.html#footnotes",
-    "href": "posts/2025/03-27-the-origins-of-giscience-in-switzerland-with-rob-weibel/index.html#footnotes",
-    "title": "The origins of GIScience in Switzerland with Rob Weibel",
+    "objectID": "posts/2025/03-18-Best-practices-for-cloud-optimized-geotiffs/index.html#footnotes",
+    "href": "posts/2025/03-18-Best-practices-for-cloud-optimized-geotiffs/index.html#footnotes",
+    "title": "Best practices for Cloud-Optimized GeoTIFFs",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nApparently, the Department of Geography of the University of Zurich was the first institute in continental europe to have a chair dedicated to GIS – already in 1981.↩︎"
+    "text": "Footnotes\n\n\nthis is the core of “cloud-native”↩︎\nsee the GDAL COG Driver Documentation↩︎\nsee also the Compression Optimization Guide by Koko Alberti↩︎"
   },
   {
-    "objectID": "posts/2025/04-09-spatial-data-old-and-new/index.html",
-    "href": "posts/2025/04-09-spatial-data-old-and-new/index.html",
-    "title": "Spatial data old and new",
+    "objectID": "posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/index.html",
+    "href": "posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/index.html",
+    "title": "Tool-tip: Multi-scale terrain analysis",
     "section": "",
-    "text": "Martin Fleischmann1 teaches a course on Spatial Data Science through Charles University in Prague. The course is taught online and is open to anyone. Although I haven’t had the time to really dive into the material yet, one section titled “Spatial data old and new” caught my attention. In it, Martin Fleischmann introduces a dichotomy of spatial data:\nHe then goes on and suggests classifications of the “new spatial data” from two sources:\nWhile I’m not entirely convinced by these classifications and concepts, they offer a fresh (to me) perspective on some aspects of spatial data and seem to complement some traditional concepts4. Even after roughly 20 years of recent “neogeography”, it seems to me, there are still crucial debates and important developments in the geoinformation industry (also in Switzerland) that revolve around these ideas."
+    "text": "Terrain is a multi-scale (or even fractal1) phenomenon. Thus, with Wood (1996)2 we can state:\nThus, it is interesting that ArcGIS Pro 3.4 and 3.5 add functions for computing the multi-scale surface percentile, the multi-scale surface difference, and the multi-scale surface deviation, respectively.\nMore advanced geomorphometric parameters such as multi-scale surface shape classification, various kinds of multi-scale curvatures, and more can be computed using SAGA GIS (e.g. through QGIS with the appropriate plug-in) or using LandSerf by the afore-mentioned Jo Wood."
   },
   {
-    "objectID": "posts/2025/04-09-spatial-data-old-and-new/index.html#footnotes",
-    "href": "posts/2025/04-09-spatial-data-old-and-new/index.html#footnotes",
-    "title": "Spatial data old and new",
+    "objectID": "posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/index.html#footnotes",
+    "href": "posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/index.html#footnotes",
+    "title": "Tool-tip: Multi-scale terrain analysis",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nAmong other things, Martin Fleischmann is the developer or one of the developers behind such geospatial tools as momepy, GeoPandas, and PySAL.↩︎\nDavid Lazer and Jason Radford (2017): Data Ex Machina: Introduction to Big Data. Annual Review of Sociology, 43(1): 19–39.↩︎\nDaniel Arribas-Bel (2014): Accidental, Open and Everywhere: Emerging Data Sources for the Understanding of Cities. Applied Geography, 49: 45–53.↩︎\nfor example, distinctions such as “official/authoritative” vs. “crowdsourcing”, concepts like (so-called) “volunteered geographic information”, and the “cathedral vs. bazaar” model of thinking about data↩︎"
+    "text": "Footnotes\n\n\nThe fractal dimension of a terrain surface can be estimated (similarly to the more famous example regarding the fractal dimension of coastlines). In fact, I have done so for Switzerland using Swisstopo DEMs years ago. But that nugget of information is lost to the implosion of Twitter.↩︎\nCf. also pp. 45 here↩︎\nTransparency note: Link points to an article by myself on the blog of my employer.↩︎"
   },
   {
-    "objectID": "posts/2025/03-13-going-forward-maps-for-ai/index.html",
-    "href": "posts/2025/03-13-going-forward-maps-for-ai/index.html",
-    "title": "Going forward, maps for AI",
+    "objectID": "posts/2025/03-17-open-data-at-a-glance/index.html",
+    "href": "posts/2025/03-17-open-data-at-a-glance/index.html",
+    "title": "Open data at a glance",
     "section": "",
-    "text": "Here’s a big geospatial AI wager: Niantic1, maker of AR game Pokémon Go has announced a major change of direction. Scopely will acquire Niantic’s game business including its intellectual property, such as Pokémon Go, for 3.5 billion dollars. At the same time, Niantic will be spinning out a new geospatial AI company, Niantic Spatial Inc.\nFrom Niantic’s CEO:"
+    "text": "ASIT has published an open data guide for geodata. It’s freely available with their other open-data-themed resources.\nI like this practical guide, more than earlier attempts to approach the topic from a geodata perspective. This new guide is very nicely designed, easy to read, and motivating to data owners. I think it strikes a very nice balance with respect to covering the topic in enough depth to be valuable, while not being trivial and also not covering every tiny detail so that it becomes tiring or boring.\nThe guide:\nAs added bonuses, it for example briefly covers private initivates for opening data, usage conditions (versus licenses), the list of base geodata as a starting point for an open data catalog, and open data formats1.\nOne of the key takeaways (translated):\nWhat’s not to like. Recommended reading."
   },
   {
-    "objectID": "posts/2025/03-13-going-forward-maps-for-ai/index.html#footnotes",
-    "href": "posts/2025/03-13-going-forward-maps-for-ai/index.html#footnotes",
-    "title": "Going forward, maps for AI",
+    "objectID": "posts/2025/03-17-open-data-at-a-glance/index.html#footnotes",
+    "href": "posts/2025/03-17-open-data-at-a-glance/index.html#footnotes",
+    "title": "Open data at a glance",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nA little history: Niantic was founded as a Google startup in 2010 and become independent in 2015.↩︎"
+    "text": "Footnotes\n\n\nAlbeit, a minor drawback: without mentioning cloud-native formats. Maybe something for the 2nd edition.↩︎"
   },
   {
-    "objectID": "posts/2025/05-09-new-national-drought-platform/index.html",
-    "href": "posts/2025/05-09-new-national-drought-platform/index.html",
-    "title": "New national drought platform",
+    "objectID": "posts/2025/03-08-25-years-shuttle-radar-topography-mission/index.html",
+    "href": "posts/2025/03-08-25-years-shuttle-radar-topography-mission/index.html",
+    "title": "25 years Shuttle Radar Topography Mission",
     "section": "",
-    "text": "Yesterday, the Federal Government has launched a new national platform to monitor draught risks. The platform was jointly developed by the Federal Office for the Environment (FOEN), MeteoSwiss, and Swisstopo. From the press release (in German, in French):\nThere is also an introductory video in English, in German, and in French.\nThe National Drought Platform offers data on:\nParticularly interesting for geospatial professionals: The state of the vegetation is based on the so-called Vegetation Health Index (VHI) which is in turn based on analysis of remote sensing data.1"
+    "text": "February marked the 25 year anniversary of the Shuttle Radar Topography Mission (SRTM) which gave us the then revolutionary global1 high resolution2 elevation dataset of the same name. What an achievement!\nSRTM travelled on board of Space Shuttle Endeavour on the STS3-99 mission in February 2000. Technically, it was a single-pass interferometric C-band SAR4 system with the second antenna placed on a roughly 60 meter long mast that had to be deployed from the Shuttle’s transport bay. During data capture in an orbit 233 km above the Earth, the crew had to change data recording tapes every 30 minutes. More than 200 hours of data collection was done through 11 days of flight resulting in more than 12 terabytes of data on the shape of the Earth surface.\nInitially, SRTM digital elevation models were offered at 1-arcsecond resolution over the USA and at 3-arcsecond resolution in the rest of the world. I still remember from working with SRTM data that these resolutions equate to approximately 30 meters and 90 meters, respectively, at the equator5. Today improved, e.g. void-filled, SRTM data is available globally at 1-arcsecond resolution.\nTo celebrate the occasion, there is an interesting look back on SRTM by NASA as well as one by the DLR from which the video below is sourced (in German, but English subtitles are available).\nEnjoy!"
   },
   {
-    "objectID": "posts/2025/05-09-new-national-drought-platform/index.html#footnotes",
-    "href": "posts/2025/05-09-new-national-drought-platform/index.html#footnotes",
-    "title": "New national drought platform",
+    "objectID": "posts/2025/03-08-25-years-shuttle-radar-topography-mission/index.html#footnotes",
+    "href": "posts/2025/03-08-25-years-shuttle-radar-topography-mission/index.html#footnotes",
+    "title": "25 years Shuttle Radar Topography Mission",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nTransparency note: My employer has made a small contribution to the processing.↩︎"
+    "text": "Footnotes\n\n\nwell, due to the inclined orbit of course not truly global↩︎\ndozens of meters↩︎\nSpace Transportation System↩︎\nSynthetic Aperture Radar↩︎\nthe resolution is higher towards the poles↩︎"
   },
   {
-    "objectID": "posts/2025/04-11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/index.html",
-    "href": "posts/2025/04-11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/index.html",
-    "title": "ohsome-planet: Export OSM data and its history to GeoParquet",
+    "objectID": "posts/2025/05-04-marco-bernasocchi-on-qfield/index.html",
+    "href": "posts/2025/05-04-marco-bernasocchi-on-qfield/index.html",
+    "title": "Marco Bernasocchi on QField",
     "section": "",
-    "text": "The GIScience Research Group at Heidelberg University and HeiGIT have published the release 1.0.0 “Kawésqar” of ohsome-planet:\nThis same consortium previously provided cloud-native access to OpenStreetMap (OSM) data1 including its edit history, as presented in a workshop2 at the 2024 State of the Map conference.\nohsome-planet was initially an internal tool used by the consortium to provide OSM data cloud-natively3 in the GeoParquet format. Using ohsome-planet, anybody can now create similar customizable exports. The tool relies on Java 21 and users have to build it themselves. The input data needs to be provided in the standard PBF format which can be obtained for defined geographic areas for example from Geofabrik4.\nIf this interests you, make sure to read the blog post with the announcement."
+    "text": "A while ago1, the Mapscaping podcast had an interview with Marco Bernasocchi, founder and CEO of OPENGIS.ch, chair of the QGIS Project Steering Committe and OSGeo board member. In the podcast episode, Marco Bernasocchi gives insight into the origins of QField and speaks about current developments around QField, QFieldCloud and QFieldSync, but also a bit more broadly about the open-source movement.\nFrom the podcast:\nHere’s the episode. There is also an (automatic) transcript."
   },
   {
-    "objectID": "posts/2025/04-11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/index.html#footnotes",
-    "href": "posts/2025/04-11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/index.html#footnotes",
-    "title": "ohsome-planet: Export OSM data and its history to GeoParquet",
+    "objectID": "posts/2025/05-04-marco-bernasocchi-on-qfield/index.html#footnotes",
+    "href": "posts/2025/05-04-marco-bernasocchi-on-qfield/index.html#footnotes",
+    "title": "Marco Bernasocchi on QField",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nThe data structure of OSM with its key-value-tagging scheme can be daunting to use, or render usable, in a relational database or in GIS environments.↩︎\nIf this interests you, follow the link and make sure not to miss looking through the slides on the left.↩︎\nNot sure this is a real adverb (?) – oh well.↩︎\nBy the way: Besides PBF, Geofabrik provides other formats, some for free, some for a fee: Shapefile, GeoPackage, GeoJSON, and File Geodatabase.↩︎"
+    "text": "Footnotes\n\n\nBeware, this might be old news to you: The podcast episode is from September. I’m a bit behind with my podcast queue.↩︎"
   },
   {
-    "objectID": "posts/2025/04-30-testing-autonomous-gis/index.html",
-    "href": "posts/2025/04-30-testing-autonomous-gis/index.html",
-    "title": "Testing autonomous GIS",
+    "objectID": "posts/2025/04-14-new-geospatial-data-in-google-bigquery/index.html",
+    "href": "posts/2025/04-14-new-geospatial-data-in-google-bigquery/index.html",
+    "title": "New geospatial data in Google BigQuery",
     "section": "",
-    "text": "The Système d’information du territoire à Genève (SITG) has conducted interesting tests combining generative AI (LLMs), spatial processing functions and – I suspect – a webmapping framework in a REPL-environment1.\nThe tests are based on the framework LLM-Geo. The results are summarized in a blog post “Vers les SIG autonome” (in French). The tests looked at five principles for AI use in “geo” (machine-translation):\nThere is a good accounting of limitations and challenges, interesting findings as well as directions for follow-up work. Recommended reading."
+    "text": "Google announced that it has newly added geospatial data into BigQuery1. According to the announcement and an accompanying blog post the additions encompass:"
   },
   {
-    "objectID": "posts/2025/04-30-testing-autonomous-gis/index.html#footnotes",
-    "href": "posts/2025/04-30-testing-autonomous-gis/index.html#footnotes",
-    "title": "Testing autonomous GIS",
+    "objectID": "posts/2025/04-14-new-geospatial-data-in-google-bigquery/index.html#footnotes",
+    "href": "posts/2025/04-14-new-geospatial-data-in-google-bigquery/index.html#footnotes",
+    "title": "New geospatial data in Google BigQuery",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\n“Read-Eval-Print Loop” for interactive development and piecewise execution of code. Typical REPL environments in the data domain are Jupyter Notebooks and maybe Observable Notebooks.↩︎"
+    "text": "Footnotes\n\n\nGoogle’s data warehouse (DWH) Platform-as-a-Service offering↩︎\nDigging deeper, this probably refers to a function called ST_REGIONSTATS(). Digging even deeper, it sounds like ST_REGIONSTATS() is some kind of zonal statistics function, in GIS parlance, for Google Earth Engine data.↩︎"
   },
   {
-    "objectID": "posts/2025/02-20-python-uv/index.html",
-    "href": "posts/2025/02-20-python-uv/index.html",
-    "title": "Python uv",
+    "objectID": "posts/2025/04-16-writing-good-tutorials/index.html",
+    "href": "posts/2025/04-16-writing-good-tutorials/index.html",
+    "title": "Writing good tutorials",
     "section": "",
-    "text": "uv by Astral (also behind Ruff) is a new-ish Python project management tool that you may have already heard praise about. uv simplifies environment and dependency management for Python (truly, finally) and is blazingly fast, thus potentially streamlining also geospatial workflows reliant on libraries such as GeoPandas, rasterio and the like.\nIf you use Python in your geospatial tooling, I highly recommend reading this very level-headed and thorough one-year review of uv by Bite Code!\nSnippets:\n\nuv’s vision is brilliant. There, I said it.\n\nBut also (… level-headed):\n\nBasically, there are 5 situations when you should not use uv.\n\nAs to the name, cf."
+    "text": "Heather Smith and the Tutorials team at Esri have published a blog post on writing effective tutorials about GIS and geospatial topics. However, the most valuable part is not the blog post itself but the draft tutorial it links to, which includes explanations and instructions for tutorial writers.1 On a separate page, there is a collection of six tips from the Tutorials team on how to improve your tutorial-writing skills, offering excellent advice.\nThis post reminded my of another one: Already 10 years (!) ago2, Katy DeCorah (then at Mapbox, now at Microsoft) published Writing for everyone:\nThis concise collection of tips offers outstanding advice on writing technical content clearly and with empathy for readers.3 Definitely recommended reading."
   },
   {
-    "objectID": "posts/2025/02-08-small-sat-high-res-imagery/index.html",
-    "href": "posts/2025/02-08-small-sat-high-res-imagery/index.html",
-    "title": "Small sat high-res imagery",
-    "section": "",
-    "text": "The commodification of high-resolution optical satellite imagery continues. In the domain of small satellites, ONGLAISAT of the Tokyo-based company ArkEdge Space developed in collaboration with the Taiwan Space Agency TASA has achieved a spatial resolution of approximately 2.5 meters from a relatively low orbit of 410 kilometers.\nFrom the press release:\nWhile the sample image displayed here may also show some of the current limitations of TDI, it’s nevertheless an exciting development to potentially have this spatial resolution available from small space-borne platforms."
-  },
-  {
-    "objectID": "posts/2025/02-08-small-sat-high-res-imagery/index.html#footnotes",
-    "href": "posts/2025/02-08-small-sat-high-res-imagery/index.html#footnotes",
-    "title": "Small sat high-res imagery",
+    "objectID": "posts/2025/04-16-writing-good-tutorials/index.html#footnotes",
+    "href": "posts/2025/04-16-writing-good-tutorials/index.html#footnotes",
+    "title": "Writing good tutorials",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nTime delay integration, a forward-motion compensation technique↩︎"
+    "text": "Footnotes\n\n\nThis material is presented in the form of a so-called ArcGIS StoryMap, but the ideas in the material are system- and vendor-independent.↩︎\nYou can probably tell: It clearly left a mark, it was so eye-opening for me at the time. Thanks to my “second brain”, I was able to find this resource again.↩︎\nAnd probably a reason why, in my view, Mapbox was a breath of fresh air at the time.↩︎"
   },
   {
-    "objectID": "posts/2025/05-04-unofficial-public-transport-maps/index.html",
-    "href": "posts/2025/05-04-unofficial-public-transport-maps/index.html",
-    "title": "Unofficial public transport maps",
+    "objectID": "posts/2025/02-10-prix-carto-2025/index.html",
+    "href": "posts/2025/02-10-prix-carto-2025/index.html",
+    "title": "Prix Carto 2025",
     "section": "",
-    "text": "Lars’ Transport Maps is the project of a transport planner based in Switzerland who “love[s] travelling through Europe by train and creating transport maps”. The site features a growing collection of visually appealing, though unofficial, public transport maps. So, far the following countries are included:\n\nAustria\nBelgium\nDenmark\nFinland\nFrance\nGermany\nLuxembourg\nNetherlands\nNorway\nSweden and\nSwitzerland\n\nThe maps cover the regular train network, general train services, high-speed trains, long-distance trains, and night trains, among others. Many of the maps appear to receive annual updates.\n\n\n\nLong-distance Rail in Switzerland 2025 (source: Lars’ Transport Maps)\n\n\nThe Swiss train network is covered in particularly great detail with an article and a series of maps tracing changes since 1982.\nAll the maps are worth exploring; personally, I found the French high-speed train network especially striking."
+    "text": "The Swiss Society of Cartography (Schweizerische Gesellschaft für Kartografie, SGK) is set to host the prestigious bi-annual Prix Carto awards during its autumn meeting in 2025. This event celebrates innovative and outstanding cartographic products with a connection to Switzerland. The award highlights excellence in cartography, geomatics, and geovisualization, offering recognition across multiple categories.\nBesides its main category, the Prix Carto also includes two special awards to foster young talent: the “Prix Carto – start”, aimed at school students and apprentices, and the “Prix Carto – edu”, designed for university students and adults in training programs. Both of the “young talent” awards carry a prize of 500 Swiss Francs.\nSubmissions for the 2025 awards are now open, with participants required to submit their entries through an official form on the SGK website. The SGK encourages widespread participation from both seasoned professionals and emerging talents."
   },
   {
-    "objectID": "posts/2025/05-16-geoparquet-arriving-in-arcgis-pro-35/index.html",
-    "href": "posts/2025/05-16-geoparquet-arriving-in-arcgis-pro-35/index.html",
-    "title": "GeoParquet arriving in ArcGIS Pro 3.5",
+    "objectID": "posts/2025/02-17-sgs-action-plan-2025/index.html",
+    "href": "posts/2025/02-17-sgs-action-plan-2025/index.html",
+    "title": "Just out: SGS Action Plan 2025",
     "section": "",
-    "text": "Update from the cloud-native front: With version 3.5, ArcGIS Pro now has native support for the cloud-native GeoParquet format:\n\nBeginning with ArcGIS Pro 3.5, there are two ways you can work with Apache Parquet files. Each serves a different purpose and has different requirements as follows:\n\nCreate a multifile feature connection from multiple Parquet files that have the same schema (…)\nAccess a single Parquet file stored on a local drive or in an Amazon Simple Storage Service (S3) bucket\n\n\nThe GeoParquet support comes with specific requirements and limitations, which are detailed in the documentation and in an accompanying FAQ on “using a Parquet file in ArcGIS Pro”.\nChris Holmes of Planet shared his thoughts and assessment on LinkedIn."
+    "text": "Fresh from the SGS board1: The Swiss Geoinformation Strategy (SGS) action plan for the year 2025 has just been published, after formal approval by the Coordinating Agency for federal geographical information, GCG (GKG / GCS in German and French, respectively), and the Conference of the Cantonal Geoinformation and Cadastral Offices (KGK / CGC). The action plan is available in German and in French (pdf).\nThe action plan adopts actions in the following SGS domains:\nNo new actions are adopted for the SGS domains “Development of geodata science” and “Further development of digital platforms”."
   },
   {
-    "objectID": "posts/2025/03-11-central-nodes-in-geospatial/index.html",
-    "href": "posts/2025/03-11-central-nodes-in-geospatial/index.html",
-    "title": "Central nodes* in geospatial",
-    "section": "",
-    "text": "Few weeks ago, Brian Monheiser has issued a call on LinkedIn:\nAnd the results are in.\nBut first: Personally, I strongly dislike the term “thought leaders.” For one, I don’t like my thoughts to be led all that much. Second, it rings a bit hollow to me and evokes the bad aspects of LinkedIn as well as hard- or soft-paywalled Medium and Substack posts1. That said, I like how the rest of the question is phrased: … whose insights you prioritize, whose talks you never miss, and whose writings you always read?\nOf course, the afore-mentioned call suffers from network / bubble effects (who has seen / shared / heeded the LinkedIn call?). As such, many names are from the English-speaking world2 and also traditionally male.\nWith that out of the way: I find the list nevertheless interesting. It definitely features some very inspiring people and I am considering to connect with, or at least follow, some of them (I follow3 some of them already).\nBelow, I researched (hopefully correctly4, it wasn’t always trivial with some of the more common names) the LinkedIn profiles and current job titles and affiliations of those geospatial experts that were submitted at least twice:\nSpontaneously, I would add Brian Timoney, among others.\n* for lack of a better word"
-  },
-  {
-    "objectID": "posts/2025/03-11-central-nodes-in-geospatial/index.html#footnotes",
-    "href": "posts/2025/03-11-central-nodes-in-geospatial/index.html#footnotes",
-    "title": "Central nodes* in geospatial",
+    "objectID": "posts/2025/02-17-sgs-action-plan-2025/index.html#footnotes",
+    "href": "posts/2025/02-17-sgs-action-plan-2025/index.html#footnotes",
+    "title": "Just out: SGS Action Plan 2025",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nI view the last two as an anti-pattern for knowledge sharing and community building, unfortunately↩︎\nBrian’s post has maps↩︎\nor followed, on Twitter↩︎\ncorrections welcome↩︎"
+    "text": "Footnotes\n\n\nthe organisation tasked with strategic oversight and steering of the implementation of the Swiss Geoinformation Strategy from 2020↩︎"
   },
   {
-    "objectID": "posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html",
-    "href": "posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html",
-    "title": "geodienste.ch: STAC API and OGC API Features",
+    "objectID": "posts/2025/03-25-why-cloud-native/index.html",
+    "href": "posts/2025/03-25-why-cloud-native/index.html",
+    "title": "Why cloud-native?",
     "section": "",
-    "text": "KGK-CGC published a new release (4.0.2) of their geoservices platform geodienste.ch. Notable excerpt from the release notes under the item “Implement selected parts of eCH-0056 v4.1.0”1:\nWhile QGIS and its STAC API Browser Plugin shows me an error for the STAC at https://geodienste.ch/stac, it does pass validation with STAC Lint and works in Rocket.\nOddly, assets seem to be limited to XTF2 files at the moment, although geodienste.ch offers other, more operative data formats outside of its STAC."
+    "text": "The Cloud-Native Geospatial Forum (CNG) features an interesting interview with Kyle Barron, cloud Engineer at Development Seed and, among other roles, developer behind the Python-based “big data”-capable geovisualization library Lonboard1. The interview was published back in December, but if you haven’t read it yet, it is still well worth your time.\nIn the interview, Kyle covers and touches upon, among others:\nThese days, Parquet and GeoParquet are talked about quite often among geospatial professionals. But take note also of GeoArrow. While GeoArrow plays particularly well with GeoParquet, it is not tied to that format and can be used to improve geospatial workflows that involve other formats, too.\nFrom Kyle:\nBe it through GDAL or dozens of other tools such as FME: You may very well have already benefitted from the work around #cloudnativegeo and, in particular, GeoArrow."
   },
   {
-    "objectID": "posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html#footnotes",
-    "href": "posts/2025/02-21-geodienste-ch-stac-and-ogc-api-features/index.html#footnotes",
-    "title": "geodienste.ch: STAC API and OGC API Features",
+    "objectID": "posts/2025/03-25-why-cloud-native/index.html#footnotes",
+    "href": "posts/2025/03-25-why-cloud-native/index.html#footnotes",
+    "title": "Why cloud-native?",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nAnwendungsprofil Geodienste / Profil d’application des géoservices↩︎\nInterlis transfer format↩︎"
+    "text": "Footnotes\n\n\nAs to the name: you know, like “longboard”, but with “lon(gitude)”↩︎"
   },
   {
-    "objectID": "posts/2025/02-08-look-at-usgs-lidar-data-online/index.html",
-    "href": "posts/2025/02-08-look-at-usgs-lidar-data-online/index.html",
-    "title": "Look at USGS LiDAR data online",
+    "objectID": "posts/2025/04-26-colloquium-state-of-sgs-implementation/index.html",
+    "href": "posts/2025/04-26-colloquium-state-of-sgs-implementation/index.html",
+    "title": "Colloquium: State of SGS implementation",
     "section": "",
-    "text": "At https://usgs.entwine.io you can peruse more than 2,000 USGS 3D Elevation Program (3DEP) LiDAR datasets that have been made available through the AWS Public Dataset Program. The data amounts to 70,409,082,675,345 LiDAR points at the time of writing.\n\n\n\nA LiDAR view of Boston\n\n\nThe datasets cover most of the USA and can be looked at in the browser using Potree-based or Cesium-based viewers. The data has been processed into the Entwine Point Tile format which combines JSON for metadata and LAZ for data for performance."
+    "text": "The implementation of the Swiss Geoinformation Strategy (SGS) began in 2020. In February, the Coordinating Agency for Federal Geographical Information, GCG and the Conference of the Cantonal Geoinformation and Cadastral Offices (KGK / CGC) published this year’s SGS action plan (German / French).\nOn May 2, Swisstopo will host a colloquium to present the current state of SGS implementation and ongoing SGS projects. This event will take place both in Wabern and online.\n\n\n\nBusy bees – Swiss Geoinformation Strategy (SGS) 2020"
   },
   {
-    "objectID": "posts/2025/02-04-hello-world/index.html",
-    "href": "posts/2025/02-04-hello-world/index.html",
-    "title": "Hello world",
+    "objectID": "posts/2025/03-13-google-and-esri-collaboration-in-3d/index.html",
+    "href": "posts/2025/03-13-google-and-esri-collaboration-in-3d/index.html",
+    "title": "Google and Esri collaboration in 3D",
     "section": "",
-    "text": "This is the first post. Hello world!\nLet’s see where this goes."
+    "text": "Google and Esri have agreed on a collaboration that will bring photorealistic 3D data from Google Maps into the ArcGIS ecosystem, starting in fall. The Google Maps data covers 2,500 cities in around 50 countries. Technologically, this collaboration leverages the OGC community standard “3D Tiles”.\n\n\n\nGoogle photorealistic 3D scenes in Esri Scene Viewer (source: Esri (fair use))\n\n\nMore info can be gained from Business Wire and from Esri."
   },
   {
-    "objectID": "posts/2025/03-26-open-doors-at-swisstopo/index.html",
-    "href": "posts/2025/03-26-open-doors-at-swisstopo/index.html",
-    "title": "Open doors at swisstopo",
+    "objectID": "posts/2025/04-23-boeing-to-sell-digital-aviation-solutions/index.html",
+    "href": "posts/2025/04-23-boeing-to-sell-digital-aviation-solutions/index.html",
+    "title": "Boeing to sell Digital Aviation Solutions",
     "section": "",
-    "text": "I stumbled upon this completely haphazardly, but swisstopo plans to open its doors to the public on Saturday, 24th of May:\n\nFrom maps and aerial photographs, coordinate systems and 3D models to national borders and documentation of the underground: Find out more about the many and varied tasks of swisstopo and how our work supports you every day. This is your opportunity to take a look behind the scenes at swisstopo and talk to our experts.\n\nI’ll save the date. More details will likely follow."
+    "text": "Airplane builder Boeing plans to sell its Digital Aviation Solutions to the investment company Thoma Bravo. The price is set at 10.55 billion1 US Dollars. The sale includes the following subsidiaries / brands:\nQuite some (renowned) geospatial in this deal. It’s not often that you see a precise valuation attached."
   },
   {
-    "objectID": "posts/2025/02-16-the-missing-dimension/index.html",
-    "href": "posts/2025/02-16-the-missing-dimension/index.html",
-    "title": "The missing dimension: Why geospatial needs to prioritize time",
-    "section": "",
-    "text": "“Change is the EO1 product: The problem is that we so rarely sell it.”\nA bold statement from Will Cadell in his recent article Time for a Change. While Earth observation has always been about detecting change, Cadell argues that the industry still struggles to treat time as a structured and fundamental dimension.\nThe gap: Geospatial tools remain rooted in static, two-dimensional thinking. Time sliders and animated GIFs are useful, but they fall short of truly integrating time into analysis.\nHow to tackle this? – Future geospatial platforms must embrace 3D and 4D visualization, even if that means losing traditional geographical representation – because understanding change matters more than simply mapping it. Cadell again:\nThis shift in perspective is crucial. Whether for climate monitoring, disaster response, or financial markets, geospatial intelligence isn’t just about where things are – it’s about how and why they change.\nPerhaps it’s time to stop selling static maps and start delivering dynamic, time-driven insights – think dashboards2"
-  },
-  {
-    "objectID": "posts/2025/02-16-the-missing-dimension/index.html#footnotes",
-    "href": "posts/2025/02-16-the-missing-dimension/index.html#footnotes",
-    "title": "The missing dimension: Why geospatial needs to prioritize time",
+    "objectID": "posts/2025/04-23-boeing-to-sell-digital-aviation-solutions/index.html#footnotes",
+    "href": "posts/2025/04-23-boeing-to-sell-digital-aviation-solutions/index.html#footnotes",
+    "title": "Boeing to sell Digital Aviation Solutions",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nEarth observation↩︎\nBut be aware of the dashboard trap: Building useless dashboards↩︎"
+    "text": "Footnotes\n\n\nTo be clear: “Milliarden” in German, “milliards” in French.↩︎"
   },
   {
-    "objectID": "posts/2025/05-12-recording-colloquium-on-the-state-of-sgs-implementation/index.html",
-    "href": "posts/2025/05-12-recording-colloquium-on-the-state-of-sgs-implementation/index.html",
-    "title": "Recording: Colloquium on the state of SGS implementation",
+    "objectID": "posts/2025/03-01-toponyms/index.html",
+    "href": "posts/2025/03-01-toponyms/index.html",
+    "title": "Toponyms",
     "section": "",
-    "text": "Busy bees – Swiss Geoinformation Strategy (SGS) 2020\n\n\nOn May 2, Swisstopo hosted a colloquium to present the current state of Swiss Geoinformation Strategy (SGS) implementation and ongoing SGS projects.\nNow, the recording is online. The colloquium is in German and in French, slides are usually bilingual. The video has auto-generated captions and auto-translations of those:\n\nContributors and contributions:\n\nChristine Najar: State of SGS implementation\nPeter Staub: What drives us?\nPasquale di Donato: LLMs for geospatial\nChristine Najar: Digital Twin\nEvi Rothenbühler: Climate monitoring\nBeat Tschanz: Geoplatform Switzerland\nChristine Najar and Peter Staub: Q&A"
+    "text": "Weekend diversion: Mapmakers (or their financers) got to name a lot of places. There’s a website and a Mastodon account that makes it its purpose to surface the sometimes odd and sometimes funny toponyms1 that have found their way into the official Swisstopo maps (many are in German or Swiss-German) and their etymology. Either outlet offers an RSS feed2."
   },
   {
-    "objectID": "posts/2025/03-31-new-map-viewer-for-the-canton-of-aargau/index.html",
-    "href": "posts/2025/03-31-new-map-viewer-for-the-canton-of-aargau/index.html",
-    "title": "New map viewer for the canton of Aargau",
-    "section": "",
-    "text": "A few days ago, the Canton of Aargau unveiled its new browser-based map viewer called “Online Karten”:\n\n\n\nThe new map viewer of the canton of Aargau\n\n\nBased on the available information, the new viewer appears to be built using React and OpenLayers.\nThe old map viewer will remain accessible until August."
-  },
-  {
-    "objectID": "posts/2025/05-08-snap-map-spatial-social/index.html",
-    "href": "posts/2025/05-08-snap-map-spatial-social/index.html",
-    "title": "Snap Map: Spatial social",
-    "section": "",
-    "text": "Spatial social1 – Apparently, Snapchat, like other social media companies, has been exploring geospatial use-cases. From TechCrunch (which also compiles a few more examples of spatial social):\nAnd:\nFor – admittedly slightly oblique – comparison: In 2023, map.geo.admin.ch recorded approximately 2 million monthly visits. Thus, presumably: Quite a bit fewer users. But of course, of exclusively people with interest in Switzerland."
-  },
-  {
-    "objectID": "posts/2025/05-08-snap-map-spatial-social/index.html#footnotes",
-    "href": "posts/2025/05-08-snap-map-spatial-social/index.html#footnotes",
-    "title": "Snap Map: Spatial social",
+    "objectID": "posts/2025/03-01-toponyms/index.html#footnotes",
+    "href": "posts/2025/03-01-toponyms/index.html#footnotes",
+    "title": "Toponyms",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nI just made up this term, I think↩︎\nMonthly active users, often “MAUs”, are a key software performance metric.↩︎"
+    "text": "Footnotes\n\n\nplace names↩︎\nYou can follow any Fediverse (e.g. Mastodon or Pixelfed) account through RSS, even if you are not part of the Fediverse. Simply add .rss the URL of their profile page. It’s the open web, after all.↩︎"
   },
   {
-    "objectID": "posts/2025/03-21-labeling-master-class/index.html",
-    "href": "posts/2025/03-21-labeling-master-class/index.html",
-    "title": "Labeling master class",
+    "objectID": "posts/2025/04-05-serving-vector-tiles-fast/index.html",
+    "href": "posts/2025/04-05-serving-vector-tiles-fast/index.html",
+    "title": "Serving vector tiles, fast",
     "section": "",
-    "text": "From cartographer Andy Skinner comes this very useful resource about cartographic labeling for both interactive and static maps. While this guide comes in the form of an ArcGIS storymap, it is software-agnostic.\nScale, transparency-and-opacity, hue, tone, halos, … – this guide covers many different visual variables and how they can be used, on their own or together, to make a map a lot more aesthetic and the information it contains easier to grasp.\nThe labeling guide is part of a six-part1 series in which Andy Skinner looks at his work. The other parts are listed at the bottom of the page."
+    "text": "Once you have created your vector tiles, typically you look for a solution to serve them to clients. From Fabian Rechsteiner comes an interesting speed comparison1 of open-source solutions for a slightly different context: Serving vector tiles not from PMTiles or MBTiles, but from a PostGIS instance. The GitHub repo highlights speed comparisons between six vector tile servers across different tests:\nBesides the statistics in the benchmark repository, Fabian Rechsteiner has published an eye-opening interactive side-by-side comparison of the six vector tile servers using a MapLibre client and data from the canton of Thurgau at https://vectormap.ch:\nFabian Rechsteiner’s benchmark repository contains the code to roll your own tests (or maybe update his results a few months down the road). These insights are the results of his Master’s thesis at the University of Salzburg, which is also publicly available (pdf, in German). If you have a subscription, you can also read a shorter article on the analysis in Geomatik Schweiz, edition 11-12/2024 (paywalled, in German).\nObviously, speed isn’t the only quality dimension to decide on a vector tile server. But it is certainly an important one."
   },
   {
-    "objectID": "posts/2025/03-21-labeling-master-class/index.html#footnotes",
-    "href": "posts/2025/03-21-labeling-master-class/index.html#footnotes",
-    "title": "Labeling master class",
+    "objectID": "posts/2025/04-05-serving-vector-tiles-fast/index.html#footnotes",
+    "href": "posts/2025/04-05-serving-vector-tiles-fast/index.html#footnotes",
+    "title": "Serving vector tiles, fast",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nfor now (?)↩︎"
+    "text": "Footnotes\n\n\nI was reminded of this speed benchmark, specifically of an article about it in Geomatik Schweiz, by a comment from Xavier Mérour (merci!).↩︎"
+  },
+  {
+    "objectID": "posts/2025/04-15-the-best-programmers/index.html",
+    "href": "posts/2025/04-15-the-best-programmers/index.html",
+    "title": "The best programmers",
+    "section": "",
+    "text": "Many geospatial professions involve – varying degrees of – programming: GIS developer1, (geospatial) web or application developer, spatial data scientist and data engineer, GIS analyst, etc. In his blog, Matthias Endler has published an article about traits that, in his opinion, the best programmers share. The article is not specifically about software development in the geospatial domain, but the points it lists are interesting and ought to transfer just fine to sub-disciplines of developing.\nFrom the intro to the blog post:"
+  },
+  {
+    "objectID": "posts/2025/04-15-the-best-programmers/index.html#footnotes",
+    "href": "posts/2025/04-15-the-best-programmers/index.html#footnotes",
+    "title": "The best programmers",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThat is, developer of GIS software.↩︎"
+  },
+  {
+    "objectID": "posts/2025/02-13-geoparquet-2.0/index.html",
+    "href": "posts/2025/02-13-geoparquet-2.0/index.html",
+    "title": "GeoParquet 2.0",
+    "section": "",
+    "text": "On the heels of this, news from the #cloudnative and #cloudnativegeo world:\nand\nWhat does it mean? Well, GEOMETRY and GEOGRAPHY are now native logical data types in both Apache Parquet1 and Apache Iceberg2, just like, e.g., INT32 is. This is a big step for mainstreaming “geo” in the cloud-native3 data community.\nWhat’s going to be even more interesting are the next steps in order to make the cloud-native paradigm work better for spatial data. The rough roadmap and more details are available from CNG."
+  },
+  {
+    "objectID": "posts/2025/02-13-geoparquet-2.0/index.html#footnotes",
+    "href": "posts/2025/02-13-geoparquet-2.0/index.html#footnotes",
+    "title": "GeoParquet 2.0",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nan open-source, columnar storage file format designed for efficient data processing↩︎\nan open-source, high-performance table format for large datasets in data lakes↩︎\ni.e.  taking full advantage of the cloud computing model; in the data world typically through enabling partial downloads of file contents through so-called HTTP range requests↩︎"
+  },
+  {
+    "objectID": "posts/2025/04-08-drought-lake-constance-and-sentinel-2/index.html",
+    "href": "posts/2025/04-08-drought-lake-constance-and-sentinel-2/index.html",
+    "title": "Drought, Lake Constance and Sentinel-2",
+    "section": "",
+    "text": "Switzerland has recently experienced an unusually dry period with minimal rainfall, causing water levels in Lake Constance to drop to a historic low — the lowest recorded in 40 years according to experts in the media. Having observed the situation firsthand recently, I decided to explore remote sensing and other data sources to better understand the current conditions and the potential risks of an impending drought. I shared my findings online yesterday, where they garnered significant interest, thus I decided to share them here as well (my apologies if you have seen them before).\nSpecifically, I briefly analyzed Sentinel-2 satellite data (true-color imagery and the Normalized Difference Water Index, NDWI) from April 5th, combined with geodata from swisstopo’s swissTLM3D and gauging data to assess the lake’s extent and water levels:\n\n\n\nThe Untersee, captured in Sentinel-2 true-color imagery (source: Copernicus/ESA), is shown here with a red outline indicating the typical shoreline of Lake Constance. While it is common for the water level to drop below the usual shoreline during winter, the extent of this recession is unusually pronounced this year.\n\n\n\n\n\nThe area surrounding Reichenau island is depicted using Sentinel-2 data, analyzed through the Normalized Difference Water Index (NDWI; source: Copernicus/ESA) to highlight current water conditions.\n\n\n\n\n\nCurrent and historical water levels at the gauging station in Berlingen. In 2022 (in yellow), the water level was at a similarly low level as today, albeit in summer. (source: FOEN)\n\n\n\n\n\nLakehouse over dry ground along the upper part of Lake Constance as of March 23rd (personal photograph)\n\n\nYou can see more results as well as the ensuing discussion on LinkedIn (if you have a user account) or (with less discussion) on Mastodon (no login required)."
+  },
+  {
+    "objectID": "posts/2025/03-25-geoai-state-of-play-in-2025/index.html",
+    "href": "posts/2025/03-25-geoai-state-of-play-in-2025/index.html",
+    "title": "GeoAI: State-of-play in 2025",
+    "section": "",
+    "text": "The Innosuisse-funded Innovation Booster Artificial Intelligence has published a review of GeoAI in Switzerland. The short report has been compiled by the Focus Group “Spatial Data Analytics” comprising Nicolas Lenz, Stefan Keller and Reik Leiterer. It summarizes important players, innovations, developments over the last four years and future directions of the use of purpose-optimized artificial intelligence1 methods for geospatial tasks2.\nThe report establishes that well-known Swiss GIS providers – EBP3, Esri Switzerland, Geocloud, GeoDataSolutions, GeoWerkstatt, Hexagon, Meteotest and more, unnamed, firms – have made progress integrating AI into GIS applications. Within the start-up- and small-company-space, the report identifies three main avenues in which AI is applied for GIS purposes:\nYou can read the approximately two-page report here."
+  },
+  {
+    "objectID": "posts/2025/03-25-geoai-state-of-play-in-2025/index.html#footnotes",
+    "href": "posts/2025/03-25-geoai-state-of-play-in-2025/index.html#footnotes",
+    "title": "GeoAI: State-of-play in 2025",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nspecifically, machine and deep learning↩︎\nFor now, this is my rough working definition for the emerging field of “GeoAI”.↩︎\nTransparency note: I work here.↩︎"
+  },
+  {
+    "objectID": "posts/2025/04-19-automatic-relative-elevation-model-generation/index.html",
+    "href": "posts/2025/04-19-automatic-relative-elevation-model-generation/index.html",
+    "title": "Automatic relative elevation model generation",
+    "section": "",
+    "text": "Relative elevation model (REM) of Neches River (source: OpenTopography (fair use))\nArt with scientific merit: Cartographer Dan Coe has popularized this type of visualization of elevations along rivers and floodplains that have the overall trend in river elevation removed. This technique leaves behind elevation fluctuations more or less relative to the river. Once the elevations in this “relative elevation model” (REM) are rendered, the data exposes – even shallow – current and historical fluvial geomorphology.\nOpenTopography offers RiverREM, a Python-based tool for generating and visualizing REMs automatically. The tool requires only a digital elevation model (DEM) and, optionally, a river centerline1 to run."
+  },
+  {
+    "objectID": "posts/2025/04-19-automatic-relative-elevation-model-generation/index.html#footnotes",
+    "href": "posts/2025/04-19-automatic-relative-elevation-model-generation/index.html#footnotes",
+    "title": "Automatic relative elevation model generation",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nIf no river centerline is given, the tool looks for one in OpenStreetMap, using the bounding box around the input DEM.↩︎"
+  },
+  {
+    "objectID": "posts/2025/03-06-tool-tip-navigating-the-maze-of-coordinate-reference-systems/index.html",
+    "href": "posts/2025/03-06-tool-tip-navigating-the-maze-of-coordinate-reference-systems/index.html",
+    "title": "Tool tip: Navigating the maze of coordinate reference systems",
+    "section": "",
+    "text": "In my experience, early career geospatial professionals often, geo-adjacent professionals virtually always, struggle with coordinate reference systems (CRSs). Who can blame them: CRSs can be confusing from a theoretical perspective, and handling them in your day-to-day GIS workflows even more so.\nIn comes ihatecoordinatesystems.com by Dan Mahr: While the naming is very on the nose, this website provides an invaluable service. Structured around 12 common frustrations and questions, it serves as a refreshingly practical problem-solving guide for CRS issues.\nItems include, for example (the actual section headings add the emphatic “I hate coordinate systems!” 😃):\n\nMy dataset is off the coast of Africa! — hint: Null Island\nMy dataset is not located where it should be!\nMy dataset is slightly offset from where it should be!\n\nFor Switzerland, maybe we should add “My dataset seems to be located in eastern Europe / in the Atlantic off the coast of France” and “My dataset has Switzerland in portrait rather than landscape mode”…\nThe site offers another exceptional feature: if your dataset has an incorrect CRS specified, you can enter an approximate latitude and longitude along with the corresponding X and Y coordinates from your dataset, and ihatecoordinatesystems.com will attempt to identify the correct CRS! Needless to say, this functionality can save your day."
+  },
+  {
+    "objectID": "posts/2025/02-26-normalize-your-choropleths/index.html",
+    "href": "posts/2025/02-26-normalize-your-choropleths/index.html",
+    "title": "Normalize choropleths",
+    "section": "",
+    "text": "Much (but – judging from experience – not yet enough) metaphorical ink has been spilled on this cartographic topic: Which kind of metrics lend themselves to be mapped using a choropleth map1. Or, the other way around: How should I prepare my data in order to use it in a choropleth map?\nCartographer Heather Smith has produced a video that explains the factors requiring data normalization as well as some techniques for normalization in very simple terms:\nThe techniques shown are not tied to any particular software. The video is part of a three-part series on designing choropleth maps with part 1 here and part 3 here."
+  },
+  {
+    "objectID": "posts/2025/02-26-normalize-your-choropleths/index.html#footnotes",
+    "href": "posts/2025/02-26-normalize-your-choropleths/index.html#footnotes",
+    "title": "Normalize choropleths",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\ni.e., a thematic map that uses different colors or shading of areas to represent data↩︎"
+  },
+  {
+    "objectID": "posts/2025/02-12-the-format-that-shall-not-be-named/index.html",
+    "href": "posts/2025/02-12-the-format-that-shall-not-be-named/index.html",
+    "title": "The format that shall not be named",
+    "section": "",
+    "text": "… for I am not interested in the Shapefile Wars and I do not want to wake up the geospatial format zealots. But: By now, a cultural history of the Shapefile, the world’s foremost geospatial data format1 since the early 1990s (!), would be warranted, such is its impact. James Fee’s article “Shapefile: The Persistent Legacy of a GIS Workhorse” makes the point:\nLuckily, I don’t usually have to cater to workflows that rely on Shapefiles at all2.\nAs to alternatives, there are many to chose from. I find it hard to name “the best” data format, since it very much depends:\nI do find GeoParquet and FlatGeoBuf particulary interesting vector data formats, for some of my use cases – ymmv3, obviously."
+  },
+  {
+    "objectID": "posts/2025/02-12-the-format-that-shall-not-be-named/index.html#footnotes",
+    "href": "posts/2025/02-12-the-format-that-shall-not-be-named/index.html#footnotes",
+    "title": "The format that shall not be named",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nmuch in the same way Excel is the world’s foremost “database” – besides SQLite↩︎\nOne exception comes to mind: to my dismay, a popular traffic modelling software only supports Shapefile for GIS data exchange.↩︎\nyour mileage may vary↩︎"
+  },
+  {
+    "objectID": "posts/2025/02-20-cloud-native-web-app-case-study/index.html",
+    "href": "posts/2025/02-20-cloud-native-web-app-case-study/index.html",
+    "title": "Cloud-native web app: A case study",
+    "section": "",
+    "text": "From Stephan Heuel comes a very interesting case study that explores the possibilies of web apps based on the “cloud-native geo” paradigm: The “Swiss Rooftop Explorer” project demonstrates a cloud-native approach to accessing and visualizing geospatial data, specifically roof heights of buildings in Switzerland based on swisstopo’s swissBUILDINGS3D dataset.\n\n\n\nStephan Heuel’s Swiss Rooftop Explorer\n\n\nInstead of relying on traditional GIS server architecture and infrastructure , the project leverages GeoParquet, DuckDB, Tippecanoe, PMTiles, and DuckDB-WASM for efficient data processing, storage and delivery. The toolchain is entirely open and in his blog post, Stephan Heuel compares the cloud-native approach to that of a more traditional GIS tech stack:\n\n(…) I truly believe that there is something big behind all of this: The current (classic) web map architecture includes a publication database and a heavy and costly API layer. Just imagine you can get rid of both of them entirely while the user experience is the same!\n\nThe source for learning more about the “cloud-native geo” paradigm is of course the Cloud-Native Geospatial Forum.\nIn the Swiss geospatial industry, data is distributed in cloud-native formats e.g. under the swissEO product line (cf. also here for some more background). To my knowledge, in Switzerland the “cloud-native geo” paradigm has (only, I think (?)) been covered in a GeoStandards.ch-issued whitepaper by OPENGIS.ch, in the digital.ebp.ch blog and of course here, so far."
+  },
+  {
+    "objectID": "posts/2025/05-19-linked-data-explainer-addresses/index.html",
+    "href": "posts/2025/05-19-linked-data-explainer-addresses/index.html",
+    "title": "Linked data explainer: Addresses",
+    "section": "",
+    "text": "If you work in (geo)data, you most likely have come across the term “linked data”, see for example LINDAS, the linked data service by the federal government. If you’d like to dive into the topic a bit, this blog post (in German) by Stefan Kaufmann explains the basic idea using postal addresses as a simple area of application (machine-translated to English, and to French; the title is a bit mangled in both, as the German avoids using an umlaut, but otherwise the translations ought to work okay).\nFrom the article:\n\nBecause, just as with spoken language, we humans are quite good at interpreting ambiguities or imprecise expressions according to their context. We don’t just read what’s written somewhere and interpret it literally; we interpret without having to think too much about what might have been meant . Unfortunately, when we write, we also assume that the other person will already know what is actually meant . And that this other person isn’t a computer that interprets what is written comparatively literally. And then things get wild.\n\nThe article adopts a mostly European perspective and doesn’t even mention other addressing conventions such as the ones used in Japan. If this interests you: A few years back, Ed Freyfogle of OpenCage talked about geocoding on the MapScaping Podcast. And some of the complexity and variety of address data are evident in this collection of address formatting rules by OpenCage."
   },
   {
     "objectID": "posts/2025/03-15-embag-lmeta-does-not-make-open-geodata/index.html",
