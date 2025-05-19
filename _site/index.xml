@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Fri, 16 May 2025 17:43:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 19 May 2025 18:32:00 GMT</lastBuildDate>
+<item>
+  <title>MVT, MBT, PMTiles: Everything to know about vector tiles</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/05-19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/</link>
+  <description><![CDATA[ Daniel-J-H offers a comprehensive overview of #vectortiles technology, including #Mapbox Vector Tiles (#MVT), #MBTiles, and #Protomaps’s #PMTiles. The post explains the evolution from #raster to #vector #maps, compares key formats and technologies, and provides practical tips for creating your own vector tiles. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/05-19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/</guid>
+  <pubDate>Mon, 19 May 2025 18:32:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/05-19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/henry-perks-BJXAxQ1L7dI-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>GeoParquet arriving in ArcGIS Pro 3.5</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/04-15-the-best-programmers/</guid>
   <pubDate>Tue, 15 Apr 2025 19:05:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/04-15-the-best-programmers/arthur-9CfHPa6YM4Y-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>New geospatial data in Google BigQuery</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/04-14-new-geospatial-data-in-google-bigquery/</link>
-  <description><![CDATA[ #Google is adding geospatial content to its #DWH solution #BigQuery. Additions encompass annotated Street View #imagery, Places (#POI) data, and #traffic data, among others. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/04-14-new-geospatial-data-in-google-bigquery/</guid>
-  <pubDate>Mon, 14 Apr 2025 20:43:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/04-14-new-geospatial-data-in-google-bigquery/javier-miranda-Jn2EaLLYZfY-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
