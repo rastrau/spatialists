@@ -1,0 +1,15 @@
+---
+title: "MVT, MBT, PMTiles: Everything to know about vector tiles"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-05-19 18:32"
+image: "henry-perks-BJXAxQ1L7dI-unsplash.jpg"
+description: "Daniel-J-H offers a comprehensive overview of #vectortiles technology, including #Mapbox Vector Tiles (#MVT), #MBTiles, and #Protomaps’s #PMTiles. The post explains the evolution from #raster to #vector #maps, compares key formats and technologies, and provides practical tips for creating your own vector tiles."
+---
+
+From OpenStreetMap contributor [Daniel-J-H](https://www.openstreetmap.org/user/daniel-j-h), comes this blog post about ["Everything you wanted to know about vector tiles (But were afraid to ask)"](https://www.openstreetmap.org/user/daniel-j-h/diary/404061). It's one year old, but still a great overview of various formats – Mapbox Vector Tiles (MVT), MBTiles, and Protomaps's PMTiles – and underpinning technologies, complete with tips how to make your own. Great opening, too:
+
+> To understand how revolutionary vector maps were we have to go back in time to the early 2010s. One Direction is raising to international fame and raster maps are at the height of their popularity. Folks creating raster web maps rendering OpenStreetMap data into beautiful 256x256 pixel images. But raster maps come with limitations. 
+
+[![Freely rotating labels – just one of the benefits of vector tiles (source: CC BY-NC-SA [Daniel-J-H](https://www.openstreetmap.org/user/daniel-j-h))](vector-tiles-rotation.jpg "Freely rotating labels – just one of the benefits of vector tiles (source: CC BY-NC-SA Daniel-J-H)")](https://www.openstreetmap.org/user/daniel-j-h/diary/404061)
