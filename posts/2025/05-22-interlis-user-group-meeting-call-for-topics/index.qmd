@@ -1,0 +1,15 @@
+---
+title: "Interlis User Group Meeting: Call for topics"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-05-22 17:25"
+image: "interlis.png"
+description: "This fall, the 5th #Interlis User Group Meeting will be held. Discussion topics and questions can be submitted via the Interlis Forum."
+---
+
+This fall, the 5th Interlis User Group Meeting will be held. In the Interlis Forum, the organizing committee has launched [a call for discussion topics](https://interlis.discourse.group/t/5-interlis-anwender-innen-treffen-themensammlung-5e-rencontre-des-utilisateur-rices-interlis-collection-de-themes/390):
+
+> What interests you about INTERLIS? Are there any subjects you’ve always wanted to know more about or would like to have explained in detail?
+
+Topics can be submitted exclusively through the [Interlis Forum](https://interlis.discourse.group/t/5-interlis-anwender-innen-treffen-themensammlung-5e-rencontre-des-utilisateur-rices-interlis-collection-de-themes/390).
