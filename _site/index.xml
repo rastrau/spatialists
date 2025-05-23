@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Thu, 22 May 2025 17:25:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 23 May 2025 15:54:00 GMT</lastBuildDate>
+<item>
+  <title>Easily obtain OSM and OMF data</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/05-23-easily-obtain-osm-and-omf-data/</link>
+  <description><![CDATA[ #Python and CLI tools #QuackOSM and #OvertureMaestro offer easier access to data from #OpenStreetMap (#OSM) and the Overture Maps Foundation (#OMF) through #PyArrow, #GeoParquet, or #DuckDB. These tools can simplify large-scale geospatial data tasks for seamless data engineering and analysis. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/05-23-easily-obtain-osm-and-omf-data/</guid>
+  <pubDate>Fri, 23 May 2025 15:54:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/05-23-easily-obtain-osm-and-omf-data/kraina-tools.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Interlis User Group Meeting: Call for topics</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/04-23-deadlines-for-prix-carto-2025-approaching/</guid>
   <pubDate>Wed, 23 Apr 2025 17:48:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/04-23-deadlines-for-prix-carto-2025-approaching/prix-carto-edu-2021.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Automatic relative elevation model generation</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/04-19-automatic-relative-elevation-model-generation/</link>
-  <description><![CDATA[ OpenTopography’s #RiverREM is a #Python-based tool that automates the creation and visualization of relative elevation models (REMs) from digital elevation models, making it easier than ever for scientists, artists, and enthusiasts to explore the dynamic history and structure of river landscapes. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/04-19-automatic-relative-elevation-model-generation/</guid>
-  <pubDate>Sat, 19 Apr 2025 16:53:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/04-19-automatic-relative-elevation-model-generation/birch-creek-cropped.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
