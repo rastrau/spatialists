@@ -1,0 +1,41 @@
+---
+title: "Interlis UML diagrams in VS Code"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-05-26 17:55"
+image: "ARA_DB_REP_V1_2.ili-diagram.png"
+description: '#geowerkstatt has updated their open-source plug-in "#INTERLIS 2" for Microsoft #VSCode. The plug-in now supports drawing the #UML class diagram of Interlis models. It still also offers: syntax highlighting, snippets, and #Markdown documentation.'
+---
+
+[geowerkstatt](https://www.geowerkstatt.ch) has updated their 
+[plug-in "INTERLIS 2"](https://marketplace.visualstudio.com/items?itemName=geowerkstatt.InterlisLanguageSupport) 
+for [Microsoft Visual Studio Code](https://code.visualstudio.com/download). 
+Starting with version 0.3.0, the plug-in has the ability to automatically draw the 
+(live) UML^[Unified Modeling Language] class diagram of Interlis models 
+(`ili` files). The UML diagrams can be exported (and refined) as 
+SVG files^[Scalable Vector Graphics, an open standard for two-dimensional vector 
+graphics] or in Mermaid syntax^[[Mermaid](https://github.com/mermaid-js/mermaid#readme) 
+is a JavaScript-based diagramming tool that takes Markdown-inspired text 
+definitions and creates diagrams dynamically. Mermaid is supported in GitHub, 
+for example.]. In my quick tests, the drawing feature *mostly* worked; it 
+couldn't render *some* models^[In my random sample, 
+`Amphibien_Laichgebiete_V1_2.ili`, `BLN_V1_2.ili`, and 
+`Flachmoore_V1_2.ili` didn't render visually. I haven't tested them in the 
+[umleditor](https://www.interlis.ch/en/downloads/umleditor).].
+
+Here is part of the [`ARA_DB_REP_V1_2`](https://models.geo.admin.ch/BAFU/)
+model as drawn by the geowerkstatt plug-in:
+
+![UML diagram of the model "[ARA_DB_REP_V1_2](https://models.geo.admin.ch/BAFU/)"](ARA_DB_REP_V1_2.ili-diagram.png 'UML diagram of the model "ARA_DB_REP_V1_2"')
+
+The plug-in continuous to offer the following features:
+
+- Syntax highlighting of object names, data types, keywords, and string patterns for `ili` files
+- Snippets for commonly used Interlis blocks (`MODEL`, `TOPIC`, `CLASS`, `STRUCTURE`, `ASSOCIATION`, and `Role`)
+- Auto-generation of documentation in Markdown for `ili` files
+
+The plug-in is [open-source](https://github.com/GeoWerkstatt/vsc_interlis2_extension) under the MIT license.
+
+
+
