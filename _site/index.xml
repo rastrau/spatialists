@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Fri, 23 May 2025 15:54:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 26 May 2025 17:55:00 GMT</lastBuildDate>
+<item>
+  <title>Interlis UML diagrams in VS Code</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/05-26-interlis-uml-diagrams-in-vs-code/</link>
+  <description><![CDATA[ #geowerkstatt has updated their open-source plug-in “#INTERLIS 2” for Microsoft #VSCode. The plug-in now supports drawing the #UML class diagram of Interlis models. It still also offers: syntax highlighting, snippets, and #Markdown documentation. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/05-26-interlis-uml-diagrams-in-vs-code/</guid>
+  <pubDate>Mon, 26 May 2025 17:55:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/05-26-interlis-uml-diagrams-in-vs-code/ARA_DB_REP_V1_2.ili-diagram.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Easily obtain OSM and OMF data</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/04-23-boeing-to-sell-digital-aviation-solutions/</guid>
   <pubDate>Wed, 23 Apr 2025 18:18:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/04-23-boeing-to-sell-digital-aviation-solutions/johnny-williams-X5hGlLv6BkE-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Deadlines for Prix Carto 2025 approaching</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/04-23-deadlines-for-prix-carto-2025-approaching/</link>
-  <description><![CDATA[ Heads-up: Two deadlines for the 2025 instalment of the prestigious bi-annual #PrixCarto, awarded by the Swiss Society of #Cartography, are approaching. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/04-23-deadlines-for-prix-carto-2025-approaching/</guid>
-  <pubDate>Wed, 23 Apr 2025 17:48:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/04-23-deadlines-for-prix-carto-2025-approaching/prix-carto-edu-2021.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
