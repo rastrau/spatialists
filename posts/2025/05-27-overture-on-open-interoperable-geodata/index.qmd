@@ -40,6 +40,6 @@ the age of digital media, infrastructures, data and algorithms". The aim of
 grid is to create a publication format that enables an exchange among 
 scientists, but also makes this exchange accessible to a broader public.
 
-[^interview]: A bit odd: The article is formatted like an interview (and 
-there are credits for "interview and editing" at the end of it), but the 
-interviewee is credited as author in the byline.
+[^interview]: Slightly odd minor point: The article is formatted like an 
+interview (and there are credits for "interview and editing" at the end of it), 
+but the interviewee is credited as author in the byline.
