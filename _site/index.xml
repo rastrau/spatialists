@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Mon, 26 May 2025 17:55:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 27 May 2025 22:51:00 GMT</lastBuildDate>
+<item>
+  <title>Overture on open, interoperable geodata</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/05-27-overture-on-open-interoperable-geodata/</link>
+  <description><![CDATA[ #Grid features an interesting interview with Jennings Anderson, a #Meta Software Engineer and #OpenStreetMap (#OSM) researcher, who shares his perspective on the #Overture Maps Foundation (#OMF) — an initiative aiming to integrate diverse open geodata into a consistent base map. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/05-27-overture-on-open-interoperable-geodata/</guid>
+  <pubDate>Tue, 27 May 2025 22:51:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/05-27-overture-on-open-interoperable-geodata/anderson-2025-overture.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Interlis UML diagrams in VS Code</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/04-26-colloquium-state-of-sgs-implementation/</guid>
   <pubDate>Sat, 26 Apr 2025 15:51:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/04-26-colloquium-state-of-sgs-implementation/sgs.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Boeing to sell Digital Aviation Solutions</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/04-23-boeing-to-sell-digital-aviation-solutions/</link>
-  <description><![CDATA[ Airplane builder #Boeing plans to sell its Digital #Aviation Solutions for 10.55 billion US Dollars. The sale includes several geospatial(-adjacent) subsidiaries and brands. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/04-23-boeing-to-sell-digital-aviation-solutions/</guid>
-  <pubDate>Wed, 23 Apr 2025 18:18:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/04-23-boeing-to-sell-digital-aviation-solutions/johnny-williams-X5hGlLv6BkE-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
