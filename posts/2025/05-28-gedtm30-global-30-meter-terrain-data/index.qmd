@@ -1,0 +1,55 @@
+---
+title: "GEDTM30: Global 30 meter terrain data"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-05-28 19:35"
+image: "maximum-curvature.jpg"
+description: "A team of researchers has released #GEDTM30, a global #DigitalTerrainModel with 30-meter (1 arcsecond) resolution, generated through #MachineLearning fusion of various data sources, and accompanied by 15 geomorphometric parameters computed at multiple spatial scales. Published under a CC-BY license, GEDTM30 offers open, high-resolution global terrain data and is accessible as cloud-optimized #GeoTIFF-s (#COG) via Zenodo and OpenLandMap."
+---
+
+A group of researchers has published "GEDTM30"^["GEDTM" stands for "Global 
+ensemble digital terrain model".] a new high-resolution^[For global coverage, 
+30 meter is considered high-resolution.] DTM^[Digital terrain model, 
+that is a model of the "bare earth" elevations of the Earth's surface.] of 
+global extent. GEDTM30 has 1 arcsecond spatial resolution, which is about 
+30 meters. 
+
+A [pre-print](https://doi.org/10.21203/rs.3.rs-6280607/v1)^[That is, a 
+scientific publication that has not yet been peer-reviewed.] (currently) 
+describes the production method: 
+
+> Copernicus DEM, ALOS World3D, and object height models were combined in a 
+> data fusion approach to generate a globally consistent DTM. (...) A 
+> global-to-local transfer learning model framework with 5°×5° tiling leveraged 
+> globally distributed lidar datasets: ICESat-2 ATL08 (...) and GEDI02 (...). 
+> A global model was initially fitted using ICESat-2 and GEDI, followed by 
+> locally optimized models per tile, ensuring both global consistency and 
+> local accuracy. 
+
+![Maximum curvature at 30 meters resolution (data: CC-BY Yufeng Ho and Tomislav Hengl)](maximum-curvature.jpg "Maximum curvature at 30 meters resolution (data: CC-BY Yufeng Ho and Tomislav Hengl)")
+
+Also interesting: The DTM itself is accompanied by 15 geomorphometric 
+parameters computed by the researchers at six spatial scales (30, 60, 120, 240, 
+480 and 960 meters):
+
+- Difference from Mean Elevation
+- Geomorphons
+- LS Factor
+- Maximal Curvature
+- Minimal Curvature
+- Negative Openness
+- Positive Openness
+- Profile Curvature
+- Ring Curvature
+- Shape Index
+- Slope in Degree
+- Specific Catchment Area
+- Spherical Standard Deviation of the Normals
+- Tangential Curvature
+- Topographic Wetness Index
+
+The [data is published under a CC-BY license](https://github.com/openlandmap/GEDTM30) 
+through [Zenodo](https://zenodo.org/records/15490367) and the [OpenLandMap STAC^[SpatioTemporal Asset Catalog]](https://stac.openlandmap.org/). The data format is Cloud-optimized 
+GeoTIFF. The [pre-print](https://doi.org/10.21203/rs.3.rs-6280607/v1) has more 
+information regarding the data quality.
