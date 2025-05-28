@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Tue, 27 May 2025 22:51:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 28 May 2025 19:35:00 GMT</lastBuildDate>
+<item>
+  <title>GEDTM30: Global 30 meter terrain data</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/05-28-gedtm30-global-30-meter-terrain-data/</link>
+  <description><![CDATA[ A team of researchers has released #GEDTM30, a global #DigitalTerrainModel with 30-meter (1 arcsecond) resolution, generated through #MachineLearning fusion of various data sources, and accompanied by 15 geomorphometric parameters computed at multiple spatial scales. Published under a CC-BY license, GEDTM30 offers open, high-resolution global terrain data and is accessible as cloud-optimized #GeoTIFF-s (#COG) via Zenodo and OpenLandMap. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/05-28-gedtm30-global-30-meter-terrain-data/</guid>
+  <pubDate>Wed, 28 May 2025 19:35:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/05-28-gedtm30-global-30-meter-terrain-data/maximum-curvature.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Overture on open, interoperable geodata</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/04-26-geoserver-cloud-adds-geoparquet-data-source-support/</guid>
   <pubDate>Sat, 26 Apr 2025 18:21:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/04-26-geoserver-cloud-adds-geoparquet-data-source-support/tomasz-sroka-eaxgNP4cpY8-unsplash.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Colloquium: State of SGS implementation</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/04-26-colloquium-state-of-sgs-implementation/</link>
-  <description><![CDATA[ The Swiss #Geoinformation Strategy (#SGS), launched in 2020, aims to make reliable, detailed, and up-to-date geoinformation easily accessible and interconnected across #Switzerland. On May 2, #Swisstopo will host a colloquium to review the progress of SGS implementation and ongoing projects. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/04-26-colloquium-state-of-sgs-implementation/</guid>
-  <pubDate>Sat, 26 Apr 2025 15:51:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/04-26-colloquium-state-of-sgs-implementation/sgs.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
