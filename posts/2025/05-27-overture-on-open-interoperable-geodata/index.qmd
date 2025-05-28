@@ -13,12 +13,12 @@ integrate diverse open geodata into a consistent base map."
 
 ![Overture building data rendered using Kepler.gl (Source: CC-BY grid)](anderson-2025-overture.webp "Overture building data rendered using Kepler.gl (Source: CC-BY grid)")
 
-Grid[^grid] features an interview with 
-[Jennings Anderson](https://www.linkedin.com/in/jenningsanderson) who works as 
+Grid[^grid] features [an interview with 
+Jennings Anderson](https://gridisnotajournal.de/articles/anderson-2025-overture/) who works as 
 a Software Engineer for Meta, has done research on OpenStreetMap (OSM) and is 
 currently interested in the [Overture Maps Foundation](https://en.wikipedia.org/wiki/Overture_Maps_Foundation) (OMF) (of which Meta is a founding member). 
 
-From the interview:
+From the [interview](https://gridisnotajournal.de/articles/anderson-2025-overture/):
 
 > *The literal meaning of overture is "an introduction to something more 
 > substantial" or "a piece at the beginning of an opera". Is Overture an 
@@ -30,8 +30,8 @@ From the interview:
 > It’s the start of a new era of map tooling, where data is easier to use and 
 > more interoperable.
 
-Overall an interesting (albeit, clearly *inside*[^interview]) view on OMF, OSM, and the evolution 
-of geodata in general.
+Overall an [interesting (albeit, clearly *inside*[^interview]) view on OMF, OSM, and the evolution 
+of geodata in general](https://gridisnotajournal.de/articles/anderson-2025-overture/).
 
 [^grid]: Grid (tagline: "is not a journal") has been published since fall 2024 
 and [describes itself](https://gridisnotajournal.de/%C3%BCber-grid/) as 
