@@ -30,8 +30,8 @@ From the [interview](https://gridisnotajournal.de/articles/anderson-2025-overtur
 > It’s the start of a new era of map tooling, where data is easier to use and 
 > more interoperable.
 
-Overall an [interesting (albeit, clearly *inside*[^interview]) view on OMF, OSM, and the evolution 
-of geodata in general](https://gridisnotajournal.de/articles/anderson-2025-overture/).
+Overall an interesting (albeit, clearly *inside*) view on OMF, OSM, and the evolution 
+of geodata in general.
 
 [^grid]: Grid (tagline: "is not a journal") has been published since fall 2024 
 and [describes itself](https://gridisnotajournal.de/%C3%BCber-grid/) as 
@@ -40,6 +40,3 @@ the age of digital media, infrastructures, data and algorithms". The aim of
 grid is to create a publication format that enables an exchange among 
 scientists, but also makes this exchange accessible to a broader public.
 
-[^interview]: Slightly odd minor point: The article is formatted like an 
-interview (and there are credits for "interview and editing" at the end of it), 
-but the interviewee is credited as author in the byline.
