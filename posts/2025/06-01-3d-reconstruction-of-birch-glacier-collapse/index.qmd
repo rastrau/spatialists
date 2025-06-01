@@ -19,6 +19,10 @@ Swisstopo has carried out a [Rapid Mapping campaign](https://bsky.app/profile/st
 
 - Simeon Schmauß has also created [an annotated post-event 3D model](https://fosstodon.org/@stim3on/114604248804517798) from the Swisstopo Rapid Mapping data (see below). This one can be [explored interactively on Sketchfab](https://sketchfab.com/3d-models/blatten-glacier-collapse-2025-05-30-037bb8933d2444d6b283da885ab77a8d).
 
+- On Sunday afternoon, Simeon Schmauß has also published [a comparison of pre-event elevations with the post-event DEM](https://fosstodon.org/@stim3on/114607886463364529) extracted from the oblique Rapid Mapping imagery (see below). He's also made the [data available](https://fosstodon.org/@stim3on/114607899708612052).
+
+![Comparison of pre-event and post-event elevations showing upslope mass loss and valley infill (source: CC-BY [Simeon Schmauß](https://sschmaus.github.io/links/))](elevation-comparison.jpg "Comparison of pre-event and post-event elevations showing upslope mass loss and valley infill (source: CC-BY Simeon Schmauß)")
+
 {{< video Blatten-Glacier-collapse-2025-05-30.mp4 >}}
 <figcaption>3D model of the Blatten Glacier collapse (source: CC-BY [Simeon Schmauß](https://sschmaus.github.io/links/)). This model [can be explored interactively](https://sketchfab.com/3d-models/blatten-glacier-collapse-2025-05-30-037bb8933d2444d6b283da885ab77a8d) as well.</figcaption><br>
 
