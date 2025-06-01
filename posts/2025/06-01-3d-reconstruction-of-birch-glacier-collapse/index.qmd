@@ -1,0 +1,32 @@
+---
+title: "3D reconstruction of Birch Glacier collapse"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-06-01 10:29"
+image: "srf-birch-glacier-collapse.jpg"
+description: "Last Wednesday, the #Birch Glacier in Switzerland collapsed beneath debris, burying parts of the evacuated village of #Blatten. Using #Swisstopo’s openly available #RapidMapping geodata, professionals quickly produced detailed pre- and post-event textured #3D models and animations, enabling interactive exploration and enhanced understanding of the impacted area."
+---
+
+Last Wednesday in Switzerland, the Birch Glacier collapsed[^glaciology] under debris deposited from Kleines Nesthorn and buried parts of the (previously evacuated) village Blatten. 
+
+Swisstopo has carried out a [Rapid Mapping campaign](https://bsky.app/profile/stim3on.bsky.social/post/3lqetp4i6tc2k)[^rm] on behalf of the Federal Office of the Environment. The [resulting geodata is openly available](https://www.rapidmapping.admin.ch/index_en.html) from Swisstopo. Thanks to the open nature of the Rapid Mapping data and the expertise of individuals, textured 3D models of the affected area have been quickly built and published: 
+
+- Alexandre Cottier has published visualizations of [a pre-event](https://www.linkedin.com/posts/alexandre-cottier_switzerland-3d-nature-activity-7331686812924411904-L9zj) and 
+[a post-event 3D model](https://www.linkedin.com/posts/alexandre-cottier_3d-switzerland-metashape-activity-7334565796372779008-Gyq3)
+
+- Similarly, Florian Denzinger has created "during [his] lunch break" [animations of](https://www.linkedin.com/posts/activity-7331380962225750020-3PDN) [a pre-event 3D model](https://www.linkedin.com/posts/activity-7331382067294793732-Ykdq) of the Birch Glacier. The model can also be [explored interactively on Sketchfab](https://sketchfab.com/3d-models/blatten-rapid-mapping-flight-19052025-93260fad8b334aef94e6f8009d6e3f50). Florian Denzinger has followed up with an animated view of [a post-event model](https://www.linkedin.com/posts/activity-7334325680119177217-bpGq) (I couldn't find an interactive version of this model).
+
+- Simeon Schmauß has also created [an annotated post-event 3D model](https://fosstodon.org/@stim3on/114604248804517798) from the Swisstopo Rapid Mapping data (see below). This one can be [explored interactively on Sketchfab](https://sketchfab.com/3d-models/blatten-glacier-collapse-2025-05-30-037bb8933d2444d6b283da885ab77a8d).
+
+{{< video Blatten-Glacier-collapse-2025-05-30.mp4 >}}
+<figcaption>3D model of the Blatten Glacier collapse (source: CC-BY [Simeon Schmauß](https://sschmaus.github.io/links/)). This model [can be explored interactively](https://sketchfab.com/3d-models/blatten-glacier-collapse-2025-05-30-037bb8933d2444d6b283da885ab77a8d) as well.</figcaption><br>
+
+<iframe width="100%" height="30%" src="https://www.srf.ch/play/embed?urn=urn:srf:video:4fcd71ed-9c38-4945-b1c2-c4460daac43a&subdivisions=false" allowfullscreen allow="geolocation *; autoplay; encrypted-media"></iframe>
+
+<figcaption>Drone flight over Blatten on May 30, 2025 (source: [SRF](https://www.srf.ch/play/tv/news-clip/video/app-drohnenbilder-blatten?urn=urn:srf:video:4fcd71ed-9c38-4945-b1c2-c4460daac43a))</figcaption>
+
+[^glaciology]: The ETH Zurich has a [concise and informative brief about the event](https://ethz.ch/en/news-and-events/eth-news/news/2025/05/what-eth-glacier-researchers-know-about-the-collapse-of-the-birchgletscher-glacier.html) as well as a [factsheet (pdf)](https://www.wsl.ch/fileadmin/user_upload/News/2025/05_Factsheet_Birchgletscher/88028-VAW-2025-05_Birchgletscher_Factsheet_20250529_WSL.pdf) from a glaciology perspective.
+
+[^rm]: Rapid Mapping is a federal government service that collects and makes available aerial or satellite imagery following natural disasters in order to document and manage such events.
+
