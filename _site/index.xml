@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Wed, 28 May 2025 19:35:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 01 Jun 2025 10:29:00 GMT</lastBuildDate>
+<item>
+  <title>3D reconstruction of Birch Glacier collapse</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/06-01-3d-reconstruction-of-birch-glacier-collapse/</link>
+  <description><![CDATA[ Last Wednesday, the #Birch Glacier in Switzerland collapsed beneath debris, burying parts of the evacuated village of #Blatten. Using #Swisstopo’s openly available #RapidMapping geodata, professionals quickly produced detailed pre- and post-event textured #3D models and animations, enabling interactive exploration and enhanced understanding of the impacted area. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/06-01-3d-reconstruction-of-birch-glacier-collapse/</guid>
+  <pubDate>Sun, 01 Jun 2025 10:29:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/06-01-3d-reconstruction-of-birch-glacier-collapse/srf-birch-glacier-collapse.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>GEDTM30: Global 30 meter terrain data</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/04-29-network-simplification-in-python/</guid>
   <pubDate>Tue, 29 Apr 2025 22:41:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/04-29-network-simplification-in-python/john-lockwood-FcLq69V7Rsc-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>GeoServer Cloud adds GeoParquet data source support</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/04-26-geoserver-cloud-adds-geoparquet-data-source-support/</link>
-  <description><![CDATA[ #GeoServer Cloud 2.27.0.0, a cloud-native, microservices-based version of GeoServer, now supports #GeoParquet DataStores, expanding its compatibility with modern #cloudnative geospatial formats alongside #FlatGeoBuf and Cloud-Optimized GeoTIFF (#COG). ]]></description>
-  <guid>https://spatialists.ch/posts/2025/04-26-geoserver-cloud-adds-geoparquet-data-source-support/</guid>
-  <pubDate>Sat, 26 Apr 2025 18:21:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/04-26-geoserver-cloud-adds-geoparquet-data-source-support/tomasz-sroka-eaxgNP4cpY8-unsplash.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
