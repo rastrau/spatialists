@@ -1,0 +1,39 @@
+---
+title: "The QGIS project: Canonical paper"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-06-02 19:58"
+image: "qgis.jpg"
+description: "The story behind #QGIS: The new canonical open-access paper, “The QGIS project: Spatial without compromise,” authored by core members of the QGIS Project Steering Committee, Anita Graser, Tim Sutton, and Marco Bernasocchi, explores the evolution of the QGIS project, its organizational structure, and future challenges."
+---
+
+![QGIS logo and tagline (source: QGIS project)](qgis-cropped.jpg "QGIS logo and tagline (source: QGIS project)")
+
+[Anita Graser](https://fosstodon.org/@underdarkGIS), [Tim Sutton](https://fosstodon.org/@timlinux), and [Marco Bernasocchi](https://fosstodon.org/@mbernasocchi) (all members of the [QGIS Project Steering Committee](https://qgis.org/community/organisation/)) have published the canonical paper[^canonical] on the QGIS project: "[The QGIS project: Spatial without compromise](https://www.sciencedirect.com/science/article/pii/S2666389925001138)"[^title]. The paper is ["open access" at ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2666389925001138). From the introduction:
+
+> QGIS is available across a wide range of platforms, including Linux, Windows, and macOS, as well as mobile applications for Android and iOS. Efforts are also under way to develop a browser-based version using web assembly. The software has been translated into over 100 languages, with 20 translations covering more than 75% of the application’s functionality.
+
+The paper positions the QGIS project in the GIS "ecosystem" and describes the evolution of the project through the following phases (authors' words, not mine):
+
+- Origins and early development (2002–2007)
+- Expansion of capabilities and infrastructure (2008–2012)
+- The QGIS.ORG association and organizational maturity (2013–2017)
+- Transition to QGIS 3 and the path forward (2018–present)
+
+It details the project's (Switzerland-based) organization, the software release management process, the infrastructure management, the project budget (approximately, EUR 400,000 in 2024; but beware: this sum does not equate to the total amount invested in QGIS), (very high-level) features,  broad typical use-cases, a brief overview over the plug-in collection, and usage numbers, among others. 
+
+I like[^dislike] that [the paper](https://www.sciencedirect.com/science/article/pii/S2666389925001138) concludes with [5 key challenges to the QGIS project and potential solutions](https://www.sciencedirect.com/science/article/pii/S2666389925001138#sec3). 
+
+[^canonical]: A canonical paper is a foundational academic publication that 
+is intended to serve as the standard reference for a topic, in this case the 
+QGIS project.
+
+[^title]: The title refers to the, I think relatively new (?), 
+[tag line](https://qgis.org/) of the project.
+
+[^dislike]: Minor dislike, but it doesn't detract too much from the rest: The 
+paper mentions the cliché that, allegedly, "80% of all data contains a 
+geograpical component" (at least not: "... is spatial."). See 
+[here](https://digital.ebp.ch/2024/10/20/schweizer-geoinformation-2024-connecting-the-dots-perpetual-beta/) for data on 
+this point (in German).
