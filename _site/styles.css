@@ -70,7 +70,8 @@ div.ml-form-embedBody.ml-form-embedBodyDefault.row-form > div > h4 {
 
 h1,
 h2,
-h3 {
+h3, 
+#listing-listing > div > div > div > h3 > a {
   font-weight: 700 !important;
 }
 
