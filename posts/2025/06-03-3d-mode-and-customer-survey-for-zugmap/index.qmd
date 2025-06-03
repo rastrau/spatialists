@@ -1,0 +1,30 @@
+---
+title: "3D mode and customer survey for ZugMap"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-06-03 17:58"
+image: "zugmap-3d.jpg"
+description: "Two decades after its debut, the canton of #Zug unveils #ZugMap’s new #3D mode and various 3D datasets. Users can test the ZugMap 3D experience and help shape its future by participating in the canton’s user survey."
+---
+
+ZugMap is the public map tool[^wording] of the [canton of Zug](https://www.linkedin.com/company/amt-f%C3%BCr-grundbuch-und-geoinformation). Today and 20 years after the first version of ZugMap, the canton of Zug [officially launched a newly developed 3D mode along with various 3D datasets](https://www.linkedin.com/posts/amt-f%C3%BCr-grundbuch-und-geoinformation_workinprogress-zugmap-geodaten-activity-7335567776876494848-FAOu). 
+
+At this point, [ZugMap 3D](https://zugmap.ch/3d) contains:
+
+- 3D surface model
+- 3D buildings and trees
+- Points-of-interest (POIs) from Zug Tourismus
+- Shaded relief including bathymetric (underwater) data
+- VR^[Virtual reality] scenes thanks to a "Supermesh"^[Especially densely sampled 3D data] and indoor data capture
+- Near-realtime display of IoT^[Internet of Things] data about air temperature and air humidity of the city of Zug
+
+![A view of ZugMap 3D highlighting the 3D surface, buildings, and trees](zugmap-3d.jpg "A view of ZugMap 3D highlighting the 3D surface, buildings, and trees")
+
+ZugMap 3D and the provision of 3D data are building blocks of the [cantonal geoinformation strategy](https://zg.ch/de/planen-bauen/geoinformation/geoinformationen-erklaert/kantonale-geoinformationsstrategie)[^transparency].
+
+Interested people can [give ZugMap 3D a spin](https://zugmap.ch/3d). The canton is [conducting an (anonymous) user survey in order to find additional user needs as well as avenues for future development and improvement](https://umfrage.zg.ch/index.php/531998?lang=de).
+
+[^wording]: "Public map tool" is the canton's wording, rather than, for example, "geoportal"; I suspect for approachability reasons (maybe wise).
+
+[^transparency]: Transparency note: As you can see if you peruse the strategy documents, I (together with colleagues) have assisted the canton of Zug in the drafting of this strategy.
