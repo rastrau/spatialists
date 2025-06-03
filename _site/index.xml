@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Mon, 02 Jun 2025 19:58:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 03 Jun 2025 17:58:00 GMT</lastBuildDate>
+<item>
+  <title>3D mode and customer survey for ZugMap</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/06-03-3d-mode-and-customer-survey-for-zugmap/</link>
+  <description><![CDATA[ Two decades after its debut, the canton of #Zug unveils #ZugMap’s new #3D mode and various 3D datasets. Users can test the ZugMap 3D experience and help shape its future by participating in the canton’s user survey. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/06-03-3d-mode-and-customer-survey-for-zugmap/</guid>
+  <pubDate>Tue, 03 Jun 2025 17:58:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/06-03-3d-mode-and-customer-survey-for-zugmap/zugmap-3d.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>The QGIS project: Canonical paper</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/05-04-marco-bernasocchi-on-qfield/</guid>
   <pubDate>Sun, 04 May 2025 13:56:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/05-04-marco-bernasocchi-on-qfield/gerold-hinzen-WoZs8gGyQBY-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Testing autonomous GIS</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/04-30-testing-autonomous-gis/</link>
-  <description><![CDATA[ The Système d’information du territoire à Genève (#SITG) has explored #autonomous #GIS capabilities by combining #AI/#LLM technology with geoprocessing and visualization. The suite of tests is explained in an article that also highlights limitations, the most important challenges and findings as well as directions for future exploration. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/04-30-testing-autonomous-gis/</guid>
-  <pubDate>Wed, 30 Apr 2025 11:24:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/04-30-testing-autonomous-gis/alberto-moya-bUUrG6CMHiA-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
