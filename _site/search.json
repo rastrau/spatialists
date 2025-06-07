@@ -746,7 +746,7 @@
     "href": "posts/2025/06-07-gdal-modernization-webinar-and-faq/index.html",
     "title": "GDAL modernization webinar and FAQ",
     "section": "",
-    "text": "As announced a few weeks ago, on June 3rd, the GDAL Project Steering Committee (PSC) hosted a webinar on the modernization of GDAL CLI1 , which was initiated with the release of version 3.11 on May 13th. At the center of the modernization stands the unification of many different commands into a single gdal command2, along with more consistent parameter names and order.3\nIf you’d like to catch up on these recent GDAL development: The PSC has published both the webinar slides and the recording (52 minutes). Additionally, at the end of the slide deck, 10 slides have been added summarizing the most important questions and answers that came up during the session."
+    "text": "As announced a few weeks ago, on June 3rd, the GDAL Project Steering Committee (PSC) hosted a webinar on the modernization of GDAL CLI1 , which was initiated with the release of version 3.11 on May 13th. At the center of the modernization stands the unification of many different commands into a single gdal command2, along with more consistent parameter names and order.3\nIf you’d like to catch up on these recent GDAL developments: The PSC has published both the webinar slides and the recording (52 minutes). Additionally, at the end of the slide deck, 10 slides have been added summarizing the most important questions and answers that came up during the session."
   },
   {
     "objectID": "posts/2025/06-07-gdal-modernization-webinar-and-faq/index.html#footnotes",
