@@ -1,0 +1,17 @@
+---
+title: "GDAL modernization webinar and FAQ"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-06-07 11:17"
+image: "gdal.png"
+description: "The #GDAL Project Steering Committee recently hosted a webinar highlighting the major #modernization of the GDAL command-line interface, featuring the unification of commands and improved parameter consistency. You can now catch up on all the details through the webinar slides, the recording, and a Q&A summary."
+---
+
+As [announced a few weeks ago](https://spatialists.ch/posts/2025/05-12-gdal-3-11-released-with-new-gdal-program/), on June 3rd, the GDAL Project Steering Committee (PSC) hosted a webinar on the modernization of GDAL CLI^[Command-line interface] , which was initiated with the release of version 3.11 on May 13th. At the center of the modernization stands the unification of many different commands into a single `gdal` command[^examples], along with more consistent parameter names and order.[^keithjenkins]
+
+If you'd like to catch up on these recent GDAL development: The PSC has published both [the webinar slides](https://download.osgeo.org/gdal/presentations/GDAL%20CLI%20Modernization.pdf) and [the recording](https://www.youtube.com/watch?v=ZKdrYm3TiBU) (52 minutes). Additionally, at the end of the slide deck, 10 slides have been added summarizing the most important questions and answers that came up during the session.
+
+[^examples]: You can see some *before-after* examples of the simplication [here](https://spatialists.ch/posts/2025/05-12-gdal-3-11-released-with-new-gdal-program/) or, of course, in the [migration guide](https://gdal.org/en/latest/programs/migration_guide_to_gdal_cli.html#migration-guide-to-gdal-cli).
+
+[^keithjenkins]: With a nod to Middle Earth, [Keith Jenkins](https://mapstodon.space/@kgjenkins) [summed it up differently](https://mapstodon.space/@kgjenkins/114620078194140468).
