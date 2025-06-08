@@ -5,7 +5,7 @@ author:
     url: https://ralphstraumann.ch
 date: "2025-06-08 15:37"
 image: "isochrone-ch.jpg"
-description: ""
+description: "From Aubry Cholleton comes isochrone.ch. Using #opendata, this website lets you find all areas reachable by #publictransport from any point in #Switzerland within a given amount of time and other parameters of your choosing."'
 ---
 
 From [Aubry Cholleton](https://www.aubry.io/) comes [isochrone.ch](https://www.isochrone.ch). It pretty much does what it says on the tin:
