@@ -18,4 +18,4 @@ You can choose the start location and time, allowed transport modes, maximum tra
 
 The tool uses data from [opentransportdata.swiss](https://opentransportdata.swiss) which is part of the so-called "[Mobility Data Infrastructure](https://www.bav.admin.ch/bav/en/home/general-topics/modi.html)" (MODI). 
 
-The power of open data.
+The power of open data – and, of course, expertise.
