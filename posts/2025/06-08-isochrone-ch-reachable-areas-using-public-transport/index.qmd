@@ -1,0 +1,19 @@
+---
+title: "Isochrone.ch: Reachable areas using public transport"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-06-08 15:37"
+image: "isochrone-ch.jpg"
+description: ""
+---
+
+From [Aubry Cholleton](https://www.aubry.io/) comes [isochrone.ch](https://www.isochrone.ch). It pretty much does what it says on the tin:
+
+> Find all areas reachable by public transport from any point in Switzerland within a given amount of time.
+
+[![Isochrone.ch routing from Basel SBB CFF FFS](isochrone-ch-preview.jpg "Isochrone.ch routing from Basel SBB CFF FFS")](https://www.isochrone.ch/?maxDuration=14400&maxTransfers=6&origin=Parent8500010)
+
+You can choose the start location and time, allowed transport modes, maximum travel time, and maximum number of transfers. The visualization can be customized with respect to the displayed metric (travel time or number of transfers), mode (hexagons or contour lines), spatial resolution, and map background. *Many* of the user-selected parameters are URL-encoded, meaning you can share (most aspects of) the visualization you configured using its URL.
+
+The tool uses open data from [opentransportdata.swiss](https://opentransportdata.swiss) which is part of the so-called "[Mobility Data Infrastructure](https://www.bav.admin.ch/bav/en/home/general-topics/modi.html)" (MODI).
