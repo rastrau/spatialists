@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Sat, 07 Jun 2025 11:17:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 08 Jun 2025 15:37:00 GMT</lastBuildDate>
+<item>
+  <title>Isochrone.ch: Reachable areas using public transport</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/06-08-isochrone-ch-reachable-areas-using-public-transport/</link>
+  <description><![CDATA[ From <a href="https://www.aubry.io/">Aubry Cholleton</a> comes <a href="https://www.isochrone.ch">isochrone.ch</a>. It pretty much does what it says on the tin: ]]></description>
+  <guid>https://spatialists.ch/posts/2025/06-08-isochrone-ch-reachable-areas-using-public-transport/</guid>
+  <pubDate>Sun, 08 Jun 2025 15:37:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/06-08-isochrone-ch-reachable-areas-using-public-transport/isochrone-ch.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>GDAL modernization webinar and FAQ</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/05-05-dis-pourquoi-on-toponyms-and-maps/</guid>
   <pubDate>Mon, 05 May 2025 22:40:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/05-05-dis-pourquoi-on-toponyms-and-maps/the-new-york-public-library-Gfo7CyXkx3g-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Unofficial public transport maps</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05-04-unofficial-public-transport-maps/</link>
-  <description><![CDATA[ “Lars’ Transport Maps” is a project by a transport planner passionate about #train-travel and #mapdesign, offering a growing collection of unofficial #publictransport maps for European countries. The maps cover a wide range of services with particular depth given to the Swiss #rail network, featuring a detailed historical series since 1982. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05-04-unofficial-public-transport-maps/</guid>
-  <pubDate>Sun, 04 May 2025 15:08:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05-04-unofficial-public-transport-maps/lars-transport-map-switzerland.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
