@@ -16,4 +16,6 @@ From [Aubry Cholleton](https://www.aubry.io/) comes [isochrone.ch](https://www.i
 
 You can choose the start location and time, allowed transport modes, maximum travel time, and maximum number of transfers. The visualization can be customized with respect to the displayed metric (travel time or number of transfers), mode (hexagons or contour lines), spatial resolution, and map background. *Many* of the user-selected parameters are URL-encoded, meaning you can share (most aspects of) the visualization you configured using its URL.
 
-The tool uses open data from [opentransportdata.swiss](https://opentransportdata.swiss) which is part of the so-called "[Mobility Data Infrastructure](https://www.bav.admin.ch/bav/en/home/general-topics/modi.html)" (MODI).
+The tool uses data from [opentransportdata.swiss](https://opentransportdata.swiss) which is part of the so-called "[Mobility Data Infrastructure](https://www.bav.admin.ch/bav/en/home/general-topics/modi.html)" (MODI). 
+
+The power of open data.
