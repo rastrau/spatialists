@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Sun, 08 Jun 2025 15:37:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 09 Jun 2025 09:17:00 GMT</lastBuildDate>
+<item>
+  <title>MDS in geo: An example with Mapillary</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/06/09-mds-in-geo-an-example-with-mapillary/</link>
+  <description><![CDATA[ Two articles by Michaël Galien on #Geotribu showcase how to leverage a Modern Data Stack (#MDS) for processing geospatial data from #Mapillary. The workflow features #dbt, Apache #Airflow, #PostGIS, #SQL, and #Python, highlighting a robust open-source approach to geospatial data engineering. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/06/09-mds-in-geo-an-example-with-mapillary/</guid>
+  <pubDate>Mon, 09 Jun 2025 09:17:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/06/09-mds-in-geo-an-example-with-mapillary/logan-voss-KDtp84BwZNo-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Isochrone.ch: Reachable areas using public transport</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/05-07-tile-and-glyph-map-experiments/</guid>
   <pubDate>Wed, 07 May 2025 21:53:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/05-07-tile-and-glyph-map-experiments/map-weave.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>“Dis, pourquoi?” on toponyms and maps</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05-05-dis-pourquoi-on-toponyms-and-maps/</link>
-  <description><![CDATA[ Over the past two weeks, #RTS’s “Dis, pourquoi?” dedicated its episodes to an in-depth look at #toponymy and at #maps and #cartography, featuring Frédéric Giraut of the University of Geneva for the former and Pascal Marguerat and Raphaël Bovier of #Swisstopo for the latter topic. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05-05-dis-pourquoi-on-toponyms-and-maps/</guid>
-  <pubDate>Mon, 05 May 2025 22:40:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05-05-dis-pourquoi-on-toponyms-and-maps/the-new-york-public-library-Gfo7CyXkx3g-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
