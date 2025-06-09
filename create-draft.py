@@ -67,7 +67,7 @@ def create_blog_post():
     slug = re.sub(r"[\s]+", "-", slug)
     
     # Define the file path
-    directory_path = os.path.join("posts", year, f"{month}-{day}-{slug}")
+    directory_path = os.path.join("posts", year, month, f"{day}-{slug}")
     file_path = os.path.join(directory_path, "index.qmd")
     
     # Create directories if they don't exist
