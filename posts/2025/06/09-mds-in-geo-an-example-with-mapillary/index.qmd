@@ -1,0 +1,23 @@
+---
+title: "MDS in geo: An example with Mapillary"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-06-09 09:17"
+image: "logan-voss-KDtp84BwZNo-unsplash.jpg"
+description: "Two articles by Michaël Galien on #Geotribu showcase how to leverage a Modern Data Stack (#MDS) for processing geospatial data from #Mapillary. The workflow features #dbt, Apache #Airflow, #PostGIS, #SQL, and #Python, highlighting a robust open-source approach to geospatial data engineering."
+---
+
+[Geotribu](https://geotribu.fr), a community dedicated to "free and open geomatics", has an interesting two-part article series (in French) by [Michaël Galien](https://geotribu.fr/team/michael-galien/) giving an example of using the MDS[^mds] in the geospatial domain. The example centers around [Mapillary](https://www.mapillary.com/)[^mapillary] data:
+
+- The [first article](https://geotribu.fr/articles/2025/2025-05-27_taradata_extract_load_mapillary/) treats [extracting data from Mapillary and loading it into a data warehouse](https://geotribu.fr/articles/2025/2025-05-27_taradata_extract_load_mapillary/).
+
+- The [second article](https://geotribu.fr/articles/2025/2025-06-05_taradata_transform_mapillary/) explains [transforming and augmenting the data along a medallion architecture](https://geotribu.fr/articles/2025/2025-06-05_taradata_transform_mapillary/)[^medallion] for use within QGIS. 
+
+![Mapillary features extracted and processed across 8 different tasks (source: CC-BY [Michaël Galien](https://geotribu.fr/team/michael-galien/))](mapillary-cells.jpg "Mapillary features extracted and processed across 8 different tasks (source: CC-BY Michaël Galien)")
+
+The stack shown involves dbt, Airflow, PostgreSQL/PostGIS, SQL, and Python (but the articles also mention alternative technologies for building an MDS). And relevant data engineering tools and paradigms are touched upon, such as DAGs^[Directed Acyclic Graphs], orchestration, lineage, data models, and model documentation.
+
+[^mds]: "MDS" stands for "[Modern Data Stack](https://www.fivetran.com/blog/what-is-the-modern-data-stack)", a term used to describe a set of tools and technologies for data integration, processing, and analysis. It typically includes components like ELT processes (extract, load, transform), data warehouses, data lakes, and analytics platforms.
+[^mapillary]: [Mapillary](https://en.wikipedia.org/wiki/Mapillary) is a platform for street-level imagery and data collection. It was launched by Mapillary AB in Sweden in 2013. In 2020, it was acquired by Facebook, now Meta.
+[^medallion]: The medallion architecture is a data processing framework that posits three layers for data: bronze (raw data), silver (cleaned and transformed data), and gold (aggregated and ready for analysis).
