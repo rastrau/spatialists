@@ -1,0 +1,21 @@
+---
+title: "JRG 2025"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-06-10 20:44"
+image: "t-fang-q24KCVOaKJ0-unsplash.jpg"
+description: "The program of the fourth Journée Romande de la Géoinformation (#JRG) is published and registration is open. The event takes place on November 13 in Ecublens."
+---
+
+The [program of the fourth Journée Romande de la Géoinformation](https://georomandie.com) (JRG), one of the three^[I think] largest geospatial events in Switzerland, [is published](https://georomandie.com) and [registration is open](https://georomandie.com/inscription). The event will take place on November 13 in Ecublens.
+
+Topics for 2025 include among others:
+
+- artificial intelligence and GeoAI^[specifically, the application of AI on geospatial data and for answering spatial questions]
+- decision-support
+- crisis management
+- digital twins
+- innovations in cartography
+- climate change mitigation
+
