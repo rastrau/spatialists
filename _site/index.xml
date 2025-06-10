@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Mon, 09 Jun 2025 09:17:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 10 Jun 2025 20:44:00 GMT</lastBuildDate>
+<item>
+  <title>JRG 2025</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/06/10-jrg-2025/</link>
+  <description><![CDATA[ The program of the fourth Journée Romande de la Géoinformation (#JRG) is published and registration is open. The event takes place on November 13 in Ecublens. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/06/10-jrg-2025/</guid>
+  <pubDate>Tue, 10 Jun 2025 20:44:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/06/10-jrg-2025/t-fang-q24KCVOaKJ0-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>MDS in geo: An example with Mapillary</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/05-08-snap-map-spatial-social/</guid>
   <pubDate>Thu, 08 May 2025 19:41:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/05-08-snap-map-spatial-social/kaleb-nimz--5rA4DRrEXU-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Tile and glyph map experiments</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05-07-tile-and-glyph-map-experiments/</link>
-  <description><![CDATA[ David O’Sullivan explores innovative visualizations of complex #multivariate data on #maps, using a case study with three variables. His article showcases creative #mapping techniques pushing the boundaries of traditional GIS #visualization. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05-07-tile-and-glyph-map-experiments/</guid>
-  <pubDate>Wed, 07 May 2025 21:53:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05-07-tile-and-glyph-map-experiments/map-weave.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
