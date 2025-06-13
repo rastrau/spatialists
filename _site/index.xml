@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Tue, 10 Jun 2025 20:44:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 13 Jun 2025 12:56:00 GMT</lastBuildDate>
+<item>
+  <title>SWISSGEO, the Swiss geospatial platform</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/06/13-swissgeo-the-swiss-geospatial-platform/</link>
+  <description><![CDATA[ Update from the “#Geoplatform Switzerland” planned in the #SGS strategy and action plans: The platform has got a landing page detailling the idea and next steps. And a name: #SWISSGEO. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/06/13-swissgeo-the-swiss-geospatial-platform/</guid>
+  <pubDate>Fri, 13 Jun 2025 12:56:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/06/13-swissgeo-the-swiss-geospatial-platform/swissgeo-logo.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>JRG 2025</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/05-09-new-national-drought-platform/</guid>
   <pubDate>Fri, 09 May 2025 16:48:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/05-09-new-national-drought-platform/map-view.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Snap Map: Spatial social</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05-08-snap-map-spatial-social/</link>
-  <description><![CDATA[ Apparently, #Snapchat, like other #socialmedia companies, has been exploring geospatial use-cases. TechCrunch compiled some interesting usage numbers. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05-08-snap-map-spatial-social/</guid>
-  <pubDate>Thu, 08 May 2025 19:41:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05-08-snap-map-spatial-social/kaleb-nimz--5rA4DRrEXU-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
