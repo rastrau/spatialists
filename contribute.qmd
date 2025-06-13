@@ -2,17 +2,20 @@
 title: "Contribute"
 image: false
 about:
-  template: jolla
+  template: solana
 ---
 
 On this site, I aim to share interesting (to me) news in the geospatial domain. 
 Do you have something you would like to share with the audience of spatialists.ch?
 
 **You can submit a post or post idea through 
-[GitHub](https://github.com/rastrau/spatialists/issues/new?template=submit-post.yml) or by [email](mailto:info@spatialists.ch).**
+[GitHub](https://github.com/rastrau/spatialists/issues/new?template=submit-post.yml).**
 
-By submitting material you confirm that: a) you have the right to submit it. 
-b) you understand and agree that this project, spatialists.ch, and thus your 
+By submitting material you confirm that: 
+
+- You have the right to submit it. 
+- You will be listed as the author of the post.
+- You understand and agree that this project, spatialists.ch, and thus your 
 contribution is public and that a record of the contribution including all 
 personal information you submit with it is maintained indefinitely and may 
 be redistributed consistent with this project and the license(s) involved.
