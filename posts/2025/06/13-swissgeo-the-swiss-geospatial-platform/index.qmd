@@ -1,0 +1,40 @@
+---
+title: "SWISSGEO, the Swiss geospatial platform"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-06-13 12:56"
+image: "swissgeo-logo.png"
+description: 'Update from the "#Geoplatform Switzerland" planned in the #SGS strategy and action plans: The platform has got a landing page detailling the idea and next steps. And a name: #SWISSGEO.'
+---
+
+It seems that about a week ago, [GCG](https://www.geo.admin.ch/en/organisation-names-departments-contacts) and [KGK-CGC](https://www.kgk-cgc.ch/) – through a new entry in the "Implementation" tab under the umbrella of "[Strategy Geoinformation Switzerland"](https://www.geoinformation.ch/) (SGS) – launched a landing page for&#32;"SWISSGEO – The Swiss Geospatial Platform". To my knowledge, this is the first time the platform has been publicly named and given a visual identity. Building this platform is part of the SGS action plan 2025 ([in German](https://backend.geoinformation.ch/fileservice/sdweb-docs-prod-geoinformatch-files/files/2025/01/23/49235a42-7d56-4273-ae71-cebe5826e07f.pdf), [in French](https://backend.geoinformation.ch/fileservice/sdweb-docs-prod-geoinformatch-files/files/2025/01/23/e53a9a71-78da-463f-87fa-697cf4d9169b.pdf)), specifically action 7-24-1. Previous action plans included preparatory steps.[^transparency]
+
+The SWISSGEO landing page is accessible here:
+
+- [in English](https://www.geoinformation.ch/fr/swissgeo-geoplatform) (I found this link through probing. It works for now, but may break, as it is malformed, technically.)
+- [in German](https://www.geoinformation.ch/de/swissgeo-geoplattform)
+- [in French](https://www.geoinformation.ch/fr/swissgeo-geoplateforme)
+- [in Italian](https://www.geoinformation.ch/de/swissgeo-geopiattaforma) (ditto)
+
+From the announcement:
+
+> SWISSGEO is the future platform for geospatial information in Switzerland. The platform will join existing services and components of the National Geospatial Data Infrastructure to further simplify the use of geodata in Switzerland. (...) SWISSGEO makes spatial data [accessible] in one place (...). This will make it even easier to find, use and share geoinformation in [the] future.
+
+And:
+
+> A first step: five platforms become one!
+> 
+> In a first step, SWISSGEO gradually merges the following existing portals and websites:
+> 
+> - [geo.admin.ch](https://www.geo.admin.ch/) – the federal geoportal
+> - [geodienste.ch](https://geodienste.ch/) – the intercantonal portal for geodata and geodata services
+> - [geocat.ch](https://www.geocat.ch/) – the catalog of geographical data for Switzerland
+> - [geoinformation.ch](https://www.geoinformation.ch/) – information page on the Swiss Geoinformation Strategy
+> - [geostandards.ch](https://geostandards.ch/) – organization in the field of geostandards and INTERLIS
+
+![Various components of the National Geospatial Data Infrastructure NGDI are scheduled to be merged into SWISSGEO (source: SGS)](swissgeo.png "Various components of the National Spatial Data Infrastructure NSDI are scheduled to be merged into SWISSGEO (source: SGS)")
+
+This is a big step for Swiss geoinformation. Exciting to see this advance.
+
+[^transparency]: Transparency note: Through my employer, I contributed to an early concept phase in 2023.
