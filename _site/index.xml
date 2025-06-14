@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Fri, 13 Jun 2025 12:56:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 14 Jun 2025 16:19:00 GMT</lastBuildDate>
+<item>
+  <title>Are web maps a recession byproduct?</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/06/14-are-web-maps-a-recession-byproduct/</link>
+  <description><![CDATA[ What fueled the growth of the geospatial industry in the 2010s? An article on placing.technology explores the history and political economy of geospatial tech. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/06/14-are-web-maps-a-recession-byproduct/</guid>
+  <pubDate>Sat, 14 Jun 2025 16:19:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/06/14-are-web-maps-a-recession-byproduct/dan-meyers-i19ybtJ9L50-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>SWISSGEO, the Swiss geospatial platform</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/05-12-recording-colloquium-on-the-state-of-sgs-implementation/</guid>
   <pubDate>Mon, 12 May 2025 22:12:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/05-12-recording-colloquium-on-the-state-of-sgs-implementation/sgs.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>New national drought platform</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05-09-new-national-drought-platform/</link>
-  <description><![CDATA[ The Federal Government has launched a new National #Drought Platform providing standardized, up-to-date information and forecasts on drought risks across Switzerland. The platform integrates #remotesensing data for #vegetation health and data on precipitation, soil moisture, rivers, lakes, and groundwater. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05-09-new-national-drought-platform/</guid>
-  <pubDate>Fri, 09 May 2025 16:48:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05-09-new-national-drought-platform/map-view.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
