@@ -1,0 +1,19 @@
+---
+title: "Are web maps a recession byproduct?"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-06-14 16:19"
+image: "dan-meyers-i19ybtJ9L50-unsplash.jpg"
+description: "What fueled the growth of the geospatial industry in the 2010s? An article on placing.technology explores the history and political economy of geospatial tech."
+---
+
+In the [placing.technology](https://placing.technology/) blog, Ingrid Burrington shares reflections from her research and thinking for a dissertation about the history of geospatial software. 
+
+The blog post "[Are web maps recession exhaust? Notes on political economy of geospatial tech in the early 21st century](https://placing.technology/are-web-maps-recession-exhaust-notes-on-political-economy-of-geospatial-tech-in-the-early-21st)" explores the forces driving the rapid growth of the geospatial sector in the 2010s:
+
+> I’ve been thinking a lot about the conditions that set the stage for the period in which geospatial technologies for web and native apps blossomed in the 2010s. It’s hard to imagine an open source software based/open source tech producing geospatial startup receiving significant VC funding in the current economy, let alone multiple startups competing with each other receiving that kind of funding.
+> 
+> One hypothesis for the influx of money into open source geospatial in the 2010s is the zero interest rate phenomenon (ZIRP)—basically, low interest rates drove a lot of funds seeking higher yields into venture capital, which meant a lot more money sloshing around, which meant even something as unlikely to have a 10X return on investment as open source basemaps-as-a-service could get a piece of the action. 
+
+It's a fascinating read, if you are not only interested in geospatial technology, but also in economic and political factors shaping the industry. 
