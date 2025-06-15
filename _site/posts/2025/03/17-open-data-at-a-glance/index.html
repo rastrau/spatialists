@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ralph Straumann">
-<meta name="dcterms.date" content="2025-04-05">
-<meta name="description" content="Want to serve #VectorTiles to your users? Fabian Rechsteiner’s benchmark pits six open-source servers (#BBOX, #ldproxy, #Martin, #pg_tileserv, #Tegola, #TiPg) against each other, revealing stark speed differences.">
+<meta name="dcterms.date" content="2025-03-17">
+<meta name="description" content="#ASIT has published an #opendata guide for #geodata. The guide covers the essentials and strikes a very nice balance with respect to covering the topic in enough depth to be valuable, while not being trivial and also not covering every tiny detail. Recommended reading for anybody interested in open data!">
 
-<title>Serving vector tiles, fast – Spatialists – geospatial news</title>
+<title>Open data at a glance – Spatialists – geospatial news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,24 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../assets/favicon.png" rel="icon" type="image/png">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-f5a5df04936a593d8a44e38d70c8cb8c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<link href="../../../../assets/favicon.png" rel="icon" type="image/png">
+<script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-f5a5df04936a593d8a44e38d70c8cb8c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -115,14 +115,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- End Matomo Code -->
 
 
-<link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Serving vector tiles, fast – Spatialists – geospatial news">
-<meta property="og:description" content="Want to serve #VectorTiles to your users? Fabian Rechsteiner’s benchmark pits six open-source servers (#BBOX, #ldproxy, #Martin, #pg_tileserv, #Tegola, #TiPg) against each other, revealing stark speed differences.">
-<meta property="og:image" content="https://spatialists.ch/posts/2025/04-05-serving-vector-tiles-fast/ganesh-partheeban-A9pIo2VEI5A-unsplash.jpg">
+<link rel="stylesheet" href="../../../../styles.css">
+<meta property="og:title" content="Open data at a glance – Spatialists – geospatial news">
+<meta property="og:description" content="#ASIT has published an #opendata guide for #geodata. The guide covers the essentials and strikes a very nice balance with respect to covering the topic in enough depth to be valuable, while not being trivial and also not covering every tiny detail. Recommended reading for anybody interested in open data!">
+<meta property="og:image" content="https://spatialists.ch/posts/2025/03/17-open-data-at-a-glance/asit-open-data-guide.jpg">
 <meta property="og:site_name" content="Spatialists – geospatial news">
-<meta name="twitter:title" content="Serving vector tiles, fast – Spatialists – geospatial news">
-<meta name="twitter:description" content="Want to serve #VectorTiles to your users? Fabian Rechsteiner’s benchmark pits six open-source servers (#BBOX, #ldproxy, #Martin, #pg_tileserv, #Tegola, #TiPg) against each other, revealing stark speed differences.">
-<meta name="twitter:image" content="https://spatialists.ch/posts/2025/04-05-serving-vector-tiles-fast/ganesh-partheeban-A9pIo2VEI5A-unsplash.jpg">
+<meta name="twitter:title" content="Open data at a glance – Spatialists – geospatial news">
+<meta name="twitter:description" content="#ASIT has published an #opendata guide for #geodata. The guide covers the essentials and strikes a very nice balance with respect to covering the topic in enough depth to be valuable, while not being trivial and also not covering every tiny detail. Recommended reading for anybody interested in open data!">
+<meta name="twitter:image" content="https://spatialists.ch/posts/2025/03/17-open-data-at-a-glance/asit-open-data-guide.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -133,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">Spatialists – geospatial news</span>
     </a>
   </div>
@@ -144,19 +144,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../about.html"> 
+    <a class="nav-link" href="../../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../subscribe.html"> 
+    <a class="nav-link" href="../../../../subscribe.html"> 
 <span class="menu-text">Subscribe</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../follow.html"> 
+    <a class="nav-link" href="../../../../follow.html"> 
 <span class="menu-text">Follow</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../contribute.html"> 
+    <a class="nav-link" href="../../../../contribute.html"> 
 <span class="menu-text">Contribute</span></a>
   </li>  
 </ul>
@@ -170,10 +170,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Serving vector tiles, fast</h1>
+      <h1 class="title">Open data at a glance</h1>
                   <div>
         <div class="description">
-          Want to serve #VectorTiles to your users? Fabian Rechsteiner’s benchmark pits six open-source servers (#BBOX, #ldproxy, #Martin, #pg_tileserv, #Tegola, #TiPg) against each other, revealing stark speed differences.
+          #ASIT has published an #opendata guide for #geodata. The guide covers the essentials and strikes a very nice balance with respect to covering the topic in enough depth to be valuable, while not being trivial and also not covering every tiny detail. Recommended reading for anybody interested in open data!
         </div>
       </div>
                 </div>
@@ -192,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">April 5, 2025</p>
+        <p class="date">March 17, 2025</p>
       </div>
     </div>
     
@@ -211,24 +211,27 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Once you have <a href="../04-tool-tip-tippecanoe-command-generator/">created your vector tiles</a>, typically you look for a solution to serve them to clients. From <a href="https://www.linkedin.com/in/fabian-rechsteiner/">Fabian Rechsteiner</a> comes an interesting speed comparison<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> of open-source solutions for a slightly different context: <a href="https://github.com/FabianRechsteiner/vector-tiles-benchmark">Serving vector tiles not from PMTiles or MBTiles, but from a PostGIS instance</a>. The GitHub repo highlights speed comparisons between six vector tile servers across different tests:</p>
-<ul>
-<li>BBOX</li>
-<li>ldproxy</li>
-<li>Martin</li>
-<li>pg_tileserv</li>
-<li>Tegola</li>
-<li>TiPg</li>
-</ul>
-<p>Besides the <a href="https://github.com/FabianRechsteiner/vector-tiles-benchmark">statistics in the benchmark repository</a>, Fabian Rechsteiner has published an eye-opening interactive side-by-side comparison of the six vector tile servers using a MapLibre client and data from the canton of Thurgau at <a href="https://vectormap.ch" class="uri">https://vectormap.ch</a>:</p>
+<p><a href="https://asit-asso.ch">ASIT</a> has published an open data guide for geodata. It’s <a href="https://asit-asso.ch/opendata">freely available</a> with their other open-data-themed resources.</p>
+<p>I like this practical guide, more than <a href="https://www.kgk-cgc.ch/application/files/5815/4281/9959/OGD-Leitfaden-V1.1de-mitAnhang.pdf">earlier attempts</a> to approach the topic from a geodata perspective. This new guide is very nicely designed, easy to read, and motivating to data owners. I think it strikes a very nice balance with respect to covering the topic in enough depth to be valuable, while not being trivial and also not covering every tiny detail so that it becomes tiring or boring.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><video src="fabian-rechsteiner-visual-performance-test.mp4" title="Visual performance test (source: Fabian Rechsteiner)" class="img-fluid" controls=""><a href="fabian-rechsteiner-visual-performance-test.mp4">Video</a></video></p>
-<figcaption>Visual performance test (source: Fabian Rechsteiner)</figcaption>
+<p><img src="opening-data.jpg" title="Closed, shared, and open data visualized by ASIT" class="img-fluid figure-img"></p>
+<figcaption>Closed, shared, and open data as visualized in the guide (source: ASIT (fair use))</figcaption>
 </figure>
 </div>
-<p><a href="https://github.com/FabianRechsteiner/vector-tiles-benchmark">Fabian Rechsteiner’s benchmark repository</a> contains the code to roll your own tests (or maybe update his results a few months down the road). These insights are the results of his <a href="https://unigis.at/files/Mastertheses/Full/107112.pdf">Master’s thesis</a> at the University of Salzburg, which is also <a href="https://unigis.at/files/Mastertheses/Full/107112.pdf">publicly available (pdf, in German)</a>. If you have a subscription, you can also read a shorter <a href="https://geomatik.ch">article on the analysis in Geomatik Schweiz, edition 11-12/2024</a> (paywalled, in German).</p>
-<p>Obviously, speed isn’t the only quality dimension to decide on a vector tile server. But it is certainly an important one.</p>
+<p>The guide:</p>
+<ul>
+<li>explains the fundamental principles and motivations behind open data</li>
+<li>addresses some of the frequent fears of data owners</li>
+<li>outlines a simplified five-step process and also</li>
+<li>lets three experts (from Lausanne, Fribourg and of swisstopo) weigh in with their experience</li>
+</ul>
+<p>As added bonuses, it for example briefly covers private initivates for opening data, usage conditions (versus licenses), the list of base geodata as a starting point for an open data catalog, and open data formats<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<p>One of the key takeaways (translated):</p>
+<blockquote class="blockquote">
+<p>Remember: Open data should be seen as an opportunity. It is a stimulating and rewarding process, which can benefit public services, citizens and businesses alike.</p>
+</blockquote>
+<p>What’s not to like. <a href="https://asit-asso.ch/storage/app/media/brochures/ASIT_brochure_14_OpenData.pdf">Recommended reading</a>.</p>
 
 
 
@@ -236,7 +239,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>I was reminded of this speed benchmark, specifically of an article about it in Geomatik Schweiz, by a <a href="https://www.linkedin.com/feed/update/urn:li:activity:7313906270539792386?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7313906270539792386%2C7313955020389974016%29&amp;dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287313955020389974016%2Curn%3Ali%3Aactivity%3A7313906270539792386%29">comment from Xavier Mérour</a> (merci!).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Albeit, a minor drawback: without mentioning cloud-native formats. Maybe something for the 2<sup>nd</sup> edition.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

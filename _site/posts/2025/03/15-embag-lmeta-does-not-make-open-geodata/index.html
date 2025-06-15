@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ralph Straumann">
-<meta name="dcterms.date" content="2025-04-05">
-<meta name="description" content="Want to serve #VectorTiles to your users? Fabian Rechsteiner’s benchmark pits six open-source servers (#BBOX, #ldproxy, #Martin, #pg_tileserv, #Tegola, #TiPg) against each other, revealing stark speed differences.">
+<meta name="dcterms.date" content="2025-03-15">
+<meta name="description" content="The #EMBAG or #LMETA, a Swiss federal law enacted at the start of 2024 mandates #OpenData. But there seems to be a confusion about its effects on geoinformation.">
 
-<title>Serving vector tiles, fast – Spatialists – geospatial news</title>
+<title>EMBAG/LMETA does not make open geodata – Spatialists – geospatial news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,24 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../assets/favicon.png" rel="icon" type="image/png">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-f5a5df04936a593d8a44e38d70c8cb8c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<link href="../../../../assets/favicon.png" rel="icon" type="image/png">
+<script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-f5a5df04936a593d8a44e38d70c8cb8c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -115,14 +115,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- End Matomo Code -->
 
 
-<link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Serving vector tiles, fast – Spatialists – geospatial news">
-<meta property="og:description" content="Want to serve #VectorTiles to your users? Fabian Rechsteiner’s benchmark pits six open-source servers (#BBOX, #ldproxy, #Martin, #pg_tileserv, #Tegola, #TiPg) against each other, revealing stark speed differences.">
-<meta property="og:image" content="https://spatialists.ch/posts/2025/04-05-serving-vector-tiles-fast/ganesh-partheeban-A9pIo2VEI5A-unsplash.jpg">
+<link rel="stylesheet" href="../../../../styles.css">
+<meta property="og:title" content="EMBAG/LMETA does not make open geodata – Spatialists – geospatial news">
+<meta property="og:description" content="The #EMBAG or #LMETA, a Swiss federal law enacted at the start of 2024 mandates #OpenData. But there seems to be a confusion about its effects on geoinformation.">
+<meta property="og:image" content="https://spatialists.ch/posts/2025/03/15-embag-lmeta-does-not-make-open-geodata/ansgar-scheffold-0eEbHHyMFIY-unsplash.jpg">
 <meta property="og:site_name" content="Spatialists – geospatial news">
-<meta name="twitter:title" content="Serving vector tiles, fast – Spatialists – geospatial news">
-<meta name="twitter:description" content="Want to serve #VectorTiles to your users? Fabian Rechsteiner’s benchmark pits six open-source servers (#BBOX, #ldproxy, #Martin, #pg_tileserv, #Tegola, #TiPg) against each other, revealing stark speed differences.">
-<meta name="twitter:image" content="https://spatialists.ch/posts/2025/04-05-serving-vector-tiles-fast/ganesh-partheeban-A9pIo2VEI5A-unsplash.jpg">
+<meta name="twitter:title" content="EMBAG/LMETA does not make open geodata – Spatialists – geospatial news">
+<meta name="twitter:description" content="The #EMBAG or #LMETA, a Swiss federal law enacted at the start of 2024 mandates #OpenData. But there seems to be a confusion about its effects on geoinformation.">
+<meta name="twitter:image" content="https://spatialists.ch/posts/2025/03/15-embag-lmeta-does-not-make-open-geodata/ansgar-scheffold-0eEbHHyMFIY-unsplash.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -133,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">Spatialists – geospatial news</span>
     </a>
   </div>
@@ -144,19 +144,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../about.html"> 
+    <a class="nav-link" href="../../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../subscribe.html"> 
+    <a class="nav-link" href="../../../../subscribe.html"> 
 <span class="menu-text">Subscribe</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../follow.html"> 
+    <a class="nav-link" href="../../../../follow.html"> 
 <span class="menu-text">Follow</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../contribute.html"> 
+    <a class="nav-link" href="../../../../contribute.html"> 
 <span class="menu-text">Contribute</span></a>
   </li>  
 </ul>
@@ -170,10 +170,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Serving vector tiles, fast</h1>
+      <h1 class="title">EMBAG/LMETA does not make open geodata</h1>
                   <div>
         <div class="description">
-          Want to serve #VectorTiles to your users? Fabian Rechsteiner’s benchmark pits six open-source servers (#BBOX, #ldproxy, #Martin, #pg_tileserv, #Tegola, #TiPg) against each other, revealing stark speed differences.
+          The #EMBAG or #LMETA, a Swiss federal law enacted at the start of 2024 mandates #OpenData. But there seems to be a confusion about its effects on geoinformation.
         </div>
       </div>
                 </div>
@@ -192,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">April 5, 2025</p>
+        <p class="date">March 15, 2025</p>
       </div>
     </div>
     
@@ -211,24 +211,44 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Once you have <a href="../04-tool-tip-tippecanoe-command-generator/">created your vector tiles</a>, typically you look for a solution to serve them to clients. From <a href="https://www.linkedin.com/in/fabian-rechsteiner/">Fabian Rechsteiner</a> comes an interesting speed comparison<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> of open-source solutions for a slightly different context: <a href="https://github.com/FabianRechsteiner/vector-tiles-benchmark">Serving vector tiles not from PMTiles or MBTiles, but from a PostGIS instance</a>. The GitHub repo highlights speed comparisons between six vector tile servers across different tests:</p>
-<ul>
-<li>BBOX</li>
-<li>ldproxy</li>
-<li>Martin</li>
-<li>pg_tileserv</li>
-<li>Tegola</li>
-<li>TiPg</li>
-</ul>
-<p>Besides the <a href="https://github.com/FabianRechsteiner/vector-tiles-benchmark">statistics in the benchmark repository</a>, Fabian Rechsteiner has published an eye-opening interactive side-by-side comparison of the six vector tile servers using a MapLibre client and data from the canton of Thurgau at <a href="https://vectormap.ch" class="uri">https://vectormap.ch</a>:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><video src="fabian-rechsteiner-visual-performance-test.mp4" title="Visual performance test (source: Fabian Rechsteiner)" class="img-fluid" controls=""><a href="fabian-rechsteiner-visual-performance-test.mp4">Video</a></video></p>
-<figcaption>Visual performance test (source: Fabian Rechsteiner)</figcaption>
+<p><img src="ansgar-scheffold-0eEbHHyMFIY-unsplash.jpg" title="The Federal Palace of Switzerland" class="img-fluid figure-img"></p>
+<figcaption>The Federal Palace of Switzerland (Photo by <a href="https://unsplash.com/@ansgarscheffold">Ansgar Scheffold</a>)</figcaption>
 </figure>
 </div>
-<p><a href="https://github.com/FabianRechsteiner/vector-tiles-benchmark">Fabian Rechsteiner’s benchmark repository</a> contains the code to roll your own tests (or maybe update his results a few months down the road). These insights are the results of his <a href="https://unigis.at/files/Mastertheses/Full/107112.pdf">Master’s thesis</a> at the University of Salzburg, which is also <a href="https://unigis.at/files/Mastertheses/Full/107112.pdf">publicly available (pdf, in German)</a>. If you have a subscription, you can also read a shorter <a href="https://geomatik.ch">article on the analysis in Geomatik Schweiz, edition 11-12/2024</a> (paywalled, in German).</p>
-<p>Obviously, speed isn’t the only quality dimension to decide on a vector tile server. But it is certainly an important one.</p>
+<p>The EMBAG<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> or LMETA<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, a Swiss federal law enacted at the start of 2024<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>, aims to promote digital workflows for federal government processes (“digital first”). To that end, it for example lays out principles to promote e-government at the federal level and for collaborating with other e-government entities. Among other things, the EMBAG/LMETA further mandates that:</p>
+<ul>
+<li>software developed by or for federal authorities must, in principle, be <em>open-source</em> (<a href="https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_9">article 9</a>)</li>
+<li>data acquired, generated or stored by federal authorities for fulfilling their tasks must, in principle, be <em>open data</em> (<a href="https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_10">article 10</a>).</li>
+</ul>
+<p>I often encounter the opinion that because of this the EMBAG/LMETA <em>mandates geodata of the federal government to be open data</em><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>. However, this is <em>not</em> the case, as I learned about a year ago. But beware: IANAL, that is, <em>I Am Not A Lawyer</em>, as they say.</p>
+<p>The relevant part of the EMBAG/LMETA is Art. 10 Abs. 2 lit. b or Art. 10 Al. 2 let. b, respectively (below in machine-translation):</p>
+<blockquote class="blockquote">
+<p>[Not made publicly accessible are:] Data that are not published or only published under more restrictive conditions based on cantonal or other federal regulations, particularly due to provisions concerning copyrights, confidentiality obligations whose violation is subject to criminal prosecution, information security, and official registers;</p>
+</blockquote>
+<p>A key term here is <em>“particularly due to”</em>, meaning that what follows is not an exhaustive list. In order to learn more, it’s instructive to check the message of the Federal Council that accompanied the draft for the EMBAG/LMETA: <a href="https://www.fedlex.admin.ch/eli/fga/2022/804/de">in German</a> / <a href="https://www.fedlex.admin.ch/eli/fga/2022/804/fr">in French</a>.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="What is a message of the Federal Council?">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is a message of the Federal Council?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><a href="https://de.wikipedia.org/wiki/Botschaft_des_Bundesrates">Federal Council messages</a> (“Botschaft” in German, “Message” in French) accompany draft decrees. They are regulated in <a href="https://www.fedlex.admin.ch/eli/cc/2003/510/de#art_141">Art. 141 of the Swiss Parliament Law</a>. Their purpose is to inform the parliament about the intent and the goals behind a draft decree, the problems it aims to solve, implications for basic rights, financial and personnel impacts etc. Federal Council messages are important because they are regularly used by the Swiss judiciary as interpretative aids to clarify (if needed) the meaning of the corresponding decrees.</p>
+</div>
+</div>
+</div>
+<p>Where the message of the Federal Council discusses Art. 10, we find the following (machine-translation):</p>
+<blockquote class="blockquote">
+<p>The list of legal bases in letter b is not formulated exhaustively and can, in principle, include additional legal foundations. However, the legislator is required to be guided by the “open data by default” principle established in paragraph 1 and to allow additional exceptions only restrictively and after carefully weighing the interests involved. For example, in the field of geoinformation, there are already special legal regulations for access to and use of official geodata that take precedence over EMBAG/LMETA Article 10, but which also anchor the Open Government Data (OGD) principle.</p>
+</blockquote>
+<p>To conclude, from my layperson’s perspective: The EMBAG/LMETA does <em>not</em> advance OGD for geodata, as previous regulations specific to the geospatial field take precedence.</p>
 
 
 
@@ -236,7 +256,10 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>I was reminded of this speed benchmark, specifically of an article about it in Geomatik Schweiz, by a <a href="https://www.linkedin.com/feed/update/urn:li:activity:7313906270539792386?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7313906270539792386%2C7313955020389974016%29&amp;dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287313955020389974016%2Curn%3Ali%3Aactivity%3A7313906270539792386%29">comment from Xavier Mérour</a> (merci!).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG)<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA)<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>If you are interested in the full history of the legislative process around EMBAG/LMETA, you can see that <a href="https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20220022">here in German</a> or <a href="https://www.parlament.ch/fr/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20220022">here in French</a>. If you are interested in even more detail about some of the changes the law experienced over its drafting phase, the documents of the consultation procedure are also available (<a href="https://www.fedlex.admin.ch/de/consultation-procedures/ended/2020#https://fedlex.data.admin.ch/eli/dl/proj/6020/72/cons_1">German</a>/<a href="https://www.fedlex.admin.ch/fr/consultation-procedures/ended/2020#https://fedlex.data.admin.ch/eli/dl/proj/6020/72/cons_1">French</a>).<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>For lower levels of government in Switzerland, the EMBAG/LMETA is not binding anyway.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
