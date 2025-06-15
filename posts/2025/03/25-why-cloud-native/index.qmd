@@ -4,7 +4,7 @@ author:
   - name: Ralph Straumann
     url: https://ralphstraumann.ch
 date: "2025-03-25 22:56"
-image: "../02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
+image: "../../../../assets/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
 description: "Kyle Barron, cloud engineer at Development Seed and developer of Lonboard, offers interesting insights into the cloudnativegeo paradigm in a recent interview with CNG. He discusses Parquet, GeoParquet, and GeoArrow, explaining their characteristics and potential to significantly improve geospatial data handling."
 ---
 

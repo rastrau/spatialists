@@ -4,7 +4,7 @@ author:
   - name: Ralph Straumann
     url: https://ralphstraumann.ch
 date: "2025-03-01 19:07"
-image: "../02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
+image: "../../../../assets/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
 description: "#cloudnativegeo and #GeoParquet news: Chris Holmes shares that the status of a petition for GeoParquet support in #Esri #ArcGIS Pro has changed to “In product plan”."
 ---
 

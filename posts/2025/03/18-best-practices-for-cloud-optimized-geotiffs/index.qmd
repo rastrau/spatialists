@@ -4,7 +4,7 @@ author:
   - name: David Oesch
     url: https://www.linkedin.com/in/davidoesch
 date: "2025-03-18 22:01"
-image: "../02-13-geoparquet-2.0/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
+image: "../../../../assets/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
 description: "Cloud-Optimized #GeoTIFFs (#COG-s) have revolutionized the way large geospatial raster datasets are accessed and processed. From GeoStandards comes Best Practices Guide for this #cloudnativegeo format."
 ---
 

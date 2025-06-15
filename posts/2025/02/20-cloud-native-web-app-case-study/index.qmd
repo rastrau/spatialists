@@ -40,4 +40,4 @@ e.g. under the [swissEO product line](https://data.geo.admin.ch/browser/index.ht
 "cloud-native geo" paradigm has (only, I think (?)) been covered in a 
 GeoStandards.ch-issued [whitepaper by OPENGIS.ch](https://www.opengis.ch/2024/04/09/cloud-optimized-geospatial-formats/), in the 
 [digital.ebp.ch blog](https://digital.ebp.ch/category/cloud-native/) and of 
-course [here](../02-13-geoparquet-2.0), so far.
+course [here](../13-geoparquet-2.0), so far.

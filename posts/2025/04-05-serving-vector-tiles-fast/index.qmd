@@ -8,7 +8,7 @@ image: "ganesh-partheeban-A9pIo2VEI5A-unsplash.jpg"
 description: "Want to serve #VectorTiles to your users? Fabian Rechsteiner’s benchmark pits six open-source servers (#BBOX, #ldproxy, #Martin, #pg_tileserv, #Tegola, #TiPg) against each other, revealing stark speed differences."
 ---
 
-Once you have [created your vector tiles](../04-04-tool-tip-tippecanoe-command-generator/), typically you look for a solution to serve them to clients. From [Fabian Rechsteiner](https://www.linkedin.com/in/fabian-rechsteiner/) comes an interesting speed comparison[^occasion] of open-source solutions for a slightly different context: [Serving vector tiles not from PMTiles or MBTiles, but from a PostGIS instance](https://github.com/FabianRechsteiner/vector-tiles-benchmark). The GitHub repo highlights speed comparisons between six vector tile servers across different tests:
+Once you have [created your vector tiles](../04-tool-tip-tippecanoe-command-generator/), typically you look for a solution to serve them to clients. From [Fabian Rechsteiner](https://www.linkedin.com/in/fabian-rechsteiner/) comes an interesting speed comparison[^occasion] of open-source solutions for a slightly different context: [Serving vector tiles not from PMTiles or MBTiles, but from a PostGIS instance](https://github.com/FabianRechsteiner/vector-tiles-benchmark). The GitHub repo highlights speed comparisons between six vector tile servers across different tests:
 
 - BBOX
 - ldproxy
