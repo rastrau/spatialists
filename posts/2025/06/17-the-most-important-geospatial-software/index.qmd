@@ -1,0 +1,25 @@
+---
+title: "The most important geospatial software?"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-06-17 23:26"
+image: "david-clode-yUxH8szmnhs-unsplash.jpg"
+description: "I like the occasional bold theory. A month ago, Drew Breunig blogged about a very bold one: #DuckDB probably being the most important geospatial software of the last decade. What gives?"
+---
+
+I like the occasional bold theory. A month ago, [Drew Breunig](https://www.dbreunig.com) blogged about a *very* bold one: [DuckDB probably [being] the most important geospatial software of the last decade](https://www.dbreunig.com/2025/05/03/duckdb-is-the-most-impactful-geospatial-software-in-a-decade.html). There's anecdata^[[Anecdotal evidence](https://en.wikipedia.org/wiki/Anecdotal_evidence#Scientific_context)] [sic]:
+
+[![Google trends for "geospatial" and "duckdb"](google-trends.png 'Google trends for "geospatial" and "duckdb"')](https://trends.google.com/trends/explore?date=2010-01-01%202025-06-17&q=duckdb,geospatial&hl=en
+)
+
+
+> Prior to this, getting up and running from a cold-start might’ve required installing or even compiling several OSS packages, carefully noting path locations, standing up a specialized database… Enough work that a data generalist might not have bothered, or their IT department might not have supported it.
+> 
+> With DuckDB `spatial`, it became possible for casual geospatial work to occur. All within SQL… And that makes the ecosystem bigger.
+
+[Interesting comments](https://news.ycombinator.com/item?id=43881468) – supportive and blowback – also [on Hacker News](https://news.ycombinator.com/item?id=43881468)[^anonymaps], for example [from a DuckDB engineer](https://news.ycombinator.com/item?id=43882914):
+
+> ... the fact that you can e.g. convert to and from a myriad of different geospatial formats by utilizing GDAL, transforming through SQL, or pulling down the latest Overture dump without having the whole workflow break just cause you updated QGIS has probably been the main killer feature for a lot of the early adopters.
+
+[^anonymaps]: In no way saying this was the intention behind the post. But somehow, a sarcastic [Anonymaps](https://www.geohipster.com/2018/03/19/anonymaps-use-real-addresses) remark comes to mind: "Sometimes you get the hot takes by throwing a flamethrower through a window and seeing who comes running out shouting."
