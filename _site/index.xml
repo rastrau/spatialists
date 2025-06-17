@@ -15,8 +15,17 @@
 <title>Spatialists – geospatial news</title>
 <link>https://spatialists.ch/</link>
 </image>
-<generator>quarto-1.7.31</generator>
-<lastBuildDate>Sat, 14 Jun 2025 16:19:00 GMT</lastBuildDate>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Tue, 17 Jun 2025 23:26:00 GMT</lastBuildDate>
+<item>
+  <title>The most important geospatial software?</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/06/17-the-most-important-geospatial-software/</link>
+  <description><![CDATA[ I like the occasional bold theory. A month ago, Drew Breunig blogged about a very bold one: #DuckDB probably being the most important geospatial software of the last decade. What gives? ]]></description>
+  <guid>https://spatialists.ch/posts/2025/06/17-the-most-important-geospatial-software/</guid>
+  <pubDate>Tue, 17 Jun 2025 23:26:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/06/17-the-most-important-geospatial-software/david-clode-yUxH8szmnhs-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Are web maps a recession byproduct?</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/05-12-gdal-3-11-released-with-new-gdal-program/</guid>
   <pubDate>Mon, 12 May 2025 22:26:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/05-12-gdal-3-11-released-with-new-gdal-program/dmitriy-demidov-iuuJC_pjLU0-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Recording: Colloquium on the state of SGS implementation</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05-12-recording-colloquium-on-the-state-of-sgs-implementation/</link>
-  <description><![CDATA[ #Swisstopo hosted a #colloquium to present the current state of Swiss Geoinformation Strategy (#SGS) implementation and ongoing SGS projects. Now, the recording is online. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05-12-recording-colloquium-on-the-state-of-sgs-implementation/</guid>
-  <pubDate>Mon, 12 May 2025 22:12:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05-12-recording-colloquium-on-the-state-of-sgs-implementation/sgs.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
