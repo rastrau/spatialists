@@ -13,6 +13,7 @@ I like the occasional bold theory. A month ago, [Drew Breunig](https://www.dbreu
 [![Google trends for "geospatial" and "duckdb"](google-trends.png 'Google trends for "geospatial" and "duckdb"')](https://trends.google.com/trends/explore?date=2010-01-01%202025-06-17&q=duckdb,geospatial&hl=en
 )
 
+From the blog post:
 
 > Prior to this, getting up and running from a cold-start might’ve required installing or even compiling several OSS packages, carefully noting path locations, standing up a specialized database… Enough work that a data generalist might not have bothered, or their IT department might not have supported it.
 > 
