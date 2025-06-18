@@ -1,0 +1,48 @@
+---
+title: "Cadence Maps"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-06-18 19:52"
+image: "tengyart-bj3hTj6daIM-unsplash.jpg"
+description: "#CadenceMaps is a prototype cloud-native data service delivering 
+#OpenStreetMap #OSM data for the Germany-Austria-Switzerland-Liechtenstein 
+region as #GeoParquet files using a unified schema. The platform currently 
+offers administrative boundaries and POI datasets."
+---
+
+[Cadence Maps](https://cadencemaps.infs.ch/) is a new cloud-native data service 
+(currently in the prototype stage) for distributing OpenStreetMap (OSM) data in 
+the Germany-Austria-Switzerland-Liechtenstein[^dachli] region as GeoParquet 
+files using a unified schema (following the pattern of the Overture Maps 
+Foundation (OMF)). The goal of Cadence[^cadence] Maps is to make OSM data more readily 
+available for analysis. The platform is the product of a Bachelor's thesis at 
+the [University of Applied Sciences Eastern Switzerland](https://www.ost.ch/en/) 
+(OST).
+
+[![The *Cadence Maps* website](cadence-maps.png "The Cadence Maps website")](https://cadencemaps.infs.ch/)
+
+Currently, [Cadence Maps](https://cadencemaps.infs.ch/) offers OSM data on 
+administrative boundaries and POIs^[Points-of-interest], "compatible with 
+Overture Maps"[^compatible] and accessible via a static web interface from S3 
+object storage. The data can be queried directly using tools such as DuckDB and 
+SQL or Python. The production pipeline and backend of Cadence Maps relies on 
+open-source tooling.
+
+Future plans include refining taxonomy and data issues, benchmarking, and 
+turning the prototype into a weekly updated offering.
+
+There is a longer [introductory article by Stefan Keller](https://www.linkedin.com/pulse/cadence-maps-cloud-native-osm-geoparquet-data-service-stefan-keller-6kmje/?trackingId=ssAjiWEge%2FpWcnE%2F6li9Iw%3D%3D) with some interesting points also 
+regarding OMF data. An in-depth description of perceived shortcomings of OMF 
+and a comparison of OMF and Cadence Maps data could be interesting.
+
+[^dachli]: Colloquially, this region can be called "D-A-CH-LI" in German (as 
+does the [original post](https://www.linkedin.com/pulse/cadence-maps-cloud-native-osm-geoparquet-data-service-stefan-keller-6kmje/?trackingId=ssAjiWEge%2FpWcnE%2F6li9Iw%3D%3D)) – as a contraction of the 
+countries' abbreviations.
+[^compatible]: From what I have read, it didn't become quite clear to me, if 
+*"compatible"*&#32;refers to the data categories or, more deeply, to the schema / 
+data model. And I haven't yet had time to investigate the data.
+[^cadence]: According to [Wikipedia](https://en.wikipedia.org/wiki/Cadence), "in 
+Western musical theory, a cadence is the end of a phrase in which the melody or 
+harmony creates a sense of full or partial resolution, especially in music of 
+the 16th century onwards."
