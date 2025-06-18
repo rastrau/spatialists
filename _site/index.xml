@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Tue, 17 Jun 2025 23:26:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 18 Jun 2025 19:52:00 GMT</lastBuildDate>
+<item>
+  <title>Cadence Maps</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/06/18-cadence-maps/</link>
+  <description><![CDATA[ #CadenceMaps is a prototype cloud-native data service delivering #OpenStreetMap #OSM data for the Germany-Austria-Switzerland-Liechtenstein region as #GeoParquet files using a unified schema. The platform currently offers administrative boundaries and POI datasets. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/06/18-cadence-maps/</guid>
+  <pubDate>Wed, 18 Jun 2025 19:52:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/06/18-cadence-maps/tengyart-bj3hTj6daIM-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>The most important geospatial software?</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/</guid>
   <pubDate>Wed, 14 May 2025 17:23:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/achim-ruhnau-0HTMREd2KdM-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>GDAL 3.11 released with new gdal program</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05-12-gdal-3-11-released-with-new-gdal-program/</link>
-  <description><![CDATA[ As of Friday, #GDAL 3.11.0 “Eganville” has been released. Starting with GDAL 3.11, parts of the GDAL utilities are available from a new single gdal program which accepts commands and subcommands. This simplifies and unifies GDAL syntax. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05-12-gdal-3-11-released-with-new-gdal-program/</guid>
-  <pubDate>Mon, 12 May 2025 22:26:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05-12-gdal-3-11-released-with-new-gdal-program/dmitriy-demidov-iuuJC_pjLU0-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
