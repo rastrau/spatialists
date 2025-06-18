@@ -19,8 +19,6 @@ From the blog post:
 > 
 > With DuckDB `spatial`, it became possible for casual geospatial work to occur. All within SQL… And that makes the ecosystem bigger.
 
-[Interesting comments](https://news.ycombinator.com/item?id=43881468) – supportive and blowback – also [on Hacker News](https://news.ycombinator.com/item?id=43881468)[^anonymaps], for example [from a DuckDB engineer](https://news.ycombinator.com/item?id=43882914):
+[Interesting comments](https://news.ycombinator.com/item?id=43881468) – supportive and blowback – also [on Hacker News](https://news.ycombinator.com/item?id=43881468), for example [from a DuckDB engineer](https://news.ycombinator.com/item?id=43882914):
 
 > ... the fact that you can e.g. convert to and from a myriad of different geospatial formats by utilizing GDAL, transforming through SQL, or pulling down the latest Overture dump without having the whole workflow break just cause you updated QGIS has probably been the main killer feature for a lot of the early adopters.
-
-[^anonymaps]: In no way saying this was the intention behind the post. But somehow, a sarcastic [Anonymaps](https://www.geohipster.com/2018/03/19/anonymaps-use-real-addresses) remark comes to mind: "Sometimes you get the hot takes by throwing a flamethrower through a window and seeing who comes running out shouting."
