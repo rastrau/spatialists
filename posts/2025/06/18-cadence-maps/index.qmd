@@ -4,7 +4,7 @@ author:
   - name: Ralph Straumann
     url: https://ralphstraumann.ch
 date: "2025-06-18 19:52"
-image: "tengyart-bj3hTj6daIM-unsplash.jpg"
+image: "lucas-miguel-aQd0X_0YnzY-unsplash.jpg"
 description: "#CadenceMaps is a prototype cloud-native data service delivering 
 #OpenStreetMap #OSM data for the Germany-Austria-Switzerland-Liechtenstein 
 region as #GeoParquet files using a unified schema. The platform currently 
