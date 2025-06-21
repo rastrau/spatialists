@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Wed, 18 Jun 2025 19:52:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 21 Jun 2025 11:09:00 GMT</lastBuildDate>
+<item>
+  <title>Updated SOGI GIS trend radar</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/06/21-updated-sogi-gis-trend-radar/</link>
+  <description><![CDATA[ The #SOGI-#OSIG GIS Technology Specialist Group has released version 2.0 of their interactive GIS #TrendRadar at gistrends.ch, classifying 40 technologies and concepts into “Established”, “Emerging”, and “Descending” levels of maturity. Each entry is evaluated on market penetration, technological maturity, business viability, and user ecosystem. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/06/21-updated-sogi-gis-trend-radar/</guid>
+  <pubDate>Sat, 21 Jun 2025 11:09:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/06/21-updated-sogi-gis-trend-radar/gis-trend-radar-wide.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Cadence Maps</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/05-16-geoparquet-arriving-in-arcgis-pro-35/</guid>
   <pubDate>Fri, 16 May 2025 17:43:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/assets/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Tool-tip: Multi-scale terrain analysis</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/</link>
-  <description><![CDATA[ #Terrain is inherently #multiscale, with features and surface variations that must be analyzed across a range of spatial scales. New tools in #ArcGISPro 3.4 and 3.5 along with advanced options in #SAGA GIS and #LandSerf, make it possible to compute multi-scale surface metrics for more nuanced #terrainanalysis. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/</guid>
-  <pubDate>Wed, 14 May 2025 17:23:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05-14-tool-tip-multi-scale-terrain-analysis/achim-ruhnau-0HTMREd2KdM-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
