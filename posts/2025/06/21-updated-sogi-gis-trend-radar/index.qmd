@@ -45,7 +45,7 @@ The rating of each trend radar entry with respect to this criteria can be found
 in a separate table.
 
 [^sogi]: [SOGI-OSIG](https://www.sogi.ch) is the Swiss Organization for 
-Geoinformation founded in 1994. It aims to promote the interdisciplinary 
+Geographic Information founded in 1994. It aims to promote the interdisciplinary 
 application of geoinformation in Switzerland. SOGI-OSIG is a member of the 
 European umbrella organization [EUROGI](https://eurogi.org).
 [^german]: Only available in German at the moment, as far as I could find out.
