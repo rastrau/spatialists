@@ -1,0 +1,51 @@
+---
+title: "Updated SOGI GIS trend radar"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-06-21 11:09"
+image: "gis-trend-radar-wide.jpg"
+description: 'The #SOGI-#OSIG GIS Technology Specialist Group has released 
+version 2.0 of their interactive GIS #TrendRadar at gistrends.ch, classifying 
+40 technologies and concepts into "Established", "Emerging", and "Descending" 
+levels of maturity. Each entry is evaluated on market penetration, technological maturity, business viability, and user ecosystem.'
+---
+
+The [SOGI-OSIG[^sogi] GIS Technology Specialist Group](https://www.sogi.ch/en/organization/specialist-groups) has updated their interactive GIS Trend 
+Radar[^german] at [gistrends.ch](https://gistrends.ch) to version 2.0. The 
+radar classifies technologies, paradigms, and concepts into three rings:
+
+- Established (29 entries)
+- Emerging (6 entries)
+- Descending (5 entries)
+
+[![GIS Trend Radar by SOGI-OSIG](gis-trend-radar.jpg "GIS Trend Radar by SOGI-OSIG")](https://gistrends.ch)
+
+In order to decide on the classification of a technology or concept, the GIS 
+Trend Radar analyzes four criteria (auto-translated from SOGI-OSIG): 
+
+- Market penetration: This criterion describes the extent to which a technology 
+is already established on the market. Market penetration therefore describes 
+the sale of existing products on a market. It shows whether a technology is 
+used by companies, organizations and governments and how widespread it has 
+become.
+- Technological maturity: This criterion assesses how mature a technology is 
+and how close it is to being fully functional. It looks at the level of 
+development, reliability and stability.
+- Businesses and economic viability: This criterion looks at the extent to 
+which a technology is sustainable and economical from a business perspective 
+and whether it is worth replacing an existing solution with it. The aim is to 
+assess the economic opportunities and risks for companies.
+- Users and ecosystem: This criterion examines how well a technology is 
+accepted by the target group and whether it offers a supporting ecosystem. The 
+aim is to analyze the benefits for users and the availability of know-how and 
+resources.
+
+The rating of each trend radar entry with respect to this criteria can be found 
+in a separate table.
+
+[^sogi]: [SOGI-OSIG](https://www.sogi.ch) is the Swiss Organization for 
+Geoinformation founded in 1994. It aims to promote the interdisciplinary 
+application of geoinformation in Switzerland. SOGI-OSIG is a member of the 
+European umbrella organization [EUROGI](https://eurogi.org).
+[^german]: Only available in German at the moment, as far as I could find out.
