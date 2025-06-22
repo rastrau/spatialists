@@ -137,65 +137,65 @@
 <item>
   <title>GEDTM30: Global 30 meter terrain data</title>
   <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05-28-gedtm30-global-30-meter-terrain-data/</link>
+  <link>https://spatialists.ch/posts/2025/05/28-gedtm30-global-30-meter-terrain-data/</link>
   <description><![CDATA[ A team of researchers has released #GEDTM30, a global #DigitalTerrainModel with 30-meter (1 arcsecond) resolution, generated through #MachineLearning fusion of various data sources, and accompanied by 15 geomorphometric parameters computed at multiple spatial scales. Published under a CC-BY license, GEDTM30 offers open, high-resolution global terrain data and is accessible as cloud-optimized #GeoTIFF-s (#COG) via Zenodo and OpenLandMap. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05-28-gedtm30-global-30-meter-terrain-data/</guid>
+  <guid>https://spatialists.ch/posts/2025/05/28-gedtm30-global-30-meter-terrain-data/</guid>
   <pubDate>Wed, 28 May 2025 19:35:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05-28-gedtm30-global-30-meter-terrain-data/maximum-curvature.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://spatialists.ch/posts/2025/05/28-gedtm30-global-30-meter-terrain-data/maximum-curvature.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Overture on open, interoperable geodata</title>
   <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05-27-overture-on-open-interoperable-geodata/</link>
+  <link>https://spatialists.ch/posts/2025/05/27-overture-on-open-interoperable-geodata/</link>
   <description><![CDATA[ #Grid features an interesting interview with Jennings Anderson, a #Meta Software Engineer and #OpenStreetMap (#OSM) researcher, who shares his perspective on the #Overture Maps Foundation (#OMF) — an initiative aiming to integrate diverse open geodata into a consistent base map. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05-27-overture-on-open-interoperable-geodata/</guid>
+  <guid>https://spatialists.ch/posts/2025/05/27-overture-on-open-interoperable-geodata/</guid>
   <pubDate>Tue, 27 May 2025 22:51:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05-27-overture-on-open-interoperable-geodata/anderson-2025-overture.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://spatialists.ch/posts/2025/05/27-overture-on-open-interoperable-geodata/anderson-2025-overture.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Interlis UML diagrams in VS Code</title>
   <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05-26-interlis-uml-diagrams-in-vs-code/</link>
+  <link>https://spatialists.ch/posts/2025/05/26-interlis-uml-diagrams-in-vs-code/</link>
   <description><![CDATA[ #geowerkstatt has updated their open-source plug-in “#INTERLIS 2” for Microsoft #VSCode. The plug-in now supports drawing the #UML class diagram of Interlis models. It still also offers: syntax highlighting, snippets, and #Markdown documentation. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05-26-interlis-uml-diagrams-in-vs-code/</guid>
+  <guid>https://spatialists.ch/posts/2025/05/26-interlis-uml-diagrams-in-vs-code/</guid>
   <pubDate>Mon, 26 May 2025 17:55:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05-26-interlis-uml-diagrams-in-vs-code/ARA_DB_REP_V1_2.ili-diagram.png" medium="image" type="image/png" height="96" width="144"/>
+  <media:content url="https://spatialists.ch/posts/2025/05/26-interlis-uml-diagrams-in-vs-code/ARA_DB_REP_V1_2.ili-diagram.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
   <title>Easily obtain OSM and OMF data</title>
   <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05-23-easily-obtain-osm-and-omf-data/</link>
+  <link>https://spatialists.ch/posts/2025/05/23-easily-obtain-osm-and-omf-data/</link>
   <description><![CDATA[ #Python and CLI tools #QuackOSM and #OvertureMaestro offer easier access to data from #OpenStreetMap (#OSM) and the Overture Maps Foundation (#OMF) through #PyArrow, #GeoParquet, or #DuckDB. These tools can simplify large-scale geospatial data tasks for seamless data engineering and analysis. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05-23-easily-obtain-osm-and-omf-data/</guid>
+  <guid>https://spatialists.ch/posts/2025/05/23-easily-obtain-osm-and-omf-data/</guid>
   <pubDate>Fri, 23 May 2025 15:54:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05-23-easily-obtain-osm-and-omf-data/kraina-tools.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://spatialists.ch/posts/2025/05/23-easily-obtain-osm-and-omf-data/kraina-tools.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Interlis User Group Meeting: Call for topics</title>
   <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05-22-interlis-user-group-meeting-call-for-topics/</link>
+  <link>https://spatialists.ch/posts/2025/05/22-interlis-user-group-meeting-call-for-topics/</link>
   <description><![CDATA[ This fall, the 5th #Interlis User Group Meeting will be held. Discussion topics and questions can be submitted via the Interlis Forum. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05-22-interlis-user-group-meeting-call-for-topics/</guid>
+  <guid>https://spatialists.ch/posts/2025/05/22-interlis-user-group-meeting-call-for-topics/</guid>
   <pubDate>Thu, 22 May 2025 17:25:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05-22-interlis-user-group-meeting-call-for-topics/interlis.png" medium="image" type="image/png" height="96" width="144"/>
+  <media:content url="https://spatialists.ch/posts/2025/05/22-interlis-user-group-meeting-call-for-topics/interlis.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
   <title>Linked data explainer: Addresses</title>
   <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05-19-linked-data-explainer-addresses/</link>
+  <link>https://spatialists.ch/posts/2025/05/19-linked-data-explainer-addresses/</link>
   <description><![CDATA[ Ever wondered how #linkeddata can help clarify the messy world, in general and with respect to postal addresses? – A blog post breaks down the basics using real-world examples. The article highlights how humans and computers interpret information differently and how the linked data paradigm can simplify #datamanagement and improve #dataquality. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05-19-linked-data-explainer-addresses/</guid>
+  <guid>https://spatialists.ch/posts/2025/05/19-linked-data-explainer-addresses/</guid>
   <pubDate>Mon, 19 May 2025 22:27:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05-19-linked-data-explainer-addresses/hadi-yazdi-aznaveh-oYa6i81_5t8-unsplash.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://spatialists.ch/posts/2025/05/19-linked-data-explainer-addresses/hadi-yazdi-aznaveh-oYa6i81_5t8-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>MVT, MBT, PMTiles: Everything to know about vector tiles</title>
   <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05-19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/</link>
+  <link>https://spatialists.ch/posts/2025/05/19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/</link>
   <description><![CDATA[ Daniel-J-H offers a comprehensive overview of #vectortiles technology, including #Mapbox Vector Tiles (#MVT), #MBTiles, and #Protomaps’s #PMTiles. The post explains the evolution from #raster to #vector #maps, compares key formats and technologies, and provides practical tips for creating your own vector tiles. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05-19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/</guid>
+  <guid>https://spatialists.ch/posts/2025/05/19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/</guid>
   <pubDate>Mon, 19 May 2025 18:32:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05-19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/henry-perks-BJXAxQ1L7dI-unsplash.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://spatialists.ch/posts/2025/05/19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/henry-perks-BJXAxQ1L7dI-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
