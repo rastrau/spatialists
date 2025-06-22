@@ -1,0 +1,42 @@
+---
+title: "Thematic maps for mobile"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-06-22 00:31"
+image: "linkedin-sales-solutions-uoGzuJQeWmo-unsplash.jpg"
+description: "Designing thematic world maps for #mobile devices is challenging. 
+A research team explores new, innovative map types for effective communication 
+of spatial information on small screens."
+---
+
+Thematic maps are especially difficult to do well on mobile: Just for one, 
+small entities are hard to see in traditional cartographic layouts. 
+[Jonas Oesch](https://www.jonasoesch.ch) who works for the Zurich-based 
+newspaper "NZZ" has [written a summary blog post of research that looked into 
+this problem for thematic _world_ maps](https://www.jonasoesch.ch/articles/thematic-worldmaps-on-mobile/): 
+
+> Most world maps you see online are not really designed for mobile screens. 
+They're too small and require interaction to see countries like Switzerland. 
+At NZZ, we wondered if we could come up with a design that works better. 
+
+In order to rethink thematic world maps, the team has identified the most 
+typical types of maps they use: A) "Glorified Lists" and B) "Spatial 
+Distribution Maps". They came up with two new solutions:
+
+[![The tested types of maps: *"Split continents"* and *"bubblemap"*](thematic-world-maps.jpg 'The tested types of maps: "Split continents" and "bubblemap"')](https://www.jonasoesch.ch/articles/thematic-worldmaps-on-mobile/)
+
+> In a large user study, we showed that our redesigned world map improves 
+readability – especially for small countries. We also found that using bubbles 
+sized according to population, rather than land area, led to interpretations 
+that more accurately reflected the underlying data.
+
+So both map types performed their function better than the baseline. But 
+despite the improved functionality, the second map type proved not very popular: 
+
+> Still, many readers commented that the bubble map was hard to read. A few 
+added that it was more informative, but overall, the map remains unpopular. 
+We've received similar feedback internally, even when the reasoning behind the 
+design is explained.
+
+A tough, but maybe not uncommon, problem of conveying spatial information.
