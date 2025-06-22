@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Sat, 21 Jun 2025 11:09:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 22 Jun 2025 00:31:00 GMT</lastBuildDate>
+<item>
+  <title>Thematic maps for mobile</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/06/22-thematic-maps-for-mobile/</link>
+  <description><![CDATA[ Designing thematic world maps for #mobile devices is challenging. A research team explores new, innovative map types for effective communication of spatial information on small screens. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/06/22-thematic-maps-for-mobile/</guid>
+  <pubDate>Sun, 22 Jun 2025 00:31:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/06/22-thematic-maps-for-mobile/linkedin-sales-solutions-uoGzuJQeWmo-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Updated SOGI GIS trend radar</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/05-19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/</guid>
   <pubDate>Mon, 19 May 2025 18:32:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/05-19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/henry-perks-BJXAxQ1L7dI-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>GeoParquet arriving in ArcGIS Pro 3.5</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05-16-geoparquet-arriving-in-arcgis-pro-35/</link>
-  <description><![CDATA[ With version 3.5, users can now natively work with #GeoParquet files in #ArcGIS Pro, either by creating multifile feature connections or by accessing individual #Parquet files stored locally or in Amazon #S3. This streamlines the integration of #cloudnative data, though currently with specific requirements and limitations. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05-16-geoparquet-arriving-in-arcgis-pro-35/</guid>
-  <pubDate>Fri, 16 May 2025 17:43:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/assets/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
