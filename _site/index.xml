@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Sun, 22 Jun 2025 00:31:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 24 Jun 2025 22:15:00 GMT</lastBuildDate>
+<item>
+  <title>MapBS 3D and launch event</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/06/24-mapbs-3d-and-launch-event/</link>
+  <description><![CDATA[ The canton of Basel-City presents its new #3D #geoportal, MapBS 3D, offering interactive 3D maps with detailed building models, construction projects, and several analytical tools. The new portal is introduced in a “lunch & learn” style webinar this Thursday. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/06/24-mapbs-3d-and-launch-event/</guid>
+  <pubDate>Tue, 24 Jun 2025 22:15:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/06/24-mapbs-3d-and-launch-event/mapbs-3d-imagery.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Thematic maps for mobile</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/05/19-linked-data-explainer-addresses/</guid>
   <pubDate>Mon, 19 May 2025 22:27:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/05/19-linked-data-explainer-addresses/hadi-yazdi-aznaveh-oYa6i81_5t8-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>MVT, MBT, PMTiles: Everything to know about vector tiles</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05/19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/</link>
-  <description><![CDATA[ Daniel-J-H offers a comprehensive overview of #vectortiles technology, including #Mapbox Vector Tiles (#MVT), #MBTiles, and #Protomaps’s #PMTiles. The post explains the evolution from #raster to #vector #maps, compares key formats and technologies, and provides practical tips for creating your own vector tiles. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05/19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/</guid>
-  <pubDate>Mon, 19 May 2025 18:32:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05/19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/henry-perks-BJXAxQ1L7dI-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
