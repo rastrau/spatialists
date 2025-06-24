@@ -5,10 +5,10 @@ author:
     url: https://ralphstraumann.ch
 date: "2025-06-24 22:15"
 image: "mapbs-3d-imagery.jpg"
-description: "The canton of Basel-City presents its new #3D #geoportal, MapBS 3D, offering interactive 3D maps with detailed building models, construction projects, and several analytical tools. The new portal is introduced in a “lunch & learn” style webinar this Thursday."
+description: "The canton of Basel-Stadt presents its new #3D #geoportal, MapBS 3D, offering interactive 3D maps with detailed building models, construction projects, and several analytical tools. The new portal is introduced in a “lunch & learn” style webinar this Thursday."
 ---
 
-In its [latest newsletter edition](https://mailchi.mp/bs.ch/lunchlearn_3d), the canton of Basel-City announces the successful conclusion of the "3D Geoportal" project. The most notable outcome of the project is [MapBS 3D](https://3d.geo.bs.ch/). 
+In its [latest newsletter edition](https://mailchi.mp/bs.ch/lunchlearn_3d), the canton of Basel-Stadt announces the successful conclusion of the "3D Geoportal" project. The most notable outcome of the project is [MapBS 3D](https://3d.geo.bs.ch/)[^BS]. 
 
 [![MapBS 3D with projected and approved construction projects](mapbs-3d.jpg "MapBS 3D with projected and approved construction projects")](https://3d.geo.bs.ch/)
 
@@ -17,3 +17,5 @@ Besides 3D content such as buildings (including those in Germany, France, and Ba
 [![MapBS 3D scene with an embedded historical image](mapbs-3d-historical.jpg "MapBS 3D scene with an embedded historical image")](https://3d.geo.bs.ch/)
 
 This Thursday (June 26) from 12:00 until 12:45, the Fachstelle Geoinformation of Basel-City will host a "lunch & learn" webinar introducing interested persons to the new 3D geoportal. Details on how to participate can be found in the [newsletter](https://mailchi.mp/bs.ch/lunchlearn_3d). MapBS 3D itself can be accessed and tried out at [3d.geo.bs.ch](https://3d.geo.bs.ch).
+
+[^BS]: To the English-speaking reader: "BS" being, you know, the official state abbrevation of "Basel-Stadt" (i.e., "Basel-City").
