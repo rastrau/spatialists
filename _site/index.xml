@@ -21,7 +21,7 @@
   <title>Tool tip: Geo Hound</title>
   <dc:creator>Ralph Straumann</dc:creator>
   <link>https://spatialists.ch/posts/2025/06/26-tool-tip-geo-hound/</link>
-  <description><![CDATA[ Discovering #OGC and other geoservices endpoints in web maps is now effortless with the Chromium-based Geo Hound extension. It automatically identifies and collects geoservices—along with geospatial files like KML, GeoJSON, Shapefiles, and GeoTIFF—into a handy list for your convenience. ]]></description>
+  <description><![CDATA[ Discovering #OGC and other geoservices endpoints in web maps is now effortless with the Chromium-based #GeoHound extension. It identifies and collects geoservices – along with geospatial files – into a handy list for your convenience. ]]></description>
   <guid>https://spatialists.ch/posts/2025/06/26-tool-tip-geo-hound/</guid>
   <pubDate>Thu, 26 Jun 2025 22:12:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/06/26-tool-tip-geo-hound/celyn-bowen-OtNHeVJVvCc-unsplash.jpg" medium="image" type="image/jpeg"/>
