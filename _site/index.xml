@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Tue, 24 Jun 2025 22:15:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 26 Jun 2025 22:12:00 GMT</lastBuildDate>
+<item>
+  <title>Tool tip: Geo Hound</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/06/26-tool-tip-geo-hound/</link>
+  <description><![CDATA[ Discovering #OGC and other geoservices endpoints in web maps is now effortless with the Chromium-based Geo Hound extension. It automatically identifies and collects geoservices—along with geospatial files like KML, GeoJSON, Shapefiles, and GeoTIFF—into a handy list for your convenience. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/06/26-tool-tip-geo-hound/</guid>
+  <pubDate>Thu, 26 Jun 2025 22:12:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/06/26-tool-tip-geo-hound/celyn-bowen-OtNHeVJVvCc-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>MapBS 3D and launch event</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/05/22-interlis-user-group-meeting-call-for-topics/</guid>
   <pubDate>Thu, 22 May 2025 17:25:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/05/22-interlis-user-group-meeting-call-for-topics/interlis.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Linked data explainer: Addresses</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05/19-linked-data-explainer-addresses/</link>
-  <description><![CDATA[ Ever wondered how #linkeddata can help clarify the messy world, in general and with respect to postal addresses? – A blog post breaks down the basics using real-world examples. The article highlights how humans and computers interpret information differently and how the linked data paradigm can simplify #datamanagement and improve #dataquality. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05/19-linked-data-explainer-addresses/</guid>
-  <pubDate>Mon, 19 May 2025 22:27:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05/19-linked-data-explainer-addresses/hadi-yazdi-aznaveh-oYa6i81_5t8-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
