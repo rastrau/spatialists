@@ -5,7 +5,7 @@ author:
     url: https://ralphstraumann.ch
 date: "2025-06-26 22:12"
 image: "celyn-bowen-OtNHeVJVvCc-unsplash.jpg"
-description: "Discovering #OGC and other geoservices endpoints in web maps is now effortless with the Chromium-based Geo Hound extension. It automatically identifies and collects geoservices—along with geospatial files like KML, GeoJSON, Shapefiles, and GeoTIFF—into a handy list for your convenience."
+description: "Discovering #OGC and other geoservices endpoints in web maps is now effortless with the Chromium-based #GeoHound extension. It identifies and collects geoservices – along with geospatial files – into a handy list for your convenience."
 ---
 
 Sometimes as a geospatial professional you want to find OGC and 
