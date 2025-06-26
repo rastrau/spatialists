@@ -1,0 +1,42 @@
+---
+title: "Tool tip: Geo Hound"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-06-26 22:12"
+image: "celyn-bowen-OtNHeVJVvCc-unsplash.jpg"
+description: "Discovering #OGC and other geoservices endpoints in web maps is now effortless with the Chromium-based Geo Hound extension. It automatically identifies and collects geoservices—along with geospatial files like KML, GeoJSON, Shapefiles, and GeoTIFF—into a handy list for your convenience."
+---
+
+Sometimes as a geospatial professional you want to find OGC and 
+other^[Tile services, Esri services] geoservices endpoints being displayed in a 
+web map. The "traditional" approach involves using your preferred browser's 
+developer tools to inspect the resources requested through network traffic. 
+
+With a new extension this task becomes a lot easier: When the 
+[Chromium-based](https://en.wikipedia.org/wiki/Chromium_(web_browser)) 
+[Geo Hound extension](https://chromewebstore.google.com/detail/geo-hound/nooldeimgcodenhncjkjagbmppdinhfe) 
+is enabled, it automatically detects geoservices (and geospatial files such as 
+KML/KMZ, GeoJSON, Shapefiles, and GeoTIFFs) on any webpage you visit. It then 
+collects these in a convenient list for later use: 
+
+![Geo Hound in use on [geo.so.ch/map](https://geo.so.ch/map)](geo-hound-in-solothurn.jpg "Geo Hound in use on geo.so.ch/map")
+
+> With Geo Hound, you can:
+> 
+> - Save detected services with automatic deduplication
+> - Test web compatibility with one-click CORS^[Cross-Origin Resource Sharing] validation  
+> - Normalize URLs for use in ArcGIS, QGIS, and other GIS applications
+> - Organize services with custom folders and notes
+> - Search and filter your collected services and files
+> - Disable detection on selected URLs or domains
+> - Export service information for team sharing
+> - Track service analytics with cloud database integration 
+
+A quick test shows that the extension works on, for example,
+[map.geo.bs.ch](https://map.geo.bs.ch), [geo.so.ch/map](https://geo.so.ch/map),
+[maps.zh.ch](https://maps.zh.ch/), [geo.zh.ch/maps](https://geo.zh.ch/maps), 
+[zugmap.ch](https://zugmap.ch/), and 
+[map.geo.admin.ch](https://map.geo.admin.ch), not, however, on 
+[map.geo.tg.ch](https://map.geo.tg.ch).
+ 
