@@ -1,0 +1,36 @@
+---
+title: "OMF launches GERS"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-06-28 14:42"
+image: "gers.jpg"
+description: "The #Overture Maps Foundation (#OMF) is launching its Global 
+Entity Reference System #GERS, assigning unique IDs to billions of geospatial 
+features. Users can use GERS IDs to reference OMF features in their own data 
+and bridge files to connect to the data sources used for OMF's data."
+---
+
+The [Overture Maps Foundation](https://overturemaps.org/) (OMF) announces the 
+launch of its [Global Entity Reference System](https://overturemaps.org/gers/) 
+(GERS). The addition of GERS IDs to features in OMF's datasets is meant to make 
+data integration and augmentation (where additional data is added or joined to 
+geospatial entities) easier:
+
+> GERS IDs are a defining characteristic of Overture’s open map datasets. 
+> Each "entity" in the base maps carries a unique ID, including 2.6 billion 
+> buildings, 64 million places, nearly 447 million addresses, and 321 million 
+> road segments. (...) By incorporating GERS IDs into any data that needs to 
+> be associated with those base layers, users can easily combine relevant data 
+> to build richer applications.   
+
+![Global Entity Reference System (GERS) (source: OMF)](gers.jpg "Global Entity Reference System (GERS) (source: OMF)")
+
+There are several articles that may be interesting with respect to this: 
+
+- the 
+[article with the announcement](https://overturemaps.org/announcements/2025/overture-maps-launches-gers-a-global-standard-for-interoperable-geospatial-ids-to-drive-data-interoperability/), 
+- an [article explaining the GER system](https://overturemaps.org/blog/2025/understanding-overtures-global-entity-reference-system/), and 
+- an [article explaining "bridge files"](https://overturemaps.org/blog/2025/introducing-bridge-files/) 
+that allow linking OMF input datasets^[such as OpenStreetMap, Esri, Microsoft 
+and other data] to the resulting data through GERS.
