@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Thu, 26 Jun 2025 22:12:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 28 Jun 2025 14:42:00 GMT</lastBuildDate>
+<item>
+  <title>OMF launches GERS</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/06/28-omf-launches-gers/</link>
+  <description><![CDATA[ The #Overture Maps Foundation (#OMF) is launching its Global Entity Reference System #GERS, assigning unique IDs to billions of geospatial features. Users can use GERS IDs to reference OMF features in their own data and bridge files to connect to the data sources used for OMF’s data. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/06/28-omf-launches-gers/</guid>
+  <pubDate>Sat, 28 Jun 2025 14:42:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/06/28-omf-launches-gers/gers.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Tool tip: Geo Hound</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/05/23-easily-obtain-osm-and-omf-data/</guid>
   <pubDate>Fri, 23 May 2025 15:54:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/05/23-easily-obtain-osm-and-omf-data/kraina-tools.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Interlis User Group Meeting: Call for topics</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05/22-interlis-user-group-meeting-call-for-topics/</link>
-  <description><![CDATA[ This fall, the 5th #Interlis User Group Meeting will be held. Discussion topics and questions can be submitted via the Interlis Forum. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05/22-interlis-user-group-meeting-call-for-topics/</guid>
-  <pubDate>Thu, 22 May 2025 17:25:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05/22-interlis-user-group-meeting-call-for-topics/interlis.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
