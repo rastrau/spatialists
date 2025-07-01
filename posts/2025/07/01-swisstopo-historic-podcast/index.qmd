@@ -1,0 +1,31 @@
+---
+title: "Swisstopo Historic podcast"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-07-01 20:46"
+image: "operator-using-scitex.jpg"
+description: 'Under the moniker "swisstopo historic", #swisstopo produces a #podcast about the history of #cartography and #geoinformation, now in its fourth season with themes ranging from water on maps to national boundaries. Alongside the podcast, they also share blog posts, media coverage, and interactive storytelling pieces on geospatial history.'
+
+---
+
+This only came to my attention today: Under the moniker 
+"[swisstopo historic](https://www.swisstopohistoric.ch)", swisstopo produces a 
+podcast about the history of cartography and geoinformation, as well as other content 
+such as [blog posts](https://www.swisstopohistoric.ch/de/text-und-ton/blog-101.html), [coverage in the media](https://www.swisstopohistoric.ch/de/ueber-uns/beitraege-aus-den-medien-37.html) and 
+"scrollytelling" stories (for example, 
+[this one](https://www.swisstopohistoric.ch/de/archiv/die-digitalisierung-der-landestopografie-(1960-1980)-126.html)). 
+
+![In the mid-1960s, the Swiss army feared that low-flying enemy fighter planes could carry out undetected attacks within Switzerland. This was the main reason for the development of the first digital elevation model, RIMINI. The digital elevation model was designed to help position air defense and radar systems. Between 1966 and 1968, 60 soldiers compiled the data required for RIMINI based on the 1:25,000 national map. (source: [swisstopo historic](https://www.swisstopohistoric.ch))](rimini.jpg "In the mid-1960s, the Swiss army feared that low-flying enemy fighter planes could carry out undetected attacks within Switzerland. This was the main reason for the development of the first digital elevation model, RIMINI. The digital elevation model was designed to help position air defense and radar systems. Between 1966 and 1968, 60 soldiers compiled the data required for RIMINI based on the 1:25,000 national map. (source: swisstopo historic)")
+
+![Digital cartography operator using the [Scitex system](https://www.exscite.org/2013/06/22/scitex-response-250-cartography-market/) (source: [swisstopo historic](https://www.swisstopohistoric.ch))](operator-using-scitex.jpg "Digital cartography operator using the Scitex system (source: swisstopo historic)")
+
+The podcast is now in its fourth season, with the following themes per season:
+
+- [Season 1: Water on historic maps](https://soundcloud.com/user-145659227)
+- [Season 2: Human and mechanical computers](https://soundcloud.com/user-145659227)
+- [Season 3: Names on maps](https://soundcloud.com/user-145659227)
+- [Season 4: National boundary](https://www.swisstopohistoric.ch/de/aktuelles-thema-8.html)
+
+As far as I have seen, the podcast episodes are in (standard) German, also the 
+one about [standard French and Patois](https://soundcloud.com/user-145659227/namen-auf-karten-hochfranzosisch-oder-patois-s3-e2).
