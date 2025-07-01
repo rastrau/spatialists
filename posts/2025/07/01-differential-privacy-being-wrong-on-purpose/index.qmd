@@ -1,0 +1,21 @@
+---
+title: "Differential privacy: Being wrong on purpose"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-07-01 22:00"
+image: "monowi.jpg"
+description: "How do you protect the #privacy of the subjects of #statistics and #data? – By adding controlled #noise. The blog Ironic Sans has an interesting and somewhat funny account of the ramifications of the application of #differentialprivacy in the context of the 2020 U.S. #Census."
+---
+
+From [Ironic Sans](https://ironicsans.beehiiv.com)^[Self-description: "An unconventional look at culture, popular and otherwise."] comes a fascinating [account on how the U.S. Census implements differential privacy](https://ironicsans.beehiiv.com/p/us-census-wrong-purpose). Very simply put, differential privacy is a mechanism (algorithm) for protecting privacy in datasets by adding controlled noise to results of analyses without degrading the usefulness of the results too much. A much more in-depth understanding of the concept and its implementation can be gained, for example, from [this very good resource](https://programming-dp.com/ch3.html).
+
+From [Ironic Sans](https://ironicsans.beehiiv.com/p/us-census-wrong-purpose):
+
+> This is a story about data manipulation. But it begins in a small Nebraska town called Monowi that has only one resident, 90 year old Elsie Eiler. There used to be more people in Monowi. But little by little, the other residents of Monowi left or died. (...) 
+>  
+> But then suddenly in 2021, there was a new wrinkle: According to the just-published 2020 U.S. Census data, Monowi now had 2 residents, doubling its population. This came as a surprise to Elsie, who told a local newspaper, “Then someone’s been hiding from me, and there’s nowhere to live but my house.”
+
+[![Monowi, population of 1, in Google StreetView](monowi.jpg "Monowi, population of 1, in Google StreetView")](https://ironicsans.beehiiv.com/p/us-census-wrong-purpose)
+
+Similar mechanisms for protecting the privacy of subjects of official statistics and geodata are in place in Switzerland (for example, [EN](https://www.bfs.admin.ch/bfs/en/home/services/geostat/swiss-federal-statistics-geodata/population-buildings-dwellings-persons/population-housholds-from-2010.html)/[DE](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/geostat/geodaten-bundesstatistik/gebaeude-wohnungen-haushalte-personen/bevoelkerung-haushalte-ab-2010.html)/[FR](https://www.bfs.admin.ch/bfs/fr/home/services/geostat/geodonnees-statistique-federale/batiments-logements-menages-personnes/population-menages-depuis-2010.html)) and other countries.
