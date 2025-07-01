@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Sat, 28 Jun 2025 14:42:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 01 Jul 2025 20:46:00 GMT</lastBuildDate>
+<item>
+  <title>Swisstopo Historic podcast</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/07/01-swisstopo-historic-podcast/</link>
+  <description><![CDATA[ Under the moniker “swisstopo historic”, #swisstopo produces a #podcast about the history of #cartography and #geoinformation, now in its fourth season with themes ranging from water on maps to national boundaries. Alongside the podcast, they also share blog posts, media coverage, and interactive storytelling pieces on geospatial history. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/07/01-swisstopo-historic-podcast/</guid>
+  <pubDate>Tue, 01 Jul 2025 20:46:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/07/01-swisstopo-historic-podcast/operator-using-scitex.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>OMF launches GERS</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/05/26-interlis-uml-diagrams-in-vs-code/</guid>
   <pubDate>Mon, 26 May 2025 17:55:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/05/26-interlis-uml-diagrams-in-vs-code/ARA_DB_REP_V1_2.ili-diagram.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Easily obtain OSM and OMF data</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05/23-easily-obtain-osm-and-omf-data/</link>
-  <description><![CDATA[ #Python and CLI tools #QuackOSM and #OvertureMaestro offer easier access to data from #OpenStreetMap (#OSM) and the Overture Maps Foundation (#OMF) through #PyArrow, #GeoParquet, or #DuckDB. These tools can simplify large-scale geospatial data tasks for seamless data engineering and analysis. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05/23-easily-obtain-osm-and-omf-data/</guid>
-  <pubDate>Fri, 23 May 2025 15:54:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05/23-easily-obtain-osm-and-omf-data/kraina-tools.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
