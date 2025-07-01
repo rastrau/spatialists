@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Tue, 01 Jul 2025 20:46:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 01 Jul 2025 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Differential privacy: Being wrong on purpose</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/07/01-differential-privacy-being-wrong-on-purpose/</link>
+  <description><![CDATA[ How do you protect the #privacy of the subjects of #statistics and #data? – By adding controlled #noise. The blog Ironic Sans has an interesting and somewhat funny account of the ramifications of the application of #differentialprivacy in the context of the 2020 U.S. #Census. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/07/01-differential-privacy-being-wrong-on-purpose/</guid>
+  <pubDate>Tue, 01 Jul 2025 22:00:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/07/01-differential-privacy-being-wrong-on-purpose/monowi.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Swisstopo Historic podcast</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/05/27-overture-on-open-interoperable-geodata/</guid>
   <pubDate>Tue, 27 May 2025 22:51:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/05/27-overture-on-open-interoperable-geodata/anderson-2025-overture.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Interlis UML diagrams in VS Code</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05/26-interlis-uml-diagrams-in-vs-code/</link>
-  <description><![CDATA[ #geowerkstatt has updated their open-source plug-in “#INTERLIS 2” for Microsoft #VSCode. The plug-in now supports drawing the #UML class diagram of Interlis models. It still also offers: syntax highlighting, snippets, and #Markdown documentation. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05/26-interlis-uml-diagrams-in-vs-code/</guid>
-  <pubDate>Mon, 26 May 2025 17:55:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05/26-interlis-uml-diagrams-in-vs-code/ARA_DB_REP_V1_2.ili-diagram.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
