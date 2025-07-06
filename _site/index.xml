@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Tue, 01 Jul 2025 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 06 Jul 2025 21:38:00 GMT</lastBuildDate>
+<item>
+  <title>GeoParquet and Iceberg vs. OGC API-Features</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/07/06-geoparquet-and-iceberg-vs-ogc-api-features/</link>
+  <description><![CDATA[ Ingo Simonis, Chief Technology Innovation Officer at #OGC, has published an article asking the question “Does #GeoParquet Replace OGC API-Features?”. The article positions GeoParquet (and #Apache #Iceberg) vis-à-vis OGC API-Features, the successor of WFS 2.0. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/07/06-geoparquet-and-iceberg-vs-ogc-api-features/</guid>
+  <pubDate>Sun, 06 Jul 2025 21:38:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/07/06-geoparquet-and-iceberg-vs-ogc-api-features/geoparquet-vs-api-features.png" medium="image" type="image/png" height="90" width="144"/>
+</item>
 <item>
   <title>Differential privacy: Being wrong on purpose</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/05/28-gedtm30-global-30-meter-terrain-data/</guid>
   <pubDate>Wed, 28 May 2025 19:35:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/05/28-gedtm30-global-30-meter-terrain-data/maximum-curvature.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Overture on open, interoperable geodata</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05/27-overture-on-open-interoperable-geodata/</link>
-  <description><![CDATA[ #Grid features an interesting interview with Jennings Anderson, a #Meta Software Engineer and #OpenStreetMap (#OSM) researcher, who shares his perspective on the #Overture Maps Foundation (#OMF) — an initiative aiming to integrate diverse open geodata into a consistent base map. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05/27-overture-on-open-interoperable-geodata/</guid>
-  <pubDate>Tue, 27 May 2025 22:51:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05/27-overture-on-open-interoperable-geodata/anderson-2025-overture.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
