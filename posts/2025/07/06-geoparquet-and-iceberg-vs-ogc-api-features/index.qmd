@@ -1,0 +1,20 @@
+---
+title: "GeoParquet and Iceberg vs. OGC API-Features"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-07-06 21:38"
+image: "geoparquet-vs-api-features.png"
+description: 'Ingo Simonis, Chief Technology Innovation Officer at #OGC, has published an article asking the question "Does #GeoParquet Replace OGC API-Features?". The article positions GeoParquet (and #Apache #Iceberg) vis-à-vis OGC API-Features, the successor of WFS 2.0.'
+---
+
+![Dividing the world between themselves? (source: Ingo Simonis)](geoparquet-vs-api-features.png "Dividing the world between themselves? (source: Ingo Simonis)")
+
+[Ingo Simonis](https://www.linkedin.com/in/ingosimonis/), Chief Technology Innovation Officer at [OGC](https://www.ogc.org), has published an article asking the question "[Does GeoParquet Replace OGC API-Features?](https://www.linkedin.com/pulse/does-geoparquet-replace-ogc-api-features-ingo-simonis-oaiee/)". It's an interesting short read that positions GeoParquet (and Apache Iceberg) vis-à-vis OGC API-Features (the successor of WFS 2.0):
+
+> In practice, you might store data as GeoParquet files managed through 
+> Apache Iceberg, performing large-scale analytics and incremental updates
+> directly. Then, leverage OGC API-Features to serve dynamic spatial subsets,
+> historical queries, or real-time integrations from Iceberg tables.
+
+Be sure to [also read the comments](https://www.linkedin.com/pulse/does-geoparquet-replace-ogc-api-features-ingo-simonis-oaiee/).^[It seems you need to be logged in on LinkedIn to see all comments.]
