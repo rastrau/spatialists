@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Sun, 06 Jul 2025 21:38:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 08 Jul 2025 18:52:00 GMT</lastBuildDate>
+<item>
+  <title>ETH Zurich to build an EO competence center for CHF 100 Mio.</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/07/08-eth-zurich-to-build-an-eo-competence-center-for-chf-100-mio/</link>
+  <description><![CDATA[ ETH Zurich has received a landmark 100 million Swiss Franc donation to launch the Swiss #GeoLab, an #EarthObservation center in Lucerne led by Thomas Zurbuchen and Verena Griess. The center will tackle challenges from natural disasters to agricultural yield prediction, marking a major boost for environmental research. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/07/08-eth-zurich-to-build-an-eo-competence-center-for-chf-100-mio/</guid>
+  <pubDate>Tue, 08 Jul 2025 18:52:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/07/08-eth-zurich-to-build-an-eo-competence-center-for-chf-100-mio/imaginearth-la-terre-en-images-opZ--yE1-hg-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>GeoParquet and Iceberg vs. OGC API-Features</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/06-01-3d-reconstruction-of-birch-glacier-collapse/</guid>
   <pubDate>Sun, 01 Jun 2025 10:29:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/06-01-3d-reconstruction-of-birch-glacier-collapse/srf-birch-glacier-collapse.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>GEDTM30: Global 30 meter terrain data</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/05/28-gedtm30-global-30-meter-terrain-data/</link>
-  <description><![CDATA[ A team of researchers has released #GEDTM30, a global #DigitalTerrainModel with 30-meter (1 arcsecond) resolution, generated through #MachineLearning fusion of various data sources, and accompanied by 15 geomorphometric parameters computed at multiple spatial scales. Published under a CC-BY license, GEDTM30 offers open, high-resolution global terrain data and is accessible as cloud-optimized #GeoTIFF-s (#COG) via Zenodo and OpenLandMap. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/05/28-gedtm30-global-30-meter-terrain-data/</guid>
-  <pubDate>Wed, 28 May 2025 19:35:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/05/28-gedtm30-global-30-meter-terrain-data/maximum-curvature.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
