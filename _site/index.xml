@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Tue, 08 Jul 2025 18:52:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 08 Jul 2025 22:26:00 GMT</lastBuildDate>
+<item>
+  <title>Improve geodata with crowdsourcing</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/07/08-improve-geodata-with-crowdsourcing/</link>
+  <description><![CDATA[ Graham Park explores how cross-referencing data from #crowdsourcing, like the #STRAVA global heat map, can significantly enhance #OpenStreetMap. He also cautions against mapping informal, private, or temporary features, highlighting both the benefits and limitations of integrating independent data sources for #geodata improvement. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/07/08-improve-geodata-with-crowdsourcing/</guid>
+  <pubDate>Tue, 08 Jul 2025 22:26:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/07/08-improve-geodata-with-crowdsourcing/misaligned-small.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>ETH Zurich to build an EO competence center for CHF 100 Mio.</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/06-02-the-qgis-project-canonical-paper/</guid>
   <pubDate>Mon, 02 Jun 2025 19:58:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/06-02-the-qgis-project-canonical-paper/qgis.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>3D reconstruction of Birch Glacier collapse</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/06-01-3d-reconstruction-of-birch-glacier-collapse/</link>
-  <description><![CDATA[ Last Wednesday, the #Birch Glacier in Switzerland collapsed beneath debris, burying parts of the evacuated village of #Blatten. Using #Swisstopo’s openly available #RapidMapping geodata, professionals quickly produced detailed pre- and post-event textured #3D models and animations, enabling interactive exploration and enhanced understanding of the impacted area. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/06-01-3d-reconstruction-of-birch-glacier-collapse/</guid>
-  <pubDate>Sun, 01 Jun 2025 10:29:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/06-01-3d-reconstruction-of-birch-glacier-collapse/srf-birch-glacier-collapse.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
