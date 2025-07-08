@@ -1,0 +1,35 @@
+---
+title: "Improve geodata with crowdsourcing"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-07-08 22:26"
+image: "misaligned-small.jpg"
+description: "Graham Park explores how cross-referencing data from #crowdsourcing, like the #STRAVA global heat map, can significantly enhance #OpenStreetMap. He also cautions against mapping informal, private, or temporary features, highlighting both the benefits and limitations of integrating independent data sources for #geodata improvement."
+---
+
+[Graham Park](https://www.prograham.net/) has [an interesting article on improving geodata by cross-checking it with independently created data from crowdsourcing](https://www.prograham.net/posts/osm-strava). In his example, he uses data from [STRAVA](https://strava.com)[^Strava] (specifially, the STRAVA global heat map) to improve data in OpenStreet (OSM). 
+
+He carefully [lists some interesting use-cases](https://www.prograham.net/posts/osm-strava):
+
+- Correcting misaligned paths
+- Finding missing paths (that are hard to make it out in imagery alone)
+- Finding obstructed paths (for example, covered by vegetation)
+
+... as well as a few non-use-cases (or: "gotchas", as he calls them) for using STRAVA data to improve OSM. In the latter cases a path may be visible in STRAVA, but, for various reasons, should not be mapped in OSM:
+
+- Informal or inofficial paths 
+- Private paths
+- Temporary paths (Graham's post notes a likely temporary race course as a demonstrative example)
+
+![Misaligned paths (source: Graham Park)](misaligned.jpg "Misaligned paths (source: Graham Park)")
+
+![Paths that are hard to find in imagery (top), are easily discernible in STRAVA data (bottom) (source: Graham Park)](hard-to-find.jpg "Paths that are hard to find in imagery (top), are easily discernible in STRAVA data (bottom) (source: Graham Park)")
+
+![Similarly, obstructed paths can be more visible in STRAVA data (bottom) than in imagery (top) (source: Graham Park)](obstructed.jpg "Similarly, obstructed paths can be more visible in STRAVA data (bottom) than in imagery (top) (source: Graham Park)")
+
+If you contribute to OSM and want to try using STRAVA data, the OSM Wiki has a [setup guide](https://wiki.openstreetmap.org/wiki/Strava#Browser_Extension). 
+
+This reminds me a lot of one of the first professional reports I co-authored on the "Use of crowdsourcing and data mashups" (it was the era of "neogeo" (vs. "paleogeo"), geoweb, web 2.0, etc.). I suspect, to this day, there may very well still be un(der)used potential in crowdsourced data (or whatever you may prefer to call it these days) for geodata creation and maintenance.
+
+[^Strava]: STRAVA is one of the world's foremost exercise tracking apps with dozens of millions of users and billions of recorded activies. By the way, the name comes from the Swedish "sträva", which means "strive".
