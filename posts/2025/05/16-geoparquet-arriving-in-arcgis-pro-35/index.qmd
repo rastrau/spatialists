@@ -4,7 +4,7 @@ author:
   - name: Ralph Straumann
     url: https://ralphstraumann.ch
 date: "2025-05-16 17:43"
-image: "../../../assets/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
+image: "../../../../assets/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
 description: "With version 3.5, users can now natively work with #GeoParquet files in #ArcGIS Pro, either by creating multifile feature connections or by accessing individual #Parquet files stored locally or in Amazon #S3. This streamlines the integration of #cloudnative data, though currently with specific requirements and limitations."
 ---
 
