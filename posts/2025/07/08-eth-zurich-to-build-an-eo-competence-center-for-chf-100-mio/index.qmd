@@ -1,0 +1,23 @@
+---
+title: "ETH Zurich to build an EO competence center for CHF 100 Mio."
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-07-08 18:52"
+image: "imaginearth-la-terre-en-images-opZ--yE1-hg-unsplash.jpg"
+description: "ETH Zurich has received a landmark 100 million Swiss Franc donation to launch the Swiss #GeoLab, an #EarthObservation center in Lucerne led by Thomas Zurbuchen and Verena Griess. The center will tackle challenges from natural disasters to agricultural yield prediction, marking a major boost for environmental research."
+---
+
+The [Jörg G. Bucherer Foundation](https://en.joerg-g-bucherer-stiftung.ch/) donated 100 million Swiss Francs to the ETH Zurich^[ETHZ, the Zurich branch of the Swiss Federal Institute for Technology] for establishing an EO^[Earth observation] competence center based in Lucerne. The center is named "Swiss GeoLab" and will be led by [Thomas Zurbuchen](https://en.wikipedia.org/wiki/Thomas_Zurbuchen)[^Zurbuchen] and [Verena Griess](https://de.wikipedia.org/wiki/Verena_Griess)[^Griess].
+
+ETH Zurich has an [interview with the ETH president, Joël Mesot, with more information on this development](https://ethz.ch/staffnet/en/news-and-events/internal-news/archive/2025/07/eth-swiss-geo-lab-will-put-us-among-the-worlds-leaders-in-earth-observation.html):
+
+> ETH Swiss GeoLab intends to use data from space, from the air and on the ground as well as AI-supported analysis methods to better understand our planet and overcome specific challenges. The spectrum of possible research topics is broad: It extends from the early detection of natural disasters, such as the landslides that recently hit the Swiss municipalities of Blatten and Brienz, to predicting agricultural yields to help farmers with their planning.
+
+Big picture: Good to see more funding going into EO.
+
+[^Zurbuchen]: Director of ETH Zurich Space and former Associate Administrator for the Science Mission Directorate at NASA
+[^Griess]: Professor of Forest Resource Management at ETH Zurich
+
+
+
