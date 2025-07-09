@@ -1,0 +1,21 @@
+---
+title: "wanderer: Decentralized trail database"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-07-09 17:26"
+image: "wanderer-logo.png"
+description: "#wanderer is a new, #opensource, #decentralized #trail database where you can upload tracks (or import them from #STRAVA or #Komoot), create or share routes, and connect with communities through #ActivityPub-powered #federation."
+---
+
+[wanderer](https://wanderer.to/) is a new^[v0.17.1 – early days] decentralized[^decentralized] trail database. You can upload GNSS^[Global Navigation Satellite System] tracks of your activities, add metadata, and create routes.
+
+![The interface of wanderer](wanderer.jpg "The interface of wanderer")
+
+There is a social element as well: Similarly to other platforms, on [wanderer](https://wanderer.to/), you can follow other users, see their activities, and like and comment on trails. [wanderer](https://wanderer.to/) also supports importing activity histories from other platforms such as STRAVA or Komoot. 
+
+{{< video https://wanderer.to/trailer.mp4 >}}
+
+Looks like an interesting addition to the growing [decentralized web](https://en.wikipedia.org/wiki/Decentralized_web) and to [digital self-determination](https://en.wikipedia.org/wiki/Digital_self-determination).
+
+[^decentralized]: wanderer is [open-source](https://github.com/Flomp/wanderer) under AGPL v3. If you like, you can self-host a [wanderer instance](https://wanderer.to/servers) (server). wanderer uses the [ActivityPub protocol](https://en.wikipedia.org/wiki/ActivityPub), meaning your instance can connect with others to share trail information, user profile data, and updates. Users from different instances can connect across the network of wanderer communities (there is no central node) and even interact with other federated platforms like [Mastodon](https://joinmastodon.org/).
