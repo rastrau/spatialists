@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Tue, 08 Jul 2025 22:26:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 09 Jul 2025 17:26:00 GMT</lastBuildDate>
+<item>
+  <title>wanderer: Decentralized trail database</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/07/09-wanderer-decentralized-trail-database/</link>
+  <description><![CDATA[ #wanderer is a new, #opensource, #decentralized #trail database where you can upload tracks (or import them from #STRAVA or #Komoot), create or share routes, and connect with communities through #ActivityPub-powered #federation. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/07/09-wanderer-decentralized-trail-database/</guid>
+  <pubDate>Wed, 09 Jul 2025 17:26:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/07/09-wanderer-decentralized-trail-database/wanderer-logo.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Improve geodata with crowdsourcing</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/06-03-3d-mode-and-customer-survey-for-zugmap/</guid>
   <pubDate>Tue, 03 Jun 2025 17:58:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/06-03-3d-mode-and-customer-survey-for-zugmap/zugmap-3d.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>The QGIS project: Canonical paper</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/06-02-the-qgis-project-canonical-paper/</link>
-  <description><![CDATA[ The story behind #QGIS: The new canonical open-access paper, “The QGIS project: Spatial without compromise,” authored by core members of the QGIS Project Steering Committee, Anita Graser, Tim Sutton, and Marco Bernasocchi, explores the evolution of the QGIS project, its organizational structure, and future challenges. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/06-02-the-qgis-project-canonical-paper/</guid>
-  <pubDate>Mon, 02 Jun 2025 19:58:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/06-02-the-qgis-project-canonical-paper/qgis.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
