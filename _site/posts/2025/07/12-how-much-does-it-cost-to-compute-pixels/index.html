@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ralph Straumann">
+<meta name="dcterms.date" content="2025-07-12">
+<meta name="description" content="What are the economics of using Google Earth Engine (#GEE) for Earth observation vs.&nbsp;a self-operated #EO pipeline? – Christoph Ren analyzes GEE’s pricing structure and finds it mis-priced when used as an imagery pipeline.">
 
-<title>Contribute – Spatialists – geospatial news</title>
+<title>How much does it cost to compute pixels? – Spatialists – geospatial news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./assets/favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d37a41727e4f93f30118ee0bfac05f63.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<link href="../../../../assets/favicon.png" rel="icon" type="image/png">
+<script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-d37a41727e4f93f30118ee0bfac05f63.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -111,23 +115,25 @@ ul.task-list li input[type="checkbox"] {
 <!-- End Matomo Code -->
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Contribute – Spatialists – geospatial news">
-<meta property="og:description" content="A blog for geospatial professionals">
+<link rel="stylesheet" href="../../../../styles.css">
+<meta property="og:title" content="How much does it cost to compute pixels? – Spatialists – geospatial news">
+<meta property="og:description" content="What are the economics of using Google Earth Engine (#GEE) for Earth observation vs.&nbsp;a self-operated #EO pipeline? – Christoph Ren analyzes GEE’s pricing structure and finds it mis-priced when used as an imagery pipeline.">
+<meta property="og:image" content="https://spatialists.ch/posts/2025/07/12-how-much-does-it-cost-to-compute-pixels/javier-miranda-AlJ9TQqeCV0-unsplash.jpg">
 <meta property="og:site_name" content="Spatialists – geospatial news">
-<meta name="twitter:title" content="Contribute – Spatialists – geospatial news">
-<meta name="twitter:description" content="A blog for geospatial professionals">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How much does it cost to compute pixels? – Spatialists – geospatial news">
+<meta name="twitter:description" content="What are the economics of using Google Earth Engine (#GEE) for Earth observation vs.&nbsp;a self-operated #EO pipeline? – Christoph Ren analyzes GEE’s pricing structure and finds it mis-priced when used as an imagery pipeline.">
+<meta name="twitter:image" content="https://spatialists.ch/posts/2025/07/12-how-much-does-it-cost-to-compute-pixels/javier-miranda-AlJ9TQqeCV0-unsplash.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">Spatialists – geospatial news</span>
     </a>
   </div>
@@ -138,19 +144,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./subscribe.html"> 
+    <a class="nav-link" href="../../../../subscribe.html"> 
 <span class="menu-text">Subscribe</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./follow.html"> 
+    <a class="nav-link" href="../../../../follow.html"> 
 <span class="menu-text">Follow</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./contribute.html" aria-current="page"> 
+    <a class="nav-link" href="../../../../contribute.html"> 
 <span class="menu-text">Contribute</span></a>
   </li>  
 </ul>
@@ -161,40 +167,84 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">How much does it cost to compute pixels?</h1>
+                  <div>
+        <div class="description">
+          What are the economics of using Google Earth Engine (#GEE) for Earth observation vs.&nbsp;a self-operated #EO pipeline? – Christoph Ren analyzes GEE’s pricing structure and finds it mis-priced when used as an imagery pipeline.
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://ralphstraumann.ch">Ralph Straumann</a> </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">July 12, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Contribute</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header> 
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>On this site, I aim to share interesting (to me) news in the geospatial domain. Do you have something you would like to share with the audience of spatialists.ch?</p>
-<p><strong>You can submit a post or post idea through <a href="https://github.com/rastrau/spatialists/issues/new?template=submit-post.yml">GitHub</a>.</strong></p>
-<p>By submitting material you confirm that:</p>
-<ul>
-<li>You have the right to submit it.</li>
-<li>You will be listed as the author of the post.</li>
-<li>You understand and agree that this project, spatialists.ch, and thus your contribution is public and that a record of the contribution including all personal information you submit with it is maintained indefinitely and may be redistributed consistent with this project and the license(s) involved.</li>
-</ul>
-<p><a href="mailto:mail@ralphstraumann.ch">Reach out</a> with any questions.</p>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
-</main></div>
-    </div>
-  </div>
+
+
+
+<p>Christopher Ren has <a href="https://christopherren.substack.com/p/the-economics-of-earth-engine">an interesting article on the cost of using the Earth observation (EO) / remote sensing cloud computing platform <em>du jour</em></a>, <a href="https://en.wikipedia.org/wiki/Google_Earth#Google_Earth_Engine">Google Earth Engine</a> (GEE). In it, he compares a GEE task with building, maintaining and running a custom EO analysis pipeline:</p>
+<blockquote class="blockquote">
+<p>There is of course a final option: roll your own! Yes, writing GDAL is scary, wrangling AWS Batch/Lambda is scary, scaling compute and storage access is scary, and geospatial data engineers are expensive! However you may be surprised to find that under some conditions, this might be the most economical solution.</p>
+</blockquote>
+<p>The pricing of GEE is quite intricate: base fee with included batch credits and online credits, Earth Engine Compute Units (EECU), and tiered usage fees as well as tiered pricing.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>From the <a href="https://christopherren.substack.com/p/the-economics-of-earth-engine">article</a>:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://christopherren.substack.com/p/the-economics-of-earth-engine"><img src="gee-vs-eo-pipeline.png" title="Comparison of the cumulative cost of operation of a GEE task and a custom EO pipeline (source: Christpher Ren)" class="img-fluid figure-img"></a></p>
+<figcaption>Comparison of the cumulative cost of operation of a GEE task and a custom EO pipeline (source: Christpher Ren)</figcaption>
+</figure>
 </div>
- <!-- /main -->
+<blockquote class="blockquote">
+<p>It’s interesting to note that except that even with these fairly generous assumptions: that my extrapolation is off by a factor of 4, that the custom pipeline takes double the amount of time to set up and maintain, the cost of running this process of GEE very quickly outstrips the cost of the custom pipeline. This tells us that GEE is fundamentally mis-priced (…). (…) GEE is expensive, if you use it as an imagery pipeline. Of course the magic of GEE is that you can do so, so much with it.</p>
+</blockquote>
+
+
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>As Christopher Ren points out in his article, figuring out the price of an intended usage is <a href="https://github.com/google/Xee/issues/104#issuecomment-1836723072">by no means trivial</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

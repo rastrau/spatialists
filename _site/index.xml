@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Wed, 09 Jul 2025 17:26:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 12 Jul 2025 23:24:00 GMT</lastBuildDate>
+<item>
+  <title>How much does it cost to compute pixels?</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/07/12-how-much-does-it-cost-to-compute-pixels/</link>
+  <description><![CDATA[ What are the economics of using Google Earth Engine (#GEE) for Earth observation vs. a self-operated #EO pipeline? – Christoph Ren analyzes GEE’s pricing structure and finds it mis-priced when used as an imagery pipeline. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/07/12-how-much-does-it-cost-to-compute-pixels/</guid>
+  <pubDate>Sat, 12 Jul 2025 23:24:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/07/12-how-much-does-it-cost-to-compute-pixels/javier-miranda-AlJ9TQqeCV0-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>wanderer: Decentralized trail database</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/06-07-gdal-modernization-webinar-and-faq/</guid>
   <pubDate>Sat, 07 Jun 2025 11:17:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/06-07-gdal-modernization-webinar-and-faq/gdal.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>3D mode and customer survey for ZugMap</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/06-03-3d-mode-and-customer-survey-for-zugmap/</link>
-  <description><![CDATA[ Two decades after its debut, the canton of #Zug unveils #ZugMap’s new #3D mode and various 3D datasets. Users can test the ZugMap 3D experience and help shape its future by participating in the canton’s user survey. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/06-03-3d-mode-and-customer-survey-for-zugmap/</guid>
-  <pubDate>Tue, 03 Jun 2025 17:58:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/06-03-3d-mode-and-customer-survey-for-zugmap/zugmap-3d.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
