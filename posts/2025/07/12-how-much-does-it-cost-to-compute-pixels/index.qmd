@@ -1,0 +1,26 @@
+---
+title: "How much does it cost to compute pixels?"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-07-12 23:24"
+image: "javier-miranda-AlJ9TQqeCV0-unsplash.jpg"
+description: "What are the economics of using Google Earth Engine (#GEE) for Earth observation vs. a self-operated #EO pipeline? – Christoph Ren analyzes GEE’s pricing structure and finds it mis-priced when used as an imagery pipeline."
+---
+
+Christopher Ren has [an interesting article on the cost of using the Earth observation (EO) / remote sensing cloud computing platform *du jour*](https://christopherren.substack.com/p/the-economics-of-earth-engine), [Google Earth Engine](https://en.wikipedia.org/wiki/Google_Earth#Google_Earth_Engine) (GEE). In it, he compares a GEE task with building, maintaining and running a custom EO analysis pipeline:
+
+> There is of course a final option: roll your own! Yes, writing GDAL is scary, wrangling AWS Batch/Lambda is scary, scaling compute and storage access is scary, and geospatial data engineers are expensive! However you may be surprised to find that under some conditions, this might be the most economical solution. 
+
+The pricing of GEE is quite intricate: base fee with included batch credits and online credits, Earth Engine Compute Units (EECU), and tiered usage fees as well as tiered pricing.[^price]
+
+From the [article](https://christopherren.substack.com/p/the-economics-of-earth-engine):
+
+[![Comparison of the cumulative cost of operation of a GEE task and a custom EO pipeline (source: Christpher Ren)](gee-vs-eo-pipeline.png "Comparison of the cumulative cost of operation of a GEE task and a custom EO pipeline (source: Christpher Ren)")](https://christopherren.substack.com/p/the-economics-of-earth-engine)
+
+> It's interesting to note that except that even with these fairly generous assumptions: that my extrapolation is off by a factor of 4, that the custom pipeline takes double the amount of time to set up and maintain, the cost of running this process of GEE very quickly outstrips the cost of the custom pipeline. This tells us that GEE is fundamentally mis-priced (...).
+> (...)
+> GEE is expensive, if you use it as an imagery pipeline. Of course the magic of GEE is that you can do so, so much with it.
+
+[^price]: As Christopher Ren points out in his article, figuring out the price of an intended usage is [by no means trivial](https://github.com/google/Xee/issues/104#issuecomment-1836723072).
+
