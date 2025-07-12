@@ -5,7 +5,7 @@ author:
     url: https://ralphstraumann.ch
 date: "2025-07-12 23:24"
 image: "javier-miranda-AlJ9TQqeCV0-unsplash.jpg"
-description: "What are the economics of using Google Earth Engine (#GEE) for Earth observation vs. a self-operated #EO pipeline? – Christoph Ren analyzes GEE’s pricing structure and finds it mis-priced when used as an imagery pipeline."
+description: "What are the economics of using Google Earth Engine (#GEE) for Earth observation vs. a self-operated #EO pipeline? – Christopher Ren analyzes GEE’s pricing structure and finds it mis-priced when used as an imagery pipeline."
 ---
 
 Christopher Ren has [an interesting article on the cost of using the Earth observation (EO) / remote sensing cloud computing platform *du jour*](https://christopherren.substack.com/p/the-economics-of-earth-engine), [Google Earth Engine](https://en.wikipedia.org/wiki/Google_Earth#Google_Earth_Engine) (GEE). In it, he compares a GEE task with building, maintaining and running a custom EO analysis pipeline:
