@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Sat, 12 Jul 2025 23:24:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 14 Jul 2025 19:24:00 GMT</lastBuildDate>
+<item>
+  <title>From tool knowledge to fundamentals</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/07/14-from-tool-knowledge-to-fundamentals/</link>
+  <description><![CDATA[ A #Thoughtworks team introduces the concept of the “Expert Generalist” — professionals who blend deep expertise in some disciplines with a broad knowledge across multiple domains. The article makes a case for recognizing #expert #generalists as essential to breaking down the silos that often stifle #innovation in tech organizations. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/07/14-from-tool-knowledge-to-fundamentals/</guid>
+  <pubDate>Mon, 14 Jul 2025 19:24:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/07/14-from-tool-knowledge-to-fundamentals/thisisengineering-h6gCRTCxM7o-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>How much does it cost to compute pixels?</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/06-08-isochrone-ch-reachable-areas-using-public-transport/</guid>
   <pubDate>Sun, 08 Jun 2025 15:37:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/06-08-isochrone-ch-reachable-areas-using-public-transport/isochrone-ch.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>GDAL modernization webinar and FAQ</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/06-07-gdal-modernization-webinar-and-faq/</link>
-  <description><![CDATA[ The #GDAL Project Steering Committee recently hosted a webinar highlighting the major #modernization of the GDAL command-line interface, featuring the unification of commands and improved parameter consistency. You can now catch up on all the details through the webinar slides, the recording, and a Q&A summary. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/06-07-gdal-modernization-webinar-and-faq/</guid>
-  <pubDate>Sat, 07 Jun 2025 11:17:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/06-07-gdal-modernization-webinar-and-faq/gdal.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
