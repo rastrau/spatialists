@@ -1,0 +1,32 @@
+---
+title: "From tool knowledge to fundamentals"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-07-14 19:24"
+image: "thisisengineering-h6gCRTCxM7o-unsplash.jpg"
+description: 'A #Thoughtworks team introduces the concept of the "Expert Generalist" — professionals who blend deep expertise in some disciplines with a broad knowledge across multiple domains. The article makes a case for recognizing #expert #generalists as essential to breaking down the silos that often stifle #innovation in tech organizations.'
+---
+
+Unmesh Joshi, Gitanjali Venkatraman, and Martin Fowler (all at [Thoughtworks](https://www.thoughtworks.com)) published [an interesting article about a new class of professional: the Expert Generalist](https://martinfowler.com/articles/expert-generalist.html).
+
+According to their characterization, expert generalists combine:
+
+- curiosity
+- collaborative skills
+- a customer-focused mindset
+- a preference for fundamental knowledge
+- a mix of specialist and generalist skills
+- an understanding of, and sympathy for, related domains
+
+This concept is similar to that of “T-shaped” individuals, but expert generalists do not limit their deep expertise to a single domain. The authors highlight several compelling reasons why expert generalists are important. For example:
+
+> One of the biggest problems with excessive focus on tools and framework expertise is when it is cemented into organizational structures. Teams and organisations get structured around tool expertise, with hardened boundaries making it difficult for people from one team to acquire skills from others. Beyond language preferences like Python or Java, you can see this crystallise in the three most common software verticals – Application Development, Data Engineering, and DevOps. (...) Once these words harden into career lanes, they solidify the very silos that the Agile and DevOps culture was meant to dismantle.
+
+Some key takeaways from the article include:
+
+- We should recognize “Expert Generalist” as a first-class skill
+- Expert Generalists help ensure that complex tasks get done
+- Teams should encompass a mix of Expert Generalists and a few key specialists
+
+ Set aside about 15 minutes for the article — it's [an interesting read](https://martinfowler.com/articles/expert-generalist.html).
