@@ -1,0 +1,21 @@
+---
+title: "Webinar on data integration using Apache Hop"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-07-15 18:04"
+image: "apache-hop-logo.png"
+description: "On August 26, Stefan Keller of FH OST will lead a free webinar focused on (geo)data manipulation and integration using #Apache #Hop, an open-source, low-code platform for building data workflows. The session will also touch on emerging trends in #AI and #LLMs within the data integration space."
+---
+
+On August 26, [Stefan Keller](https://www.linkedin.com/in/stefan-keller-44785a10) of FH OST will host a free [webinar on (geo)data manipulation and integration using Apache Hop](https://www.geowebforum.ch/t/webinar-ki-gestuetzte-enterprise-und-geo-datenintegration-und-apache-hop-26-08-2025-11-12-uhr/1185). 
+
+[Apache Hop](https://hop.apache.org)^["Hop" stands for "Hop Orchestration Platform"; the [recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym) maybe being a nod to "GNU"?] is an open-source platform (under the Apache v2 license) that – in its own words and certainly in the hopes of some industry stakeholders – "aims to be the future of data integration." And: "Hop workflows and pipelines are definitions of how data needs to be processed. Once designed, a pipeline can be executed on any supported runtime. Hop has built-in support to run pipelines locally and remotely in the native Hop runtime, or on Apache Spark, Apache Flink or Google Dataflow through the Apache Beam runtimes." 
+
+Similar to the market leader in this space^[I think...] FME^[Safe Software's Feature Manipulation Engine], Hop workflows are created through a graphical user interface using the drag-and-drop method. Meaning: Hop is a no-code or low-code solution for crafting data workflows.
+
+Besides Apache Hop, the [webinar](https://www.giswiki.ch/KI-gestützte_Enterprise-_und_Geo-Datenintegration_und_Apache_Hop_2025-08) will cover some recent developments around AI^[Artificial intelligence] and LLMs^[Large Language Models] in data integration. [Registration is required](https://www.giswiki.ch/KI-gestützte_Enterprise-_und_Geo-Datenintegration_und_Apache_Hop_2025-08).
+
+![Apache Hop (source: Stefan Keller)](apache-hop.png "Apache Hop (source: Stefan Keller)")
+
+
