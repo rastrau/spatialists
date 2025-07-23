@@ -1,0 +1,23 @@
+---
+title: "Vector tiles for openstreetmap.org"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-07-23 18:25"
+image: "map-geneve.jpg"
+description: "Yesterday, the #OpenStreetMap Foundation (#OSMF) launched #vectortiles on #OSM, delivering a sharper and faster map powered by a new backend. Developers may use the OSMF-hosted tiles under the Vector Tile Usage Policy and apply their own map styles."
+---
+
+Yesterday, the OpenStreetMap Foundation (OSMF) launched vector tiles on the OpenStreetMap (OSM) website <https://openstreetmap.org>:
+
+> Now, with integration of the vector tiles as a feature layer on the OpenStreetMap website, mappers and visitors get a visual layer that is sharper and quicker, based on an entirely new backend.
+
+[![The new map style "Shortbread" (© OpenStreetMap contributors)](map-geneve-center.jpg 'The new map style "Shortbread" (© OpenStreetMap contributors)')]()
+
+In my tests, the new vector tyles were not the default map (yet?). You can see them by choosing the "Shortbread" map style in the menu on the right – or by clicking [this link](https://www.openstreetmap.org/#map=7/46.472/8.734&layers=S).
+
+The tiles use the [Shortbread](https://shortbread-tiles.org/) vector tile schema, and [Tilekiln](https://github.com/pnorman/tilekiln) is used for generating the map tiles in the MVT^[Mapbox Vector Tiles] format. 
+
+Developers can create their own map styles and use the tiles hosted by the OSMF. Of course, fair usage rules apply, as detailed in the [Vector Tile Usage Policy](https://operations.osmfoundation.org/policies/vector/).
+
+Further details can be found in [the announcement on the OSM blog](https://blog.openstreetmap.org/2025/07/22/vector-tiles-are-deployed-on-openstreetmap-org/).
