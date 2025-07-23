@@ -11,7 +11,7 @@ version 2.0 of their interactive GIS #TrendRadar at gistrends.ch, classifying
 levels of maturity. Each entry is evaluated on market penetration, technological maturity, business viability, and user ecosystem.'
 ---
 
-The [SOGI-OSIG[^sogi] GIS Technology Specialist Group](https://www.sogi.ch/en/organization/specialist-groups) has updated their interactive GIS Trend 
+The SOGI-OSIG[^sogi] [GIS Technology Specialist Group](https://www.sogi.ch/en/organization/specialist-groups) has updated their interactive GIS Trend 
 Radar[^german] at [gistrends.ch](https://gistrends.ch) to version 2.0. The 
 radar classifies technologies, paradigms, and concepts into three rings:
 
