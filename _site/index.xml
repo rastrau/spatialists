@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Tue, 15 Jul 2025 18:04:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 23 Jul 2025 18:25:00 GMT</lastBuildDate>
+<item>
+  <title>Vector tiles for openstreetmap.org</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/07/23-vector-tiles-for-openstreetmap-org/</link>
+  <description><![CDATA[ Yesterday, the #OpenStreetMap Foundation (#OSMF) launched #vectortiles on #OSM, delivering a sharper and faster map powered by a new backend. Developers may use the OSMF-hosted tiles under the Vector Tile Usage Policy and apply their own map styles. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/07/23-vector-tiles-for-openstreetmap-org/</guid>
+  <pubDate>Wed, 23 Jul 2025 18:25:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/07/23-vector-tiles-for-openstreetmap-org/map-geneve.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Webinar on data integration using Apache Hop</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/06/10-jrg-2025/</guid>
   <pubDate>Tue, 10 Jun 2025 20:44:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/06/10-jrg-2025/t-fang-q24KCVOaKJ0-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>MDS in geo: An example with Mapillary</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/06/09-mds-in-geo-an-example-with-mapillary/</link>
-  <description><![CDATA[ Two articles by Michaël Galien on #Geotribu showcase how to leverage a Modern Data Stack (#MDS) for processing geospatial data from #Mapillary. The workflow features #dbt, Apache #Airflow, #PostGIS, #SQL, and #Python, highlighting a robust open-source approach to geospatial data engineering. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/06/09-mds-in-geo-an-example-with-mapillary/</guid>
-  <pubDate>Mon, 09 Jun 2025 09:17:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/06/09-mds-in-geo-an-example-with-mapillary/logan-voss-KDtp84BwZNo-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
