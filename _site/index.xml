@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Wed, 23 Jul 2025 18:25:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 23 Jul 2025 19:24:00 GMT</lastBuildDate>
+<item>
+  <title>AI and programming</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/07/23-ai-and-programming/</link>
+  <description><![CDATA[ The rapid progress in #AI sparks diverse and thought-provoking discussions about its role in #programming and skill development. Three recent articles offer interesting, yet differing, perspectives. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/07/23-ai-and-programming/</guid>
+  <pubDate>Wed, 23 Jul 2025 19:24:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/07/23-ai-and-programming/cash-macanaya-X9Cemmq4YjM-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Vector tiles for openstreetmap.org</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/06/13-swissgeo-the-swiss-geospatial-platform/</guid>
   <pubDate>Fri, 13 Jun 2025 12:56:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/06/13-swissgeo-the-swiss-geospatial-platform/swissgeo-logo.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>JRG 2025</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/06/10-jrg-2025/</link>
-  <description><![CDATA[ The program of the fourth Journée Romande de la Géoinformation (#JRG) is published and registration is open. The event takes place on November 13 in Ecublens. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/06/10-jrg-2025/</guid>
-  <pubDate>Tue, 10 Jun 2025 20:44:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/06/10-jrg-2025/t-fang-q24KCVOaKJ0-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
