@@ -1,0 +1,41 @@
+---
+title: "AI and programming"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-07-23 19:24"
+image: "cash-macanaya-X9Cemmq4YjM-unsplash.jpg"
+description: "The rapid progress in #AI sparks diverse and thought-provoking discussions about its role in #programming and skill development. Three recent articles offer interesting, yet differing, perspectives."
+---
+
+The developments in AI^[Artificial intelligence. Or, you know, machine learning and, more specifically, deep learning.] continue at a fast pace. I feel that, besides following updates on the most recent technical developments and testing this or that model, it is also valuable to sometimes take a step back and look at the bigger picture.
+
+The last few days offered several good opportunities for this:
+
+## But Will They?
+
+[tante/Jürgen Geuter](https://tante.cc/about/)[^tante] published a critical article titled "[But Will They?](https://tante.cc/2025/07/21/but-will-they/)". In it, he disagrees with more optimistic ideas that AI tools will help novices in a discipline, for example, in software development, to master their fields. He argues that relying on AI assistants undermines actual skill development in beginners, as they are incentivized to use AI-generated solutions over practicing and learning, resulting in shallow engagement with the craft and ultimately producing lower-quality outcomes:
+
+> So his thought is that giving especially younger, less experienced developers "AI" assistants makes sense to get their feet wet, get into contributing to open source but that the quality of the "AI" systems is not there yet to be used by experienced developers who also might have to shoulder a lot more responsibility for the overall quality of a product. I do absolutely disagree but one has to admit that this sounds very reasonable at first glance.
+
+## Welcoming The Next Generation of Programmers
+
+A few days earlier, [Armin Ronacher](https://lucumr.pocoo.org/about/)[^arminronacher] (referenced in the above article) published the article "[Welcoming The Next Generation of Programmers](https://lucumr.pocoo.org/2025/7/20/the-next-generation/)". In it, he emphasizes the Python community's connection and inclusivity and argues that these qualities will be vital to uphold, as AI tools will bring many new and diverse people into software development. He calls on the community to embrace these (new type of) newcomers, to foster a sense of belonging, and to guide them beyond AI-assisted programming:
+
+> I'm not sure where I first heard it, but I like the idea that you are what you do. If you're painting (even your very first painting) you are a painter. Consequently if you create a program, by hand or with the aid of an agent, you are a programmer. Many people become programmers essentially overnight by picking up one of these tools. Heading to EuroPython this year I worried that the community that shaped me might not be receptive to AI and agentic programming.
+
+## I'm Tired of Talking About AI
+
+Even a bit earlier, [Paddy Carver](https://paddy.carvers.com/)[^paddycarver] published "[I'm Tired of Talking About AI](https://paddy.carvers.com/posts/2025/07/ai/)". In it, he expresses deep fatigue with the ongoing AI hype and debate and rejects adopting AI for programming for various (interesting) reasons. He worries that reliance on AI tools may devalue genuine skill and create a bleak professional future for developers centered on managing and checking AI output:
+
+> The core of programming, to me, is to develop a theory of the system. (...) When talking about this with people, I often describe it as a perspective. Every problem space looks different depending on where you’re viewing it from. Where you view the problem from is your business’ thesis on that problem.
+> 
+> This is, I believe, a solid core of my job, and the LLM is incapable of performing it. It cannot do it for me. It cannot help me do it. There is no shortcut here, I cannot use the forklift to lift the weights for me at the gym.
+
+Three very interesting yet differing and incompatible viewpoints.
+
+[^tante]: Research Director at the media studio ART+COM and freelance consultant, writer, sociotechnologist and keynote speaker focussing on issues at the intersection of technology, society and politics
+
+[^arminronacher]: Open-source developer in the Python ecosystem who created, for example, Flask and Jinja2, and most recently VP of Platform at Sentry
+
+[^paddycarver]: Software developer (currently at Clerk.com), public speaker and author based in Tri-Cities, Washington
