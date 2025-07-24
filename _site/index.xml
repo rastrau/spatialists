@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Wed, 23 Jul 2025 19:24:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 24 Jul 2025 22:29:00 GMT</lastBuildDate>
+<item>
+  <title>A manifesto for the growth of geospatial</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/07/24-a-manifesto-for-the-growth-of-geospatial/</link>
+  <description><![CDATA[ A group of industry leaders at the 2025 #NORTH51 conference is charting a new course for the geospatial sector with their “#GEOFESTO” — a #manifesto outlining five key principles to drive #innovation and #impact in a rapidly changing world. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/07/24-a-manifesto-for-the-growth-of-geospatial/</guid>
+  <pubDate>Thu, 24 Jul 2025 22:29:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/07/24-a-manifesto-for-the-growth-of-geospatial/fara-i4r7AMo9OBQ-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>AI and programming</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/06/14-are-web-maps-a-recession-byproduct/</guid>
   <pubDate>Sat, 14 Jun 2025 16:19:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/06/14-are-web-maps-a-recession-byproduct/dan-meyers-i19ybtJ9L50-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>SWISSGEO, the Swiss geospatial platform</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/06/13-swissgeo-the-swiss-geospatial-platform/</link>
-  <description><![CDATA[ Update from the “#Geoplatform Switzerland” planned in the #SGS strategy and action plans: The platform has got a landing page detailling the idea and next steps. And a name: #SWISSGEO. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/06/13-swissgeo-the-swiss-geospatial-platform/</guid>
-  <pubDate>Fri, 13 Jun 2025 12:56:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/06/13-swissgeo-the-swiss-geospatial-platform/swissgeo-logo.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
