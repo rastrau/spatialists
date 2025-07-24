@@ -1,0 +1,76 @@
+---
+title: "A manifesto for the growth of geospatial"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-07-24 22:29"
+image: "fara-i4r7AMo9OBQ-unsplash.jpg"
+description: 'A group of industry leaders at the 2025 #NORTH51 conference is 
+charting a new course for the geospatial sector with their "#GEOFESTO" — a 
+#manifesto outlining five key principles to drive #innovation and #impact in a 
+rapidly changing world.'
+---
+
+A group of eleven participants[^eleven] from the 2025 NORTH51[^north51] 
+conference have published a 
+[manifesto for the geospatial industry](https://www.n51.ca/blog/geofesto)[^manifesto]. 
+The authors' motivation and ambition are stated as follows (emphasis mine):
+
+> Every headline now has a latitude and longitude. Wildfires darken skies half 
+a continent away, supply chains reroute in hours, and satellite images expose 
+current events before diplomats can draft statements. In this high-velocity 
+world, whoever understands "where" outpaces the competition, protects 
+communities, and shapes policy. 
+> 
+> Geospatial is no longer a specialist’s hobby; it is a critical input to 
+decision-making. This document, a "GEOFESTO," **lays out the principles and 
+emerging trends that let practitioners ride the wave instead of drowning 
+beneath it**.
+
+The group proposes the following five principles:
+
+- **Educate to make spatial literacy universal**
+
+- **Choose collaboration over silos**
+
+- **Commit to open standards**
+
+- **Geospatial as an approach, not a solution**
+
+- **Obsess over outcomes**
+
+Much more is explored in the [manifesto](https://www.n51.ca/blog/geofesto).
+
+I am convinced that manifestos (as well as strategies) – and even more so, 
+the discussions they spark – can truly drive change and help achieve goals 
+that go beyond everyday business.[^manifestos] 
+
+I wonder what should be included in a manifesto for the geospatial industry in 
+Switzerland in 2025.
+
+[^eleven]: [Kurtis Broda](https://www.linkedin.com/in/kurtisbroda), 
+[Jon Neufeld](https://www.linkedin.com/in/jonneufeld), 
+[Tammy Peterson](https://www.linkedin.com/in/tammylpeterson/), 
+[Tee Barr](https://www.linkedin.com/in/teebarr/), 
+[Ben Tuttle](https://www.linkedin.com/in/benjamintuttle/), 
+[Cade Justad-Sandberg](https://www.linkedin.com/in/cadejs), 
+[Kyle Ryan](https://www.linkedin.com/in/kyleryan1590/), 
+[Sarah Pryor](https://www.linkedin.com/in/sarahpryor1), 
+[Andrew House](https://www.linkedin.com/in/andrew-house-6b34a013/), 
+[Will Cadell](https://www.linkedin.com/in/willcadell/), 
+[Sam Rondeel](https://www.linkedin.com/in/sam-rondeel-p-eng-0b1bb589/)
+
+[^north51]: NORTH51 is an annual conference in Canada, a 
+[self-described](https://www.n51.ca/who-we-are) "dynamic gathering that 
+embodies the spirit of modernization in the geospatial industry (...) [uniting] 
+entrepreneurs passionate about bringing a platform to the industry to share 
+grand, global, market-changing ideas."
+
+[^manifesto]: They call it "GEOFESTO", thankfully with a self-aware irony: 
+"Paying homage to our community’s insistence on adding the prefix “geo” to 
+almost any word. (...)"
+
+[^manifestos]: Hence, I have written or co-written some manifestos myself, for 
+example the [GeoBeer Manifesto](https://geobeer.ch/manifesto.html) (2013), the 
+[Data Worker's Manifesto](https://digital.ebp.ch/2014/09/19/the-data-workers-manifesto/) 
+(2014), and "[Connecting the Dots](https://digital.ebp.ch/2024/10/20/schweizer-geoinformation-2024-connecting-the-dots-perpetual-beta/)" (2024).
