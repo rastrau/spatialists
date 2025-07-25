@@ -1,0 +1,54 @@
+---
+title: "Fediverse recommendations"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-07-25 19:22"
+image: "chethan-FntA-iLzGxU-unsplash.jpg"
+description: "FediFollows published a list of recommended geospatial #Fediverse 
+/ #Mastodon accounts. The list features, among others, geospatial conferences, 
+news channels, blogs, software, organizations, government bodies, geospatial 
+professionals, #OSM-related accounts, and discussion groups."
+---
+
+The Fediverse bot [FediFollows](https://social.growyourown.services/@FediFollows) 
+published a [list of recommended geospatial Fediverse 
+accounts](https://social.growyourown.services/@FediFollows/114785370032906119). 
+The [list](https://social.growyourown.services/@FediFollows/114785370032906119) 
+features, among others, geospatial conferences, news channels, blogs, software, 
+organizations, government bodies, geospatial professionals, OSM-related 
+accounts, and discussion groups.
+
+You can follow these accounts from any 
+[Fediverse](https://fedi.tips/what-is-mastodon-what-is-the-fediverse/) 
+instance, for example, from a [Mastodon](https://joinmastodon.org/) account, or 
+you can consume them via RSS[^rss]: Appending `.rss` to the 
+URL of any Fediverse account yields an RSS feed. For example, for the 
+Spatialists account: 
+
+- the Mastodon account URL is <https://mapstodon.space/@spatialists>
+- the corresponding RSS feed is at <https://mapstodon.space/@spatialists.rss>
+
+[![The Mastodon landing page](mastodon.jpg "The Mastodon landing page")](https://joinmastodon.org/)
+
+Why does this matter? &mdash; Three years^[Give or take.] after the implosion of 
+their community on Twitter, part of the geospatial industry is still feeling 
+phantom pain: It certainly feels like there is no equivalent to 
+Twitter-of-the-2010s for connecting and sharing knowledge and opinions on 
+geospatial topics.[^alternatives] There is some hope, the Fediverse may fill 
+part of this void.
+
+Other than the [RSS feed](https://spatialists.ch/follow.html) and the 
+[newsletter](https://spatialists.ch/subscribe.html), this site uses 
+[LinkedIn](https://www.linkedin.com/company/spatialists) and the 
+[Fediverse (Mastodon)](https://mapstodon.space/@spatialists) to broadcast its 
+news.
+
+[^rss]: "Rich Site Summary", "Really Simple Syndication", and/or "RDF Site 
+Summary", [over time](https://en.wikipedia.org/wiki/RSS). This site hosts a 
+[quick intro](https://spatialists.ch/follow.html).
+[^alternatives]: Sure, there are: Threads, Bluesky, 
+[Slack](https://thespatialcommunity.org/), Discord, 
+[Reddit](https://reddit.com/r/gis), LinkedIn etc. But none of these has the 
+culture and mechanisms Twitter had. All have essentially the same frail 
+business model and lopsided incentives, though.
