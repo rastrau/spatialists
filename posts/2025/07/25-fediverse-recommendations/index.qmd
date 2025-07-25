@@ -38,8 +38,8 @@ Twitter-of-the-2010s for connecting and sharing knowledge and opinions on
 geospatial topics.[^alternatives] There is some hope, the Fediverse may fill 
 part of this void.
 
-Other than the [RSS feed](https://spatialists.ch/follow.html) and the 
-[newsletter](https://spatialists.ch/subscribe.html), this site uses 
+Besides the [RSS feed](https://spatialists.ch/follow.html) and the 
+[newsletter](https://spatialists.ch/subscribe.html), this site also uses 
 [LinkedIn](https://www.linkedin.com/company/spatialists) and the 
 [Fediverse (Mastodon)](https://mapstodon.space/@spatialists) to broadcast its 
 news.
