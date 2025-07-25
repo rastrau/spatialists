@@ -5,10 +5,7 @@ author:
     url: https://ralphstraumann.ch
 date: "2025-07-24 22:29"
 image: "fara-i4r7AMo9OBQ-unsplash.jpg"
-description: 'A group of industry leaders at the 2025 #NORTH51 conference is 
-charting a new course for the geospatial sector with their "#GEOFESTO" — a 
-#manifesto outlining five key principles to drive #innovation and #impact in a 
-rapidly changing world.'
+description: 'A group of industry leaders at the 2025 #NORTH51 conference is charting a new course for the geospatial sector with their "#GEOFESTO" — a #manifesto outlining five key principles to drive #innovation and #impact in a rapidly changing world.'
 ---
 
 A group of eleven participants[^eleven] from the 2025 NORTH51[^north51] 
