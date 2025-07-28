@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Fri, 25 Jul 2025 19:22:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 28 Jul 2025 20:14:00 GMT</lastBuildDate>
+<item>
+  <title>Smarter EO: Dynamic targeting</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/07/28-smarter-eo-dynamic-targeting/</link>
+  <description><![CDATA[ #NASA’s #JPL demonstrates autonomous #EarthObservation satellite operation: a #cubesat using “dynamic targeting” to decide, on its own, where to collect the most useful #EO data in real-time. This innovation could make future satellites smarter and more responsive to changing conditions during each orbit. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/07/28-smarter-eo-dynamic-targeting/</guid>
+  <pubDate>Mon, 28 Jul 2025 20:14:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/07/28-smarter-eo-dynamic-targeting/nasa-jpl-dynamic-targeting-titlecard.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Fediverse recommendations</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/06/18-cadence-maps/</guid>
   <pubDate>Wed, 18 Jun 2025 19:52:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/06/18-cadence-maps/lucas-miguel-aQd0X_0YnzY-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>The most important geospatial software?</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/06/17-the-most-important-geospatial-software/</link>
-  <description><![CDATA[ I like the occasional bold theory. A month ago, Drew Breunig blogged about a very bold one: #DuckDB probably being the most important geospatial software of the last decade. What gives? ]]></description>
-  <guid>https://spatialists.ch/posts/2025/06/17-the-most-important-geospatial-software/</guid>
-  <pubDate>Tue, 17 Jun 2025 23:26:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/06/17-the-most-important-geospatial-software/david-clode-yUxH8szmnhs-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
