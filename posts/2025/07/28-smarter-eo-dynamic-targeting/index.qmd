@@ -1,0 +1,21 @@
+---
+title: "Smarter EO: Dynamic targeting"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-07-28 20:14"
+image: "nasa-jpl-dynamic-targeting-titlecard.png"
+description: '#NASA’s #JPL demonstrates autonomous #EarthObservation satellite operation: a #cubesat using "dynamic targeting" to decide, on its own, where to collect the most useful #EO data in real-time. This innovation could make future satellites smarter and more responsive to changing conditions during each orbit.'
+---
+
+From NASA^[National Aeronautics and Space Administration of the USA]'s Jet Propulsion Laboratory^[JPL, a NASA research center in California] comes [fascinating news](https://www.jpl.nasa.gov/news/how-nasa-is-testing-ai-to-make-earth-observing-satellites-smarter/):  In mid-July, NASA researchers demonstrated a new "dynamic targeting" technology that enables a satellite to autonomously "look ahead" along its orbit to determine the optimal direction to aim its sensors for data collection. For example, it can focus on interesting portions of the observable swath or collect data only where clouds do not obscure the view. Notably, this demonstration required no human intervention at any stage.
+
+From the [announcement](https://www.jpl.nasa.gov/news/how-nasa-is-testing-ai-to-make-earth-observing-satellites-smarter/): 
+
+> “The idea is to make the spacecraft act more like a human: Instead of just seeing data, it’s thinking about what the data shows and how to respond,” says Steve Chien, a technical fellow in AI at JPL and principal investigator for the Dynamic Targeting project.
+
+[![Principle of the look-ahead sensor for dynamic targeting (source: NASA/JPL-Caltech)](nasa-jpl-dynamic-targeting.png "Principle of the look-ahead sensor for dynamic targeting (source: NASA/JPL-Caltech)")](https://www.jpl.nasa.gov/news/how-nasa-is-testing-ai-to-make-earth-observing-satellites-smarter/)
+
+The demonstration used a briefcase-size cube sat launched in 2024. Since the test satellite lacked a dedicated look-ahead sensor, the spacecraft was periodically tilted forward. Once look-ahead imagery had been captured, onboard edge computing classified the scene and adjusted subsequent data-gathering accordingly. More details are available from [a conceference paper](https://ai.jpl.nasa.gov/public/documents/papers/dt-spaceops-2025.pdf).
+
+Interesting times indeed!
