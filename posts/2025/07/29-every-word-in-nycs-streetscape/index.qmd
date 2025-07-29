@@ -8,7 +8,7 @@ image: "broadway-excerpt.jpg"
 description: "Explore how artist Yufeng Zhao used millions of #Google #StreetView images to create a searchable map of every word written on #NewYork City’s streets — revealing hidden patterns and the power of urban data at the intersection of art and technology."
 ---
 
-The Pudding^[An online publication that "makes awesome stories with data".] presents [a fascinating piece at the intersection of spatial data and art](https://pudding.cool/2025/07/street-view/): Artist [Yufeng Zhao](https://www.yufengzhao.com/) combed through an enormous trove of Google Street View images, extracting every piece of text visible in New York City's streets and making this data available for exploration and analysis.
+The Pudding^[An online publication that "makes awesome stories with data".] presents [a fascinating piece at the intersection of spatial data and art](https://pudding.cool/2025/07/street-view/): Artist and technologist [Yufeng Zhao](https://www.yufengzhao.com/) combed through an enormous trove of Google Street View images, extracting every piece of text visible in New York City's streets and making this data available for exploration and analysis.
 
 From the [piece](https://pudding.cool/2025/07/street-view/):
 
