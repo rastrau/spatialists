@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Mon, 28 Jul 2025 20:14:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 29 Jul 2025 20:11:00 GMT</lastBuildDate>
+<item>
+  <title>Every word in NYC’s streetscape</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/07/29-every-word-in-nycs-streetscape/</link>
+  <description><![CDATA[ Explore how artist Yufeng Zhao used millions of #Google #StreetView images to create a searchable map of every word written on #NewYork City’s streets — revealing hidden patterns and the power of urban data at the intersection of art and technology. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/07/29-every-word-in-nycs-streetscape/</guid>
+  <pubDate>Tue, 29 Jul 2025 20:11:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/07/29-every-word-in-nycs-streetscape/broadway-excerpt.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Smarter EO: Dynamic targeting</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/06/21-updated-sogi-gis-trend-radar/</guid>
   <pubDate>Sat, 21 Jun 2025 11:09:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/06/21-updated-sogi-gis-trend-radar/gis-trend-radar-wide.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Cadence Maps</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/06/18-cadence-maps/</link>
-  <description><![CDATA[ #CadenceMaps is a prototype cloud-native data service delivering #OpenStreetMap #OSM data for the Germany-Austria-Switzerland-Liechtenstein region as #GeoParquet files using a unified schema. The platform currently offers administrative boundaries and POI datasets. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/06/18-cadence-maps/</guid>
-  <pubDate>Wed, 18 Jun 2025 19:52:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/06/18-cadence-maps/lucas-miguel-aQd0X_0YnzY-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
