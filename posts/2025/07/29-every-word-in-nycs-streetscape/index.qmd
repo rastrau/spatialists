@@ -1,0 +1,22 @@
+---
+title: "Every word in NYC's streetscape"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-07-29 20:11"
+image: "broadway-excerpt.jpg"
+description: "Explore how artist Yufeng Zhao used millions of #Google #StreetView images to create a searchable map of every word written on #NewYork City’s streets — revealing hidden patterns and the power of urban data at the intersection of art and technology."
+---
+
+The Pudding^[An online publication that "makes awesome stories with data".] presents [a fascinating piece at the intersection of spatial data and art](https://pudding.cool/2025/07/street-view/): Artist [Yufeng Zhao](https://www.yufengzhao.com/) combed through an enormous trove of Google Street View images, extracting every piece of text visible in New York City's streets and making this data available for exploration and analysis.
+
+From the [piece](https://pudding.cool/2025/07/street-view/):
+
+> The result is a search engine of much of what’s written in NYC’s streets. (...) The scale of the data is immense: over 8 million Google Street View images (from the past 18 years) and 138 million identified snippets of text.
+
+[![Occurrences of "Broadway" (source: Yufeng Zhao)](broadway.jpg 'Occurrences of "Broadway" (source: Yufeng Zhao)')](https://pudding.cool/2025/07/street-view/)
+
+Needless to say: Some fascinating spatial patterns and unexpected insights emerge^[In the true sense of "emergence"] from [NYC’s urban textscape](https://pudding.cool/2025/07/street-view/). To me, this project highlights the often untapped potential of ephemeral crowdsourced data.
+
+Bonus: There is a [2024 talk by Yufeng Zhao](https://www.youtube.com/watch?v=AnqKqBHQO58) (10 minutes long) on how he built this Street View search engine.
+
