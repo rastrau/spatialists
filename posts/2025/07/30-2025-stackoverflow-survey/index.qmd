@@ -1,0 +1,53 @@
+---
+title: "2025 Stackoverflow survey"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-07-30 19:28"
+image: "stackoverflow.png"
+description: "#StackOverflow published the results of their 2025 user #survey. The data features roughly 50,000 responses from 166 countries on user #demographics, #technology, #AI, work, and more."
+---
+
+Stack Overflow^[Still around, [despite AI](https://daily.dev/blog/did-stack-overflow-just-admit-defeat-to-ai).] published the [results of their 2025 user survey](https://survey.stackoverflow.co/2025/developers/) conducted in May and June. The data features roughly 50,000 responses from 166 countries.
+
+The survey has insights regarding:
+
+- [**Developers**](https://survey.stackoverflow.co/2025/developers/): 
+  - profession^[Mostly developers]
+  - demographics^[Mostly early-career]
+  - geography
+  - education^[Bachelor and Master dominate.]
+  - experience
+  - roles
+  - industry
+  - etc.
+- [**Technology**](https://survey.stackoverflow.co/2025/technology/): 
+  - languages^[SQL comes third, Python fourth.]
+  - databases^[PostgreSQL takes first place.]
+  - cloud platforms^[Docker dominates.]
+  - frameworks
+  - development environments^[Microsoft Visual Studio Code for a whopping 75%!]
+  - LLMs^[OpenAI GPT over everything, twice as much as Claude Sonnet.]
+  - operating systems
+  - etc. 
+- [**AI**](https://survey.stackoverflow.co/2025/ai/): 
+  - usage^[Half of respondents use AI daily.]
+  - sentiment^[Two thirds: favorable]
+  - perceived quality^[So-so]
+  - satisfaction and frustrations^[Most frustrating: AI solutions that are almost right, but not quite.]
+  - vibe coding
+  - roles of humans
+  - etc.
+- [**Work**](https://survey.stackoverflow.co/2025/work/): 
+  - employment^[Mostly employed]
+  - role
+  - company size
+  - environment^[One third remote]
+  - salary
+  - etc.
+- [**Stack Overflow itself**](https://survey.stackoverflow.co/2025/stack-overflow/): 
+  - account
+  - usage
+  - frequency
+  - etc. 
+
