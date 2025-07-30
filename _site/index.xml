@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Tue, 29 Jul 2025 20:11:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 30 Jul 2025 19:28:00 GMT</lastBuildDate>
+<item>
+  <title>2025 Stackoverflow survey</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/07/30-2025-stackoverflow-survey/</link>
+  <description><![CDATA[ #StackOverflow published the results of their 2025 user #survey. The data features roughly 50,000 responses from 166 countries on user #demographics, #technology, #AI, work, and more. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/07/30-2025-stackoverflow-survey/</guid>
+  <pubDate>Wed, 30 Jul 2025 19:28:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/07/30-2025-stackoverflow-survey/stackoverflow.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Every word in NYC’s streetscape</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/06/22-thematic-maps-for-mobile/</guid>
   <pubDate>Sun, 22 Jun 2025 00:31:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/06/22-thematic-maps-for-mobile/linkedin-sales-solutions-uoGzuJQeWmo-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Updated SOGI GIS trend radar</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/06/21-updated-sogi-gis-trend-radar/</link>
-  <description><![CDATA[ The #SOGI-#OSIG GIS Technology Specialist Group has released version 2.0 of their interactive GIS #TrendRadar at gistrends.ch, classifying 40 technologies and concepts into “Established”, “Emerging”, and “Descending” levels of maturity. Each entry is evaluated on market penetration, technological maturity, business viability, and user ecosystem. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/06/21-updated-sogi-gis-trend-radar/</guid>
-  <pubDate>Sat, 21 Jun 2025 11:09:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/06/21-updated-sogi-gis-trend-radar/gis-trend-radar-wide.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
