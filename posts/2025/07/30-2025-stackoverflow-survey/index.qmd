@@ -1,5 +1,5 @@
 ---
-title: "2025 Stackoverflow survey"
+title: "2025 Stack Overflow survey"
 author:
   - name: Ralph Straumann
     url: https://ralphstraumann.ch
