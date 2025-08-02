@@ -1,0 +1,25 @@
+---
+title: "Lightningmaps.org"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-08-02 20:23"
+image: "lightningmaps-zoom-in.jpg"
+description: "LightningMaps.org is a global #crowdsourcing project that lets you watch #lightning strikes in real time, drawing data from more than 500 volunteer-operated sensors. The site offers configurable web and mobile maps, showing not only each lightning strike as it happens, but also the location of participating stations and the spread of thunder across the landscape."
+---
+
+[LightningMaps.org](https://www.lightningmaps.org) is a volunteer community publishing a real-time lightning map. The project builds on a network of more than 500 sensors operated by individuals around the globe (with a bias towards Europe and North America). The web map has many configuration options: You can display lightnings as they occur, the sensor stations that captured the event, the propagating thunder, and quite some more information. The mobile-capable map displays lightning strikes of the last 60 minutes and real-time events as they happen.
+
+At the time of writing this post, there was significant thunderstorm activity overy Hungary and Austria:
+
+[![Lightningmaps.org showing an excerpt of Austria and Hungary](lightningmaps.jpg "Lightningmaps.org showing an excerpt of Austria and Hungary")](https://www.lightningmaps.org)
+
+The community project producing the data lives at [blitzortung.org](https://www.blitzortung.org) ("lightning location" in German):
+
+> "Blitzortung.org" is a lightning detection network for locating electromagnetic discharges in the atmosphere (lightning discharges) with VLF receivers based on the time of arrival (TOA) and time of group arrival (TOGA) method. We are a community of station operators who send their data to the computing servers, programmers who develop and/or implement algorithms for locating and visualizing of sferic positions, and people who assist in any way to keep the system running. There is no restriction on membership. All people who keep the network in operation are volunteers. There are no fees, terms and conditions, and no contracts.
+
+If you like, you can contribute to Blitzortung.org and LightningMaps.org by assembling and operating a [station](https://www.blitzortung.org/en/cover_your_area.php)[^cost]. In any case, using [LightningMaps.org](https://www.lightningmaps.org) at least geo-nerds get to enjoy summer thunderstorms augmented by data.
+
+Always amazing what communities of dedicated people can accomplish.
+
+[^cost]: At a cost of less than 300 Franks / Euros or 350 U.S. Dollars
