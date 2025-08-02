@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Wed, 30 Jul 2025 19:28:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 02 Aug 2025 20:23:00 GMT</lastBuildDate>
+<item>
+  <title>Lightningmaps.org</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/08/02-lightningmapsorg/</link>
+  <description><![CDATA[ LightningMaps.org is a global #crowdsourcing project that lets you watch #lightning strikes in real time, drawing data from more than 500 volunteer-operated sensors. The site offers configurable web and mobile maps, showing not only each lightning strike as it happens, but also the location of participating stations and the spread of thunder across the landscape. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/08/02-lightningmapsorg/</guid>
+  <pubDate>Sat, 02 Aug 2025 20:23:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/08/02-lightningmapsorg/lightningmaps-zoom-in.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>2025 Stack Overflow survey</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/06/24-mapbs-3d-and-launch-event/</guid>
   <pubDate>Tue, 24 Jun 2025 22:15:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/06/24-mapbs-3d-and-launch-event/mapbs-3d-imagery.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Thematic maps for mobile</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/06/22-thematic-maps-for-mobile/</link>
-  <description><![CDATA[ Designing thematic world maps for #mobile devices is challenging. A research team explores new, innovative map types for effective communication of spatial information on small screens. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/06/22-thematic-maps-for-mobile/</guid>
-  <pubDate>Sun, 22 Jun 2025 00:31:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/06/22-thematic-maps-for-mobile/linkedin-sales-solutions-uoGzuJQeWmo-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
