@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Sat, 02 Aug 2025 20:23:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 05 Aug 2025 19:17:00 GMT</lastBuildDate>
+<item>
+  <title>4 years of the Swiss Territorial Data Lab</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/08/05-4-years-of-the-swiss-territorial-data-lab/</link>
+  <description><![CDATA[ The Swiss Territorial Data Lab (#STDL) is a collaborative initiative within Switzerland’s geoinformation strategy, running from 2020 to 2025, dedicated to advancing data-driven solutions for public administration using #geodata and #datascience. Their 2025 report highlights organizational and methodological insights gained over the past years, with further technical resources available at tech.stdl.ch. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/08/05-4-years-of-the-swiss-territorial-data-lab/</guid>
+  <pubDate>Tue, 05 Aug 2025 19:17:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/08/05-4-years-of-the-swiss-territorial-data-lab/stdl.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Lightningmaps.org</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/06/26-tool-tip-geo-hound/</guid>
   <pubDate>Thu, 26 Jun 2025 22:12:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/06/26-tool-tip-geo-hound/celyn-bowen-OtNHeVJVvCc-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>MapBS 3D and launch event</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/06/24-mapbs-3d-and-launch-event/</link>
-  <description><![CDATA[ The canton of Basel-Stadt presents its new #3D #geoportal, MapBS 3D, offering interactive 3D maps with detailed building models, construction projects, and several analytical tools. The new portal is introduced in a “lunch & learn” style webinar this Thursday. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/06/24-mapbs-3d-and-launch-event/</guid>
-  <pubDate>Tue, 24 Jun 2025 22:15:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/06/24-mapbs-3d-and-launch-event/mapbs-3d-imagery.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
