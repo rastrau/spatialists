@@ -1,0 +1,19 @@
+---
+title: "4 years of the Swiss Territorial Data Lab"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-08-05 19:17"
+image: "stdl.jpg"
+description: "The Swiss Territorial Data Lab (#STDL) is a collaborative initiative within Switzerland’s geoinformation strategy, running from 2020 to 2025, dedicated to advancing data-driven solutions for public administration using #geodata and #datascience. Their 2025 report highlights organizational and methodological insights gained over the past years, with further technical resources available at tech.stdl.ch."
+---
+
+The [Swiss Territorial Data Lab](https://www.stdl.ch) (STDL)[^name] is an initiative in the framework of the [Swiss Geoinformation Strategy](https://www.geo.admin.ch/en/strategy-and-implementation) and it is funded from 2020 until the end of 2025. The goal of the STDL is to conduct innovative proofs-of-concept and feasibility studies using geodata and data science methods on behalf of Swiss authorities.
+
+A short while ago, the STDL published their [2025 journal or report](https://www.swisstopo.admin.ch/de/publication?id=m7BmoKLkbRk0) (in [German](https://backend.swisstopo.admin.ch/fileservice/sdweb-docs-prod-swisstopoch-files/files/2025/07/24/3a4fc234-8a50-4c4a-90c1-957c9660d353.pdf) and in [French](https://backend.swisstopo.admin.ch/fileservice/sdweb-docs-prod-swisstopoch-files/files/2025/07/24/d45866f3-00fc-466f-8de3-5c390b028544.pdf)). In it, the STDL details some of the lab's achievements while also dedicating a significant portion of it to the organisational and methodological aspects and learnings from the past years.
+
+![The domain of the Swiss Territorial Data Lab (source: STDL)](stdl.jpg "The domain of the Swiss Territorial Data Lab (source: STDL)")
+
+If you are more interested in the technical and data science underpinnings of, and insights from, the STDL's work (including [source-code](https://github.com/swiss-territorial-data-lab)), <https://tech.stdl.ch> collects much material on these aspects as collected from the various conducted proofs-of-concept and exploratory projects.
+
+[^name]: To my (non-native English-speaker) ears, the name has a slightly odd ring. I suspect it is a Gallicism. It should not mislead you, however: The Lab's work is not restricted to, nor even focussed on, territorial data in the narrow sense.
