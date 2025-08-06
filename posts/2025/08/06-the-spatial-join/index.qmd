@@ -12,11 +12,11 @@ description: 'The end of the spatial join? Vikram Gundeti, CTO of #Foursquare, i
 
 > Data scientists love data except when it's geospatial data. The reason? Traditional GIS infrastructure is notoriously tricky for data scientists. (...) 
 > 
-> We believe that geospatial intelligence should be optimized for modern machine learning workflows, not cartographic display. Bootstrapped with over 20 raster and vector datasets pre-indexed to H3[^h3] cells at resolution 8 (...), Spatial H3 Hub[^spatialhub] allows data scientists to enrich their ML^[Machine learning] models with demographic, economic, and environmental features using simple joins—no coordinate systems, no projections, no specialized tools.
+> We believe that geospatial intelligence should be optimized for modern machine learning workflows, not cartographic display. Bootstrapped with over 20 raster and vector datasets pre-indexed to H3[^h3] cells (...), Spatial H3 Hub[^spatialhub] allows data scientists to enrich their ML^[Machine learning] models with demographic, economic, and environmental features using simple joins—no coordinate systems, no projections, no specialized tools.
 
 See also Google's [recently announced AlphaEarth Foundations](https://deepmind.google/discover/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/), an AI model that "integrates petabytes of Earth observation data". 
 
-Is the future of geospatial *mapless* and *agent-ready*, as Vikram puts it? A future *sans* spatial join? Between these developments and other such as GERS[^gers] I'm inclined to believe it (to a degree).
+Is the future of geospatial *mapless* and *agent-ready*, as Vikram puts it? A future *sans* spatial join? Between these developments and others, such as GERS[^gers], I'm inclined to believe it (to a degree).
 
 
 [^foursquare]: A location technology company ([Wikipedia](https://en.wikipedia.org/wiki/Foursquare_(company)), [Crunchbase](https://www.crunchbase.com/organization/foursquare)). You may remember the Foursquare app that let you check-in to places and enabled social location sharing. You may also have seen the recent announcements of a new product of theirs, [Foursquare Spatial Desktop](https://foursquare.com/products/spatial-desktop/) or "FSQ Spatial Desktop", built on top of [DuckDB](https://duckdb.org) and [SQLRooms](https://sqlrooms.org).
