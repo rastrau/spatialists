@@ -1,0 +1,25 @@
+---
+title: "The ~~spatial~~ join?"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-08-06 21:50"
+image: "jordan-marchand-yZj7qRgV80o-unsplash.jpg"
+description: 'The end of the spatial join? Vikram Gundeti, CTO of #Foursquare, is reimagining #geospatial for #datascientists by eliminating traditional GIS hurdles and embracing #ML-friendly, agent-ready solutions. Will geodata be seamlessly accessible and "mapless" by default?'
+---
+
+[Vikram Gundeti](https://www.linkedin.com/in/vikramgundeti/) – CTO^[Chief Technology Officer] of Foursquare[^foursquare] – [on LinkedIn](https://www.linkedin.com/posts/vikramgundeti_%F0%9D%97%A7%F0%9D%97%B5%F0%9D%97%B2-%F0%9D%97%99%F0%9D%98%82%F0%9D%98%81%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%B2-%F0%9D%97%A2%F0%9D%97%B3-%F0%9D%97%9A%F0%9D%97%B2%F0%9D%97%BC%F0%9D%98%80%F0%9D%97%BD%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B6-activity-7357979469992644608-4C4A):
+
+> Data scientists love data except when it's geospatial data. The reason? Traditional GIS infrastructure is notoriously tricky for data scientists. (...) 
+> 
+> We believe that geospatial intelligence should be optimized for modern machine learning workflows, not cartographic display. Bootstrapped with over 20 raster and vector datasets pre-indexed to H3[^h3] cells at resolution 8 (...), Spatial H3 Hub[^spatialhub] allows data scientists to enrich their ML^[Machine learning] models with demographic, economic, and environmental features using simple joins—no coordinate systems, no projections, no specialized tools.
+
+See also Google's [recently announced AlphaEarth Foundations](https://deepmind.google/discover/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/), an AI model that "integrates petabytes of Earth observation data". 
+
+Is the future of geospatial *mapless* and *agent-ready*, as Vikram puts it? A future *sans* spatial join? Between these developments and other such as GERS[^gers] I'm inclined to believe it (to a degree).
+
+
+[^foursquare]: A location technology company ([Wikipedia](https://en.wikipedia.org/wiki/Foursquare_(company)), [Crunchbase](https://www.crunchbase.com/organization/foursquare)). You may remember the Foursquare app that let you check-in to places and enabled social location sharing. You may also have seen the recent announcements of a new product of theirs, [Foursquare Spatial Desktop](https://foursquare.com/products/spatial-desktop/) or "FSQ Spatial Desktop", built on top of [DuckDB](https://duckdb.org) and [SQLRooms](https://sqlrooms.org).
+[^h3]: [H3](https://h3geo.org) is a hexagonal (mostly, except for 12 pentagons – think football (or soccer)) discrete global grid system (DGGS) (Apache 2.0-licensed) created by Uber 
+[^spatialhub]: A product of Foursquare, an H3-based collection of geospatial datasets.
+[^gers]:The [Global Entity Reference System](https://www.spatialists.ch/posts/2025/06/28-omf-launches-gers/) by the Overture Map Foundation (OMF)
