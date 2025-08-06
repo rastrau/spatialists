@@ -15,8 +15,17 @@
 <title>Spatialists – geospatial news</title>
 <link>https://spatialists.ch/</link>
 </image>
-<generator>quarto-1.7.32</generator>
-<lastBuildDate>Tue, 05 Aug 2025 19:17:00 GMT</lastBuildDate>
+<generator>quarto-1.7.33</generator>
+<lastBuildDate>Wed, 06 Aug 2025 21:50:00 GMT</lastBuildDate>
+<item>
+  <title>The spatial join?</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/08/06-the-spatial-join/</link>
+  <description><![CDATA[ The end of the spatial join? Vikram Gundeti, CTO of #Foursquare, is reimagining #geospatial for #datascientists by eliminating traditional GIS hurdles and embracing #ML-friendly, agent-ready solutions. Will geodata be seamlessly accessible and “mapless” by default? ]]></description>
+  <guid>https://spatialists.ch/posts/2025/08/06-the-spatial-join/</guid>
+  <pubDate>Wed, 06 Aug 2025 21:50:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/08/06-the-spatial-join/jordan-marchand-yZj7qRgV80o-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>4 years of the Swiss Territorial Data Lab</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/06/28-omf-launches-gers/</guid>
   <pubDate>Sat, 28 Jun 2025 14:42:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/06/28-omf-launches-gers/gers.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Tool tip: Geo Hound</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/06/26-tool-tip-geo-hound/</link>
-  <description><![CDATA[ Discovering #OGC and other geoservices endpoints in web maps is now effortless with the Chromium-based #GeoHound extension. It identifies and collects geoservices – along with geospatial files – into a handy list for your convenience. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/06/26-tool-tip-geo-hound/</guid>
-  <pubDate>Thu, 26 Jun 2025 22:12:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/06/26-tool-tip-geo-hound/celyn-bowen-OtNHeVJVvCc-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ralph Straumann">
-<meta name="dcterms.date" content="2025-05-16">
-<meta name="description" content="With version 3.5, users can now natively work with #GeoParquet files in #ArcGIS Pro, either by creating multifile feature connections or by accessing individual #Parquet files stored locally or in Amazon #S3. This streamlines the integration of #cloudnative data, though currently with specific requirements and limitations.">
+<meta name="dcterms.date" content="2025-08-06">
+<meta name="description" content="The end of the spatial join? Vikram Gundeti, CTO of #Foursquare, is reimagining #geospatial for #datascientists by eliminating traditional GIS hurdles and embracing #ML-friendly, agent-ready solutions. Will geodata be seamlessly accessible and “mapless” by default?">
 
-<title>GeoParquet arriving in ArcGIS Pro 3.5 – Spatialists – geospatial news</title>
+<title>The spatial join? – Spatialists – geospatial news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,13 +116,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../../styles.css">
-<meta property="og:title" content="GeoParquet arriving in ArcGIS Pro 3.5 – Spatialists – geospatial news">
-<meta property="og:description" content="With version 3.5, users can now natively work with #GeoParquet files in #ArcGIS Pro, either by creating multifile feature connections or by accessing individual #Parquet files stored locally or in Amazon #S3. This streamlines the integration of #cloudnative data, though currently with specific requirements and limitations.">
-<meta property="og:image" content="https://spatialists.ch/assets/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg">
+<meta property="og:title" content="The spatial join? – Spatialists – geospatial news">
+<meta property="og:description" content="The end of the spatial join? Vikram Gundeti, CTO of #Foursquare, is reimagining #geospatial for #datascientists by eliminating traditional GIS hurdles and embracing #ML-friendly, agent-ready solutions. Will geodata be seamlessly accessible and “mapless” by default?">
+<meta property="og:image" content="https://spatialists.ch/posts/2025/08/06-the-spatial-join/jordan-marchand-yZj7qRgV80o-unsplash.jpg">
 <meta property="og:site_name" content="Spatialists – geospatial news">
-<meta name="twitter:title" content="GeoParquet arriving in ArcGIS Pro 3.5 – Spatialists – geospatial news">
-<meta name="twitter:description" content="With version 3.5, users can now natively work with #GeoParquet files in #ArcGIS Pro, either by creating multifile feature connections or by accessing individual #Parquet files stored locally or in Amazon #S3. This streamlines the integration of #cloudnative data, though currently with specific requirements and limitations.">
-<meta name="twitter:image" content="https://spatialists.ch/assets/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg">
+<meta name="twitter:title" content="The spatial join? – Spatialists – geospatial news">
+<meta name="twitter:description" content="The end of the spatial join? Vikram Gundeti, CTO of #Foursquare, is reimagining #geospatial for #datascientists by eliminating traditional GIS hurdles and embracing #ML-friendly, agent-ready solutions. Will geodata be seamlessly accessible and “mapless” by default?">
+<meta name="twitter:image" content="https://spatialists.ch/posts/2025/08/06-the-spatial-join/jordan-marchand-yZj7qRgV80o-unsplash.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -170,10 +170,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">GeoParquet arriving in ArcGIS Pro 3.5</h1>
+      <h1 class="title">The <del>spatial</del> join?</h1>
                   <div>
         <div class="description">
-          With version 3.5, users can now natively work with #GeoParquet files in #ArcGIS Pro, either by creating multifile feature connections or by accessing individual #Parquet files stored locally or in Amazon #S3. This streamlines the integration of #cloudnative data, though currently with specific requirements and limitations.
+          The end of the spatial join? Vikram Gundeti, CTO of #Foursquare, is reimagining #geospatial for #datascientists by eliminating traditional GIS hurdles and embracing #ML-friendly, agent-ready solutions. Will geodata be seamlessly accessible and “mapless” by default?
         </div>
       </div>
                 </div>
@@ -192,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 16, 2025</p>
+        <p class="date">August 6, 2025</p>
       </div>
     </div>
     
@@ -211,20 +211,28 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Update from the cloud-native front: With version 3.5, ArcGIS Pro now has <a href="https://pro.arcgis.com/en/pro-app/latest/help/data/parquet/parquet-in-arcgis.htm">native support for the cloud-native GeoParquet format</a>:</p>
+<p><a href="https://www.linkedin.com/in/vikramgundeti/">Vikram Gundeti</a> – CTO<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> of Foursquare<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> – <a href="https://www.linkedin.com/posts/vikramgundeti_%F0%9D%97%A7%F0%9D%97%B5%F0%9D%97%B2-%F0%9D%97%99%F0%9D%98%82%F0%9D%98%81%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%B2-%F0%9D%97%A2%F0%9D%97%B3-%F0%9D%97%9A%F0%9D%97%B2%F0%9D%97%BC%F0%9D%98%80%F0%9D%97%BD%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B6-activity-7357979469992644608-4C4A">on LinkedIn</a>:</p>
 <blockquote class="blockquote">
-<p>Beginning with ArcGIS Pro 3.5, there are two ways you can work with Apache Parquet files. Each serves a different purpose and has different requirements as follows:</p>
-<ul>
-<li>Create a multifile feature connection from multiple Parquet files that have the same schema (…)</li>
-<li>Access a single Parquet file stored on a local drive or in an Amazon Simple Storage Service (S3) bucket</li>
-</ul>
+<p>Data scientists love data except when it’s geospatial data. The reason? Traditional GIS infrastructure is notoriously tricky for data scientists. (…)</p>
+<p>We believe that geospatial intelligence should be optimized for modern machine learning workflows, not cartographic display. Bootstrapped with over 20 raster and vector datasets pre-indexed to H3<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> cells at resolution 8 (…), Spatial H3 Hub<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> allows data scientists to enrich their ML<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> models with demographic, economic, and environmental features using simple joins—no coordinate systems, no projections, no specialized tools.</p>
 </blockquote>
-<p>The GeoParquet support comes with specific requirements and limitations, which are detailed <a href="https://pro.arcgis.com/en/pro-app/latest/help/data/parquet/parquet-in-arcgis.htm">in the documentation</a> and in an <a href="https://pro.arcgis.com/en/pro-app/latest/help/data/parquet/faqs-parquet-in-maps.htm">accompanying FAQ on “using a Parquet file in ArcGIS Pro”</a>.</p>
-<p>Chris Holmes of Planet shared <a href="https://www.linkedin.com/posts/opencholmes_parquet-in-arcgis-pro-activity-7328617641911164928-YcDN">his thoughts and assessment on LinkedIn</a>.</p>
+<p>See also Google’s <a href="https://deepmind.google/discover/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/">recently announced AlphaEarth Foundations</a>, an AI model that “integrates petabytes of Earth observation data”.</p>
+<p>Is the future of geospatial <em>mapless</em> and <em>agent-ready</em>, as Vikram puts it? A future <em>sans</em> spatial join? Between these developments and other such as GERS<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> I’m inclined to believe it (to a degree).</p>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Chief Technology Officer<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>A location technology company (<a href="https://en.wikipedia.org/wiki/Foursquare_(company)">Wikipedia</a>, <a href="https://www.crunchbase.com/organization/foursquare">Crunchbase</a>). You may remember the Foursquare app that let you check-in to places and enabled social location sharing. You may also have seen the recent announcements of a new product of theirs, <a href="https://foursquare.com/products/spatial-desktop/">Foursquare Spatial Desktop</a> or “FSQ Spatial Desktop”, built on top of <a href="https://duckdb.org">DuckDB</a> and <a href="https://sqlrooms.org">SQLRooms</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><a href="https://h3geo.org">H3</a> is a hexagonal (mostly, except for 12 pentagons – think football (or soccer)) discrete global grid system (DGGS) (Apache 2.0-licensed) created by Uber<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>A product of Foursquare, an H3-based collection of geospatial datasets.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Machine learning<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>The <a href="https://www.spatialists.ch/posts/2025/06/28-omf-launches-gers/">Global Entity Reference System</a> by the Overture Map Foundation (OMF)<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
