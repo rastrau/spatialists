@@ -1,0 +1,11 @@
+---
+title: "Break"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-08-07 06:57"
+image: "richard-james-CgywzwVK2kU-unsplash.jpg"
+description: " "
+---
+
+It's summer break here at headquarters, so for a while things might be a bit quieter than usual.
