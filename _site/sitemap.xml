@@ -2,430 +2,434 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://spatialists.ch/contribute.html</loc>
-    <lastmod>2025-08-06T20:14:45.632Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.851Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02/10-prix-carto-2025/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.650Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.869Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02/20-python-uv/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.666Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.885Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02/16-the-missing-dimension/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.654Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.874Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02/12-the-format-that-shall-not-be-named/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.652Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.871Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02/26-normalize-your-choropleths/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.671Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.891Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02/17-sgs-action-plan-2025/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.655Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.875Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02/08-look-at-usgs-lidar-data-online/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.632Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.852Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/06-03-3d-mode-and-customer-survey-for-zugmap/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.852Z</lastmod>
+    <lastmod>2025-08-07T05:02:08.072Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/12-tool-tip-mapshaper/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.770Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.989Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/26-colloquium-state-of-sgs-implementation/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.780Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.999Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/19-automatic-relative-elevation-model-generation/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.776Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.995Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/29-network-simplification-in-python/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.787Z</lastmod>
+    <lastmod>2025-08-07T05:02:08.005Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/16-writing-good-tutorials/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.775Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.994Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/30-testing-autonomous-gis/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.791Z</lastmod>
+    <lastmod>2025-08-07T05:02:08.010Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/09-spatial-data-old-and-new/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.762Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.981Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/08-drought-lake-constance-and-sentinel-2/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.750Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.969Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/26-geoserver-cloud-adds-geoparquet-data-source-support/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.782Z</lastmod>
+    <lastmod>2025-08-07T05:02:08.001Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/08/02-lightningmapsorg/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.921Z</lastmod>
+    <lastmod>2025-08-07T05:02:08.140Z</lastmod>
   </url>
   <url>
-    <loc>https://spatialists.ch/posts/2025/06-01-3d-reconstruction-of-birch-glacier-collapse/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.849Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/05/08-snap-map-spatial-social/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.801Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/05/04-marco-bernasocchi-on-qfield/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.792Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/05/12-gdal-3-11-released-with-new-gdal-program/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.805Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/05/19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.808Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/05/23-easily-obtain-osm-and-omf-data/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.809Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/05/07-tile-and-glyph-map-experiments/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.800Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/05/14-tool-tip-multi-scale-terrain-analysis/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.807Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/05/09-new-national-drought-platform/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.804Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/06-02-the-qgis-project-canonical-paper/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.851Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/07/01-swisstopo-historic-podcast/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.880Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/07/01-differential-privacy-being-wrong-on-purpose/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.879Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/07/23-ai-and-programming/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.907Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/07/28-smarter-eo-dynamic-targeting/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.912Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/07/25-fediverse-recommendations/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.911Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/07/24-a-manifesto-for-the-growth-of-geospatial/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.910Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/07/12-how-much-does-it-cost-to-compute-pixels/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.902Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/07/15-webinar-on-data-integration-using-apache-hop/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.906Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/26-open-doors-at-swisstopo/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.730Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/13-going-forward-maps-for-ai/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.694Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/08-25-years-shuttle-radar-topography-mission/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.691Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/27-the-origins-of-giscience-in-switzerland-with-rob-weibel/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.732Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/31-new-map-viewer-for-the-canton-of-aargau/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/03-office-for-geoinformation-canton-thurgau-on-linkedin/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.679Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/01-geoparquet-to-come-to-esri-arcgis-pro/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.671Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/15-embag-lmeta-does-not-make-open-geodata/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.719Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/25-geoai-state-of-play-in-2025/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.728Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/06/28-omf-launches-gers/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.879Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/06/18-cadence-maps/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.866Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/06/21-updated-sogi-gis-trend-radar/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.868Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/06/09-mds-in-geo-an-example-with-mapillary/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.860Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/06/13-swissgeo-the-swiss-geospatial-platform/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.863Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/06-07-gdal-modernization-webinar-and-faq/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.856Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/about.html</loc>
-    <lastmod>2025-08-06T20:14:45.624Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/subscribe.html</loc>
-    <lastmod>2025-08-06T20:14:45.927Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/follow.html</loc>
-    <lastmod>2025-08-06T20:14:45.632Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.632Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/06/10-jrg-2025/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.862Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/06/14-are-web-maps-a-recession-byproduct/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.864Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/06/17-the-most-important-geospatial-software/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.865Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/06/26-tool-tip-geo-hound/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.879Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/06/22-thematic-maps-for-mobile/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.868Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/06/24-mapbs-3d-and-launch-event/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.870Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/13-google-and-esri-collaboration-in-3d/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.717Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/01-toponyms/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.671Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/06-tool-tip-navigating-the-maze-of-coordinate-reference-systems/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.685Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/18-best-practices-for-cloud-optimized-geotiffs/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.721Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/17-open-data-at-a-glance/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.720Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/25-why-cloud-native/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.730Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/11-central-nodes-in-geospatial/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.694Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/21-labeling-master-class/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.721Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/03/04-cloudnativegeo-approachable/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.685Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/07/14-from-tool-knowledge-to-fundamentals/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.902Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/07/30-2025-stackoverflow-survey/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.920Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/07/23-vector-tiles-for-openstreetmap-org/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.907Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/07/08-eth-zurich-to-build-an-eo-competence-center-for-chf-100-mio/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.886Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/07/09-wanderer-decentralized-trail-database/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.897Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/07/29-every-word-in-nycs-streetscape/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.920Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/07/08-improve-geodata-with-crowdsourcing/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.890Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/07/06-geoparquet-and-iceberg-vs-ogc-api-features/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.884Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/05/19-linked-data-explainer-addresses/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.808Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/05/28-gedtm30-global-30-meter-terrain-data/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.813Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/05/27-overture-on-open-interoperable-geodata/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.813Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/05/26-interlis-uml-diagrams-in-vs-code/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.811Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/05/05-dis-pourquoi-on-toponyms-and-maps/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.794Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/05/16-geoparquet-arriving-in-arcgis-pro-35/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.808Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/05/12-recording-colloquium-on-the-state-of-sgs-implementation/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.806Z</lastmod>
-  </url>
-  <url>
-    <loc>https://spatialists.ch/posts/2025/05/22-interlis-user-group-meeting-call-for-topics/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.809Z</lastmod>
+    <loc>https://spatialists.ch/posts/2025/08/07-summer-break/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.146Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/05/04-unofficial-public-transport-maps/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.792Z</lastmod>
+    <lastmod>2025-08-07T05:02:08.011Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/05/22-interlis-user-group-meeting-call-for-topics/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.028Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/05/12-recording-colloquium-on-the-state-of-sgs-implementation/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.024Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/05/16-geoparquet-arriving-in-arcgis-pro-35/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.027Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/05/05-dis-pourquoi-on-toponyms-and-maps/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.013Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/05/26-interlis-uml-diagrams-in-vs-code/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.031Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/05/27-overture-on-open-interoperable-geodata/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.033Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/05/28-gedtm30-global-30-meter-terrain-data/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.033Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/05/19-linked-data-explainer-addresses/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.028Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/07/06-geoparquet-and-iceberg-vs-ogc-api-features/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.104Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/07/08-improve-geodata-with-crowdsourcing/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.110Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/07/29-every-word-in-nycs-streetscape/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.140Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/07/09-wanderer-decentralized-trail-database/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.117Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/07/08-eth-zurich-to-build-an-eo-competence-center-for-chf-100-mio/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.106Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/07/23-vector-tiles-for-openstreetmap-org/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.127Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/07/30-2025-stackoverflow-survey/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.140Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/07/14-from-tool-knowledge-to-fundamentals/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.122Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/04-cloudnativegeo-approachable/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.904Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/21-labeling-master-class/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.940Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/11-central-nodes-in-geospatial/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.913Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/25-why-cloud-native/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.949Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/17-open-data-at-a-glance/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.939Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/18-best-practices-for-cloud-optimized-geotiffs/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.940Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/06-tool-tip-navigating-the-maze-of-coordinate-reference-systems/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.904Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/01-toponyms/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.891Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/13-google-and-esri-collaboration-in-3d/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.936Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/06/24-mapbs-3d-and-launch-event/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.090Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/06/22-thematic-maps-for-mobile/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.088Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/06/26-tool-tip-geo-hound/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.098Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/06/17-the-most-important-geospatial-software/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.085Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/06/14-are-web-maps-a-recession-byproduct/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.084Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/06/10-jrg-2025/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.083Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.851Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/follow.html</loc>
+    <lastmod>2025-08-07T05:02:07.851Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/subscribe.html</loc>
+    <lastmod>2025-08-07T05:02:08.147Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/about.html</loc>
+    <lastmod>2025-08-07T05:02:07.844Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/06-07-gdal-modernization-webinar-and-faq/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.076Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/06/13-swissgeo-the-swiss-geospatial-platform/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.083Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/06/09-mds-in-geo-an-example-with-mapillary/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.080Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/06/21-updated-sogi-gis-trend-radar/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.088Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/06/18-cadence-maps/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.086Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/06/28-omf-launches-gers/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.099Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/25-geoai-state-of-play-in-2025/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.948Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/15-embag-lmeta-does-not-make-open-geodata/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/01-geoparquet-to-come-to-esri-arcgis-pro/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.891Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/03-office-for-geoinformation-canton-thurgau-on-linkedin/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.898Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/31-new-map-viewer-for-the-canton-of-aargau/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.953Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/27-the-origins-of-giscience-in-switzerland-with-rob-weibel/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.951Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/08-25-years-shuttle-radar-topography-mission/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.910Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/13-going-forward-maps-for-ai/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.913Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/03/26-open-doors-at-swisstopo/index.html</loc>
+    <lastmod>2025-08-07T05:02:07.949Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/07/15-webinar-on-data-integration-using-apache-hop/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.125Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/07/12-how-much-does-it-cost-to-compute-pixels/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.122Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/07/24-a-manifesto-for-the-growth-of-geospatial/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.130Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/07/25-fediverse-recommendations/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.130Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/07/28-smarter-eo-dynamic-targeting/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.131Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/07/23-ai-and-programming/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.126Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/07/01-differential-privacy-being-wrong-on-purpose/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.099Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/07/01-swisstopo-historic-podcast/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.100Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/06-02-the-qgis-project-canonical-paper/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.071Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/05/09-new-national-drought-platform/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.023Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/05/14-tool-tip-multi-scale-terrain-analysis/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.027Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/05/07-tile-and-glyph-map-experiments/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.019Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/05/23-easily-obtain-osm-and-omf-data/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.029Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/05/19-mvt-mbt-pmtiles-everything-to-know-about-vector-tiles/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.028Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/05/12-gdal-3-11-released-with-new-gdal-program/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.024Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/05/04-marco-bernasocchi-on-qfield/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.011Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/05/08-snap-map-spatial-social/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.020Z</lastmod>
+  </url>
+  <url>
+    <loc>https://spatialists.ch/posts/2025/06-01-3d-reconstruction-of-birch-glacier-collapse/index.html</loc>
+    <lastmod>2025-08-07T05:02:08.069Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/08/05-4-years-of-the-swiss-territorial-data-lab/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.923Z</lastmod>
+    <lastmod>2025-08-07T05:02:08.143Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/08/06-the-spatial-join/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.926Z</lastmod>
+    <lastmod>2025-08-07T05:02:08.146Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/14-new-geospatial-data-in-google-bigquery/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.773Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.993Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/23-deadlines-for-prix-carto-2025-approaching/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.779Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.998Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/04-tool-tip-tippecanoe-command-generator/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.735Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.954Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/11-ohsome-planet-export-osm-data-and-its-history-to-geoparquet/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.766Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.985Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/23-boeing-to-sell-digital-aviation-solutions/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.777Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.996Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/15-the-best-programmers/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.775Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.994Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/01-open-sar-data/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.733Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.953Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/04/05-serving-vector-tiles-fast/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.749Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.969Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/06-08-isochrone-ch-reachable-areas-using-public-transport/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.856Z</lastmod>
+    <lastmod>2025-08-07T05:02:08.076Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02/13-geoparquet-2.0/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.653Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.873Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02/08-small-sat-high-res-imagery/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.638Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.858Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02/04-hello-world/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.632Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.852Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02/21-geodienste-ch-stac-and-ogc-api-features/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.669Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.889Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02/08-topodiscs-custom-3D-printed-swiss-landscapes/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.648Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.868Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02/11-impact-of-flooding-induced-road-disruptions-on-ems/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.652Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.871Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02/24-geospatial-tech-radar-by-element84/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.670Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.889Z</lastmod>
   </url>
   <url>
     <loc>https://spatialists.ch/posts/2025/02/20-cloud-native-web-app-case-study/index.html</loc>
-    <lastmod>2025-08-06T20:14:45.656Z</lastmod>
+    <lastmod>2025-08-07T05:02:07.876Z</lastmod>
   </url>
 </urlset>

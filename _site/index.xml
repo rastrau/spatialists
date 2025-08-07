@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.33</generator>
-<lastBuildDate>Wed, 06 Aug 2025 21:50:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 07 Aug 2025 06:57:00 GMT</lastBuildDate>
+<item>
+  <title>Break</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/08/07-summer-break/</link>
+  <description><![CDATA[ It’s summer break here at headquarters, so for a while things might be a bit quieter than usual. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/08/07-summer-break/</guid>
+  <pubDate>Thu, 07 Aug 2025 06:57:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/08/07-summer-break/richard-james-CgywzwVK2kU-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>The spatial join?</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/07/01-swisstopo-historic-podcast/</guid>
   <pubDate>Tue, 01 Jul 2025 20:46:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/07/01-swisstopo-historic-podcast/operator-using-scitex.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>OMF launches GERS</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/06/28-omf-launches-gers/</link>
-  <description><![CDATA[ The #Overture Maps Foundation (#OMF) is launching its Global Entity Reference System #GERS, assigning unique IDs to billions of geospatial features. Users can use GERS IDs to reference OMF features in their own data and bridge files to connect to the data sources used for OMF’s data. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/06/28-omf-launches-gers/</guid>
-  <pubDate>Sat, 28 Jun 2025 14:42:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/06/28-omf-launches-gers/gers.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
