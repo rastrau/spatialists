@@ -1,0 +1,21 @@
+---
+title: "SWISSGEO prototype online"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-09-01 07:29"
+image: "swissgeo-logo.png"
+description: "Update from the #SGS action #SWISSGEO: The first prototype of the Swiss geospatial platform aiming to unite various map, service, and data offerings from Swiss authorities is online for your testing and feedback."
+---
+
+[![SWISSGEO, the Swiss geospatial platform](swissgeo-logo.png "SWISSGEO, the Swiss geospatial platform")](https://www.geoinformation.ch/de/swissgeo-geoplattform)
+
+SWISSGEO is "the Swiss Geospatial Platform”: It aims to unite various map, 
+service, and data offerings from federal, cantonal, and communal Swiss 
+authorities. As [previously reported](https://spatialists.ch/posts/2025/06/13-swissgeo-the-swiss-geospatial-platform/), in a first step the platform will 
+gradually merge the federal geoportal geo.admin.ch, the intercantonal portal 
+geodienste.ch, the catalog of geographical data for Switzerland, and more.
+
+Now, you can give the very first SWISSGEO prototype a try at 
+[test.swissgeo.ch](https://test.swissgeo.ch/). The organization behind SWISSGEO 
+collects feedback through online forms: [in German](https://www.geoinformation.ch/de/swissgeo-feedback-de) and [in French](https://www.geoinformation.ch/fr/swissgeo-feedback-fr).
