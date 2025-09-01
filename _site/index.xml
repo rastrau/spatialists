@@ -15,8 +15,17 @@
 <title>Spatialists – geospatial news</title>
 <link>https://spatialists.ch/</link>
 </image>
-<generator>quarto-1.7.33</generator>
-<lastBuildDate>Thu, 07 Aug 2025 06:57:00 GMT</lastBuildDate>
+<generator>quarto-1.7.34</generator>
+<lastBuildDate>Mon, 01 Sep 2025 07:29:00 GMT</lastBuildDate>
+<item>
+  <title>SWISSGEO prototype online</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/09/01-swissgeo-prototype-online/</link>
+  <description><![CDATA[ Update from the #SGS action #SWISSGEO: The first prototype of the Swiss geospatial platform aiming to unite various map, service, and data offerings from Swiss authorities is online for your testing and feedback. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/09/01-swissgeo-prototype-online/</guid>
+  <pubDate>Mon, 01 Sep 2025 07:29:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/09/01-swissgeo-prototype-online/swissgeo-logo.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Break</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/07/01-differential-privacy-being-wrong-on-purpose/</guid>
   <pubDate>Tue, 01 Jul 2025 22:00:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/07/01-differential-privacy-being-wrong-on-purpose/monowi.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Swisstopo Historic podcast</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/07/01-swisstopo-historic-podcast/</link>
-  <description><![CDATA[ Under the moniker “swisstopo historic”, #swisstopo produces a #podcast about the history of #cartography and #geoinformation, now in its fourth season with themes ranging from water on maps to national boundaries. Alongside the podcast, they also share blog posts, media coverage, and interactive storytelling pieces on geospatial history. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/07/01-swisstopo-historic-podcast/</guid>
-  <pubDate>Tue, 01 Jul 2025 20:46:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/07/01-swisstopo-historic-podcast/operator-using-scitex.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
