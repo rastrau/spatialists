@@ -1,0 +1,32 @@
+---
+title: "Mapterhorn terrain tiles"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-09-02 06:12"
+image: "mapterhorn.png"
+description: "Discover #Mapterhorn by Oliver Wipfli: a collection of global 
+#terrain tiles in the lightweight #PMTiles format, built from open data sources 
+such as Switzerland’s ultra-detailed #swissALTI3D model by #swisstopo. With 
+open-source pipelines, ready-to-use code samples, and a live viewer, Mapterhorn 
+makes it easy to add hillshaded relief and detailed 3D terrain to your webmaps."
+---
+
+From Oliver Wipfli comes [Mapterhorn](https://mapterhorn.com/)^[A pun on "map" and the famous [Matterhorn](https://en.wikipedia.org/wiki/Matterhorn).], a collection of 
+terrain tiles in [PMTiles](https://github.com/protomaps/PMTiles) format 
+compiled from [open data sources](https://mapterhorn.com/attribution/). In 
+Switzerland, Mapterhorn uses [swissALTI3D](https://www.swisstopo.admin.ch/en/height-model-swissalti3d), swisstopo's high-resolution (0.5 meters!) terrain data. For the rest of the world, it currently relies on the [Copernicus DEM](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM) at 30 meters resolution. The [roadmap](https://mapterhorn.com/) lists 
+further high-resolution datasets that are scheduled to be added to Mapterhorn. 
+
+You can check out the available data using the 
+[Mapterhorn viewer](https://mapterhorn.com/viewer/#map=11.38/47.0031/7.9137).
+
+[![The real deal](livia-DtsTb6onZks-unsplash.jpg "The real deal")](https://mapterhorn.com/)
+
+There are [code samples](https://mapterhorn.com/examples/) using 
+[MapLibre](https://maplibre.org/) that demonstrate how Mapterhorn can be used 
+to add a hill-shaded relief to a webmap or 3D terrain and hillshading to an 
+OpenStreetMap raster map. And Oliver has made the code behind Mapterhorn, including 
+its data processing pipelines, [open-source](https://github.com/mapterhorn/mapterhorn) 
+under the BSD-3 licence.
+
