@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.34</generator>
-<lastBuildDate>Mon, 01 Sep 2025 07:29:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 02 Sep 2025 06:12:00 GMT</lastBuildDate>
+<item>
+  <title>Mapterhorn terrain tiles</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/09/02-mapterhorn-terrain-tiles/</link>
+  <description><![CDATA[ Discover #Mapterhorn by Oliver Wipfli: a collection of global #terrain tiles in the lightweight #PMTiles format, built from open data sources such as Switzerland’s ultra-detailed #swissALTI3D model by #swisstopo. With open-source pipelines, ready-to-use code samples, and a live viewer, Mapterhorn makes it easy to add hillshaded relief and detailed 3D terrain to your webmaps. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/09/02-mapterhorn-terrain-tiles/</guid>
+  <pubDate>Tue, 02 Sep 2025 06:12:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/09/02-mapterhorn-terrain-tiles/mapterhorn.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>SWISSGEO prototype online</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/07/06-geoparquet-and-iceberg-vs-ogc-api-features/</guid>
   <pubDate>Sun, 06 Jul 2025 21:38:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/07/06-geoparquet-and-iceberg-vs-ogc-api-features/geoparquet-vs-api-features.png" medium="image" type="image/png" height="90" width="144"/>
-</item>
-<item>
-  <title>Differential privacy: Being wrong on purpose</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/07/01-differential-privacy-being-wrong-on-purpose/</link>
-  <description><![CDATA[ How do you protect the #privacy of the subjects of #statistics and #data? – By adding controlled #noise. The blog Ironic Sans has an interesting and somewhat funny account of the ramifications of the application of #differentialprivacy in the context of the 2020 U.S. #Census. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/07/01-differential-privacy-being-wrong-on-purpose/</guid>
-  <pubDate>Tue, 01 Jul 2025 22:00:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/07/01-differential-privacy-being-wrong-on-purpose/monowi.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
