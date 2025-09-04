@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.34</generator>
-<lastBuildDate>Tue, 02 Sep 2025 06:12:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 04 Sep 2025 22:47:00 GMT</lastBuildDate>
+<item>
+  <title>On one’s own</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/09/04-on-ones-own/</link>
+  <description><![CDATA[ An analysis drawing on ecosyste.ms data reveals that a large share of #opensource projects are maintained by just one person, for example nearly half of the 13,000 most-downloaded #NPM packages, with this pattern holding for all but the largest download counts. This insight puts a spotlight on the need to carefully think about project and #community health in the modern #software landscape. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/09/04-on-ones-own/</guid>
+  <pubDate>Thu, 04 Sep 2025 22:47:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/09/04-on-ones-own/jordan-seott-RthWszHLxKc-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Mapterhorn terrain tiles</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/07/08-eth-zurich-to-build-an-eo-competence-center-for-chf-100-mio/</guid>
   <pubDate>Tue, 08 Jul 2025 18:52:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/07/08-eth-zurich-to-build-an-eo-competence-center-for-chf-100-mio/imaginearth-la-terre-en-images-opZ--yE1-hg-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>GeoParquet and Iceberg vs. OGC API-Features</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/07/06-geoparquet-and-iceberg-vs-ogc-api-features/</link>
-  <description><![CDATA[ Ingo Simonis, Chief Technology Innovation Officer at #OGC, has published an article asking the question “Does #GeoParquet Replace OGC API-Features?”. The article positions GeoParquet (and #Apache #Iceberg) vis-à-vis OGC API-Features, the successor of WFS 2.0. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/07/06-geoparquet-and-iceberg-vs-ogc-api-features/</guid>
-  <pubDate>Sun, 06 Jul 2025 21:38:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/07/06-geoparquet-and-iceberg-vs-ogc-api-features/geoparquet-vs-api-features.png" medium="image" type="image/png" height="90" width="144"/>
 </item>
 </channel>
 </rss>
