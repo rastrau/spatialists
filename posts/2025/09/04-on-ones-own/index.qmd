@@ -13,10 +13,10 @@ on the need to carefully think about project and #community health in the
 modern #software landscape."
 ---
 
-Motivated by an IT security story, Josh Bressers looks into patterns of 
-contributions to open-source software using data from the world's most 
+Motivated by an IT security story, [Josh Bressers looks into patterns of 
+contributions to open-source software](https://opensourcesecurity.io/2025/08-oss-one-person/) using data from the world's most 
 comprehensive dataset about open-source production and use, 
-[ecosyste.ms](https://ecosyste.ms). From the article "Open Source is one person":
+[ecosyste.ms](https://ecosyste.ms). From the [article "Open Source is one person"](https://opensourcesecurity.io/2025/08-oss-one-person/):
 
 > About half of the 13,000 most downloaded NPM packages are ONE PERSON. We 
 can change the download number and the graph stays this shape. It’s not until 
