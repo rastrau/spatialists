@@ -1,0 +1,32 @@
+---
+title: "On one's own"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-09-04 22:47"
+image: "jordan-seott-RthWszHLxKc-unsplash.jpg"
+description: "An analysis drawing on ecosyste.ms data reveals that a large 
+share of #opensource projects are maintained by just one person, for example 
+nearly half of the 13,000 most-downloaded #NPM packages, with this pattern 
+holding for all but the largest download counts. This insight puts a spotlight 
+on the need to carefully think about project and #community health in the 
+modern #software landscape."
+---
+
+Motivated by an IT security story, Josh Bressers looks into patterns of 
+contributions to open-source software using data from the world's most 
+comprehensive dataset about open-source production and use, 
+[ecosyste.ms](https://ecosyste.ms). From the article "Open Source is one person":
+
+> About half of the 13,000 most downloaded NPM packages are ONE PERSON. We 
+can change the download number and the graph stays this shape. It’s not until 
+I change downloads to 1 billion downloads that we see 1 package maintained by 
+1 person, and 9 packages maintained by more than 1.
+> 
+> This is open source. Open source is one person, even the popular stuff.
+
+Food for thought with respect to project health and community sustainability.
+
+I'll spare you the *xkcd*.[^xkcd]
+
+[^xkcd]: It's [2347](https://xkcd.com/2347/).
