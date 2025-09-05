@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.34</generator>
-<lastBuildDate>Thu, 04 Sep 2025 22:47:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 05 Sep 2025 14:51:00 GMT</lastBuildDate>
+<item>
+  <title>Discrete Global Grid Systems</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/09/05-discrete-global-grid-systems/</link>
+  <description><![CDATA[ Geospatial foundation models and the rise of Discrete Global Grid Systems (DGGS) are reshaping how we think about, and interact with, spatial data. In an episode of the #Geomob podcast, Luís Moreira de Sousa offers an overview of, and introduction to, #DGGS-s and their use-cases. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/09/05-discrete-global-grid-systems/</guid>
+  <pubDate>Fri, 05 Sep 2025 14:51:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/09/05-discrete-global-grid-systems/shapes.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>On one’s own</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/07/08-improve-geodata-with-crowdsourcing/</guid>
   <pubDate>Tue, 08 Jul 2025 22:26:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/07/08-improve-geodata-with-crowdsourcing/misaligned-small.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>ETH Zurich to build an EO competence center for CHF 100 Mio.</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/07/08-eth-zurich-to-build-an-eo-competence-center-for-chf-100-mio/</link>
-  <description><![CDATA[ ETH Zurich has received a landmark 100 million Swiss Franc donation to launch the Swiss #GeoLab, an #EarthObservation center in Lucerne led by Thomas Zurbuchen and Verena Griess. The center will tackle challenges from natural disasters to agricultural yield prediction, marking a major boost for environmental research. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/07/08-eth-zurich-to-build-an-eo-competence-center-for-chf-100-mio/</guid>
-  <pubDate>Tue, 08 Jul 2025 18:52:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/07/08-eth-zurich-to-build-an-eo-competence-center-for-chf-100-mio/imaginearth-la-terre-en-images-opZ--yE1-hg-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
