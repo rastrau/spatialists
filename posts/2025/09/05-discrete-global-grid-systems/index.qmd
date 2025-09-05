@@ -1,0 +1,32 @@
+---
+title: "Discrete Global Grid Systems"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-09-05 14:51"
+image: "shapes.png"
+description: "Geospatial foundation models and the rise of Discrete Global Grid Systems (DGGS) are reshaping how we think about, and interact with, spatial data. In an episode of the #Geomob podcast, 
+Luís Moreira de Sousa offers an overview of, and introduction to, #DGGS-s and their use-cases."
+---
+
+Given the promises of [geospatial AI and geospatial foundation models](https://www.ogc.org/initiatives/ai-dggs-pilot/) and the (maybe?) impending [end of the spatial join](https://spatialists.ch/posts/2025/08/06-the-spatial-join/)[^hyperbole], 
+Discrete Global Grid Systems^[DGGSs] have gained more attention over the last 
+few months. You have probably encountered [H3](https://h3geo.org/) developed by 
+Uber[^hex] starting in 2015, for example, or, more recently, 
+[S2](http://s2geometry.io/)[^s2] or [A5](https://a5geo.org/)[^penta]. 
+
+[![Examples of Discrete Global Grid Systems (source: Landscape Geoinformatics Lab, University of Tartu, Estonia)](dggs.jpg "Examples of Discrete Global Grid Systems (source: Landscape Geoinformatics Lab, University of Tartu, Estonia)")](https://github.com/LandscapeGeoinformatics/awesome-discrete-global-grid-systems)
+
+A while back, in [episode 290](https://thegeomob.com/podcast/episode-290), [Luís Moreira de Sousa](https://mastodon.social/@luis_de_sousa), Assistant Professor at the Instituto Superior Técnico in Lisbon, Portugal, was a guest on the [Geomob Podcast](https://thegeomob.com/podcast) with 
+Ed Freyfogle. The [episode is a great introduction into DGGSs](https://thegeomob.com/podcast/episode-290), their provenance, their use 
+cases, and specific examples. 
+
+If you want to dive even deeper: 
+
+- Standardisation efforts by the Open Geospatial Consortium (OGC) [are under way](https://docs.ogc.org/as/20-040r3/20-040r3.html).
+- The Landscape Geoinformatics Lab of the University of Tartu in Estonia has a [large collection of DGGS resources](https://github.com/LandscapeGeoinformatics/awesome-discrete-global-grid-systems)
+
+[^hyperbole]: Please allow some hyperbole.
+[^hex]: Hexagon-based except for 12 pentagons (think: football/soccer ball) and using *approximate* sub-divisions.
+[^s2]: Based on a cube projection and the Hilbert curve.
+[^penta]: Based on irregularly-shaped pentagons. 
