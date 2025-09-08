@@ -1,0 +1,47 @@
+---
+title: "Prix Carto 2025 winners"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-09-08 21:59"
+image: "schweizer-bergwelten-cropped.jpg"
+description: 'Discover the winners of the 2025 Prix Carto award of the Swiss 
+Society for Cartography: Fabian Lang for his book "Schweizer Bergwelten", 
+Sachit Mahajan for the R package "greenR", and Aubry Cholleton for the web 
+app "isochrone.ch".'
+---
+
+Last Friday, the award ceremony for the Prix Carto of the [Swiss Society for 
+Cartography](https://kartografie.ch) (SSC) took place in Zurich. The 
+[Prix Carto](https://kartografie.ch/prix-carto/) is a biennial award for 
+outstanding cartographic work with a relationship to Switzerland.[^transp] This 
+year it has been awarded for the eleventh time.
+
+Three prizes were awarded: 
+
+The **Prix Carto** main prize was awarded to 
+[**Fabian Lang**](https://www.linkedin.com/in/fbnlng/) for his book 
+"[Schweizer Bergwelten](https://www.fabianlang.net/schweizer-bergweltenlten)".
+
+![Excerpts of "Schweizer Bergwelten"](schweizer-bergwelten.jpg "Excerpts of 'Schweizer Bergwelten'")
+
+The **Prix Carto Edu** prize was awarded to 
+[**Sachit Mahajan**](https://www.linkedin.com/in/sachit-mahajan-9052b745/) for 
+his R package "[`greenR`](https://github.com/sachit27/greenR)" for quantifying 
+urban greenness.
+
+![The greenR Shiny app](greenr.jpg "The greenR Shiny app")
+
+The **Prix Carto recognition award** was awarded to 
+[**Aubry Cholleton**](https://www.linkedin.com/in/aubrycholleton/) for his web 
+app "[isochrone.ch](https://isochrone.ch/)".
+
+![The isochrone.ch web app](isochrone.png "The isochrone.ch web app")
+
+You can find more information on the Prix Carto and the winning submissions as 
+well as the laudatory speeches by jury members 
+[here](https://kartografie.ch/prix-carto/). The same page also lists winners of 
+previous years.
+
+[^transp]: Transparency note: I have been a member of the Prix Carto jury since 
+2015 but ended my engagement after this year's award ceremony.
