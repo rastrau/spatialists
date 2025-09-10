@@ -1,0 +1,15 @@
+---
+title: "Vector tiles coming to DuckDB"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-09-10 20:34"
+image: "maria-lupan-zvNg9cKe4Gk-unsplash.jpg"
+description: "#DuckDB’s #spatial extension is about to support #Mapbox Vector Tiles (#MVT) with the newly merged ST_AsMVT and ST_AsMVTGeom functions. The two new functions are scheduled to be shipped next week in DuckDB version 1.4."
+---
+
+Hot off the ~~press~~ collaborative coding platform: A [pull request](https://github.com/duckdb/duckdb-spatial/pull/677) introducing `ST_AsMVT` and `ST_AsMVTGeom` has been merged into the DuckDB `spatial` extension. Similar to PostGIS, these two new functions will allow DuckDB to serve vector tiles in the Mapbox Vector Tile (MVT) format. 
+
+[Max Gabrielsson](https://github.com/Maxxen) has published a 160-line gist^[A short piece of code hosted on GitHub] demonstrating how to set up a Flask^[A Python framework for web apps] app that serves vector tiles from DuckDB in a webmap.
+
+The [idea](https://github.com/duckdb/duckdb-spatial/issues/241#issue-2106636783) first emerged in January of last year. The feature is [scheduled to ship in DuckDB version 1.4](https://github.com/duckdb/duckdb-spatial/issues/241#issuecomment-3184208108) next week!
