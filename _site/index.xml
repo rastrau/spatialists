@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.7.34</generator>
-<lastBuildDate>Mon, 08 Sep 2025 21:59:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 10 Sep 2025 20:34:00 GMT</lastBuildDate>
+<item>
+  <title>Vector tiles coming to DuckDB</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/09/10-vector-tiles-coming-to-duckdb/</link>
+  <description><![CDATA[ #DuckDB’s #spatial extension is about to support #Mapbox Vector Tiles (#MVT) with the newly merged ST_AsMVT and ST_AsMVTGeom functions. The two new functions are scheduled to be shipped next week in DuckDB version 1.4. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/09/10-vector-tiles-coming-to-duckdb/</guid>
+  <pubDate>Wed, 10 Sep 2025 20:34:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/09/10-vector-tiles-coming-to-duckdb/maria-lupan-zvNg9cKe4Gk-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Prix Carto 2025 winners</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/07/12-how-much-does-it-cost-to-compute-pixels/</guid>
   <pubDate>Sat, 12 Jul 2025 23:24:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/07/12-how-much-does-it-cost-to-compute-pixels/javier-miranda-AlJ9TQqeCV0-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>wanderer: Decentralized trail database</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/07/09-wanderer-decentralized-trail-database/</link>
-  <description><![CDATA[ #wanderer is a new, #opensource, #decentralized #trail database where you can upload tracks (or import them from #STRAVA or #Komoot), create or share routes, and connect with communities through #ActivityPub-powered #federation. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/07/09-wanderer-decentralized-trail-database/</guid>
-  <pubDate>Wed, 09 Jul 2025 17:26:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/07/09-wanderer-decentralized-trail-database/wanderer-logo.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
