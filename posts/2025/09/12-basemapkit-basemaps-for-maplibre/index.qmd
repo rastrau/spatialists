@@ -1,0 +1,51 @@
+---
+title: "Basemapkit: Basemaps for Maplibre"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-09-12 17:25"
+image: "basemapkit.png"
+description: "#Basemapkit is a new open-source library by Jonathan Lurie that 
+provides customizable basemap styles for use with #Maplibre GL JS and 
+#Protomaps #OSM #pmtiles. Its core style, avenue, is designed as a practical “one-size-fits-all” basemap, with optional relief shading for flexible 
+cartographic use."
+---
+
+[Basemapkit](https://github.com/jonathanlurie/basemapkit) is a new open-source 
+collection of basemap styles to be used with 
+[Maplibre GL JS](https://maplibre.org/maplibre-gl-js/docs/) and data from the 
+[Protomaps](https://protomaps.com) 
+[OSM pmtiles builds](https://maps.protomaps.com/builds/). At the time of 
+writing, Basemapkit supports 41 languages. For now, Basemapkit contains one 
+base style called "avenue". From the creator, Jonathan Lurie:
+
+> The main idea behind avenue is to be a one-size-fits-all, a basemap that one 
+can pull whenever they need a basemap, and it’s magically going to work just 
+fine. Such a magically versatile basemap is probably not going to ever exist, 
+but that’s my attempt.
+
+And:
+
+> One of the key design rules for avenue is that there are ~no~ outrageously 
+fake colors. Highways are not yellow, and the most rule-bending symbology is 
+cycling lanes to be dashed+green and tunnels/bridges to be white.
+
+![The Basemapkit *avenue* style (source: Jonathan Lurie)](vancouver.webp "The Basemapkit *avenue* style (source: Jonathan Lurie)")
+
+Most recently, Jonathan has added relief shading to Basemapkit. Basemapkit 
+offers to options: Mapterhorn (previously 
+[covered here](https://spatialists.ch/posts/2025/09/02-mapterhorn-terrain-tiles/)) 
+and Mapzen. 
+
+![The Basemapkit *avenue* style without and with relief shading (source: Jonathan Lurie)](japan.jpg "The Basemapkit *avenue* style without and with relief shading (source: Jonathan Lurie)")
+
+Through color manipulation, the *avenue* base style is branched out into 
+currently 9 different presets that come with Basemapkit. Users can also 
+[modify *avenue*](https://github.com/jonathanlurie/basemapkit/tree/main#getting-creative-with-buildstyle) for their individual use case themselves.
+
+There is a [GitHub repository](https://github.com/jonathanlurie/basemapkit) as well as two articles by Jonathan detailling the design and the technical background: 
+*"[Basemapkit: web basemaps for the people](https://jonathanlurie.substack.com/p/basemapkit-intro)"* and *"[Basemapkit: Let's explore the mountains!](https://jonathanlurie.substack.com/p/basemapkit-lets-explore-the-mountains)"*.
+
+
+
+
