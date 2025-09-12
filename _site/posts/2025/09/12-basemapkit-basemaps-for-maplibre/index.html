@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ralph Straumann">
-<meta name="dcterms.date" content="2025-07-09">
-<meta name="description" content="#wanderer is a new, #opensource, #decentralized #trail database where you can upload tracks (or import them from #STRAVA or #Komoot), create or share routes, and connect with communities through #ActivityPub-powered #federation.">
+<meta name="dcterms.date" content="2025-09-12">
+<meta name="description" content="#Basemapkit is a new open-source library by Jonathan Lurie that provides customizable basemap styles for use with #Maplibre GL JS and #Protomaps #OSM #pmtiles. Its core style, avenue, is designed as a practical “one-size-fits-all” basemap, with optional relief shading for flexible cartographic use.">
 
-<title>wanderer: Decentralized trail database – Spatialists – geospatial news</title>
+<title>Basemapkit: Basemaps for Maplibre – Spatialists – geospatial news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -45,8 +45,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../../site_libs/bootstrap/bootstrap-8e9b7b38a61cad0efd5e9be4feacffde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
-<script src="../../../../site_libs/quarto-contrib/videojs/video.min.js"></script>
-<link href="../../../../site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -119,15 +117,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../../styles.css">
-<meta property="og:title" content="wanderer: Decentralized trail database – Spatialists – geospatial news">
-<meta property="og:description" content="#wanderer is a new, #opensource, #decentralized #trail database where you can upload tracks (or import them from #STRAVA or #Komoot), create or share routes, and connect with communities through #ActivityPub-powered #federation.">
-<meta property="og:image" content="https://spatialists.ch/posts/2025/07/09-wanderer-decentralized-trail-database/wanderer-logo.png">
+<meta property="og:title" content="Basemapkit: Basemaps for Maplibre – Spatialists – geospatial news">
+<meta property="og:description" content="#Basemapkit is a new open-source library by Jonathan Lurie that provides customizable basemap styles for use with #Maplibre GL JS and #Protomaps #OSM #pmtiles. Its core style, avenue, is designed as a practical “one-size-fits-all” basemap, with optional relief shading for flexible cartographic use.">
+<meta property="og:image" content="https://spatialists.ch/posts/2025/09/12-basemapkit-basemaps-for-maplibre/basemapkit.png">
 <meta property="og:site_name" content="Spatialists – geospatial news">
 <meta property="og:image:height" content="600">
 <meta property="og:image:width" content="900">
-<meta name="twitter:title" content="wanderer: Decentralized trail database – Spatialists – geospatial news">
-<meta name="twitter:description" content="#wanderer is a new, #opensource, #decentralized #trail database where you can upload tracks (or import them from #STRAVA or #Komoot), create or share routes, and connect with communities through #ActivityPub-powered #federation.">
-<meta name="twitter:image" content="https://spatialists.ch/posts/2025/07/09-wanderer-decentralized-trail-database/wanderer-logo.png">
+<meta name="twitter:title" content="Basemapkit: Basemaps for Maplibre – Spatialists – geospatial news">
+<meta name="twitter:description" content="#Basemapkit is a new open-source library by Jonathan Lurie that provides customizable basemap styles for use with #Maplibre GL JS and #Protomaps #OSM #pmtiles. Its core style, avenue, is designed as a practical “one-size-fits-all” basemap, with optional relief shading for flexible cartographic use.">
+<meta name="twitter:image" content="https://spatialists.ch/posts/2025/09/12-basemapkit-basemaps-for-maplibre/basemapkit.png">
 <meta name="twitter:image-height" content="600">
 <meta name="twitter:image-width" content="900">
 <meta name="twitter:card" content="summary_large_image">
@@ -179,10 +177,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">wanderer: Decentralized trail database</h1>
+      <h1 class="title">Basemapkit: Basemaps for Maplibre</h1>
                   <div>
         <div class="description">
-          #wanderer is a new, #opensource, #decentralized #trail database where you can upload tracks (or import them from #STRAVA or #Komoot), create or share routes, and connect with communities through #ActivityPub-powered #federation.
+          #Basemapkit is a new open-source library by Jonathan Lurie that provides customizable basemap styles for use with #Maplibre GL JS and #Protomaps #OSM #pmtiles. Its core style, avenue, is designed as a practical “one-size-fits-all” basemap, with optional relief shading for flexible cartographic use.
         </div>
       </div>
                 </div>
@@ -201,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">July 9, 2025</p>
+        <p class="date">September 12, 2025</p>
       </div>
     </div>
     
@@ -220,28 +218,33 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><a href="https://wanderer.to/">wanderer</a> is a new<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> decentralized<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> trail database. You can upload GNSS<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> tracks of your activities, add metadata, and create routes.</p>
+<p><a href="https://github.com/jonathanlurie/basemapkit">Basemapkit</a> is a new open-source collection of basemap styles to be used with <a href="https://maplibre.org/maplibre-gl-js/docs/">Maplibre GL JS</a> and data from the <a href="https://protomaps.com">Protomaps</a> <a href="https://maps.protomaps.com/builds/">OSM pmtiles builds</a>. At the time of writing, Basemapkit supports 41 languages. For now, Basemapkit contains one base style called “avenue”. From the creator, Jonathan Lurie:</p>
+<blockquote class="blockquote">
+<p>The main idea behind avenue is to be a one-size-fits-all, a basemap that one can pull whenever they need a basemap, and it’s magically going to work just fine. Such a magically versatile basemap is probably not going to ever exist, but that’s my attempt.</p>
+</blockquote>
+<p>And:</p>
+<blockquote class="blockquote">
+<p>One of the key design rules for avenue is that there are <sub>no</sub> outrageously fake colors. Highways are not yellow, and the most rule-bending symbology is cycling lanes to be dashed+green and tunnels/bridges to be white.</p>
+</blockquote>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="wanderer.jpg" title="The interface of wanderer" class="img-fluid figure-img"></p>
-<figcaption>The interface of wanderer</figcaption>
+<p><img src="vancouver.webp" title="The Basemapkit *avenue* style (source: Jonathan Lurie)" class="img-fluid figure-img"></p>
+<figcaption>The Basemapkit <em>avenue</em> style (source: Jonathan Lurie)</figcaption>
 </figure>
 </div>
-<p>There is a social element as well: Similarly to other platforms, on <a href="https://wanderer.to/">wanderer</a>, you can follow other users, see their activities, and like and comment on trails. <a href="https://wanderer.to/">wanderer</a> also supports importing activity histories from other platforms such as STRAVA or Komoot.</p>
-<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="https://wanderer.to/trailer.mp4"></video></div>
-<p>Looks like an interesting addition to the growing <a href="https://en.wikipedia.org/wiki/Decentralized_web">decentralized web</a> and to <a href="https://en.wikipedia.org/wiki/Digital_self-determination">digital self-determination</a>.</p>
+<p>Most recently, Jonathan has added relief shading to Basemapkit. Basemapkit offers to options: Mapterhorn (previously <a href="https://spatialists.ch/posts/2025/09/02-mapterhorn-terrain-tiles/">covered here</a>) and Mapzen.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="japan.jpg" title="The Basemapkit *avenue* style without and with relief shading (source: Jonathan Lurie)" class="img-fluid figure-img"></p>
+<figcaption>The Basemapkit <em>avenue</em> style without and with relief shading (source: Jonathan Lurie)</figcaption>
+</figure>
+</div>
+<p>Through color manipulation, the <em>avenue</em> base style is branched out into currently 9 different presets that come with Basemapkit. Users can also <a href="https://github.com/jonathanlurie/basemapkit/tree/main#getting-creative-with-buildstyle">modify <em>avenue</em></a> for their individual use case themselves.</p>
+<p>There is a <a href="https://github.com/jonathanlurie/basemapkit">GitHub repository</a> as well as two articles by Jonathan detailling the design and the technical background: <em>“<a href="https://jonathanlurie.substack.com/p/basemapkit-intro">Basemapkit: web basemaps for the people</a>”</em> and <em>“<a href="https://jonathanlurie.substack.com/p/basemapkit-lets-explore-the-mountains">Basemapkit: Let’s explore the mountains!</a>”</em>.</p>
 
 
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>v0.17.1 – early days<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>wanderer is <a href="https://github.com/Flomp/wanderer">open-source</a> under AGPL v3. If you like, you can self-host a <a href="https://wanderer.to/servers">wanderer instance</a> (server). wanderer uses the <a href="https://en.wikipedia.org/wiki/ActivityPub">ActivityPub protocol</a>, meaning your instance can connect with others to share trail information, user profile data, and updates. Users from different instances can connect across the network of wanderer communities (there is no central node) and even interact with other federated platforms like <a href="https://joinmastodon.org/">Mastodon</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Global Navigation Satellite System<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -643,7 +646,6 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
-<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 

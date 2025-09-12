@@ -15,8 +15,17 @@
 <title>Spatialists – geospatial news</title>
 <link>https://spatialists.ch/</link>
 </image>
-<generator>quarto-1.7.34</generator>
-<lastBuildDate>Wed, 10 Sep 2025 20:34:00 GMT</lastBuildDate>
+<generator>quarto-1.8.24</generator>
+<lastBuildDate>Fri, 12 Sep 2025 17:25:00 GMT</lastBuildDate>
+<item>
+  <title>Basemapkit: Basemaps for Maplibre</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/09/12-basemapkit-basemaps-for-maplibre/</link>
+  <description><![CDATA[ #Basemapkit is a new open-source library by Jonathan Lurie that provides customizable basemap styles for use with #Maplibre GL JS and #Protomaps #OSM #pmtiles. Its core style, avenue, is designed as a practical “one-size-fits-all” basemap, with optional relief shading for flexible cartographic use. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/09/12-basemapkit-basemaps-for-maplibre/</guid>
+  <pubDate>Fri, 12 Sep 2025 17:25:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/09/12-basemapkit-basemaps-for-maplibre/basemapkit.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Vector tiles coming to DuckDB</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/07/14-from-tool-knowledge-to-fundamentals/</guid>
   <pubDate>Mon, 14 Jul 2025 19:24:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/07/14-from-tool-knowledge-to-fundamentals/thisisengineering-h6gCRTCxM7o-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>How much does it cost to compute pixels?</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/07/12-how-much-does-it-cost-to-compute-pixels/</link>
-  <description><![CDATA[ What are the economics of using Google Earth Engine (#GEE) for Earth observation vs. a self-operated #EO pipeline? – Christopher Ren analyzes GEE’s pricing structure and finds it mis-priced when used as an imagery pipeline. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/07/12-how-much-does-it-cost-to-compute-pixels/</guid>
-  <pubDate>Sat, 12 Jul 2025 23:24:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/07/12-how-much-does-it-cost-to-compute-pixels/javier-miranda-AlJ9TQqeCV0-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
