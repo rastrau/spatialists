@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.24</generator>
-<lastBuildDate>Fri, 12 Sep 2025 17:25:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 14 Sep 2025 17:35:00 GMT</lastBuildDate>
+<item>
+  <title>Spatial resolution?</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/09/14-spatial-resolution/</link>
+  <description><![CDATA[ “Spatial resolution” is one of the most often misunderstood terms in #EarthObservation and #geospatial. A Planet Stories article demystifies the underlying technical concepts such as Ground Sampling Distance, Ground Resolved Distance, and more, and shows how careful analysis is essential for accurately assessing image quality and separability of features. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/09/14-spatial-resolution/</guid>
+  <pubDate>Sun, 14 Sep 2025 17:35:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/09/14-spatial-resolution/satellite-geometry.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Basemapkit: Basemaps for Maplibre</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/07/15-webinar-on-data-integration-using-apache-hop/</guid>
   <pubDate>Tue, 15 Jul 2025 18:04:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/07/15-webinar-on-data-integration-using-apache-hop/apache-hop-logo.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>From tool knowledge to fundamentals</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/07/14-from-tool-knowledge-to-fundamentals/</link>
-  <description><![CDATA[ A #Thoughtworks team introduces the concept of the “Expert Generalist” — professionals who blend deep expertise in some disciplines with a broad knowledge across multiple domains. The article makes a case for recognizing #expert #generalists as essential to breaking down the silos that often stifle #innovation in tech organizations. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/07/14-from-tool-knowledge-to-fundamentals/</guid>
-  <pubDate>Mon, 14 Jul 2025 19:24:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/07/14-from-tool-knowledge-to-fundamentals/thisisengineering-h6gCRTCxM7o-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
