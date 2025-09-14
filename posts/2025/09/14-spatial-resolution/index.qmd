@@ -1,0 +1,33 @@
+---
+title: "Spatial resolution?"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-09-14 17:35"
+image: "satellite-geometry.jpg"
+description: '“Spatial resolution” is one of the most often misunderstood terms in #EarthObservation and #geospatial. A Planet Stories article demystifies the underlying technical concepts such as Ground Sampling Distance, Ground Resolved Distance, and more, and shows how careful analysis is essential for accurately assessing image quality and separability of features.'
+---
+
+"Spatial resolution" – as [article from Planet Stories argues](https://medium.com/sentinel-hub/the-most-misunderstood-words-in-earth-observation-d0106adbe4b0) – is one of the 
+most misunderstood terms in Earth observation. What you see (on a specification sheet) 
+may not be what you get: 
+
+[![Comparison of two images with same *Ground Sampling Distance* but 
+different *Ground Resolution Distance* and *Modulation Transfer Function* (source: Airbus Pleiades user guide via Planet Stories)](comparison-70cm.webp "Comparison of two images with same Ground Sampling Distance but different Ground Resolution Distance and Modulation Transfer Function (source: Airbus Pleiades user guide via Planet Stories)")](https://medium.com/sentinel-hub/the-most-misunderstood-words-in-earth-observation-d0106adbe4b0)
+
+The 2022 article examines in depth the terminology and underlying concepts: *Pixel size*, *Instantaneous 
+Field of View (IFOV)*, *Ground Resolved Cell (GRC)*, *Ground Resolved Distance 
+(GRD)*, *Modulation Transfer Function (MTF)*, and *Point Spread Function (PSF)*. Although this may sound highly technical, the article manages to present it in a way that is approachable, informative, and well-illustrated.
+
+[![Calibration sites help estimate the true spatial resolution. Here, a comparison between Airbus Pleiades and SPOT pan and red-channel imagery over a calibration site (near the bottom of the image) is shown. (source: Planet Stories)](calibration-pleiades-spot.webp "Calibration sites help estimate the true spatial resolution. Here, a comparison between Airbus Pleiades and SPOT pan and red-channel imagery over a calibration site (near the bottom of the image) is shown. (source: Planet Stories)")](https://medium.com/sentinel-hub/the-most-misunderstood-words-in-earth-observation-d0106adbe4b0)
+
+While the [Planet Stories article](https://medium.com/sentinel-hub/the-most-misunderstood-words-in-earth-observation-d0106adbe4b0) focuses on 
+optical remote sensing system using push-broom technology, some of the contents 
+are transferable to other geospatial domains. The simplest take-away that 
+generalizes for other geospatial data[^geodata]: pixel size is the simplest, and 
+sometimes a poor, operationalization of "spatial resolution". *Caveat emptor.*
+
+[^geodata]: If the question of spatial resolution interests you also with 
+regard to elevation data, in *[Resolution Sensitivity of a Compound Terrain 
+Derivative as Computed from LiDAR-Based Elevation Data](https://ralphstraumann.ch/downloads/straumann_agile2007.pdf)* (pdf), I have written about this, specifically in 
+chapter 2.4 titled *Nominal and Real Resolution*. It examines Digital Elevation Models (DEMs) in the context of resolution sensitivity analyses and the differing modes by which the DEMs were generated.
