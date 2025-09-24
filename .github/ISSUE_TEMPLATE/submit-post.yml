@@ -31,6 +31,15 @@ body:
         - second item
     validations:
       required: true
+  - type: textarea
+    id: post-blurb
+    attributes:
+      label: Blurb (appears on the main page, in the Mastodon post and in the LinkedIn post)
+      placeholder: The blurb (short intro/teaser) for the post goes here. Use common #hashtags.
+      value: | 
+        The blurb (short intro/teaser) for the post goes here. Use common #hashtags.
+    validations:
+      required: true
   - type: input
     id: author
     attributes:
