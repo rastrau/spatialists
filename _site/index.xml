@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.24</generator>
-<lastBuildDate>Sun, 14 Sep 2025 17:35:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 24 Sep 2025 18:50:00 GMT</lastBuildDate>
+<item>
+  <title>Improved Swiss Base Map</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/09/24-improved-swiss-base-map/</link>
+  <description><![CDATA[ The “#BaseMap” from Switzerland’s NMGA #swisstopo is an award-winning interactive cartographic product that integrates data from multiple partners and was recognized with the 2025 #ICA #MapAward. An article by Swisstopo explains how the map was refined through user-feedback and iterative design enhancing mobile #usability and readability. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/09/24-improved-swiss-base-map/</guid>
+  <pubDate>Wed, 24 Sep 2025 18:50:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/09/24-improved-swiss-base-map/map-comparison.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Spatial resolution?</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/07/23-vector-tiles-for-openstreetmap-org/</guid>
   <pubDate>Wed, 23 Jul 2025 18:25:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/07/23-vector-tiles-for-openstreetmap-org/map-geneve.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Webinar on data integration using Apache Hop</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/07/15-webinar-on-data-integration-using-apache-hop/</link>
-  <description><![CDATA[ On August 26, Stefan Keller of FH OST will lead a free webinar focused on (geo)data manipulation and integration using #Apache #Hop, an open-source, low-code platform for building data workflows. The session will also touch on emerging trends in #AI and #LLMs within the data integration space. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/07/15-webinar-on-data-integration-using-apache-hop/</guid>
-  <pubDate>Tue, 15 Jul 2025 18:04:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/07/15-webinar-on-data-integration-using-apache-hop/apache-hop-logo.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
