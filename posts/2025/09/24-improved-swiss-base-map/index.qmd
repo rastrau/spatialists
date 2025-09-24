@@ -1,0 +1,28 @@
+---
+title: "Improved Swiss Base Map"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-09-24 18:50"
+image: "map-comparison.jpg"
+description: 'The "#BaseMap" from Switzerland’s NMGA #swisstopo is an award-winning interactive cartographic product that integrates data from multiple partners and was recognized with the 2025 #ICA #MapAward. An article by Swisstopo explains how the map was refined through user-feedback and iterative design enhancing mobile #usability and readability.'
+---
+
+The "[Base Map](https://www.swisstopo.admin.ch/en/contents-and-functions-base-map)" is a cartographic product of the Swiss NMGA^[National mapping and geospatial agency] [swisstopo](https://www.swisstopo.admin.ch). It sources and combines data [from various partners](https://www.swisstopo.admin.ch/en/contents-and-functions-base-map#Data-from-partner-organisations) and received a [2025 Map Award from the International Cartographic Association](https://www.linkedin.com/posts/swisstopo_ica-map-award-pour-la-base-map-activity-7371203354770690048-CG3V) (in [German](https://www.swisstopo.admin.ch/de/die-base-map-erhaelt-einen-ica-award) / in [French](https://www.swisstopo.admin.ch/fr/la-base-map-recompensee-par-un-ica-map-award)).
+
+In a recent article, Swisstopo [covered the process through which an early map design has been improved collaboratively](https://www.swisstopo.admin.ch/en/rethinking-base-map-together):
+
+> Last summer, we conducted a large-scale survey on the swisstopo app and the new Base Map. Almost 5,000 users took part and shared their experiences with us (...) Overall, the Base Map received very positive feedback. (...) At the same time, there were some critical comments: the main complaints were about performance on older devices, long loading times and pale colours, which make it difficult to read in bright sunlight.
+
+And: 
+
+> The survey wasn’t just an exercise – it was the starting point for concrete changes. (...) Many of the points and suggestions have already been implemented.
+
+[![Comparison of two iterations of the *Base Map*](map-comparison.jpg "Comparison of two iterations of the Base Map")](https://cms.geo.admin.ch/fmc/StyleCompare_EN.html)
+
+Two things to note: 
+
+- The process is a (very) mild case of crowdsourcing, but still: I appreciate the approach and the diligent accounting of the implemented changes through a [very nice animated and interactive scrolly-telling map showing "before" and "after"](https://www.swisstopo.admin.ch/en/rethinking-base-map-together#doc-1iv2tmek00).
+- Even subtle tweaks can bear significant influence on usability.
+
+If you'd like to see the *before*-and-*after* map full-size rather than as an `iframe`, you can look at it as [a stand-alone page](https://cms.geo.admin.ch/fmc/StyleCompare_EN.html).
