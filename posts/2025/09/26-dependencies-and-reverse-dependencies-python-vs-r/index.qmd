@@ -1,0 +1,55 @@
+---
+title: "Dependencies and reverse dependencies: Python vs. R"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-09-26 17:55"
+image: "shubham-dhage-T9rKvI3N0NM-unsplash.jpg"
+description: "Julie Tibshirani reflects on how the #R ecosystem uniquely 
+manages dependencies through *reverse* dependency checks on #CRAN. R's approach 
+comes at a cost to developers, but also fosters a culture of empathy and responsibility among package maintainers, ultimately benefiting researchers and 
+data scientists by minimizing dependency conflicts and easing migrations."
+---
+
+[Julie Tibshirani](https://www.linkedin.com/in/julie-tibshirani) reflects on 
+how the R[^R] ecosystem handles dependencies[^dep] [radically differently than Python (or most, if not all, programming languages)]((https://jtibs.substack.com/p/if-all-the-world-were-a-monorepo)):
+
+> Learning R has expanded how I think as a software engineer, precisely because 
+its perspective and community are so different to my own. This post explores 
+one unique aspect of the R ecosystem, reverse dependency checks, and how it 
+changed the way I approach software maintenance.
+
+What is a **reverse dependency check**? It's an approach where upon you 
+submitting a package to be published on CRAN[^cran], the CRAN team runs not 
+just the tests for your packages but also the test for all packages *that 
+depend on your package*. The CRAN team thus ensures that package developers 
+inform maintainers of dependent packages in time about breaking changes.
+
+Julie [goes on](https://jtibs.substack.com/p/if-all-the-world-were-a-monorepo):
+
+> My initial reaction to CRAN’s reverse dependency checks was one of shock and concern. (...) I (...) didn’t understand why it was my responsibility to help 
+update other packages (whose code I may not understand or endorse) before mine 
+could be released. The concept of reverse dependency checks felt truly radical. 
+So why does CRAN perform these checks?
+>
+> (...)
+>
+> [CRAN’s approach] results in an excellent workflow for R’s central user base: 
+the researchers and data scientists who want to spend as much time as possible 
+on the details of data analysis, not stuck in transitive dependency hell.
+> 
+> (...)
+> 
+> I believe CRAN’s is truly the right mindset for running migrations. It places 
+you in a powerful state of extreme empathy — that our user’s code is our responsibility, and that their success is ours too.
+
+The [article](https://jtibs.substack.com/p/if-all-the-world-were-a-monorepo) 
+has much more context and background. Food for thought.
+
+[^R]: R is a programming language for statistical computing and data analysis.
+[^dep]: In the context of software, "dependency" describes the relationship 
+where one software component (`A`) relies on another (`B`) to function. In this 
+case, `B` is a dependency of `A`.
+[^cran]: The "[Comprehensive R Archive Network](https://cran.r-project.org/)", 
+the central package manager of the R ecosystem, similar to 
+[PyPi](https://pypi.org/project/pip/) for Python.
