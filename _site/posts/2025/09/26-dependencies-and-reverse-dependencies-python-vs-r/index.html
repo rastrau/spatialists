@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ralph Straumann">
-<meta name="dcterms.date" content="2025-08-05">
-<meta name="description" content="The Swiss Territorial Data Lab (#STDL) is a collaborative initiative within Switzerland’s geoinformation strategy, running from 2020 to 2025, dedicated to advancing data-driven solutions for public administration using #geodata and #datascience. Their 2025 report highlights organizational and methodological insights gained over the past years, with further technical resources available at tech.stdl.ch.">
+<meta name="dcterms.date" content="2025-09-26">
+<meta name="description" content="Julie Tibshirani reflects on how the #R ecosystem uniquely manages dependencies through reverse dependency checks on #CRAN. R’s approach comes at a cost to developers, but also fosters a culture of empathy and responsibility among package maintainers, ultimately benefiting researchers and data scientists by minimizing dependency conflicts and easing migrations.">
 
-<title>4 years of the Swiss Territorial Data Lab – Spatialists – geospatial news</title>
+<title>Dependencies and reverse dependencies: Python vs.&nbsp;R – Spatialists – geospatial news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,13 +117,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../../styles.css">
-<meta property="og:title" content="4 years of the Swiss Territorial Data Lab – Spatialists – geospatial news">
-<meta property="og:description" content="The Swiss Territorial Data Lab (#STDL) is a collaborative initiative within Switzerland’s geoinformation strategy, running from 2020 to 2025, dedicated to advancing data-driven solutions for public administration using #geodata and #datascience. Their 2025 report highlights organizational and methodological insights gained over the past years, with further technical resources available at tech.stdl.ch.">
-<meta property="og:image" content="https://spatialists.ch/posts/2025/08/05-4-years-of-the-swiss-territorial-data-lab/stdl.jpg">
+<meta property="og:title" content="Dependencies and reverse dependencies: Python vs.&nbsp;R – Spatialists – geospatial news">
+<meta property="og:description" content="Julie Tibshirani reflects on how the #R ecosystem uniquely manages dependencies through reverse dependency checks on #CRAN. R’s approach comes at a cost to developers, but also fosters a culture of empathy and responsibility among package maintainers, ultimately benefiting researchers and data scientists by minimizing dependency conflicts and easing migrations.">
+<meta property="og:image" content="https://spatialists.ch/posts/2025/09/26-dependencies-and-reverse-dependencies-python-vs-r/shubham-dhage-T9rKvI3N0NM-unsplash.jpg">
 <meta property="og:site_name" content="Spatialists – geospatial news">
-<meta name="twitter:title" content="4 years of the Swiss Territorial Data Lab – Spatialists – geospatial news">
-<meta name="twitter:description" content="The Swiss Territorial Data Lab (#STDL) is a collaborative initiative within Switzerland’s geoinformation strategy, running from 2020 to 2025, dedicated to advancing data-driven solutions for public administration using #geodata and #datascience. Their 2025 report highlights organizational and methodological insights gained over the past years, with further technical resources available at tech.stdl.ch.">
-<meta name="twitter:image" content="https://spatialists.ch/posts/2025/08/05-4-years-of-the-swiss-territorial-data-lab/stdl.jpg">
+<meta name="twitter:title" content="Dependencies and reverse dependencies: Python vs.&nbsp;R – Spatialists – geospatial news">
+<meta name="twitter:description" content="Julie Tibshirani reflects on how the #R ecosystem uniquely manages dependencies through reverse dependency checks on #CRAN. R’s approach comes at a cost to developers, but also fosters a culture of empathy and responsibility among package maintainers, ultimately benefiting researchers and data scientists by minimizing dependency conflicts and easing migrations.">
+<meta name="twitter:image" content="https://spatialists.ch/posts/2025/09/26-dependencies-and-reverse-dependencies-python-vs-r/shubham-dhage-T9rKvI3N0NM-unsplash.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -173,10 +173,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">4 years of the Swiss Territorial Data Lab</h1>
+      <h1 class="title">Dependencies and reverse dependencies: Python vs.&nbsp;R</h1>
                   <div>
         <div class="description">
-          The Swiss Territorial Data Lab (#STDL) is a collaborative initiative within Switzerland’s geoinformation strategy, running from 2020 to 2025, dedicated to advancing data-driven solutions for public administration using #geodata and #datascience. Their 2025 report highlights organizational and methodological insights gained over the past years, with further technical resources available at tech.stdl.ch.
+          Julie Tibshirani reflects on how the #R ecosystem uniquely manages dependencies through <em>reverse</em> dependency checks on #CRAN. R’s approach comes at a cost to developers, but also fosters a culture of empathy and responsibility among package maintainers, ultimately benefiting researchers and data scientists by minimizing dependency conflicts and easing migrations.
         </div>
       </div>
                 </div>
@@ -195,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">August 5, 2025</p>
+        <p class="date">September 26, 2025</p>
       </div>
     </div>
     
@@ -214,15 +214,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>The <a href="https://www.stdl.ch">Swiss Territorial Data Lab</a> (STDL)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> is an initiative in the framework of the <a href="https://www.geo.admin.ch/en/strategy-and-implementation">Swiss Geoinformation Strategy</a> and it is funded from 2020 until the end of 2025. The goal of the STDL is to conduct innovative proofs-of-concept and feasibility studies using geodata and data science methods on behalf of Swiss authorities.</p>
-<p>A short while ago, the STDL published their <a href="https://www.swisstopo.admin.ch/de/publication?id=m7BmoKLkbRk0">2025 journal or report</a> (in <a href="https://backend.swisstopo.admin.ch/fileservice/sdweb-docs-prod-swisstopoch-files/files/2025/07/24/3a4fc234-8a50-4c4a-90c1-957c9660d353.pdf">German</a> and in <a href="https://backend.swisstopo.admin.ch/fileservice/sdweb-docs-prod-swisstopoch-files/files/2025/07/24/d45866f3-00fc-466f-8de3-5c390b028544.pdf">French</a>). In it, the STDL details some of the lab’s achievements while also dedicating a significant portion of it to the organisational and methodological aspects and learnings from the past years.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="stdl.jpg" title="The domain of the Swiss Territorial Data Lab (source: STDL)" class="img-fluid figure-img"></p>
-<figcaption>The domain of the Swiss Territorial Data Lab (source: STDL)</figcaption>
-</figure>
-</div>
-<p>If you are more interested in the technical and data science underpinnings of, and insights from, the STDL’s work (including <a href="https://github.com/swiss-territorial-data-lab">source-code</a>), <a href="https://tech.stdl.ch" class="uri">https://tech.stdl.ch</a> collects much material on these aspects as collected from the various conducted proofs-of-concept and exploratory projects.</p>
+<p><a href="https://www.linkedin.com/in/julie-tibshirani">Julie Tibshirani</a> reflects on how the R<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> ecosystem handles dependencies<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> <a href="(https://jtibs.substack.com/p/if-all-the-world-were-a-monorepo)">radically differently than Python (or most, if not all, programming languages)</a>:</p>
+<blockquote class="blockquote">
+<p>Learning R has expanded how I think as a software engineer, precisely because its perspective and community are so different to my own. This post explores one unique aspect of the R ecosystem, reverse dependency checks, and how it changed the way I approach software maintenance.</p>
+</blockquote>
+<p>What is a <strong>reverse dependency check</strong>? It’s an approach where upon you submitting a package to be published on CRAN<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>, the CRAN team runs not just the tests for your packages but also the test for all packages <em>that depend on your package</em>. The CRAN team thus ensures that package developers inform maintainers of dependent packages in time about breaking changes.</p>
+<p>Julie <a href="https://jtibs.substack.com/p/if-all-the-world-were-a-monorepo">goes on</a>:</p>
+<blockquote class="blockquote">
+<p>My initial reaction to CRAN’s reverse dependency checks was one of shock and concern. (…) I (…) didn’t understand why it was my responsibility to help update other packages (whose code I may not understand or endorse) before mine could be released. The concept of reverse dependency checks felt truly radical. So why does CRAN perform these checks?</p>
+<p>(…)</p>
+<p>[CRAN’s approach] results in an excellent workflow for R’s central user base: the researchers and data scientists who want to spend as much time as possible on the details of data analysis, not stuck in transitive dependency hell.</p>
+<p>(…)</p>
+<p>I believe CRAN’s is truly the right mindset for running migrations. It places you in a powerful state of extreme empathy — that our user’s code is our responsibility, and that their success is ours too.</p>
+</blockquote>
+<p>The <a href="https://jtibs.substack.com/p/if-all-the-world-were-a-monorepo">article</a> has much more context and background. Food for thought.</p>
 
 
 
@@ -230,7 +235,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>To my (non-native English-speaker) ears, the name has a slightly odd ring. I suspect it is a Gallicism. It should not mislead you, however: The Lab’s work is not restricted to, nor even focussed on, territorial data in the narrow sense.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>R is a programming language for statistical computing and data analysis.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>In the context of software, “dependency” describes the relationship where one software component (<code>A</code>) relies on another (<code>B</code>) to function. In this case, <code>B</code> is a dependency of <code>A</code>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>The “<a href="https://cran.r-project.org/">Comprehensive R Archive Network</a>”, the central package manager of the R ecosystem, similar to <a href="https://pypi.org/project/pip/">PyPi</a> for Python.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
