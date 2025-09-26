@@ -480,7 +480,7 @@
     "href": "posts/2025/09/26-dependencies-and-reverse-dependencies-python-vs-r/index.html",
     "title": "Dependencies and reverse dependencies: Python vs. R",
     "section": "",
-    "text": "Julie Tibshirani reflects on how the R1 ecosystem handles dependencies2 radically differently than Python (or most, if not all, programming languages):\nWhat is a reverse dependency check? It’s an approach where upon you submitting a package to be published on CRAN3, the CRAN team runs not just the tests for your packages but also the test for all packages that depend on your package. The CRAN team thus ensures that package developers inform maintainers of dependent packages in time about breaking changes.\nJulie goes on:\nThe article has much more context and background. Food for thought."
+    "text": "Julie Tibshirani reflects on how the R1 ecosystem handles dependencies2 radically differently than Python (or most, if not all, programming languages):\nWhat is a “reverse dependency check”? It’s an approach where upon you submitting a package to be published on CRAN3, the CRAN team runs not just the tests for your packages but also the tests for all packages that depend on your package. The CRAN team thus ensures that package developers inform maintainers of dependent packages in time about breaking changes and potentially assist them in migrating.\nJulie goes on:\nThe article has much more context and background. Food for thought."
   },
   {
     "objectID": "posts/2025/09/26-dependencies-and-reverse-dependencies-python-vs-r/index.html#footnotes",
