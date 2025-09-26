@@ -19,11 +19,11 @@ its perspective and community are so different to my own. This post explores
 one unique aspect of the R ecosystem, reverse dependency checks, and how it 
 changed the way I approach software maintenance.
 
-What is a **reverse dependency check**? It's an approach where upon you 
+What is a "**reverse dependency check**"? It's an approach where upon you 
 submitting a package to be published on CRAN[^cran], the CRAN team runs not 
-just the tests for your packages but also the test for all packages *that 
+just the tests for your packages but also the tests *for all packages that 
 depend on your package*. The CRAN team thus ensures that package developers 
-inform maintainers of dependent packages in time about breaking changes.
+inform maintainers of dependent packages in time about breaking changes and potentially assist them in migrating.
 
 Julie [goes on](https://jtibs.substack.com/p/if-all-the-world-were-a-monorepo):
 
