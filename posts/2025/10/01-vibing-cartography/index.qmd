@@ -1,0 +1,22 @@
+---
+title: "Vibing cartography"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-10-01 18:42"
+image: "ai-map.jpg"
+description: "An innovative experiment: David Oesch tests an inventive approach leveraging #GenAI (#LLM and #LMM) to transform webmap style specs and an aerial image into an AI-generated topographic #map."
+---
+
+From David Oesch comes an enticing experiment^[From me comes the somewhat subversive "vibe cartography".]: [AI-driven topographic map generation](https://www.linkedin.com/posts/davidoesch_map-generation-geospatial-share-7379129418557997056-b8Ci), inspired by an earlier [experiment by Christian Hüttich](https://www.linkedin.com/posts/dr-christian-h%C3%BCttich-04542539_generative-ki-ver%C3%A4ndert-gerade-die-spielregeln-activity-7376483274405191680-2U3K).
+
+The [process as explained by David](https://www.linkedin.com/posts/davidoesch_map-generation-geospatial-share-7379129418557997056-b8Ci) involves using an LLM^[Large language model] to translate JSON-based webmap style specifications into a prompt for an LMM^[Large multi-modal model]. Feed the prompt (that e.g. specifies color values, line widths, line casing widths, etc.) and an aerial image into a suitable LMM^[Probably *Nano Banana AI* within *Gemini*, if I read the LinkedIn post and the LMM prompt correctly.] and wait.  
+
+David's result:
+
+[![The aerial image and the resulting AI-based topographic map (source: David Oesch)](ai-map-generation.gif "The aerial image and the resulting AI-based topographic map (source: David Oesch)")](https://www.linkedin.com/posts/davidoesch_map-generation-geospatial-share-7379129418557997056-b8Ci)
+
+Clever workflow! And impressive[^procon], low-effort results. I'm not sure if consistency and scalability[^note] is truly given, though?
+
+[^procon]: Pro, for example: Check out the shadow removal. Con, for example: Imagined bathymetry.
+[^note]: For example: Are the graphic specifications (always) adhered to? What is the performance for a given image resolution and surface area? If a tiling / roving window approach is chosen to cover a large area: How would one ensure geometric and topological consistency along tile / window borders?
