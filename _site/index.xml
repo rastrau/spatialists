@@ -15,8 +15,17 @@
 <title>Spatialists – geospatial news</title>
 <link>https://spatialists.ch/</link>
 </image>
-<generator>quarto-1.8.24</generator>
-<lastBuildDate>Fri, 26 Sep 2025 17:55:00 GMT</lastBuildDate>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Wed, 01 Oct 2025 18:42:00 GMT</lastBuildDate>
+<item>
+  <title>Vibing cartography</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/10/01-vibing-cartography/</link>
+  <description><![CDATA[ An innovative experiment: David Oesch tests an inventive approach leveraging #GenAI (#LLM and #LMM) to transform webmap style specs and an aerial image into an AI-generated topographic #map. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/10/01-vibing-cartography/</guid>
+  <pubDate>Wed, 01 Oct 2025 18:42:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/10/01-vibing-cartography/ai-map.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Dependencies and reverse dependencies: Python vs. R</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/07/24-a-manifesto-for-the-growth-of-geospatial/</guid>
   <pubDate>Thu, 24 Jul 2025 22:29:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/07/24-a-manifesto-for-the-growth-of-geospatial/fara-i4r7AMo9OBQ-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>AI and programming</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/07/23-ai-and-programming/</link>
-  <description><![CDATA[ The rapid progress in #AI sparks diverse and thought-provoking discussions about its role in #programming and skill development. Three recent articles offer interesting, yet differing, perspectives. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/07/23-ai-and-programming/</guid>
-  <pubDate>Wed, 23 Jul 2025 19:24:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/07/23-ai-and-programming/cash-macanaya-X9Cemmq4YjM-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
