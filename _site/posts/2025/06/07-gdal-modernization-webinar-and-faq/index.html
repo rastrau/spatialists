@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ralph Straumann">
-<meta name="dcterms.date" content="2025-06-02">
-<meta name="description" content="The story behind #QGIS: The new canonical open-access paper, “The QGIS project: Spatial without compromise,” authored by core members of the QGIS Project Steering Committee, Anita Graser, Tim Sutton, and Marco Bernasocchi, explores the evolution of the QGIS project, its organizational structure, and future challenges.">
+<meta name="dcterms.date" content="2025-06-07">
+<meta name="description" content="The #GDAL Project Steering Committee recently hosted a webinar highlighting the major #modernization of the GDAL command-line interface, featuring the unification of commands and improved parameter consistency. You can now catch up on all the details through the webinar slides, the recording, and a Q&amp;A summary.">
 
-<title>The QGIS project: Canonical paper – Spatialists – geospatial news</title>
+<title>GDAL modernization webinar and FAQ – Spatialists – geospatial news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,25 +26,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../assets/favicon.png" rel="icon" type="image/png">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-b654365ec9f6baf3fdeb64dbed93b847.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<link href="../../../../assets/favicon.png" rel="icon" type="image/png">
+<script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-b654365ec9f6baf3fdeb64dbed93b847.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -116,14 +116,18 @@ ul.task-list li input[type="checkbox"] {
 <!-- End Matomo Code -->
 
 
-<link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="The QGIS project: Canonical paper – Spatialists – geospatial news">
-<meta property="og:description" content="The story behind #QGIS: The new canonical open-access paper, “The QGIS project: Spatial without compromise,” authored by core members of the QGIS Project Steering Committee, Anita Graser, Tim Sutton, and Marco Bernasocchi, explores the evolution of the QGIS project, its organizational structure, and future challenges.">
-<meta property="og:image" content="https://spatialists.ch/posts/2025/06-02-the-qgis-project-canonical-paper/qgis.jpg">
+<link rel="stylesheet" href="../../../../styles.css">
+<meta property="og:title" content="GDAL modernization webinar and FAQ – Spatialists – geospatial news">
+<meta property="og:description" content="The #GDAL Project Steering Committee recently hosted a webinar highlighting the major #modernization of the GDAL command-line interface, featuring the unification of commands and improved parameter consistency. You can now catch up on all the details through the webinar slides, the recording, and a Q&amp;A summary.">
+<meta property="og:image" content="https://spatialists.ch/posts/2025/06/07-gdal-modernization-webinar-and-faq/gdal.png">
 <meta property="og:site_name" content="Spatialists – geospatial news">
-<meta name="twitter:title" content="The QGIS project: Canonical paper – Spatialists – geospatial news">
-<meta name="twitter:description" content="The story behind #QGIS: The new canonical open-access paper, “The QGIS project: Spatial without compromise,” authored by core members of the QGIS Project Steering Committee, Anita Graser, Tim Sutton, and Marco Bernasocchi, explores the evolution of the QGIS project, its organizational structure, and future challenges.">
-<meta name="twitter:image" content="https://spatialists.ch/posts/2025/06-02-the-qgis-project-canonical-paper/qgis.jpg">
+<meta property="og:image:height" content="600">
+<meta property="og:image:width" content="900">
+<meta name="twitter:title" content="GDAL modernization webinar and FAQ – Spatialists – geospatial news">
+<meta name="twitter:description" content="The #GDAL Project Steering Committee recently hosted a webinar highlighting the major #modernization of the GDAL command-line interface, featuring the unification of commands and improved parameter consistency. You can now catch up on all the details through the webinar slides, the recording, and a Q&amp;A summary.">
+<meta name="twitter:image" content="https://spatialists.ch/posts/2025/06/07-gdal-modernization-webinar-and-faq/gdal.png">
+<meta name="twitter:image-height" content="600">
+<meta name="twitter:image-width" content="900">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -134,9 +138,9 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">Spatialists – geospatial news</span>
     </a>
   </div>
@@ -147,19 +151,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../about.html"> 
+    <a class="nav-link" href="../../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../subscribe.html"> 
+    <a class="nav-link" href="../../../../subscribe.html"> 
 <span class="menu-text">Subscribe</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../follow.html"> 
+    <a class="nav-link" href="../../../../follow.html"> 
 <span class="menu-text">Follow</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../contribute.html"> 
+    <a class="nav-link" href="../../../../contribute.html"> 
 <span class="menu-text">Contribute</span></a>
   </li>  
 </ul>
@@ -173,10 +177,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">The QGIS project: Canonical paper</h1>
+      <h1 class="title">GDAL modernization webinar and FAQ</h1>
                   <div>
         <div class="description">
-          The story behind #QGIS: The new canonical open-access paper, “The QGIS project: Spatial without compromise,” authored by core members of the QGIS Project Steering Committee, Anita Graser, Tim Sutton, and Marco Bernasocchi, explores the evolution of the QGIS project, its organizational structure, and future challenges.
+          The #GDAL Project Steering Committee recently hosted a webinar highlighting the major #modernization of the GDAL command-line interface, featuring the unification of commands and improved parameter consistency. You can now catch up on all the details through the webinar slides, the recording, and a Q&amp;A summary.
         </div>
       </div>
                 </div>
@@ -195,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">June 2, 2025</p>
+        <p class="date">June 7, 2025</p>
       </div>
     </div>
     
@@ -214,25 +218,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="qgis-cropped.jpg" title="QGIS logo and tagline (source: QGIS project)" class="img-fluid figure-img"></p>
-<figcaption>QGIS logo and tagline (source: QGIS project)</figcaption>
-</figure>
-</div>
-<p><a href="https://fosstodon.org/@underdarkGIS">Anita Graser</a>, <a href="https://fosstodon.org/@timlinux">Tim Sutton</a>, and <a href="https://fosstodon.org/@mbernasocchi">Marco Bernasocchi</a> (all members of the <a href="https://qgis.org/community/organisation/">QGIS Project Steering Committee</a>) have published the canonical paper<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> on the QGIS project: “<a href="https://www.sciencedirect.com/science/article/pii/S2666389925001138">The QGIS project: Spatial without compromise</a>”<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. The paper is <a href="https://www.sciencedirect.com/science/article/pii/S2666389925001138">“open access” at ScienceDirect</a>. From the introduction:</p>
-<blockquote class="blockquote">
-<p>QGIS is available across a wide range of platforms, including Linux, Windows, and macOS, as well as mobile applications for Android and iOS. Efforts are also under way to develop a browser-based version using web assembly. The software has been translated into over 100 languages, with 20 translations covering more than 75% of the application’s functionality.</p>
-</blockquote>
-<p>The paper positions the QGIS project in the GIS “ecosystem” and describes the evolution of the project through the following phases (authors’ words, not mine):</p>
-<ul>
-<li>Origins and early development (2002–2007)</li>
-<li>Expansion of capabilities and infrastructure (2008–2012)</li>
-<li>The QGIS.ORG association and organizational maturity (2013–2017)</li>
-<li>Transition to QGIS 3 and the path forward (2018–present)</li>
-</ul>
-<p>It details the project’s (Switzerland-based) organization, the software release management process, the infrastructure management, the project budget (approximately, EUR 400,000 in 2024; but beware: this sum does not equate to the total amount invested in QGIS), (very high-level) features, broad typical use-cases, a brief overview over the plug-in collection, and usage numbers, among others.</p>
-<p>I like<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> that <a href="https://www.sciencedirect.com/science/article/pii/S2666389925001138">the paper</a> concludes with <a href="https://www.sciencedirect.com/science/article/pii/S2666389925001138#sec3">5 key challenges to the QGIS project and potential solutions</a>.</p>
+<p>As <a href="https://spatialists.ch/posts/2025/05-12-gdal-3-11-released-with-new-gdal-program/">announced a few weeks ago</a>, on June 3rd, the GDAL Project Steering Committee (PSC) hosted a webinar on the modernization of GDAL CLI<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> , which was initiated with the release of version 3.11 on May 13th. At the center of the modernization stands the unification of many different commands into a single <code>gdal</code> command<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, along with more consistent parameter names and order.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<p>If you’d like to catch up on these recent GDAL developments: The PSC has published both <a href="https://download.osgeo.org/gdal/presentations/GDAL%20CLI%20Modernization.pdf">the webinar slides</a> and <a href="https://www.youtube.com/watch?v=ZKdrYm3TiBU">the recording</a> (52 minutes). Additionally, at the end of the slide deck, 10 slides have been added summarizing the most important questions and answers that came up during the session.</p>
 
 
 
@@ -240,9 +227,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>A canonical paper is a foundational academic publication that is intended to serve as the standard reference for a topic, in this case the QGIS project.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>The title refers to the, I think relatively new (?), <a href="https://qgis.org/">tag line</a> of the project.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Minor dislike, but it doesn’t detract too much from the rest: The paper mentions the cliché that, allegedly, “80% of all data contains a geograpical component” (at least not: “… is spatial.”). See <a href="https://digital.ebp.ch/2024/10/20/schweizer-geoinformation-2024-connecting-the-dots-perpetual-beta/">here</a> for data on this point (in German).<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Command-line interface<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>You can see some <em>before-after</em> examples of the simplication <a href="https://spatialists.ch/posts/2025/05-12-gdal-3-11-released-with-new-gdal-program/">here</a> or, of course, in the <a href="https://gdal.org/en/latest/programs/migration_guide_to_gdal_cli.html#migration-guide-to-gdal-cli">migration guide</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>With a nod to Middle Earth, <a href="https://mapstodon.space/@kgjenkins">Keith Jenkins</a> <a href="https://mapstodon.space/@kgjenkins/114620078194140468">summed it up differently</a>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
