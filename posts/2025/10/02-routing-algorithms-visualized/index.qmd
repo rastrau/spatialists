@@ -1,0 +1,17 @@
+---
+title: "Routing algorithms visualized"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-10-02 13:40"
+image: "secrets-of-maps-cropped.jpg"
+description: "secretsofmaps.com built by Adam Kulikowski offers an interactive walkthrough of popular #routing algorithms like BFS, DFS, Greedy, and A&ast;, complete with animated #visualizations. Explore and compare these pathfinding algorithms at your own pace."
+---
+
+[secretsofmaps.com](https://www.secretsofmaps.com/) hosts a set of interactive visualizations of various routing algorithms: *BFS*^[Breadth-First Search], *DFS*^[Depth-First Search], *Bidirectional BFS*, *Greedy*, *A&ast;*, *Bidirectional A&ast;*, and *A&ast; plus Lookup Table*. The whole site is a kind of interactive tutorial that guides you sequentally through the routing algorithms.
+
+[![Bidirectional breadth-first search routing](secrets-of-maps.jpg "Bidirectional breadth-first search routing")](https://www.secretsofmaps.com/)
+
+The [site](https://www.secretsofmaps.com/) says "How does Google Maps work? – Explore the algorithm". But as far as I could see the site is not affiliated with Google. It is built by [Adam Kulikowski](https://adamkulik.com/) based on [earlier work](https://honzaap.github.io/Pathfinding/) by [Jan Pánek](https://jan-panek.cz/).
+
+Recommendation for the more trivial algorithms: Use the slider to speed up the animations.
