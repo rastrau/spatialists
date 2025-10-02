@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Wed, 01 Oct 2025 18:42:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 02 Oct 2025 13:40:00 GMT</lastBuildDate>
+<item>
+  <title>Routing algorithms visualized</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/10/02-routing-algorithms-visualized/</link>
+  <description><![CDATA[ secretsofmaps.com built by Adam Kulikowski offers an interactive walkthrough of popular #routing algorithms like BFS, DFS, Greedy, and A*, complete with animated #visualizations. Explore and compare these pathfinding algorithms at your own pace. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/10/02-routing-algorithms-visualized/</guid>
+  <pubDate>Thu, 02 Oct 2025 13:40:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/10/02-routing-algorithms-visualized/secrets-of-maps-cropped.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Vibing cartography</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/07/25-fediverse-recommendations/</guid>
   <pubDate>Fri, 25 Jul 2025 19:22:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/07/25-fediverse-recommendations/chethan-FntA-iLzGxU-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>A manifesto for the growth of geospatial</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/07/24-a-manifesto-for-the-growth-of-geospatial/</link>
-  <description><![CDATA[ A group of industry leaders at the 2025 #NORTH51 conference is charting a new course for the geospatial sector with their “#GEOFESTO” — a #manifesto outlining five key principles to drive #innovation and #impact in a rapidly changing world. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/07/24-a-manifesto-for-the-growth-of-geospatial/</guid>
-  <pubDate>Thu, 24 Jul 2025 22:29:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/07/24-a-manifesto-for-the-growth-of-geospatial/fara-i4r7AMo9OBQ-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
