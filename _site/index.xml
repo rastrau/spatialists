@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Thu, 02 Oct 2025 13:40:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 03 Oct 2025 18:02:00 GMT</lastBuildDate>
+<item>
+  <title>Geoflow for low-code ETL</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/10/03-geoflow-for-low-code-etl/</link>
+  <description><![CDATA[ There is a gap in #lowcode tooling for geospatial #datamanipulation, with most existing solutions either proprietary, outdated, or not aligned with the needs of those users wishing for visual tools. #Geoflow, an emerging #opensource project with a visual workflow builder, could evolve into a suitable alternative. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/10/03-geoflow-for-low-code-etl/</guid>
+  <pubDate>Fri, 03 Oct 2025 18:02:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/10/03-geoflow-for-low-code-etl/geoflow-cropped.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Routing algorithms visualized</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/07/28-smarter-eo-dynamic-targeting/</guid>
   <pubDate>Mon, 28 Jul 2025 20:14:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/07/28-smarter-eo-dynamic-targeting/nasa-jpl-dynamic-targeting-titlecard.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Fediverse recommendations</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/07/25-fediverse-recommendations/</link>
-  <description><![CDATA[ FediFollows published a list of recommended geospatial #Fediverse / #Mastodon accounts. The list features, among others, geospatial conferences, news channels, blogs, software, organizations, government bodies, geospatial professionals, #OSM-related accounts, and discussion groups. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/07/25-fediverse-recommendations/</guid>
-  <pubDate>Fri, 25 Jul 2025 19:22:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/07/25-fediverse-recommendations/chethan-FntA-iLzGxU-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
