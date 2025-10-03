@@ -1,0 +1,58 @@
+---
+title: "Geoflow for low-code ETL"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-10-03 18:02"
+image: "geoflow-cropped.jpg"
+description: "There is a gap in #lowcode tooling for geospatial #datamanipulation, 
+with most existing solutions either proprietary, outdated, or not aligned with 
+the needs of those users wishing for visual tools. #Geoflow, an emerging 
+#opensource project with a visual workflow builder, could evolve into a suitable 
+alternative."
+---
+
+It feels like there is a gap in low-code[^lowcode] geospatial data manipulation 
+tooling:
+
+- There is, of course, Safe Software's very prominent state-of-the-art 
+commercial offering [FME](https://fme.safe.com/)^[Feature Manipulation Engine.]. 
+- There used to be [GeoKettle](https://sourceforge.net/p/geokettle/activity/?page=0&limit=100)[^kettle]. 
+"Used", since the last release was 10 years ago.
+- There is the [QGIS model designer](https://docs.qgis.org/3.40/en/docs/user_manual/processing/modeler.html)[^graphicalmodeler] 
+and the proprietary equivalent by Esri, 
+[ModelBuilder](https://pro.arcgis.com/en/pro-app/latest/help/analysis/geoprocessing/modelbuilder/modelbuilder-quick-tour.htm).
+- There is the, decidedly *non*-visual, [Gradle](https://gradle.org/)-plugin 
+[GRETL](https://github.com/sogis/gretl)^[Gradle ETL (extract-transform-load).] 
+by the canton of Solothurn.
+- There is [KNIME](https://www.knime.com/), if you will, albeit not truly 
+geared towards geospatial data.
+- And there is [Apache Hop](https://hop.apache.org/)^[Hop Orchestration 
+Platform.].
+
+While some of these seem promising[^hop], so far, none of these tools seems to 
+really be able to scratch the itch for which many organizations reach for FME. 
+
+But there is a new potential contender, as announced 
+[here](https://www.linkedin.com/posts/jordanrising_pointclouds-geospatial-gis-activity-7371701647929991168-jf-Y): 
+[Geoflow](https://geoflow.dev/) is a set of tools for automating geospatial 
+data workflows. 
+
+[![Geoflow](geoflow.jpg "Geoflow")](https://geoflow.dev/)
+
+It sports a visual interface ("Visual Workflow Builder") and 
+is being developed as an open-source solution. Make sure to check the 
+["Platform Overview Video"](https://geoflow.dev/).^[Sorry.] 
+
+As the counter on the site suggests, [Geoflow](https://geoflow.dev/) has been 
+under development for only a few weeks. So: definitely early days, but maybe a 
+space to watch. It might lead to an interesting and sustainable open-source 
+geospatial ETL^[Extract-transform-load.] solution.
+
+[^lowcode]: Think: Visual, drag-and-drop-enabled, tools.
+[^kettle]: Based on [Kettle](https://github.com/pentaho/pentaho-kettle) which 
+is now "Pentaho Data Integration".
+[^graphicalmodeler]: Formerly known as "graphical modeler".
+[^hop]: In my opinion, especially the last one, Apache Hop.
+
+
