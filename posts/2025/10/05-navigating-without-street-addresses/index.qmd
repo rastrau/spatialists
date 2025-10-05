@@ -1,0 +1,21 @@
+---
+title: "Navigating without street addresses"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-10-05 15:11"
+image: "navigating-a-city-without-street-addresses.jpg"
+description: "This sounds like straight out of those “Falsehoods programmers believe …” texts: A major city where people rely on landmarks, rather than street addresses, for navigation and also postal delivery. Find out more in this short documentary by The New Yorker."
+---
+
+This sounds like straight out of those "Falsehoods programmers believe ..."[^falsehoods] texts: The New Yorker features this [short (14 minutes) documentary by María Luisa Santos and Carlo Nasisse titled "Navigating a City Without Street Addresses"](https://www.youtube.com/watch?v=wxWfpBQvfLs). 
+
+The city in 
+question is San José in Costa Rica, where streets are only marked clearly in the downtown district. Otherwise, navigation, wayfinding, and even postal delivery works with a set of landmarks.[^hiccups] Thus, of course, a destination may be described differently based on where somebody is travelling *from*.
+
+{{< video https://www.youtube.com/watch?v=wxWfpBQvfLs >}}
+
+It's a great short film offering a fascinating glimpse into a system that works in *unexpected-to-many* ways. A good reminder not to take one system for granted and to keep an open mind when thinking about spatial questions and modeling spatial phenomena.
+
+[^falsehoods]: There are collections of falsehoods [about addresses](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/), of course. 
+[^hiccups]: No system is without hiccups, of course: Among other people, the film interviews a postal worker: "Once, a person wrote: 'You get to the so-and-so neighborhood, turn right and you will arrive where a red Toyota is parked.' Turns out that the red Toyota belonged to the lady's son, who had to come visit about three weeks before and, logically, didn't live with her so he had already left."
