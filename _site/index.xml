@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Sun, 05 Oct 2025 15:11:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 13 Oct 2025 21:34:00 GMT</lastBuildDate>
+<item>
+  <title>Vibe cartography sandbox</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/10/13-vibe-cartography-sandbox/</link>
+  <description><![CDATA[ David Oesch has open-sourced his workflow for generating #AI-driven #topographicmaps directly from #aerialimagery, following his earlier experiment in “vibe cartography”. The GitHub repository lets anyone reproduce the method using Python and a Google account, while also inviting collaboration on the proposed future improvements. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/10/13-vibe-cartography-sandbox/</guid>
+  <pubDate>Mon, 13 Oct 2025 21:34:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/10/13-vibe-cartography-sandbox/vibe-cartography-map-excerpt.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Navigating without street addresses</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/07/30-2025-stackoverflow-survey/</guid>
   <pubDate>Wed, 30 Jul 2025 19:28:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/07/30-2025-stackoverflow-survey/stackoverflow.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Every word in NYC’s streetscape</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/07/29-every-word-in-nycs-streetscape/</link>
-  <description><![CDATA[ Explore how artist Yufeng Zhao used millions of #Google #StreetView images to create a searchable map of every word written on #NewYork City’s streets — revealing hidden patterns and the power of urban data at the intersection of art and technology. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/07/29-every-word-in-nycs-streetscape/</guid>
-  <pubDate>Tue, 29 Jul 2025 20:11:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/07/29-every-word-in-nycs-streetscape/broadway-excerpt.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
