@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Mon, 13 Oct 2025 21:34:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 14 Oct 2025 19:22:00 GMT</lastBuildDate>
+<item>
+  <title>Security test of QGIS Server and QGIS Web Client</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/10/14-security-test-of-qgis-server-and-qgis-web-client/</link>
+  <description><![CDATA[ Switzerland’s National #Cyber Security Centre (#NCSC) and the National Test Institute for Cybersecurity (#NTC) have completed a pilot test assessing the #security of #QGISServer and the #QGIS Web Client. The test identified six vulnerabilities — all of which have been fixed by developers within the allocated time window. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/10/14-security-test-of-qgis-server-and-qgis-web-client/</guid>
+  <pubDate>Tue, 14 Oct 2025 19:22:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/10/14-security-test-of-qgis-server-and-qgis-web-client/philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Vibe cartography sandbox</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/08/02-lightningmapsorg/</guid>
   <pubDate>Sat, 02 Aug 2025 20:23:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/08/02-lightningmapsorg/lightningmaps-zoom-in.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>2025 Stack Overflow survey</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/07/30-2025-stackoverflow-survey/</link>
-  <description><![CDATA[ #StackOverflow published the results of their 2025 user #survey. The data features roughly 50,000 responses from 166 countries on user #demographics, #technology, #AI, work, and more. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/07/30-2025-stackoverflow-survey/</guid>
-  <pubDate>Wed, 30 Jul 2025 19:28:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/07/30-2025-stackoverflow-survey/stackoverflow.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
