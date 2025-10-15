@@ -1,0 +1,37 @@
+---
+title: "30 Day Map Challenge"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-10-15 22:15"
+image: "30-day-map-challenge.jpg"
+description: "‘Tis the season again: the #30DayMapChallenge by Topi Tjukanov 
+returns this November, inviting #cartographers, spatial data scientists, and 
+GIS enthusiasts to create one #map per day inspired by daily themes. Whether 
+you’re crafting or simply admiring, it’s a month-long celebration of 
+creativity, #geography, and data #visualization."
+---
+
+'tis the season again: The [30 Day Map Challenge](https://30daymapchallenge.com/) 
+by [Topi Tjukanov](https://github.com/tjukanovt) is approaching. Started in 
+2019^[Back then, on Twitter, I think?], the #30DayMapChallenge calls upon 
+cartographers, spatial data scientists, and GIS experts to produce a map a day 
+during the month of November[^audience]. Each day, the 30 Day Map Challenge 
+issues a (often, loose) theme:
+
+[![This year's #30daymapchallenge themes](30-day-map-challenge-2025.png "This year's #30daymapchallenge themes")](https://30daymapchallenge.com/)
+
+The [archive](https://30daymapchallenge.com/2025/) features a selection of past 
+works, if you are looking for inspiration. Some notable entries, include: 
+
+- The 2019 [collection by Jo Wood](https://github.com/jwoLondon/30dayMapChallenge), all done using LitVis and Vega-Lite and open-source
+- The 2019 [collection by Cédric Scherer](https://github.com/z3tt/30DayMapChallenge2019), all done in R and open-source
+- The 2021 [collection by Achim Tack](https://www.achim-tack.org/30daymapchallenge)
+- Meta-collections, for example by [David Frigge](https://david.frigge.nz/30DayMapChallenge/maps.html) and by [Aurelien Chaumet](https://public.tableau.com/app/profile/aurelien.chaumet/viz/30daymapchallenge/30DayMapChallenge-Week1?publish=yes)
+
+Whether participating or observing: A month of cartographic (and often data 
+analysis) inspiration is coming.
+
+[^audience]: As the [code of conduct](https://30daymapchallenge.com/#code-of-conduct) 
+puts it: *No matter if you are a GIS expert or never made a map before this 
+challenge, everyone is welcome to participate.*
