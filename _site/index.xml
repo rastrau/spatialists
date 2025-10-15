@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Tue, 14 Oct 2025 19:22:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 15 Oct 2025 22:15:00 GMT</lastBuildDate>
+<item>
+  <title>30 Day Map Challenge</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/10/15-30-day-map-challenge/</link>
+  <description><![CDATA[ ’Tis the season again: the #30DayMapChallenge by Topi Tjukanov returns this November, inviting #cartographers, spatial data scientists, and GIS enthusiasts to create one #map per day inspired by daily themes. Whether you’re crafting or simply admiring, it’s a month-long celebration of creativity, #geography, and data #visualization. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/10/15-30-day-map-challenge/</guid>
+  <pubDate>Wed, 15 Oct 2025 22:15:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/10/15-30-day-map-challenge/30-day-map-challenge.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Security test of QGIS Server and QGIS Web Client</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/08/05-4-years-of-the-swiss-territorial-data-lab/</guid>
   <pubDate>Tue, 05 Aug 2025 19:17:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/08/05-4-years-of-the-swiss-territorial-data-lab/stdl.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Lightningmaps.org</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/08/02-lightningmapsorg/</link>
-  <description><![CDATA[ LightningMaps.org is a global #crowdsourcing project that lets you watch #lightning strikes in real time, drawing data from more than 500 volunteer-operated sensors. The site offers configurable web and mobile maps, showing not only each lightning strike as it happens, but also the location of participating stations and the spread of thunder across the landscape. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/08/02-lightningmapsorg/</guid>
-  <pubDate>Sat, 02 Aug 2025 20:23:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/08/02-lightningmapsorg/lightningmaps-zoom-in.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
