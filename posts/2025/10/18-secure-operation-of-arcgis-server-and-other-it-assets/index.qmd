@@ -1,0 +1,19 @@
+---
+title: "Secure operation of ArcGIS Server and other IT assets"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-10-18 11:05"
+image: "xiong-yan-t9x-GgewZPw-unsplash.jpg"
+description: "A recent case of a compromised #ArcGIS Server instance offers some lessons in #IT #infrastructure management, even beyond the geospatial sector. Safeguarding administrative access, enforcing strong account protections, and rethinking trust assumptions around public-facing services should be priorities."
+---
+
+This week, outlets such as [The Hacker News](https://thehackernews.com/2025/10/chinese-hackers-exploit-arcgis-server.html) and [The Register](https://www.theregister.com/2025/10/14/chinese_hackers_arcgis_backdoor) reported that a bad actor had gained backdoor access to an ArcGIS Server instance through a compromised Server Object Extension (SOE). This was reportedly possible because the group had managed to gain access to a portal administrator account of the organization being attacked. Importantly, this affected this specific organization, not users of ArcGIS Server in general. The security company ReliaQuest has an [in-depth article](https://reliaquest.com/blog/threat-spotlight-inside-flax-typhoons-arcgis-compromise). It makes the point that this event raises questions for a much broader IT segment than "only" the geospatial industry:
+
+> Although specialized applications like ArcGIS may escape heavy scrutiny, the weakness exploited exists in any public-facing application an organization considers “safe.” No matter how secure a product is designed to be, a gap is inevitably created by the unique way each customer implements it. Attackers are skilled at operating in this gap. This situation also reveals a common disconnect between the assumption that security best practices are always being followed and the complex realities of real-world environments. 
+
+Esri Software Security & Privacy has published an [article with clarifications and pointers to resources](https://www.esri.com/arcgis-blog/products/trust-arcgis/administration/understanding-arcgis-server-soe-compromise). It specifies which set of circumstances were necessary for this to occur:
+
+> Bottomline, this case demonstrates that when a deployment implements numerous layers counter to best practices, a deployment may be compromised. 
+
+On LinkedIn, IT Operations Manager Riccardo Klinger has published [an article listing security measures one can take](https://www.linkedin.com/pulse/securing-arcgis-enterprise-five-urgent-measures-after-klinger-ozqxf). Given the occasion, the measures are linked to Esri guidance material. But many of the measures generalize well to operating other IT infrastructure assets.
