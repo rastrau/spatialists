@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ralph Straumann">
-<meta name="dcterms.date" content="2025-04-08">
-<meta name="description" content="Switzerland has experienced an exceptionally dry period, with Lake Constance’s water levels dropping to their lowest in decades due to little rainfall and snowmelt from the Alps. Recent Sentinel-2 satellite data and gauging station records reveal the current situation.">
+<meta name="dcterms.date" content="2025-10-18">
+<meta name="description" content="A recent case of a compromised #ArcGIS Server instance offers some lessons in #IT #infrastructure management, even beyond the geospatial sector. Safeguarding administrative access, enforcing strong account protections, and rethinking trust assumptions around public-facing services should be priorities.">
 
-<title>Drought, Lake Constance and Sentinel-2 – Spatialists – geospatial news</title>
+<title>Secure operation of ArcGIS Server and other IT assets – Spatialists – geospatial news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,13 +117,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../../styles.css">
-<meta property="og:title" content="Drought, Lake Constance and Sentinel-2 – Spatialists – geospatial news">
-<meta property="og:description" content="Switzerland has experienced an exceptionally dry period, with Lake Constance’s water levels dropping to their lowest in decades due to little rainfall and snowmelt from the Alps. Recent Sentinel-2 satellite data and gauging station records reveal the current situation.">
-<meta property="og:image" content="https://spatialists.ch/posts/2025/04/08-drought-lake-constance-and-sentinel-2/obersee.jpg">
+<meta property="og:title" content="Secure operation of ArcGIS Server and other IT assets – Spatialists – geospatial news">
+<meta property="og:description" content="A recent case of a compromised #ArcGIS Server instance offers some lessons in #IT #infrastructure management, even beyond the geospatial sector. Safeguarding administrative access, enforcing strong account protections, and rethinking trust assumptions around public-facing services should be priorities.">
+<meta property="og:image" content="https://spatialists.ch/posts/2025/10/18-secure-operation-of-arcgis-server-and-other-it-assets/xiong-yan-t9x-GgewZPw-unsplash.jpg">
 <meta property="og:site_name" content="Spatialists – geospatial news">
-<meta name="twitter:title" content="Drought, Lake Constance and Sentinel-2 – Spatialists – geospatial news">
-<meta name="twitter:description" content="Switzerland has experienced an exceptionally dry period, with Lake Constance’s water levels dropping to their lowest in decades due to little rainfall and snowmelt from the Alps. Recent Sentinel-2 satellite data and gauging station records reveal the current situation.">
-<meta name="twitter:image" content="https://spatialists.ch/posts/2025/04/08-drought-lake-constance-and-sentinel-2/obersee.jpg">
+<meta name="twitter:title" content="Secure operation of ArcGIS Server and other IT assets – Spatialists – geospatial news">
+<meta name="twitter:description" content="A recent case of a compromised #ArcGIS Server instance offers some lessons in #IT #infrastructure management, even beyond the geospatial sector. Safeguarding administrative access, enforcing strong account protections, and rethinking trust assumptions around public-facing services should be priorities.">
+<meta name="twitter:image" content="https://spatialists.ch/posts/2025/10/18-secure-operation-of-arcgis-server-and-other-it-assets/xiong-yan-t9x-GgewZPw-unsplash.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -173,10 +173,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Drought, Lake Constance and Sentinel-2</h1>
+      <h1 class="title">Secure operation of ArcGIS Server and other IT assets</h1>
                   <div>
         <div class="description">
-          Switzerland has experienced an exceptionally dry period, with Lake Constance’s water levels dropping to their lowest in decades due to little rainfall and snowmelt from the Alps. Recent Sentinel-2 satellite data and gauging station records reveal the current situation.
+          A recent case of a compromised #ArcGIS Server instance offers some lessons in #IT #infrastructure management, even beyond the geospatial sector. Safeguarding administrative access, enforcing strong account protections, and rethinking trust assumptions around public-facing services should be priorities.
         </div>
       </div>
                 </div>
@@ -195,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">April 8, 2025</p>
+        <p class="date">October 18, 2025</p>
       </div>
     </div>
     
@@ -214,33 +214,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Switzerland has recently experienced an unusually dry period with minimal rainfall, causing water levels in Lake Constance to drop to a historic low — the lowest recorded in 40 years according to experts in the media. Having observed the situation firsthand recently, I decided to explore remote sensing and other data sources to better understand the current conditions and the potential risks of an impending drought. I shared <a href="https://www.linkedin.com/feed/update/urn:li:activity:7314736416775626752/">my findings online</a> yesterday, where they garnered significant interest, thus I decided to share them here as well (my apologies if you have seen them before).</p>
-<p>Specifically, I briefly analyzed Sentinel-2 satellite data (true-color imagery and the Normalized Difference Water Index, NDWI) from April 5<sup>th</sup>, combined with geodata from swisstopo’s swissTLM<sup>3D</sup> and gauging data to assess the lake’s extent and water levels:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="untersee-true-color.jpg" title="The Untersee, captured in Sentinel-2 true-color imagery (source: Copernicus/ESA), is shown here with a red outline indicating the typical shoreline of Lake Constance. While it is common for the water level to drop below the usual shoreline during winter, the extent of this recession is unusually pronounced this year." class="img-fluid figure-img"></p>
-<figcaption>The <em>Untersee</em>, captured in Sentinel-2 true-color imagery (source: Copernicus/ESA), is shown here with a red outline indicating the typical shoreline of Lake Constance. While it is common for the water level to drop below the usual shoreline during winter, the extent of this recession is unusually pronounced this year.</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="reichenau-ndwi.png" title="The area surrounding Reichenau island is depicted using Sentinel-2 data, analyzed through the Normalized Difference Water Index (NDWI; source: Copernicus/ESA) to highlight current water conditions." class="img-fluid figure-img"></p>
-<figcaption>The area surrounding <em>Reichenau</em> island is depicted using Sentinel-2 data, analyzed through the Normalized Difference Water Index (NDWI; source: Copernicus/ESA) to highlight current water conditions.</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="gauging-station-bafu.jpg" title="Current and historical water levels at the gauging station in Berlingen. In 2022 (in yellow), the water level was at a similarly low level as today, albeit in summer. (source: FOEN)" class="img-fluid figure-img"></p>
-<figcaption>Current and historical water levels at the gauging station in Berlingen. In 2022 (in yellow), the water level was at a similarly low level as today, albeit in summer. (source: <a href="https://www.hydrodaten.admin.ch/en/seen-und-fluesse/messstationen-zustand">FOEN</a>)</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="obersee.jpg" title="Lakehouse over dry ground along the upper part of Lake Constance as of March 23<sup>rd</sup> (personal photograph)" class="img-fluid figure-img"></p>
-<figcaption>Lakehouse over dry ground along the upper part of Lake Constance as of March 23<sup>rd</sup> (personal photograph)</figcaption>
-</figure>
-</div>
-<p>You can see more results as well as the ensuing discussion <a href="https://www.linkedin.com/feed/update/urn:li:activity:7314736416775626752/">on LinkedIn</a> (if you have a user account) or (with less discussion) <a href="https://swiss.social/@rastrau/114292763996782589">on Mastodon</a> (no login required).</p>
+<p>This week, outlets such as <a href="https://thehackernews.com/2025/10/chinese-hackers-exploit-arcgis-server.html">The Hacker News</a> and <a href="https://www.theregister.com/2025/10/14/chinese_hackers_arcgis_backdoor">The Register</a> reported that a bad actor had gained backdoor access to an ArcGIS Server instance through a compromised Server Object Extension (SOE). This was reportedly possible because the group had managed to gain access to a portal administrator account of the organization being attacked. Importantly, this affected this specific organization, not users of ArcGIS Server in general. The security company ReliaQuest has an <a href="https://reliaquest.com/blog/threat-spotlight-inside-flax-typhoons-arcgis-compromise">in-depth article</a>. It makes the point that this event raises questions for a much broader IT segment than “only” the geospatial industry:</p>
+<blockquote class="blockquote">
+<p>Although specialized applications like ArcGIS may escape heavy scrutiny, the weakness exploited exists in any public-facing application an organization considers “safe.” No matter how secure a product is designed to be, a gap is inevitably created by the unique way each customer implements it. Attackers are skilled at operating in this gap. This situation also reveals a common disconnect between the assumption that security best practices are always being followed and the complex realities of real-world environments.</p>
+</blockquote>
+<p>Esri Software Security &amp; Privacy has published an <a href="https://www.esri.com/arcgis-blog/products/trust-arcgis/administration/understanding-arcgis-server-soe-compromise">article with clarifications and pointers to resources</a>. It specifies which set of circumstances were necessary for this to occur:</p>
+<blockquote class="blockquote">
+<p>Bottomline, this case demonstrates that when a deployment implements numerous layers counter to best practices, a deployment may be compromised.</p>
+</blockquote>
+<p>On LinkedIn, IT Operations Manager Riccardo Klinger has published <a href="https://www.linkedin.com/pulse/securing-arcgis-enterprise-five-urgent-measures-after-klinger-ozqxf">an article listing security measures one can take</a>. Given the occasion, the measures are linked to Esri guidance material. But many of the measures generalize well to operating other IT infrastructure assets.</p>
 
 
 
