@@ -1,0 +1,15 @@
+---
+title: "Apache Hop online user meetup"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-10-21 19:59"
+image: "solen-feyissa-IfWFKG3FXE4-unsplash.jpg"
+description: "On 18 November, the German-speaking #Apache #Hop user community will gather online for a free meetup exploring the open-source #data #orchestration platform that aims to shape the future of data integration. The program includes several talks, among them one by Stefan Keller focusing on spatial data integration."
+---
+
+On 18 November, there will be an online meetup for the (German-speaking^[The program contains items in English, but is certainly German-dominated.]) [Apache Hop](https://hop.apache.org) user community. Apache Hop^["Hop" stands for "Hop Orchestration Platform". While the wordmark looks like "HOP" is all upper-case, the copy of the official website actually calls it "Hop".] is an open-source platform (under the Apache v2 license) that – in its own words and certainly in the hopes of some industry stakeholders – "aims to be the future of data integration."
+
+The [registration form for the user meetup](https://data.it-novum.com/termine/apache-hop-user-meetup/) is available online. Participation is free of charge. The [program](https://data.it-novum.com/termine/apache-hop-user-meetup/) also features a talk by Stefan Keller that specifically discusses spatial data integration and manipulation. In August, Stefan Keller has already hosted a [webinar centered on Hop](https://www.geowebforum.ch/t/webinar-ki-gestuetzte-enterprise-und-geo-datenintegration-und-apache-hop-26-08-2025-11-12-uhr/1185) and he occasionally posts about Hop in the [GEOWebforum](https://www.geowebforum.ch)^[Sic.].
+
+![Apache Hop (source: Stefan Keller)](apache-hop.png "Apache Hop (source: Stefan Keller)")
