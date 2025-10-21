@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Sun, 19 Oct 2025 10:32:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 21 Oct 2025 19:59:00 GMT</lastBuildDate>
+<item>
+  <title>Apache Hop online user meetup</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/10/21-apache-hop-online-user-meetup/</link>
+  <description><![CDATA[ On 18 November, the German-speaking #Apache #Hop user community will gather online for a free meetup exploring the open-source #data #orchestration platform that aims to shape the future of data integration. The program includes several talks, among them one by Stefan Keller focusing on spatial data integration. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/10/21-apache-hop-online-user-meetup/</guid>
+  <pubDate>Tue, 21 Oct 2025 19:59:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/10/21-apache-hop-online-user-meetup/solen-feyissa-IfWFKG3FXE4-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>DuckDB extension for A5 DGGS</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/09/01-swissgeo-prototype-online/</guid>
   <pubDate>Mon, 01 Sep 2025 07:29:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/09/01-swissgeo-prototype-online/swissgeo-logo.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Break</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/08/07-summer-break/</link>
-  <description><![CDATA[ It’s summer break here at headquarters, so for a while things might be a bit quieter than usual. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/08/07-summer-break/</guid>
-  <pubDate>Thu, 07 Aug 2025 06:57:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/08/07-summer-break/richard-james-CgywzwVK2kU-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
