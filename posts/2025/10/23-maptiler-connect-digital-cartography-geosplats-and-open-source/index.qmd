@@ -1,0 +1,22 @@
+---
+title: "MapTiler Connect: Digital cartography, GeoSplats, and open-source"
+author:
+  - name: Stephan Heuel
+    url: https://blog.heuel.org
+date: "2025-10-23 06:17"
+image: "maptiler-connect.jpg"
+description: '#MapTiler’s evolution from its #Klokantech origins to a global #mapping powerhouse is remarkable. Its first company event called "MapTiler Connect", showed why: Blending technical rigor with community spirit, it highlighted how open-source ideals, design, and cutting-edge #3D innovation can coexist in modern #cartography.'
+---
+
+I came across the company [MapTiler](https://maptiler.com) and its founder, [Petr Pidal](https://www.linkedin.com/in/klokan/), in 2017 when it was still called [Klokantech](https://klokantech.com)[^1]. The company has progressed remarkably, currently boasting more than 9,000 clients and 500 million people per month viewing their maps![^2] Yesterday, I attended [MapTiler Connect](https://connect.maptiler.com/) in Zurich. Compared to the usual large GIS gatherings, this event achieved something rare: it combined genuine warmth, technical excellence, and a visible commitment to open-source. 
+
+Three things presented at the event stuck with me:
+
+- **Digital cartography done right.** MapTiler is doubling down on map quality. The level-of-detail slider was elegant, and the global rollout of relief generalization felt like a modern tribute to Eduard Imhof (and utilized [research by the ETH](https://ikgrelief.ethz.ch/design/generalization/)).
+- **GeoSplats: Where Gaussian splatting meets maps.** Gaussian splatting is the current buzz in 3D technology, and MapTiler has extended it with *GeoSplats*: a tiling scheme for splats and integration with generative AI to enhance – or create – 3D scenes. We should watch what will happen in the future  at [geosplats.org](https://geosplats.org/).
+- **A real open-source gesture.** The new MapTiler Foundation signals serious intent. A contribution of $100k isn’t symbolic, but substantial! I heard it even began as a grassroots employee initiative. The obvious pick for funding would be GDAL – because, frankly, everything in geospatial depends on it.
+
+All in all, it was a well-run and inspiring event by a small team and with a list of interesting guests. Kudos to Petr and the MapTiler team!
+
+[^1]: The founder, Petr Pidal, has also been the organizer of [GeoBeer #21](https://www.geobeer.ch/past-events.html).  
+[^2]: This estimate also includes map views in TV news shows. Still, the number is impressive.
