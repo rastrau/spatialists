@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Tue, 21 Oct 2025 19:59:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 23 Oct 2025 06:17:00 GMT</lastBuildDate>
+<item>
+  <title>MapTiler Connect: Digital cartography, GeoSplats, and open-source</title>
+  <dc:creator>Stephan Heuel</dc:creator>
+  <link>https://spatialists.ch/posts/2025/10/23-maptiler-connect-digital-cartography-geosplats-and-open-source/</link>
+  <description><![CDATA[ #MapTiler’s evolution from its #Klokantech origins to a global #mapping powerhouse is remarkable. Its first company event called “MapTiler Connect”, showed why: Blending technical rigor with community spirit, it highlighted how open-source ideals, design, and cutting-edge #3D innovation can coexist in modern #cartography. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/10/23-maptiler-connect-digital-cartography-geosplats-and-open-source/</guid>
+  <pubDate>Thu, 23 Oct 2025 06:17:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/10/23-maptiler-connect-digital-cartography-geosplats-and-open-source/maptiler-connect.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Apache Hop online user meetup</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/09/02-mapterhorn-terrain-tiles/</guid>
   <pubDate>Tue, 02 Sep 2025 06:12:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/09/02-mapterhorn-terrain-tiles/mapterhorn.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>SWISSGEO prototype online</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/09/01-swissgeo-prototype-online/</link>
-  <description><![CDATA[ Update from the #SGS action #SWISSGEO: The first prototype of the Swiss geospatial platform aiming to unite various map, service, and data offerings from Swiss authorities is online for your testing and feedback. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/09/01-swissgeo-prototype-online/</guid>
-  <pubDate>Mon, 01 Sep 2025 07:29:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/09/01-swissgeo-prototype-online/swissgeo-logo.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
