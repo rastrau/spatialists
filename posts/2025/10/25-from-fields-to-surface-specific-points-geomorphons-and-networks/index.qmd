@@ -1,0 +1,54 @@
+---
+title: "From fields to surface-specific points, geomorphons, and networks"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-10-25 19:24"
+image: "jonakoh-_-NW_yGSTNOe4-unsplash.jpg"
+description: 'David O’Sullivan’s latest post in his "GIS, a Transformational 
+Approach" series explores how geospatial data transitions between continuous 
+#fields and discrete forms like #points, #lines, and #areas. Using 
+#geomorphometry concepts such as surface-specific points, geomorphons, and 
+surface networks as an example, the data transformations are illustrated using 
+#R-based workflows.'
+---
+
+In the [latest blogpost](https://dosull.github.io/posts/2025-10-23-gia-chapter-1B-part-4/) 
+of his [*"GIS, a transformational approach"* series](https://dosull.github.io/blog.html#category=transformational%20approach), David O'Sullivan looks into 
+transformations from fields^[Think, for example, a digital elevation model or a 
+rainfall intensity raster.] to points and from fields to lines.
+
+![The most common landforms, expressed as geomorphons. The 9 dots express elevation differences in a 3x3 neighborhood (source: [Esri](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-geomorphon-landforms-works.htm))](geomorphons.png "The most common landforms, expressed as geomorphons. The 9 dots express elevation differences in a 3x3 neighborhood (source: Esri)")
+
+David centers the [blog post](https://dosull.github.io/posts/2025-10-23-gia-chapter-1B-part-4/) 
+on the analysis of a DEM^[Digital elevation model] and thus introduces several 
+interesting concepts from geomorphometry^[The science of measuring and 
+quantifying terrain or the the shape of the Earth's surface.] –
+[surface-specific points](https://dosull.github.io/posts/2025-10-23-gia-chapter-1B-part-4/#to-points)[^ssp], geomorphons (short for "geomorphologic phonotypes"), 
+[courses](https://dosull.github.io/posts/2025-10-23-gia-chapter-1B-part-4/#to-lines), 
+thalwegs, and surface networks – demonstrates how to compute these features 
+using R and highlights methodological challenges.
+
+![A surface network displayed over a digital elevation model (source: [David O'Sullivan](https://dosull.github.io/posts/2025-10-23-gia-chapter-1B-part-4/))](zealandia-surface-network.png "A surface network displayed over a digital elevation model (source: David O'Sullivan)")
+
+It's a great concise introduction to some geomorphological concepts. The rest 
+of the ["Transformational" series](https://dosull.github.io/blog.html#category=transformational%20approach) 
+(one article still to come) is also worth reading, particularly if you use R 
+for geospatial tasks. And the article has me wonder about 
+[surface networks](https://dosull.github.io/posts/2025-10-23-gia-chapter-1B-part-4/#a-pause-for-breath): 
+
+> The surface network representation allows the terrain to be partitioned into 
+hills (regions surrounded by thalwegs) and dales (regions surrounded by ridges). 
+(...) surface networks deserve more attention than they’ve gotten from the 
+community over the decades, but their reliable construction has proved elusive. 
+Perhaps now that there is at least one tool out there that is up to the task 
+they’ll make their way into the mainstream (...).
+
+[^ssp]: David's article mentions this law on the number of surface-specific 
+points (where *n* means "number of"):<br> *n<sub>pass</sub>* &minus; 
+*n<sub>pit</sub>* &minus; *n<sub>peak</sub>* = 2<br>I remember this law being 
+(implicitly) stated by J.C. Maxwell in his publication *On Hills and Dales* (I 
+didn't remember the year, so I looked it up: in 1870, based on earlier work by 
+Arthur Cayley) – probably because of its simplicity but also specificity. 
+I remember, because I cited Maxwell and Cayley in my 
+[PhD thesis](https://www.zora.uzh.ch/entities/publication/10fe2656-34dd-49eb-a623-4a6c2b58e4a7).
