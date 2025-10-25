@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Thu, 23 Oct 2025 06:17:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 25 Oct 2025 19:24:00 GMT</lastBuildDate>
+<item>
+  <title>From fields to surface-specific points, geomorphons, and networks</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/10/25-from-fields-to-surface-specific-points-geomorphons-and-networks/</link>
+  <description><![CDATA[ David O’Sullivan’s latest post in his “GIS, a Transformational Approach” series explores how geospatial data transitions between continuous #fields and discrete forms like #points, #lines, and #areas. Using #geomorphometry concepts such as surface-specific points, geomorphons, and surface networks as an example, the data transformations are illustrated using #R-based workflows. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/10/25-from-fields-to-surface-specific-points-geomorphons-and-networks/</guid>
+  <pubDate>Sat, 25 Oct 2025 19:24:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/10/25-from-fields-to-surface-specific-points-geomorphons-and-networks/jonakoh-_-NW_yGSTNOe4-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>MapTiler Connect: Digital cartography, GeoSplats, and open-source</title>
   <dc:creator>Stephan Heuel</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/09/04-on-ones-own/</guid>
   <pubDate>Thu, 04 Sep 2025 22:47:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/09/04-on-ones-own/jordan-seott-RthWszHLxKc-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Mapterhorn terrain tiles</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/09/02-mapterhorn-terrain-tiles/</link>
-  <description><![CDATA[ Discover #Mapterhorn by Oliver Wipfli: a collection of global #terrain tiles in the lightweight #PMTiles format, built from open data sources such as Switzerland’s ultra-detailed #swissALTI3D model by #swisstopo. With open-source pipelines, ready-to-use code samples, and a live viewer, Mapterhorn makes it easy to add hillshaded relief and detailed 3D terrain to your webmaps. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/09/02-mapterhorn-terrain-tiles/</guid>
-  <pubDate>Tue, 02 Sep 2025 06:12:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/09/02-mapterhorn-terrain-tiles/mapterhorn.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
