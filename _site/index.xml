@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Sat, 25 Oct 2025 19:24:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 26 Oct 2025 14:22:00 GMT</lastBuildDate>
+<item>
+  <title>Launch of the Public Data Lab</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/10/26-launch-of-the-public-data-lab/</link>
+  <description><![CDATA[ The #DIZH Public Data Lab (#PDL) has officially launched in Zurich, bringing together experts from academia, public administration, and the #opendata community to explore how #data can illuminate social, environmental, and economic change. Through research, design, and public engagement, the PDL aims to create meaningful indicators that help shape informed decisions for a sustainable and equitable future. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/10/26-launch-of-the-public-data-lab/</guid>
+  <pubDate>Sun, 26 Oct 2025 14:22:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/10/26-launch-of-the-public-data-lab/energy-scarcity-cropped.png" medium="image" type="image/png" height="95" width="144"/>
+</item>
 <item>
   <title>From fields to surface-specific points, geomorphons, and networks</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/09/05-discrete-global-grid-systems/</guid>
   <pubDate>Fri, 05 Sep 2025 14:51:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/09/05-discrete-global-grid-systems/shapes.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>On one’s own</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/09/04-on-ones-own/</link>
-  <description><![CDATA[ An analysis drawing on ecosyste.ms data reveals that a large share of #opensource projects are maintained by just one person, for example nearly half of the 13,000 most-downloaded #NPM packages, with this pattern holding for all but the largest download counts. This insight puts a spotlight on the need to carefully think about project and #community health in the modern #software landscape. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/09/04-on-ones-own/</guid>
-  <pubDate>Thu, 04 Sep 2025 22:47:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/09/04-on-ones-own/jordan-seott-RthWszHLxKc-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
