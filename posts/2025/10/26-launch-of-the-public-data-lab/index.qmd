@@ -1,0 +1,70 @@
+---
+title: "Launch of the Public Data Lab"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-10-26 14:22"
+image: "energy-scarcity-cropped.png"
+description: "The #DIZH Public Data Lab (#PDL) has officially launched in 
+Zurich, bringing together experts from academia, public administration, and the 
+#opendata community to explore how #data can illuminate social, environmental, 
+and economic change. Through research, design, and public engagement, the PDL 
+aims to create meaningful indicators that help shape informed decisions for a 
+sustainable and equitable future."
+---
+
+Last Thursday, the DIZH[^dizh] [Public Data Lab](https://publicdatalab.ch) 
+(PDL) held its [launch event](https://publicdatalab.ch/event/launch-event/) in 
+Zurich.[^transp] Matthias Mazenauer, Co-Head of the Statistical Office of the 
+Canton of Zurich, has posted some [impressions on LinkedIn](https://www.linkedin.com/posts/matthiasmazenauer_publicdatalab-dizh-zaesrich-activity-7387215203610013696-hjv2). 
+
+From the PDL website:
+
+> Changes in society, the economy, and the environment pose major challenges 
+for the canton of Zurich. According to its constitution, it has a mandate to 
+maintain the quality of life of its population and to ensure sustainable 
+ecological, economic, and social development.
+
+The PDL aims to collect and analyze data to understand what drives change and 
+how the society responds. It aims to combine data into indicators that measure 
+quality of life and support informed decisions. Through art, design, and public 
+exhibitions, the PDL also plans to raise awareness of how indicators connect to 
+social, political, and ethical contexts.
+
+The PDL consists of representatives from the four institutions:
+
+- Statistical Office of the Canton of Zurich
+- University of Zurich (UZH)
+- Zurich University of the Arts (ZHdK)
+- Opendata.ch
+
+The University of Zurich participates in the PDL with the [Department of 
+Mathematical Modeling and Machine Learning](https://dm3l.uzh.ch/) and 
+the [Department of Geography](https://www.geo.uzh.ch/). While the initiative is 
+still very young, the PDL website (in German) already lists some 
+[flagship](https://publicdatalab.ch/projekte/leuchtturmprojekte/) and 
+[associated projects](https://publicdatalab.ch/projekte/assoziierte_projekte/) 
+some of which involve geospatial analysis, for example:
+
+- the creation of a spatial index of multiple deprivation (Flagship Project 2)
+- the development of indicators of well-being in green spaces using deep 
+learning, StreetView imagery, aerial photographs, satellite imagery, and geodata 
+(Flagship Project 3) and 
+- the development of a spatial index of potential energy scarcity (associated 
+project).
+
+[![Energy scarcity index and sub-indices (source: Carmen Pfoster)](energy-scarcity.png "Energy scarcity index and sub-indices (source: Carmen Pfoster)")](https://publicdatalab.ch/projekte/assoziierte_projekte/energiearmutsindex/)
+
+The PDL is funded until 2029.
+
+If you want to follow along, the PDL has a [news feed](https://publicdatalab.ch/blog/).
+
+[^dizh]: The [DIZH](https://www.dizh.uzh.ch) is the "Digitalization Initiative 
+of the Zurich Higher Education Institutions". The University of Zurich (UZH), 
+the Zurich University of Applied Sciences (ZHAW), the Zurich University of the 
+Arts (ZHdK) and the Zurich University of Teacher Education (PHZH) form the DIZH 
+network. The [mission](https://www.dizh.uzh.ch/en/about-us/mission/) of the DIZH 
+is to "promote cooperation on digitalization issues between higher education 
+institutions in Zurich, thereby strengthening the greater Zurich area as a hub 
+for research and business".
+[^transp]: Transparency note: I am a member of the advisory board of the PDL.
