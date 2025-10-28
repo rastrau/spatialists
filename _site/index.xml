@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Tue, 28 Oct 2025 17:50:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 28 Oct 2025 22:18:00 GMT</lastBuildDate>
+<item>
+  <title>Geo Cloud Converter</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/10/28-geo-cloud-converter/</link>
+  <description><![CDATA[ Maphub.co launches #GeoCloudConverter, a browser-based #WASM tool that transforms common geospatial file types — #GeoJSON, #Shapefile, #KML, #GPX, CSV, #GeoPackage, or #GeoTIFF – into modern, #cloudnative formats like #GeoParquet, #FlatGeobuf, #PMTiles, or Cloud-Optimized GeoTIFF (#COG). The tool performs all processing locally in your browser for quick, private conversions up to 1 GB. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/10/28-geo-cloud-converter/</guid>
+  <pubDate>Tue, 28 Oct 2025 22:18:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/10/28-geo-cloud-converter/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Publication of the SpatioTemporal Asset Catalog Community Standards</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/09/10-vector-tiles-coming-to-duckdb/</guid>
   <pubDate>Wed, 10 Sep 2025 20:34:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/09/10-vector-tiles-coming-to-duckdb/maria-lupan-zvNg9cKe4Gk-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Prix Carto 2025 winners</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/09/08-prix-carto-2025-winners/</link>
-  <description><![CDATA[ Discover the winners of the 2025 Prix Carto award of the Swiss Society for Cartography: Fabian Lang for his book “Schweizer Bergwelten”, Sachit Mahajan for the R package “greenR”, and Aubry Cholleton for the web app “isochrone.ch”. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/09/08-prix-carto-2025-winners/</guid>
-  <pubDate>Mon, 08 Sep 2025 21:59:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/09/08-prix-carto-2025-winners/schweizer-bergwelten-cropped.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
