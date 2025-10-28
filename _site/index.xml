@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Sun, 26 Oct 2025 14:22:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 28 Oct 2025 17:50:00 GMT</lastBuildDate>
+<item>
+  <title>Publication of the SpatioTemporal Asset Catalog Community Standards</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/10/28-publication-of-the-spatiotemporal-asset-catalog-community-standards/</link>
+  <description><![CDATA[ The Open Geospatial Consortium (#OGC) has officially published the SpatioTemporal Asset Catalog (#STAC) Community Standards, marking a key milestone in data #interoperability. Built for flexibility and scalability, STAC provides a standardized framework for organizing and accessing a range of geospatial data assets. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/10/28-publication-of-the-spatiotemporal-asset-catalog-community-standards/</guid>
+  <pubDate>Tue, 28 Oct 2025 17:50:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/10/28-publication-of-the-spatiotemporal-asset-catalog-community-standards/stac.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Launch of the Public Data Lab</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/09/08-prix-carto-2025-winners/</guid>
   <pubDate>Mon, 08 Sep 2025 21:59:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/09/08-prix-carto-2025-winners/schweizer-bergwelten-cropped.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Discrete Global Grid Systems</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/09/05-discrete-global-grid-systems/</link>
-  <description><![CDATA[ Geospatial foundation models and the rise of Discrete Global Grid Systems (DGGS) are reshaping how we think about, and interact with, spatial data. In an episode of the #Geomob podcast, Luís Moreira de Sousa offers an overview of, and introduction to, #DGGS-s and their use-cases. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/09/05-discrete-global-grid-systems/</guid>
-  <pubDate>Fri, 05 Sep 2025 14:51:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/09/05-discrete-global-grid-systems/shapes.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
