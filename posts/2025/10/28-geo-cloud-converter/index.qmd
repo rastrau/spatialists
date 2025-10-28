@@ -1,0 +1,44 @@
+---
+title: "Geo Cloud Converter"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-10-28 22:18"
+image: "tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
+description: "Maphub.co launches #GeoCloudConverter, a browser-based #WASM tool 
+that transforms common geospatial file types — #GeoJSON, #Shapefile, #KML, #GPX, 
+CSV, #GeoPackage, or #GeoTIFF – into modern, #cloudnative formats like 
+#GeoParquet, #FlatGeobuf, #PMTiles, or Cloud-Optimized GeoTIFF (#COG). The tool 
+performs all processing locally in your browser for quick, private conversions 
+up to 1 GB."
+---
+
+[Maphub.co](https://www.linkedin.com/posts/pierre-blanchet-environment_we-built-something-that-fixes-one-of-the-activity-7388508163555340289-fVe1) 
+have built 
+[Geo Cloud Converter](https://geo-cloud-converter.maphub.co/). The tool runs in 
+your browser and its premise is simple: Drop a GeoJSON, a Shapefile (zipped or 
+not), a KML, a GPX, a CSV^[I'm not sure what schema is expected here. I imagine 
+an X and a Y column in EPSG:4326?], a GeoPackage, or a GeoTIFF onto its 
+interface and obtain a cloud-native representation of it – a [Cloud-optimized 
+GeoTIFF](https://guide.cloudnativegeo.org/cloud-optimized-geotiffs/intro.html) 
+(COG) if your input was a (standard) GeoTIFF, a 
+[GeoParquet](https://guide.cloudnativegeo.org/geoparquet/)[^sorting] file, a 
+[Flatgeobuf](https://guide.cloudnativegeo.org/flatgeobuf/intro.html) file, or 
+[PMTiles](https://guide.cloudnativegeo.org/pmtiles/intro.html) in all other 
+cases.
+
+Quick demo by Pierre Blanchet: 
+
+{{< video geo-cloud-converter.mp4 >}}
+
+[Geo Cloud Converter](https://geo-cloud-converter.maphub.co/) is built using 
+GDAL^[Of course.] and DuckDB WASM^[WebAssembly]. The latter means that the data 
+never leaves your computer, all processing is done in your browser. Maximum 
+file size is 1 GB. 
+
+Neat, for quick testing or in a pinch.
+
+[^sorting]: I don't expect the tool to do [anything clever](https://medium.com/center-for-coastal-climate-resilience-visualizatio/optimal-geoparquet-partitioning-strategy-33331874ef6c) [around](https://github.com/orgs/OvertureMaps/discussions/91) 
+[sorting](https://digital.ebp.ch/2024/04/03/best-practices-fuer-das-erstellen-von-parquet-dateien/) GeoParquet contents (it doesn't know enough to decide on a good strategy), but rather to 
+take and convert the data 'as is'.
+
