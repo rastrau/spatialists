@@ -1,0 +1,41 @@
+---
+title: "Publication of the SpatioTemporal Asset Catalog Community Standards"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-10-28 17:50"
+image: "stac.png"
+description: "The Open Geospatial Consortium (#OGC) has officially published 
+the SpatioTemporal Asset Catalog (#STAC) Community Standards, marking a key 
+milestone in data #interoperability. Built for flexibility and scalability, 
+STAC provides a standardized framework for organizing and accessing a range of 
+geospatial data assets."
+---
+
+There is big news from the OGC^[Open Geospatial Consortium]. From [today's anouncement](https://www.ogc.org/announcement/ogc-announces-publication-of-the-spatiotemporal-asset-catalog-community-standards/):
+
+> The Open Geospatial Consortium (OGC) is pleased to announce the publication 
+of the SpatioTemporal Asset Catalog (STAC) Community Standards. The STAC family 
+of specifications aims to standardize how geospatial asset metadata are 
+structured and queried. (...)
+
+STAC is purposefully built around a lightweight core and can be adapted using 
+extensions to the standard. 
+
+> Initially designed for satellite imagery, STAC has evolved to support a wide 
+range of data resources and formats, including aircraft and drone imagery; 
+hyperspectral, optical, and synthetic aperture radar (SAR) data; video; point 
+clouds; lidar; digital elevation models (DEM); vector data; machine learning 
+labels; and composites like NDVI and mosaics.
+
+The STAC specifications include the following:
+
+- [SpatioTemporal Asset Catalog (STAC) Community Standard](https://docs.ogc.org/cs/25-004/25-004.html)
+- [SpatioTemporal Asset Catalog (STAC) API Community Standard](https://docs.ogc.org/cs/25-005/25-005.html)
+
+Like always with OGC standards, these documents are freely accessible. 
+
+See also the [stacspec.org](https://stacspec.org/en/) for a large collection of 
+valuable resources around STAC.
+
+
