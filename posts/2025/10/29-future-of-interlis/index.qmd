@@ -1,0 +1,27 @@
+---
+title: "Future of Interlis"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-10-29 19:30"
+image: "interlis-logo.png"
+description: "The #Interlis Discourse Forum currently hosts a discussion among experts on the future of Interlis reflecting on strenghts and weaknesses and the future of the #datamodeling and #dataexchange #standard. Meanwhile, materials for the upcoming Interlis User Group Meeting were published today, continuing the community’s dialogue on Interlis development and practice."
+---
+
+The [Interlis Discourse Forum](https://interlis.discourse.group) features a 
+[discussion (in German, so far) among a number of experts](https://interlis.discourse.group/t/gedanken-zur-zukunft-von-interlis/448/6) on the future of this Swiss modeling 
+language and geodata exchange standard.
+
+The occasion is the [announcement](https://blog.sourcepole.ch/2025/10/24/gedanken-zur-zukunft-von-interlis/) 
+by Pirmin Kalberer about his retreat from the [SOGI GGMM](Geonormen und 
+modellbasierte Methode (GGMM))[^sogiggm] and an earlier Interlis-centric 
+working group. Pirmin reflects on Interlis support in GDAL, strenghts and 
+weaknesses of Interlis and ideas for the future.
+
+In somewhat related news: [Slides and materials](https://interlis.discourse.group/t/v-interlis-anwender-innen-treffen-rencontre-des-utilisateurs-interlis/424/9) 
+for the upcoming (fifth) Interlis User Group Meeting were published today.
+
+[^sogiggm]: The [SOGI GGMM](https://www.sogi.ch/de/netzwerke/standards) is the 
+working group on "geonorms and the model-based method" of the [Swiss 
+Organization for Geoinformation](https://www.sogi.ch/en) (SOGI/OSIG).
+
