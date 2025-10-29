@@ -19,7 +19,7 @@ working group. Pirmin reflects on Interlis support in GDAL, strenghts and
 weaknesses of Interlis and ideas for the future.
 
 In somewhat related news: [Slides and materials](https://interlis.discourse.group/t/v-interlis-anwender-innen-treffen-rencontre-des-utilisateurs-interlis/424/9) 
-for the upcoming (fifth) Interlis User Group Meeting were published today.
+of the (fifth) Interlis User Group Meeting were published today.
 
 [^sogiggm]: The [SOGI GGMM](https://www.sogi.ch/de/netzwerke/standards) is the 
 working group on "geonorms and the model-based method" of the [Swiss 
