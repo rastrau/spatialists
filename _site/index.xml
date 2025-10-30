@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Wed, 29 Oct 2025 19:30:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 30 Oct 2025 22:32:00 GMT</lastBuildDate>
+<item>
+  <title>STACD: STAC and DAGs</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/10/30-stacd-stac-and-dags/</link>
+  <description><![CDATA[ #STACD, a new extension for SpatioTemporal Asset Catalogs (#STAC) from Spatialnode, leverages #DAG-s to track data lineage, version algorithms, and efficiently re-compute only affected downstream STAC assets when an upstream asset is updated. A reference implementation using Apache #Airflow is provided. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/10/30-stacd-stac-and-dags/</guid>
+  <pubDate>Thu, 30 Oct 2025 22:32:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/10/30-stacd-stac-and-dags/kier-in-sight-archives-Sbxf5Dbyerk-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Future of Interlis</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/09/14-spatial-resolution/</guid>
   <pubDate>Sun, 14 Sep 2025 17:35:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/09/14-spatial-resolution/satellite-geometry.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Basemapkit: Basemaps for Maplibre</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/09/12-basemapkit-basemaps-for-maplibre/</link>
-  <description><![CDATA[ #Basemapkit is a new open-source library by Jonathan Lurie that provides customizable basemap styles for use with #Maplibre GL JS and #Protomaps #OSM #pmtiles. Its core style, avenue, is designed as a practical “one-size-fits-all” basemap, with optional relief shading for flexible cartographic use. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/09/12-basemapkit-basemaps-for-maplibre/</guid>
-  <pubDate>Fri, 12 Sep 2025 17:25:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/09/12-basemapkit-basemaps-for-maplibre/basemapkit.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
