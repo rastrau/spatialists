@@ -1,0 +1,30 @@
+---
+title: "STACD: STAC and DAGs"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-10-30 22:32"
+image: "kier-in-sight-archives-Sbxf5Dbyerk-unsplash.jpg"
+description: "#STACD, a new extension for SpatioTemporal Asset Catalogs (#STAC) from Spatialnode, leverages #DAG-s to track data lineage, version algorithms, and efficiently re-compute only affected downstream STAC assets when an upstream asset is updated. A reference implementation using Apache #Airflow is provided."
+---
+
+Does your STAC^[SpatioTemporal Asset Catalog] contain assets that depend on each other, for example a digital elevation model and a derived stream network? Spatialnode has published an [article on STACD](https://www.spatialnode.net/articles/building-reproducible-geospatial-pipelines-a-stac-extension-with-dags25119d), an extension for STAC to work with DAGs[^dag], essentially to be aware of workflows that may connect different STAC assets. This makes it possible that a change (update) to an upstream STAC asset triggers re-computation of downstream STAC assets. 
+
+[![Example workflow showing input/upstream data assets (green), processing steps (orange), intermediate and final derived data assets (blue and beige) (source: Spatialnode)](workflow.png "Example workflow showing input/upstream data assets (green), processing steps (orange), intermediate and final derived data assets (blue and beige) (source: Spatialnode)")](https://www.spatialnode.net/articles/building-reproducible-geospatial-pipelines-a-stac-extension-with-dags25119d)
+
+From Spatialnode:
+
+> STACD extends STAC with three main capabilities:
+> 
+> - Complete Lineage Tracking: Every dataset records not just its immediate parents, but the entire chain of algorithms, input datasets, and parameters used to create it. (...)
+> - Algorithm Versioning: STACD introduces a formal way to describe algorithms and their versions. When you update a terrain classification algorithm or switch from one machine learning model to another, the system tracks which datasets need to be recomputed.
+> - Selective Re-Computation: Instead of rerunning everything, STACD identifies exactly which parts of a workflow are affected by changes. (...)
+
+The [article](https://www.spatialnode.net/articles/building-reproducible-geospatial-pipelines-a-stac-extension-with-dags25119d) links to an [open-access conference paper titled "STACD: STAC Extension with DAGs for Geospatial Data and Algorithm Management"](https://dl.acm.org/doi/10.1145/3759536.3763803) by Laud et al. and Spatialnode provides a reference implementation using the [Apache Airflow framework](https://github.com/SaharshLaud/STACD-Airflow).
+
+
+
+
+
+
+[^dag]: A "DAG" or "Directed Acyclic Graph" is concept that can be used to describe a workflow, for example in data manipulation or transformation ("directed acyclic" simply means that the graph has a direction of "flow" and that it is impossible to loop back when traversing the graph).
