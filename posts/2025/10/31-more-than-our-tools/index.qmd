@@ -1,0 +1,24 @@
+---
+title: "More than our tools"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-10-31 22:17"
+image: "cesar-couto-sPSf-BSQ-Q4-unsplash.jpg"
+description: "Daniel O’Donohue, host of the #MapScaping Podcast, reflects on how access to tools no longer defines expertise in his piece, “Cameras, GIS, and why tools don’t make you special anymore”. As #AI lowers technical barriers, he argues that what truly sets professionals apart is not tool mastery but vision, a stance, and the ability to interpret and critique."
+---
+
+Daniel O'Donohue, host of the Podcast "[MapScaping](https://mapscaping.com/podcasts/)", has published a thoughtful short^[3–4 minutes to read] article, [_"Cameras_](https://www.linkedin.com/pulse/cameras-gis-why-tools-dont-make-you-special-anymore-daniel-o-donohue-ch6sc)[^title]_[, GIS, and why tools don’t make you special anymore](https://www.linkedin.com/pulse/cameras-gis-why-tools-dont-make-you-special-anymore-daniel-o-donohue-ch6sc)":_
+
+> There was a time when just owning a camera was enough. You were the “photographer” because you had access to the tool. But now? Everyone has a camera in their pocket. And so to stand out, it’s not enough to have the gear — you need taste and the ability to critique the output. You need a vision and a point of view. You probably also need a niche and a brand.
+> 
+> And I think the same thing is starting to happen with GIS.
+
+Daniel's thinking is that, thanks to AI[^ai], our geospatial tools become (much) easier to access and use: 
+
+> What do you bring to the table when everyone has the same tools? Because if the answer used to be “I know how to use the tools,” and now the tools use themselves… well, now what?
+
+More than our tools? – Hopefully not only now.
+
+[^title]: The title reminded of a short documentary by _The Times_ about the camera I recently watched: "Death of a Fantastic Machine".
+[^ai]: Specifically, natural language as a user interface (conversational UI or CUI) powered by large language models (LLMs) and model context protocol (MCP) servers for "agentic" functionality.
