@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Fri, 31 Oct 2025 22:17:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 04 Nov 2025 20:06:00 GMT</lastBuildDate>
+<item>
+  <title>viewinline</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/11/04-viewinline/</link>
+  <description><![CDATA[ A new no-fuss way to visualize your vector data and rasters right in the #terminal: viewinline is a lightweight #Python utility by Keiko Nomura that renders #GeoTIFF-s, #GeoPackage-s, #GeoJSON-s, and #Shapefile-s instantly in #iterm2 (and other compatible terminals). ]]></description>
+  <guid>https://spatialists.ch/posts/2025/11/04-viewinline/</guid>
+  <pubDate>Tue, 04 Nov 2025 20:06:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/11/04-viewinline/viewline.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>More than our tools</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/09/26-dependencies-and-reverse-dependencies-python-vs-r/</guid>
   <pubDate>Fri, 26 Sep 2025 17:55:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/09/26-dependencies-and-reverse-dependencies-python-vs-r/shubham-dhage-T9rKvI3N0NM-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Improved Swiss Base Map</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/09/24-improved-swiss-base-map/</link>
-  <description><![CDATA[ The “#BaseMap” from Switzerland’s NMGA #swisstopo is an award-winning interactive cartographic product that integrates data from multiple partners and was recognized with the 2025 #ICA #MapAward. An article by Swisstopo explains how the map was refined through user-feedback and iterative design enhancing mobile #usability and readability. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/09/24-improved-swiss-base-map/</guid>
-  <pubDate>Wed, 24 Sep 2025 18:50:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/09/24-improved-swiss-base-map/map-comparison.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
