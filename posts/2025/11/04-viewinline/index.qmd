@@ -1,0 +1,20 @@
+---
+title: "viewinline"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-11-04 20:06"
+image: "viewline.png"
+description: "A new no-fuss way to visualize your vector data and rasters right in the #terminal: viewinline is a lightweight #Python utility by Keiko Nomura that renders #GeoTIFF-s, #GeoPackage-s, #GeoJSON-s, and #Shapefile-s instantly in #iterm2 (and other compatible terminals)."
+---
+
+Finally you can view your shapefiles in your terminal!^[/s] [`viewline`](https://github.com/nkeikon/inlineviewer) is a new Python-based and MIT-licensed utility by [Keiko Nomura](https://www.linkedin.com/posts/keiko-nomura-0231891_just-released-viewinline-for-those-using-activity-7390643680770023424-8Guu/) for iterm2^[A popular terminal app on Mac OS] and other terminals or CLIs^[Command line interfaces] that support inline display. Besides Shapefiles, [`viewinline`](https://github.com/nkeikon/inlineviewer) supports GeoPackages, TIFF and GeoJSON files. Very simple, very light-weight, and very non-interactive. But you can:
+
+- ... view composite RGB rasters
+- ... display individual raster bands and individual layers of GeoPackages
+- ... apply specific color maps
+- ... color vector data by column
+
+and do a few more things. Here's a short demo by [the author](https://www.linkedin.com/posts/keiko-nomura-0231891_just-released-viewinline-for-those-using-activity-7390643680770023424-8Guu/):
+
+{{< video viewinline.mp4 >}}
