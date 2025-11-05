@@ -1,0 +1,32 @@
+---
+title: "Solar power production forecasting"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-11-05 16:59"
+image: "appa-fm5_vCUa-Bc-unsplash.jpg"
+description: "The Swiss Federal Office of Energy and the Swiss Data Science Center have launched a #solarenergy forecast tool in the #Energy #Dashboard, offering both hourly forecasts and regional daily production statistics. The system combines multiple data sources — including data from #ML / #deeplearning analysis of aerial imagery for PV detection.​"
+---
+
+The [Swiss Federal Office of Energy][sfoe] (SFOE) and the [Swiss Data Science Center][sdsc] (SDSC) at ETH Zurich put a forecast of solar energy production in operation in the [SFOE Energy Dashboard][dashboard]. Besides the five-day forecast in hourly resolution, the tool also shows the regional daily production.
+
+Per the [announcement][announcement], the tool combines multiple data sources some of which derived from machine learning:
+
+> Several data sources come together for the calculation. First, we identify where PV^[photo-voltaic] systems are installed. We use the Pronovo register as a basis for this. However, it only shows the solar production that has been subsidized. 
+> 
+> We therefore supplement it with AI analyses of 10 cm Swisstopo aerial images to identify missing or new installations. This is where geoinformation flows together with AI. Building information such as roof pitch and orientation comes from swissBUILDINGS3D 2.0 and the building register (Swiss Federal Register of Buildings and Dwellings). 
+>
+> We use data from Copernicus (Climate Data Store) for historical solar radiation and [open data] from MeteoSwiss for the forecasts. As not all regions are covered annually with aerial images, a growth factor is also calculated based on the new installation reports at Pronovo.
+
+The (spatial) machine learning aspect of the product is in the application of a pre-trained deep neural network for solar panel detection: 
+
+> Artificial intelligence is primarily used to identify solar installations. A pre-trained and fine-tuned deep neural network analyzes every pixel of the aerial images and decides whether it is a PV system. The model performance achieves an average error of around seven percent at district level.
+
+The solar power statistics and forecasts [can be found in this subsection](https://energiedashboard.admin.ch/strom/produktion-pv) of the [Energy Dashboard][dashboard].
+
+![Energy production forecast in the Energy Dashboard](energy-production-forecast.png "Energy production forecast in the Energy Dashboard")
+
+[sfoe]: https://www.bfe.admin.ch/bfe/en/home.html
+[sdsc]: https://www.datascience.ch/
+[dashboard]: https://energiedashboard.admin.ch/dashboard
+[announcement]: https://energeiaplus.com/2025/10/31/neu-im-energiedashboard-dank-geodaten-und-ki-stuendliche-daten-zur-regionalen-solarstromproduktion/?translateto=en
