@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Tue, 04 Nov 2025 20:06:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 05 Nov 2025 16:59:00 GMT</lastBuildDate>
+<item>
+  <title>Solar power production forecasting</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/11/05-solar-power-production-forecasting/</link>
+  <description><![CDATA[ The Swiss Federal Office of Energy and the Swiss Data Science Center have launched a #solarenergy forecast tool in the #Energy #Dashboard, offering both hourly forecasts and regional daily production statistics. The system combines multiple data sources — including data from #ML / #deeplearning analysis of aerial imagery for PV detection.​ ]]></description>
+  <guid>https://spatialists.ch/posts/2025/11/05-solar-power-production-forecasting/</guid>
+  <pubDate>Wed, 05 Nov 2025 16:59:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/11/05-solar-power-production-forecasting/appa-fm5_vCUa-Bc-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>viewinline</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/10/01-vibing-cartography/</guid>
   <pubDate>Wed, 01 Oct 2025 18:42:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/10/01-vibing-cartography/ai-map.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Dependencies and reverse dependencies: Python vs. R</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/09/26-dependencies-and-reverse-dependencies-python-vs-r/</link>
-  <description><![CDATA[ Julie Tibshirani reflects on how the #R ecosystem uniquely manages dependencies through reverse dependency checks on #CRAN. R’s approach comes at a cost to developers, but also fosters a culture of empathy and responsibility among package maintainers, ultimately benefiting researchers and data scientists by minimizing dependency conflicts and easing migrations. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/09/26-dependencies-and-reverse-dependencies-python-vs-r/</guid>
-  <pubDate>Fri, 26 Sep 2025 17:55:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/09/26-dependencies-and-reverse-dependencies-python-vs-r/shubham-dhage-T9rKvI3N0NM-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
