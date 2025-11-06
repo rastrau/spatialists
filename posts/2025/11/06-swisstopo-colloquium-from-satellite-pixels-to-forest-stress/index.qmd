@@ -1,0 +1,22 @@
+---
+title: "swisstopo colloquium: From satellite pixels to forest stress"
+author:
+  - name: David Oesch
+    url: https://www.linkedin.com/in/davidoesch
+date: "2025-11-06 21:04"
+image: "md-hasanuzzaman-himel-mz278SNa2ek-unsplash.jpg"
+description: "In an upcoming colloquium, #swisstopo offers a look at an operational #EarthObservation pipeline turning #Sentinel-2 data into near #realtime insight for #drought #monitoring in Switzerland. #eo #remotesensing"
+---
+
+On December 5, 10:00–11:30, swisstopo will host^[Exclusively on site, not online.] a colloquium focusing on a use case for high-resolution satellite data. The topic is _"[From Satellite Pixels to Forest Stress: swissEO Products for Real-time Environmental Monitoring](https://www.swisstopo.admin.ch/de/kolloquium-swisseo-produkte)"_. 
+
+The colloquium will offer a look at an operational [EO product pipeline](https://deepwiki.com/swisstopo/topo-satromo) with the following characteristics:
+
+* Products: Focus on [swissEO S2-SR](https://www.swisstopo.admin.ch/de/satellitenbilder-swisseo-s2-sr) (Sentinel-2 Surface Reflectance^[The S2-SR product corrects for atmospheric effects, making the data useful for time series analysis and direct comparison.]) and [swissEO VHI](https://www.swisstopo.admin.ch/de/satellitenbilder-swisseo-vhi)^[VHI or Vegetation Health Index is a combination of Vegetation Condition Index (VCI) and Temperature Condition Index (TCI), often used for drought monitoring.].
+* Backend: The [backend](https://github.com/swisstopo/topo-satromo) uses Google Earth Engine, Github Actions, and open-source software.
+* Delivery: Cloud-native formats served via a STAC interface^[STAC stands for "SpatioTemporal Asset Catalog", a modern, open specification for cataloging spatiotemporal data.].
+* Application: A collaboration between swisstopo, MeteoSwiss, and the Federal Office for the Environment (FOEN), the derived data is used in platforms like waldmonitoring.ch and TreeNet.
+
+![swissEO Vegetation Health Index near Ins/Le Landeron (source: SATROMO)](vhi.png "swissEO Vegetation Health Index near Ins/Le Landeron (source: SATROMO)")
+
+Event details are available [in German](https://www.swisstopo.admin.ch/de/kolloquium-swisseo-produkte) and [in French](https://www.swisstopo.admin.ch/fr/colloque-produits-swisseo). The presentations will be in German and in French.
