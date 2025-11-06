@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Wed, 05 Nov 2025 16:59:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 06 Nov 2025 21:04:00 GMT</lastBuildDate>
+<item>
+  <title>swisstopo colloquium: From satellite pixels to forest stress</title>
+  <dc:creator>David Oesch</dc:creator>
+  <link>https://spatialists.ch/posts/2025/11/06-swisstopo-colloquium-from-satellite-pixels-to-forest-stress/</link>
+  <description><![CDATA[ In an upcoming colloquium, #swisstopo offers a look at an operational #EarthObservation pipeline turning #Sentinel-2 data into near #realtime insight for #drought #monitoring in Switzerland. #eo #remotesensing ]]></description>
+  <guid>https://spatialists.ch/posts/2025/11/06-swisstopo-colloquium-from-satellite-pixels-to-forest-stress/</guid>
+  <pubDate>Thu, 06 Nov 2025 21:04:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/11/06-swisstopo-colloquium-from-satellite-pixels-to-forest-stress/md-hasanuzzaman-himel-mz278SNa2ek-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Solar power production forecasting</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/10/02-routing-algorithms-visualized/</guid>
   <pubDate>Thu, 02 Oct 2025 13:40:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/10/02-routing-algorithms-visualized/secrets-of-maps-cropped.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Vibing cartography</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/10/01-vibing-cartography/</link>
-  <description><![CDATA[ An innovative experiment: David Oesch tests an inventive approach leveraging #GenAI (#LLM and #LMM) to transform webmap style specs and an aerial image into an AI-generated topographic #map. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/10/01-vibing-cartography/</guid>
-  <pubDate>Wed, 01 Oct 2025 18:42:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/10/01-vibing-cartography/ai-map.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
