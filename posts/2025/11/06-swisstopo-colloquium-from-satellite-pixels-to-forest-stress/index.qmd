@@ -4,7 +4,7 @@ author:
   - name: David Oesch
     url: https://www.linkedin.com/in/davidoesch
 date: "2025-11-06 21:04"
-image: "md-hasanuzzaman-himel-mz278SNa2ek-unsplash.jpg"
+image: "nikola-tomasic-gJUAzbD61nU-unsplash.jpg"
 description: "In an upcoming colloquium, #swisstopo offers a look at an operational #EarthObservation pipeline turning #Sentinel-2 data into near #realtime insight for #drought #monitoring in Switzerland. #eo #remotesensing"
 ---
 
