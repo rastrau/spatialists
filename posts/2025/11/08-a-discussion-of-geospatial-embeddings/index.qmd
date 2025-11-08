@@ -1,0 +1,31 @@
+---
+title: "A discussion of geospatial embeddings"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-11-08 16:49"
+image: "gabriela-TBwz4F_o8aw-unsplash.jpg"
+description: "Ed Parsons’ latest article cautions that while geospatial #embeddings promise analytical power, they risk transparency and interpretability long valued in #remotesensing. The article underscores the need to balance innovation with auditability and compliance in AI-driven #EarthObservation. #EO"
+---
+
+On the heels of news about, for example, [AlphaEarth Foundations](https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/), geospatial embeddings[^embeddings] are all the rage. From Ed Parsons[^parsons] comes an [article](http://www.edparsons.com/2025/11/be-careful-who-you-jump-into-embed-with/) reflecting on the advantages and drawbacks of "AI"-based approaches using embeddings and traditional remote sensing methods. It's reminiscent of the "(counter the) death of theory" debate. From the [article](http://www.edparsons.com/2025/11/be-careful-who-you-jump-into-embed-with/):
+
+> However, while we embrace this powerful new capability, we must also critically examine the sacrifice of transparency and trust in favour of efficiency. (...) the sacrifice is the direct physical interpretability that traditional remote sensing was founded on. A simple Near-Infrared value tells you about leaf density, while an embedding dimension tells you… nothing on its own.
+
+The article outlines three challenges to embedding-based approaches:
+
+- scientific auditability
+- bias or non-representativity
+- compliance with regulation
+
+
+
+
+
+
+
+
+
+
+[^embeddings]: Basically, a (comparably) very compact representation (in high-dimensional vector space) of large amounts of a geospatial data about a given part of the Earth's surface.
+[^parsons]: If the name rings a bell, it might because of Ed's time at Google as their Geospatial Technologist. He has left that position and is now an [advisor and speaker](http://www.edparsons.com/) among other things.
