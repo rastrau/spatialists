@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Thu, 06 Nov 2025 21:04:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 08 Nov 2025 16:49:00 GMT</lastBuildDate>
+<item>
+  <title>A discussion of geospatial embeddings</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/11/08-a-discussion-of-geospatial-embeddings/</link>
+  <description><![CDATA[ Ed Parsons’ latest article cautions that while geospatial #embeddings promise analytical power, they risk transparency and interpretability long valued in #remotesensing. The article underscores the need to balance innovation with auditability and compliance in AI-driven #EarthObservation. #EO ]]></description>
+  <guid>https://spatialists.ch/posts/2025/11/08-a-discussion-of-geospatial-embeddings/</guid>
+  <pubDate>Sat, 08 Nov 2025 16:49:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/11/08-a-discussion-of-geospatial-embeddings/gabriela-TBwz4F_o8aw-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>swisstopo colloquium: From satellite pixels to forest stress</title>
   <dc:creator>David Oesch</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/10/03-geoflow-for-low-code-etl/</guid>
   <pubDate>Fri, 03 Oct 2025 18:02:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/10/03-geoflow-for-low-code-etl/geoflow-cropped.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Routing algorithms visualized</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/10/02-routing-algorithms-visualized/</link>
-  <description><![CDATA[ secretsofmaps.com built by Adam Kulikowski offers an interactive walkthrough of popular #routing algorithms like BFS, DFS, Greedy, and A*, complete with animated #visualizations. Explore and compare these pathfinding algorithms at your own pace. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/10/02-routing-algorithms-visualized/</guid>
-  <pubDate>Thu, 02 Oct 2025 13:40:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/10/02-routing-algorithms-visualized/secrets-of-maps-cropped.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
