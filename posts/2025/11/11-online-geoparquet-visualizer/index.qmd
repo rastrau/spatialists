@@ -1,0 +1,40 @@
+---
+title: "Online GeoParquet Visualizer"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-11-11 21:15"
+image: "geoparquet-visualizer.jpg"
+description: "For day 7 of the #30DayMapChallenge on the topic of #accessibility, Dominic Weckmüller released the #GeoParquet Visualizer. The GeoParquet Visualizer is a free and open-source web tool built with #MapLibre and #parquet-#wasm that lets users view, style, and share GeoParquet and Parquet datasets directly in the browser."
+---
+
+On the occasion of day 7 of the #[30DayMapChallenge](https://fosstodon.org/@DomeGIS/115508669405346859) 
+(topic: Accessibility), [Dominic Weckmüller](https://geo.rocks/about/) released 
+the GeoParquet Visualizer. The 
+[GeoParquet Visualizer](https://do-me.github.io/geoparquet-visualizer/) is a 
+free and [open-source](https://github.com/do-me/geoparquet-visualizer?) (MIT 
+license) online tool to quickly view one or several GeoParquet files. It is 
+based on [MapLibre](https://maplibre.org/) and 
+[parquet-wasm](https://github.com/kylebarron/parquet-wasm/tree/v0.7.0), 
+a set of WebAssembly bindings to read and write the Apache Parquet format, by 
+Kyle Barron.
+
+Among others, the GeoParquet Visualizer offers the following features:
+
+- The GeoParquet files can be uploaded from your machine or be imported from a 
+remote URL.
+- Plain Parquet support: Automatic detection of latitude / longitude columns if 
+no WKB^[Well-Known Binary] geometry column is found
+- Dynamic styling: Each layer can be assigned contour and fill color and opacity
+- View modes: You can toggle between the standard Web Mercator projection and a 
+3D globe view
+- Stateful URLs: The map's view, projection, loaded GeoParquets, basemap style, 
+and background color are stored in URL parameters so that the session can be shared
+
+Try out the [tool](https://do-me.github.io/geoparquet-visualizer/) 
+([link with an example GeoParquet file pre-loaded](https://do-me.github.io/geoparquet-visualizer/?map=9.58%2F45.71003%2F7.02230%2F30.00%2F60.00&sidebar=1&style=https%3A%2F%2Ftiles.openfreemap.org%2Fstyles%2Fliberty&background=%23000000&spinSpeedX=0.1&spinSpeedY=0&projection=globe&url=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdo-me%2FItalian_Parcels%2Fresolve%2Fmain%2FVALLE-AOSTA_communes.geoparquet)) 
+and inspect the 
+[GitHub repository](https://github.com/do-me/geoparquet-visualizer?tab=readme-ov-file). 
+Or check the demo video:
+
+{{< video https://youtu.be/n4akVwYll8E >}}
