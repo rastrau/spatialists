@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Sat, 08 Nov 2025 16:49:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 11 Nov 2025 21:15:00 GMT</lastBuildDate>
+<item>
+  <title>Online GeoParquet Visualizer</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/11/11-online-geoparquet-visualizer/</link>
+  <description><![CDATA[ For day 7 of the #30DayMapChallenge on the topic of #accessibility, Dominic Weckmüller released the #GeoParquet Visualizer. The GeoParquet Visualizer is a free and open-source web tool built with #MapLibre and #parquet-#wasm that lets users view, style, and share GeoParquet and Parquet datasets directly in the browser. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/11/11-online-geoparquet-visualizer/</guid>
+  <pubDate>Tue, 11 Nov 2025 21:15:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/11/11-online-geoparquet-visualizer/geoparquet-visualizer.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>A discussion of geospatial embeddings</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/10/05-navigating-without-street-addresses/</guid>
   <pubDate>Sun, 05 Oct 2025 15:11:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/10/05-navigating-without-street-addresses/navigating-a-city-without-street-addresses.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Geoflow for low-code ETL</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/10/03-geoflow-for-low-code-etl/</link>
-  <description><![CDATA[ There is a gap in #lowcode tooling for geospatial #datamanipulation, with most existing solutions either proprietary, outdated, or not aligned with the needs of those users wishing for visual tools. #Geoflow, an emerging #opensource project with a visual workflow builder, could evolve into a suitable alternative. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/10/03-geoflow-for-low-code-etl/</guid>
-  <pubDate>Fri, 03 Oct 2025 18:02:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/10/03-geoflow-for-low-code-etl/geoflow-cropped.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
