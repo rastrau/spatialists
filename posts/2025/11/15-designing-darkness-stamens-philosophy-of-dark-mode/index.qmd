@@ -1,0 +1,21 @@
+---
+title: "Designing darkness: Stamen’s philosophy of dark mode"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-11-15 14:37"
+image: "midnight-commander.png"
+description: "From Stamen comes a deep dive into their 'Philosophy on Dark Mode Maps', exploring how #darkmode #map #design goes beyond simply inverting colors. Drawing on examples from their own portfolio and color scatterplot analyses, the article shows the balance between 'night mode' and 'daytime dark mode', and what each means for digital cartography."
+---
+
+From Stamen^[Stamen is a data visualization and cartographic design studio in San Francisco. You may know some of their web map styles, for example "[Toner](https://maps.stamen.com/toner/#12/37.7706/-122.3782)" and "[Watercolor](https://maps.stamen.com/watercolor/#12/37.7706/-122.3782)".] comes a blog post that explains what they call their "[Philosophy on Dark Mode Maps](https://stamen.com/stamens-dark-map-materials/#)", portions of which were presented at the 2025 NACIS^[[North American Cartographic Information Society.](https://nacis.org/)] Annual Meeting. The trend to "dark mode" in tech is long-standing and undeniable – but what does it mean for digital maps?
+
+> We’ve made a lot of dark maps over the years at Stamen. We’ll often see dark maps from other designers or commercial providers and think, “why so dark?” We have a philosophy around designing a dark map for a particular client or use case, but we haven’t ever really spelled it out – either internally at Stamen or with the larger cartography community. It’s always been very, “it’s hard to describe, but I know it when I see it,” which is not the most useful!
+
+The [blog post](https://stamen.com/stamens-dark-map-materials/#) describes how Stamen approaches the design process for creating dark-mode cartography. The authors for example elaborate on the distinction of "night mode" (low contrast dark maps) and "daytime dark mode" (high contrast dark maps), treating them as subgenres within the category of dark-mode maps. The post illustrates the design principles and thinking that went into  them using several examples of map styles from Stamen's portfolio and others. Finally, the authors introduce an interesting scatterplot technique to analyse map color palettes by plotting pixel counts based on their hue and lightness values. These scatterplots can distinguish "shifting" vs. "mirroring" approaches to creating dark-mode maps.
+
+[![](mapbox-scatterplot "")](https://stamen.com/stamens-dark-map-materials/#)
+
+![Comparing Mapbox (top; shifting) and Protomaps (bottom; mirroring) dark and light base maps using hue-lightness-scatterplots (source: [Stamen](https://stamen.com/stamens-dark-map-materials/#))](protomaps-scatterplot.png "Comparing Mapbox (top) and Protomaps (bottom) dark and light base maps using hue-lightness-scatterplots (source: Stamen)")
+
+
