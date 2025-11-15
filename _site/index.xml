@@ -15,8 +15,17 @@
 <title>Spatialists – geospatial news</title>
 <link>https://spatialists.ch/</link>
 </image>
-<generator>quarto-1.8.25</generator>
-<lastBuildDate>Tue, 11 Nov 2025 21:15:00 GMT</lastBuildDate>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Sat, 15 Nov 2025 14:37:00 GMT</lastBuildDate>
+<item>
+  <title>Designing darkness: Stamen’s philosophy of dark mode</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/11/15-designing-darkness-stamens-philosophy-of-dark-mode/</link>
+  <description><![CDATA[ From Stamen comes a deep dive into their ‘Philosophy on Dark Mode Maps’, exploring how #darkmode #map #design goes beyond simply inverting colors. Drawing on examples from their own portfolio and color scatterplot analyses, the article shows the balance between ‘night mode’ and ‘daytime dark mode’, and what each means for digital cartography. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/11/15-designing-darkness-stamens-philosophy-of-dark-mode/</guid>
+  <pubDate>Sat, 15 Nov 2025 14:37:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/11/15-designing-darkness-stamens-philosophy-of-dark-mode/midnight-commander.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Online GeoParquet Visualizer</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/10/13-vibe-cartography-sandbox/</guid>
   <pubDate>Mon, 13 Oct 2025 21:34:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/10/13-vibe-cartography-sandbox/vibe-cartography-map-excerpt.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Navigating without street addresses</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/10/05-navigating-without-street-addresses/</link>
-  <description><![CDATA[ This sounds like straight out of those “Falsehoods programmers believe …” texts: A major city where people rely on landmarks, rather than street addresses, for navigation and also postal delivery. Find out more in this short documentary by The New Yorker. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/10/05-navigating-without-street-addresses/</guid>
-  <pubDate>Sun, 05 Oct 2025 15:11:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/10/05-navigating-without-street-addresses/navigating-a-city-without-street-addresses.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
