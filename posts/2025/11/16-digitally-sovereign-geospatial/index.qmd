@@ -1,0 +1,23 @@
+---
+title: "Digitally sovereign geospatial"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-11-16 15:49"
+image: "emma-henderson-B645igbiKCw-unsplash.jpg"
+description: "In a recent video, Hans van der Kwast explores digital #sovereignty and its implications for #opensource software, governance, and collaboration. Using #QGIS as a case study, he unpacks how open standards and community-driven development can empower users and reshape digital services. #digitalsovereignty"
+---
+
+In a recent video, [Hans van der Kwast](https://www.qwast-gis.com/), Associate Professor of Open Science and Digital Innovation, covers "[Digital sovereignty and open-source software](https://www.youtube.com/watch?v=0u6tPM-USHY)". 
+
+In 30 minutes, Hans defines and explores sovereignty as it pertains to digital goods and services and how it interacts with international jurisdiction. He highlights the potential of open-source software for empowering users, be it individuals, communities, governments, or enterprises. At minute 13, the video looks at QGIS as a case study of the open-source model in the geospatial sector. 
+
+{{< video https://www.youtube.com/watch?v=0u6tPM-USHY >}}
+
+I found particularly interesting: 
+
+- the discussion of the open-source value chain[^contributions] and monetization (starting at 15:50), 
+- the discussion of two paths for commercial open-source – the solution-based model (starting at 17:30) and the productized SaaS^[Software as a Service] model (starting at 19:00)
+- and the challenges for open-source in the procurement process (starting at 22:00).
+
+[^contributions]: As a tangent to this video (and not focussed on geospatial), there is currently [an interesting discussion around the open-source multimedia tool `ffmpeg`](https://thenewstack.io/ffmpeg-to-google-fund-us-or-stop-sending-bugs/), the burden on open-source maintainers and the role and responsibilities of large tech companies benefitting from open-source software.
