@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Sat, 15 Nov 2025 14:37:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 16 Nov 2025 15:49:00 GMT</lastBuildDate>
+<item>
+  <title>Digitally sovereign geospatial</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/11/16-digitally-sovereign-geospatial/</link>
+  <description><![CDATA[ In a recent video, Hans van der Kwast explores digital #sovereignty and its implications for #opensource software, governance, and collaboration. Using #QGIS as a case study, he unpacks how open standards and community-driven development can empower users and reshape digital services. #digitalsovereignty ]]></description>
+  <guid>https://spatialists.ch/posts/2025/11/16-digitally-sovereign-geospatial/</guid>
+  <pubDate>Sun, 16 Nov 2025 15:49:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/11/16-digitally-sovereign-geospatial/emma-henderson-B645igbiKCw-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Designing darkness: Stamen’s philosophy of dark mode</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/10/14-security-test-of-qgis-server-and-qgis-web-client/</guid>
   <pubDate>Tue, 14 Oct 2025 19:22:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/10/14-security-test-of-qgis-server-and-qgis-web-client/philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Vibe cartography sandbox</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/10/13-vibe-cartography-sandbox/</link>
-  <description><![CDATA[ David Oesch has open-sourced his workflow for generating #AI-driven #topographicmaps directly from #aerialimagery, following his earlier experiment in “vibe cartography”. The GitHub repository lets anyone reproduce the method using Python and a Google account, while also inviting collaboration on the proposed future improvements. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/10/13-vibe-cartography-sandbox/</guid>
-  <pubDate>Mon, 13 Oct 2025 21:34:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/10/13-vibe-cartography-sandbox/vibe-cartography-map-excerpt.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
