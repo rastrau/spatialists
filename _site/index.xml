@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Fri, 21 Nov 2025 18:08:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 21 Nov 2025 18:50:00 GMT</lastBuildDate>
+<item>
+  <title>Proceedings of the 2025 JRG</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/11/21-proceedings-of-the-2025-jrg/</link>
+  <description><![CDATA[ Last week, the fourth Journée Romande de la Géoinformation (#JRG) took place in Ecublens with more than 800 participants. Now, all videos and presentations of the plenary sessions are available online. #GeoAI #DSS #DigitalTwin ]]></description>
+  <guid>https://spatialists.ch/posts/2025/11/21-proceedings-of-the-2025-jrg/</guid>
+  <pubDate>Fri, 21 Nov 2025 18:50:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/11/21-proceedings-of-the-2025-jrg/jrg.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>2026 GeoHipster calendar</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/10/18-secure-operation-of-arcgis-server-and-other-it-assets/</guid>
   <pubDate>Sat, 18 Oct 2025 11:05:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/10/18-secure-operation-of-arcgis-server-and-other-it-assets/xiong-yan-t9x-GgewZPw-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>30 Day Map Challenge</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/10/15-30-day-map-challenge/</link>
-  <description><![CDATA[ ’Tis the season again: the #30DayMapChallenge by Topi Tjukanov returns this November, inviting #cartographers, spatial data scientists, and GIS enthusiasts to create one #map per day inspired by daily themes. Whether you’re crafting or simply admiring, it’s a month-long celebration of creativity, #geography, and data #visualization. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/10/15-30-day-map-challenge/</guid>
-  <pubDate>Wed, 15 Oct 2025 22:15:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/10/15-30-day-map-challenge/30-day-map-challenge.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
