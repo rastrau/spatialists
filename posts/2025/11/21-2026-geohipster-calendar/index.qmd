@@ -1,0 +1,48 @@
+---
+title: "2026 GeoHipster calendar"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-11-21 18:08"
+image: "geohipster-frontcover-titlecard.jpg"
+description: "The 2026 GeoHipster calendar is available to order!"
+---
+
+The [GeoHipster](https://www.geohipster.com/)[^transparency] calendar 2026 is 
+announced and available to order. 
+[Randal Hale](https://www.northrivergeographic.com/2026-geohipster-calendar/):
+
+> Geohipster is one of those “side things” that’s been happening for over 10 
+years now. Back in the dearly days of Twitter ... or I should call it the 
+“Golden Age of social media”, Atanas Entchev had an idea to document the 
+industry. So a handful of us post articles highlighting professionals in the 
+industry AND – we have this calendar. The best part of the calendar is it’s 
+maps made by people. Some are professional cartographers. Some aren’t. All are 
+excellent and tell a story of some sort. 
+
+[![The front cover of the GeoHipster 2026 calendar](geohipster-frontcover.jpg "The front cover of the GeoHipster 2026 calendar")](https://www.lulu.com/shop/randal-hale/geohipster-2026/paperback/product-7kjvdw6.html)
+
+The calendar can [be ordered from lulu.com](https://www.lulu.com/shop/randal-hale/geohipster-2026/paperback/product-7kjvdw6.html)^[Previews of all sheets are 
+available]. It ships internationally and the proceeds help cover the costs of 
+GeoHipster^[Tagline: "Mapping the world one organic vertex at a time"]:
+
+> The money is used for everything from operating costs to anything else I can 
+come up with. It pretty much breaks even each year.
+
+The [call for calendar submissions](https://www.geohipster.com/2026-geohipster-calendar/) is usually open in fall. Watch 
+[GeoHipster](https://www.geohipster.com) if you would like to contribute one of 
+your maps in the future.
+
+![The June 2026 sheet](geohipster-june-sheet.jpg "The June 2026 sheet")
+
+[^transparency]: Transparency note: I am a member of the 
+[advisory board](https://www.geohipster.com/advisory-board/) of GeoHipster, 
+have interviewed 
+[Vasile Coțovanu](https://www.geohipster.com/2016/05/16/vasile-cotovanu-better-publish-not-perfect-map-masterpiece-unpublished/), 
+[Achim Tack and Patrick Stotz](https://www.geohipster.com/2016/05/23/achim-tack-patrick-stotz-nonsensical-things-mapped-just-sake-mapping/),
+[Alasdair Rae](https://www.geohipster.com/2018/02/19/alasdair-rae-think-best-maps-simple-ones/) and
+[Topi Tjukanov](https://www.geohipster.com/2018/04/16/topi-tjukanov-in-finnish-basemaps-forest-is-white/) on behalf of GeoHipster, 
+and have been [interviewed](https://www.geohipster.com/2015/12/21/13-maps-in-13-days-ralph-straumann/) [three](https://www.geohipster.com/2016/01/04/maps-and-mappers-of-the-2016-calendar-ralph-straumann/) [times](https://www.geohipster.com/2017/06/13/maps-mappers-2017-geohipster-calendar-ralph-straumann/) as a 
+contributor to the calendar. To my regret, I must admit, however, that I have 
+not been active for GeoHipster for quite some time.
+
