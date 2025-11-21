@@ -1,0 +1,27 @@
+---
+title: "Proceedings of the 2025 JRG"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-11-21 18:50"
+image: "jrg.jpg"
+description: "Last week, the fourth Journée Romande de la Géoinformation (#JRG) took place in Ecublens with more than 800 participants. Now, all videos and presentations of the plenary sessions are available online. #GeoAI #DSS #DigitalTwin"
+---
+
+{{< video https://www.youtube.com/watch?v=1e_r8xZ8n8A >}}
+
+Last week, the fourth Journée Romande de la Géoinformation (JRG) took place 
+in Ecublens with more than 800 participants. The video above features some 
+impressions and highlights from the conference. 
+
+Now, [all videos and presentations 
+of the _plenary_ sessions](https://georomandie.com/) are available to peruse.
+
+Topics of the 2025 JRG were, among others:
+
+- artificial intelligence and GeoAI
+- decision-support
+- crisis management
+- digital twins
+- innovations in cartography
+- climate change mitigation
