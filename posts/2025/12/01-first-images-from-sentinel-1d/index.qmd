@@ -1,0 +1,25 @@
+---
+title: "First images from Sentinel-1D"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-12-01 20:59"
+image: "tierra-del-fuego-sentinel-1d.jpg"
+description: '#Sentinel‑1D, the newest radar satellite in #ESA’s #Copernicus Sentinel‑1 mission, was launched on 4 November and has already delivered its first C‑band #SAR images within just 50 hours of liftoff. Replacing Sentinel‑1A, it continues the mission’s all‑weather #EarthObservation while enhancing capability for detecting "dark" ships and sea pollution. #EO #RemoteSensing'
+---
+
+ESA^[European Space Agency] launched Sentinel-1D, the latest addition to its [Copernicus Sentinel-1 mission](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1) on November 4th, on board an Ariane 6 launcher from Europe's Spaceport in French Guiana, South America. Now the first images from Sentinel-1D^[Not precisely *images* as Sentinel-1D uses Radar, not an optical instrument.] (in orbit at roughly 700 km of altitude) are published. Sentinel-1D is meant to replace Sentinel-1A, which has been oeprational in orbit since 2014, longer than its planned lifetime. Sentinel-1D will work "in tandem" with Sentinel-1C launched last year, orbiting 180° apart.
+
+Sentinel-1D uses a 12 meter long SAR^[Synthetic Aperture Radar] antenna in the C-band (5.405 GHz). Sentinel-1D (like Sentinel-1C) also carries an AIS[^ais] instrument which improves its capacity to detect ships and sea pollution.
+
+After launch, Sentinel-1D captured and downlinked data from over the Antarctic, South America, the Antarctic Peninsula, the Tierra del Fuego and the Thwaites Glacier, and Bremen in Germany. According to [ESA](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1D_delivers_first_images_from_Antarctica_to_Bremen), 
+
+> all this was done within 50 hours of launch, which is likely to be the shortest time from launch to data delivery for a radar-based Earth observation satellite.
+
+![False-color radar image (excerpt) (using polarisations) of the Tierra del Fuego in Chile or Argentina, captured by the Copernicus Sentinel-1D mission on November 6, 2025 (source: [ESA](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1D_delivers_first_images_from_Antarctica_to_Bremen)).](tierra-del-fuego-sentinel-1d.jpg "False-color radar image (excerpt) (using polarisations) of the Tierra del Fuego in Chile or Argentina, captured by the Copernicus Sentinel-1D mission on November 6, 2025 (source: ESA).")
+
+![False-color radar image (excerpt) (using polarisations) of the Elbe delta in Germany, captured by the Copernicus Sentinel-1D mission on November 7, 2025. You can see some very strong radar echos (source: [ESA](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1D_delivers_first_images_from_Antarctica_to_Bremen)).](elbe-delta-sentinel-1d.jpg "False-color radar image (excerpt) of the Elbe delta in Germany, captured by the Copernicus Sentinel-1D mission on November 7, 2025. You can see some very strong radar echos (source: ESA).")
+
+More information can be found in [the announcement by ESA](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1D_delivers_first_images_from_Antarctica_to_Bremen), this [article on Sentinel-1D](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1_mission_did_you_know) and on the [Copernicus Sentinel-1 mission page](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1).
+
+[^ais]: Automatic Identification System. AIS devices are installed on ships and emit information such as identification, position, course, and speed of the ship. The combination of SAR with an AIS instrument enables Sentinel-1D to detect so called "dark" ships, i.e., ships that have turned off their AIS to escape detection.
