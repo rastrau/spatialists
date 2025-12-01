@@ -1,0 +1,44 @@
+---
+title: "Air Loom: 3D airspace visualization"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-12-01 18:42"
+image: "gva.jpg"
+description: "Air Loom, a project by Benny Lim (Objective Unclear), offers a dynamic #3D #visualization platform for #realtime ADS-B #aircraft tracking around major airports. Users can explore #flight movements, airspace overlays, and adjust display options to suit educational or #aviation enthusiast needs."
+---
+
+[Air Loom](https://objectiveunclear.com/airloom.html) is a side project by 
+"[Objective Unclear](https://objectiveunclear.com/)" or 
+[Benny Lim](https://www.reddit.com/user/NoCompetition2044/). The platform 
+visualizes 
+[ADS-B](https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast)[^adsb] 
+data around international airports in a 3D view of the airspace. Users can view 
+a 3D scene of the airport of interest and the positions and movements of 
+aircraft in the airspace around it. Users have a wide array of functionality: 
+You can, for example, search for an airport (using either 
+[IATA](https://en.wikipedia.org/wiki/IATA_airport_code) or 
+[ICAO airport codes](https://en.wikipedia.org/wiki/ICAO_airport_code)), search 
+for an individual aircraft, hide aircraft, filter aircraft by ID, type, and 
+flight level, choose and tune many display options, do recordings, and more.
+
+Some example airports: 
+
+- [Geneva](https://objectiveunclear.com/airloom.html?airport=GVA)
+- [Basel-Mulhouse](https://objectiveunclear.com/airloom.html?airport=BSL)
+- [Zurich](https://objectiveunclear.com/airloom.html?airport=ZRH)
+- [Altenrhein](https://objectiveunclear.com/airloom.html?airport=ACH)
+- [Bern-Belp](https://objectiveunclear.com/airloom.html?airport=BRN)
+- [Sitten / Sion](https://objectiveunclear.com/airloom.html?airport=SIR)
+- [Locarno](https://objectiveunclear.com/airloom.html?airport=LSZL)
+
+And an extra-busy one for comparison: [Los Angeles LAX](https://objectiveunclear.com/airloom.html?airport=LAX)
+
+[![Geneva / GVA in Air Loom](gva.jpg "Geneva / GVA in Air Loom")](https://objectiveunclear.com/airloom.html?airport=GVA)
+
+[![Zurich / ZRH in Air Loom](zrh.jpg "Zurich / ZRH in Air Loom")](https://objectiveunclear.com/airloom.html?airport=ZRH)
+
+The developer behind [Air Loom](https://objectiveunclear.com/airloom.html) has opened a [Reddit thread](https://www.reddit.com/r/ADSB/comments/1o58f56/you_asked_for_it_3d_adsb_just_got_a_huge_upgrade/) for discussion.
+
+
+[^adsb]: Automatic Dependent Surveillance–Broadcast: A technology that allows aircraft to determine its position via, e.g., satellite navigation and periodically broadcast its position and other related data.
