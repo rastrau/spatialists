@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Mon, 01 Dec 2025 18:42:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 01 Dec 2025 20:59:00 GMT</lastBuildDate>
+<item>
+  <title>First images from Sentinel-1D</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/12/01-first-images-from-sentinel-1d/</link>
+  <description><![CDATA[ #Sentinel‑1D, the newest radar satellite in #ESA’s #Copernicus Sentinel‑1 mission, was launched on 4 November and has already delivered its first C‑band #SAR images within just 50 hours of liftoff. Replacing Sentinel‑1A, it continues the mission’s all‑weather #EarthObservation while enhancing capability for detecting “dark” ships and sea pollution. #EO #RemoteSensing ]]></description>
+  <guid>https://spatialists.ch/posts/2025/12/01-first-images-from-sentinel-1d/</guid>
+  <pubDate>Mon, 01 Dec 2025 20:59:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/12/01-first-images-from-sentinel-1d/tierra-del-fuego-sentinel-1d.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Air Loom: 3D airspace visualization</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/10/21-apache-hop-online-user-meetup/</guid>
   <pubDate>Tue, 21 Oct 2025 19:59:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/10/21-apache-hop-online-user-meetup/solen-feyissa-IfWFKG3FXE4-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>DuckDB extension for A5 DGGS</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/10/19-duckdb-extension-for-a5-dggs/</link>
-  <description><![CDATA[ A community extension by Query.Farm brings native support for the (equal-area, pentagonal-cell-based) #A5 Discrete Global Grid System (#DGGS) to #DuckDB. In development since April, the extension includes a set of functions for coordinate conversion, geometry, hierarchy, and utilities, extending DuckDB’s reach into high-performance spatial analysis. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/10/19-duckdb-extension-for-a5-dggs/</guid>
-  <pubDate>Sun, 19 Oct 2025 10:32:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/10/19-duckdb-extension-for-a5-dggs/a5-sphere.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
