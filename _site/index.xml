@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Wed, 10 Dec 2025 21:52:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 10 Dec 2025 23:42:00 GMT</lastBuildDate>
+<item>
+  <title>3D models of 2.8 billion buildings</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/12/10-3d-models-of-28-billion-buildings/</link>
+  <description><![CDATA[ A research team from the Technical University of Munich (#TUM) led by Prof. Xiao Xiang Zhu has released the #GlobalBuildingAtlas, a 3D dataset comprising 2.75 billion #buildingmodels worldwide at 3‑meter resolution. Built from #PlanetScope satellite imagery and #ML-based extraction, it represents the most detailed and comprehensive global building dataset produced so far. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/12/10-3d-models-of-28-billion-buildings/</guid>
+  <pubDate>Wed, 10 Dec 2025 23:42:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/12/10-3d-models-of-28-billion-buildings/essd-17-6647-2025-f03-web-cropped.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Elementary geodata for a digital Switzerland</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/10/25-from-fields-to-surface-specific-points-geomorphons-and-networks/</guid>
   <pubDate>Sat, 25 Oct 2025 19:24:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/10/25-from-fields-to-surface-specific-points-geomorphons-and-networks/jonakoh-_-NW_yGSTNOe4-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>MapTiler Connect: Digital cartography, GeoSplats, and open-source</title>
-  <dc:creator>Stephan Heuel</dc:creator>
-  <link>https://spatialists.ch/posts/2025/10/23-maptiler-connect-digital-cartography-geosplats-and-open-source/</link>
-  <description><![CDATA[ #MapTiler’s evolution from its #Klokantech origins to a global #mapping powerhouse is remarkable. Its first company event called “MapTiler Connect”, showed why: Blending technical rigor with community spirit, it highlighted how open-source ideals, design, and cutting-edge #3D innovation can coexist in modern #cartography. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/10/23-maptiler-connect-digital-cartography-geosplats-and-open-source/</guid>
-  <pubDate>Thu, 23 Oct 2025 06:17:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/10/23-maptiler-connect-digital-cartography-geosplats-and-open-source/maptiler-connect.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
