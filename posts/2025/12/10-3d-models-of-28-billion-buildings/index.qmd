@@ -27,10 +27,10 @@ The GlobalBuildingAtlas data comes in two types: a digital surface model (DSM)
 at 3 meters resolution. Secondly, almost all buildings (97%) are also provided 
 as vector data at LOD1[^lod1].
 
-The TUM team used a ML^[Machine learning]-based approach to extract building 
+The TUM team used a ML^[Machine-learning.]-based approach to extract building 
 footprint polygons and building heights^[Apparently, using a method called 
-"monocular height estimation model", that is the model estimateds building 
-height from a single image, not stereometrically] from 
+"monocular height estimation model", that is the model estimates building 
+height from a single image, not stereometrically.] from 
 [PlanetScope satellite data](https://earth.esa.int/eogateway/missions/planetscope)[^planetscope]. 
 Data fusion with existing openly available building polygons[^sources] was also 
 applied. RMSE[^rmse] of building height is reported to range from 1.5 meters 
