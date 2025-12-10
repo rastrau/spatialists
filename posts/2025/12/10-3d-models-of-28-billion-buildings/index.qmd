@@ -1,0 +1,62 @@
+---
+title: "3D models of 2.8 billion buildings"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-12-10 23:42"
+image: "essd-17-6647-2025-f03-web-cropped.jpg"
+description: "A research team from the Technical University of Munich (#TUM) led by Prof. Xiao Xiang Zhu has released the #GlobalBuildingAtlas, a 3D dataset comprising 2.75 billion #buildingmodels worldwide at 3‑meter resolution. Built from #PlanetScope satellite imagery and #ML-based extraction, it represents the most detailed and comprehensive global building dataset produced so far."
+---
+
+A research team from TUM^[Technical University Munich, Germany] led by Prof. 
+Xiao Xiang Zhu has published a 3D dataset comprising 2.8 billion buildings 
+world-wide. From [the announcement](https://www.tum.de/en/news-and-events/all-news/press-releases/details/all-the-worlds-buildings-available-as-3d-models-for-the-first-time):
+
+> How many buildings are there on Earth – and what do they look like in 3D? The 
+research team led by Prof. Xiaoxiang Zhu, holder of the Chair of Data Science 
+in Earth Observation at TUM, has answered these fundamental questions in this 
+project funded by an ERC Starting Grant. 
+>
+> The GlobalBuildingAtlas comprises 2.75 billion building models, covering all 
+structures captured in satellite imagery from the year 2019. This makes it the 
+most comprehensive collection of its kind. For comparison: the largest previous 
+global dataset contained about 1.7 billion buildings. The 3D models with a 
+resolution of 3×3 meters are 30 times finer than data from comparable databases.
+
+The GlobalBuildingAtlas data comes in two types: a digital surface model (DSM) 
+at 3 meters resolution. Secondly, almost all buildings (97%) are also provided 
+as vector data at LOD1[^lod1].
+
+The TUM team used a ML^[Machine learning]-based approach to extract building 
+footprint polygons and building heights^[Apparently, using a method called 
+"monocular height estimation model", that is the model estimateds building 
+height from a single image, not stereometrically] from 
+[PlanetScope satellite data](https://earth.esa.int/eogateway/missions/planetscope)[^planetscope]. 
+Data fusion with existing openly available building polygons[^sources] was also 
+applied. RMSE[^rmse] of building height is reported to range from 1.5 meters 
+to 8.9 meters. 
+
+![Overview of GlobalBuildingAtlas results and data. The top row shows dataset statistics by continent. (source: [Xiao Xiang Zhu et al., 2025](https://essd.copernicus.org/articles/17/6647/2025/))](essd-17-6647-2025-f03-web.jpg "Overview of GlobalBuildingAtlas results and data. The top row shows dataset statistics by continent. (source: Xiao Xiang Zhu et al., 2025)")
+
+The code used to produce the dataset [is available](https://github.com/zhu-xlab/GlobalBuildingAtlas) 
+under an *MIT License with Commons Clause Restriction*. The data 
+[can be obtained from TUM](https://doi.org/10.14459/2025mp1782307). A 
+[Data description paper](https://essd.copernicus.org/articles/17/6647/2025/) in 
+*Earth System Science Data* offers more detail about the data and the 
+underlying methodoloy.
+
+![GlobalBuildingAtlas processing pipeline (source: [Xiao Xiang Zhu et al., 2025](https://essd.copernicus.org/articles/17/6647/2025/))](essd-17-6647-2025-f02-web.png "GlobalBuildingAtlas processing pipeline (source: Xiao Xiang Zhu et al., 2025)")
+
+[^lod1]: [Level-of-detail 1](https://3d.bk.tudelft.nl/lod/), meaning the model 
+captures the shape of the building footprint and the building height, but not, 
+for example, roof shape.
+[^planetscope]: [PlanetScope](https://earth.esa.int/eogateway/missions/planetscope) 
+is an ESA (European Space Agency) constellation of over 400 small satellites 
+("cube sats") with three or four bands (optical to near-infrared) and roughly 
+3 meters spatial resolution orbiting roughly 500 km above the Earth surface 
+offering a daily revisit time at nadir.
+[^sources]: The 
+[Data description paper](https://essd.copernicus.org/articles/17/6647/2025/) 
+lists OpenStreetMap (OSM), Google Open Buildings, Microsoft Building 
+Footprints, and CLSM as data sources.
+[^rmse]: Root mean square error.
