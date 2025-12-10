@@ -1,0 +1,45 @@
+---
+title: "Elementary geodata for a digital Switzerland"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-12-10 21:52"
+image: "luke-stackpoole-ZcMjzDGSFw4-unsplash.jpg"
+description: 'swisstopo has published the concept "Elementary geodata for a digital Switzerland" developed by a working group comprising various stakeholders. The document outlines principles and suggests priority themes for essential geodata, aiming to ensure cohesive, up-to-date, and centrally accessible official geoinformation.'
+---
+
+The concept "Elementary geodata for a digital Switzerland" ("[Elementare 
+Geodaten für eine digitale 
+Schweiz](https://www.swisstopo.admin.ch/dam/de/sd-web/XND7rodsPEYC/Konzept%20Georegister%20V1.1-de%20final.pdf)" 
+(pdf) in German, "[Géodonnées élémentaires pour une Suisse 
+numérique](https://www.swisstopo.admin.ch/dam/fr/sd-web/XND7rodsPEYC/Konzept%20Georegister%20V1.1-fr%20final.pdf)" 
+(pdf) in French)[^transp] has been published on the swisstopo website.
+
+The concept is a product of a project named "Georegisters". From the swisstopo 
+website (auto-translated):
+
+> Over the past 15 years, the federal government, cantons, and municipalities 
+have developed information systems in the field of geoinformation on the basis 
+of the Geoinformation Act (...) and other specialist legislation. 
+>
+> However, users of this information do not always have access to official geodata 
+that is accessible via a central access point and represents the most up-to-date 
+and homogeneous status possible throughout Switzerland. (...) 
+>
+> In order to meet the requirements of a digital society and administration, 
+georegisters are being created and used in a binding manner in digital 
+processes. The introduction of georegisters will modernize cooperation between 
+the geoinformation services of the administration, in particular between the 
+federal government, cantons, and municipalities. End users will thus have 
+central access to homogeneous, comprehensive, and complete geodata that 
+represents the current status. This will strengthen the use of official 
+geoinformation in digital administrative processes.
+
+Among other things, the concept suggests seven central properties for elementary 
+geodata and a prioritization of data themes. 
+
+It was developed by a working group comprising various stakeholders and has 
+undergone a technical consultation, followed by further refinement based on the 
+collected feedback.
+
+[^transp]: Transparency note: I am one of the authors.
