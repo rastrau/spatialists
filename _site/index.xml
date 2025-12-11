@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Wed, 10 Dec 2025 23:42:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 11 Dec 2025 22:14:00 GMT</lastBuildDate>
+<item>
+  <title>Swiss government open-source catalog</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/12/11-swiss-government-open-source-catalog/</link>
+  <description><![CDATA[ Under Article 9 of Switzerland’s “Federal Act on the Use of Electronic Means to Carry Out Official Tasks” (#EMBAG/#LMETA), federal authorities must publish the source code of software they develop or commission, marking a step toward greater digital #sovereignty. The resulting Swiss Federal #OSS Catalog now lists around 60 #opensource projects with #swisstopo’s #STAC API and the mapping application #KADASAlbireo among them. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/12/11-swiss-government-open-source-catalog/</guid>
+  <pubDate>Thu, 11 Dec 2025 22:14:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/12/11-swiss-government-open-source-catalog/oss-catalog.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>3D models of 2.8 billion buildings</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/10/26-launch-of-the-public-data-lab/</guid>
   <pubDate>Sun, 26 Oct 2025 14:22:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/10/26-launch-of-the-public-data-lab/energy-scarcity-cropped.png" medium="image" type="image/png" height="95" width="144"/>
-</item>
-<item>
-  <title>From fields to surface-specific points, geomorphons, and networks</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/10/25-from-fields-to-surface-specific-points-geomorphons-and-networks/</link>
-  <description><![CDATA[ David O’Sullivan’s latest post in his “GIS, a Transformational Approach” series explores how geospatial data transitions between continuous #fields and discrete forms like #points, #lines, and #areas. Using #geomorphometry concepts such as surface-specific points, geomorphons, and surface networks as an example, the data transformations are illustrated using #R-based workflows. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/10/25-from-fields-to-surface-specific-points-geomorphons-and-networks/</guid>
-  <pubDate>Sat, 25 Oct 2025 19:24:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/10/25-from-fields-to-surface-specific-points-geomorphons-and-networks/jonakoh-_-NW_yGSTNOe4-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
