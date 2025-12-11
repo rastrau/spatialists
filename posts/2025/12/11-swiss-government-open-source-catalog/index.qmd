@@ -1,0 +1,71 @@
+---
+title: "Swiss government open-source catalog"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-12-11 22:14"
+image: "oss-catalog.png"
+description: 'Under Article 9 of Switzerland’s "Federal Act on the Use of Electronic Means to Carry Out Official Tasks" (#EMBAG/#LMETA), federal authorities must publish the source code of software they develop or commission, marking a step toward greater digital #sovereignty. The resulting Swiss Federal #OSS Catalog now lists around 60 #opensource projects with #swisstopo''s #STAC API and the mapping application #KADASAlbireo among them.'
+---
+
+Article 9 of the *Federal Act on the Use of Electronic Means to Carry Out 
+Official Tasks*[^abbr] requires Swiss federal authorities to publish the source 
+code of software they develop or commission for the performance of their work.[^art9] 
+
+The Federal Chancellery hosts the [Swiss Federal OSS](https://www.opensource.admin.ch/)[^oss][ Catalog](https://www.opensource.admin.ch/). It comprises 
+"the software developed by the federal authorities and published as open source 
+since 1 January 2024" (that is, the date of the enactment of the EMOTA).
+
+As of writing, the OSS Catalog contains links to 60 OSS repositories. Note 
+that, per the Federal Chancellery, "[e]ach authority is responsible for 
+publishing its own source code", so this collection may reflect an initial 
+effort and may (very well) not be complete.  
+
+![Open-source mapping application KADAS Albireo](kadas-albireo.png "Open-source mapping application KADAS Albireo")
+
+Unfortunately, the catalog currently only allows search by the name of the 
+organizational unit and the software, which limits the usefulness of the search. 
+
+Quite a number of repositories are part of "swiyu" (a digital identity 
+solution) and of a collection of "jEAP" (Java Enterprise Application Platform) 
+tools. In order to find geo-related OSS, look for "Federal Office of 
+Topography", the Swiss NMA[^nma] better known as "swisstopo". Currently, this 
+search only yields the 
+"[`STAC API`](https://www.opensource.admin.ch/softwares/37a4b856-cf16-436f-84a6-c7379e7ad0b3/)" 
+of swisstopo. Perusing the OSS catalog, I additionally found 
+"[`KADAS Albireo`](https://www.opensource.admin.ch/softwares/6b6b8923-2d4a-404b-bed3-ccb69daeea11/)", 
+a QGIS-based [mapping application](https://www.swisstopo.admin.ch/en/map-display-system-of-the-armed-forces) for the 
+[Swiss Armed Forces](https://ld.admin.ch/office/IV.1.4). 
+
+A start towards digital sovereignty. Hopefully, the list grows longer.
+
+
+
+
+[^abbr]: EMOTA. "[EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de)" in 
+German and "[LMETA](https://www.fedlex.admin.ch/eli/cc/2023/682/fr)" in French.
+
+[^art9]: Article 9 states (auto-translated): 
+(1) The federal authorities subject to this act shall disclose the source code 
+of software that they develop or have developed for the performance of their 
+tasks, unless the rights of third parties or security-related reasons would 
+preclude or restrict this.
+(2) They shall allow any person to use, further develop, and distribute the 
+software and shall not charge any license fees.
+(3) The rights under paragraph 2 shall be granted in the form of private law 
+licenses, unless other enactments stipulate otherwise. Disputes between 
+licensors and licensees shall be settled under civil law.
+(4) Where possible and appropriate, internationally established license texts 
+shall be used. Liability claims by licensees shall be excluded to the extent 
+legally possible.
+(5) The federal authorities subject to this act may provide supplementary 
+services, in particular for integration, maintenance, ensuring information 
+security, and support, provided that the services serve to fulfill official 
+tasks and can be provided at reasonable expense.
+(6) They shall charge a fee that covers the costs of the supplementary services. 
+The competent department may allow exceptions for certain services if this does 
+not compete with the private sector.
+
+[^oss]: Open-source software.
+
+[^nma]: National Mapping Agency.
