@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Thu, 11 Dec 2025 22:14:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 13 Dec 2025 20:15:00 GMT</lastBuildDate>
+<item>
+  <title>So many to choose from</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/12/13-so-many-to-choose-from/</link>
+  <description><![CDATA[ In his latest post, Mark Litwintschik compares a range of global administrative #boundary datasets, from #OpenStreetMap to #NaturalEarth, assessing geometric #accuracy, data #completeness, and information content. The analysis, powered by #DuckDB and #QGIS, reveals surprising differences in how nations’ borders are represented across data sources. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/12/13-so-many-to-choose-from/</guid>
+  <pubDate>Sat, 13 Dec 2025 20:15:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/12/13-so-many-to-choose-from/british-library-qYMlpeQypGU-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Swiss government open-source catalog</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/10/28-publication-of-the-spatiotemporal-asset-catalog-community-standards/</guid>
   <pubDate>Tue, 28 Oct 2025 17:50:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/10/28-publication-of-the-spatiotemporal-asset-catalog-community-standards/stac.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Launch of the Public Data Lab</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/10/26-launch-of-the-public-data-lab/</link>
-  <description><![CDATA[ The #DIZH Public Data Lab (#PDL) has officially launched in Zurich, bringing together experts from academia, public administration, and the #opendata community to explore how #data can illuminate social, environmental, and economic change. Through research, design, and public engagement, the PDL aims to create meaningful indicators that help shape informed decisions for a sustainable and equitable future. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/10/26-launch-of-the-public-data-lab/</guid>
-  <pubDate>Sun, 26 Oct 2025 14:22:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/10/26-launch-of-the-public-data-lab/energy-scarcity-cropped.png" medium="image" type="image/png" height="95" width="144"/>
 </item>
 </channel>
 </rss>
