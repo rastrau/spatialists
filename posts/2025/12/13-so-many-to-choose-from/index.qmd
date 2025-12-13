@@ -1,0 +1,30 @@
+---
+title: "So many to choose from"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-12-13 20:15"
+image: "british-library-qYMlpeQypGU-unsplash.jpg"
+description: "In his latest post, Mark Litwintschik compares a range of global administrative #boundary datasets, from #OpenStreetMap to #NaturalEarth, assessing geometric #accuracy, data #completeness, and information content. The analysis, powered by #DuckDB and #QGIS, reveals surprising differences in how nations’ borders are represented across data sources."
+---
+
+In his latest [blog post](https://tech.marksblogg.com/administrative-boundaries.html), [Mark Litwintschik](https://uk.linkedin.com/in/marklitwintschik/) analyzes 12 (at the time of writing) national boundary datasets (or `admin-0` datasets as this kind of data is also known). The data includes, for example: OSM, OMF, GADM, GeoNames, Natural Earth, and USGS.
+
+Mark's comparison looks at:
+
+- geometry – qualitatively, using map excerpts in Bahrain, Estonia, and Monaco
+- geometry – quantitatively, by looking at the size of the geometry in WKT[^wkt] form
+- number of administrative units – specifically, the number of distinct [ISO 3166-1 alpha-3 country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)[^alpha3] in the data is analyzed
+
+Below is Mark's comparison table (as of today). Mark's post also shows data excerpts of the various data sources so that one can see the information contained for `admin-0` units as well as the code and SQL (in DuckDB) used to analyze the data.
+
+![Comparison of boundary datasets (source: [Mark Litwintschik](https://tech.marksblogg.com/administrative-boundaries.html))](boundaries-comparison-table.png "Comparison of boundary datasets (source: Mark Litwintschik)")
+
+![Comparison of boundary datasets along Bahrain's Northern coast (source: [Mark Litwintschik](https://tech.marksblogg.com/administrative-boundaries.html))](boundaries-map.jpg "Comparison of boundary datasets along Bahrain's Northern coast (source: Mark Litwintschik)")
+
+There is a larger number of different sources for this kind of data than I had thought (although I knew some of the sources). And, maybe not so suprisingly, the various datasets differ considerably. 
+
+In addition to the [blog post](https://tech.marksblogg.com/administrative-boundaries.html), there is an [interesting ongoing discussion on LinkedIn](https://www.linkedin.com/posts/marklitwintschik_which-country-boundaries-dataset-has-the-activity-7399491668053311488-Sv7f).
+
+[^wkt]: [Well-Known Text](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry), a markup language for representing vector geometries.
+[^alpha3]: For example, `CHE` for Switzerland, `FRA` for France, `GBR` for the United Kingdom.
