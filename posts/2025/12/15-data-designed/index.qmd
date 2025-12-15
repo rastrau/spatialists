@@ -1,0 +1,21 @@
+---
+title: "Data, designed"
+author:
+  - name: David Oesch
+    url: https://www.linkedin.com/in/davidoesch
+date: "2025-12-15 21:25"
+image: "pawel-czerwinski-W10XfpqLu4Y-unsplash.jpg"
+description: '#Data is more than an asset: it is a designed experience, a product. Jed Sundwall''s article "Great #DataProducts" reminds us that #OpenData matters only when paired with intent, usability, and care in creation. A shout out for #DataDesign and #ProductThinking for #geospatial data.'
+---
+
+There is a quiet shift underway in how we should understand data in general: Jed Sundwall's^[In the past, Jed Sundwall led the [Amazon Web Services (AWS) Open Data Program](https://aws.amazon.com/opendata/). Currently, he serves as Executive Director of [Radiant Earth](https://radiant.earth/about/).] [Great Data Products blog post](https://radiant.earth/blog/2025/11/great-data-products/) captures what many practitioners sense but rarely articulate: That definition is as crucial as access. Making data open is not enough. Making it usable is the real act of design. And we can even take this even further:
+
+> Open data alone does not create impact. What creates impact is doing and doing it with a strong, customer-centric mindset.
+
+[Jed's essay](https://radiant.earth/blog/2025/11/great-data-products/) urges us to move from abstract notions of "data value" toward a vocabulary of _products_: intentional, documented, maintained, and situated within real contexts of use^[Bernard Marr’s [Data Strategy](http://repo.darmajaya.ac.id/4024/1/Data%20Strategy_%20How%20to%20Profit%20from%20a%20World%20of%20Big%20Data%2C%20Analytics%20and%20the%20Internet%20of%20Things%20%28%20PDFDrive%20%29.pdf) (pdf) discusses in depth the shift from treating data as a passive resource to treating it as an active component of product design and value creation]. This is not a semantic adjustment but a philosophical one. It places responsibility back on the makers: Who owns the data? Who is it for? How does it endure?
+
+In practice, the implications are profound. We speak often about "extracting value" from data, but value is not something mined; it is something _crafted_. It emerges when design meets purpose, when usability becomes the interface between complexity and comprehension.
+
+This perspective feels especially relevant for open data. An open license is an invitation, not a guarantee.^[An argument [Rob Kitchin made](https://methods.sagepub.com/book/mono/the-data-revolution/toc#_) a while ago is that while openness removes legal and technical barriers, it doesn’t ensure usability, capacity, or contextual understanding, all of which are needed for impact.] Without thoughtful product design and sustained dialogue with users, openness risks becoming ornamental, a gesture rather than a utility.
+
+The message as I understand it, distilled: Stop treating data as an inert asset. Treat it as a designed product. Focus on users and on delivery. The value will follow.
