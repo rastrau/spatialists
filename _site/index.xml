@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Sat, 13 Dec 2025 20:15:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 15 Dec 2025 21:25:00 GMT</lastBuildDate>
+<item>
+  <title>Data, designed</title>
+  <dc:creator>David Oesch</dc:creator>
+  <link>https://spatialists.ch/posts/2025/12/15-data-designed/</link>
+  <description><![CDATA[ #Data is more than an asset: it is a designed experience, a product. Jed Sundwall’s article “Great #DataProducts” reminds us that #OpenData matters only when paired with intent, usability, and care in creation. A shout out for #DataDesign and #ProductThinking for #geospatial data. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/12/15-data-designed/</guid>
+  <pubDate>Mon, 15 Dec 2025 21:25:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/12/15-data-designed/pawel-czerwinski-W10XfpqLu4Y-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>So many to choose from</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/10/28-geo-cloud-converter/</guid>
   <pubDate>Tue, 28 Oct 2025 22:18:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/10/28-geo-cloud-converter/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Publication of the SpatioTemporal Asset Catalog Community Standards</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/10/28-publication-of-the-spatiotemporal-asset-catalog-community-standards/</link>
-  <description><![CDATA[ The Open Geospatial Consortium (#OGC) has officially published the SpatioTemporal Asset Catalog (#STAC) Community Standards, marking a key milestone in data #interoperability. Built for flexibility and scalability, STAC provides a standardized framework for organizing and accessing a range of geospatial data assets. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/10/28-publication-of-the-spatiotemporal-asset-catalog-community-standards/</guid>
-  <pubDate>Tue, 28 Oct 2025 17:50:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/10/28-publication-of-the-spatiotemporal-asset-catalog-community-standards/stac.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
