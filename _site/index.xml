@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Tue, 16 Dec 2025 18:01:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 16 Dec 2025 22:06:00 GMT</lastBuildDate>
+<item>
+  <title>Deep dive on pruning</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/12/16-deep-dive-on-pruning/</link>
+  <description><![CDATA[ Dewey Dunnington’s latest blog post dives deep into how pruning, the selective reading of relevant data, makes #GeoParquet blazing fast in both local and #cloudnative contexts. Featuring hands-on comparisons across #SedonaDB, #DuckDB, #GeoPandas, #GDAL, and #Sedona #Spark, it’s a must-read for anyone exploring efficient cloud-native geospatial workflows. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/12/16-deep-dive-on-pruning/</guid>
+  <pubDate>Tue, 16 Dec 2025 22:06:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/12/16-deep-dive-on-pruning/bounding-boxes.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Independent map sellers</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/10/30-stacd-stac-and-dags/</guid>
   <pubDate>Thu, 30 Oct 2025 22:32:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/10/30-stacd-stac-and-dags/kier-in-sight-archives-Sbxf5Dbyerk-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Future of Interlis</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/10/29-future-of-interlis/</link>
-  <description><![CDATA[ The #Interlis Discourse Forum currently hosts a discussion among experts reflecting on strengths and weaknesses and the future of the #datamodeling and #dataexchange #standard. Meanwhile, materials for the upcoming Interlis User Group Meeting were published today, continuing the community’s dialogue on Interlis development and practice. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/10/29-future-of-interlis/</guid>
-  <pubDate>Wed, 29 Oct 2025 19:30:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/10/29-future-of-interlis/interlis-logo.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
