@@ -1,0 +1,39 @@
+---
+title: "Deep dive on pruning"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-12-16 22:06"
+image: "bounding-boxes.png"
+description: "Dewey Dunnington’s latest blog post dives deep into how pruning, the selective reading of relevant data, makes #GeoParquet blazing fast in both local and #cloudnative contexts. Featuring hands-on comparisons across #SedonaDB, #DuckDB, #GeoPandas, #GDAL, and #Sedona #Spark, it’s a must-read for anyone exploring efficient cloud-native geospatial workflows."
+---
+
+Dewey Dunnington has an [outstanding blog post](https://dewey.dunnington.ca/post/2025/lazy-geoparquet-reading-in-sedonadb-duckdb-geopandas-and-gdal/) for those who are interested in the technical side of the cloud-native data paradigm. The post looks into how pruning[^pruning] works with GeoParquet 1.0 and 1.1. Pruning is what makes cloud-native data especially fast to view and query –  over the internet (using so-called HTTP range requests), but also when used locally. 
+
+Dewey's [blog post](https://dewey.dunnington.ca/post/2025/lazy-geoparquet-reading-in-sedonadb-duckdb-geopandas-and-gdal/) compares different approaches to efficiently querying GeoParquet files, using: 
+
+- `SedonaDB`[^sedonadb]
+- `Sedona Spark`[^sedonaspark]
+- `DuckDB`[^duckdb]
+- `GeoPandas`[^geopandas] and 
+- `GDAL`[^gdal]
+
+The post also  provides the Python code – with interspersed SQL, of course - for each approach. 
+
+The support of the two GeoParquet versions and also the ease-of-use varies slightly between what Dewey calls the "don’t worry, we take care of the details" solutions and solutions "that need a little help". 
+
+Highly recommended for anybody interested in cloud-native data[^interest], very interesting details in this post!
+
+[^pruning]: In essence, when querying data, pruning refers to skipping or *not* transferring or reading data that does not affect a query’s result. Cloud-native data excels at enabling pruning.
+
+[^sedonadb]: [`SedonaDB`](https://sedona.apache.org/sedonadb/latest/) is an open-source single-node analytical database engine with geospatial as a first-class citizen.
+
+[^sedonaspark]: `Sedona Spark` is a distributed batch analytics and processing engine on Apache Spark clusters.
+
+[^duckdb]: [`DuckDB`](https://www.duckdb.org/why_duckdb) is an open-source column-oriented Relational Database Management System (RDBMS) designed for analytics use-cases.
+
+[^geopandas]: [`GeoPandas`](https://geopandas.org/en/stable/getting_started/introduction.html) is an extension to the popular data science library ´Pandas´ that enables support for geospatial data.
+
+[^gdal]: [`GDAL`](https://gdal.org/en/stable/), short for "Geospatial Data Abstraction Library" is a translator library for raster and vector geospatial data formats that underpins much of the modern geospatial data stack. 
+
+[^interest]: Let me quote Dewey's blog post to emphasize that many people *should* be interested: *"Basically, GeoParquet was designed to allow traditional GIS software to take advantage of a decade plus of heavy investment in the Parquet format and the software that reads and writes it. Two spot examples are that (1) software that reads traditional GIS formats is not particularly good at splitting the work up so that all the cores on your computer are put to good use and (2) most formats are not particularly good at being plonked onto a web server and have sections of them selectively queried (which can often save data producers from standing up a 24/7 web service)."*
