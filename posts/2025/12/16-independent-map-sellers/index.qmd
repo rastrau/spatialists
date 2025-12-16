@@ -1,0 +1,25 @@
+---
+title: "Independent map sellers"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-12-16 18:01"
+image: "buildings-of-amsterdam-letsmakeamap-cropped.jpg"
+description: 'In case you are interest in buying #map #art, "Independent Map Sellers" is a nice curated shopping guide offered by the Independent Map Artists. The guide features the work of more than 50 independent cartographers whose work can be bought.'
+---
+
+In case you are interest in buying map art, 
+*[Independent Map Sellers](https://mapartists.org/)* is a nice curated shopping 
+guide offered by the *Independent Map Artists*. The guide features the work of 
+more than 50 independent cartographers whose work can be bought. Articles 
+include prints, 3D maps, apparel, and more.
+
+Some examples:
+
+![The Swiss Trains Map by [Kumo](https://www.kumocorp.ch/boutique/p/swiss-trains-map-poster)](kumo-swiss-trains-map.jpg "The Swiss Trains Map by Kumo")
+
+![Map of the Isle of Skye by [Mapelio](https://mapelio.com/products/isle-of-skye-fine-art-contour-map)](mapelio-isle-of-skye.png "Map of the Isle of Skye by Mapelio")
+
+![Map of Lake Geneva by [Boilisé](https://www.boilise.com/en/products/lac-leman)](boilise-lake-geneva.jpg "Map of Lake Geneva by Boilisé")
+
+![Buildings of Amsterdam map by [Let's make a map](https://letsmakeamap.gumroad.com/)](buildings-of-amsterdam-letsmakeamap.jpg "Buildings of Amsterdam map by Let's make a map")
