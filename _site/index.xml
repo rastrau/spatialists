@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Mon, 15 Dec 2025 21:25:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 16 Dec 2025 18:01:00 GMT</lastBuildDate>
+<item>
+  <title>Independent map sellers</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/12/16-independent-map-sellers/</link>
+  <description><![CDATA[ In case you are interest in buying #map #art, “Independent Map Sellers” is a nice curated shopping guide offered by the Independent Map Artists. The guide features the work of more than 50 independent cartographers whose work can be bought. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/12/16-independent-map-sellers/</guid>
+  <pubDate>Tue, 16 Dec 2025 18:01:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/12/16-independent-map-sellers/buildings-of-amsterdam-letsmakeamap-cropped.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Data, designed</title>
   <dc:creator>David Oesch</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/10/29-future-of-interlis/</guid>
   <pubDate>Wed, 29 Oct 2025 19:30:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/10/29-future-of-interlis/interlis-logo.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Geo Cloud Converter</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/10/28-geo-cloud-converter/</link>
-  <description><![CDATA[ Maphub.co launches #GeoCloudConverter, a browser-based #WASM tool that transforms common geospatial file types — #GeoJSON, #Shapefile, #KML, #GPX, CSV, #GeoPackage, or #GeoTIFF – into modern, #cloudnative formats like #GeoParquet, #FlatGeobuf, #PMTiles, or Cloud-Optimized GeoTIFF (#COG). The tool performs all processing locally in your browser for quick, private conversions up to 1 GB. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/10/28-geo-cloud-converter/</guid>
-  <pubDate>Tue, 28 Oct 2025 22:18:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/10/28-geo-cloud-converter/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
