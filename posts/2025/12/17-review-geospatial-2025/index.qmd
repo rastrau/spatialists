@@ -1,0 +1,38 @@
+---
+title: "Review: Geospatial 2025"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2025-12-17 23:11"
+image: "riswan-ratta-aBIqy9U41x8-unsplash.jpg"
+description: 'Linda Stevens has published "GIS and Geospatial 2025: A Year in Review", summarizing the highlights and lowlights that shaped the past year in our industry – from the rise of geospatial #AI to pricing pressures. The piece offers a timely perspective on where the sector has progressed and where it continues to struggle as 2026 approaches.'
+---
+
+Linda Stevens has compiled an article titled "[GIS and Geospatial 2025: A Year in Review](https://reimagininggeospatial.substack.com/p/gis-and-geospatial-2025-a-year-in)", listing highlights and lowlights of our industry throughout this year. 
+
+The [list](https://reimagininggeospatial.substack.com/p/gis-and-geospatial-2025-a-year-in) includes these highlights:
+
+- Mainstreaming of geospatial AI and automation
+- Huge growth in open data and open tools
+- Cloud and “geo-as-infrastructure” maturity
+- More visible impact on climate and crises
+- Professionalization and specialization of the workforce
+
+... and these lowlights:
+
+- Platform enshittification[^enshittification] and vendor lock‑in pressure
+- GIS Became more Expensive
+- Enterprise is King
+- Ethics, surveillance, and geopolitical tension
+- Data inequality and digital divides
+- Talent bottlenecks and burnout risk
+
+Of course, one's mileage may very well vary – spatially, for example. I believe, for example, that cloud-native is an exciting developing paradigm. But from where I stand, I wouldn't agree that:
+
+> Cloud‑native formats, tiling schemes, and vector/raster services solidified into de facto standards.
+
+... if "de facto standard" means that it is common to serve up a collection of COGs^[Cloud-optimized GeoTIFFs], COPCs^[Cloud-optimized point clouds], GeoParquet files and similar in place of more traditional web services. For one, I experience the tooling around cloud-native data still very much as "under development".
+
+Still: Interesting list to reminisce before 2026 starts.
+
+[^enshittification]: "Enshittification" is a term coined by writer [Cory Doctorow](https://en.wikipedia.org/wiki/Cory_Doctorow). In my opinion, it is used relatively loosely here. As I understand it, Doctorow coined "enshittification" for the mechanisms prevalent specifically in *two-sided* online platforms and services. Regarding "two-sided": think, for example, web search which serves two sides of the market with – often – conflicting interests, namely the (end-)users and (enshittification says: over time, more and more) the advertising customers. In my opinion, the two-sidedness is at the core of the mechanisms of enshittification ([Wikipedia](https://en.wikipedia.org/wiki/Enshittification) seems to agree), but I struggle to see that GIS is a strongly two-sided market today.
