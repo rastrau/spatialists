@@ -18,7 +18,7 @@ Dewey's [blog post](https://dewey.dunnington.ca/post/2025/lazy-geoparquet-readin
 - `GeoPandas`[^geopandas] and 
 - `GDAL`[^gdal]
 
-The post also  provides the Python code – with interspersed SQL, of course - for each approach. 
+The post also  provides the Python code – with interspersed SQL, of course – for each approach. 
 
 The support of the two GeoParquet versions and also the ease-of-use varies slightly between what Dewey calls the "don’t worry, we take care of the details" solutions and solutions "that need a little help". 
 
@@ -32,7 +32,7 @@ Highly recommended for anybody interested in cloud-native data[^interest], very 
 
 [^duckdb]: [`DuckDB`](https://www.duckdb.org/why_duckdb) is an open-source column-oriented Relational Database Management System (RDBMS) designed for analytics use-cases.
 
-[^geopandas]: [`GeoPandas`](https://geopandas.org/en/stable/getting_started/introduction.html) is an extension to the popular data science library ´Pandas´ that enables support for geospatial data.
+[^geopandas]: [`GeoPandas`](https://geopandas.org/en/stable/getting_started/introduction.html) is an extension to the popular data science library `Pandas` that enables support for geospatial data.
 
 [^gdal]: [`GDAL`](https://gdal.org/en/stable/), short for "Geospatial Data Abstraction Library" is a translator library for raster and vector geospatial data formats that underpins much of the modern geospatial data stack. 
 
