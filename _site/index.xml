@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Tue, 16 Dec 2025 22:06:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 17 Dec 2025 23:11:00 GMT</lastBuildDate>
+<item>
+  <title>Review: Geospatial 2025</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2025/12/17-review-geospatial-2025/</link>
+  <description><![CDATA[ Linda Stevens has published “GIS and Geospatial 2025: A Year in Review”, summarizing the highlights and lowlights that shaped the past year in our industry – from the rise of geospatial #AI to pricing pressures. The piece offers a timely perspective on where the sector has progressed and where it continues to struggle as 2026 approaches. ]]></description>
+  <guid>https://spatialists.ch/posts/2025/12/17-review-geospatial-2025/</guid>
+  <pubDate>Wed, 17 Dec 2025 23:11:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2025/12/17-review-geospatial-2025/riswan-ratta-aBIqy9U41x8-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Deep dive on pruning</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/10/31-more-than-our-tools/</guid>
   <pubDate>Fri, 31 Oct 2025 22:17:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/10/31-more-than-our-tools/cesar-couto-sPSf-BSQ-Q4-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>STACD: STAC and DAGs</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/10/30-stacd-stac-and-dags/</link>
-  <description><![CDATA[ #STACD, a new extension for SpatioTemporal Asset Catalogs (#STAC) from Spatialnode, leverages #DAG-s to track data lineage, version algorithms, and efficiently re-compute only affected downstream STAC assets when an upstream asset is updated. A reference implementation using Apache #Airflow is provided. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/10/30-stacd-stac-and-dags/</guid>
-  <pubDate>Thu, 30 Oct 2025 22:32:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/10/30-stacd-stac-and-dags/kier-in-sight-archives-Sbxf5Dbyerk-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
