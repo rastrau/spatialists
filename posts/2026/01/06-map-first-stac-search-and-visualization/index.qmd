@@ -1,0 +1,35 @@
+---
+title: "Map-first STAC search and visualization"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-01-06 22:49"
+image: "stac-map-fsdi-ibex-cropped.jpg"
+description: "#DevelopmentSeed has released #stacmap, an #opensource, map-first visualizer for exploring and searching #STAC collections through a simple, browser-based interface. It already supports natural-language queries (albeit experimentally) and also stac-#geoparquet."
+---
+
+It's been under development for some months, but I have taken note only in 
+December: The folks at [Development Seed](https://developmentseed.org/) work on 
+[`stac-map`](https://github.com/developmentseed/stac-map), a "map-first, 
+single-page, statically-hosted STAC visualizer". 
+
+The tool enables users to visualize and search the content of a STAC[^stac]. 
+The search functionality supports natural language input and works on STAC 
+collections. It's designated "experimental" and potentially "rather slow", at 
+the time of writing. `stac-map` also supports 
+[`stac-geoparquet`](https://stac-utils.github.io/stac-geoparquet/latest/).
+
+`stac-map` is [open-source](https://github.com/developmentseed/stac-map) under 
+the MIT license. Development Seed offers a demo page at 
+[developmentseed.org/stac-map](https://developmentseed.org/stac-map/). For a 
+test, I plugged in the STAC of the FSDI[^fsdi], 
+[data.geo.admin.ch/api/stac/v1](https://data.geo.admin.ch/api/stac/v1/). You 
+can examine 
+[the result here](https://developmentseed.org/stac-map/?href=https://data.geo.admin.ch/api/stac/v1/).
+
+[![The FSDI STAC in `stac-map`](stac-map-fsdi-ibex.jpg "The FSDI STAC in stac-map")](https://developmentseed.org/stac-map/?href=https://data.geo.admin.ch/api/stac/v1/)
+
+
+[^stac]: SpatioTemporal Asset Catalog collections
+
+[^fsdi]: The [Federal Spatial Data Infrastructure](https://www.geo.admin.ch/en/federal-spatial-data-infrastructure-fsdi/) of Switzerland.
