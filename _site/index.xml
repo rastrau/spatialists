@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Wed, 17 Dec 2025 23:11:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 06 Jan 2026 22:49:00 GMT</lastBuildDate>
+<item>
+  <title>Map-first STAC search and visualization</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/01/06-map-first-stac-search-and-visualization/</link>
+  <description><![CDATA[ #DevelopmentSeed has released #stacmap, an #opensource, map-first visualizer for exploring and searching #STAC collections through a simple, browser-based interface. It already supports natural-language queries (albeit experimentally) and also stac-#geoparquet. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/01/06-map-first-stac-search-and-visualization/</guid>
+  <pubDate>Tue, 06 Jan 2026 22:49:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/01/06-map-first-stac-search-and-visualization/stac-map-fsdi-ibex-cropped.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Review: Geospatial 2025</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/11/04-viewinline/</guid>
   <pubDate>Tue, 04 Nov 2025 20:06:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/11/04-viewinline/viewline.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>More than our tools</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/10/31-more-than-our-tools/</link>
-  <description><![CDATA[ Daniel O’Donohue, host of the #MapScaping Podcast, reflects on how access to tools no longer defines expertise in his piece, “Cameras, GIS, and why tools don’t make you special anymore”. As #AI lowers technical barriers, he argues that what truly sets professionals apart is not tool mastery but vision, a stance, and the ability to interpret and critique. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/10/31-more-than-our-tools/</guid>
-  <pubDate>Fri, 31 Oct 2025 22:17:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/10/31-more-than-our-tools/cesar-couto-sPSf-BSQ-Q4-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
