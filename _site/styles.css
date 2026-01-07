@@ -60,8 +60,9 @@ div.description {
 }
 
 code, a>code {
-  background-color: rgb(230 230 230 / 10%) !important;
   color: #b278cd;
+  text-decoration: underline;
+  text-decoration-color: #b278cd;
 }
 
 div.ml-form-embedBody.ml-form-embedBodyDefault.row-form > div > h4 {
