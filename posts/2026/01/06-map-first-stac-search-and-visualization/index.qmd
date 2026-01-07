@@ -30,6 +30,6 @@ can examine
 [![The FSDI STAC in `stac-map`](stac-map-fsdi-ibex.jpg "The FSDI STAC in stac-map")](https://developmentseed.org/stac-map/?href=https://data.geo.admin.ch/api/stac/v1/)
 
 
-[^stac]: SpatioTemporal Asset Catalog collections
+[^stac]: SpatioTemporal Asset Catalog
 
 [^fsdi]: The [Federal Spatial Data Infrastructure](https://www.geo.admin.ch/en/federal-spatial-data-infrastructure-fsdi/) of Switzerland.
