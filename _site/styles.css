@@ -59,7 +59,7 @@ div.description {
   display: none !important;
 }
 
-code {
+code, a>code {
   background-color: rgb(230 230 230 / 10%) !important;
   color: #b278cd;
 }
