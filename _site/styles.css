@@ -59,10 +59,16 @@ div.description {
   display: none !important;
 }
 
-code, a>code {
+code {
+  color: #b278cd;
+  background-color: #0A1A26;
+}
+
+a>code {
   color: #b278cd;
   text-decoration: underline;
   text-decoration-color: #b278cd;
+  background-color: #0A1A26;
 }
 
 div.ml-form-embedBody.ml-form-embedBodyDefault.row-form > div > h4 {
