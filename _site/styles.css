@@ -61,7 +61,7 @@ div.description {
 
 code {
   color: #b278cd;
-  background-color: #0A1A26;
+  background-color: #0A1A26 !important;
 }
 
 a>code {
