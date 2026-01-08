@@ -1,0 +1,68 @@
+---
+title: "Direction for cadastral surveying"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-01-08 22:26"
+image: "vision-av.jpg"
+description: 'Swisstopo and partners have introduced a new "Vision for Cadastral Surveying" that extends the time horizon to 2040, adding a shared long-term framework regarding Swiss cadastral surveying. This vision emphasizes multidimensional, legally reliable georeference data (above and below ground, across past, present, and future objects) and positions cadastral surveying as the core provider of official geoinformation for land ownership.'
+---
+
+Swisstopo[^swisstopo] has published and put into force, as of beginning of this 
+year, a *Vision for Cadastral Surveying* (pdf, 
+[in German](https://www.cadastre-manual.admin.ch/dam/de/sd-web/dAHkTVPmNwfw/Vision%20Amtliche%20Vermessung%20-%20mit%20Unterschriften.pdf), 
+[in French](https://www.cadastre-manual.admin.ch/dam/fr/sd-web/dAHkTVPmNwfw/Vision%20Mensuration%20Officielle%20-%20avec%20signatures.pdf)) 
+and an accompanying press release 
+([in German](https://www.swisstopo.admin.ch/de/eine-neue-strategische-ausrichtung-fuer-die-amtliche-vermessung-in-der-schweiz), 
+[in French](https://www.swisstopo.admin.ch/fr/une-nouvelle-orientation-strategique-pour-la-mensuration-officielle-en-suisse)). 
+According to a structure diagram early in the document, the *Vision for 
+Cadastral Surveying*  is meant to comprise a *vision* (sensu stricto), a 
+*mission statement* as well as *guiding principles*. In later stages a 
+*strategy* as well as *measures* shall be added to these elements.[^terms]
+
+![Vision for cadastral surveying (source: swisstopo)](vision-amtliche-vermessung.jpg "Vision for cadastral surveying (source: swisstopo)")
+
+The vision is meant to be achieved by 2040 and has four parts (auto-translation):
+
+> With reliable, multidimensional georeference data, we create legal certainty 
+for spatially related decisions. 
+> 
+> We provide the land registry with the geometric data for securing land 
+ownership and other spatially defined rights.
+>
+> Our core competence is the collection and management of official 
+geoinformation for knowledge generation.
+>
+> Satisfied users and new technologies inspire and motivate us.
+
+With regards to which new directions cadastral surveying shall develop into, 
+the guiding principles mention, among others: 
+
+- data above *and below* ground
+- data about past, present, and future objects
+- coordination and harmonization
+
+The Vision has been elaborated with many contributors, among them, of course, 
+[swisstopo](https://www.swisstopo.admin.ch), the [Conference of the Cantonal 
+Geoinformation and Cadastral Offices](https://www.kgk-cgc.ch/)^[KGK-CGC], and 
+[Schweizerischer Städteverband](https://staedteverband.ch/) / [Union des Villes Suisses](https://uniondesvilles.ch/fr/bienvenue)^[SSV / UVS]. 
+
+Before this Vision, swisstopo had published a *Strategy for Cadastral Surveying 2024–2027* ([in German](https://www.cadastre-manual.admin.ch/de/strategie-der-amtlichen-vermessung), 
+[in French](https://www.cadastre-manual.admin.ch/fr/strategie-de-la-mensuration-officielle)). While the KGK-CGC^[Conference of the Cantonal Geoinformation and Cadastral Offices] 
+had published their *Vision 2030* for cadastral surveying 
+([in German](https://www.kgk-cgc.ch/application/files/8016/6809/1736/AV_2030_v1_0_DE.pdf), 
+[in French](https://www.kgk-cgc.ch/download_file/1023/1850)). The new Vision 
+doesn't communicate how (if) it relates to those documents. As far as I know, 
+the older documents had been developed largely independently from each other. 
+Thus, presumably the new Vision is meant as an overarching concept and (that 
+much is clear) to reach farther into the future[^av2030].
+
+[^swisstopo]: The Federal Office of Topography of Switzerland.
+[^terms]: The terminology here is a bit confusing to me. I'm more used to the 
+notion of the *vision*-*mission*-*values* triad, that can be regarded to 
+make up the core of a *strategy*.
+[^av2030]: The document *Vision 2030* by the KGK-CGC spelled out some (in my 
+opinion) interesting ideas that don't yet feature in the new document (but maybe 
+will be added at a later stage?), for example, the development towards 3D 
+cadastral data and how, in the future, cadastral surveying may incorporate 
+(quality-assured) third-party data.
