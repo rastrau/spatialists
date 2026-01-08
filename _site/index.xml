@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Tue, 06 Jan 2026 22:49:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 08 Jan 2026 22:26:00 GMT</lastBuildDate>
+<item>
+  <title>Direction for cadastral surveying</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/01/08-direction-for-cadastral-surveying/</link>
+  <description><![CDATA[ Swisstopo and partners have introduced a new “Vision for Cadastral Surveying” that extends the time horizon to 2040, adding a shared long-term framework regarding Swiss cadastral surveying. This vision emphasizes multidimensional, legally reliable georeference data (above and below ground, across past, present, and future objects) and positions cadastral surveying as the core provider of official geoinformation for land ownership. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/01/08-direction-for-cadastral-surveying/</guid>
+  <pubDate>Thu, 08 Jan 2026 22:26:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/01/08-direction-for-cadastral-surveying/vision-av.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Map-first STAC search and visualization</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/11/05-solar-power-production-forecasting/</guid>
   <pubDate>Wed, 05 Nov 2025 16:59:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/11/05-solar-power-production-forecasting/appa-fm5_vCUa-Bc-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>viewinline</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/11/04-viewinline/</link>
-  <description><![CDATA[ A new no-fuss way to visualize your vector data and rasters right in the #terminal: viewinline is a lightweight #Python utility by Keiko Nomura that renders #GeoTIFF-s, #GeoPackage-s, #GeoJSON-s, and #Shapefile-s instantly in #iterm2 (and other compatible terminals). ]]></description>
-  <guid>https://spatialists.ch/posts/2025/11/04-viewinline/</guid>
-  <pubDate>Tue, 04 Nov 2025 20:06:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/11/04-viewinline/viewline.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
