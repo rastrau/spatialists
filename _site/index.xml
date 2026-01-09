@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Thu, 08 Jan 2026 22:26:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 09 Jan 2026 18:50:00 GMT</lastBuildDate>
+<item>
+  <title>Small multiples of OSM geometries</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/01/09-small-multiples-of-osm-geometries/</link>
+  <description><![CDATA[ A bit of fun from the #OpenStreetMap community: Matt Whilden hosts the ingenious XofY #OSM Geometry Viewer. This open-source tool lets you explore and compare OSM geometries – from quirky lakes to oddly shaped museums – arranged as small multiples based on any #Overpass query you create. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/01/09-small-multiples-of-osm-geometries/</guid>
+  <pubDate>Fri, 09 Jan 2026 18:50:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/01/09-small-multiples-of-osm-geometries/jetsprint-lakes-of-the-world-cropped.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Direction for cadastral surveying</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/11/06-swisstopo-colloquium-from-satellite-pixels-to-forest-stress/</guid>
   <pubDate>Thu, 06 Nov 2025 21:04:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/11/06-swisstopo-colloquium-from-satellite-pixels-to-forest-stress/nikola-tomasic-gJUAzbD61nU-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Solar power production forecasting</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/11/05-solar-power-production-forecasting/</link>
-  <description><![CDATA[ The Swiss Federal Office of Energy and the Swiss Data Science Center have launched a #solarenergy forecast tool in the #Energy #Dashboard, offering both hourly forecasts and regional daily production statistics. The system combines multiple data sources — including data from #ML / #deeplearning analysis of aerial imagery for PV detection.​ ]]></description>
-  <guid>https://spatialists.ch/posts/2025/11/05-solar-power-production-forecasting/</guid>
-  <pubDate>Wed, 05 Nov 2025 16:59:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/11/05-solar-power-production-forecasting/appa-fm5_vCUa-Bc-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
