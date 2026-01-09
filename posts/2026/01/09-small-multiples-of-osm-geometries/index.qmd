@@ -1,0 +1,30 @@
+---
+title: "Small multiples of OSM geometries"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-01-09 18:50"
+image: "jetsprint-lakes-of-the-world-cropped.png"
+description: "A bit of fun from the #OpenStreetMap community: Matt Whilden hosts the ingenious XofY #OSM Geometry Viewer. This open-source tool lets you explore and compare OSM geometries – from quirky lakes to oddly shaped museums – arranged as small multiples based on any #Overpass query you create."
+---
+
+A bit of fun: [Matt Whilden](https://en.osm.town/@watmildon), president of the 
+OSM US Board of Directors, hosts the 
+[XofY OSM Geometry Viewer](https://watmildon.github.io/XofY/). The clue is in 
+the name: Using this tool, you can view, arranged as small multiples, the 
+geometries of OSM features of type X in area Y. Or in Matt's words:
+
+> Explore the geometry of sets of features in the OpenStreetMap database. Find a funky lake. Marvel at unusual museums. Add detail to boring geometry. Let me know if you find something fun. :-)
+
+You can enter your own queries in Overpass QL^[Query Language]. The 
+[tool](https://watmildon.github.io/XofY/) also offers example queries, see 
+below. The tool is [open-source](https://github.com/watmildon/XofY).
+
+![Waterslides of Arizona (source: XofY OSM Geometry Viewer)](waterslides-of-arizona.png "Waterslides of Arizona (source: XofY OSM Geometry Viewer)")
+
+![Jetsprint (sprint boat racing) lakes of the world (source: XofY OSM Geometry Viewer)](jetsprint-lakes-of-the-world.png "Jetsprint (sprint boat racing) lakes of the world (source: XofY OSM Geometry Viewer)")
+
+
+
+
+
