@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Fri, 09 Jan 2026 18:50:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 13 Jan 2026 22:30:00 GMT</lastBuildDate>
+<item>
+  <title>Spatial data science languages</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/01/13-spatial-data-science-languages/</link>
+  <description><![CDATA[ A recent #JOSIS publication by Pebesma et al. highlights common challenges and opportunities across #RStats, #Python, and #Julia in spatial #datascience. The paper makes interesting recommendations for fostering cross-language collaboration and advancing geospatial tooling for researchers, developers, and educators. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/01/13-spatial-data-science-languages/</guid>
+  <pubDate>Tue, 13 Jan 2026 22:30:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/01/13-spatial-data-science-languages/dependencies.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Small multiples of OSM geometries</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/11/08-a-discussion-of-geospatial-embeddings/</guid>
   <pubDate>Sat, 08 Nov 2025 16:49:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/11/08-a-discussion-of-geospatial-embeddings/gabriela-TBwz4F_o8aw-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>swisstopo colloquium: From satellite pixels to forest stress</title>
-  <dc:creator>David Oesch</dc:creator>
-  <link>https://spatialists.ch/posts/2025/11/06-swisstopo-colloquium-from-satellite-pixels-to-forest-stress/</link>
-  <description><![CDATA[ In an upcoming colloquium, #swisstopo offers a look at an operational #EarthObservation pipeline turning #Sentinel-2 data into near #realtime insight for #drought #monitoring in Switzerland. #eo #remotesensing ]]></description>
-  <guid>https://spatialists.ch/posts/2025/11/06-swisstopo-colloquium-from-satellite-pixels-to-forest-stress/</guid>
-  <pubDate>Thu, 06 Nov 2025 21:04:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/11/06-swisstopo-colloquium-from-satellite-pixels-to-forest-stress/nikola-tomasic-gJUAzbD61nU-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
