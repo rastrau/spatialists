@@ -1,0 +1,71 @@
+---
+title: "Spatial data science languages"
+author:
+ - name: Ralph Straumann
+   url: https://ralphstraumann.ch
+date: "2026-01-13 22:30"
+image: "dependencies.png"
+description: "A recent #JOSIS publication by Pebesma et al. highlights common challenges and opportunities across #RStats, #Python, and #Julia in spatial #datascience. The paper makes interesting recommendations for fostering cross-language collaboration and advancing geospatial tooling for researchers, developers, and educators."
+---
+
+From a distinguished team of authors comes a JOSIS[^josis] publication: 
+*"[Spatial data science languages: commonalities and 
+needs](https://josis.org/index.php/josis/article/view/462)"*. In it, 
+the group comprising Edzer Pebesma[^edzer], Martin Fleischmann[^martin] and several 
+more researchers make the argument that common challenges should be considered 
+across language communities for spatial data science (SDS). The paper focuses on R, 
+Python and Julia – especially popular SDS languages.
+
+The identified common challenges include: 
+
+- handling of spatial or spatio-temporal support
+- geodetic coordinates
+- in-memory vector data formats
+- data cubes
+- trajectories
+- inter-package dependencies
+- packaging upstream libraries
+- differences in habits or conventions between the GIS and physical modeling communities
+- statistical models
+
+If any of these topics are relevant to you, you may enjoy reading the thoughts 
+in the paper. 
+
+![Dependency of R and Python spatial packages on other libraries and external system requirements. Colored arrows denote special, sometimes optional, dependencies. (source: [Pebesma et al. 2025](https://josis.org/index.php/josis/article/view/462))](dependencies.png "Dependency of R and Python spatial packages on other libraries and external system requirements. Colored arrows denote special, sometimes optional, dependencies. (source: Pebesma et al. 2025)")
+
+I especially appreciated some of the conclusion and 
+recommendations, for example:
+
+> It is encouraging to see that involvement in the development of open 
+geospatial is no longer restricted to members of the Open Geospatial Consortium 
+(OGC), and takes place in issues of public OGC GitHub repositories (for 
+instance for GeoZarr and GeoParquet), or even completely outside OGC 
+communication channels (e.g. STAC, GDAL, and openEO). (...)
+
+> The increased diversity in data frame libraries, increased diversity in 
+geospatial tooling, and increasing data size have highlighted a need for 
+connectivity that extends beyond the columnar memory model (...). Wider 
+adoption of GeoParquet as a more efficient file format for whole-fileread / 
+write and wider adoption of GeoArrow as a common metadata standard and memory 
+model may help address these challenges. (...)
+
+and
+
+> One of the findings from the SDSL sessions is that cross-language 
+infrastructure is in its infancy. (...). We recommend that more work is done to 
+provide both the technical infrastructure and social environments for 
+constructive cross-language work for spatial data science developers, users and 
+educators.
+
+The publication can be obtained in PDF form 
+[here](https://josis.org/index.php/josis/article/view/462/210).
+
+[^josis]: JOSIS, the Journal of Spatial Information Science, is an open-access 
+research journal dedicated to geoinformation science. Articles in JOSIS are 
+licensed under a Creative Commons Attribution 3.0 (CC-BY) License.
+[^edzer]: Among other things, Edzer Pebesma is the [maintainer of various 
+R packages](https://www.r-pkg.org/maint/edzer.pebesma@uni-muenster.de), among 
+them `sf` and `sp`.
+[^martin]: Among other things, Martin Fleischmann is [the developer or one of 
+the developers](https://martinfleischmann.net/longer-bio/) behind such 
+geospatial tools as `momepy`, `GeoPandas`, and `PySAL`. [Previously](https://spatialists.ch/posts/2025/04/09-spatial-data-old-and-new/).
