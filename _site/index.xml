@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Thu, 15 Jan 2026 19:14:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 15 Jan 2026 22:21:00 GMT</lastBuildDate>
+<item>
+  <title>Sentinel-2 night vision</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/01/15-sentinel-2-night-vision/</link>
+  <description><![CDATA[ #ESA is giving the long-serving #Sentinel‑2A #satellite a fascinating new role: Experimenting with capturing night-time images of Earth before its retirement. These unexpected “night vision” tests not only produce stunning visuals but also lay the groundwork for the next generation of #EarthObservation missions. #EO #RemoteSensing ]]></description>
+  <guid>https://spatialists.ch/posts/2026/01/15-sentinel-2-night-vision/</guid>
+  <pubDate>Thu, 15 Jan 2026 22:21:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/01/15-sentinel-2-night-vision/Gas_flares_in_Qatar_imaged_by_Sentinel-2A_article-cropped.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>GeoGirafe 1.0</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/11/15-designing-darkness-stamens-philosophy-of-dark-mode/</guid>
   <pubDate>Sat, 15 Nov 2025 14:37:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/11/15-designing-darkness-stamens-philosophy-of-dark-mode/midnight-commander.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Online GeoParquet Visualizer</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/11/11-online-geoparquet-visualizer/</link>
-  <description><![CDATA[ For day 7 of the #30DayMapChallenge on the topic of #accessibility, Dominic Weckmüller released the #GeoParquet Visualizer. The GeoParquet Visualizer is a free and open-source web tool built with #MapLibre and #parquet-#wasm that lets users view, style, and share GeoParquet and Parquet datasets directly in the browser. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/11/11-online-geoparquet-visualizer/</guid>
-  <pubDate>Tue, 11 Nov 2025 21:15:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/11/11-online-geoparquet-visualizer/geoparquet-visualizer.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
