@@ -1,0 +1,24 @@
+---
+title: "GeoGirafe 1.0"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-01-15 19:14"
+image: "ricardo-vidal-D0HHfGDhl90-unsplash.jpg"
+description: "#GeoGirafe 1.0, the first Long-Term Release of this #opensource #WebGIS ecosystem, is now available. GeoGirafe positions itself as geospatial web component offering a comprehensive #webmap viewer with #OGC services, authentication, search, measurement, drawing, 3D, and more capabilities."
+---
+
+Today, the first stable version (Long-Term Release, LTR) of GeoGirafe was 
+published. From the 
+[announcement](https://geogirafe.org/geogirafe-1-0-release-is-out/): 
+
+> After an active development phase and a promising Release Candidate, we are 
+pleased to announce the release of GeoGirafe 1.0. With this first LTR release, 
+GeoGirafe reaches an important milestone and establishes itself as a 
+structuring open-source project within the geospatial ecosystem. 
+
+GeoGirafe is a self-described "ecosystem of WebGIS components" that can be 
+combined with different backend infrastructure. It offers, at its core, a web 
+map viewer comprising OGC^[Open Geospatial Consortium]-services display, 
+authentication, search, filtering, measurement, drawing, and sharing tools as 
+well as a 3D mode. If you want to learn more, [demo instances](https://geogirafe.org/demo/) are available.
