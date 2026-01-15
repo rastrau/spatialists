@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Tue, 13 Jan 2026 22:30:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 15 Jan 2026 19:14:00 GMT</lastBuildDate>
+<item>
+  <title>GeoGirafe 1.0</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/01/15-geogirafe-10/</link>
+  <description><![CDATA[ #GeoGirafe 1.0, the first Long-Term Release of this #opensource #WebGIS ecosystem, is now available. GeoGirafe positions itself as geospatial web component offering a comprehensive #webmap viewer with #OGC services, authentication, search, measurement, drawing, 3D, and more capabilities. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/01/15-geogirafe-10/</guid>
+  <pubDate>Thu, 15 Jan 2026 19:14:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/01/15-geogirafe-10/ricardo-vidal-D0HHfGDhl90-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Spatial data science languages</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/11/11-online-geoparquet-visualizer/</guid>
   <pubDate>Tue, 11 Nov 2025 21:15:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/11/11-online-geoparquet-visualizer/geoparquet-visualizer.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>A discussion of geospatial embeddings</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/11/08-a-discussion-of-geospatial-embeddings/</link>
-  <description><![CDATA[ Ed Parsons’ latest article cautions that while geospatial #embeddings promise analytical power, they risk transparency and interpretability long valued in #remotesensing. The article underscores the need to balance innovation with auditability and compliance in AI-driven #EarthObservation. #EO ]]></description>
-  <guid>https://spatialists.ch/posts/2025/11/08-a-discussion-of-geospatial-embeddings/</guid>
-  <pubDate>Sat, 08 Nov 2025 16:49:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/11/08-a-discussion-of-geospatial-embeddings/gabriela-TBwz4F_o8aw-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
