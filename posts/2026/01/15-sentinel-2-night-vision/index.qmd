@@ -1,0 +1,68 @@
+---
+title: "Sentinel-2 night vision"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-01-15 22:21"
+image: "Gas_flares_in_Qatar_imaged_by_Sentinel-2A_article-cropped.jpg"
+description: '#ESA is giving the long-serving #Sentinel‑2A #satellite a fascinating new role: Experimenting with capturing night-time images of Earth before its retirement. These unexpected "night vision" tests not only produce stunning visuals but also lay the groundwork for the next generation of #EarthObservation missions. #EO #RemoteSensing'
+---
+
+Today, the Sentinel-2 earth observation mission[^sentinel] has three identical 
+satellites in orbit: Sentinel-2A (launched in 2015), Sentinel-2B (launched in 
+2017; with its Sun-synchronous orbit phased at 180° with respect to 
+Sentinel-2A's[^shortening]), and Sentinel-2C (launched in 2024).
+
+![Sentinel-2 (source: [ESA / Astrium GmbH](https://www.esa.int/ESA_Multimedia/Images/2012/02/Sentinel-22#.Xp6fG6ml3Cw.link))](Sentinel-2_pillars.jpg "Sentinel-2 (source: ESA / Astrium GmbH)")
+
+Sentinel-2C is meant to replace 2A, Sentinel-2D (yet to be launched) will 
+eventually replace 2B. Later, the Sentinel-2 Next Generation Mission is planned 
+to ensure Sentinel data continuity beyond 2035.
+
+Now for the really interesting part: Since Sentinel-2C is operational and 
+Sentinel-2A still works, ESA is currently using the latter to explore imaging 
+the Earth at night. From the [press release](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Sentinel-2_explores_night_vision): 
+
+> (...) the [largely optical] satellites experience darkness during night-time 
+passes. Under normal operations, the imagers are switched off when the 
+satellites passes over night-shrouded parts of the planet. (...) the current 
+generation of Sentinel-2 satellites (...) were never designed to image at night 
+(...).
+> 
+> As Sentinel-2A approaches the end of its operational life, it continues to 
+support the operational Sentinel-2 mission – but, in addition, engineers and 
+scientists are using some of its remaining time in orbit to test new ideas for 
+the future and to prepare for the Next Generation mission. One such experiment 
+has been to see how it would fare when switching it on at night. [And] it did 
+remarkably well.
+
+The [results](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Sentinel-2_explores_night_vision) are visually interesting and hopefully 
+valuable for both research and for engineering future Earth observation sensors 
+and platforms.
+
+![Gas flares in Qatar imaged by Sentinel-2A (source: [ESA](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Sentinel-2_explores_night_vision))](Gas_flares_in_Qatar_imaged_by_Sentinel-2A_article.jpg "Gas flares in Qatar imaged by Sentinel-2A (source: ESA)")
+
+![Fishing boats off South Korea imaged by Sentinel-2A at night (source: [ESA](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Sentinel-2_explores_night_vision))](Fishing_boats_off_South_Korea_imaged_by_Sentinel-2A_at_night_article.jpg "Fishing boats off South Korea imaged by Sentinel-2A at night (source: ESA)")
+
+These tests are possible, because Sentinel-2A (like some sibling 
+satellites[^longlife]) has managed to outlive its planned duration of operation 
+and because, thus, its replacement is already in orbit and operational. At the 
+time of writing, the Sentinel-2A numbers are, per 
+[Wikipedia](https://en.wikipedia.org/wiki/Sentinel-2A):
+
+> Mission duration:<br>
+> Planned: 7 years<br>
+> Elapsed: 10 years, 6 months, 23 days
+
+What a great machine. Go 2A!
+
+[^sentinel]: [Sentinel-2](https://en.wikipedia.org/wiki/Sentinel-2) is a 
+satellite remote sensing mission in the European 
+[Copernicus Programme](https://en.wikipedia.org/wiki/Copernicus_Programme). 
+[^shortening]: This is done to shorten the revisit time (the timespan it takes 
+to capture the same parth of the Earth's surface again) between the two 
+identical satellites from 10 days to 5 days.
+[^longlife]: As an extreme (probably the most extreme?) example, 
+[Landsat 5](https://science.nasa.gov/mission/landsat-5/) comes to mind: 
+Launched in 1984, planned operation until 1987, decommissioned in 2013 (!). 
+What feat of engineering!
