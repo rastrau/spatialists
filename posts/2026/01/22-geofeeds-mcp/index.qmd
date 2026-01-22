@@ -24,8 +24,10 @@ right. (It also correctly flagged OSGeo’s spam problem.)
 
 ![Prolific geospatial blogs in January 2026, as per GeoFeeds and Claude. Note entry 6 ;-) (source: Bill Dollins) ](claude-example-1.webp "Prolific geospatial blogs in January 2026, as per GeoFeeds and Claude (source: Bill Dollins)")
 
-I'm not sure how large the GeoFeeds cache (and thus the accessible volume of 
-"data") is. But in any case this is something interesting to play around with. 
+~~I'm not sure how large the GeoFeeds cache (and thus the accessible volume of 
+"data") is. But in any case~~ GeoFeeds caches all of its feeds (understandably 
+not the full content of the blog posts) for the trailing 12 months (thanks, [Bill](https://www.linkedin.com/feed/update/urn:li:activity:7420209093711241216/?commentUrn=urn%3Ali%3Acomment%3A(activity%3A7420209093711241216%2C7420213833308315648)&dashCommentUrn=urn%3Ali%3Afsd_comment%3A(7420213833308315648%2Curn%3Ali%3Aactivity%3A7420209093711241216))!). This is 
+*definitely* something interesting to play around with. 
 
 [^add]: I added Spatialists [back in May](https://github.com/geobabbler/neptune/issues/9). You can submit feeds to be included by opening an issue in the 
 [GeoFeeds repository](https://github.com/geobabbler/neptune).
