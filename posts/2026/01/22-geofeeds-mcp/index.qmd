@@ -1,0 +1,32 @@
+---
+title: "GeoFeeds MCP"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-01-22 21:38"
+image: "photo-1517816428104-797678c7cf0c.jpg"
+description: "#GeoFeeds is a non‑curated aggregator tracking nearly 90 geospatial and adjacent blogs created by Bill Dollins and James Fee, now enhanced with an #MCP endpoint. The new setup lets #AI tools query and analyze the feed’s cached data directly, opening up creative ways to explore sources and trends in the geospatial blogosphere."
+---
+
+[GeoFeeds](https://geofeeds.me/view) is a (non-curated) aggregator of feeds of 
+around 90 geospatial or geospatial-adjacent blogs[^add], operated by 
+[Bill Dollins](https://bsky.app/profile/geobabbler.bsky.social) and 
+[James Fee](https://bsky.app/profile/jamesfee.bsky.social). Recently, Bill set 
+up an MCP[^mcp] endpoint for GeoFeeds. MCP is a way for AI systems to communicate 
+with external tools and data sources using a common "language" instead of 
+needing custom code for each connection. This MCP endpoints can now be used 
+to analyze the cached feed using AI clients. Bill's blog has more [background 
+and some examples](https://blog.geomusings.com/2026/01/20/geofeeds-now-with-mcp/): 
+
+> For example, I asked Claude to tell me the most prolific blogs so far this 
+month (January, 2026). I spot checked a few of these and the numbers were 
+right. (It also correctly flagged OSGeo’s spam problem.)
+
+![Prolific geospatial blogs in January 2026, as per GeoFeeds and Claude. Note entry 6 ;-) (source: Bill Dollins) ](claude-example-1.webp "Prolific geospatial blogs in January 2026, as per GeoFeeds and Claude (source: Bill Dollins)")
+
+I'm not sure how large the GeoFeeds cache (and thus the accessible volume of 
+"data") is. But in any case this is something interesting to play around with. 
+
+[^add]: I added Spatialists [back in May](https://github.com/geobabbler/neptune/issues/9). You can submit feeds to be included by opening an issue in the 
+[GeoFeeds repository](https://github.com/geobabbler/neptune).
+[^mcp]: Model Context Protocol.
