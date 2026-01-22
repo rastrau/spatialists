@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="David Oesch">
-<meta name="dcterms.date" content="2025-03-18">
-<meta name="description" content="Cloud-Optimized #GeoTIFFs (#COG-s) have revolutionized the way large geospatial raster datasets are accessed and processed. From GeoStandards comes Best Practices Guide for this #cloudnativegeo format.">
+<meta name="author" content="Ralph Straumann">
+<meta name="dcterms.date" content="2026-01-22">
+<meta name="description" content="#GeoFeeds is a non‑curated aggregator tracking nearly 90 geospatial and adjacent blogs created by Bill Dollins and James Fee, now enhanced with an #MCP endpoint. The new setup lets #AI tools query and analyze the feed’s cached data directly, opening up creative ways to explore sources and trends in the geospatial blogosphere.">
 
-<title>Best practices for Cloud-Optimized GeoTIFFs – Spatialists – geospatial news</title>
+<title>GeoFeeds MCP – Spatialists – geospatial news</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -117,13 +117,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../../styles.css">
-<meta property="og:title" content="Best practices for Cloud-Optimized GeoTIFFs – Spatialists – geospatial news">
-<meta property="og:description" content="Cloud-Optimized #GeoTIFFs (#COG-s) have revolutionized the way large geospatial raster datasets are accessed and processed. From GeoStandards comes Best Practices Guide for this #cloudnativegeo format.">
-<meta property="og:image" content="https://spatialists.ch/assets/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg">
+<meta property="og:title" content="GeoFeeds MCP – Spatialists – geospatial news">
+<meta property="og:description" content="#GeoFeeds is a non‑curated aggregator tracking nearly 90 geospatial and adjacent blogs created by Bill Dollins and James Fee, now enhanced with an #MCP endpoint. The new setup lets #AI tools query and analyze the feed’s cached data directly, opening up creative ways to explore sources and trends in the geospatial blogosphere.">
+<meta property="og:image" content="https://spatialists.ch/posts/2026/01/22-geofeeds-mcp/photo-1517816428104-797678c7cf0c.jpg">
 <meta property="og:site_name" content="Spatialists – geospatial news">
-<meta name="twitter:title" content="Best practices for Cloud-Optimized GeoTIFFs – Spatialists – geospatial news">
-<meta name="twitter:description" content="Cloud-Optimized #GeoTIFFs (#COG-s) have revolutionized the way large geospatial raster datasets are accessed and processed. From GeoStandards comes Best Practices Guide for this #cloudnativegeo format.">
-<meta name="twitter:image" content="https://spatialists.ch/assets/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg">
+<meta name="twitter:title" content="GeoFeeds MCP – Spatialists – geospatial news">
+<meta name="twitter:description" content="#GeoFeeds is a non‑curated aggregator tracking nearly 90 geospatial and adjacent blogs created by Bill Dollins and James Fee, now enhanced with an #MCP endpoint. The new setup lets #AI tools query and analyze the feed’s cached data directly, opening up creative ways to explore sources and trends in the geospatial blogosphere.">
+<meta name="twitter:image" content="https://spatialists.ch/posts/2026/01/22-geofeeds-mcp/photo-1517816428104-797678c7cf0c.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -171,10 +171,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Best practices for Cloud-Optimized GeoTIFFs</h1>
+      <h1 class="title">GeoFeeds MCP</h1>
                   <div>
         <div class="description">
-          Cloud-Optimized #GeoTIFFs (#COG-s) have revolutionized the way large geospatial raster datasets are accessed and processed. From GeoStandards comes Best Practices Guide for this #cloudnativegeo format.
+          #GeoFeeds is a non‑curated aggregator tracking nearly 90 geospatial and adjacent blogs created by Bill Dollins and James Fee, now enhanced with an #MCP endpoint. The new setup lets #AI tools query and analyze the feed’s cached data directly, opening up creative ways to explore sources and trends in the geospatial blogosphere.
         </div>
       </div>
                 </div>
@@ -186,14 +186,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p><a href="https://www.linkedin.com/in/davidoesch">David Oesch</a> </p>
+               <p><a href="https://ralphstraumann.ch">Ralph Straumann</a> </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">March 18, 2025</p>
+        <p class="date">January 22, 2026</p>
       </div>
     </div>
     
@@ -212,43 +212,26 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Cloud-Optimized GeoTIFFs (COGs) have revolutionized the way large geospatial raster datasets are accessed and processed. By enabling efficient, selective retrieval of data without requiring full downloads<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, they are set to become a key element in modern geospatial infrastructures. To ensure seamless integration within the Swiss (or any) geospatial ecosystem, a structured approach to creating and using COGs is essential.</p>
-<div class="callout callout-style-default callout-note callout-titled" title="What are COGs?">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<p><a href="https://geofeeds.me/view">GeoFeeds</a> is a (non-curated) aggregator of feeds of around 90 geospatial or geospatial-adjacent blogs<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, operated by <a href="https://bsky.app/profile/geobabbler.bsky.social">Bill Dollins</a> and <a href="https://bsky.app/profile/jamesfee.bsky.social">James Fee</a>. Recently, Bill set up an MCP<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> endpoint for GeoFeeds. MCP is a way for AI systems to communicate with external tools and data sources using a common “language” instead of needing custom code for each connection. This MCP endpoints can now be used to analyze the cached feed using AI clients. Bill’s blog has more <a href="https://blog.geomusings.com/2026/01/20/geofeeds-now-with-mcp/">background and some examples</a>:</p>
+<blockquote class="blockquote">
+<p>For example, I asked Claude to tell me the most prolific blogs so far this month (January, 2026). I spot checked a few of these and the numbers were right. (It also correctly flagged OSGeo’s spam problem.)</p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="claude-example-1.webp" title="Prolific geospatial blogs in January 2026, as per GeoFeeds and Claude (source: Bill Dollins)" class="img-fluid figure-img"></p>
+<figcaption>Prolific geospatial blogs in January 2026, as per GeoFeeds and Claude. Note entry 6 ;-) (source: Bill Dollins)</figcaption>
+</figure>
 </div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>What are COGs?
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>COGs conform to the well-established GeoTIFF format but introduce internal optimizations that allow for cloud-based streaming and efficient tiling<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. These characteristics make COGs particularly suitable for large-scale datasets, reducing the need for redundant storage and computational overhead.</p>
-</div>
-</div>
-</div>
-<section id="best-practices" class="level1">
-<h1>Best practices</h1>
-<p>To support the Swiss geospatial community (aka EPSG:2056 users or, simply, #SwissGIS) in adopting COGs, GeoStandards.ch <a href="https://github.com/geostandards-ch/cog-best-practices">offers a COG Best Practices Guide</a> structured around common use cases. This guide provides decision trees, optimized command-line workflows, and recommendations to ensure COGs are created effectively and with good results in and for the Swiss geospatial context.</p>
-<p>The conversion of non-COG raster data to COGs involves critical decisions based on the intended use case. Whether for visualization, analysis, or numerical data storage, the compression method and format parameters must be carefully chosen<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. The structured decision tree in the GeoStandards.ch guide helps users determine the best approach, balancing file size, performance, and data integrity.</p>
-</section>
-<section id="contributing" class="level1">
-<h1>Contributing</h1>
-<p>The <a href="https://github.com/geostandards-ch/cog-best-practices">COG Best Practices Guide</a> is a community-driven initiative. Contributions are encouraged from all users, whether by refining workflows, adding use cases, or improving documentation. By working together, we can establish a robust, standardized approach to handling geospatial data in Swiss infrastructures.</p>
-<p>To participate, visit the <a href="https://github.com/geostandards-ch/cog-best-practices">GitHub repository</a> and contribute via pull requests or by submitting issues. Every input — whether a code snippet, an optimization tip, a question, or a new use case — helps strengthen the guide.</p>
+<p>I’m not sure how large the GeoFeeds cache (and thus the accessible volume of “data”) is. But in any case this is something interesting to play around with.</p>
 
 
-</section>
 
 
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>this is the core of “cloud-native”<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>see the <a href="https://gdal.org/drivers/raster/cog.html">GDAL COG Driver Documentation</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>see also the <a href="https://kokoalberti.com/articles/geotiff-compression-optimization-guide">Compression Optimization Guide</a> by Koko Alberti<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>I added Spatialists <a href="https://github.com/geobabbler/neptune/issues/9">back in May</a>. You can submit feeds to be included by opening an issue in the <a href="https://github.com/geobabbler/neptune">GeoFeeds repository</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Model Context Protocol.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -15,8 +15,17 @@
 <title>Spatialists – geospatial news</title>
 <link>https://spatialists.ch/</link>
 </image>
-<generator>quarto-1.8.26</generator>
-<lastBuildDate>Thu, 15 Jan 2026 22:21:00 GMT</lastBuildDate>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Thu, 22 Jan 2026 21:38:00 GMT</lastBuildDate>
+<item>
+  <title>GeoFeeds MCP</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/01/22-geofeeds-mcp/</link>
+  <description><![CDATA[ #GeoFeeds is a non‑curated aggregator tracking nearly 90 geospatial and adjacent blogs created by Bill Dollins and James Fee, now enhanced with an #MCP endpoint. The new setup lets #AI tools query and analyze the feed’s cached data directly, opening up creative ways to explore sources and trends in the geospatial blogosphere. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/01/22-geofeeds-mcp/</guid>
+  <pubDate>Thu, 22 Jan 2026 21:38:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/01/22-geofeeds-mcp/photo-1517816428104-797678c7cf0c.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Sentinel-2 night vision</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/11/16-digitally-sovereign-geospatial/</guid>
   <pubDate>Sun, 16 Nov 2025 15:49:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/11/16-digitally-sovereign-geospatial/emma-henderson-B645igbiKCw-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Designing darkness: Stamen’s philosophy of dark mode</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/11/15-designing-darkness-stamens-philosophy-of-dark-mode/</link>
-  <description><![CDATA[ From Stamen comes a deep dive into their ‘Philosophy on Dark Mode Maps’, exploring how #darkmode #map #design goes beyond simply inverting colors. Drawing on examples from their own portfolio and color scatterplot analyses, the article shows the balance between ‘night mode’ and ‘daytime dark mode’, and what each means for digital cartography. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/11/15-designing-darkness-stamens-philosophy-of-dark-mode/</guid>
-  <pubDate>Sat, 15 Nov 2025 14:37:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/11/15-designing-darkness-stamens-philosophy-of-dark-mode/midnight-commander.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
