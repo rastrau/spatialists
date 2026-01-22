@@ -942,7 +942,7 @@
     "href": "posts/2026/01/22-geofeeds-mcp/index.html",
     "title": "GeoFeeds MCP",
     "section": "",
-    "text": "GeoFeeds is a (non-curated) aggregator of feeds of around 90 geospatial or geospatial-adjacent blogs1, operated by Bill Dollins and James Fee. Recently, Bill set up an MCP2 endpoint for GeoFeeds. MCP is a way for AI systems to communicate with external tools and data sources using a common “language” instead of needing custom code for each connection. This MCP endpoints can now be used to analyze the cached feed using AI clients. Bill’s blog has more background and some examples:\nI’m not sure how large the GeoFeeds cache (and thus the accessible volume of “data”) is. But in any case this is something interesting to play around with."
+    "text": "GeoFeeds is a (non-curated) aggregator of feeds of around 90 geospatial or geospatial-adjacent blogs1, operated by Bill Dollins and James Fee. Recently, Bill set up an MCP2 endpoint for GeoFeeds. MCP is a way for AI systems to communicate with external tools and data sources using a common “language” instead of needing custom code for each connection. This MCP endpoints can now be used to analyze the cached feed using AI clients. Bill’s blog has more background and some examples:\nI’m not sure how large the GeoFeeds cache (and thus the accessible volume of “data”) is. But in any case GeoFeeds caches all of its feeds (understandably not the full content of the blog posts) for the trailing 12 months (thanks, Bill!). This is definitely something interesting to play around with."
   },
   {
     "objectID": "posts/2026/01/22-geofeeds-mcp/index.html#footnotes",
