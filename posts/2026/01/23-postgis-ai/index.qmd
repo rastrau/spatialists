@@ -1,0 +1,39 @@
+---
+title: "PostGIS &#8646; AI"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-01-23 06:28"
+image: "wolfgang-hasselmann-P7L5011nD5s-unsplash.jpg"
+description: 'Finally got around to watching this gem: "Your Dorky Spatial Database is My Magic Answer Machine" by Brian Timoney. In this insightful and engaging #PostGISDay presentation, Brian explores how #AI can both use #PostGIS and be used from within PostGIS. A must-watch for anyone curious about the future of intelligent geospatial workflows!'
+---
+
+Finally got around to[^tabs] this open tab: "[Your Dorky Spatial Database is My Magic 
+Answer Machine](https://www.youtube.com/watch?v=kNFyLdNzvGg)". 
+[Brian Timoney](https://www.linkedin.com/in/brian-timoney-a760534/) of the 
+[Timoney Group](https://www.thetimoneygroup.com) and Senior Developer Relations 
+Engineer at [IQGeo](https://www.iqgeo.com) gave this presentation on 
+[PostGIS Day](https://www.postgresql.org/about/event/postgis-day-2025-2557/). 
+In my experience, Brian is always good for both very astute and entertaing 
+presentations, articles[^portals], and quips[^quip]. In 
+[this talk](https://www.youtube.com/watch?v=kNFyLdNzvGg), he speaks about, and 
+demos, using AI *on* PostGIS and using AI *from within* PostGIS.[^pgsqlopenai] 
+
+From Brian's [announcement](https://www.linkedin.com/posts/activity-7402360025697964033-awsR):
+
+> For 97% of the business world, "database" is a word with a limited set of 
+unexciting associations: rows, columns, and tables residing in a walled 
+fortress with surly gatekeepers fluent in that weird query language.
+> 
+> My PostGIS Day presentation is for the other 3%.
+
+{{< video https://www.youtube.com/watch?v=kNFyLdNzvGg >}}
+
+Easily the best 25 minutes on YouTube in this year, so far, down 
+to and including the closing line.
+
+[^tabs]: You know those open tabs to which you want to turn your attention to with enough time on your hands.
+[^portals]: A famous early work may be the series on map portals from 2013, starting with "[Why Map Portals Don't Work](https://mapbrief.com/2013/02/05/why-map-portals-dont-work-part-i/)", in my opinion, since long part of the geospatial canon.
+[^quip]: To just pick one: "Data is not the new oil. It is the old coal: 
+difficult to mine, a burden to move, and intrinsically dirty."
+[^pgsqlopenai]: The latter: using `pgsql-openai` by Paul Ramsey.
