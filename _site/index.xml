@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Thu, 22 Jan 2026 21:38:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 23 Jan 2026 06:28:00 GMT</lastBuildDate>
+<item>
+  <title>PostGIS ⇆ AI</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/01/23-postgis-ai/</link>
+  <description><![CDATA[ Finally got around to watching this gem: “Your Dorky Spatial Database is My Magic Answer Machine” by Brian Timoney. In this insightful and engaging #PostGISDay presentation, Brian explores how #AI can both use #PostGIS and be used from within PostGIS. A must-watch for anyone curious about the future of intelligent geospatial workflows! ]]></description>
+  <guid>https://spatialists.ch/posts/2026/01/23-postgis-ai/</guid>
+  <pubDate>Fri, 23 Jan 2026 06:28:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/01/23-postgis-ai/wolfgang-hasselmann-P7L5011nD5s-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>GeoFeeds MCP</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/11/21-2026-geohipster-calendar/</guid>
   <pubDate>Fri, 21 Nov 2025 18:08:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/11/21-2026-geohipster-calendar/geohipster-frontcover-titlecard.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Digitally sovereign geospatial</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/11/16-digitally-sovereign-geospatial/</link>
-  <description><![CDATA[ In a recent video, Hans van der Kwast explores digital #sovereignty and its implications for #opensource software, governance, and collaboration. Using #QGIS as a case study, he unpacks how open standards and community-driven development can empower users and reshape digital services. #digitalsovereignty ]]></description>
-  <guid>https://spatialists.ch/posts/2025/11/16-digitally-sovereign-geospatial/</guid>
-  <pubDate>Sun, 16 Nov 2025 15:49:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/11/16-digitally-sovereign-geospatial/emma-henderson-B645igbiKCw-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
