@@ -14,7 +14,7 @@ Answer Machine](https://www.youtube.com/watch?v=kNFyLdNzvGg)".
 [Timoney Group](https://www.thetimoneygroup.com) and Senior Developer Relations 
 Engineer at [IQGeo](https://www.iqgeo.com) gave this presentation on 
 [PostGIS Day](https://www.postgresql.org/about/event/postgis-day-2025-2557/). 
-In my experience, Brian is always good for both very astute and entertaing 
+In my experience, Brian is always good for both very astute and entertaining 
 presentations, articles[^portals], and quips[^quip]. In 
 [this talk](https://www.youtube.com/watch?v=kNFyLdNzvGg), he speaks about, and 
 demos, using AI *on* PostGIS and using AI *from within* PostGIS.[^pgsqlopenai] 
