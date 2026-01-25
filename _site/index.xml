@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Sun, 25 Jan 2026 13:56:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 25 Jan 2026 16:21:00 GMT</lastBuildDate>
+<item>
+  <title>Vectormap: Swiss vector maps</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/01/25-vectormap-swiss-vector-maps/</link>
+  <description><![CDATA[ Building on his Master’s thesis, Fabian Rechsteiner launched Vectormap, a project focused on making Swiss #geodata accessible as modern, high-performance #vectormaps. With regularly updated #cadastraldata and ready-to-use styles in #PMTiles format, Vectormap explores pragmatic, #cloudnative ways to bring geodata to the web. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/01/25-vectormap-swiss-vector-maps/</guid>
+  <pubDate>Sun, 25 Jan 2026 16:21:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/01/25-vectormap-swiss-vector-maps/vectormap-sample.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Just out: SGS Action Plan 2026</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/12/01-air-loom-3d-airspace-visualization/</guid>
   <pubDate>Mon, 01 Dec 2025 18:42:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/12/01-air-loom-3d-airspace-visualization/gva.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Proceedings of the 2025 JRG</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/11/21-proceedings-of-the-2025-jrg/</link>
-  <description><![CDATA[ Last week, the fourth Journée Romande de la Géoinformation (#JRG) took place in Ecublens with more than 800 participants. Now, all videos and presentations of the plenary sessions are available online. #GeoAI #DSS #DigitalTwin ]]></description>
-  <guid>https://spatialists.ch/posts/2025/11/21-proceedings-of-the-2025-jrg/</guid>
-  <pubDate>Fri, 21 Nov 2025 18:50:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/11/21-proceedings-of-the-2025-jrg/jrg.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
