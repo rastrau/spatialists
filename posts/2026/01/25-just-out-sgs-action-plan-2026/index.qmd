@@ -1,0 +1,35 @@
+---
+title: "Just out: SGS Action Plan 2026"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-01-25 13:56"
+image: "sgs.jpg"
+description: "New directions and projects: The SGS board published the this year's Action Plan for the Swiss Geoinformation Strategy."
+---
+
+Fresh from the SGS board[^sgsboard]: The Swiss Geoinformation Strategy (SGS) 
+action plan for the year 2026 has just been published, after formal approval by the 
+[Coordinating Agency for federal geographical information, GCG](https://www.geo.admin.ch/en/organisation-names-departments-contacts) (GKG / GCS in German and French, 
+respectively), and the [Conference of the Cantonal Geoinformation and Cadastral 
+Offices](https://www.kgk-cgc.ch) (KGK / CGC). 
+
+The action plan is available 
+[in German](https://www.geoinformation.ch/de/jaehrlicher-aktionsplan) and 
+[in French](https://www.geoinformation.ch/fr/plan-daction).
+
+![Swiss Geoinformation Strategy (SGS) 2020](sgs.jpg "Swiss Geoinformation Strategy (SGS) 2020")
+
+The action plan adopts new actions in the following SGS domains:
+
+- Fostering the Geoinformation Ecosystem: 1 new action
+- Linking Geodata: 1 new action
+- Simplifying Processes: 1 new action
+- Fostering Innovation: : 3 new actions
+- Building and Strengthening Skills: 1 new action
+- Enhancing Digital Platforms: 1 new action
+
+Maybe surprisingly, no new actions, like in 2025 already, are adopted for the SGS domains "Development of Geodata Science".
+
+[^sgsboard]: The organisation tasked with strategic oversight and steering of 
+the implementation of the [Swiss Geoinformation Strategy](https://www.geo.admin.ch/de/strategie-und-umsetzung).
