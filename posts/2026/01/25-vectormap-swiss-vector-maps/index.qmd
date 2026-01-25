@@ -1,0 +1,39 @@
+---
+title: "Vectormap: Swiss vector maps"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-01-25 16:21"
+image: "vectormap-sample.jpg"
+description: "Building on his Master’s thesis, Fabian Rechsteiner launched Vectormap, a project focused on making Swiss #geodata accessible as modern, high-performance #vectormaps. With regularly updated #cadastraldata and ready-to-use styles in #PMTiles format, Vectormap explores pragmatic, #cloudnative ways to bring geodata to the web."
+---
+
+Based on his Master thesis, Fabian Rechsteiner (cf. [earlier][1]) started [Vectormap][2] as a side-project. From the [announcement][3] (auto-translated):
+
+> The focus is on Swiss geodata, prepared as modern vector maps for web mapping applications. Instead of complex server infrastructures, I am concerned with pragmatic questions: How can geodata be used on the web in a high-performance, cost-efficient, and traceable manner?
+
+Think: Procurement of official Swiss geodata *in cloud-native formats*. 
+
+[![Vectormap.ch](vectormap.jpg "Vectormap.ch")](https://vectormap.ch)
+
+Vectormap contains data from the Swiss cadastral survey[^cantons] (currently 2.3 GB), with monthly updates, thematically structured, and in PMTiles format. The data can be explored, for example, in the [PMTiles Viewer](https://pmtiles.io/#url=https%3A%2F%2Fvectormap.ch%2Fpmtiles%2Fav%2Fav.pmtiles&map=15.4/47.56783/9.378273). It can be used freely, with certain attributions. As far as I could see, the data production pipeline is not open-source. 
+
+![Vectormap.ch: Sample data](vectormap-sample.jpg "Vectormap.ch: Sample data")
+
+Besides the vector data, [Vectormap][6] hosts map styles (currently, one), and example web maps using [MapLibre][5]. 
+
+Besides, the [official website][2], Fabian uses a [LinkedIn newsletter][4] for news and updates around the project. Both the website and the newsletter are in German. Feedback, questions, project or use-case ideas, suggestions for improvement are welcome. 
+
+[1]: https://spatialists.ch/posts/2025/04/05-serving-vector-tiles-fast/index.html
+
+[2]: https://vectormap.ch
+
+[3]: https://www.linkedin.com/pulse/vectormap-schweizer-geodaten-als-vektorkarten-fabian-rechsteiner-g49xe/
+
+[4]: https://www.linkedin.com/newsletters/vectormap-7413565422358142976/
+
+[^cantons]: ... of *most* Swiss cantons. Cadastral survey data is not yet freely available in Vaud, Neuchâtel, Jura, Lucerne, Nidwalden, and Obwalden. The data in Vectormap.ch is sourced from [geodienste.ch](https://geodienste.ch).
+
+[5]: https://maplibre.org
+
+[6]: https://vectormap.ch
