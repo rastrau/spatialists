@@ -22,7 +22,7 @@ Vectormap contains data from the Swiss cadastral survey[^cantons] (currently 2.3
 
 Besides the vector data, [Vectormap][6] hosts map styles (currently, one), and example web maps using [MapLibre][5]. 
 
-Besides, the [official website][2], Fabian uses a [LinkedIn newsletter][4] for news and updates around the project. Both the website and the newsletter are in German. Feedback, questions, project or use-case ideas, suggestions for improvement are welcome. 
+Besides, the [official website][2], Fabian publishes a [LinkedIn newsletter][4] for news and updates around the project. Both the website and the newsletter are in German. Feedback, questions, project or use-case ideas, suggestions for improvement are welcome. 
 
 [1]: https://spatialists.ch/posts/2025/04/05-serving-vector-tiles-fast/index.html
 
