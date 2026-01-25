@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Fri, 23 Jan 2026 06:28:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 25 Jan 2026 13:56:00 GMT</lastBuildDate>
+<item>
+  <title>Just out: SGS Action Plan 2026</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/01/25-just-out-sgs-action-plan-2026/</link>
+  <description><![CDATA[ New directions and projects: The SGS board published the this year’s Action Plan for the Swiss Geoinformation Strategy. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/01/25-just-out-sgs-action-plan-2026/</guid>
+  <pubDate>Sun, 25 Jan 2026 13:56:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/01/25-just-out-sgs-action-plan-2026/sgs.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>PostGIS ⇆ AI</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/11/21-proceedings-of-the-2025-jrg/</guid>
   <pubDate>Fri, 21 Nov 2025 18:50:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/11/21-proceedings-of-the-2025-jrg/jrg.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>2026 GeoHipster calendar</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/11/21-2026-geohipster-calendar/</link>
-  <description><![CDATA[ The 2026 GeoHipster calendar is available to order! ]]></description>
-  <guid>https://spatialists.ch/posts/2025/11/21-2026-geohipster-calendar/</guid>
-  <pubDate>Fri, 21 Nov 2025 18:08:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/11/21-2026-geohipster-calendar/geohipster-frontcover-titlecard.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
