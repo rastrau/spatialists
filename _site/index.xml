@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Sun, 25 Jan 2026 16:21:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 26 Jan 2026 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Geoinformation strategy of the canton of Bern</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/01/26-geoinformation-strategy-of-the-canton-of-bern/</link>
+  <description><![CDATA[ The Canton of Bern has released its updated Geoinformation Strategy for 2026–2030, setting a focus on customer-oriented services, long-term capacity building, and stronger cooperation across authorities. New topics include #AI, #NoCode/#LowCode environments, natural-language applications, #DigitalTwin-s, and #opensource, among many others. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/01/26-geoinformation-strategy-of-the-canton-of-bern/</guid>
+  <pubDate>Mon, 26 Jan 2026 18:30:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/01/26-geoinformation-strategy-of-the-canton-of-bern/geoinformation-strategy.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Vectormap: Swiss vector maps</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/12/01-first-images-from-sentinel-1d/</guid>
   <pubDate>Mon, 01 Dec 2025 20:59:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/12/01-first-images-from-sentinel-1d/tierra-del-fuego-sentinel-1d.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Air Loom: 3D airspace visualization</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/12/01-air-loom-3d-airspace-visualization/</link>
-  <description><![CDATA[ Air Loom, a project by Benny Lim (Objective Unclear), offers a dynamic #3D #visualization platform for #realtime ADS-B #aircraft tracking around major airports. Users can explore #flight movements, airspace overlays, and adjust display options to suit educational or #aviation enthusiast needs. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/12/01-air-loom-3d-airspace-visualization/</guid>
-  <pubDate>Mon, 01 Dec 2025 18:42:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/12/01-air-loom-3d-airspace-visualization/gva.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
