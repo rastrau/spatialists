@@ -1,0 +1,34 @@
+---
+title: "Geoinformation strategy of the canton of Bern"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-01-26 18:30"
+image: "geoinformation-strategy.jpg"
+description: "The Canton of Bern has released its updated Geoinformation Strategy for 2026–2030, setting a focus on customer-oriented services, long-term capacity building, and stronger cooperation across authorities. New topics include #AI, #NoCode/#LowCode environments, natural-language applications, #DigitalTwin-s, and #opensource, among many others."
+---
+
+The canton of Bern, through its [Office of Geoinformation][geoinfo] has updated its geoinformation strategy for the years 2026 through to 2030. From the [announcement][ann] (auto-translated):
+
+> On December 17, 2025, the State Council confirmed the "Geoinformation Strategy of the Canton of Bern 2026–2030". It replaces the geoinformation strategy of September 16, 2020, and sets out binding strategic priorities and targets for cantonal administrative bodies in the field of geoinformation for the next five years.
+
+[![Geoinformation strategy 2026–2030 of the canton of Bern](geoinformation-strategy.jpg "Geoinformation strategy 2026–2030 of the canton of Bern")](http://www.be.ch/gi-strategie)
+
+The results of the previous strategy (2020–2025) were evaluated. The evaluation as well as an overview of specific initiatives and outcomes is contained in the new strategy. The core of the updated strategy consists of a vision and three principle strategic directions each comprising three strategic goals. The three strategic foci are the following (translation mine):
+
+- Focus 1: Enhance offerings and services with focus on customer needs
+- Focus 2: Direct internal processes and skills with a long-term perspective
+- Focus 3: Strengthen trans-organisational cooperation
+
+Focus 3 speaks to me a lot with its emphasis on geodata-and-"non-geodata" collaboration (a budding approach also observed in other parts of Switzerland, since a few years) as well as horizontal and vertical collaboration among authorities, expressed for example in data harmonization initiatives and collaborative use of publication platforms. Other notable updates: 
+
+- Explicit mention of open-source software as part of a strategic goal
+- Explicit mention of artificial intelligence as part of a strategic goal
+- Mention of new-ish technologies or paradigms, such as digital twins, low-code / no-code environments, natural-language-controlled GIS 
+- No mention of (even exemplary) measures anymore, instead these are to be defined annually, following a more agile approach
+- (Brief) Mention of "geocommons" and "georegisters"
+
+The full text of the geoinformation strategy of the canton of Bern is [available online](https://geofiles.be.ch/intranet/pub/agi-gi-strategie-de.pdf) (in German, pdf).
+
+[geoinfo]: https://www.agi.dij.be.ch/de/start/ueber-uns/wir-stellen-uns-vor/amt-fuer-geoinformation.html
+[ann]: https://www.linkedin.com/pulse/die-neue-geoinformationsstrategie-2026-2030-des-bern-finklenburg-367ue/
