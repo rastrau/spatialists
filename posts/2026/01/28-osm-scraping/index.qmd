@@ -1,0 +1,36 @@
+---
+title: "OSM scraping"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-01-28 19:01"
+image: "osm.jpg"
+description: "An #OpenStreetMap-themed account on LinkedIn is calling on journalists to investigate a surge in what seems to be coordinated #scraping from hundreds of thousands of IP addresses, suspected to be linked to #AI #data collection. This incident spotlights growing tension between #opendata principles and the potential for misuse of public infrastructure."
+---
+
+Yesterday, an OpenStreetMap-themed account on 
+LinkedIn[^osmaccount] [has reached out](https://www.linkedin.com/posts/open-street-map_opendata-osm-openstreetmap-activity-7422084150360408064-ews2) to find journalists who might be willing 
+to cover OSM and Open Data scraping. From the post:
+
+> Our senior site reliability engineer (...) is seeing unprecedented levels of 
+> bots attempting to sc[r]ape OSM data. For comparison, in recent years, he has 
+> seen 1 or a few IPs doing 10,000+ requests, but this week we're seeing 
+> 100,0000+ IPs in a coordinated [effort?] to scrape, each IP doing a few requests. 
+>
+> (...)
+>
+> We're a volunteer-run service and the costs are real. We'd love to talk to a 
+> journalist about what we're seeing + how we're responding.
+
+This development is (rightly, I think) linked to AI companies gathering data. 
+Stadia Maps and other geospatial projects report [similar](https://www.linkedin.com/feed/update/urn:li:activity:7422084150360408064?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7422084150360408064%2C7422149987184226304%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287422149987184226304%2Curn%3Ali%3Aactivity%3A7422084150360408064%29) [observations](https://www.linkedin.com/feed/update/urn:li:activity:7422084150360408064?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7422084150360408064%2C7422178799154343936%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287422178799154343936%2Curn%3Ali%3Aactivity%3A7422084150360408064%29).
+
+The juxtaposition of "open data" and "scraping" is, of course, jarring: Truly 
+open data (such as OSM) does not need be scraped but can be obtained through, 
+for example,bulk downloads and APIs, ideally fairly used, thus not unnecessarily 
+burdening the projects and their infrastructure.
+
+So far, Guardian, Süddeutsche Zeitung, Lage der Nation, and others have 
+responded. Watch your local (tech) news outlet.
+
+[^osmaccount]: I couldn't find out who controls this account or if the OSM Foundation is behind it. It has many "[employees](https://www.linkedin.com/search/results/people/?facetCurrentCompany=%5B820543%5D&sid=0O1)" on LinkedIn. I did find the [referenced Mastodon post](https://hachyderm.io/@osm_tech@en.osm.town/115968555044555242) and [another one](https://hachyderm.io/@osm_tech@en.osm.town/115973949166724040) on this topic from the "OpenStreetMap Ops Team" on the "@en.osm.town" instance. And the person referenced in the LinkedIn post is part of the [OSM Operations Working Group](https://operations.osmfoundation.org). So I do think this is legit.
