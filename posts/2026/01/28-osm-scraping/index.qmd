@@ -27,10 +27,12 @@ Stadia Maps and other geospatial projects report [similar](https://www.linkedin.
 
 The juxtaposition of "open data" and "scraping" is, of course, jarring: Truly 
 open data (such as OSM) does not need be scraped but can be obtained through, 
-for example,bulk downloads and APIs, ideally fairly used, thus not unnecessarily 
+for example, bulk downloads and APIs, ideally fairly used, thus not unnecessarily 
 burdening the projects and their infrastructure.
 
 So far, Guardian, Süddeutsche Zeitung, Lage der Nation, and others have 
 responded. Watch your local (tech) news outlet.
+
+Update: This reminded me of loosely related topics discussed by [Stefan Verhuulst](https://thegovlab.org/stefaan-verhulst.html): ["Five asymmetries" around AI and data](https://www.linkedin.com/pulse/five-asymmetries-20-questions-reflections-ahead-uns-ai-verhulst-phd-cfulf) and "[Data Commons: The Missing Infrastructure for Public Interest Artificial Intelligence](https://www.linkedin.com/pulse/data-commons-missing-infrastructure-public-interest-verhulst-phd-k8eec)".
 
 [^osmaccount]: I couldn't find out who controls this account or if the OSM Foundation is behind it. It has many "[employees](https://www.linkedin.com/search/results/people/?facetCurrentCompany=%5B820543%5D&sid=0O1)" on LinkedIn. I did find the [referenced Mastodon post](https://hachyderm.io/@osm_tech@en.osm.town/115968555044555242) and [another one](https://hachyderm.io/@osm_tech@en.osm.town/115973949166724040) on this topic from the "OpenStreetMap Ops Team" on the "@en.osm.town" instance. And the person referenced in the LinkedIn post is part of the [OSM Operations Working Group](https://operations.osmfoundation.org). So I do think this is legit.
