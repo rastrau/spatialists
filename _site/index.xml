@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Mon, 26 Jan 2026 18:30:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 28 Jan 2026 19:01:00 GMT</lastBuildDate>
+<item>
+  <title>OSM scraping</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/01/28-osm-scraping/</link>
+  <description><![CDATA[ An #OpenStreetMap-themed account on LinkedIn is calling on journalists to investigate a surge in what seems to be coordinated #scraping from hundreds of thousands of IP addresses, suspected to be linked to #AI #data collection. This incident spotlights growing tension between #opendata principles and the potential for misuse of public infrastructure. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/01/28-osm-scraping/</guid>
+  <pubDate>Wed, 28 Jan 2026 19:01:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/01/28-osm-scraping/osm.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Geoinformation strategy of the canton of Bern</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/12/10-elementary-geodata-for-a-digital-switzerland/</guid>
   <pubDate>Wed, 10 Dec 2025 21:52:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/12/10-elementary-geodata-for-a-digital-switzerland/luke-stackpoole-ZcMjzDGSFw4-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>First images from Sentinel-1D</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/12/01-first-images-from-sentinel-1d/</link>
-  <description><![CDATA[ #Sentinel‑1D, the newest radar satellite in #ESA’s #Copernicus Sentinel‑1 mission, was launched on 4 November and has already delivered its first C‑band #SAR images within just 50 hours of liftoff. Replacing Sentinel‑1A, it continues the mission’s all‑weather #EarthObservation while enhancing capability for detecting “dark” ships and sea pollution. #EO #RemoteSensing ]]></description>
-  <guid>https://spatialists.ch/posts/2025/12/01-first-images-from-sentinel-1d/</guid>
-  <pubDate>Mon, 01 Dec 2025 20:59:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/12/01-first-images-from-sentinel-1d/tierra-del-fuego-sentinel-1d.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
