@@ -1,0 +1,21 @@
+---
+title: "Five levels of AI use"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-01-31 10:43"
+image: "homa-appliances-pWUyHVJgLhg-unsplash.jpg"
+description: 'From "Spicy Autocomplete" to "Dark Factory", Dan Shapiro proposes SAE-inspired five levels of #AI use in #programming as a framework for how organizations mature from basic tools to full #automation.'
+---
+
+I'm with Stephan Heuel on his (concept of the) [AI loop](https://blog.heuel.org/2025/11/the-ai-emotional-loop/). A big part of the evolving AI landscape is the need to find new language to talk about it and to shape ideas. *Spicy autocomplete? Mode collapse? Ralph loop?* – Etc. 
+
+One important function of language is creating categories in order to better understand a phenomenon. Dan Shapiro, CEO of [Glowforge](https://glowforge.com), has written up [one such categorization of AI use for programming](https://www.danshapiro.com/blog/2026/01/the-five-levels-from-spicy-autocomplete-to-the-software-factory). The reference to the SAE[^sae] Levels for automated driving and the descriptions make it clear that Dan views these as *maturity* levels through which organizations progress, from *Level 0 – Spicy Autocomplete*[^six] to *Level 5 – Dark Factory*[^factory].
+
+Whether you agree or disagree with Dan's premise and the promise, it's [an interesting read](https://www.danshapiro.com/blog/2026/01/the-five-levels-from-spicy-autocomplete-to-the-software-factory/) and the levels describe quite distinct modes of applying AI to programming.
+
+[^sae]: [SAE International](https://en.wikipedia.org/wiki/SAE_International) (from "Society of Automotive Engineers") is an international association and standards organization. It proposed a [classification system of driving tasks](https://en.wikipedia.org/wiki/Self-driving_car#automation-levels) for (partly) automated driving.
+
+[^six]: Note how there are actually six zero-indexed levels. Maybe the first doesn't count as AI use? Or it's simply a call-back to SAE Levels.
+
+[^factory]: I (re?-)learned that a [dark factory](https://en.wikipedia.org/wiki/Lights_out_(manufacturing)) is called that because it requires no human presence to run. Lights can stay off.
