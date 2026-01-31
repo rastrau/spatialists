@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 28 Jan 2026 19:01:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 31 Jan 2026 10:43:00 GMT</lastBuildDate>
+<item>
+  <title>Five levels of AI use</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/01/31-five-levels-of-ai-use/</link>
+  <description><![CDATA[ From “Spicy Autocomplete” to “Dark Factory”, Dan Shapiro proposes SAE-inspired five levels of #AI use in #programming as a framework for how organizations mature from basic tools to full #automation. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/01/31-five-levels-of-ai-use/</guid>
+  <pubDate>Sat, 31 Jan 2026 10:43:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/01/31-five-levels-of-ai-use/homa-appliances-pWUyHVJgLhg-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>OSM scraping</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/12/10-3d-models-of-28-billion-buildings/</guid>
   <pubDate>Wed, 10 Dec 2025 23:42:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/12/10-3d-models-of-28-billion-buildings/essd-17-6647-2025-f03-web-cropped.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Elementary geodata for a digital Switzerland</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/12/10-elementary-geodata-for-a-digital-switzerland/</link>
-  <description><![CDATA[ swisstopo has published the concept “Elementary geodata for a digital Switzerland” developed by a working group comprising various stakeholders. The document outlines principles and suggests priority themes for essential geodata, aiming to ensure cohesive, up-to-date, and centrally accessible official geoinformation. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/12/10-elementary-geodata-for-a-digital-switzerland/</guid>
-  <pubDate>Wed, 10 Dec 2025 21:52:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/12/10-elementary-geodata-for-a-digital-switzerland/luke-stackpoole-ZcMjzDGSFw4-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
