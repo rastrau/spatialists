@@ -1,0 +1,20 @@
+---
+title: "GIS dissolution"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-02-01 14:33"
+image: "anthony-hortin-0RlZzFzUriE-unsplash.jpg"
+description: 'Ten years after his original "Post GIS" essay, Bill Dollins revisits the evolving landscape of geospatial technology in "‘Post GIS’ revisited". He traces three waves of GIS dissolution, from breaking apart monolithic systems to the rise of modular stacks and, most recently, natural-language-driven interaction, offering sharp insight into how far the field has come.'
+---
+
+10 years ago, Bill Dollins published "[Post GIS](https://blog.geomusings.com/2016/11/17/post-gis/)" (note the space) on his geoMusings blog. Now he's revisited the topic, in a new article, "['Post GIS' revisited](https://blog.geomusings.com/2026/01/28/post-gis-revisited/)". 
+
+In this update, Bill describes three waves of GIS dissolution – developments that, by his own account, went further than he could have imagined a decade ago: 
+
+- **The opening of the walled garden**: Moving from GIS monoliths to modular libraries and web standards
+- **The stack era**: Building GIS infrastructures from commodity components using standard languages and containerization
+- **The dissolution of code**: Enabling natural-language interaction and emphasis on articulation over implementation
+
+There’s much more thoughtful insight in the article, and I highly recommend checking out both [this piece](https://blog.geomusings.com/2026/01/28/post-gis-revisited/) and the [original 2017 post](https://blog.geomusings.com/2016/11/17/post-gis/).
+
