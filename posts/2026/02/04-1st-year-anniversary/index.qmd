@@ -1,0 +1,208 @@
+---
+title: "1st year anniversary"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-02-04 19:23"
+image: "https://spatialists.ch/assets/titlecard.jpg"
+description: "One year ago today, I set out to curate geospatial news independently and openly with Spatialists.ch. A year, 164 posts, and countless discoveries later, it's time to look back – and ask you about your feedback regarding this service for the geo community. Thank you for reading!"
+---
+
+# Spatialists, year one
+
+One year ago [today](https://spatialists.ch/posts/2025/02/04-hello-world/), 
+*Spatialists* went live. I had a simple premise: Curate interesting geospatial 
+news without the constraints (and lock-in!) of (fleeting[^twitter]) social 
+media platforms. *Spatialists* follows the 
+[POSSE paradigm](https://indieweb.org/POSSE) which I deem advisable in this era 
+of the internet: *Publish (on your) Own Site, Syndicate Elsewhere*. The tooling 
+behind the site is 
+[entirely open-source](https://github.com/rastrau/spatialists).[^tooling] 
+
+![POSSE: Publish (on your) Own Site, Syndicate Elsewhere (source: 
+[Indieweb](https://indieweb.org/POSSE))](posse.jpg "POSSE: Publish (on your) 
+Own Site, Syndicate Elsewhere (source: Indieweb)")
+
+I [didn't give guarantees](http://spatialists.ch/about.html) about frequency or 
+quality (still don't[^dayjob]). Spatialists is still an experiment in 
+independent, interest-driven content curation. 
+
+# A look back
+
+The idea behind *Spatialists* is very modest: A microblog for geospatial news, not 
+the long-form commentary style of (bygone, it seems, at least for now) early 
+blogging days. No elaborate and long winding analysis, but a focus on giving 
+pointers to interesting developments with brief context and sometimes critical 
+reflection.
+
+Since last February, I have published 164 posts[^sequence] covering many 
+aspects of the geospatial industry from Swiss cadastral surveying strategies to 
+#cloudnativegeo, from PostGIS and AI integration to experimental "vibe 
+cartography" and vector tile server performance. The topics range from local 
+news about developments in Switzerland to global, from deeply technical (for 
+example, GeoParquet 2.0 specifications) to more high-level.
+
+# Some major currents
+
+If I look back, I see several themes throughout the year, each revealing 
+something about where our field is heading:
+
+## The cloud-native rising
+
+The #cloudnative trend (think: GeoParquet, Cloud-Optimized GeoTIFF, PMTiles), 
+that is the ongoing transformation toward cloud-native geospatial formats and 
+workflows, captured attention.  Not because the technology is extra-ordinarily 
+revolutionary, but because it signals that "geo" is being mainstreamed in the 
+broader data engineering world.
+
+![You may have seen this before: My go-to "cloud-native" visual metaphor](tomasz-sroka-eaxgNP4cpY8-unsplash.jpg "You may have seen this before: My go-to "cloud-native" visual metaphor")
+
+Related developments reinforced this shift: STAC^[SpatioTemporal Asset Catalog] 
+becoming an official OGC^[Open Geospatial Consortium] standard and even legacy 
+tools adding, for example, GeoParquet support. A particularly bold claim came 
+from Drew Breunig: namely that DuckDB might be [the most important geospatial 
+software of the last decade](https://spatialists.ch/posts/2025/06/17-the-most-important-geospatial-software/index.html).
+
+The underlying message: geospatial is dissolving into the general modern data 
+stack (MDS). [Bill Dollins' recent "Post GIS revisited" 
+essay](https://spatialists.ch/posts/2026/02/01-gis-dissolution/) published ten 
+years after a seminal piece in the same veign also drove this point home, for 
+me.
+
+## AI everywhere?
+
+Of course, another important current was AI's increasingly tangible presence 
+in geospatial tools and work. (Hopefully) Not the hype-train, but actually 
+valuable experimentation or even implementations.
+
+![I decided against both the clichéd robot and a Nano Banana image](shahadat-rahman-voM1Z9cGPCU-unsplash.jpg "I decided against both the clichéd robot and a Nano Banana image")
+
+For example, the [GeoAI report for Switzerland](https://spatialists.ch/posts/2025/03/25-geoai-state-of-play-in-2025/index.html) by The *Innovation Booster Articificial Intelligence* provided a snapshot 
+of how players are integrating AI into GIS applications. Geneva's 
+SITG^[Système d’information du territoire à Genève] tested [autonomous GIS 
+capabilities](https://spatialists.ch/posts/2025/04/30-testing-autonomous-gis/index.html). 
+And very recently, [Brian Timoney explored how AI can both use PostGIS and be 
+used from within PostGIS](https://spatialists.ch/posts/2026/01/23-postgis-ai/) 
+and Dan Shapiro proposed [five maturity levels for AI use in software 
+development](https://spatialists.ch/posts/2026/01/31-five-levels-of-ai-use/). 
+What emerges is a picture of a field trying to integrate a powerful but not yet 
+perfected and not yet perfectly understood tool.
+
+## The Swiss ecosystem in motion
+
+For a site with a declared Swiss perspective, the past year also offered a view 
+of a national geospatial ecosystem in (further) development. The Swiss 
+Geoinformation Strategy (SGS) defined or updated 
+[action](https://spatialists.ch/posts/2025/02/17-sgs-action-plan-2025/index.html) 
+[plans](https://spatialists.ch/posts/2026/01/25-just-out-sgs-action-plan-2026/index.html) and 
+[reflected on its progress](https://spatialists.ch/posts/2025/05/12-recording-colloquium-on-the-state-of-sgs-implementation/index.html). The 
+[cantons of Basel-Stadt](https://spatialists.ch/posts/2025/06/24-mapbs-3d-and-launch-event/index.html) and 
+[Zug](https://spatialists.ch/posts/2025/06/03-3d-mode-and-customer-survey-for-zugmap/index.html) launched new 3D geoportals, the canton of Aargau 
+[launched a modernized map viewer](https://spatialists.ch/posts/2025/03/31-new-map-viewer-for-the-canton-of-aargau/index.html). And: The [SWISSGEO](https://spatialists.ch/posts/2025/06/13-swissgeo-the-swiss-geospatial-platform/index.html) platform progressed from concept to 
+[prototype](https://spatialists.ch/posts/2025/09/01-swissgeo-prototype-online/index.html). 
+What made these developments interesting were less the technical aspects, but 
+rather watching policy, infrastructure, and community interact. 
+
+Particularly innovative and refreshing initiatives, in my opionion, were 
+not-just-geospatial but interdisciplinary – case in point: the [real-time 
+Earth observation pipeline for drought monitoring](https://spatialists.ch/posts/2025/05/09-new-national-drought-platform/index.html) – and not governmental or even institutional but 
+effected by driven and skilled individuals – for example:
+
+- [Fabian](https://spatialists.ch/posts/2025/04/05-serving-vector-tiles-fast/index.html) 
+[Rechsteiner](https://spatialists.ch/posts/2026/01/25-vectormap-swiss-vector-maps/index.html) 
+(Vector tiles)
+- [Stephan](https://spatialists.ch/posts/2025/02/08-topodiscs-custom-3D-printed-swiss-landscapes/index.html) 
+[Heuel](https://spatialists.ch/posts/2025/02/20-cloud-native-web-app-case-study/index.html) 
+(3D printing and cloud-native geo)
+- [David](https://spatialists.ch/posts/2025/10/01-vibing-cartography/index.html) 
+[Oesch](https://spatialists.ch/posts/2025/10/13-vibe-cartography-sandbox/index.html) 
+(AI cartography) and 
+- [Oliver Wipfli](https://spatialists.ch/posts/2025/09/02-mapterhorn-terrain-tiles/index.html) 
+(3D service)
+
+It was exciting to see them build *and share their ideas in public* and to see 
+the community respond with interest and support. I hope to see more of this in 
+the future, and I hope that *Spatialists* can be a platform to share and 
+amplify such work.
+
+![Switzerland: Not an island (duh!)](claudio-schwarz-MNm04LZJ0w4-unsplash.jpg "Switzerland: Not an island (duh!)")
+
+I'm sure, the Swiss story isn't unique. Many regions probably have similar 
+dynamics and ask themselves similar questions. At least, that is the belief 
+which underpins my hope that Swiss content is met with interest also in other 
+regions of the world. While I haven't done any systematic analysis, this seems 
+to be correct. 
+
+# Reflecting ...
+
+Some of my impressions and learnings about the past year:
+
+- The microblog format feels more sustainable than a full-fledged blog. My hope
+is that the pointers and resources are inspiring to some people, help advance 
+the discourse within our field and maybe inspire somebody to build on top of 
+them.
+
+- When I draft an article, my script [puts the publication time 15 minutes in 
+the future](https://github.com/rastrau/spatialists/blob/7a1c066748fd7ae91dee90f6172b355b625e0867/draft.py#L60). 
+On some occasions this worked out. On many^[many!] more occasions though I need 
+some or quite some more time than that to write a post. Overall, I gauge that I 
+invest maybe 1 to 2 hours per week on average, for choosing a topic, writing, 
+summarizing, and finding and formatting images. Of course, I invest more time 
+to read up on geospatial news and developments; that is not specific to this 
+project, though, but something I have always done as part of my professional 
+development.
+
+- It was very nice to see that a few people have approached me with ideas for 
+posts, reached out with feedback or recommended *Spatialists* within their 
+network. It was also fantastic to see some people sport one of the *Spatialists* 
+stickers on their laptops!
+
+- Two people, Stephan Heuel and David Oesch, even [contributed 
+posts](http://spatialists.ch/contribute.html) and thus broadened the 
+perspective, which was a great pleasure!
+
+- Curating feels good: I get to read about and share interesting developments, 
+guided by my (and hopefully the readers') interests, and I get to reflect on 
+them. Through this process, thematic coverage is of course idiosyncratic. I 
+hope the mix of topics works not just for me.
+
+# ... and asking for your input!
+
+As *Spatialists* enters its second year, I'm interested in your thoughts:
+
+- **What is missing?** – Are there topics or perspectives that should get more 
+attention? What's being undercovered?
+
+- **What is particularly useful?** – Does the current format and mix of topics 
+work for you? Are there adjacent topics worth covering?
+
+- **What resonates with you?** – Which posts or themes have you found most 
+valuable? What made them stand out?
+
+I'm particularly curious about how practitioners use (or would like to use) a 
+resource like this. The original premise – independent, interest-driven 
+curation – will remain, I think, but within that model, there is room to 
+evolve.
+
+**Feel free to [contact me through mail](mailto:mail@spatialists.ch)!**
+
+![Looking forward to hearing from you!](volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.jpg "Looking forward to hearing from you!")
+
+# Thank you!
+
+To: 
+
+- everyone who has read, shared, recommended, or discussed Spatialists.ch 
+- the occasional contributors who have shared their perspectives
+- everybody who has shared feedback, ideas, or encouragement, and 
+- the many people creating the work that gets covered here: 
+
+**Thank you so much!**
+
+[^twitter]: For some years, I *was* quite active on Twitter, for example. No more. Besides shifting platform and other politics, there is also the normal [enshittification](https://en.wikipedia.org/wiki/Enshittification) cycle, which makes platforms unattractive *as primary or exclusive outlets*, in my opinion.
+
+[^tooling]: While I don't host the site on GitHub for several reasons, that would be entirely possible. Everything (about this tooling! – not, like, in the world 🙂) can be had for free: GitHub account, GitHub actions (free tier), Mastodon account, LinkedIn account, Zapier (free tier). The latter is only for conveniently posting from the RSS feed to LinkedIn. But that could, of course, also be solved differently. Feel free to [contact me](mailto:mail@spatialists.ch) if you'd like to learn more.
+
+[^sequence]: The number of posts per month, from February 2025 to February 2026 is: 15 + 18 + 17 + 17 + 16 + 16 + 4 + 10 + 18 + 9 + 10 + 13 + 1 = 164. That's a bit more than 3 posts per week, approximately 4 per week outside of holidays.
+
+[^dayjob]: I would like to be able to dedicate more time to this endeavour, but I also have a day-job 🙂
