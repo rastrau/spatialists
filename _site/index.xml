@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Sun, 01 Feb 2026 14:33:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 04 Feb 2026 19:23:00 GMT</lastBuildDate>
+<item>
+  <title>1st year anniversary</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/02/04-1st-year-anniversary/</link>
+  <description><![CDATA[ One year ago today, I set out to curate geospatial news independently and openly with Spatialists.ch. A year, 164 posts, and countless discoveries later, it’s time to look back – and ask you about your feedback regarding this service for the geo community. Thank you for reading! ]]></description>
+  <guid>https://spatialists.ch/posts/2026/02/04-1st-year-anniversary/</guid>
+  <pubDate>Wed, 04 Feb 2026 19:23:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/assets/titlecard.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>GIS dissolution</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/12/13-so-many-to-choose-from/</guid>
   <pubDate>Sat, 13 Dec 2025 20:15:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/12/13-so-many-to-choose-from/british-library-qYMlpeQypGU-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Swiss government open-source catalog</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/12/11-swiss-government-open-source-catalog/</link>
-  <description><![CDATA[ Under Article 9 of Switzerland’s “Federal Act on the Use of Electronic Means to Carry Out Official Tasks” (#EMBAG/#LMETA), federal authorities must publish the source code of software they develop or commission, marking a step toward greater digital #sovereignty. The resulting Swiss Federal #OSS Catalog now lists around 60 #opensource projects with #swisstopo’s #STAC API and the mapping application #KADASAlbireo among them. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/12/11-swiss-government-open-source-catalog/</guid>
-  <pubDate>Thu, 11 Dec 2025 22:14:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/12/11-swiss-government-open-source-catalog/oss-catalog.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
