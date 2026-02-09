@@ -49,8 +49,8 @@ body:
   - type: textarea
     id: transparency-note
     attributes:
-      label: Describe in one sentence, if you are involved in some capacity in what your submission is about (e.g. you lead a project that is mentioned, you work at an organisation that is mentioned, etc.).
-      value: Transparency note: Describe in one sentence, if you are involved in some capacity in what your submission is about.
+      label: Transparency note. Describe in one sentence, if you are involved in some capacity in what your submission is about (e.g. you lead a project that is mentioned, you work at an organisation that is mentioned, etc.).
+      value: Describe in one sentence, if you are involved in some capacity in what your submission is about.
     validations:
       required: false
   - type: textarea
