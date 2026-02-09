@@ -46,6 +46,13 @@ body:
       label: Post author
     validations:
       required: true
+  - type: input
+    id: author-url
+    attributes:
+      label: URL for author (optional)
+      value: URL for author (e.g. personal website, LinkedIn profile). If you submit an URL, your byline will hyperlink to it.
+    validations:
+      required: false
   - type: textarea
     id: transparency-note
     attributes:
