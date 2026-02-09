@@ -34,7 +34,7 @@ body:
   - type: textarea
     id: post-blurb
     attributes:
-      label: Blurb or short intro, two sentences long (appears on the main page, in the Mastodon post and in the LinkedIn post). Please use appropriate hashtags as part of the text. The hashtags #GIS #GISchat #geospatial #SwissGIS will be added by default, you don't have to use these.
+      label: Blurb or short intro, two sentences long (appears on the main page, in the Mastodon post and in the LinkedIn post). Please use appropriate hashtags as part of the text. The hashtags "GIS", "GISchat", "geospatial", "SwissGIS" will be added by default, you don't have to use these.
       placeholder: The blurb or short intro/teaser for the post goes here. It is two sentences long. Use common #hashtags. The hashtags #GIS #GISchat #geospatial #SwissGIS will be added by default.
       value: | 
         The blurb or short intro/teaser for the post goes here. It is two sentences long. Use common #hashtags. The hashtags #GIS #GISchat #geospatial #SwissGIS will be added by default.
