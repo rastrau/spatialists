@@ -6,12 +6,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to submit a post idea!
+        Thanks for taking the time to submit a post idea! Please note: Your post may be edited, in which case you will get final approval. Your post may also be refused, for example, if it has marketing character or if it is deemed not suitable or interesting for the Spatialists.ch audience.
   - type: textarea
     id: post-content
     attributes:
       label: Post content
-      placeholder: The content of the post goes here. You can use Markdown elements for formatting your text,
+      placeholder: The content of the post goes here. You can use Markdown elements for formatting your text.
       value: | 
         The content of the post goes here. You can use Markdown elements for formatting your text, for example:
         
@@ -34,10 +34,10 @@ body:
   - type: textarea
     id: post-blurb
     attributes:
-      label: Blurb or short intro, two sentences long (appears on the main page, in the Mastodon post and in the LinkedIn post)
-      placeholder: The blurb or short intro/teaser for the post goes here. It is two sentences long. Use common #hashtags.
+      label: Blurb or short intro, two sentences long (appears on the main page, in the Mastodon post and in the LinkedIn post). Please use appropriate hashtags as part of the text. The hashtags #GIS #GISchat #geospatial #SwissGIS will be added by default, you don't have to use these.
+      placeholder: The blurb or short intro/teaser for the post goes here. It is two sentences long. Use common #hashtags. The hashtags #GIS #GISchat #geospatial #SwissGIS will be added by default.
       value: | 
-        The blurb or short intro/teaser for the post goes here. It is two sentences long. Use common #hashtags.
+        The blurb or short intro/teaser for the post goes here. It is two sentences long. Use common #hashtags. The hashtags #GIS #GISchat #geospatial #SwissGIS will be added by default.
     validations:
       required: true
   - type: input
@@ -46,6 +46,13 @@ body:
       label: Post author
     validations:
       required: true
+  - type: textarea
+    id: transparency-note
+    attributes:
+      label: Transparency note: Describe in one sentence, if you are involved in some capacity in what your submission is about (e.g. you lead a project that is mentioned, you work at an organisation that is mentioned, etc.).
+      value: Transparency note: Describe in one sentence, if you are involved in some capacity in what your submission is about.
+    validations:
+      required: false
   - type: textarea
     id: message
     attributes:
@@ -58,7 +65,8 @@ body:
       label: Declaration
       description: |
         By submitting this issue, I confirm that:
-        - I have the right to submit it.
+        - I have the right to submit it, including suggested imagery.
+        - I understand and agree that my post may be refused.
         - I understand and agree that this project, spatialists.ch, and thus my contribution is public.
         - A record of my submission will be kept.
       options:
