@@ -5,9 +5,7 @@ author:
     url: https://ralphstraumann.ch
 date: "2026-02-10 20:30"
 image: "building-heatmap-cropped.jpg"
-description: "Mark Litwintschik offers a look into #Microsoft’s #GlobalMLBuildingFootprints dataset, exploring global #building density, height coverage, and data confidence. His analysis not only reveals insights into important dataset characteristics but also demonstrates how to access and explore the dataset efficiently using #DuckDB.
-
-"
+description: "Mark Litwintschik offers a look into #Microsoft’s #GlobalMLBuildingFootprints dataset, exploring global #building density, height coverage, and data confidence. His analysis not only reveals insights into important dataset characteristics but also demonstrates how to access and explore the dataset efficiently using #DuckDB."
 ---
 
 I think[^4years] since 4 years, Microsoft has been providing a global building 
