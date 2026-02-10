@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 04 Feb 2026 19:23:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 10 Feb 2026 20:30:00 GMT</lastBuildDate>
+<item>
+  <title>Microsoft 2026 GlobalMLBuildingFootprints update examined</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/02/10-microsoft-2026-globalmlbuildingfootprints-update-examined/</link>
+  <description><![CDATA[ Mark Litwintschik offers a look into #Microsoft’s #GlobalMLBuildingFootprints dataset, exploring global #building density, height coverage, and data confidence. His analysis not only reveals insights into important dataset characteristics but also demonstrates how to access and explore the dataset efficiently using #DuckDB. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/02/10-microsoft-2026-globalmlbuildingfootprints-update-examined/</guid>
+  <pubDate>Tue, 10 Feb 2026 20:30:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/02/10-microsoft-2026-globalmlbuildingfootprints-update-examined/building-heatmap-cropped.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>1st year anniversary</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/12/15-data-designed/</guid>
   <pubDate>Mon, 15 Dec 2025 21:25:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/12/15-data-designed/pawel-czerwinski-W10XfpqLu4Y-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>So many to choose from</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/12/13-so-many-to-choose-from/</link>
-  <description><![CDATA[ In his latest post, Mark Litwintschik compares a range of global administrative #boundary datasets, from #OpenStreetMap to #NaturalEarth, assessing geometric #accuracy, data #completeness, and information content. The analysis, powered by #DuckDB and #QGIS, reveals surprising differences in how nations’ borders are represented across data sources. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/12/13-so-many-to-choose-from/</guid>
-  <pubDate>Sat, 13 Dec 2025 20:15:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/12/13-so-many-to-choose-from/british-library-qYMlpeQypGU-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
