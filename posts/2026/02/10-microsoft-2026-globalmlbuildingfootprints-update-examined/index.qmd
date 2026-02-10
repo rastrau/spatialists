@@ -1,0 +1,36 @@
+---
+title: "Microsoft 2026 GlobalMLBuildingFootprints update examined"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-02-10 20:30"
+image: "building-heatmap-cropped.jpg"
+description: "Mark Litwintschik offers a look into #Microsoft’s #GlobalMLBuildingFootprints dataset, exploring global #building density, height coverage, and data confidence. His analysis not only reveals insights into important dataset characteristics but also demonstrates how to access and explore the dataset efficiently using #DuckDB.
+
+"
+---
+
+I think[^4years] since 4 years, Microsoft has been providing a global building 
+footprints dataset under the `GlobalMLBuildingFootprints` name. Besides this 
+main dataset, there are also [regional datasets for various regions](https://github.com/microsoft/GlobalMLBuildingFootprints?tab=readme-ov-file#will-there-be-more-data-coming-for-other-geographies).
+
+[![Building density heatmap based on Microsoft's GlobalMLBuildingFootprints data (source: Mark Litwintschik)](building-heatmap.jpg "Building density heatmap based on Microsoft's GlobalMLBuildingFootprints data (source: Mark Litwintschik)")](https://tech.marksblogg.com/ms-buildings-2026.html)
+
+In a fresh article, Mark Litwintschik takes [a closer look at the 
+data](https://tech.marksblogg.com/ms-buildings-2026.html) – something which is 
+done too rarely, I think. He visualizes, among others, global building density, the coverage of building heights (focussed on the USA, Europe, and parts of Oceania), and confidence values, and also highlights various types of false positives[^errors]. As an additional benefit, 
+[Mark's article](https://tech.marksblogg.com/ms-buildings-2026.html) also 
+shows how Microsoft's data can be obtained and explored using DuckDB.
+
+[^4years]: The article I link to here as well as the ["Microsoft Building Footprints" entry](https://planetarycomputer.microsoft.com/dataset/ms-buildings) in Microsoft's Planetary Computer both 
+indicate 2014 as the starting year. Besides my memory (which may be false), 
+looking at the GlobalMLBuildingFootprints repository and its 
+[Readme](https://github.com/microsoft/GlobalMLBuildingFootprints?tab=readme-ov-file#introduction) 
+makes me think that while some of the data used dates back to 2014, the first 
+computation and release of this data was much later. The 
+[OpenStreetMap wiki](https://wiki.openstreetmap.org/wiki/Microsoft_Building_Footprint_Data) 
+seems to confirm my hunch.
+
+[^errors]: ... or "errors of commission", "type 1 errors"... – or what term 
+your (sub)discipline prefers. 
+
