@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Tue, 10 Feb 2026 20:30:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 12 Feb 2026 11:18:00 GMT</lastBuildDate>
+<item>
+  <title>Geospatial data integration with Apache Hop</title>
+  <dc:creator>Stefan Keller</dc:creator>
+  <link>https://spatialists.ch/posts/2026/02/12-geospatial-data-integration-with-apache-hop/</link>
+  <description><![CDATA[ Over 100 participants joined a webinar on “Enterprise and Geodata Integration with #Apache #Hop”, highlighting interest in open, extensible geospatial #DataEngineering and #ETL. The session introduced two new geospatial Hop plugins, outlined future extensions and underscored important developments in #DataIntegration. #ASF ]]></description>
+  <guid>https://spatialists.ch/posts/2026/02/12-geospatial-data-integration-with-apache-hop/</guid>
+  <pubDate>Thu, 12 Feb 2026 11:18:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/02/12-geospatial-data-integration-with-apache-hop/apache-hop-logo.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Microsoft 2026 GlobalMLBuildingFootprints update examined</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/12/16-independent-map-sellers/</guid>
   <pubDate>Tue, 16 Dec 2025 18:01:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/12/16-independent-map-sellers/buildings-of-amsterdam-letsmakeamap-cropped.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Data, designed</title>
-  <dc:creator>David Oesch</dc:creator>
-  <link>https://spatialists.ch/posts/2025/12/15-data-designed/</link>
-  <description><![CDATA[ #Data is more than an asset: it is a designed experience, a product. Jed Sundwall’s article “Great #DataProducts” reminds us that #OpenData matters only when paired with intent, usability, and care in creation. A shout out for #DataDesign and #ProductThinking for #geospatial data. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/12/15-data-designed/</guid>
-  <pubDate>Mon, 15 Dec 2025 21:25:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/12/15-data-designed/pawel-czerwinski-W10XfpqLu4Y-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
