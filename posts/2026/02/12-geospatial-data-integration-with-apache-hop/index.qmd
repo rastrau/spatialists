@@ -1,0 +1,22 @@
+---
+title: "Geospatial data integration with Apache Hop"
+author:
+  - name: Stefan Keller
+    url: https://www.linkedin.com/in/stefan-keller-44785a10/
+date: "2026-02-12 11:18"
+image: "apache-hop-logo.png"
+description: 'Over 100 participants joined a webinar on "Enterprise and Geodata Integration with #Apache #Hop", highlighting interest in open, extensible geospatial #DataEngineering and #ETL. The session introduced two new geospatial Hop plugins, outlined future extensions and underscored important developments in #DataIntegration. #ASF'
+---
+
+On February 10, 2026, I[^transparency] hosted a webinar entitled “[Enterprise and Geodata Integration with Apache Hop](https://www.giswiki.ch/Enterprise-_und_Geo-Datenintegration_und_Apache_Hop_2026-02)”, which attracted considerable interest with over 100 participants.
+
+The focus was on two new GIS plugins within the [Apache Hop ecosystem](https://hop.apache.org/)[^hop] ([previously](https://spatialists.ch/posts/2025/07/15-webinar-on-data-integration-using-apache-hop/index.html)). These plugins have been added to those already available in Hop for quite some time. The compilation of potential future Hop extensions within the webinar was particularly interesting: The online poll I ran on this topic provided interesting insights into which of the suggestions receive most demand. The proposals and results can be seen on slide 27 in the [webinar materials](https://drive.switch.ch/index.php/s/d063I2eaMsBHoSi) (pdf, in German).
+
+![Apache Hop (source: Stefan Keller)](apache-hop.png "Apache Hop (source: Stefan Keller)")
+
+I think Apache Hop can already be used with geodata, provided that the properties of Apache Hop and the open-source paradigm are taken into account. This requires a cultural shift towards open-source and a change in the architectural model to Hop.
+
+The webinar slides are [available for download](https://giswiki.ch/Webinar_Apache_Hop_GIS_2026) (pdf, in German).
+
+[^transparency]: Transparency note: Pretty self-explaining. I hosted the webinar in my capacity as [professor for Data Engineering and GISTech](https://www.ost.ch/de/person/stefan-f-keller-1419) at [FH OST](https://www.ost.ch/).
+[^hop]: “Hop” stands for “Hop Orchestration Platform”. While the wordmark looks as if “HOP” is all upper-case, the copy of the official website actually calls it “Hop”.
