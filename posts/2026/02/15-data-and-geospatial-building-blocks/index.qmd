@@ -1,0 +1,19 @@
+---
+title: "Data and geospatial building blocks"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-02-15 15:03"
+image: "a-c-fsy2bD7Pep8-unsplash.jpg"
+description: "What happens when #AI crashes the GIS party? In “AI ate my GIS”, Will Cadell of Sparkgeo takes a sharp and forward‑thinking look at how market shifts and AI-enabled tooling could upend who shapes the future of geospatial technology."
+---
+
+A lot has been written about using Artificial Intelligence for geospatial tasks, but what does AI mean at a more fundamental level for the future of GIS? [Will Cadell](https://www.linkedin.com/in/willcadell/), founder and CEO of [Sparkgeo](https://sparkgeo.com) explores this topic in a recent article, "[AI ate my GIS](https://www.strategicgeospatial.com/p/ai-ate-my-gis)", and emphasizes quality data product and AI-ready building stones as potential ways to engage with shifting market forces.
+
+The article contains many interesting observations and quotable lines (no spoilers!). And it asks poignant questions to the GIS industry:
+
+> My point is about (...) the disruption that occurs when an underserved market encounters a low-cost product. That underserved market could be the deep geospatial horizontal referred to above, and the low-cost product could be prompt-driven AI.
+> 
+> The question here, then, is whether this new geospatial market will be served by traditional geospatial technology companies or by others. If we remember, Google Maps was created by a web search company, not a mapping company.
+
+[Recommended reading](https://www.strategicgeospatial.com/p/ai-ate-my-gis).
