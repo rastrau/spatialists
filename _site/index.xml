@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Thu, 12 Feb 2026 11:18:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 15 Feb 2026 15:03:00 GMT</lastBuildDate>
+<item>
+  <title>Data and geospatial building blocks</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/02/15-data-and-geospatial-building-blocks/</link>
+  <description><![CDATA[ What happens when #AI crashes the GIS party? In “AI ate my GIS”, Will Cadell of Sparkgeo takes a sharp and forward‑thinking look at how market shifts and AI-enabled tooling could upend who shapes the future of geospatial technology. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/02/15-data-and-geospatial-building-blocks/</guid>
+  <pubDate>Sun, 15 Feb 2026 15:03:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/02/15-data-and-geospatial-building-blocks/a-c-fsy2bD7Pep8-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Geospatial data integration with Apache Hop</title>
   <dc:creator>Stefan Keller</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/12/16-deep-dive-on-pruning/</guid>
   <pubDate>Tue, 16 Dec 2025 22:06:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/12/16-deep-dive-on-pruning/bounding-boxes.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Independent map sellers</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/12/16-independent-map-sellers/</link>
-  <description><![CDATA[ In case you are interested in buying #map #art, “Independent Map Sellers” is a nice curated shopping guide offered by the Independent Map Artists. The guide features the work of more than 50 independent cartographers whose work can be bought. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/12/16-independent-map-sellers/</guid>
-  <pubDate>Tue, 16 Dec 2025 18:01:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/12/16-independent-map-sellers/buildings-of-amsterdam-letsmakeamap-cropped.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
