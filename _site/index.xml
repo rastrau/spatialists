@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Sun, 15 Feb 2026 15:03:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 17 Feb 2026 19:47:00 GMT</lastBuildDate>
+<item>
+  <title>Going underground</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/02/17-going-underground/</link>
+  <description><![CDATA[ New York City’s (and other cities’) push to map #underground #infrastructure reveals how little is often truly known about what lies beneath the streets and how costly that ignorance can be. Even in an age of seemingly abundant #data, critical gaps still disrupt the #planning and #maintenance of public infrastructure. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/02/17-going-underground/</guid>
+  <pubDate>Tue, 17 Feb 2026 19:47:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/02/17-going-underground/nicolas-j-leclercq-WJg2bynUWOk-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Data and geospatial building blocks</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2025/12/17-review-geospatial-2025/</guid>
   <pubDate>Wed, 17 Dec 2025 23:11:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2025/12/17-review-geospatial-2025/riswan-ratta-aBIqy9U41x8-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Deep dive on pruning</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/12/16-deep-dive-on-pruning/</link>
-  <description><![CDATA[ Dewey Dunnington’s latest blog post dives deep into how pruning, the selective reading of relevant data, makes #GeoParquet blazing fast in both local and #cloudnative contexts. Featuring hands-on comparisons across #SedonaDB, #DuckDB, #GeoPandas, #GDAL, and #Sedona #Spark, it’s a must-read for anyone exploring efficient cloud-native geospatial workflows. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/12/16-deep-dive-on-pruning/</guid>
-  <pubDate>Tue, 16 Dec 2025 22:06:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/12/16-deep-dive-on-pruning/bounding-boxes.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
