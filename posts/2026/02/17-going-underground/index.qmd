@@ -1,0 +1,24 @@
+---
+title: "Going underground"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-02-17 19:47"
+image: "nicolas-j-leclercq-WJg2bynUWOk-unsplash.jpg"
+description: "New York City's (and other cities') push to map #underground #infrastructure reveals how little is often truly known about what lies beneath the streets and how costly that ignorance can be. Even in an age of seemingly abundant #data, critical gaps still disrupt the #planning and #maintenance of public infrastructure."
+---
+
+The Gothamist[^gothamist] has an interesting [article covering New York City's effort to map underground infrastructure](https://gothamist.com/news/new-york-city-is-making-a-top-secret-map-of-everything-under-the-street)[^underground]. The article is not technical but is well suited to sharpening geospatial professionals'^[I.e., your] understanding of the nature of public data and, more importantly, the gaps within it that may come as a surprise to some. 
+
+Lacking accurate knowledge of what lies underground, of course, comes at a cost. From the [article](https://gothamist.com/news/new-york-city-is-making-a-top-secret-map-of-everything-under-the-street): 
+
+> The York Avenue Sewer Replacement project was only supposed to take two or three years. That is, until crews opened the street and found a spaghetti-like jumble of pipes and utilities underground. Without a centralized, comprehensive map to help navigate the underground labyrinth, unexpected findings have cost the city millions of dollars and years of delays, said Thomas Wynne, deputy commissioner of infrastructure for the city’s Department of Design and Construction.
+
+This reminds me of a project that aimed to optimize the maintenance and decommissioning of a municipality's gas pipeline network. The "data people" in the project were ready with infrastructure lifetime estimates and a sophisticated modelling approach. The reality check regarding underground data availability (or lack thereof) came swiftly. It took the form of the municipality’s domain specialist stating something along the lines of (emphasis added): 
+
+> A few decades ago, when the pipelines were installed, *only sometimes* the foreman took notes on a cigarette box and *maybe* brought them back to the office.
+
+Even in the era of seeming data abundance, significant gaps remain.
+
+[^gothamist]: The [Gothamist](https://gothamist.com) is a "non-profit newsroom" about "New York City news, arts, events and food" published by [New York Public Radio](https://www.nypublicradio.org/).
+[^underground]: Or as the article with added hyperbole calls it: a "top-secret map of everything under the street". I haven't found out what is "top-secret" about it.
