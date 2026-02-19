@@ -1,0 +1,19 @@
+---
+title: "Spatial SQL sandbox"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-02-19 21:01"
+image: "spatial-sql-explorer-cropped.png"
+description: "Kyle Walker's #SpatialSQL Explorer is a clever web app that lets you run spatial #SQL queries on #GeoJSON files directly in your browser using #DuckDB-#Wasm and #MapLibre. Upload WGS84 data (demo or your own), write queries with functions like ST_Touches() or ST_Centroid(), and watch the map and table update live as you explore."
+---
+
+From [Kyle Walker](https://bsky.app/profile/kylewalker.bsky.social/post/3mf3a3uolfs25) comes an interesting web app: Kyle's "[Spatial SQL Explorer](https://personal.tcu.edu/kylewalker/urbangis/sql-explorer/)" can be used to explore a demo GeoJSON file or one of your choosing using Spatial SQL queries. 
+
+![Spatial SQL Explorer: Test using Swiss municipality borders (Swisstopo) in GeoJSON format from [Roman Karavia](https://labs.karavia.ch/swiss-boundaries-geojson/)](spatial-sql-explorer.png "Spatial SQL Explorer: Test using Swiss municipality borders (Swisstopo) in GeoJSON format from Roman Karavia")
+
+The app is built using [DuckDB](https://duckdb.org/)-[Wasm](https://duckdb.org/2021/10/29/duckdb-wasm)[^wasm] and [MapLibre](https://maplibre.org/). It ingests standard GeoJSON files. Only data in WGS1984 is accepted[^wgs]. Both the map and the tabular display is updated in real time as your SQL query is executed.
+
+[^wasm]: "Wasm" stands for "WebAssembly". While Wasm is also usable in non-web environments, its main goal is to facilitate high-performance applications on web pages.
+
+[^wgs]: Or more precisely: data having expected min/max values for longitude and latitude. GeoJSON files have no Coordinate Reference System (CRS) information, so the app cannot be sure about the actual CRS.
