@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Tue, 17 Feb 2026 19:47:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 19 Feb 2026 21:01:00 GMT</lastBuildDate>
+<item>
+  <title>Spatial SQL sandbox</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/02/19-spatial-sql-sandbox/</link>
+  <description><![CDATA[ Kyle Walker’s #SpatialSQL Explorer is a clever web app that lets you run spatial #SQL queries on #GeoJSON files directly in your browser using #DuckDB-#Wasm and #MapLibre. Upload WGS84 data (demo or your own), write queries with functions like ST_Touches() or ST_Centroid(), and watch the map and table update live as you explore. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/02/19-spatial-sql-sandbox/</guid>
+  <pubDate>Thu, 19 Feb 2026 21:01:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/02/19-spatial-sql-sandbox/spatial-sql-explorer-cropped.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Going underground</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/01/06-map-first-stac-search-and-visualization/</guid>
   <pubDate>Tue, 06 Jan 2026 22:49:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/01/06-map-first-stac-search-and-visualization/stac-map-fsdi-ibex-cropped.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Review: Geospatial 2025</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2025/12/17-review-geospatial-2025/</link>
-  <description><![CDATA[ Linda Stevens has published “GIS and Geospatial 2025: A Year in Review”, summarizing the highlights and lowlights that shaped the past year in our industry – from the rise of geospatial #AI to pricing pressures. The piece offers a timely perspective on where the sector has progressed and where it continues to struggle as 2026 approaches. ]]></description>
-  <guid>https://spatialists.ch/posts/2025/12/17-review-geospatial-2025/</guid>
-  <pubDate>Wed, 17 Dec 2025 23:11:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2025/12/17-review-geospatial-2025/riswan-ratta-aBIqy9U41x8-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
