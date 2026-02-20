@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Thu, 19 Feb 2026 21:01:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 20 Feb 2026 19:19:00 GMT</lastBuildDate>
+<item>
+  <title>OMF STAC inluding pmtiles</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/02/20-omf-stac-inluding-pmtiles/</link>
+  <description><![CDATA[ The #Overture Maps Foundation (#OMF) has released a #STAC for its data themes – including addresses, buildings, places, and transportation – available as #cloudnative #GeoParquet and #PMTile files via AWS and Azure. The #PMTiles are ready-to-use, e.g. to easily preview in Protomaps for quick exploration. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/02/20-omf-stac-inluding-pmtiles/</guid>
+  <pubDate>Fri, 20 Feb 2026 19:19:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/02/20-omf-stac-inluding-pmtiles/omf-pmtiles-viewer.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Spatial SQL sandbox</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/01/08-direction-for-cadastral-surveying/</guid>
   <pubDate>Thu, 08 Jan 2026 22:26:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/01/08-direction-for-cadastral-surveying/vision-av.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Map-first STAC search and visualization</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/01/06-map-first-stac-search-and-visualization/</link>
-  <description><![CDATA[ #DevelopmentSeed has released #stacmap, an #opensource, map-first visualizer for exploring and searching #STAC collections through a simple, browser-based interface. It already supports natural-language queries (albeit experimentally) and also stac-#geoparquet. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/01/06-map-first-stac-search-and-visualization/</guid>
-  <pubDate>Tue, 06 Jan 2026 22:49:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/01/06-map-first-stac-search-and-visualization/stac-map-fsdi-ibex-cropped.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
