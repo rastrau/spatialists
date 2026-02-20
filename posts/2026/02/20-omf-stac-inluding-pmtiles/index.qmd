@@ -1,0 +1,33 @@
+---
+title: "OMF STAC inluding pmtiles"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-02-20 19:19"
+image: "omf-pmtiles-viewer.jpg"
+description: "The #Overture Maps Foundation (#OMF) has released a #STAC for its data themes – including addresses, buildings, places, and transportation – available as #cloudnative #GeoParquet and #PMTile files via AWS and Azure. The #PMTiles are ready-to-use, e.g. to easily preview in Protomaps for quick exploration."
+---
+
+The Overture Map Foundation (OMF) has published a STAC^[SpatioTemporal Asset Catalog] for its data releases. The STAC endpoint can be found at <https://labs.overturemaps.org/stac/catalog.json>. It can be explored using, for example, the [Radiant Earth](https://radiant.earth/) [STAC browser](https://radiantearth.github.io/stac-browser/#/external/stac.overturemaps.org/).
+
+Some notable features:
+
+- The OMF STAC collections encompass the OMF data themes:
+  - `addresses`
+  - `base`
+  - `buildings`
+  - `divisions` 
+  - `places` and
+  - `transportation`
+
+- At the time of writing, the OMF STAC shows a `2026-01-21` release and the option "Latest Oveture Release". For now, these are the same, but in the future, I imagine we will see full access to historical and current datasets through this STAC as the time series grows.
+
+- The code to generate the OMF STAC is [available on GitHub](https://github.com/OvertureMaps/stac), under the MIT license.
+
+- The OMF STAC offers the OMF data conveniently as Parquet files from AWS through `HTTPS` and `S3` and from Azure through `HTTPS`.
+
+![OMF base theme as pmtile in Protomaps](omf-pmtiles-viewer.jpg "OMF base theme as pmtile in Protomaps")
+
+- The OMF STAC also includes ready-to-use PMTiles. Those are served at the theme (_not_ collection, item or asset) level under "Additional Resources". For example, you can find the `base` (basemap) PMTile file [here](https://radiantearth.github.io/stac-browser/#/external/stac.overturemaps.org/2026-01-21.0/base/catalog.json) under "Additional Resources". For this theme, the PMTile file is hosted [here](https://tiles.overturemaps.org/2026-01-21.0/base.pmtiles) and you can conveniently [preview it in Protomaps](https://pmtiles.io/#url=https%3A%2F%2Ftiles.overturemaps.org%2F2026-01-21.0%2Fbase.pmtiles&map=0.78/0/0), as well.
+
+Very nice!
