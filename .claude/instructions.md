@@ -11,3 +11,6 @@ This is a Quarto-based microblog about geospatial news. Posts live in `posts/` a
 3. Use **reference-style footnotes** as the default format: `[^label]` in the text body and `[^label]: definition` at the end of the post.
 4. When a matching entry exists in `footnotes.md`, reuse its definition verbatim (the author has already curated the wording).
 
+## Blurb
+
+Every blog post needs a blurb. Blurbs are 2 sentences long and should advertise the blog post's contents in an interesting way to geospatial professionals. Key terms (individual words or groups of words) should be turned into hashtags. The hashtags "#GIS", "#geospatial", and "#SwissGIS" will be added to the RSS feed and social posts by default, i.e. these terms do not need to be marked as hashtags in the blurb. The blurb for the blogpost goes into "description" field in the YAML frontmatter.
