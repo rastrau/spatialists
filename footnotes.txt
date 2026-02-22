@@ -1,0 +1,153 @@
+[^GEDTM30]: "GEDTM" stands for "Global ensemble digital terrain model".
+[^Supermesh]: Especially densely sampled 3D data
+[^A5]: [A5](https://a5geo.org/) is a discrete global grid system (DGGS) based on irregularly-shaped pentagons.
+[^ADS-B]: Automatic Dependent Surveillance–Broadcast: A technology that allows aircraft to determine its position via, e.g., satellite navigation and periodically broadcast its position and other related data.
+[^AI]: Artificial intelligence
+[^AIS]: Automatic Identification System. AIS devices are installed on ships and emit information such as identification, position, course, and speed of the ship. The combination of SAR with an AIS instrument enables Sentinel-1D to detect so called "dark" ships, i.e., ships that have turned off their AIS to escape detection.
+[^anecdata]: [Anecdotal evidence](https://en.wikipedia.org/wiki/Anecdotal_evidence#Scientific_context)
+[^Apache Hop]: "Hop" stands for "Hop Orchestration Platform". While the wordmark looks as if “HOP” is all upper-case, the copy of the official website actually calls it “Hop”. The [recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym) maybe being a nod to "GNU"?
+[^BFS]: Breadth-First Search
+[^BigQuery]: Google's [data warehouse (DWH) Platform-as-a-Service offering](https://en.wikipedia.org/wiki/BigQuery)
+[^billion]: To be clear: "Milliarden" in German, "milliards" in French.
+[^sgsboard]: The organisation tasked with strategic oversight and steering of the implementation of the [Swiss Geoinformation Strategy](https://www.geo.admin.ch/de/strategie-und-umsetzung) from 2020
+[^CLI]: Command-line interface
+[^CLIs]: Command line interfaces
+[^cloud-native]: I.e., taking full advantage of the cloud computing model; in the data world typically through enabling [partial downloads](https://blog.sogeo.services/blog/2023/12/29/statuscode-206-letsgetstarted.html) of file contents through so-called [HTTP range requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests)
+[^COG]: Cloud-optimized GeoTIFF
+[^COGs]: Cloud-optimized GeoTIFFs
+[^COPC]: Cloud-optimized point cloud
+[^COPCs]: Cloud-optimized point clouds
+[^correctly]: [corrections welcome](mailto:mail@spatialists.ch)
+[^CORS]: Cross-Origin Resource Sharing
+[^CRAN]: The "[Comprehensive R Archive Network](https://cran.r-project.org/)", the central package manager of the R ecosystem, similar to [PyPi](https://pypi.org/project/pip/) for Python.
+[^CTO]: Chief Technology Officer
+[^4D]: The combination of three spatial dimensions with time as the fourth dimension.
+[^DAG]: Directed Acyclic Graph
+[^DAGs]: Directed Acyclic Graphs
+[^dashboards]: Be aware of the dashboard trap: [Building useless dashboards](https://www.reddit.com/r/BusinessIntelligence/comments/z335op/building_useless_dashboards/).
+[^osmdata]: The [data structure of OSM](https://wiki.openstreetmap.org/wiki/Elements) with its [key-value-tagging scheme](https://wiki.openstreetmap.org/wiki/Tags) can be daunting to use, or render usable, in a relational database or in GIS environments.
+[^DEM]: Digital elevation model
+[^dependency]: In the context of software, "dependency" describes the relationship where one software component (`A`) relies on another (`B`) to function. In this case, `B` is a dependency of `A`.
+[^DFS]: Depth-First Search
+[^DGGS]: Discrete Global Grid System.
+[^DGGSs]: Discrete Global Grid Systems.
+[^DIZH]: The [DIZH](https://www.dizh.uzh.ch) is the "Digitalization Initiative of the Zurich Higher Education Institutions". The University of Zurich (UZH), the Zurich University of Applied Sciences (ZHAW), the Zurich University of the Arts (ZHdK) and the Zurich University of Teacher Education (PHZH) form the DIZH network. The [mission](https://www.dizh.uzh.ch/en/about-us/mission/) of the DIZH is to "promote cooperation on digitalization issues between higher education institutions in Zurich, thereby strengthening the greater Zurich area as a hub for research and business".
+[^DTM]: Digital terrain model, that is a model of the "bare earth" elevations of the Earth's surface.
+[^DuckDB]: [`DuckDB`](https://www.duckdb.org/why_duckdb) is an open-source column-oriented Relational Database Management System (RDBMS) designed for analytics use-cases.
+[^EBP]: Transparency note: I work here.
+[^EMBAG]: Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG)
+[^embeddings]: Basically, a (comparably) very compact representation (in high-dimensional vector space) of large amounts of a geospatial data about a given part of the Earth's surface.
+[^enshittification]: "Enshittification" is a term coined by writer [Cory Doctorow](https://en.wikipedia.org/wiki/Cory_Doctorow). In my opinion, it is used relatively loosely here. As I understand it, Doctorow coined "enshittification" for the mechanisms prevalent specifically in *two-sided* online platforms and services. Regarding "two-sided": think, for example, web search which serves two sides of the market with – often – conflicting interests, namely the (end-)users and (enshittification says: over time, more and more) the advertising customers.
+[^EO]: Earth observation
+[^ESA]: European Space Agency
+[^ETL]: Extract-transform-load.
+[^EMOTA]: The Federal Act on the Use of Electronic Means to Carry Out Official Tasks. "[EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de)" in German and "[LMETA](https://www.fedlex.admin.ch/eli/cc/2023/682/fr)" in French.
+[^fields]: Think, for example, a digital elevation model or a rainfall intensity raster.
+[^Flask]: A Python framework for web apps.
+[^FME]: Safe Software's Feature Manipulation Engine.
+[^Foursquare]: A location technology company ([Wikipedia](https://en.wikipedia.org/wiki/Foursquare_(company)), [Crunchbase](https://www.crunchbase.com/organization/foursquare)). You may remember the Foursquare app that let you check-in to places and enabled social location sharing..
+[^FSDI]: The [Federal Spatial Data Infrastructure](https://www.geo.admin.ch/en/federal-spatial-data-infrastructure-fsdi/) of Switzerland.
+[^GeoAI]: Specifically, the application of AI on geospatial data and for answering spatial questions.
+[^geomorphometry]: The science of measuring and quantifying terrain or the the shape of the Earth's surface.
+[^GeoPandas]: [`GeoPandas`](https://geopandas.org/en/stable/getting_started/introduction.html) is an extension to the popular data science library `Pandas` that enables support for geospatial data.
+[^Germany-Austria-Switzerland-Liechtenstein]: Colloquially, this region can be called "D-A-CH-LI" in German – as a contraction of the countries' abbreviations.
+[^GERS]: The [Global Entity Reference System](https://www.spatialists.ch/posts/2025/06/28-omf-launches-gers/) by the Overture Map Foundation (OMF).
+[^GGMM]: The [SOGI GGMM](https://www.sogi.ch/de/netzwerke/standards) is the working group on "geonorms and the model-based method" of the [Swiss Organization for Geoinformation](https://www.sogi.ch/en) (SOGI/OSIG).
+[^gist]: A short piece of code, text, or data hosted on GitHub.
+[^globalremotesensing]: Well, due to the inclined orbit of course not *truly* global.
+[^GNSS]: Global Navigation Satellite System. For example: Galileo or GPS.
+[^Gothamist]: The [Gothamist](https://gothamist.com) is a "non-profit newsroom" about "New York City news, arts, events and food" published by [New York Public Radio](https://www.nypublicradio.org/).
+[^GRETL]: Gradle ETL (extract-transform-load).
+[^Grid]: Grid (tagline: "is not a journal") has been published since fall 2024 and [describes itself](https://gridisnotajournal.de/%C3%BCber-grid/) as "deal[ing] with the mutual transformations of society, technology and space in the age of digital media, infrastructures, data and algorithms". The aim of grid is to create a publication format that enables an exchange among scientists, but also makes this exchange accessible to a broader public.
+[^H3]: [H3](https://h3geo.org) is a hexagonal (mostly, except for 12 pentagons – think: football) discrete global grid system (DGGS) (Apache 2.0-licensed) created by Uber.
+[^high-resolution]: For global coverage, 30 meter is considered high-resolution.
+[^Iceberg]: An open-source, high-performance table format for large datasets in data lakes.
+[^InSAR]: Interferometric SAR.
+[^IoT]: Internet of Things.
+[^ISEA]: ISEA grids use cells that are regular polygons on the surface of an icosahedron, which are then inversely projected using the Icosahedral Snyder Equal Area (ISEA) map projection to form equal area cells on the sphere.
+[^iso-a3]: ISO 3166-1 alpha-3 country codes. For example, `CHE` for Switzerland, `FRA` for France, `GBR` for the United Kingdom.
+[^iterm2]: A popular terminal app on Mac OS.
+[^JOSIS]: JOSIS, the Journal of Spatial Information Science, is an open-access research journal dedicated to geoinformation science. Articles in JOSIS are licensed under a Creative Commons Attribution 3.0 (CC-BY) License.
+[^KGK-CGC]: The Conference of the Cantonal Geoinformation and Cadastral Offices in Switzerland.
+[^JPL]: Jet Propulsion Laboratory, a NASA research center in California.
+[^LLM]: Large language model.
+[^LLMs]: Large language models.
+[^LMETA]: Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA).
+[^LMM]: Large multi-modal model.
+[^LOD1]: [Level-of-detail 1](https://3d.bk.tudelft.nl/lod/), meaning the model captures the shape of the building footprint and the building height, but not, for example, roof shape.
+[^low-code]: Think: Visual, drag-and-drop-enabled, tools.
+[^choropleth]: A thematic map that uses different colors or shading of areas to represent data.
+[^MapBS3D]: To the English-speaking reader: "BS" being, you know, the official state abbrevation of "Basel-Stadt" (i.e., "Basel-City").
+[^Mapillary]: [Mapillary](https://en.wikipedia.org/wiki/Mapillary) is a platform for street-level imagery and data collection. It was launched by Mapillary AB in Sweden in 2013. In 2020, it was acquired by Facebook, now Meta.
+[^Mapterhorn]: A pun on "map" and the famous [Matterhorn](https://en.wikipedia.org/wiki/Matterhorn).
+[^MCP]: Model Context Protocol.
+[^MDS]: "MDS" stands for "[Modern Data Stack](https://www.fivetran.com/blog/what-is-the-modern-data-stack)", a term used to describe a set of tools and technologies for data integration, processing, and analysis. It typically includes components like ELT processes (extract, load, transform), data warehouses, data lakes, and analytics platforms.
+[^ML]: Machine learning.
+[^MVT]: Mapbox Vector Tiles.
+[^NACIS]: [North American Cartographic Information Society.](https://nacis.org/)
+[^NASA]: National Aeronautics and Space Administration of the USA.
+[^NMA]: National Mapping Agency.
+[^NMGA]: National mapping and geospatial agency
+[^NORTH51]: NORTH51 is an annual conference in Canada, a [self-described](https://www.n51.ca/who-we-are) "dynamic gathering that embodies the spirit of modernization in the geospatial industry (...) [uniting] entrepreneurs passionate about bringing a platform to the industry to share grand, global, market-changing ideas."
+[^OGC]: Open Geospatial Consortium.
+[^StackOverflow]: Still around, [despite AI](https://daily.dev/blog/did-stack-overflow-just-admit-defeat-to-ai).
+[^canonicalpaper]: A canonical paper is a foundational academic publication that is intended to serve as the standard reference for a topic, in this case the QGIS project.
+[^Parquet]: An open-source, columnar storage file format designed for efficient data processing.
+[^Parsons]: If the name rings a bell, it might because of Ed's time at Google as their Geospatial Technologist. He has left that position and is now an [advisor and speaker](http://www.edparsons.com/) among other things.
+[^PBF]: [Protocolbuffer Binary Format](https://wiki.openstreetmap.org/wiki/PBF_Format).
+[^EdzerPebesma]: Among other things, Edzer Pebesma is the [maintainer of various R packages](https://www.r-pkg.org/maint/edzer.pebesma@uni-muenster.de), among them `sf` and `sp`.
+[^MartinFleischmann]: Among other things, Martin Fleischmann is [the developer or one of the developers](https://martinfleischmann.net/longer-bio/) behind such geospatial tools as `momepy`, `GeoPandas`, and `PySAL`. [Previously](https://spatialists.ch/posts/2025/04/09-spatial-data-old-and-new/).
+[^POIs]: Points-of-interest.
+[^falsepositives]: ... or "errors of commission", "type 1 errors"... – or what term your (sub)discipline prefers. 
+[^pre-print]: That is, a scientific publication that has not yet been peer-reviewed.
+[^professionals]: I.e., you.
+[^professionals']: I.e., your.
+[^pruning]: In essence, when querying data, pruning refers to skipping or *not* transferring or reading data that does not affect a query’s result. Cloud-native data excels at enabling pruning.
+[^PV]: photo-voltaic.
+[^QGISModelDesigner]: Formerly known as "graphical modeler".
+[^QL]: Query Language.
+[^R]: R is a programming language for statistical computing and data analysis.
+
+[^RAG]: Retrieval-Augmented Generation is a technique that augments a language model by retrieving relevant information from a knowledge base and providing that context to the model together with the query.
+[^RapidMapping]: Rapid Mapping is a federal government service that collects and makes available aerial or satellite imagery following natural disasters in order to document and manage such events.
+[^Reflectance]: The S2-SR product corrects for atmospheric effects, making the data useful for time series analysis and direct comparison.
+[^REPL-environment]: "[Read-Eval-Print Loop](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)" for interactive development and piecewise execution of code. Typical REPL environments in the data domain are [Jupyter Notebooks](https://jupyter.org/) and maybe [Observable Notebooks](https://observablehq.com/platform/notebooks).
+[^RMSE]: Root mean square error.
+[^RTS]: Radio Télévision Suisse.
+[^S2]: Based on a cube projection and the Hilbert curve.
+[^SaaS]: Software as a Service.
+[^SAR]: Synthetic Aperture Radar.
+[^SedonaDB]: [`SedonaDB`](https://sedona.apache.org/sedonadb/latest/) is an open-source single-node analytical database engine with geospatial as a first-class citizen.
+[^SITG]: [Système d'Information du Territoire à Genève](https://sitg.ge.ch/).
+[^skeuomorphism]: Skeuomorphism in digital user experience design is the approach of making a digital thing look and/or behave like their real-world counterpart.
+[^SOGI]: [SOGI-OSIG](https://www.sogi.ch) is the Swiss Organization for Geographic Information founded in 1994. It aims to promote the interdisciplinary application of geoinformation in Switzerland. SOGI-OSIG is a member of the European umbrella organization [EUROGI](https://eurogi.org).
+[^german]: Only available in German at the moment, as far as I could find out.
+[^Spark]: `Sedona Spark` is a distributed batch analytics and processing engine on Apache Spark clusters.
+[^STAC]: STAC stands for "SpatioTemporal Asset Catalog", a modern, open specification for cataloging spatiotemporal data.
+[^Stamen]: Stamen is a data visualization and cartographic design studio in San Francisco. You may know some of their web map styles, for example "[Toner](https://maps.stamen.com/toner/#12/37.7706/-122.3782)" and "[Watercolor](https://maps.stamen.com/watercolor/#12/37.7706/-122.3782)".
+[^STRAVA]: STRAVA is one of the world's foremost exercise tracking apps with dozens of millions of users and billions of recorded activies. By the way, the name comes from the Swedish "sträva", which means "strive".
+[^STS]: Space Transportation System.
+[^JedSundwall's]: In the past, Jed Sundwall led the [Amazon Web Services (AWS) Open Data Program](https://aws.amazon.com/opendata/). Currently, he serves as Executive Director of [Radiant Earth](https://radiant.earth/about/).
+[^OSS]: Open-source software.
+[^VHI]: VHI or Vegetation Health Index is a combination of Vegetation Condition Index (VCI) and Temperature Condition Index (TCI), often used for drought monitoring.
+[^Swisstopo]: The Federal Office of Topography of Switzerland.
+[^Mermaid]: [Mermaid](https://github.com/mermaid-js/mermaid#readme) is a JavaScript-based diagramming tool that takes Markdown-inspired text definitions and creates diagrams dynamically. Mermaid is supported in GitHub, for example.
+[^TDI]: [Time delay integration](https://en.wikipedia.org/wiki/Time_delay_and_integration), a forward-motion compensation technique.
+[^activeradar]: Meaning: SAR systems actively emit electromagnetic energy and receive whatever share of this energy is reflected back to them.
+[^ThomasZurbuchen]: Director of ETH Zurich Space and former Associate Administrator for the Science Mission Directorate at NASA.
+[^Tippecanoe]: The name is a [joking reference](https://github.com/mapbox/tippecanoe?tab=readme-ov-file#name) to [a "tiler" (or "Tyler")](https://en.wikipedia.org/wiki/Tippecanoe_and_Tyler_Too) and more basically a river, county and a [battleground](https://en.wikipedia.org/wiki/Battle_of_Tippecanoe).
+[^toponyms]: Place names.
+[^medallionarchitecture]: The medallion architecture is a data processing framework that posits three layers for data: bronze (raw data), silver (cleaned and transformed data), and gold (aggregated and ready for analysis).
+[^TUM]: Technical University Munich, Germany.
+[^UML]: Unified Modeling Language.
+[^SSV]: Schweizerischer Städteverband.
+[^UVS]: Union des Villes Suisses.
+[^MAUs]: [Monthly active users](https://en.wikipedia.org/wiki/Active_users).
+[^VR]: Virtual reality.
+[^WASM]: WebAssembly.
+[^WKB]: Well-Known Binary.
+[^WKT]: [Well-Known Text](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry), a markup language for representing vector geometries.
+[^XTF]: Interlis transfer format.
+[^ymmv]: Your mileage may vary.
+[^zine]: "Zine" is short for "magazine" or "fanzine".
+[^ETHZ]: ETHZ is the Zurich branch of the Swiss Federal Institute for Technology.
