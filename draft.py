@@ -1,6 +1,8 @@
-# Usage on the command line (with `uv` installed): 
-# uv run create-draft.py
+# Usage on the command line (with `uv` installed):
+# uv run draft.py
+# uv run draft.py --days 3
 
+import argparse
 import os
 import re
 import unicodedata
@@ -27,32 +29,27 @@ def normalize_special_chars(text):
     ascii_text = re.sub(r'[^\x00-\x7F]+', '', normalized)
     return ascii_text
 
-def create_blog_post():
+def create_blog_post(days_ahead=0):
     """
     Creates a draft blog post file with frontmatter metadata.
-    
+
     This function prompts the user for a blog post title, generates a directory
-    and file structure based on the current date and a slugified version of the 
-    title, and writes a frontmatter template to the file. If the file already 
+    and file structure based on the target date and a slugified version of the
+    title, and writes a frontmatter template to the file. If the file already
     exists, the user is prompted to confirm overwriting it.
-    Steps:
-    1. Prompts the user for the blog post title.
-    2. Generates the current date and time, shifted 15 minutes into the future.
-    3. Creates a slug from the title by normalizing and formatting it.
-    4. Constructs the directory and file path based on the date and slug.
-    5. Creates the necessary directories if they do not exist.
-    6. Writes a frontmatter template to the file, including metadata such as 
-       title, author, date, and placeholders for image and description.
-    7. Prompts the user for confirmation if the file already exists.
+
+    Args:
+        days_ahead (int): Number of days to push the post into the future.
+            Defaults to 0 (today + 15 minutes).
 
     Returns:
         None
     """
     # Prompt user for blog post title
     title = input("Enter the blog post title: ").strip()
-    
+
     # Generate date components
-    now = datetime.now()
+    now = datetime.now() + timedelta(days=days_ahead)
     year = now.strftime("%Y")
     month = now.strftime("%m")
     day = now.strftime("%d")
@@ -103,4 +100,10 @@ Blog post...
 
 # Run the program
 if __name__ == "__main__":
-    create_blog_post()
+    parser = argparse.ArgumentParser(description="Create a draft blog post.")
+    parser.add_argument(
+        "--days", type=int, default=0,
+        help="Number of days to push the post date into the future (default: 0)"
+    )
+    args = parser.parse_args()
+    create_blog_post(days_ahead=args.days)
