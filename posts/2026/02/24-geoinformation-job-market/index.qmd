@@ -1,0 +1,38 @@
+---
+title: "Geoinformation job market"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-02-24 22:30"
+image: "Schlussbericht-Fachkraeftemangel.jpg"
+description: "A new report commissioned by swisstopo analyses the #workforce situation in Switzerland's #geoinformation sector and finds a field that's largely stable while the overall higher education grows. With an unemployment rate of just 0.8% in 2024, the job market is (was?) tight and the pipelines of new professionals don't seem to be keeping up."
+---
+
+The numbers are in: A new report "Fachkräftesituation im Bereich der Geoinformation: Analysen und Massnahmen" ("Skilled labour situation in the field of geoinformation: analyses and measures") commissioned by swisstopo[^Swisstopo] under the SGS[^SGS] action plan takes a data-based look at the workforce situation in Switzerland's geoinformation sector. There are press releases [in English](https://www.geo.admin.ch/en/final-report-the-situation-of-skilled-professionals-in-the-field-of-geoinformation), [in German](https://www.geo.admin.ch/de/strategie-und-umsetzung/arbeitsgruppe-fachkraeftesituation.html), and [in French](https://www.geo.admin.ch/fr/rapport-final-situation-des-professionnels-qualifies-dans-le-domaine-de-la-geoinformation). The report itself, however, is [only available in German](https://www.geo.admin.ch/dam/de/sd-web/XfjjRWRkbXQj/3214_econcept_Schlussbericht_Fachkr%C3%A4ftesituation%20Geoinformation.pdf) (pdf), and I will summarise some of the key findings here. 
+
+The report identifies trends in the Swiss labour market by looking at different education pipelines and analysing the labour market based on employed professionals, unemployment figures and salary development. The authors also conducted a series of expert interviews to gain further insights into the current situation and future outlook of the geoinformation education sector and job market.
+
+## Some caveats
+
+There are some important caveats to keep in mind when interpreting the report's findings. The geoinformation sector employs professionals from a wide range of educational backgrounds, which can make it hard to draw clear conclusions. The report looks at a comparatively narrow set of professions, for which it is clear that they are largely in the geoinformation sector. Other professions (for example, in the construction or software industry) may also be relevant but are *not* included in the analyses as the categories are likely too broad to be useful. Also, the geoinformation sector is relatively small: Even small changes in absolute numbers (of students, for example) can lead to large percentage changes.
+
+## Headline findings
+
+Some headline findings: 
+
+- Basic vocational training has seen relatively stable numbers of geoinformation graduates over the last 10 years, while the overall number of graduates has declined. Higher vocational education in geoinformation has been stable or slightly declining, while the overall number of graduates has slightly increased. Both graduates of universities of applied sciences as well as university graduates in geoinformation have been broadly stable over the last 10 years, while the overall number of graduates from universities of applied sciences and from universities has increased by 30% and by 22%, respectively. Overall, we see a stagnant geoinformation education sector in a context of mostly growing education pipelines. That is, the geoinformation education sector is unable to attract a stable share of the overall growing student numbers and is losing ground relative to other fields of education.
+
+- The number of employed professionals in the geoinformation sector has grown by about 13% over the last 10 years, while the overall Swiss workforce has increased by 7%. Growth rates were quite unequal between sub-disciplines of geoinformation, however.
+
+- The unemployment rate in geoinformation professions sank from 1.9% to 0.8% between 2017 and 2023. In 2024 it rose again to 1.2%. But that is still only half of the average Swiss unemployment rate of 2.4% at the time. So geoinformation is a sector with a very tight labour market.
+
+- Standardised gross incomes 5 years into their career for geoinformation professionals with a university education and for those with a university of applied sciences education are mostly stable over the last few years.
+
+- The salary range for geoinformation professionals with a university education shows quite some variability, especially in the first year of employment, and more so than that of professionals who graduated from a university of applied sciences. Recently, this career entry variability has grown, mostly due to decreasing salaries at the lower end of the range.
+
+The report suggests a set of 11 indicators to track the labour market situation in the future, and finally makes recommendations for employers, professional associations and education providers to ensure a healthy workforce in the geoinformation sector.
+
+There is much more in the report, and I encourage you to [read it](https://www.geo.admin.ch/dam/de/sd-web/XfjjRWRkbXQj/3214_econcept_Schlussbericht_Fachkr%C3%A4ftesituation%20Geoinformation.pdf) (pdf, in German) if you are interested in the geoinformation sector in Switzerland.
+
+[^Swisstopo]: The Federal Office of Topography of Switzerland.
+[^SGS]: The [Swiss Geoinformation Strategy](https://www.geo.admin.ch/de/strategie-und-umsetzung), a national action strategy with annual action plans for the geoinformation sector in Switzerland.
