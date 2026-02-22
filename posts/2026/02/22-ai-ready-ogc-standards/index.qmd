@@ -1,0 +1,84 @@
+---
+title: "AI-ready OGC standards"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-02-22 18:12"
+image: "javier-miranda-AlJ9TQqeCV0-unsplash.jpg"
+description: "The #OGC ran an #AI-#DGGS pilot on disaster management and derived five pillars for geospatial AI readiness from it: tool-ability, machine-readable metadata, guardrails, reproducibility, and trust & security. Among the interesting follow-up work items: enabling non-DGGS clients, treating the time dimension as a first-class topic alongside space, and cataloging which  spatial analysis functions should be available in a standardized #DGGS-based manner."
+---
+
+The Open Geospatial Consortium's (OGC) blog has an interesting [review](https://www.ogc.org/blog-article/from-chat-to-map-how-dggs-agentic-ai-turn-geodata-into-verifiable-decision-making-bases/) 
+of a recent "AI + Geospatial" test the OGC ran. The test was pilot 
+project that combined AI and DGGSs[^DGGSs] centered on disaster management. 
+
+From the [article](https://www.ogc.org/blog-article/from-chat-to-map-how-dggs-agentic-ai-turn-geodata-into-verifiable-decision-making-bases/):
+
+> In the pilot, we used DGGS (Discrete Global Grid Systems) as a common 
+"spatial language" to consistently reference and analyze heterogeneous disaster 
+data. (...) DGGS cells are to geospatial AI what tokens are to language models: 
+stable, hierarchical, machine-readable. This facilitates aggregation, 
+multi-resolution analyses, and the interaction of different data sources. (...)
+> 
+> We have linked several independent DGGS data servers and AI clients so they 
+behave like an interoperable analysis engine. We also implemented a Common 
+Operating Picture (COP) layer for context, trust, and sharing of “what applies 
+when to whom.”
+
+![DGGSs as universal reference systems for spatial data. Of course, there are numerous DGGSs with cells that are _not_ hexagonal, although only hexagons are shown in this (AI-generated?) illustration. (source: OGC)](dggs-the-anatomy-of-the-grid.png "DGGSs as universal reference systems for spatial data. Of course, there are numerous DGGSs with cells that are _not_ hexagonal, although only hexagons are shown in this (AI-generated?) illustration. (source: OGC)")
+
+The pilot project used RAG[^RAG] architectures and the MCP[^MCP], among other technologies,
+and tested not only (the hexagonal) H3[^H3], but also A5[^A5] and ISEA[^ISEA] grids. It 
+identified, according to the OGC, not the language models and their 
+capabilities as bottlenecks, but rather the interface between the language 
+models and the geospatial infrastructure.
+
+The pilot found that "DGGS can serve as a shared spatial language that lets 
+multiple independent systems behave like one analysis fabric, while AI clients 
+orchestrate standards-based queries instead of improvising spatial inputs." and 
+identified as a "core lesson" that "reliability does not primarily scale 
+through more model training, but through standardized, tool-like interfaces, 
+machine-readable metadata, and reproducible service chains." From these 
+insights, the OGC [article](https://www.ogc.org/blog-article/from-chat-to-map-how-dggs-agentic-ai-turn-geodata-into-verifiable-decision-making-bases/) 
+concludes that there are five pillars for geospatial AI readiness:
+
+> - **Tool-ability**: Endpoints must be described in a way that allows agents to use them robustly.
+> - **Machine-readable metadata**: queryables, limits, cost indicators, uncertainties, resolution/granularity.
+> - **Guardrails**: Protection against overfetching, incorrect resolution selection, and uncontrolled costs.
+> - **Reproducibility**: Queries and results must be reproducible – especially for situation assessments.
+> - **Trust & security**: Context, identity, provenance, access policies.
+
+Specific standardization tasks can be derived from these. Best [study the 
+article](https://www.ogc.org/blog-article/from-chat-to-map-how-dggs-agentic-ai-turn-geodata-into-verifiable-decision-making-bases/), 
+if you want to learn in depth where the OGC is going with this, but 
+here are some of the key points I found particularly interesting:
+
+- There could or should be an optional path for non-DGGS clients to use the 
+piloted system or similar such systems. This would mean for example that a 
+query could enter the system using "proper" geometry which would be resolved to 
+DGGS-reference data on the server side.
+
+- Besides spatial griddding, the OGC suggests temporal "gridding" as a 
+"first-class topic". For disaster management (as the piloted topic area) but 
+also for other use-cases of geospatial data, the time dimension is crucial. 
+This aligns with my general impression that "4D"[^4D] is becoming more and more
+important.
+
+- There should be a catalog of which analytical functions should be available 
+in a standardized DGGS-based manner, such as aggregation, zonal statistics, 
+etc. An important sub-task to this, seems to me, is to analyse which operations 
+are possible with suitable quality.
+
+[^DGGSs]: Discrete Global Grid Systems.
+
+[^RAG]: Retrieval-Augmented Generation is a technique that augments a language model by retrieving relevant information from a knowledge base and providing that context to the model together with the query.
+
+[^MCP]: Model Context Protocol.
+
+[^H3]: [H3](https://h3geo.org) is a hexagonal (mostly, except for 12 pentagons – think: football) discrete global grid system (DGGS) (Apache 2.0-licensed) created by Uber.
+
+[^A5]: [A5](https://a5geo.org/) is a discrete global grid system (DGGS) based on irregularly-shaped pentagons.
+
+[^ISEA]: ISEA grids use cells that are regular polygons on the surface of an icosahedron, which are then inversely projected using the Icosahedral Snyder Equal Area (ISEA) map projection to form equal area cells on the sphere.
+
+[^4D]: The combination of three spatial dimensions with time as the fourth dimension.
