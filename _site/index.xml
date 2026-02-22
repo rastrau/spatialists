@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Fri, 20 Feb 2026 19:19:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 22 Feb 2026 18:12:00 GMT</lastBuildDate>
+<item>
+  <title>AI-ready OGC standards</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/02/22-ai-ready-ogc-standards/</link>
+  <description><![CDATA[ The #OGC ran an #AI-#DGGS pilot on disaster management and derived five pillars for geospatial AI readiness from it: tool-ability, machine-readable metadata, guardrails, reproducibility, and trust & security. Among the interesting follow-up work items: enabling non-DGGS clients, treating the time dimension as a first-class topic alongside space, and cataloging which spatial analysis functions should be available in a standardized #DGGS-based manner. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/02/22-ai-ready-ogc-standards/</guid>
+  <pubDate>Sun, 22 Feb 2026 18:12:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/02/22-ai-ready-ogc-standards/javier-miranda-AlJ9TQqeCV0-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>OMF STAC inluding pmtiles</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/01/09-small-multiples-of-osm-geometries/</guid>
   <pubDate>Fri, 09 Jan 2026 18:50:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/01/09-small-multiples-of-osm-geometries/jetsprint-lakes-of-the-world-cropped.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Direction for cadastral surveying</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/01/08-direction-for-cadastral-surveying/</link>
-  <description><![CDATA[ Swisstopo and partners have introduced a new “Vision for Cadastral Surveying” that extends the time horizon to 2040, adding a shared long-term framework regarding Swiss cadastral surveying. This vision emphasizes multidimensional, legally reliable georeference data (above and below ground, across past, present, and future objects) and positions cadastral surveying as the core provider of official geoinformation for land ownership. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/01/08-direction-for-cadastral-surveying/</guid>
-  <pubDate>Thu, 08 Jan 2026 22:26:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/01/08-direction-for-cadastral-surveying/vision-av.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
