@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Sun, 22 Feb 2026 18:12:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 23 Feb 2026 18:19:00 GMT</lastBuildDate>
+<item>
+  <title>Geoinformation job market</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/02/23-geoinformation-job-market/</link>
+  <description><![CDATA[ A new report commissioned by swisstopo analyses the #workforce situation in Switzerland’s #geoinformation sector and finds a field that’s largely stable while the overall higher education grows. With an unemployment rate of just 0.8% in 2024, the job market is (was?) tight and the pipelines of new professionals don’t seem to be keeping up. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/02/23-geoinformation-job-market/</guid>
+  <pubDate>Mon, 23 Feb 2026 18:19:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/02/23-geoinformation-job-market/Schlussbericht-Fachkraeftemangel.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>AI-ready OGC standards</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/01/13-spatial-data-science-languages/</guid>
   <pubDate>Tue, 13 Jan 2026 22:30:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/01/13-spatial-data-science-languages/dependencies.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Small multiples of OSM geometries</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/01/09-small-multiples-of-osm-geometries/</link>
-  <description><![CDATA[ A bit of fun from the #OpenStreetMap community: Matt Whilden hosts the ingenious XofY #OSM Geometry Viewer. This open-source tool lets you explore and compare OSM geometries – from quirky lakes to oddly shaped museums – arranged as small multiples based on any #Overpass query you create. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/01/09-small-multiples-of-osm-geometries/</guid>
-  <pubDate>Fri, 09 Jan 2026 18:50:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/01/09-small-multiples-of-osm-geometries/jetsprint-lakes-of-the-world-cropped.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
