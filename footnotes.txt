@@ -107,7 +107,6 @@
 [^QGISModelDesigner]: Formerly known as "graphical modeler".
 [^QL]: Query Language.
 [^R]: R is a programming language for statistical computing and data analysis.
-
 [^RAG]: Retrieval-Augmented Generation is a technique that augments a language model by retrieving relevant information from a knowledge base and providing that context to the model together with the query.
 [^RapidMapping]: Rapid Mapping is a federal government service that collects and makes available aerial or satellite imagery following natural disasters in order to document and manage such events.
 [^Reflectance]: The S2-SR product corrects for atmospheric effects, making the data useful for time series analysis and direct comparison.
@@ -118,6 +117,7 @@
 [^SaaS]: Software as a Service.
 [^SAR]: Synthetic Aperture Radar.
 [^SedonaDB]: [`SedonaDB`](https://sedona.apache.org/sedonadb/latest/) is an open-source single-node analytical database engine with geospatial as a first-class citizen.
+[^SGS]: The [Swiss Geoinformation Strategy](https://www.geo.admin.ch/de/strategie-und-umsetzung), a national action strategy with annual action plans for the geoinformation sector in Switzerland.
 [^SITG]: [Système d'Information du Territoire à Genève](https://sitg.ge.ch/).
 [^skeuomorphism]: Skeuomorphism in digital user experience design is the approach of making a digital thing look and/or behave like their real-world counterpart.
 [^SOGI]: [SOGI-OSIG](https://www.sogi.ch) is the Swiss Organization for Geographic Information founded in 1994. It aims to promote the interdisciplinary application of geoinformation in Switzerland. SOGI-OSIG is a member of the European umbrella organization [EUROGI](https://eurogi.org).
