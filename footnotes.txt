@@ -20,6 +20,7 @@
 [^correctly]: [corrections welcome](mailto:mail@spatialists.ch)
 [^CORS]: Cross-Origin Resource Sharing
 [^CRAN]: The "[Comprehensive R Archive Network](https://cran.r-project.org/)", the central package manager of the R ecosystem, similar to [PyPi](https://pypi.org/project/pip/) for Python.
+[^CRS]: Coordinate reference system.
 [^CTO]: Chief Technology Officer
 [^4D]: The combination of three spatial dimensions with time as the fourth dimension.
 [^DAG]: Directed Acyclic Graph
