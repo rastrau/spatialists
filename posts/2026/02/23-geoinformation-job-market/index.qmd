@@ -3,7 +3,7 @@ title: "Geoinformation job market"
 author:
   - name: Ralph Straumann
     url: https://ralphstraumann.ch
-date: "2026-02-24 22:30"
+date: "2026-02-23 18:19"
 image: "Schlussbericht-Fachkraeftemangel.jpg"
 description: "A new report commissioned by swisstopo analyses the #workforce situation in Switzerland's #geoinformation sector and finds a field that's largely stable while the overall higher education grows. With an unemployment rate of just 0.8% in 2024, the job market is (was?) tight and the pipelines of new professionals don't seem to be keeping up."
 ---
