@@ -1,0 +1,49 @@
+---
+title: "Coordinate precision"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-02-24 06:39"
+image: "coordinate-precision-titlecard.jpg"
+description: "Choosing the right #coordinate #precision matters (there's an xkcd about it!): Too little distorts your data, too much bloats it unnecessarily. This interactive tool by #Mapbox makes this tradeoff visually understandable."
+---
+
+Besides [identifying the correct CRS][CRS][^CRS] of one's 
+(or more often: others') datasets correctly, choosing an appropriate level 
+of coordinate precision (for example, when converting to GeoJSON or WKT[^WKT]) 
+can present pitfalls in data management.
+
+There's even an [xkcd][xkcd] about it (you know it’s serious when it’s in the 
+xkcd canon):
+
+![Coordinate precision. [Explainer][explainer] here. (source: xkcd)](coordinate-precision.png "Coordinate precision")
+
+I've recently come across an interactive (maybe a bit less humorous, but more 
+practical) introduction to this topic, by Mapbox: "[Understand GeoJSON 
+coordinate precision][mapbox-tool]" (direct link to the [full-screen map][map]). 
+
+This tool features an interactive map displaying a grid of regularly spaced points 
+representing single-digit increments of coordinate precisions overlaid on New 
+York City. As you vary the coordinate precision using a slider, the map 
+dynamically updates to show how the points represent a smaller or larger area. 
+It’s tricky to describe but instantly intuitive when you see it:
+
+![](coordinate-precision-2.jpg "Coordinate precision 2 (source: Mapbox)")
+
+![](coordinate-precision-4.jpg "Coordinate precision 4 (source: Mapbox)")
+
+![Coordinate precision 2, 4, and 6 (from the top). The last map (which cannot be zoomed in further) shows a zebra crossing / crosswalk under the point raster. (source: Mapbox)](coordinate-precision-6.jpg "Coordinate precision 6 (source: Mapbox)")
+
+The [Mapbox tool][mapbox-tool] is a nice way to visualize how coordinate 
+precision influences the representation of spatial data. And it can help you 
+choose a suitable precision, without unnecessarily bloating your data.
+
+[CRS]: https://spatialists.ch/posts/2025/03/06-tool-tip-navigating-the-maze-of-coordinate-reference-systems/index.html
+[xkcd]: https://xkcd.com/2170/
+[explainer]: https://explainxkcd.com/2170/
+[mapbox-tool]: https://docs.mapbox.com/help/dive-deeper/geojson-coordinate-precision/
+[map]: https://docs.mapbox.com/help/demos/geojson-coordinate-precision/final.html
+
+
+[^CRS]: Coordinate reference system.
+[^WKT]: [Well-Known Text](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry), a markup language for representing vector geometries.
