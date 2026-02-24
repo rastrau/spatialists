@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Mon, 23 Feb 2026 18:19:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 24 Feb 2026 06:39:00 GMT</lastBuildDate>
+<item>
+  <title>Coordinate precision</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/02/24-coordinate-precision/</link>
+  <description><![CDATA[ Choosing the right #coordinate #precision matters (there’s an xkcd about it!): Too little distorts your data, too much bloats it unnecessarily. This interactive tool by #Mapbox makes this tradeoff visually understandable. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/02/24-coordinate-precision/</guid>
+  <pubDate>Tue, 24 Feb 2026 06:39:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/02/24-coordinate-precision/coordinate-precision-titlecard.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Geoinformation job market</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/01/15-geogirafe-10/</guid>
   <pubDate>Thu, 15 Jan 2026 19:14:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/01/15-geogirafe-10/ricardo-vidal-D0HHfGDhl90-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Spatial data science languages</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/01/13-spatial-data-science-languages/</link>
-  <description><![CDATA[ A recent #JOSIS publication by Pebesma et al. highlights common challenges and opportunities across #RStats, #Python, and #Julia in spatial #datascience. The paper makes interesting recommendations for fostering cross-language collaboration and advancing geospatial tooling for researchers, developers, and educators. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/01/13-spatial-data-science-languages/</guid>
-  <pubDate>Tue, 13 Jan 2026 22:30:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/01/13-spatial-data-science-languages/dependencies.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
