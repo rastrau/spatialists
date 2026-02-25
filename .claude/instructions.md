@@ -7,7 +7,7 @@ This is a Quarto-based microblog about geospatial news. Posts live in `posts/` a
 `footnotes.txt` at the repo root is a manually curated glossary of reusable footnote definitions. When helping write or review a `.qmd` post:
 
 1. Read `footnotes.txt` and check if any terms, abbreviations, or concepts in the draft have a matching entry.
-2. Suggest inserting matching footnotes where appropriate — don't add footnotes the author hasn't used before without asking.
+2. Suggest inserting matching footnotes where appropriate — don't add footnotes the author hasn't used before without asking. If you make a suggestion, also mention the content of the footnote (i.e., often the definition of a term).
 3. Use **reference-style footnotes** as the default format: `[^label]` in the text body and `[^label]: definition` at the end of the post.
 4. When a matching entry exists in `footnotes.txt`, reuse its definition verbatim (the author has already curated the wording).
 
