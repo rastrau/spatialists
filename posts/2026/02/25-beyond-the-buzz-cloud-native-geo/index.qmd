@@ -1,0 +1,46 @@
+---
+title: "Beyond the Buzz: Cloud-native geo"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-02-25 19:43"
+image: "tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
+description: "#CloudNativeGeo is everywhere, but does it live up to the hype? Lukas Merz takes a sharp look at formats like #COG, #FlatGeoBuf, #GeoParquet, and #PMTiles, and helps you decide when #cloudnative is the right tool for the job."
+---
+
+From [Lukas Merz][lukasmerz] comes an interesting article[^transp] on the 
+paradigm _"du jour"_, cloud-native[^cloud-native] geospatial. The article is titled 
+"[Cloud-native geospatial: What it can do, what it can't do – and when you 
+really need it][blogpost]". While the article is in German, browser translation 
+should work well. From the [text][blogpost]:
+
+> In the world of geodata, "cloud-native" has become a buzzword. At 
+conferences, in product brochures, and in LinkedIn posts, it sounds as if the 
+future of geoinformation has already been decided (...) It's time to take a 
+closer look. This blog post aims to provide an honest assessment. What is 
+behind the term? Where are its real strengths? Where are the limitations? And 
+when is it simply better to stick with traditional approaches?
+
+In the article, Lukas provides a brief overview of several prominent 
+cloud-native formats :
+
+- Cloud-optimized GeoTIFF (COG)
+- FlatGeoBuf (FGB) 
+- GeoParquet and
+- PMTiles
+
+![Solar potential on roofs can be read on-the-fly from a FlatGeoBuf file weighing 5 GB (source: Lukas Merz)](5gb-fgb.png "Solar potential on roofs can be read on-the-fly from a FlatGeoBuf file weighing 5 GB (source: Lukas Merz)")
+
+The article goes on to explain where #cloudnativegeo excels, where it falls 
+short, and when it’s the right choice. 
+
+In my view, this is a balanced, informative, and timely piece that gives 
+cloud-native geospatial its due while cleanly cutting through the hype. 
+[Recommended reading][blogpost] for anyone interested in the future of 
+geospatial data management and dissemination.
+
+[^cloud-native]: I.e., taking full advantage of the cloud computing model; in the data world typically through enabling [partial downloads](https://blog.sogeo.services/blog/2023/12/29/statuscode-206-letsgetstarted.html) of file contents through so-called [HTTP range requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests)
+[^transp]: Transparency note: Lukas is a colleague of mine at EBP.
+
+[blogpost]: https://digital.ebp.ch/2026/02/23/cloud-native-geospatial-was-es-kann-was-nicht-und-wann-man-es-wirklich-braucht/
+[lukasmerz]: https://www.linkedin.com/in/lukas-merz/
