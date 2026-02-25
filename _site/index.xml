@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Tue, 24 Feb 2026 06:39:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 25 Feb 2026 19:43:00 GMT</lastBuildDate>
+<item>
+  <title>Beyond the Buzz: Cloud-native geo</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/02/25-beyond-the-buzz-cloud-native-geo/</link>
+  <description><![CDATA[ #CloudNativeGeo is everywhere, but does it live up to the hype? Lukas Merz takes a sharp look at formats like #COG, #FlatGeoBuf, #GeoParquet, and #PMTiles, and helps you decide when #cloudnative is the right tool for the job. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/02/25-beyond-the-buzz-cloud-native-geo/</guid>
+  <pubDate>Wed, 25 Feb 2026 19:43:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/02/25-beyond-the-buzz-cloud-native-geo/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Coordinate precision</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/01/15-sentinel-2-night-vision/</guid>
   <pubDate>Thu, 15 Jan 2026 22:21:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/01/15-sentinel-2-night-vision/Gas_flares_in_Qatar_imaged_by_Sentinel-2A_article-cropped.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>GeoGirafe 1.0</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/01/15-geogirafe-10/</link>
-  <description><![CDATA[ #GeoGirafe 1.0, the first Long-Term Release of this #opensource #WebGIS ecosystem, is now available. GeoGirafe positions itself as geospatial web component offering a comprehensive #webmap viewer with #OGC services, authentication, search, measurement, drawing, 3D, and more capabilities. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/01/15-geogirafe-10/</guid>
-  <pubDate>Thu, 15 Jan 2026 19:14:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/01/15-geogirafe-10/ricardo-vidal-D0HHfGDhl90-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
