@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 25 Feb 2026 19:43:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 27 Feb 2026 17:48:00 GMT</lastBuildDate>
+<item>
+  <title>H3/PostGIS: Hands-on example</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/02/27-h3-postgis-hands-on-example/</link>
+  <description><![CDATA[ Darafei Praliaskouski, member of the #PostGIS PSC, walks through an interesting hands-on case study of modelling #LoRa radio tower range in the mountains of Georgia using #H3 and PostGIS. The example covers data preparation, #DGGS indexing, and spatial analysis, and offers some food for thought. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/02/27-h3-postgis-hands-on-example/</guid>
+  <pubDate>Fri, 27 Feb 2026 17:48:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/02/27-h3-postgis-hands-on-example/georgia-lora-network.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Beyond the Buzz: Cloud-native geo</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/01/22-geofeeds-mcp/</guid>
   <pubDate>Thu, 22 Jan 2026 21:38:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/01/22-geofeeds-mcp/photo-1517816428104-797678c7cf0c.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Sentinel-2 night vision</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/01/15-sentinel-2-night-vision/</link>
-  <description><![CDATA[ #ESA is giving the long-serving #Sentinel‑2A #satellite a fascinating new role: Experimenting with capturing night-time images of Earth before its retirement. These unexpected “night vision” tests not only produce stunning visuals but also lay the groundwork for the next generation of #EarthObservation missions. #EO #RemoteSensing ]]></description>
-  <guid>https://spatialists.ch/posts/2026/01/15-sentinel-2-night-vision/</guid>
-  <pubDate>Thu, 15 Jan 2026 22:21:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/01/15-sentinel-2-night-vision/Gas_flares_in_Qatar_imaged_by_Sentinel-2A_article-cropped.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
