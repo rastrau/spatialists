@@ -13,12 +13,19 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-        
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Restore Quarto freeze cache
+        uses: actions/cache@v4
+        with:
+          path: _freeze/
+          key: quarto-freeze-${{ hashFiles('posts/**/*.qmd') }}
+          restore-keys: quarto-freeze-
+
       - name: Render
-        uses: quarto-dev/quarto-actions/render@v2 
+        uses: quarto-dev/quarto-actions/render@v2
 
       - name: Push contents of _site folder to repo
         uses: github-actions-x/commit@v2.9
