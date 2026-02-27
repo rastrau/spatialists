@@ -10,6 +10,11 @@ This is a Quarto-based microblog about geospatial news. Posts live in `posts/` a
 2. Suggest inserting matching footnotes where appropriate — don't add footnotes the author hasn't used before without asking. If you make a suggestion, also mention the content of the footnote (i.e., often the definition of a term).
 3. Use **reference-style footnotes** as the default format: `[^label]` in the text body and `[^label]: definition` at the end of the post.
 4. When a matching entry exists in `footnotes.txt`, reuse its definition verbatim (the author has already curated the wording).
+5. If you see an "empty" footnote entry in the `.qmd` post for which no entry 
+exists in `footnotes.txt` yet, suggest a definition. If the definition is 
+accepted, add it to the `.qmd` and add the whole footnote (anchor and definition) 
+in `footnotes.txt` at the appropriate location (footnotes are sorted lexicographically).
+6. In the `.qmd` always order footnotes in the order they appear in the text.
 
 ## Blurb
 
