@@ -1,0 +1,80 @@
+---
+title: "H3/PostGIS: Hands-on example"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-02-27 17:48"
+image: "georgia-lora-network.jpg"
+description: "Darafei Praliaskouski, member of the #PostGIS PSC, walks through an interesting hands-on case study of modelling #LoRa radio tower range in the mountains of Georgia using #H3 and PostGIS. The example covers data preparation, #DGGS indexing, and spatial analysis, and offers some food for thought."
+---
+
+From [Darafei Praliaskouski](https://www.linkedin.com/in/darafeipraliaskouski/), 
+member of the PostGIS PSC[^PSC] and geospatial consultant, comes a practical 
+example  of using H3[^H3] with PostGIS. The example was shown in [a talk on 
+PostGIS day][video]. It demonstrates how to use H3 to index geospatial data in 
+PostGIS, allowing for efficient querying and analysis.
+
+The task involves modelling radio tower – more precisely: LoRa[^LoRa] – range 
+in the mountains of Georgia. Early in his [talk][video], Darafei gives a light 
+technical overview of H3. I liked the point that H3 is "optimized for the 
+analyst's mental health" and Darafei's comment: "If you are getting annoyed by 
+H3, you are doing it wrong" &#128513;.
+
+Next, Darafei walks through the data and data sources for the case-study. The 
+data includes all different types of geospatial data:
+
+- Internet-connected LoRa nodes: point data, digitized
+- Elevation: raster data from GEBCO, a global bathymetric and elevation dataset
+- Roads: line data from OSM[^OSM]
+- Country boundary: polygon data from OSM
+- Population: H3 grid (natively indexed in H3, from Kontur)
+
+Next, Darafei shows the steps to prepare and DGGS[^DGGS]-index the data with H3 
+(this mainly involves `ogr2ogr`, `raster2pgsql` and SQL, as well as `osmium` 
+for the OSM data) and, finally, how to use PostGIS to combine and query the 
+indexed data. The final result is a proposed LoRa mesh optimized for population 
+coverage, among other criteria.
+
+{{< video https://www.youtube.com/watch?v=ie-1nImu_70 >}}
+
+Overall, [Darafei's case-study][video] is a great demonstration of how H3 can 
+be used to conduct, maybe simplify, geospatial analysis in PostGIS and Darafei 
+gives some valuable, very applied H3-related advice, for example on resolutions. 
+
+## Uncertainty and trade-offs
+
+The case-study of course also shows how H3 (or any DGGS) simplifies[^distort] 
+the underlying data (especially, if the original data is of high resolution or 
+high accuracy). This is the trade-off you will have to make when using H3 or 
+any DGGS: You get a more efficient and simpler data structure, but you also 
+lose some of the original data's detail and accuracy. 
+
+There is certainly need for research in connection to this, for example: 
+
+- How does indexing affect the accuracy of the data itself and of various 
+geospatial algorithms (for example, terrain analysis as shown in the example)?
+- What amount of uncertainty is introduced? 
+- What are sensible trade-offs in this area? 
+
+Not limiting itself to uncertainty, [this paper][paper] by Hojati et al. seems 
+to identify some of the key challenges related to DGGSs: 
+
+> With renewed interest in DGGS brought on by a recently proposed standard, the 
+demands of big data, and growing needs for monitoring environmental changes 
+across a variety of scales, we seek to highlight current challenges that we see 
+as central to moving the field(s) and technologies of DGGS forward. (...) 
+Through articulation of these challenges, we hope to identify a clear research 
+agenda, expand the DGGS research footprint, and provide some ideas for moving 
+forward towards a scaleable Digital Earth vision.
+
+Interesting stuff to think about.
+
+[^PSC]: Project Steering Committee.
+[^H3]: [H3](https://h3geo.org) is a hexagonal discrete global grid system (DGGS) created by Uber.
+[^LoRa]: LoRa (Long Range) is a low-power, wide-area networking modulation technique used in IoT applications for transmitting small data packets over long distances.
+[^OSM]: [OpenStreetMap](https://www.openstreetmap.org/), a collaborative, open-licensed map of the world.
+[^DGGS]: Discrete Global Grid System.
+[^distort]: You may also say "distorts".
+
+[video]: https://www.youtube.com/watch?v=ie-1nImu_70
+[paper]: https://www.tandfonline.com/doi/pdf/10.1080/20964471.2021.2012912
