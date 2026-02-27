@@ -76,6 +76,7 @@
 [^LMETA]: Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA).
 [^LMM]: Large multi-modal model.
 [^LOD1]: [Level-of-detail 1](https://3d.bk.tudelft.nl/lod/), meaning the model captures the shape of the building footprint and the building height, but not, for example, roof shape.
+[^LoRa]: LoRa (Long Range) is a low-power, wide-area networking modulation technique used in IoT applications for transmitting small data packets over long distances.
 [^low-code]: Think: Visual, drag-and-drop-enabled, tools.
 [^choropleth]: A thematic map that uses different colors or shading of areas to represent data.
 [^MapBS3D]: To the English-speaking reader: "BS" being, you know, the official state abbrevation of "Basel-Stadt" (i.e., "Basel-City").
@@ -91,6 +92,7 @@
 [^NMGA]: National mapping and geospatial agency
 [^NORTH51]: NORTH51 is an annual conference in Canada, a [self-described](https://www.n51.ca/who-we-are) "dynamic gathering that embodies the spirit of modernization in the geospatial industry (...) [uniting] entrepreneurs passionate about bringing a platform to the industry to share grand, global, market-changing ideas."
 [^OGC]: Open Geospatial Consortium.
+[^OSM]: [OpenStreetMap](https://www.openstreetmap.org/), a collaborative, open-licensed map of the world.
 [^StackOverflow]: Still around, [despite AI](https://daily.dev/blog/did-stack-overflow-just-admit-defeat-to-ai).
 [^canonicalpaper]: A canonical paper is a foundational academic publication that is intended to serve as the standard reference for a topic, in this case the QGIS project.
 [^Parquet]: An open-source, columnar storage file format designed for efficient data processing.
@@ -104,6 +106,7 @@
 [^professionals]: I.e., you.
 [^professionals']: I.e., your.
 [^pruning]: In essence, when querying data, pruning refers to skipping or *not* transferring or reading data that does not affect a query’s result. Cloud-native data excels at enabling pruning.
+[^PSC]: Project Steering Committee.
 [^PV]: photo-voltaic.
 [^QGISModelDesigner]: Formerly known as "graphical modeler".
 [^QL]: Query Language.
