@@ -92,7 +92,9 @@
 [^NMGA]: National mapping and geospatial agency
 [^NORTH51]: NORTH51 is an annual conference in Canada, a [self-described](https://www.n51.ca/who-we-are) "dynamic gathering that embodies the spirit of modernization in the geospatial industry (...) [uniting] entrepreneurs passionate about bringing a platform to the industry to share grand, global, market-changing ideas."
 [^OGC]: Open Geospatial Consortium.
+[^OMF]: The [Overture Maps Foundation](https://overturemaps.org/) is an industry consortium (members include Amazon, Meta, Microsoft, and TomTom) that produces openly-licensed map data, building primarily on OpenStreetMap data.
 [^OSM]: [OpenStreetMap](https://www.openstreetmap.org/), a collaborative, open-licensed map of the world.
+[^OSMF]: The [OpenStreetMap Foundation](https://osmfoundation.org/) is a non-profit organisation supporting the OpenStreetMap project.
 [^StackOverflow]: Still around, [despite AI](https://daily.dev/blog/did-stack-overflow-just-admit-defeat-to-ai).
 [^canonicalpaper]: A canonical paper is a foundational academic publication that is intended to serve as the standard reference for a topic, in this case the QGIS project.
 [^Parquet]: An open-source, columnar storage file format designed for efficient data processing.
