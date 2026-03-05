@@ -1,0 +1,70 @@
+---
+title: "OGC GERS discussion"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-03-05 23:17"
+image: "gers.jpg"
+description: "The #OGC seeking public comments on whether the #GERS (Global Entity Reference System) Framework and Model by the #OvertureMapsFoundation (#OMF) should become an OGC Community Standard sparks a broader debate about global identifiers and governance of key data  infrastructure assets."
+---
+
+The Open Geospatial Consortium[^OGC] [is seeking comments][comments] on 
+"Justification for the Global Entity Reference System (GERS)[^GERS] Framework 
+and Model" as an [OGC Community Standard][ogc-standard]. The GERS Model and 
+Framework ([previously][gers]) was submitted by the Overture Maps Foundation[^OMF].
+The justification describes the rationale for defining and using a Global 
+Entity Reference System and its suitability for adoption as an OGC Community 
+Standard. The comment period was first announced to end on March 3. However, the 
+[GitHub repository for the discussion][github] is still open and at least one 
+comment has been added as late as yesterday (March 4).
+
+![GERS: Global Entity Reference System (source: OMF)](gers.jpg "GERS: Global Entity Reference System (source: OMF)")
+
+The Justification document can be found [here][justification] (docx). In the 
+OGC repository, there is an [interesting comment by the OpenStreetMap 
+Foundation (OSMF)][osmf][^OSMF] that is worth reading, among others. On the 
+[OpenStreetMap community forum][forum], there is [a broader discussion and 
+debate about OMF and its relationship to OSM and the OSMF][discussion]. That 
+thread spans a period of more than two years. In light of the OGC GERS 
+discussion, it has seen some recent activity and has also recently been shared 
+in social networks by OSM proponents.
+
+Finally, today Bill Dollins weighed in with an article [*"The siren song of 
+global identifiers"*][article] that draws analogies to similar discussions in 
+the past: 
+
+> Seen in isolation, this debate might appear unique to geospatial data. In 
+reality, it follows a pattern that has appeared many times in other technical 
+domains. Whenever a global identifier system is proposed, the discussion tends 
+to revolve around the same questions: who governs the identifiers, how neutral 
+the system is, and whether standardization implicitly elevates one 
+implementation over others.
+
+If you only read one thing about the GERS discussion, I recommend [Bill's 
+article][article]. It provides a solid overview of the issues at stake and 
+"zooms out"^[Often a helpful move.] a bit:
+
+> Ultimately, I think all three participants in this discussion (OGC, Overture, 
+and OSMF) are correct. Overture is correct that a universal identifier like 
+GERS would be useful. OGC is correct that such a thing should be considered as 
+a standard. OSMF is correct that one identifier to rule them all is not 
+practical. Each is approaching this issue in good faith, without hyperbole and 
+without the “culture war” framing that can sometimes overtake these discussions. 
+
+The [article][article] goes on and ends on an optimistic note.
+
+[^OGC]: Open Geospatial Consortium.
+[^GERS]: The [Global Entity Reference System](https://www.spatialists.ch/posts/2025/06/28-omf-launches-gers/) by the Overture Maps Foundation (OMF).
+[^OMF]: The [Overture Maps Foundation](https://overturemaps.org/) is an industry consortium (members include Amazon, Meta, Microsoft, and TomTom) that produces openly-licensed map data, building primarily on OpenStreetMap data.
+[^OSMF]: The [OpenStreetMap Foundation](https://osmfoundation.org/) is a non-profit organisation supporting the OpenStreetMap project.
+[^OSM]: [OpenStreetMap](https://www.openstreetmap.org/), a collaborative, open-licensed map of the world.
+
+[comments]: https://www.ogc.org/requests/ogc-seeks-public-comment-on-justification-for-the-global-entity-reference-system-gers-framework-and-model-as-an-ogc-community-standard/
+[github]: https://github.com/opengeospatial/requests/issues/3
+[osmf]: https://github.com/opengeospatial/requests/issues/3#issuecomment-3988672794
+[ogc-standard]: https://www.ogc.org/standards-overview/
+[forum]: https://community.openstreetmap.org/
+[discussion]: https://community.openstreetmap.org/t/overturemaps-org-big-businesses-osmf-alternative/6760/304
+[article]: https://blog.geomusings.com/2026/03/05/the-siren-song-of-global-identifiers/
+[gers]: https://www.spatialists.ch/posts/2025/06/28-omf-launches-gers/
+[justification]: https://portal.ogc.org/files/?artifact_id=112161&version=1
