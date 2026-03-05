@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Fri, 27 Feb 2026 17:48:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 05 Mar 2026 23:17:00 GMT</lastBuildDate>
+<item>
+  <title>OGC GERS discussion</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/03/05-ogc-gers-discussion/</link>
+  <description><![CDATA[ The #OGC seeking public comments on whether the #GERS (Global Entity Reference System) Framework and Model by the #OvertureMapsFoundation (#OMF) should become an OGC Community Standard sparks a broader debate about global identifiers and governance of key data infrastructure assets. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/03/05-ogc-gers-discussion/</guid>
+  <pubDate>Thu, 05 Mar 2026 23:17:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/03/05-ogc-gers-discussion/gers.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>H3/PostGIS: Hands-on example</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/01/23-postgis-ai/</guid>
   <pubDate>Fri, 23 Jan 2026 06:28:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/01/23-postgis-ai/wolfgang-hasselmann-P7L5011nD5s-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>GeoFeeds MCP</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/01/22-geofeeds-mcp/</link>
-  <description><![CDATA[ #GeoFeeds is a non‑curated aggregator tracking nearly 90 geospatial and adjacent blogs created by Bill Dollins and James Fee, now enhanced with an #MCP endpoint. The new setup lets #AI tools query and analyze the feed’s cached data directly, opening up creative ways to explore sources and trends in the geospatial blogosphere. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/01/22-geofeeds-mcp/</guid>
-  <pubDate>Thu, 22 Jan 2026 21:38:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/01/22-geofeeds-mcp/photo-1517816428104-797678c7cf0c.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
