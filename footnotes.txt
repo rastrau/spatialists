@@ -43,6 +43,7 @@
 [^ESA]: European Space Agency
 [^ETL]: Extract-transform-load.
 [^EMOTA]: The Federal Act on the Use of Electronic Means to Carry Out Official Tasks. "[EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de)" in German and "[LMETA](https://www.fedlex.admin.ch/eli/cc/2023/682/fr)" in French.
+[^EWKT]: Extended Well-Known Text, a PostGIS extension of [WKT](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry) that includes the spatial reference system identifier (SRID) of the encoded geometry.
 [^fields]: Think, for example, a digital elevation model or a rainfall intensity raster.
 [^Flask]: A Python framework for web apps.
 [^FME]: Safe Software's Feature Manipulation Engine.
