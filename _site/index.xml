@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Thu, 05 Mar 2026 23:17:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 10 Mar 2026 18:47:00 GMT</lastBuildDate>
+<item>
+  <title>Geo-enabling Apache Hop</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/03/10-geo-enabling-apache-hop/</link>
+  <description><![CDATA[ Stefan Ziegler has been geo-enabling the open-source #ETL tool #ApacheHop, building #GDAL/#OGR reader and writer plug-ins and adding an interactive preview for geometries: Early days, but promising progress toward a fully geo-capable data integration pipeline tool. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/03/10-geo-enabling-apache-hop/</guid>
+  <pubDate>Tue, 10 Mar 2026 18:47:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/03/10-geo-enabling-apache-hop/apache-hop-logo.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>OGC GERS discussion</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/01/25-just-out-sgs-action-plan-2026/</guid>
   <pubDate>Sun, 25 Jan 2026 13:56:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/01/25-just-out-sgs-action-plan-2026/sgs.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>PostGIS ⇆ AI</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/01/23-postgis-ai/</link>
-  <description><![CDATA[ Finally got around to watching this gem: “Your Dorky Spatial Database is My Magic Answer Machine” by Brian Timoney. In this insightful and engaging #PostGISDay presentation, Brian explores how #AI can both use #PostGIS and be used from within PostGIS. A must-watch for anyone curious about the future of intelligent geospatial workflows! ]]></description>
-  <guid>https://spatialists.ch/posts/2026/01/23-postgis-ai/</guid>
-  <pubDate>Fri, 23 Jan 2026 06:28:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/01/23-postgis-ai/wolfgang-hasselmann-P7L5011nD5s-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
