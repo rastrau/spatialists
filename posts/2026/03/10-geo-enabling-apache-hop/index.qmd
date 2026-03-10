@@ -1,0 +1,55 @@
+---
+title: "Geo-enabling Apache Hop"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-03-10 18:47"
+image: "apache-hop-logo.png"
+description: "Stefan Ziegler has been geo-enabling the open-source #ETL tool #ApacheHop, building #GDAL/#OGR reader and writer plug-ins and adding an interactive preview for geometries: Early days, but promising progress toward a fully geo-capable data integration pipeline tool."
+---
+
+Apache Hop is an open-source ETL[^ETL] solution (previously [here][1] and 
+[here][2], if you followed along) that – in its own words and certainly in the 
+hopes of some stakeholders – “aims to be the future of data integration.” Hop 
+workflows and pipelines can be assembled through a graphical user interface 
+using drag-and-drop. This makes it a potential replacement for similar tools in 
+that space.
+
+Over the last few days, [Stefan Ziegler][stefan], head of the Office for 
+Geoinformation and cantonal surveyor of the canton of Solothurn, has taken a 
+stab at (further) geo-enabling Apache Hop. So far, he published two blog posts 
+(both in German):
+
+## Let's Hop^[Not my pun, but Stefan's 🫣] #1: Laying the foundation
+
+[In this first post][hop1], Stefan describes how he implemented both an Apache 
+Hop OGR reader and writer^[Technically, `ogr-reader` and `ogr-exporter`.] by 
+building Java bindings for GDAL/OGR and packaging everything into Hop plug-ins. 
+This re-uses previous work by AtolCD and [their geospatial plug-ins for Hop][atol].
+
+![GDAL/OGR reader and writer plug-ins in Apache Hop (source: Stefan Ziegler)](reader-writer.png "GDAL/OGR reader and writer plug-ins in Apache Hop (source: Stefan Ziegler)")
+
+## Let's Hop #2: Die Idee ist gut, die Vorschau ist besser
+
+[In this second post][hop2], Stefan explains how he implemented a geospatial 
+preview for the [native geometry data type][geom] in Hop. Rather than just 
+displaying the geometry as EWKT[^EWKT], Stefan's *"Inspect geometries..."* plug-in
+allows users to look at geospatial features in Hop in their spatial context
+using an interactive map.
+
+![Geospatial preview in Apache Hop (source: Stefan Ziegler)](hop-preview.png "Geospatial preview in Apache Hop (source: Stefan Ziegler)")
+
+Great stuff! Still [early days][gwf], but let's hop**_e_**^[Yeah, my bad 😬].
+
+[^ETL]: Extract-transform-load.
+[^EWKT]: Extended Well-Known Text, a PostGIS extension of [WKT](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry) that includes the spatial 
+reference system identifier (SRID) of the encoded geometry.
+
+[1]: https://spatialists.ch/posts/2025/07/15-webinar-on-data-integration-using-apache-hop/
+[2]: https://spatialists.ch/posts/2026/02/12-geospatial-data-integration-with-apache-hop/
+[stefan]: https://www.linkedin.com/in/stefan-ziegler-37b312a7/
+[hop1]: https://blog.sogeo.services/blog/2026/03/06/lets-hop-01.html
+[hop2]: https://blog.sogeo.services/blog/2026/03/09/lets-hop-02.html
+[atol]: https://github.com/atolcd/hop-gis-plugins 
+[geom]: https://github.com/edigonzales/hop-geometry-type-plugin/
+[gwf]: https://www.geowebforum.ch/t/ogr-plugin-fuer-apache-hop/1361/3
