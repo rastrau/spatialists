@@ -1,0 +1,41 @@
+---
+title: "QGIS 4.0 Norrköping"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-03-10 19:53"
+image: "qgis-4.jpg"
+description: 'QGIS 4.0 "Norrköping" has arrived – familiar on the surface, but rebuilt on Qt6 with over 100 new features, improved performance, and a stronger foundation for the future.'
+---
+
+On March 6, [QGIS version 4.0.0][qgis4], codenamed "[Norrköping][norrköping]", 
+was [released][released]. From the announcement: 
+
+> On the surface, existing users should expect to engage with a GIS experience 
+familiar to what they have come to know and love from previous QGIS releases. 
+Under the hood, however, it introduces significant changes to maintainability 
+and usability. These changes ensure that QGIS 4.0 can unlock additional access 
+to modern libraries while bringing much-needed performance and security 
+improvements to the codebase.
+>
+> (...)
+>
+> While preparation for the QGIS 4.0 migration has been underway, the developer 
+community has added over 100 new features across the application, making QGIS 
+more powerful, more flexible, more secure, and generally just more awesome. 
+
+In a major update to the underlying application framework, QGIS 4 is built on 
+[Qt6][qt6]. 
+
+As to other improvements, some highlights are listed on the [release 
+page][released] (scroll down). And there is a longish (23 minutes) 
+"visual changelog", essentially a video showing new features:
+
+{{< video https://www.youtube.com/watch?v=wTK1exokBA8 >}}
+
+[qgis4]: https://qgis.org/download/
+[norrköping]: https://duckduckgo.com/?q=Norrk%C3%B6ping&iaxm=maps
+[released]: https://changelog.qgis.org/en/version/4.0/
+[qt6]: https://www.qt.io/development/qt-framework/qt6
+
+
