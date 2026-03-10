@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Tue, 10 Mar 2026 18:47:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 10 Mar 2026 19:53:00 GMT</lastBuildDate>
+<item>
+  <title>QGIS 4.0 Norrköping</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/03/10-qgis-40-norrkoping/</link>
+  <description><![CDATA[ QGIS 4.0 “Norrköping” has arrived – familiar on the surface, but rebuilt on Qt6 with over 100 new features, improved performance, and a stronger foundation for the future. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/03/10-qgis-40-norrkoping/</guid>
+  <pubDate>Tue, 10 Mar 2026 19:53:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/03/10-qgis-40-norrkoping/qgis-4.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Geo-enabling Apache Hop</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/01/25-vectormap-swiss-vector-maps/</guid>
   <pubDate>Sun, 25 Jan 2026 16:21:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/01/25-vectormap-swiss-vector-maps/vectormap-sample.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Just out: SGS Action Plan 2026</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/01/25-just-out-sgs-action-plan-2026/</link>
-  <description><![CDATA[ New directions and projects: The SGS board published the this year’s Action Plan for the Swiss Geoinformation Strategy. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/01/25-just-out-sgs-action-plan-2026/</guid>
-  <pubDate>Sun, 25 Jan 2026 13:56:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/01/25-just-out-sgs-action-plan-2026/sgs.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
