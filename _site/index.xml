@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Sun, 15 Mar 2026 14:31:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 15 Mar 2026 17:48:00 GMT</lastBuildDate>
+<item>
+  <title>Joint colloquium on spatial and statistical data</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/03/15-joint-colloquium-on-spatial-and-statistical-data/</link>
+  <description><![CDATA[ At the joint colloquium by the Federal Statistical Office and swisstopo, speakers explored the intersection of spatial and statistical data, from the buildings and addresses register GWR/RegBL to using the topographic landscape model TLM for statistical analyses, and managing and disseminating metadata on geospatial data. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/03/15-joint-colloquium-on-spatial-and-statistical-data/</guid>
+  <pubDate>Sun, 15 Mar 2026 17:48:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/03/15-joint-colloquium-on-spatial-and-statistical-data/nick-brunner-5dgXQJ7ezuU-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Make geospatial matter</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/01/28-osm-scraping/</guid>
   <pubDate>Wed, 28 Jan 2026 19:01:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/01/28-osm-scraping/osm.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Geoinformation strategy of the canton of Bern</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/01/26-geoinformation-strategy-of-the-canton-of-bern/</link>
-  <description><![CDATA[ The Canton of Bern has released its updated Geoinformation Strategy for 2026–2030, setting a focus on customer-oriented services, long-term capacity building, and stronger cooperation across authorities. New topics include #AI, #NoCode/#LowCode environments, natural-language applications, #DigitalTwin-s, and #opensource, among many others. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/01/26-geoinformation-strategy-of-the-canton-of-bern/</guid>
-  <pubDate>Mon, 26 Jan 2026 18:30:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/01/26-geoinformation-strategy-of-the-canton-of-bern/geoinformation-strategy.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
