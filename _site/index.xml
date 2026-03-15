@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Tue, 10 Mar 2026 19:53:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 15 Mar 2026 14:31:00 GMT</lastBuildDate>
+<item>
+  <title>Make geospatial matter</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/03/15-make-geospatial-matter/</link>
+  <description><![CDATA[ “What must the #GIScience community do to matter?” An article by the Geographic Data Service reports from a roundtable discussion that has found the geospatial field “strategically undervalued” and institutionally isolated. Alex Singleton, director of the GeoDS, argues that spatial thinking should be treated as foundational, not as a specialism. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/03/15-make-geospatial-matter/</guid>
+  <pubDate>Sun, 15 Mar 2026 14:31:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/03/15-make-geospatial-matter/luke-stackpoole-ZcMjzDGSFw4-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>QGIS 4.0 Norrköping</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/01/26-geoinformation-strategy-of-the-canton-of-bern/</guid>
   <pubDate>Mon, 26 Jan 2026 18:30:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/01/26-geoinformation-strategy-of-the-canton-of-bern/geoinformation-strategy.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Vectormap: Swiss vector maps</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/01/25-vectormap-swiss-vector-maps/</link>
-  <description><![CDATA[ Building on his Master’s thesis, Fabian Rechsteiner launched Vectormap, a project focused on making Swiss #geodata accessible as modern, high-performance #vectormaps. With regularly updated #cadastraldata and ready-to-use styles in #PMTiles format, Vectormap explores pragmatic, #cloudnative ways to bring geodata to the web. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/01/25-vectormap-swiss-vector-maps/</guid>
-  <pubDate>Sun, 25 Jan 2026 16:21:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/01/25-vectormap-swiss-vector-maps/vectormap-sample.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
