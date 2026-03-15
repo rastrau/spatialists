@@ -146,6 +146,7 @@
 [^swisstopo]: The Federal Office of Topography of Switzerland.
 [^tdi]: [Time delay integration](https://en.wikipedia.org/wiki/Time_delay_and_integration), a forward-motion compensation technique.
 [^thomaszurbuchen]: Director of ETH Zurich Space and former Associate Administrator for the Science Mission Directorate at NASA.
+[^tlm]: Swisstopo's topographic landscape model, the basis of [swissTLM3D](https://www.swisstopo.admin.ch/en/landscape-model-swisstlm3d), a large-scale 3D vector dataset describing Switzerland's landscape.
 [^tippecanoe]: The name is a [joking reference](https://github.com/mapbox/tippecanoe?tab=readme-ov-file#name) to [a "tiler" (or "Tyler")](https://en.wikipedia.org/wiki/Tippecanoe_and_Tyler_Too) and more basically a river, county and a [battleground](https://en.wikipedia.org/wiki/Battle_of_Tippecanoe).
 [^toponyms]: Place names.
 [^tum]: Technical University Munich, Germany.
