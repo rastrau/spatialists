@@ -1,0 +1,66 @@
+---
+title: "Joint colloquium on spatial and statistical data"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-03-15 17:48"
+image: "nick-brunner-5dgXQJ7ezuU-unsplash.jpg"
+description: "At the joint colloquium by the Federal Statistical Office and swisstopo, speakers explored the intersection of spatial and statistical data, from the buildings and addresses register GWR/RegBL to using the topographic landscape model TLM for statistical analyses, and managing and disseminating metadata on geospatial data."
+---
+
+Last friday, the [Federal Statistical Office][fso] (FSO) and the 
+[Federal Office of Topography][swisstopo] (swisstopo) held a joint colloquium 
+on spatial and statistical data. The event was held at swisstopo in Wabern, but 
+was also streamed and recorded.
+
+The video of the colloquium is available online. Unfortunately, at least at the
+time of writing, swisstopo has made the recording available [exclusively on 
+YouTube][video] and does not allow embedding.
+
+{{< video https://www.youtube.com/watch?v=8xINA6nhTX0 >}}
+
+In good Swiss tradition, the speakers alternate between French and German 
+(reasonably subtitled, so translation to English works fine). The video 
+includes:
+
+- [Introduction by Romain Douard][video], defining both spatial and statistical 
+data and their idiosyncrasies
+
+- [Data about buildings and addresses](https://youtu.be/8xINA6nhTX0?si=RXIlPTir_p1lItLT&t=404) 
+(from 6:44, by Grégoire Bögli (swisstopo) and Fabian Trees (FSO)), specifically 
+the GWR/RegBL (building and address register)
+
+- [Affordances and challenges in using spatial data for statistical 
+purposes](https://youtu.be/8xINA6nhTX0?si=-6heKtkk40kSAKUH&t=1818) (from 30:18, 
+by Emanuel Schmassmann (swisstopo) and Thomas Noirjean (FSO)), looking at an 
+example of using the topographic landscape model (TLM)[^tlm] for statistical 
+analyses
+
+- [Metadata](https://youtu.be/8xINA6nhTX0?si=zf1SCUoxdlt3axYj&t=2933)
+[^geometadata]
+[&nbsp;management](https://youtu.be/8xINA6nhTX0?si=zf1SCUoxdlt3axYj&t=2933) 
+(from 48:53, by Raphaëlle Arnaud (swisstopo) and Michael Koscevic (FSO)), about 
+the legal basis for metadata management, the future platform metadata.swiss, 
+and collaboration between the two offices in this area
+
+- [Q&A session](https://youtu.be/8xINA6nhTX0?si=aLG0FA2MP48e5hpB&t=4088) (from 
+1:08:08)
+
+I found the part about the data in the buildings and addresses register and the 
+processes behind it, e.g. back-filling the GWR/RegBL particularly interesting. 
+Unfortunately, there was only relatively little discussion in the Q&A session. 
+Hopefully, we'll see more successful collaboration in the data space in the 
+future.
+
+[fso]: https://www.bfs.admin.ch/bfs/en/home.html
+[swisstopo]: https://www.swisstopo.admin.ch/en/home.html
+[video]: https://www.youtube.com/watch?v=8xINA6nhTX0
+[^tlm]: Swisstopo's topographic landscape model, the basis of 
+[swissTLM3D](https://www.swisstopo.admin.ch/en/landscape-model-swisstlm3d), a 
+large-scale 3D vector dataset describing Switzerland's landscape.
+[^geometadata]: "Geometadata" is used in some legal bases and standards to 
+denote "metadata on geospatial data". I don't like this term. Granted, 
+geospatial data does have some special metadata properties (maybe specifically 
+those should be called "geometadata", if anything, not all metadata on geodata). 
+But so do biomedical data, meteorological data, and digital humanities data, 
+without coming up with specific terminology as far as I'm aware.
