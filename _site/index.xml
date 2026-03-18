@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Sun, 15 Mar 2026 17:48:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 18 Mar 2026 21:12:00 GMT</lastBuildDate>
+<item>
+  <title>Zero declination, please</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/03/18-zero-declination-please/</link>
+  <description><![CDATA[ Fun explorations: David O’Sullivan gets nerd-sniped by an #xkcd comic into creating a #map #projection where magnetic north and true north are perfectly aligned everywhere. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/03/18-zero-declination-please/</guid>
+  <pubDate>Wed, 18 Mar 2026 21:12:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/03/18-zero-declination-please/rotated-map-sheets.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Joint colloquium on spatial and statistical data</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/01/31-five-levels-of-ai-use/</guid>
   <pubDate>Sat, 31 Jan 2026 10:43:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/01/31-five-levels-of-ai-use/homa-appliances-pWUyHVJgLhg-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>OSM scraping</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/01/28-osm-scraping/</link>
-  <description><![CDATA[ An #OpenStreetMap-themed account on LinkedIn is calling on journalists to investigate a surge in what seems to be coordinated #scraping from hundreds of thousands of IP addresses, suspected to be linked to #AI #data collection. This incident spotlights growing tension between #opendata principles and the potential for misuse of public infrastructure. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/01/28-osm-scraping/</guid>
-  <pubDate>Wed, 28 Jan 2026 19:01:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/01/28-osm-scraping/osm.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
