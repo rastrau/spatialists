@@ -1,0 +1,45 @@
+---
+title: "Zero declination, please"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-03-18 21:12"
+image: "rotated-map-sheets.png"
+description: "Fun explorations: David O'Sullivan gets nerd-sniped by an #xkcd comic into creating a #map #projection where magnetic north and true north are perfectly aligned everywhere."
+---
+
+
+Something ~~lighter~~ less serious, but still instructive: Staying within the 
+xkcd frame of reference, I would say David O’Sullivan was successfully
+"nerd-sniped"[^nerdsniped] by [xkcd 3207](https://xkcd.com/3207/) 
+([explanation][explanation]):
+
+![xkcd 3207: "Bad Map Projection: Zero Declination"](xkcd-3207.png 'xkcd 3207: "Bad Map Projection: Zero Declination"')
+
+Using R, David [tries to create the zero declination map][article] proposed in 
+the xkcd. That is, a map featuring a projection so that at each location on the 
+Earth surface has a [declination][declination] of 0°. In yet other words: ... 
+so that the [magnetic north][magneticnorth] and [true north][truenorth] are 
+exactly aligned everywhere. 
+
+What follows is a (fun!) deep dive into different approaches to the problem. I 
+enjoyed the somewhat whimsical premise, the joy of experimentation, the results 
+(complete with code, for those interested!), and the lessons David draws from 
+the exercise. I won’t spoil the fun by giving those away, but I will say that 
+[David's article][article] is a nice example of how to approach a problem 
+through experimental iteration, and how to learn from the process.
+
+[^nerdsniped]: See [xkcd 356](https://xkcd.com/356/) and, if needed, its 
+[explanation][explanation]. Looking at David's [postscript](https://geospatialstuff.com/posts/2026/03/18/#postscript) this seems to happen from time to time. Tip: xkcd 
+explanations can always be found by adding `explain` at the beginning of the 
+URL, i.e. `xkcd.com/356` &rarr; `explainxkcd.com/356`.
+
+[article]: https://geospatialstuff.com/posts/2026/03/18/
+
+[explanation]: https://explainxkcd.com/3207/
+
+[declination]: https://en.wikipedia.org/wiki/Magnetic_declination
+
+[magneticnorth]: https://en.wikipedia.org/wiki/North_magnetic_pole
+
+[truenorth]: https://en.wikipedia.org/wiki/True_north
