@@ -30,7 +30,7 @@ the exercise. I won’t spoil the fun by giving those away, but I will say that
 through experimental iteration, and how to learn from the process.
 
 [^nerdsniped]: See [xkcd 356](https://xkcd.com/356/) and, if needed, its 
-[explanation][explanation]. Looking at David's [postscript](https://geospatialstuff.com/posts/2026/03/18/#postscript) this seems to happen from time to time. Tip: xkcd 
+[explanation](https://explainxkcd.com/356/). Looking at David's [postscript](https://geospatialstuff.com/posts/2026/03/18/#postscript) this seems to happen from time to time. Tip: xkcd 
 explanations can always be found by adding `explain` at the beginning of the 
 URL, i.e. `xkcd.com/356` &rarr; `explainxkcd.com/356`.
 
