@@ -1054,14 +1054,14 @@
     "href": "posts/2026/03/18-zero-declination-please/index.html",
     "title": "Zero declination, please",
     "section": "",
-    "text": "Something lighter less serious, but still instructive: Staying within the xkcd frame of reference, I would say David O’Sullivan was successfully “nerd-sniped”1 by xkcd 3207 (explanation):\nUsing R, David tries to create the zero declination map proposed in the xkcd. That is, a map featuring a projection so that at each location on the Earth surface has a declination of 0°. In yet other words: … so that the magnetic north and true north are exactly aligned everywhere.\nWhat follows is a (fun!) deep dive into different approaches to the problem. I enjoyed the somewhat whimsical premise, the joy of experimentation, the results (complete with code, for those interested!), and the lessons David draws from the exercise. I won’t spoil the fun by giving those away, but I will say that David’s article is a nice example of how to approach a problem through experimental iteration, and how to learn from the process."
+    "text": "Something lighter less serious, but still instructive: Staying within the xkcd frame of reference, I would say David O’Sullivan was successfully “nerd-sniped”1 by xkcd 3207 (explanation2):\nUsing R, David tries to create the zero declination map proposed in the xkcd. That is, a map featuring a projection so that at each location on the Earth surface has a declination of 0°. In yet other words: … so that the magnetic north and true north are exactly aligned everywhere.\nWhat follows is a (fun!) deep dive into different approaches to the problem. I enjoyed the somewhat whimsical premise, the joy of experimentation, the results (complete with code, for those interested!), and the lessons David draws from the exercise. I won’t spoil the fun by giving those away, but I will say that David’s article is a nice example of how to approach a problem through experimental iteration, and how to learn from the process."
   },
   {
     "objectID": "posts/2026/03/18-zero-declination-please/index.html#footnotes",
     "href": "posts/2026/03/18-zero-declination-please/index.html#footnotes",
     "title": "Zero declination, please",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nSee xkcd 356 and, if needed, its explanation. Looking at David’s postscript this seems to happen from time to time. Tip: xkcd explanations can always be found by adding explain at the beginning of the URL, i.e. xkcd.com/356 → explainxkcd.com/356.↩︎"
+    "text": "Footnotes\n\n\nSee xkcd 356 and, if needed, its explanation. Looking at David’s postscript this seems to happen from time to time.↩︎\nTip: xkcd explanations can always be found by adding explain at the beginning of the URL, i.e. xkcd.com/356 → explainxkcd.com/356.↩︎"
   },
   {
     "objectID": "posts/2026/01/22-geofeeds-mcp/index.html",
