@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,6 +12,9 @@
 
 <title>Geo Cloud Converter – Spatialists – geospatial news</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -36,15 +39,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../../assets/favicon.png" rel="icon" type="image/png">
 <script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../site_libs/bootstrap/bootstrap-13f36ab0e9219017a4f3afa4b6f506ec.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../../site_libs/bootstrap/bootstrap-3baef9506daa0578aed483d6554436b8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script src="../../../../site_libs/quarto-contrib/videojs/video.min.js"></script>
 <link href="../../../../site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -216,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
 
 <p><a href="https://www.linkedin.com/posts/pierre-blanchet-environment_we-built-something-that-fixes-one-of-the-activity-7388508163555340289-fVe1">Maphub.co</a> have built <a href="https://geo-cloud-converter.maphub.co/">Geo Cloud Converter</a>. The tool runs in your browser and its premise is simple: Drop a GeoJSON, a Shapefile (zipped or not), a KML, a GPX, a CSV<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, a GeoPackage, or a GeoTIFF onto its interface and obtain a cloud-native representation of it – a <a href="https://guide.cloudnativegeo.org/cloud-optimized-geotiffs/intro.html">Cloud-optimized GeoTIFF</a> (COG) if your input was a (standard) GeoTIFF, a <a href="https://guide.cloudnativegeo.org/geoparquet/">GeoParquet</a><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> file, a <a href="https://guide.cloudnativegeo.org/flatgeobuf/intro.html">Flatgeobuf</a> file, or <a href="https://guide.cloudnativegeo.org/pmtiles/intro.html">PMTiles</a> in all other cases.</p>
 <p>Quick demo by Pierre Blanchet:</p>
-<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="geo-cloud-converter.mp4"></video></div>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-big-play-centered vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="geo-cloud-converter.mp4"></video></div>
 <p><a href="https://geo-cloud-converter.maphub.co/">Geo Cloud Converter</a> is built using GDAL<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> and DuckDB WASM<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>. The latter means that the data never leaves your computer, all processing is done in your browser. Maximum file size is 1 GB.</p>
 <p>Neat, for quick testing or in a pinch.</p>
 
