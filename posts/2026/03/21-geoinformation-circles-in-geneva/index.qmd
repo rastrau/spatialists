@@ -5,7 +5,7 @@ author:
     url: https://ralphstraumann.ch
 date: "2026-03-21 16:33"
 image: "egor-komarov-uHsa-zQfEQw-unsplash.jpg"
-description: "Geneva's #SITG is experimenting with an open community model: thematic #geoinformation circles that anyone can propose, join, and self-organize. Already, participants range from the WHO and France's national mapping agency to university researchers and private companies."
+description: "Geneva's #SITG is experimenting with an open community model: thematic #geoinformation circles that anyone can propose, join, and self-organize. Already, participants range from the WHO and France's national mapping agency to university researchers and private groups."
 ---
 
 The [Système d'information du territoire à Genève][sitg][^sitg] [recently asked][post]: _"What if geoinformation became a powerful tool for collective intelligence in the service of the region?"_ In this theme and aiming to foster more collaboration within the Geneva geoinformation community, the SITG published a new online resource about what they call "circles". 
