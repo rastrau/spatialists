@@ -15,8 +15,17 @@
 <title>Spatialists – geospatial news</title>
 <link>https://spatialists.ch/</link>
 </image>
-<generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 18 Mar 2026 21:12:00 GMT</lastBuildDate>
+<generator>quarto-1.9.36</generator>
+<lastBuildDate>Sat, 21 Mar 2026 16:33:00 GMT</lastBuildDate>
+<item>
+  <title>Geoinformation circles in Geneva</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/03/21-geoinformation-circles-in-geneva/</link>
+  <description><![CDATA[ Geneva’s #SITG is experimenting with an open community model: thematic #geoinformation circles that anyone can propose, join, and self-organize. Already, participants range from the WHO and France’s national mapping agency to university researchers and private companies. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/03/21-geoinformation-circles-in-geneva/</guid>
+  <pubDate>Sat, 21 Mar 2026 16:33:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/03/21-geoinformation-circles-in-geneva/egor-komarov-uHsa-zQfEQw-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Zero declination, please</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/02/01-gis-dissolution/</guid>
   <pubDate>Sun, 01 Feb 2026 14:33:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/02/01-gis-dissolution/anthony-hortin-0RlZzFzUriE-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Five levels of AI use</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/01/31-five-levels-of-ai-use/</link>
-  <description><![CDATA[ From “Spicy Autocomplete” to “Dark Factory”, Dan Shapiro proposes SAE-inspired five levels of #AI use in #programming as a framework for how organizations mature from basic tools to full #automation. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/01/31-five-levels-of-ai-use/</guid>
-  <pubDate>Sat, 31 Jan 2026 10:43:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/01/31-five-levels-of-ai-use/homa-appliances-pWUyHVJgLhg-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
