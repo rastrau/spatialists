@@ -67,6 +67,7 @@
 [^gretl]: Gradle ETL (extract-transform-load).
 [^grid]: Grid (tagline: "is not a journal") has been published since fall 2024 and [describes itself](https://gridisnotajournal.de/%C3%BCber-grid/) as "deal[ing] with the mutual transformations of society, technology and space in the age of digital media, infrastructures, data and algorithms". The aim of grid is to create a publication format that enables an exchange among scientists, but also makes this exchange accessible to a broader public.
 [^h3]: [H3](https://h3geo.org) is a hexagonal (mostly, except for 12 pentagons – think: football) discrete global grid system (DGGS) (Apache 2.0-licensed) created by Uber.
+[^ign]: France's National Mapping Agency, the Institut national de l'information géographique et forestière.
 [^high-resolution]: For global coverage, 30 meter is considered high-resolution.
 [^iceberg]: An open-source, high-performance table format for large datasets in data lakes.
 [^insar]: Interferometric SAR.
@@ -155,6 +156,7 @@
 [^vhi]: VHI or Vegetation Health Index is a combination of Vegetation Condition Index (VCI) and Temperature Condition Index (TCI), often used for drought monitoring.
 [^vr]: Virtual reality.
 [^wasm]: WebAssembly.
+[^who]: World Health Organization.
 [^wkb]: Well-Known Binary.
 [^wkt]: [Well-Known Text](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry), a markup language for representing vector geometries.
 [^xtf]: Interlis transfer format.
