@@ -31,9 +31,9 @@ What is most interesting about these circles is their governance model. But firs
 
 Participation in circles is not in any way limited or exclusive: Everybody[^privateperson] can suggest the formation of a new circle, pitch its goals to other parties, and submit the creation of the circle to the [Geoinformation Office][office], which has final approval.
 
-The process seems designed to be particularly low-threshold: For example, the Geoinformation Office requires only the circle's pitch, the name of the responsible person, and a list of members. There is both a [short description][description] and a [detailled guide][guide] in which the SITG explains the process of creating a circle in more detail. 
+The process seems designed to be particularly low-threshold: For example, the Geoinformation Office requires only the circle's pitch, the name of the responsible person, and a list of members. There is both a [short description][description] and a [detailled guide][guide] in which the SITG explains the process of creating a circle. 
 
-Circles self-organize. Meetings notes need to be transmitted to the SITG community leader. Circles can decide if their meeting notes shall be public or kept internal. At the time of writing, some notable circle participants from *outside* the cantonal administration of Geneva include:
+Circles self-organize. Meeting notes need to be transmitted to the SITG community leader. Circles can decide if their meeting notes shall be public or kept internal. At the time of writing, some notable circle participants from *outside* the cantonal administration of Geneva include:
 
 - In the [Health circle][healthcircle]: 
   - the WHO[^who]
