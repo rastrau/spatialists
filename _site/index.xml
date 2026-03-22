@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Sat, 21 Mar 2026 16:33:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 22 Mar 2026 18:35:00 GMT</lastBuildDate>
+<item>
+  <title>DuckDB 1.5 with spatial updates</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/03/22-duckdb-15-with-spatial-updates/</link>
+  <description><![CDATA[ DuckDB 1.5 arrives with significant updates for #geospatial: GEOMETRY becomes a built-in data type, storage switches to #WKB with shredding for better compression, #CRS awareness is now part of the type system, and more! Here is a rundown of the most relevant new features in #DuckDB 1.5. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/03/22-duckdb-15-with-spatial-updates/</guid>
+  <pubDate>Sun, 22 Mar 2026 18:35:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/03/22-duckdb-15-with-spatial-updates/alejandro-correa-bayardo-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Geoinformation circles in Geneva</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/02/04-1st-year-anniversary/</guid>
   <pubDate>Wed, 04 Feb 2026 19:23:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/assets/titlecard.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>GIS dissolution</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/02/01-gis-dissolution/</link>
-  <description><![CDATA[ Ten years after his original “Post GIS” essay, Bill Dollins revisits the evolving landscape of geospatial technology in “‘Post GIS’ revisited”. He traces three waves of GIS dissolution, from breaking apart monolithic systems to the rise of modular stacks and, most recently, natural-language-driven interaction, offering sharp insight into how far the field has come. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/02/01-gis-dissolution/</guid>
-  <pubDate>Sun, 01 Feb 2026 14:33:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/02/01-gis-dissolution/anthony-hortin-0RlZzFzUriE-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
