@@ -1,0 +1,75 @@
+---
+title: "DuckDB 1.5 with spatial updates"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-03-22 18:35"
+image: "alejandro-correa-bayardo-unsplash.jpg"
+description: "DuckDB 1.5 arrives with significant updates for #geospatial: GEOMETRY becomes a built-in data type, storage switches to #WKB with shredding for better compression, #CRS awareness is now part of the type system, and more! Here is a rundown of the most relevant new features in #DuckDB 1.5."
+---
+
+A few days ago, [DuckDB 1.5.0 was released](https://duckdb.org/2026/03/09/announcing-duckdb-150)[^duckdb].
+This release includes a large number of updates, some of which specifically for 
+geospatial applications. For example:
+
+## [GEOMETRY becomes a built-in data type](https://duckdb.org/2026/03/09/announcing-duckdb-150#geometry-rework)
+
+This move mirrors the approach recently taken by Parquet.[^parquet] From the announcement:
+
+> Geospatial data is no longer niche. (...) By moving GEOMETRY into DuckDB’s 
+core, extensions can now produce and consume geometry values natively, without 
+depending on spatial. While the spatial extension still provides most of the 
+functions for working with geometries, the type itself becomes a shared 
+foundation that the entire ecosystem can build on.
+
+And:
+
+> This change also enables deeper integration with DuckDB’s storage engine and 
+query optimizer, unlocking new compression techniques, query optimizations, and 
+CRS awareness capabilities that were not possible when GEOMETRY only existed as 
+an extension type.
+
+## [Improved storage as WKB](https://duckdb.org/2026/03/09/announcing-duckdb-150#improved-storage-wkb-and-shredding)
+
+`GEOMETRY` values are now stored as Well-Known Binary. This replaces a custom
+format that was used previously in the `spatial` extension.
+
+> We’ve also implemented a new storage technique specialized for `GEOMETRY`. 
+When a geometry column contains values that all share the same type and vertex 
+dimensions, DuckDB can additionally apply "shredding": rather than storing 
+opaque blobs, the column is decomposed into primitive `STRUCT`, `LIST`, and 
+`DOUBLE` segments that compress far more efficiently. This can reduce on-disk 
+size by roughly 3x for uniform geometry columns such as point clouds.
+
+## [Geometry statistics and query optimization](https://duckdb.org/2026/03/09/announcing-duckdb-150#geometry-statistics-and-query-optimization)
+
+Sounds like `GEOMETRY` columns now receive a kind of automatic spatial indexing 
+treatment:
+
+> `GEOMETRY` columns now track per-row-group statistics - including the 
+bounding box and the set of geometry types and vertex dimensions present. The 
+query optimizer can use these to skip row groups that cannot match a query's 
+spatial predicates, similar to min/max pruning for numeric columns.
+
+## [CRS awareness](https://duckdb.org/2026/03/09/announcing-duckdb-150#coordinate-reference-system-support)
+
+The `GEOMETRY` type now has optional support for a CRS[^crs] parameter, making the
+CRS explicit part of the data type system rather than a metadata component.
+Spatial functions enforce CRS consistency across their inputs, elminating a
+common source of errors in geospatial applications.
+
+> Only a couple of CRSs are built in by default, but loading the spatial 
+extension registers over 7,000 CRSs from the EPSG[^epsg] dataset.
+
+Finally, besides the DuckDB core, the `SPATIAL` extension also received an 
+[upgrade](https://duckdb.org/2026/03/09/announcing-duckdb-150#spatial-extension).
+
+Very exciting developments!
+
+[^duckdb]: [`DuckDB`](https://www.duckdb.org/why_duckdb) is an open-source column-oriented Relational Database Management System (RDBMS) designed for analytics use-cases.
+
+[^parquet]: An open-source, columnar storage file format designed for efficient data processing.
+
+[^crs]: Coordinate reference system.
+
+[^epsg]: The [EPSG Geodetic Parameter Dataset](https://epsg.org/) is a public registry of coordinate reference systems. "EPSG" stands for "European Petroleum Survey Group", the body that originally created it. The dataset assigns numeric codes to CRSs (e.g., EPSG:4326 for WGS 1984).
