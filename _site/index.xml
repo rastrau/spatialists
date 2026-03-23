@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Mon, 23 Mar 2026 17:18:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 23 Mar 2026 19:25:00 GMT</lastBuildDate>
+<item>
+  <title>Cadastral data in IFC format</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/03/23-cadastral-data-in-ifc-format/</link>
+  <description><![CDATA[ Swiss #CadastralSurveying data is now available in #IFC format via geodienste.ch by KGK-CGC, enabling seamless integration into #BIM workflows. Currently four cantons offer their data, including 3D terrain and building models from swisstopo, with more expected to follow. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/03/23-cadastral-data-in-ifc-format/</guid>
+  <pubDate>Mon, 23 Mar 2026 19:25:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/03/23-cadastral-data-in-ifc-format/preview-map-cropped.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>SOGI-OSIG communication</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/02/12-geospatial-data-integration-with-apache-hop/</guid>
   <pubDate>Thu, 12 Feb 2026 11:18:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/02/12-geospatial-data-integration-with-apache-hop/apache-hop-logo.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Microsoft 2026 GlobalMLBuildingFootprints update examined</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/02/10-microsoft-2026-globalmlbuildingfootprints-update-examined/</link>
-  <description><![CDATA[ Mark Litwintschik offers a look into #Microsoft’s #GlobalMLBuildingFootprints dataset, exploring global #building density, height coverage, and data confidence. His analysis not only reveals insights into important dataset characteristics but also demonstrates how to access and explore the dataset efficiently using #DuckDB. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/02/10-microsoft-2026-globalmlbuildingfootprints-update-examined/</guid>
-  <pubDate>Tue, 10 Feb 2026 20:30:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/02/10-microsoft-2026-globalmlbuildingfootprints-update-examined/building-heatmap-cropped.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
