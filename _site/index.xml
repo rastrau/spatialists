@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Sun, 22 Mar 2026 18:35:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 23 Mar 2026 17:18:00 GMT</lastBuildDate>
+<item>
+  <title>SOGI-OSIG communication</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/03/23-sogi-osig-communication/</link>
+  <description><![CDATA[ The <a href="https://www.sogi.ch/">SOGI-OSIG</a> has started a survey on the organisation’s communication activities. The survey is available <a href="https://www.geowebforum.ch/t/umfrage-sogi-kommunikation/1380">in German</a> and <a href="https://www.geowebforum.ch/t/enquete-sur-la-communication-osig/1381">in French</a><sup>1</sup>. Administered by the BFH, the survey results will be used to inform SOGI-OSIG’s future communication strategy and activities. It takes about 10 minutes to complete and is anonymous. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/03/23-sogi-osig-communication/</guid>
+  <pubDate>Mon, 23 Mar 2026 17:18:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/03/23-sogi-osig-communication/sogi-osig-cropped.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>DuckDB 1.5 with spatial updates</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/02/10-microsoft-2026-globalmlbuildingfootprints-update-examined/</guid>
   <pubDate>Tue, 10 Feb 2026 20:30:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/02/10-microsoft-2026-globalmlbuildingfootprints-update-examined/building-heatmap-cropped.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>1st year anniversary</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/02/04-1st-year-anniversary/</link>
-  <description><![CDATA[ One year ago today, I set out to curate geospatial news independently and openly with Spatialists.ch. A year, 164 posts, and countless discoveries later, it’s time to look back – and ask you about your feedback regarding this service for the geo community. Thank you for reading! ]]></description>
-  <guid>https://spatialists.ch/posts/2026/02/04-1st-year-anniversary/</guid>
-  <pubDate>Wed, 04 Feb 2026 19:23:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/assets/titlecard.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
