@@ -6,6 +6,7 @@
 [^ais]: Automatic Identification System. AIS devices are installed on ships and emit information such as identification, position, course, and speed of the ship. The combination of SAR with an AIS instrument enables Sentinel-1D to detect so called "dark" ships, i.e., ships that have turned off their AIS to escape detection.
 [^anecdata]: [Anecdotal evidence](https://en.wikipedia.org/wiki/Anecdotal_evidence#Scientific_context)
 [^apache hop]: "Hop" stands for "Hop Orchestration Platform". While the wordmark looks as if “HOP” is all upper-case, the copy of the official website actually calls it “Hop”. The [recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym) maybe being a nod to "GNU"?
+[^bfh]: The Berner Fachhochschule or Bern University of Applied Sciences.
 [^bfs]: Breadth-First Search
 [^bigquery]: Google's [data warehouse (DWH) Platform-as-a-Service offering](https://en.wikipedia.org/wiki/BigQuery)
 [^billion]: To be clear: "Milliarden" in German, "milliards" in French.
