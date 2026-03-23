@@ -5,10 +5,10 @@ author:
     url: https://ralphstraumann.ch
 date: "2026-03-23 17:18"
 image: "sogi-osig-cropped.png"
-description: ""
+description: "The #SOGI-#OSIG has started a survey on the organisation's communication activities. The survey is available in German and in French. Administered by the BFH, the survey results will be used to inform SOGI-OSIG's future communication strategy and activities. It takes about 10 minutes to complete and is anonymous."
 ---
 
-The [SOGI-OSIG][sogiosig] has started a survey on the organisation's communication activities. The survey is available [in German][survey-de] and [in French][survey-fr][^fail]. Administered by the BFH, the survey results will be used to inform SOGI-OSIG's future communication strategy and activities. It takes about 10 minutes to complete and is anonymous.
+The [SOGI-OSIG][sogiosig][^sogi] has started a survey on the organisation's communication activities. The survey is available [in German][survey-de] and [in French][survey-fr][^fail]. Administered by the BFH[^bfh], the survey results will be used to inform SOGI-OSIG's future communication strategy and activities. It takes about 10 minutes to complete and is anonymous.
 
 ![The SOGI-OSIG logo](sogi-osig.png "The SOGI-OSIG logo")
 
@@ -17,6 +17,10 @@ The [SOGI-OSIG][sogiosig] has started a survey on the organisation's communicati
 [survey-de]: https://www.geowebforum.ch/t/umfrage-sogi-kommunikation/1380
 
 [survey-fr]: https://www.geowebforum.ch/t/enquete-sur-la-communication-osig/1381
+
+[^sogi]: [SOGI-OSIG](https://www.sogi.ch) is the Swiss Organization for Geographic Information founded in 1994. It aims to promote the interdisciplinary application of geoinformation in Switzerland. SOGI-OSIG is a member of the European umbrella organization [EUROGI](https://eurogi.org).
+
+[^bfh]: The Berner Fachhochschule or Bern University of Applied Sciences.
 
 [^fail]: A defect of the outreach was that, [initially, the survey was only available in German](https://www.geowebforum.ch/t/umfrage-sogi-kommunikation/1380/2). This does reflect my perception of the focus of the organisation and its main event, the [GEOSummit](https://www.geosummit.ch/). To me, it seems the Suisse romande, i.e. the French-speaking part of Switzerland, is under-represented in the SOGI-OSIG and has built their own community and events such as the [Journée romande de la géoinformation](https://georomandie.com/).
 
