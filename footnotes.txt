@@ -72,6 +72,7 @@
 [^ign]: France's National Mapping Agency, the Institut national de l'information géographique et forestière.
 [^high-resolution]: For global coverage, 30 meter is considered high-resolution.
 [^iceberg]: An open-source, high-performance table format for large datasets in data lakes.
+[^ifc]: Industry Foundation Classes, an open standard file format for Building Information Modelling (BIM) data exchange.
 [^insar]: Interferometric SAR.
 [^iot]: Internet of Things.
 [^isea]: ISEA grids use cells that are regular polygons on the surface of an icosahedron, which are then inversely projected using the Icosahedral Snyder Equal Area (ISEA) map projection to form equal area cells on the sphere.
@@ -93,6 +94,7 @@
 [^mapterhorn]: A pun on "map" and the famous [Matterhorn](https://en.wikipedia.org/wiki/Matterhorn).
 [^martinfleischmann]: Among other things, Martin Fleischmann is [the developer or one of the developers](https://martinfleischmann.net/longer-bio/) behind such geospatial tools as `momepy`, `GeoPandas`, and `PySAL`. [Previously](https://spatialists.ch/posts/2025/04/09-spatial-data-old-and-new/).
 [^maus]: [Monthly active users](https://en.wikipedia.org/wiki/Active_users).
+[^mvp]: Minimum Viable Product.
 [^mcp]: Model Context Protocol.
 [^mds]: "MDS" stands for "[Modern Data Stack](https://www.fivetran.com/blog/what-is-the-modern-data-stack)", a term used to describe a set of tools and technologies for data integration, processing, and analysis. It typically includes components like ELT processes (extract, load, transform), data warehouses, data lakes, and analytics platforms.
 [^medallionarchitecture]: The medallion architecture is a data processing framework that posits three layers for data: bronze (raw data), silver (cleaned and transformed data), and gold (aggregated and ready for analysis).
