@@ -106,6 +106,7 @@
 [^nma]: National Mapping Agency.
 [^nmga]: National mapping and geospatial agency
 [^north51]: NORTH51 is an annual conference in Canada, a [self-described](https://www.n51.ca/who-we-are) "dynamic gathering that embodies the spirit of modernization in the geospatial industry (...) [uniting] entrepreneurs passionate about bringing a platform to the industry to share grand, global, market-changing ideas."
+[^ogd]: Open Government Data: The movement or policy of the public sector to publish their data openly.
 [^ogc]: Open Geospatial Consortium.
 [^omf]: The [Overture Maps Foundation](https://overturemaps.org/) is an industry consortium (members include Amazon, Meta, Microsoft, and TomTom) that produces openly-licensed map data, building primarily on OpenStreetMap data.
 [^osm]: [OpenStreetMap](https://www.openstreetmap.org/), a collaborative, open-licensed map of the world.
