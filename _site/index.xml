@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Mon, 23 Mar 2026 19:25:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 26 Mar 2026 22:14:00 GMT</lastBuildDate>
+<item>
+  <title>“geo” after and beyond INSPIRE</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/03/26-geo-after-and-beyond-inspire/</link>
+  <description><![CDATA[ The INSPIRE Directive for geodata interoperability and sharing is set to be simplified. And that might actually be a good thing! Javier de la Torre takes a good look at INSPIRE’s history, shortcomings, and the argument for embracing #analytics-native paradigms for the future of geospatial. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/03/26-geo-after-and-beyond-inspire/</guid>
+  <pubDate>Thu, 26 Mar 2026 22:14:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/03/26-geo-after-and-beyond-inspire/inspire-cropped.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Cadastral data in IFC format</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/02/15-data-and-geospatial-building-blocks/</guid>
   <pubDate>Sun, 15 Feb 2026 15:03:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/02/15-data-and-geospatial-building-blocks/a-c-fsy2bD7Pep8-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Geospatial data integration with Apache Hop</title>
-  <dc:creator>Stefan Keller</dc:creator>
-  <link>https://spatialists.ch/posts/2026/02/12-geospatial-data-integration-with-apache-hop/</link>
-  <description><![CDATA[ Over 100 participants joined a webinar on “Enterprise and Geodata Integration with #Apache #Hop”, highlighting interest in open, extensible geospatial #DataEngineering and #ETL. The session introduced two new geospatial Hop plugins, outlined future extensions and underscored important developments in #DataIntegration. #ASF ]]></description>
-  <guid>https://spatialists.ch/posts/2026/02/12-geospatial-data-integration-with-apache-hop/</guid>
-  <pubDate>Thu, 12 Feb 2026 11:18:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/02/12-geospatial-data-integration-with-apache-hop/apache-hop-logo.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
