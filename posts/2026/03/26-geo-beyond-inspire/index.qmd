@@ -1,5 +1,5 @@
 ---
-title: '"geo" after and beyond INSPIRE'
+title: '"geo" beyond INSPIRE'
 author:
   - name: Ralph Straumann
     url: https://ralphstraumann.ch
