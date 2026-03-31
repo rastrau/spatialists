@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Thu, 26 Mar 2026 22:14:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 31 Mar 2026 18:06:00 GMT</lastBuildDate>
+<item>
+  <title>Swiss Data Space community</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/03/31-swiss-data-space-community/</link>
+  <description><![CDATA[ The Swiss Data Space Forum invites experts across domains to help shape the future of trusted #DataSharing in Switzerland. With geodata emerging as the backbone for interoperable and trustworthy #DataSpaces, this initiative is one to watch for anyone bridging the geodata and data ecosystems. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/03/31-swiss-data-space-community/</guid>
+  <pubDate>Tue, 31 Mar 2026 18:06:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/03/31-swiss-data-space-community/swiss-data-space-forum-cropped.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>“geo” beyond INSPIRE</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/02/17-going-underground/</guid>
   <pubDate>Tue, 17 Feb 2026 19:47:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/02/17-going-underground/nicolas-j-leclercq-WJg2bynUWOk-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Data and geospatial building blocks</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/02/15-data-and-geospatial-building-blocks/</link>
-  <description><![CDATA[ What happens when #AI crashes the GIS party? In “AI ate my GIS”, Will Cadell of Sparkgeo takes a sharp and forward‑thinking look at how market shifts and AI-enabled tooling could upend who shapes the future of geospatial technology. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/02/15-data-and-geospatial-building-blocks/</guid>
-  <pubDate>Sun, 15 Feb 2026 15:03:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/02/15-data-and-geospatial-building-blocks/a-c-fsy2bD7Pep8-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
