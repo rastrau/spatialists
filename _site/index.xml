@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Tue, 31 Mar 2026 18:06:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 03 Apr 2026 11:42:00 GMT</lastBuildDate>
+<item>
+  <title>Raster-enabling Apache Hop</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/04/03-raster-enabling-apache-hop/</link>
+  <description><![CDATA[ Stefan Ziegler continues his series on #geoenabling #ApacheHop, this time adding #raster support to his hop-gdal-plugin. Stefan walks through an #ETL pipeline that computes building heights from LiDAR and vector data using new raster transforms (Raster Clip, Raster Zonal Stats) built on the newer #GDAL tool structure. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/04/03-raster-enabling-apache-hop/</guid>
+  <pubDate>Fri, 03 Apr 2026 11:42:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/04/03-raster-enabling-apache-hop/building-heights.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Swiss Data Space community</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/02/19-spatial-sql-sandbox/</guid>
   <pubDate>Thu, 19 Feb 2026 21:01:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/02/19-spatial-sql-sandbox/spatial-sql-explorer-cropped.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Going underground</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/02/17-going-underground/</link>
-  <description><![CDATA[ New York City’s (and other cities’) push to map #underground #infrastructure reveals how little is often truly known about what lies beneath the streets and how costly that ignorance can be. Even in an age of seemingly abundant #data, critical gaps still disrupt the #planning and #maintenance of public infrastructure. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/02/17-going-underground/</guid>
-  <pubDate>Tue, 17 Feb 2026 19:47:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/02/17-going-underground/nicolas-j-leclercq-WJg2bynUWOk-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
