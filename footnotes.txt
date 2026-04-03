@@ -55,6 +55,7 @@
 [^fsdi]: The [Federal Spatial Data Infrastructure](https://www.geo.admin.ch/en/federal-spatial-data-infrastructure-fsdi/) of Switzerland.
 [^gedtm30]: "GEDTM" stands for "Global ensemble digital terrain model".
 [^geoai]: Specifically, the application of AI on geospatial data and for answering spatial questions.
+[^geopackage]: An open SQLite-based container format for geospatial data, defined by the [OGC](https://www.ogc.org/).
 [^geods]: The [Geographic Data Service or GeoDS](https://geods.ac.uk/) is a UK academic service, funded by Smart Data Research UK and operating across four universities, that leads academic collaboration with industry, government, and the third sector to extract value from smart data.
 [^geomorphometry]: The science of measuring and quantifying terrain or the the shape of the Earth's surface.
 [^geopandas]: [`GeoPandas`](https://geopandas.org/en/stable/getting_started/introduction.html) is an extension to the popular data science library `Pandas` that enables support for geospatial data.
@@ -70,6 +71,7 @@
 [^grid]: Grid (tagline: "is not a journal") has been published since fall 2024 and [describes itself](https://gridisnotajournal.de/%C3%BCber-grid/) as "deal[ing] with the mutual transformations of society, technology and space in the age of digital media, infrastructures, data and algorithms". The aim of grid is to create a publication format that enables an exchange among scientists, but also makes this exchange accessible to a broader public.
 [^h3]: [H3](https://h3geo.org) is a hexagonal (mostly, except for 12 pentagons – think: football) discrete global grid system (DGGS) (Apache 2.0-licensed) created by Uber.
 [^ign]: France's National Mapping Agency, the Institut national de l'information géographique et forestière.
+[^interlis]: [INTERLIS](https://www.interlis.ch/en) is a Swiss standard for geodata modelling and data exchange.
 [^high-resolution]: For global coverage, 30 meter is considered high-resolution.
 [^iceberg]: An open-source, high-performance table format for large datasets in data lakes.
 [^ifc]: Industry Foundation Classes, an open standard file format for Building Information Modelling (BIM) data exchange.
@@ -82,6 +84,7 @@
 [^josis]: JOSIS, the Journal of Spatial Information Science, is an open-access research journal dedicated to geoinformation science. Articles in JOSIS are licensed under a Creative Commons Attribution 3.0 (CC-BY) License.
 [^jpl]: Jet Propulsion Laboratory, a NASA research center in California.
 [^kgk-cgc]: The Conference of the Cantonal Geoinformation and Cadastral Offices in Switzerland.
+[^lidar]: Light Detection and Ranging, an active remote sensing technique that uses laser pulses to generate 3D point clouds of the Earth's surface or objects.
 [^llm]: Large language model.
 [^llms]: Large language models.
 [^lmeta]: Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA).
@@ -109,6 +112,7 @@
 [^ogd]: Open Government Data: The movement or policy of the public sector to publish their data openly.
 [^ogc]: Open Geospatial Consortium.
 [^omf]: The [Overture Maps Foundation](https://overturemaps.org/) is an industry consortium (members include Amazon, Meta, Microsoft, and TomTom) that produces openly-licensed map data, building primarily on OpenStreetMap data.
+[^ogr]: OGR is the vector data library within [GDAL](https://gdal.org/) supporting a wide range of vector formats.
 [^osm]: [OpenStreetMap](https://www.openstreetmap.org/), a collaborative, open-licensed map of the world.
 [^osmdata]: The [data structure of OSM](https://wiki.openstreetmap.org/wiki/Elements) with its [key-value-tagging scheme](https://wiki.openstreetmap.org/wiki/Tags) can be daunting to use, or render usable, in a relational database or in GIS environments.
 [^osmf]: The [OpenStreetMap Foundation](https://osmfoundation.org/) is a non-profit organisation supporting the OpenStreetMap project.
