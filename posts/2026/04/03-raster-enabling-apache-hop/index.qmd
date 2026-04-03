@@ -60,7 +60,7 @@ defined by the [OGC](https://www.ogc.org/).
 [^hop-gui]: Here, Stefan finds the user interface somewhat overwhelming.
 [^stefan-blog-links]: The articles are all on LinkedIn, as well, but here I use 
 the more sovereign links to Stefan's blog.
-[^fingers-crossed]: 🤞– which, of course, is far from a sustainable strategy.
+[^fingers-crossed]: 🤞– which, of course, is not a sustainable strategy.
 
 [geo-enabling]: https://spatialists.ch/posts/2026/03/10-geo-enabling-apache-hop/
 [linkedin]: https://www.linkedin.com/pulse/lets-hop-6-pixel-f%C3%BCr-stefan-ziegler-0me3e
