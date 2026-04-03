@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Fri, 03 Apr 2026 11:42:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 03 Apr 2026 17:42:00 GMT</lastBuildDate>
+<item>
+  <title>OSM vector tiles in the Esri ecosystem</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/04/03-osm-vector-tiles-in-the-esri-ecosystem/</link>
+  <description><![CDATA[ Riccardo Klinger demonstrates how to build an independent #basemap pipeline from #OpenStreetMap data using #GDAL/#OGR and integrate the resulting #vectorTiles into the #Esri ecosystem. Open-source and proprietary tools turn out to complement each other seamlessly. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/04/03-osm-vector-tiles-in-the-esri-ecosystem/</guid>
+  <pubDate>Fri, 03 Apr 2026 17:42:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/04/03-osm-vector-tiles-in-the-esri-ecosystem/alin-gavriliuc-s1ULGWEf79s-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Raster-enabling Apache Hop</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/02/20-omf-stac-inluding-pmtiles/</guid>
   <pubDate>Fri, 20 Feb 2026 19:19:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/02/20-omf-stac-inluding-pmtiles/omf-pmtiles-viewer.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Spatial SQL sandbox</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/02/19-spatial-sql-sandbox/</link>
-  <description><![CDATA[ Kyle Walker’s #SpatialSQL Explorer is a clever web app that lets you run spatial #SQL queries on #GeoJSON files directly in your browser using #DuckDB-#Wasm and #MapLibre. Upload WGS84 data (demo or your own), write queries with functions like ST_Touches() or ST_Centroid(), and watch the map and table update live as you explore. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/02/19-spatial-sql-sandbox/</guid>
-  <pubDate>Thu, 19 Feb 2026 21:01:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/02/19-spatial-sql-sandbox/spatial-sql-explorer-cropped.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
