@@ -53,6 +53,7 @@
 [^fme]: Safe Software's Feature Manipulation Engine.
 [^foursquare]: A location technology company ([Wikipedia](https://en.wikipedia.org/wiki/Foursquare_(company)), [Crunchbase](https://www.crunchbase.com/organization/foursquare)). You may remember the Foursquare app that let you check-in to places and enabled social location sharing..
 [^fsdi]: The [Federal Spatial Data Infrastructure](https://www.geo.admin.ch/en/federal-spatial-data-infrastructure-fsdi/) of Switzerland.
+[^gdal]: [GDAL](https://gdal.org/) (Geospatial Data Abstraction Library) is an open-source library and set of command-line tools for reading, writing, and transforming raster and vector geospatial data formats.
 [^gedtm30]: "GEDTM" stands for "Global ensemble digital terrain model".
 [^geoai]: Specifically, the application of AI on geospatial data and for answering spatial questions.
 [^geopackage]: An open SQLite-based container format for geospatial data, defined by the [OGC](https://www.ogc.org/).
