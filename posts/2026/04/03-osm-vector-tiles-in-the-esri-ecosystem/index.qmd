@@ -1,0 +1,44 @@
+---
+title: "OSM vector tiles in the Esri ecosystem"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-04-03 17:42"
+image: "alin-gavriliuc-s1ULGWEf79s-unsplash.jpg"
+description: "Riccardo Klinger demonstrates how to build an independent #basemap pipeline from #OpenStreetMap data using #GDAL/#OGR and integrate the resulting #vectorTiles into the #Esri ecosystem. Open-source and proprietary tools turn out to complement each other seamlessly."
+---
+
+From [Riccardo Klinger][riccardo] comes an [interesting demo workflow][article] 
+bridging open and proprietary GIS enviroments. In his [article][article], 
+Riccardo describes how to build an independent basemap pipeline creating vector 
+tiles from OSM[^osm] street network data (using a small memory footprint thanks to 
+GDAL[^gdal] and OGR[^ogr]), and how to integrate the resulting basemap into an Esri 
+ecosystem. 
+
+![The OSM basemap in ArcGIS Online (source: Riccardo Klinger)](basemap.png "The OSM basemap in ArcGIS Online (source: Riccardo Klinger)")
+
+Riccardo demonstrates an approach that allows users to leverage the rich data 
+from OSM while maintaining the flexibility and performance of vector tiles in 
+their Esri applications. It is not that often that we see such a seamless 
+integration of open-source tools with proprietary GIS technology. In Riccardo's 
+words: 
+
+> This makes GDAL something of a quiet bridge between two worlds.
+> In this pipeline: 
+>
+> - ArcGIS tools handle geodatabase management, cartography, and tile generation 
+> - GDAL/OGR provides flexible access to OpenStreetMap data
+> 
+> Rather than representing competing ecosystems, these technologies complement 
+> each other and enable data to move smoothly between open data communities and 
+> enterprise GIS platforms.
+
+The [article][article] has all the technical details, and analyses also the 
+broader implications.
+
+[^osm]: [OpenStreetMap](https://www.openstreetmap.org/), a collaborative, open-licensed map of the world.
+[^gdal]: [GDAL](https://gdal.org/) (Geospatial Data Abstraction Library) is an open-source library and set of command-line tools for reading, writing, and transforming raster and vector geospatial data formats.
+[^ogr]: OGR is the vector data library within [GDAL](https://gdal.org/) supporting a wide range of vector formats.
+
+[riccardo]: https://www.linkedin.com/in/rklinger
+[article]: https://www.linkedin.com/pulse/lets-move-openstreetmap-building-independent-basemap-pipeline-5gvwf
