@@ -9,20 +9,21 @@ description: "Stefan Ziegler continues his series on #geoenabling #ApacheHop, th
 ---
 
 Stefan Ziegler's efforts to geo-enable Apache Hop[^hop]
-([previously][geo-enabling]) continues: After vector data support through OGR[^ogr]
-reader and writer plug-ins, a geometry inspector, some INTERLIS[^interlis] integration,
-and more, Stefan is now tackling raster data. In
-[*Let's Hop 6: Pixel für Pixel*][hop6] (alternatively: [on LinkedIn][linkedin]),
+([previously][geo-enabling]) continues: After vector data support through 
+OGR[^ogr] reader and writer plug-ins, a geometry inspector, some 
+INTERLIS[^interlis] integration, and more, Stefan is now tackling raster data. 
+In [*Let's Hop 6: Pixel für Pixel*][hop6] (alternatively: [on LinkedIn][linkedin]),
 he describes^[in German] how he added several raster transforms to his
 [`hop-gdal-plugin`][hop-plugin] using the newer GDAL tool structure.[^gdal-tools]
 
 To demonstrate the new capabilities, Stefan walks through a pipeline that
-computes building heights from LiDAR[^lidar] and vector data: an OGR reader ingests
-building footprints from a GeoPackage[^geopackage] file, while a *Raster Clip* transform
-clips the corresponding extent from an externally hosted COG[^cog] file. The two
-streams are joined[^hop-unwieldy], and a
-*Raster Zonal Stats* transform[^hop-gui] is used to calculate average and maximum height per building.
-The result is written back to GeoPackage via an *OGR output*.
+computes building heights from LiDAR[^lidar] and vector data: an OGR reader 
+ingests building footprints from a GeoPackage[^geopackage] file, while a 
+*Raster Clip* transform clips the corresponding extent from an externally 
+hosted COG[^cog] file. The two streams are joined[^hop-unwieldy], and a
+*Raster Zonal Stats* transform[^hop-gui] is used to calculate average and 
+maximum height per building. The result is written back to GeoPackage via an 
+*OGR output*.
 
 ![Demo workflow (source: Stefan Ziegler)](workflow.png "Demo workflow (source: Stefan Ziegler)")
 
@@ -44,16 +45,21 @@ series is at 61 instalments. Let's see how far *"Let's Hop"* will go.[^fingers-c
 open-source ETL (extract-transform-load) solution that – in its own words and
 certainly in the hopes of some stakeholders – "aims to be the future of data
 integration."
-[^ogr]: OGR is the vector data library within [GDAL](https://gdal.org/) supporting a wide range of vector formats.
-[^interlis]: [INTERLIS](https://www.interlis.ch/en) is a Swiss standard for geodata modelling and data exchange.
+[^ogr]: OGR is the vector data library within [GDAL](https://gdal.org/) 
+supporting a wide range of vector formats.
+[^interlis]: [INTERLIS](https://www.interlis.ch/en) is a Swiss standard for 
+geodata modelling and data exchange.
 [^gdal-tools]: Think, for example, `gdal raster hillshade` instead of the very
 broad `gdal_translate` or `gdalwarp`.
-[^lidar]: Light Detection and Ranging, an active remote sensing technique that uses laser pulses to generate 3D point clouds of the Earth's surface or objects.
-[^geopackage]: An open SQLite-based container format for geospatial data, defined by the [OGC](https://www.ogc.org/).
+[^lidar]: Light Detection and Ranging, an active remote sensing technique that 
+uses laser pulses to generate 3D point clouds of the Earth's surface or objects.
+[^geopackage]: An open SQLite-based container format for geospatial data, 
+defined by the [OGC](https://www.ogc.org/).
 [^cog]: Cloud-optimized GeoTIFF.
 [^hop-unwieldy]: Here, Hop feels somewhat unwieldy, I would say.
 [^hop-gui]: Here, Stefan finds the user interface somewhat overwhelming.
-[^stefan-blog-links]: The articles are all on LinkedIn, as well, but here I use the more sovereign links to Stefan's blog.
+[^stefan-blog-links]: The articles are all on LinkedIn, as well, but here I use 
+the more sovereign links to Stefan's blog.
 [^fingers-crossed]: 🤞– which, of course, is far from a sustainable strategy.
 
 [geo-enabling]: https://spatialists.ch/posts/2026/03/10-geo-enabling-apache-hop/
