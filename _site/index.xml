@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Fri, 03 Apr 2026 17:42:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 06 Apr 2026 18:19:00 GMT</lastBuildDate>
+<item>
+  <title>geoparquet-io: Fast GeoParquet tool</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/04/06-geoparquet-io-fast-geoparquet-tool/</link>
+  <description><![CDATA[ #geoparquet-io is an open-source #CLI tool and #Python library for converting, inspecting, optimizing, and partitioning #GeoParquet files, automatically applying GeoParquet performance best practices along the way. Its extract command can pull geodata from sources such as #WFS, #Esri ArcGIS Feature Services, or BigQuery into GeoParquet. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/04/06-geoparquet-io-fast-geoparquet-tool/</guid>
+  <pubDate>Mon, 06 Apr 2026 18:19:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/04/06-geoparquet-io-fast-geoparquet-tool/parquet.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>OSM vector tiles in the Esri ecosystem</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/02/22-ai-ready-ogc-standards/</guid>
   <pubDate>Sun, 22 Feb 2026 18:12:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/02/22-ai-ready-ogc-standards/javier-miranda-AlJ9TQqeCV0-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>OMF STAC inluding pmtiles</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/02/20-omf-stac-inluding-pmtiles/</link>
-  <description><![CDATA[ The #Overture Maps Foundation (#OMF) has released a #STAC for its data themes – including addresses, buildings, places, and transportation – available as #cloudnative #GeoParquet and #PMTile files via AWS and Azure. The #PMTiles are ready-to-use, e.g. to easily preview in Protomaps for quick exploration. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/02/20-omf-stac-inluding-pmtiles/</guid>
-  <pubDate>Fri, 20 Feb 2026 19:19:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/02/20-omf-stac-inluding-pmtiles/omf-pmtiles-viewer.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
