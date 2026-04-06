@@ -8,13 +8,13 @@
 [^apache hop]: "Hop" stands for "Hop Orchestration Platform". While the wordmark looks as if “HOP” is all upper-case, the copy of the official website actually calls it “Hop”. The [recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym) maybe being a nod to "GNU"?
 [^bfh]: The Berner Fachhochschule or Bern University of Applied Sciences.
 [^bfs]: Breadth-First Search
-[^bigquery]: Google's [data warehouse (DWH) Platform-as-a-Service offering](https://en.wikipedia.org/wiki/BigQuery)
+[^bigquery]: Google's [data warehouse (DWH) Platform-as-a-Service offering](https://en.wikipedia.org/wiki/BigQuery).
 [^billion]: To be clear: "Milliarden" in German, "milliards" in French.
 [^canonicalpaper]: A canonical paper is a foundational academic publication that is intended to serve as the standard reference for a topic, in this case the QGIS project.
 [^choropleth]: A thematic map that uses different colors or shading of areas to represent data.
-[^cli]: Command-line interface
-[^clis]: Command line interfaces
-[^cloud-native]: I.e., taking full advantage of the cloud computing model; in the data world typically through enabling [partial downloads](https://blog.sogeo.services/blog/2023/12/29/statuscode-206-letsgetstarted.html) of file contents through so-called [HTTP range requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests)
+[^cli]: Command-line interface.
+[^clis]: Command line interfaces.
+[^cloud-native]: I.e., taking full advantage of the cloud computing model; in the data world typically through enabling [partial downloads](https://blog.sogeo.services/blog/2023/12/29/statuscode-206-letsgetstarted.html) of file contents through so-called [HTTP range requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests).
 [^cog]: Cloud-optimized GeoTIFF
 [^cogs]: Cloud-optimized GeoTIFFs
 [^copc]: Cloud-optimized point cloud
@@ -166,6 +166,7 @@
 [^vhi]: VHI or Vegetation Health Index is a combination of Vegetation Condition Index (VCI) and Temperature Condition Index (TCI), often used for drought monitoring.
 [^vr]: Virtual reality.
 [^wasm]: WebAssembly.
+[^wfs]: Web Feature Service, an OGC standard interface for querying and retrieving vector geodata over the web.
 [^who]: World Health Organization.
 [^wkb]: Well-Known Binary.
 [^wkt]: [Well-Known Text](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry), a markup language for representing vector geometries.
