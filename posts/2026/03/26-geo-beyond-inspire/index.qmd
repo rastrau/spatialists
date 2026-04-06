@@ -9,7 +9,7 @@ description: "The INSPIRE Directive for geodata interoperability and sharing is 
 ---
 
 INSPIRE[^inspire] is an initiative by the European Commission to create a 
-European spatial data infrastructure[^sdi] to support EU policy. It is based on
+European SDI[^sdi] to support EU policy. It is based on
 the directive 2007/2/EC of the European Parliament and of the European Council 
 which was put into force in May 2007[^parallels]. As [announced in December][announcement], under the banner of [reducing administrative burden][burden] within the EU, the INSPIRE directive is set to be simplified.
 
@@ -84,18 +84,7 @@ I feel tempted to quote even more from Javier's post; there are [many more good 
 
 [^sdi]: Spatial Data Infrastructure.
 
-[^parallels]: Parallels: The Swiss Federal Act on Geoinformation was put into 
-force in July 2008. The message of the Federal Council that accompanied the 
-draft for the Geoinformation Act (in 
-[German](https://www.fedlex.admin.ch/eli/fga/2006/982/de), in 
-[French](https://www.fedlex.admin.ch/eli/fga/2006/982/fr)) is dated 6 
-September, 2006. A short aside: Federal Council messages ("Botschaft" in 
-German, "Message" in French) accompany draft decrees. They are regulated in 
-Art. 141 of the Swiss Parliament Law. Their purpose is to inform the parliament 
-about the intent and the goals behind a draft decree, the problems it aims to 
-solve, implications for basic rights, financial and personnel impacts etc. As 
-such, these messages often contain interesting additional information that is 
-not contained in the draft decree itself.
+[^parallels]: Parallels: The Swiss Federal Act on Geoinformation was put into force in July 2008.
 
 [announcement]: https://knowledge-base.inspire.ec.europa.eu/news-and-publications/news/simplification-inspire-directive-2025-12-10_en
 
