@@ -15,8 +15,17 @@
 <title>Spatialists – geospatial news</title>
 <link>https://spatialists.ch/</link>
 </image>
-<generator>quarto-1.9.36</generator>
-<lastBuildDate>Mon, 06 Apr 2026 18:19:00 GMT</lastBuildDate>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Sat, 11 Apr 2026 11:57:00 GMT</lastBuildDate>
+<item>
+  <title>Terraink</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/04/11-terraink/</link>
+  <description><![CDATA[ Terraink is a free, open-sourc web app for creating artistic #cartographic posters from #OpenStreetMap data, with an impressive breadth of customisation options for themes, layouts, fonts, and layers. Recommended for anyone looking to create unique maps for print or social media. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/04/11-terraink/</guid>
+  <pubDate>Sat, 11 Apr 2026 11:57:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/04/11-terraink/Paris.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>geoparquet-io: Fast GeoParquet tool</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/02/23-geoinformation-job-market/</guid>
   <pubDate>Mon, 23 Feb 2026 18:19:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/02/23-geoinformation-job-market/Schlussbericht-Fachkraeftemangel.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>AI-ready OGC standards</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/02/22-ai-ready-ogc-standards/</link>
-  <description><![CDATA[ The #OGC ran an #AI-#DGGS pilot on disaster management and derived five pillars for geospatial AI readiness from it: tool-ability, machine-readable metadata, guardrails, reproducibility, and trust & security. Among the interesting follow-up work items: enabling non-DGGS clients, treating the time dimension as a first-class topic alongside space, and cataloging which spatial analysis functions should be available in a standardized #DGGS-based manner. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/02/22-ai-ready-ogc-standards/</guid>
-  <pubDate>Sun, 22 Feb 2026 18:12:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/02/22-ai-ready-ogc-standards/javier-miranda-AlJ9TQqeCV0-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
