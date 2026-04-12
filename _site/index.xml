@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sat, 11 Apr 2026 11:57:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 12 Apr 2026 12:31:00 GMT</lastBuildDate>
+<item>
+  <title>Apple and Google Maps history</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/04/12-apple-and-google-maps-history/</link>
+  <description><![CDATA[ Marcin Wichary curates Justin O’Beirne’s series on the evolution of #Apple and #Google Maps’ style, content, and #POI coverage over the years. Justin’s articles are a few years old, but the insights on web #cartography and real-world use cases are still well worth reading if you work with (or even just use) #webmaps. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/04/12-apple-and-google-maps-history/</guid>
+  <pubDate>Sun, 12 Apr 2026 12:31:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/04/12-apple-and-google-maps-history/apple-google-comparison.gif" medium="image" type="image/gif"/>
+</item>
 <item>
   <title>Terraink</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/02/24-coordinate-precision/</guid>
   <pubDate>Tue, 24 Feb 2026 06:39:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/02/24-coordinate-precision/coordinate-precision-titlecard.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Geoinformation job market</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/02/23-geoinformation-job-market/</link>
-  <description><![CDATA[ A new report commissioned by swisstopo analyses the #workforce situation in Switzerland’s #geoinformation sector and finds a field that’s largely stable while the overall higher education grows. With an unemployment rate of just 0.8% in 2024, the job market is (was?) tight and the pipelines of new professionals don’t seem to be keeping up. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/02/23-geoinformation-job-market/</guid>
-  <pubDate>Mon, 23 Feb 2026 18:19:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/02/23-geoinformation-job-market/Schlussbericht-Fachkraeftemangel.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
