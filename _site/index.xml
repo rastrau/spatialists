@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sun, 12 Apr 2026 12:31:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 12 Apr 2026 18:39:00 GMT</lastBuildDate>
+<item>
+  <title>Call for CNG mentors and mentees</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/04/12-call-for-cng-mentors-and-mentees/</link>
+  <description><![CDATA[ The Cloud-Native Geospatial (#CNG) #Mentorship Program pairs geospatial professionals for six months of one-on-one career, technical, or project-focused guidance. With applications open until end of April and running from May to October, the program wants to foster knowledge-sharing within the #cloudnative community. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/04/12-call-for-cng-mentors-and-mentees/</guid>
+  <pubDate>Sun, 12 Apr 2026 18:39:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/04/12-call-for-cng-mentors-and-mentees/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Apple and Google Maps history</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/02/25-beyond-the-buzz-cloud-native-geo/</guid>
   <pubDate>Wed, 25 Feb 2026 19:43:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/02/25-beyond-the-buzz-cloud-native-geo/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Coordinate precision</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/02/24-coordinate-precision/</link>
-  <description><![CDATA[ Choosing the right #coordinate #precision matters (there’s an xkcd about it!): Too little distorts your data, too much bloats it unnecessarily. This interactive tool by #Mapbox makes this tradeoff visually understandable. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/02/24-coordinate-precision/</guid>
-  <pubDate>Tue, 24 Feb 2026 06:39:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/02/24-coordinate-precision/coordinate-precision-titlecard.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
