@@ -1,0 +1,30 @@
+---
+title: "Apple and Google Maps history"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-04-12 12:31"
+image: "apple-google-comparison.gif"
+description: "Marcin Wichary curates Justin O'Beirne's series on the evolution of #Apple and #Google Maps' style, content, and #POI coverage over the years. Justin's articles are a few years old, but the insights on web #cartography and real-world use cases are still well worth reading if you work with (or even just use) #webmaps."
+---
+
+2<sup>nd</sup> degree recommendation: At (the also great) [Unsung][unsung], 
+Marcin Wichary [highlights a series of carefully illustrated articles][article] 
+by Justin O’Beirne that document and discuss the (sometimes surprisingly 
+dynamic[^data-processes]) evolution of style and content of Apple and Google 
+Maps over the years, for example about the [churn of POIs[^pois]][example].
+
+Another interesting example is the [anecdote][anecdote] about firefighters' map 
+use highlighted by Marcin. The articles are a few years old, but the insights 
+are still relevant and interesting to read if you work with web maps.
+
+![Comparison of Apple and Google Maps evolving POI content (source: [Justin O'Beirne](https://www.justinobeirne.com/a-year-of-google-maps-and-apple-maps))](apple-google-comparison.gif "Comparison of Apple and Google Maps evolving POI content (source: Justin O'Beirne)")
+
+[^pois]: Points-of-interest.
+[^data-processes]: Makes me wonder also about the underlying data-generating process.
+
+[unsung]: https://unsung.aresluna.org/
+[article]: https://unsung.aresluna.org/so-i-wrote-a-script-that-takes-monthly-screenshots-of-google-and-apple-maps/
+[example]: https://www.justinobeirne.com/a-year-of-google-maps-and-apple-maps
+[anecdote]: https://www.justinobeirne.com/fire-roads
+
