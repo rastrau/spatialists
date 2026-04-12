@@ -1,0 +1,57 @@
+---
+title: "Call for CNG mentors and mentees"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-04-12 18:39"
+image: "tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
+description: "The Cloud-Native Geospatial (#CNG) #Mentorship Program pairs geospatial professionals for six months of one-on-one career, technical, or project-focused guidance. With applications open until end of April and running from May to October, the program wants to foster knowledge-sharing within the #cloudnative community."
+---
+
+## CNG mentorship program
+
+The [Cloud-Native Geospatial Forum][cng][^cng] promotes geospatial 
+accessibility and usability, with a focus on the cloud-native 
+paradigm[^cloud-native]. To this end, the CNG "create vendor-neutral events, content, and educational opportunities". 
+
+Currently, the CNG is looking for mentors and mentees to participate in a new 
+CNG mentorship program. From the [announcement][announcement]:
+
+> The sharing of knowledge amongst members of the community helps us all 
+thrive and grow (...). That is why we are launching the CNG Mentorship Pilot 
+Program: a roughly six-month program that pairs geospatial professionals with 
+mentees for regular one-on-one meetings to help the mentee grow in their 
+career.
+
+Mentees and mentors can be of any career stage: early, mid or senior. And the 
+program has three scopes one can choose from:
+
+- General career guidance
+- Technical guidance about specific tools, methods or similar
+- Project-focused guidance
+
+The program runs from May to October and culminates in an optional in-person 
+meetup in the USA. Mentees and mentors should meet at least twice a month for 
+one hour on each occasion. It is not made explicit, but to me it seems obvious 
+that the program is open to participants from all over the world and that 
+meetings can be held virtually.
+
+[Applications are open until 30 April 2026][announcement].
+
+## A mentorship program for Switzerland?
+
+I think a similar program would suit the SGS[^sgs] very well. The SGS domain 
+"Building and Strengthening Skills" has (only) [one action in 2026][sgs-action]. 
+And a [recent report on Switzerland's geospatial education pipeline and 
+workforce][report] has found some areas of concern. Maybe a mentorship program 
+could help address some of these issues.
+
+[^cng]: CNG.
+[^cloud-native]: I.e., taking full advantage of the cloud computing model; in 
+the data world typically through enabling [partial downloads](https://blog.sogeo.services/blog/2023/12/29/statuscode-206-letsgetstarted.html) of file contents through so-called [HTTP range requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests).
+[^sgs]: The [Swiss Geoinformation Strategy](https://www.geo.admin.ch/de/strategie-und-umsetzung), a national action strategy with annual action plans for the geoinformation sector in Switzerland.
+
+[cng]: https://cloudnativegeo.org/about/
+[announcement]: https://cloudnativegeo.org/blog/2026/04/introducing-the-cng-mentorship-pilot-program/
+[sgs-action]: https://spatialists.ch/posts/2026/01/25-just-out-sgs-action-plan-2026/index.html
+[report]: https://spatialists.ch/posts/2026/02/23-geoinformation-job-market/
