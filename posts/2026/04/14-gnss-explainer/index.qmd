@@ -8,7 +8,7 @@ image: "pinging.jpg"
 description: "Shri Khalpada offers a clear and engaging explainer of #GNSS technology, walking through how #GPS, #Galileo and similar #positioning systems pinpoint location using principles like travel time, trilateration, orbital mechanics, and clock correction. His interactive visuals make the invisible workings of satellite navigation tangible."
 ---
 
-From Shri Khalpada comes a great explainer of GNSS-technology[^gnss]. From basic building 
+From Shri Khalpada comes [a great explainer][article] of GNSS-technology[^gnss]. From basic building 
 blocks to the full system, it covers many aspects that are essential for 
 GPS[^gps] and Co. to work: travel time, satellite orbits, trilateration, clock 
 correction, incluences of relativistic effects, and more. 
