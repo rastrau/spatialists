@@ -1,0 +1,31 @@
+---
+title: "GNSS explainer"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-04-14 18:42"
+image: "pinging.jpg"
+description: "Shri Khalpada offers a clear and engaging explainer of #GNSS technology, walking through how #GPS, #Galileo and similar #positioning systems pinpoint location using principles like travel time, trilateration, orbital mechanics, and clock correction. His interactive visuals make the invisible workings of satellite navigation tangible."
+---
+
+From Shri Khalpada comes a great explainer of GNSS-technology[^gnss]. From basic building 
+blocks to the full system, it covers many aspects that are essential for 
+GPS[^gps] and Co. to work: travel time, satellite orbits, trilateration, clock 
+correction, incluences of relativistic effects, and more. 
+
+![Pinging the earth (source: [Shri Khalpada][article])](gnss-constellation.png "Pinging the earth (source: Shri Khalpada)")
+
+It's a very nicely done explanation of a largely invisible technology that is 
+fundamental to many aspects of life. Every visual in [Shri's article][article] 
+is interactive and many of them invite experimentation. 
+
+Shri included a shout-out to [a much-more-in-depth explainer][article-2] of the 
+same topic published by Bartosz Ciechanowski (who seems to specialise in this 
+kind of thing). You have to bring substantially more time for that one.
+
+[^gnss]: Global Navigation Satellite System. For example: Galileo or GPS.
+[^gps]: Global Positioning System, a US GNSS or Navigation Satellite System.
+
+[article]: https://perthirtysix.com/how-does-gps-work
+[article-2]: https://ciechanow.ski/gps/
+
