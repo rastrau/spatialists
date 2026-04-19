@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sat, 18 Apr 2026 18:33:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 19 Apr 2026 16:03:00 GMT</lastBuildDate>
+<item>
+  <title>Bridging ArcGIS Pro and AI</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/04/19-bridging-arcgis-pro-and-ai/</link>
+  <description><![CDATA[ Danny McVey’s arcgispro-cli gives #ArcGISPro a #CLI bridge to #AI #codingAgents, exporting project structure including maps, layers, toolboxes, and geodatabases to a machine-readable format. The open-source tool enables working with real GIS project context instead of user-dependent prompts, unlocking AI-based workflows like script generation and documentation. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/04/19-bridging-arcgis-pro-and-ai/</guid>
+  <pubDate>Sun, 19 Apr 2026 16:03:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/04/19-bridging-arcgis-pro-and-ai/a-c-fsy2bD7Pep8-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>City2Graph: Easy graph generation in Python</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/03/10-geo-enabling-apache-hop/</guid>
   <pubDate>Tue, 10 Mar 2026 18:47:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/03/10-geo-enabling-apache-hop/apache-hop-logo.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>OGC GERS discussion</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/03/05-ogc-gers-discussion/</link>
-  <description><![CDATA[ The #OGC seeking public comments on whether the #GERS (Global Entity Reference System) Framework and Model by the #OvertureMapsFoundation (#OMF) should become an OGC Community Standard sparks a broader debate about global identifiers and governance of key data infrastructure assets. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/03/05-ogc-gers-discussion/</guid>
-  <pubDate>Thu, 05 Mar 2026 23:17:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/03/05-ogc-gers-discussion/gers.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
