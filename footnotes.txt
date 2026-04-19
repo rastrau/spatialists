@@ -67,11 +67,13 @@
 [^ggmm]: The [SOGI GGMM](https://www.sogi.ch/de/netzwerke/standards) is the working group on "geonorms and the model-based method" of the [Swiss Organization for Geoinformation](https://www.sogi.ch/en) (SOGI/OSIG).
 [^gist]: A short piece of code, text, or data hosted on GitHub.
 [^globalremotesensing]: Well, due to the inclined orbit of course not *truly* global.
+[^gnns]: Graph Neural Networks (GNNs) are a class of deep learning models designed to operate directly on graph-structured data by learning representations through aggregating information from neighboring nodes and edges.
 [^gnss]: Global Navigation Satellite System. For example: Galileo or GPS.
 [^gothamist]: The [Gothamist](https://gothamist.com) is a "non-profit newsroom" about "New York City news, arts, events and food" published by [New York Public Radio](https://www.nypublicradio.org/).
 [^gps]: Global Positioning System, a US GNSS or Global Navigation Satellite System.
 [^gretl]: Gradle ETL (extract-transform-load).
 [^grid]: Grid (tagline: "is not a journal") has been published since fall 2024 and [describes itself](https://gridisnotajournal.de/%C3%BCber-grid/) as "deal[ing] with the mutual transformations of society, technology and space in the age of digital media, infrastructures, data and algorithms". The aim of grid is to create a publication format that enables an exchange among scientists, but also makes this exchange accessible to a broader public.
+[^gtfs]: The General Transit Feed Specification is a data standard defining a common format for public transit schedules and associated geographic information.
 [^h3]: [H3](https://h3geo.org) is a hexagonal (mostly, except for 12 pentagons – think: football) discrete global grid system (DGGS) (Apache 2.0-licensed) created by Uber.
 [^ign]: France's National Mapping Agency, the Institut national de l'information géographique et forestière.
 [^interlis]: [INTERLIS](https://www.interlis.ch/en) is a Swiss standard for geodata modelling and data exchange.
@@ -109,9 +111,11 @@
 [^mvt]: Mapbox Vector Tiles.
 [^nacis]: [North American Cartographic Information Society.](https://nacis.org/)
 [^nasa]: National Aeronautics and Space Administration of the USA.
+[^networkx]: NetworkX is a Python library for the creation, manipulation, and study of networks and graphs.
 [^nma]: National Mapping Agency.
 [^nmga]: National mapping and geospatial agency
 [^north51]: NORTH51 is an annual conference in Canada, a [self-described](https://www.n51.ca/who-we-are) "dynamic gathering that embodies the spirit of modernization in the geospatial industry (...) [uniting] entrepreneurs passionate about bringing a platform to the industry to share grand, global, market-changing ideas."
+[^od-matrices]: Origin-Destination matrices: Tables capturing information about flows (for example, trips, commutes) between pairs of origin and destination locations in a study area.
 [^ogd]: Open Government Data: The movement or policy of the public sector to publish their data openly.
 [^ogc]: Open Geospatial Consortium.
 [^omf]: The [Overture Maps Foundation](https://overturemaps.org/) is an industry consortium (members include Amazon, Meta, Microsoft, and TomTom) that produces openly-licensed map data, building primarily on OpenStreetMap data.
@@ -130,6 +134,7 @@
 [^pruning]: In essence, when querying data, pruning refers to skipping or *not* transferring or reading data that does not affect a query’s result. Cloud-native data excels at enabling pruning.
 [^psc]: Project Steering Committee.
 [^pv]: photo-voltaic.
+[^pytorch-geometric]: PyTorch Geometric is a library built on PyTorch for deep learning on graph-structured data.
 [^qgismodeldesigner]: Formerly known as "graphical modeler".
 [^ql]: Query Language.
 [^r]: R is a programming language for statistical computing and data analysis.
