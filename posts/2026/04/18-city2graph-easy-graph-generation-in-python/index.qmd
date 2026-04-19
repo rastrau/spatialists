@@ -1,0 +1,48 @@
+---
+title: "City2Graph: Easy graph generation in Python"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-04-18 18:33"
+image: "city2graph.png"
+description: "#City2Graph is an open-source #Python package that turns geospatial data into #graph structures for #NetworkAnalysis and Graph Neural Networks, with seamless integration into tools like #GeoPandas, #NetworkX, and #PyTorch Geometric. It supports diverse data sources from #OSM and #GTFS to #OMF making relevant spatial datasets easy to access and work with."
+---
+
+[City2Graph][website] is a new^[Currently v. 0.3.1.] Python package for 
+transforming geospatial data into graph representations for Graph Neural
+Networks[^gnns] and for network analysis. It's [open-source][repo] under the 
+BSD-3-Clause license. 
+
+It integrates well with [`GeoPandas`][geopandas][^geopandas], 
+[`NetworkX`][networkx][^networkx], and [`Pytorch Geometric`][pytorch-geometric][^pytorch-geometric], works with data of different domains (for example, 
+streets, public transit, origin-destionation matrices, POIs, and more) and can 
+use various data sources such as OSM[^osm], OMF[^omf], and publishers of 
+GTFS[^gtfs] data. [City2Graph][website] makes it particularly easy to work with 
+(initially not very easy to obtain) OMF data.
+
+![City2Graph inputs and outputs (source: [Yuta Sato][article-1])](overview.webp "City2Graph inputs and outputs (source: Yuta Sato)")
+
+Yuta Sato, City2Graph's lead developer, has published two interesting articles 
+on the package: 
+
+- [City2Graph: Python package for spatial network analysis and GeoAI with GNNs][article-1] introduces City2Graph, its main features, and how it fits into the 
+system of Python-based spatial data analysis packages.
+
+- In [How to Use Overture Maps Like OSMnx – by City2Graph][article-2], Yuto 
+covers how City2Graph can be used to work with, and transform, OMF data.
+
+[repo]: https://github.com/c2g-dev/city2graph
+[website]: https://city2graph.net/
+[geopandas]: https://geopandas.org/
+[networkx]: https://networkx.org/
+[pytorch-geometric]: https://pytorch-geometric.readthedocs.io
+[article-1]: https://medium.com/@yuta.sato.now/city2graph-a-python-package-for-spatial-network-analysis-and-graph-neural-networks-gnns-bc943dd6d85e
+[article-2]: https://medium.com/@yuta.sato.now/how-to-use-overture-maps-like-osmnx-by-city2graph-7e01d38f9f61
+
+[^gnns]: Graph Neural Networks (GNNs) are a class of deep learning models designed to operate directly on graph-structured data by learning representations through aggregating information from neighboring nodes and edges.
+[^geopandas]: `GeoPandas` is an extension to the popular data science library `Pandas` that enables support for geospatial data.
+[^networkx]: `NetworkX` is a Python library for the creation, manipulation, and study of networks and graphs.
+[^pytorch-geometric]: `PyTorch Geometric` is a library built on `PyTorch` for deep learning on graph-structured data.
+[^osm]: [OpenStreetMap](https://www.openstreetmap.org/), a collaborative, open-licensed map of the world.
+[^omf]: The [Overture Maps Foundation](https://overturemaps.org/) is an industry consortium (members include Amazon, Meta, Microsoft, and TomTom) that produces openly-licensed map data, building primarily on OpenStreetMap data.
+[^gtfs]: The General Transit Feed Specification is a data standard defining a common format for public transit schedules and associated geographic information.
