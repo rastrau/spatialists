@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Tue, 14 Apr 2026 18:42:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 18 Apr 2026 18:33:00 GMT</lastBuildDate>
+<item>
+  <title>City2Graph: Easy graph generation in Python</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/04/18-city2graph-easy-graph-generation-in-python/</link>
+  <description><![CDATA[ #City2Graph is an open-source #Python package that turns geospatial data into #graph structures for #NetworkAnalysis and Graph Neural Networks, with seamless integration into tools like #GeoPandas, #NetworkX, and #PyTorch Geometric. It supports diverse data sources from #OSM and #GTFS to #OMF making relevant spatial datasets easy to access and work with. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/04/18-city2graph-easy-graph-generation-in-python/</guid>
+  <pubDate>Sat, 18 Apr 2026 18:33:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/04/18-city2graph-easy-graph-generation-in-python/city2graph.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>GNSS explainer</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/03/05-ogc-gers-discussion/</guid>
   <pubDate>Thu, 05 Mar 2026 23:17:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/03/05-ogc-gers-discussion/gers.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>H3/PostGIS: Hands-on example</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/02/27-h3-postgis-hands-on-example/</link>
-  <description><![CDATA[ Darafei Praliaskouski, member of the #PostGIS PSC, walks through an interesting hands-on case study of modelling #LoRa radio tower range in the mountains of Georgia using #H3 and PostGIS. The example covers data preparation, #DGGS indexing, and spatial analysis, and offers some food for thought. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/02/27-h3-postgis-hands-on-example/</guid>
-  <pubDate>Fri, 27 Feb 2026 17:48:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/02/27-h3-postgis-hands-on-example/georgia-lora-network.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

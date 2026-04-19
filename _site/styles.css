@@ -60,14 +60,14 @@ div.description {
 }
 
 code {
-  color: #b278cd;
+  color: #E7B8FC;
   background-color: #0A1A26 !important;
 }
 
 a>code {
-  color: #b278cd;
+  color: #E7B8FC;
   text-decoration: underline;
-  text-decoration-color: #b278cd;
+  text-decoration-color: #E7B8FC;
   background-color: #0A1A26;
 }
 
