@@ -1,0 +1,47 @@
+---
+title: "Bridging ArcGIS Pro and AI"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-04-19 16:03"
+image: "a-c-fsy2bD7Pep8-unsplash.jpg"
+description: "Danny McVey's arcgispro-cli gives #ArcGISPro a #CLI bridge to #AI #codingAgents, exporting project structure including maps, layers, toolboxes, and geodatabases to a machine-readable format. The open-source tool enables working with real GIS project context instead of user-dependent prompts, unlocking AI-based workflows like script generation and documentation."
+---
+
+From Danny McVey come interesting developments in the ArcGIS Pro space. He has created what he calls [`arcgispro-cli`][article][^cli]^[On LinkedIn, somebody fittingly quipped: "So... you are remaking ARC/INFO (?)" 😅]. From what I understand^[I haven't had time to test the tool myself.], `arcgispro-cli` adds 
+a button in the ArcGIS Pro interface that will export your ArcGIS Pro project 
+to [a (largely JSON-based) format][format] that AI tools understand and can use 
+as input data. 
+
+![`arcgispro-cli`: Bridging GIS project structure and AI (source: [Danny McVey][article])](argispro-cli.jpg "arcgispro-cli: Bridging GIS project structure and AI (source: Danny McVey)")
+
+Danny explains the motivation behind this tool in the [announcement][article]:
+
+> A lot of geospatial work still lives inside desktop projects, toolboxes, 
+maps, layers, layouts, symbology, and geodatabases that AI tools can’t really 
+"see". That makes it hard to use coding agents effectively on real GIS projects 
+without a lot of manual context transfer.
+> 
+> `arcgispro-cli` (...) gives you a command-line way to inspect ArcGIS Pro 
+projects so an AI assistant can work with real project structure instead of 
+guessing. (...) That unlocks a much more interesting workflow:
+>
+> - inspect a project
+> - hand structured context to an AI assistant
+> - generate scripts, audits, migrations, fixes, or documentation
+> - stay grounded in the actual GIS project instead of vague prompts
+
+The tool is [open-source][repo]^[Probably under the MIT license: Referenced in 
+the [Readme][repo], but not explicitly set for the repository.] and stands at 
+v. 0.5.1. According to Danny, `arcgispro-cli` also works well with [GIS-centric 
+agent skills][skills] he developed, but its use is not restricted to those.
+
+It will be interesting to see how this tool develops and if and how it will be 
+adopted and used by the community.
+
+[^cli]: Command-line interface.
+
+[article]: https://www.linkedin.com/posts/dannymcvey_gis-arcgispro-arcpy-share-7439563706960838656--E1j
+[format]: https://github.com/danmaps/arcgispro_cli?tab=readme-ov-file#what-gets-exported
+[repo]: https://github.com/danmaps/arcgispro_cli
+[skills]: https://github.com/danmaps/gis-agent-skills
