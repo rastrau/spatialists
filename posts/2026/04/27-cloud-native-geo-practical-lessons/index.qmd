@@ -1,0 +1,60 @@
+---
+title: "Cloud-native geo: Practical lessons"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-04-27 19:01"
+image: "tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
+description: "Lukas Merz shares practical lessons from real-world projects on the #cloudnativegeo paradigm: what it can do, what not, and when PostGIS (or similar technology) is simply enough. In a second article, he walks through a concrete implementation using InSAR data in a web platform."
+---
+
+Cloud-native[^cloud-native] geo(spatial) is a hot topic.[^blog] There is 
+certainly also some hype and inflated hopes around it. Recently, Lukas 
+Merz[^transp] has published two, in my opinion very noteworthy, articles 
+grounding the #cloudnativegeo paradigm with practical lessons learned from 
+real-world projects:
+
+[**Cloud-native geospatial: What it can do, what not – and when you really need it**][blogpost1]: 
+This article briefly explains the cloud-native and the cloud-native *geo* 
+paradigms, then briefly covers important cloud-native geo formats, and lists 
+(high-level) success factors and pitfalls. 
+
+Excerpt: 
+
+> Our recommendation: Don’t ask, “How do we make our data cloud-native?” but 
+rather, “What problem are we trying to solve? And is a cloud-native format the 
+best solution?” Sometimes the answer is “yes.” Sometimes it’s “PostGIS is 
+enough.” Both are good answers, provided they’re based on a sound assessment.
+
+[**Cloud-native geospatial in practice: InSAR data on the GIN natural hazards platform**][blogpost2]: 
+This article covers how cloud-native geo paradigm was used in a real-world 
+project, the GIN natural hazards platform, to make InSAR data available and 
+usable within a web application. It covers the technical implementation, 
+problems the team encountered, and how it overcame them.
+
+Excerpt: 
+
+> Integrating the InSAR data into GIN was an instructive project. The 
+combination of COG, PMTiles and Parquet/DuckDB worked well. It worked best 
+where the conditions were right: large, static datasets, simple access 
+patterns, and an update pattern that fits perfectly with file-based formats. At 
+the same time, the project demonstrated that ‘cloud-native’ is not a 
+one-size-fits-all solution. Each of these formats comes with its own 
+optimisation requirements, and smart data preparation remains the key factor 
+in performance.
+
+Both articles are in German; in-browser translation works fine.
+
+[^cloud-native]: I.e., taking full advantage of the cloud computing model; in 
+the data world typically through enabling 
+[partial downloads](https://blog.sogeo.services/blog/2023/12/29/statuscode-206-letsgetstarted.html) 
+of file contents through so-called 
+[HTTP range requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests).
+
+[^blog]: For example, a quick search tells me it has been featured in this very 
+blog in at least 9 articles.
+
+[^transp]: Transparency note: Until recently, Lukas was a colleague of mine.
+
+[blogpost1]: https://digital.ebp.ch/2026/02/23/cloud-native-geospatial-was-es-kann-was-nicht-und-wann-man-es-wirklich-braucht/
+[blogpost2]: https://digital.ebp.ch/2026/04/15/cloud-native-geospatial-in-der-praxis-insar-daten-auf-der-naturgefahrenplattform-gin/
