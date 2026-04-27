@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ralph Straumann">
-<meta name="dcterms.date" content="2025-08-02">
-<meta name="description" content="LightningMaps.org is a global #crowdsourcing project that lets you watch #lightning strikes in real time, drawing data from more than 500 volunteer-operated sensors. The site offers configurable web and mobile maps, showing not only each lightning strike as it happens, but also the location of participating stations and the spread of thunder across the landscape.">
+<meta name="dcterms.date" content="2026-04-27">
+<meta name="description" content="Lukas Merz shares practical lessons from real-world projects on the #cloudnativegeo paradigm: what it can do, what not, and when PostGIS (or similar technology) is simply enough. In a second article, he walks through a concrete implementation using InSAR data in a web platform.">
 
-<title>Lightningmaps.org – Spatialists – geospatial news</title>
+<title>Cloud-native geo: Practical lessons – Spatialists – geospatial news</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -119,13 +119,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../../styles.css">
-<meta property="og:title" content="Lightningmaps.org – Spatialists – geospatial news">
-<meta property="og:description" content="LightningMaps.org is a global #crowdsourcing project that lets you watch #lightning strikes in real time, drawing data from more than 500 volunteer-operated sensors. The site offers configurable web and mobile maps, showing not only each lightning strike as it happens, but also the location of participating stations and the spread of thunder across the landscape.">
-<meta property="og:image" content="https://spatialists.ch/posts/2025/08/02-lightningmapsorg/lightningmaps-zoom-in.jpg">
+<meta property="og:title" content="Cloud-native geo: Practical lessons – Spatialists – geospatial news">
+<meta property="og:description" content="Lukas Merz shares practical lessons from real-world projects on the #cloudnativegeo paradigm: what it can do, what not, and when PostGIS (or similar technology) is simply enough. In a second article, he walks through a concrete implementation using InSAR data in a web platform.">
+<meta property="og:image" content="https://spatialists.ch/posts/2026/04/27-cloud-native-geo-practical-lessons/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg">
 <meta property="og:site_name" content="Spatialists – geospatial news">
-<meta name="twitter:title" content="Lightningmaps.org – Spatialists – geospatial news">
-<meta name="twitter:description" content="LightningMaps.org is a global #crowdsourcing project that lets you watch #lightning strikes in real time, drawing data from more than 500 volunteer-operated sensors. The site offers configurable web and mobile maps, showing not only each lightning strike as it happens, but also the location of participating stations and the spread of thunder across the landscape.">
-<meta name="twitter:image" content="https://spatialists.ch/posts/2025/08/02-lightningmapsorg/lightningmaps-zoom-in.jpg">
+<meta name="twitter:title" content="Cloud-native geo: Practical lessons – Spatialists – geospatial news">
+<meta name="twitter:description" content="Lukas Merz shares practical lessons from real-world projects on the #cloudnativegeo paradigm: what it can do, what not, and when PostGIS (or similar technology) is simply enough. In a second article, he walks through a concrete implementation using InSAR data in a web platform.">
+<meta name="twitter:image" content="https://spatialists.ch/posts/2026/04/27-cloud-native-geo-practical-lessons/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -173,10 +173,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Lightningmaps.org</h1>
+      <h1 class="title">Cloud-native geo: Practical lessons</h1>
                   <div>
         <div class="description">
-          LightningMaps.org is a global #crowdsourcing project that lets you watch #lightning strikes in real time, drawing data from more than 500 volunteer-operated sensors. The site offers configurable web and mobile maps, showing not only each lightning strike as it happens, but also the location of participating stations and the spread of thunder across the landscape.
+          Lukas Merz shares practical lessons from real-world projects on the #cloudnativegeo paradigm: what it can do, what not, and when PostGIS (or similar technology) is simply enough. In a second article, he walks through a concrete implementation using InSAR data in a web platform.
         </div>
       </div>
                 </div>
@@ -195,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">August 2, 2025</p>
+        <p class="date">April 27, 2026</p>
       </div>
     </div>
     
@@ -214,20 +214,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><a href="https://www.lightningmaps.org">LightningMaps.org</a> is a volunteer community publishing a real-time lightning map. The project builds on a network of more than 500 sensors operated by individuals around the globe (with a bias towards Europe and North America). The web map has many configuration options: You can display lightnings as they occur, the sensor stations that captured the event, the propagating thunder, and quite some more information. The mobile-capable map displays lightning strikes of the last 60 minutes and real-time events as they happen.</p>
-<p>At the time of writing this post, there was significant thunderstorm activity overy Hungary and Austria:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.lightningmaps.org"><img src="lightningmaps.jpg" title="Lightningmaps.org showing an excerpt of Austria and Hungary" class="img-fluid figure-img"></a></p>
-<figcaption>Lightningmaps.org showing an excerpt of Austria and Hungary</figcaption>
-</figure>
-</div>
-<p>The community project producing the data lives at <a href="https://www.blitzortung.org">blitzortung.org</a> (“lightning location” in German):</p>
+<p>Cloud-native<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> geo(spatial) is a hot topic.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> There is certainly also some hype and inflated hopes around it. Recently, Lukas Merz<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> has published two, in my opinion very noteworthy, articles grounding the #cloudnativegeo paradigm with practical lessons learned from real-world projects:</p>
+<p><a href="https://digital.ebp.ch/2026/02/23/cloud-native-geospatial-was-es-kann-was-nicht-und-wann-man-es-wirklich-braucht/"><strong>Cloud-native geospatial: What it can do, what not – and when you really need it</strong></a>: This article briefly explains the cloud-native and the cloud-native <em>geo</em> paradigms, then briefly covers important cloud-native geo formats, and lists (high-level) success factors and pitfalls.</p>
+<p>Excerpt:</p>
 <blockquote class="blockquote">
-<p>“Blitzortung.org” is a lightning detection network for locating electromagnetic discharges in the atmosphere (lightning discharges) with VLF receivers based on the time of arrival (TOA) and time of group arrival (TOGA) method. We are a community of station operators who send their data to the computing servers, programmers who develop and/or implement algorithms for locating and visualizing of sferic positions, and people who assist in any way to keep the system running. There is no restriction on membership. All people who keep the network in operation are volunteers. There are no fees, terms and conditions, and no contracts.</p>
+<p>Our recommendation: Don’t ask, “How do we make our data cloud-native?” but rather, “What problem are we trying to solve? And is a cloud-native format the best solution?” Sometimes the answer is “yes.” Sometimes it’s “PostGIS is enough.” Both are good answers, provided they’re based on a sound assessment.</p>
 </blockquote>
-<p>If you like, you can contribute to Blitzortung.org and LightningMaps.org by assembling and operating a <a href="https://www.blitzortung.org/en/cover_your_area.php">station</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. In any case, using <a href="https://www.lightningmaps.org">LightningMaps.org</a> at least geo-nerds get to enjoy summer thunderstorms augmented by data.</p>
-<p>Always amazing what communities of dedicated people can accomplish.</p>
+<p><a href="https://digital.ebp.ch/2026/04/15/cloud-native-geospatial-in-der-praxis-insar-daten-auf-der-naturgefahrenplattform-gin/"><strong>Cloud-native geospatial in practice: InSAR data on the GIN natural hazards platform</strong></a>: This article covers how cloud-native geo paradigm was used in a real-world project, the GIN natural hazards platform, to make InSAR data available and usable within a web application. It covers the technical implementation, problems the team encountered, and how it overcame them.</p>
+<p>Excerpt:</p>
+<blockquote class="blockquote">
+<p>Integrating the InSAR data into GIN was an instructive project. The combination of COG, PMTiles and Parquet/DuckDB worked well. It worked best where the conditions were right: large, static datasets, simple access patterns, and an update pattern that fits perfectly with file-based formats. At the same time, the project demonstrated that ‘cloud-native’ is not a one-size-fits-all solution. Each of these formats comes with its own optimisation requirements, and smart data preparation remains the key factor in performance.</p>
+</blockquote>
+<p>Both articles are in German; in-browser translation works fine.</p>
 
 
 
@@ -235,7 +233,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>At a cost of less than 300 Franks / Euros or 350 U.S. Dollars<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>I.e., taking full advantage of the cloud computing model; in the data world typically through enabling <a href="https://blog.sogeo.services/blog/2023/12/29/statuscode-206-letsgetstarted.html">partial downloads</a> of file contents through so-called <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests">HTTP range requests</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>For example, a quick search tells me it has been featured in this very blog in at least 9 articles.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Transparency note: Until recently, Lukas was a colleague of mine.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

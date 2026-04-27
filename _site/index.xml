@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sun, 19 Apr 2026 16:03:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 27 Apr 2026 19:01:00 GMT</lastBuildDate>
+<item>
+  <title>Cloud-native geo: Practical lessons</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/04/27-cloud-native-geo-practical-lessons/</link>
+  <description><![CDATA[ Lukas Merz shares practical lessons from real-world projects on the #cloudnativegeo paradigm: what it can do, what not, and when PostGIS (or similar technology) is simply enough. In a second article, he walks through a concrete implementation using InSAR data in a web platform. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/04/27-cloud-native-geo-practical-lessons/</guid>
+  <pubDate>Mon, 27 Apr 2026 19:01:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/04/27-cloud-native-geo-practical-lessons/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Bridging ArcGIS Pro and AI</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/03/10-qgis-40-norrkoping/</guid>
   <pubDate>Tue, 10 Mar 2026 19:53:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/03/10-qgis-40-norrkoping/qgis-4.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Geo-enabling Apache Hop</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/03/10-geo-enabling-apache-hop/</link>
-  <description><![CDATA[ Stefan Ziegler has been geo-enabling the open-source #ETL tool #ApacheHop, building #GDAL/#OGR reader and writer plug-ins and adding an interactive preview for geometries: Early days, but promising progress toward a fully geo-capable data integration pipeline tool. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/03/10-geo-enabling-apache-hop/</guid>
-  <pubDate>Tue, 10 Mar 2026 18:47:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/03/10-geo-enabling-apache-hop/apache-hop-logo.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
