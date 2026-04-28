@@ -1,0 +1,36 @@
+---
+title: "Mapping and analysing public health"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-04-28 06:04"
+image: "national-cancer-institute-NFvdKIhxYlU-unsplash.jpg"
+description: "#PublicHealth is a compelling but under-explored domain for #geospatial analysis. The ASIT is hosting a June meetup in Lausanne covering #geomedicine, environmental health influences, physical-activity-friendly #spatialPlanning, and #geostatistics for health risk identification."
+---
+
+The ASIT[^asit] organises [an interesting meetup][meetup] on June 18. The 
+meetup covers public health and how it can be supported using geoinformation. 
+In my perception, this is an under-discussed application domain of geospatial 
+information and analysis.[^circle]
+
+The [event][meetup] hosts domain experts who will speak about geomedicine and 
+environmental influences on our health, spatial planning that encourages 
+physical activity, geostatistics for identifying health risks (using the 
+example of dioxin mapping), and the value of geoinformation for public health 
+policies.
+
+![Medicine and data: a good match](national-cancer-institute-NFvdKIhxYlU-unsplash.jpg "Medicine and data: a good match")
+
+The [ASIT meetup][meetup] is in-person only (in Lausanne) and seems to 
+accomodate about 100 people. Participation is free for ASIT members and 
+students. Non-members can attend for a fee of CHF 50.
+
+[^asit]: The Association pour le Système d'Information du Territoire in 
+Lausanne, Switzerland, aims to promote geoinformation and facilitate the 
+development of geographic data infrastructures by bringing together all 
+relevant stakeholders.
+
+[^circle]: It does remind me of the [Health Circle](http://spatialists.ch/posts/2026/03/21-geoinformation-circles-in-geneva/) of the SITG (Système d'Information du Territoire à Genève) in Geneva that I recently 
+covered (one out of four topical groups discussing geoinformation applications).
+
+[meetup]: https://asit-asso.ch/prochaine-rencontre-cartographie-sante-publique

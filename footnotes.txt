@@ -1,5 +1,6 @@
 [^4d]: The combination of three spatial dimensions with time as the fourth dimension.
 [^a5]: [A5](https://a5geo.org/) is a discrete global grid system (DGGS) based on irregularly-shaped pentagons.
+[^asit]: The Association pour le Système d'Information du Territoire in Lausanne, Switzerland, aims to promote geoinformation and facilitate the development of geographic data infrastructures by bringing together all relevant stakeholders.
 [^activeradar]: Meaning: SAR systems actively emit electromagnetic energy and receive whatever share of this energy is reflected back to them.
 [^ads-b]: Automatic Dependent Surveillance–Broadcast: A technology that allows aircraft to determine its position via, e.g., satellite navigation and periodically broadcast its position and other related data.
 [^ai]: Artificial intelligence
