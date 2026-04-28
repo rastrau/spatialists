@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Mon, 27 Apr 2026 19:01:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 28 Apr 2026 06:04:00 GMT</lastBuildDate>
+<item>
+  <title>Mapping and analysing public health</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/04/28-mapping-and-analysing-public-health/</link>
+  <description><![CDATA[ #PublicHealth is a compelling but under-explored domain for #geospatial analysis. The ASIT is hosting a June meetup in Lausanne covering #geomedicine, environmental health influences, physical-activity-friendly #spatialPlanning, and #geostatistics for health risk identification. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/04/28-mapping-and-analysing-public-health/</guid>
+  <pubDate>Tue, 28 Apr 2026 06:04:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/04/28-mapping-and-analysing-public-health/national-cancer-institute-NFvdKIhxYlU-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Cloud-native geo: Practical lessons</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/03/15-make-geospatial-matter/</guid>
   <pubDate>Sun, 15 Mar 2026 14:31:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/03/15-make-geospatial-matter/luke-stackpoole-ZcMjzDGSFw4-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>QGIS 4.0 Norrköping</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/03/10-qgis-40-norrkoping/</link>
-  <description><![CDATA[ QGIS 4.0 “Norrköping” has arrived – familiar on the surface, but rebuilt on Qt6 with over 100 new features, improved performance, and a stronger foundation for the future. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/03/10-qgis-40-norrkoping/</guid>
-  <pubDate>Tue, 10 Mar 2026 19:53:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/03/10-qgis-40-norrkoping/qgis-4.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
