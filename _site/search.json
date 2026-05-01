@@ -1257,14 +1257,7 @@
     "href": "posts/2026/05/01-shapefile-in-google-earth/index.html",
     "title": "Sh*pefile in Google Earth",
     "section": "",
-    "text": "Didn’t see that coming (and checked the date three times). From Google:\nComments … ugh… vary:\nSure, it feels odd. And it may be similar to adding an Excel import to a fancy cloud DWH1 – that is, like building an on-ramp for the unadorned data of millions of casual users."
-  },
-  {
-    "objectID": "posts/2026/05/01-shapefile-in-google-earth/index.html#footnotes",
-    "href": "posts/2026/05/01-shapefile-in-google-earth/index.html#footnotes",
-    "title": "Sh*pefile in Google Earth",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nData warehouse: a system for storing and analysing large volumes of structured data, typically optimised for analytical queries rather than transactional workloads.↩︎"
+    "text": "Didn’t see that coming (and checked the date three times). From Google:\n\nToday, we’re thrilled to announce the launch of Shapefile and 3D model import support on Google Earth. (…)\nYou’ve made it clear. You want to be able to bring more of your data and models to Google Earth’s real-world canvas. We’re excited to take the next step in delivering on that promise with these new features:\n🔶 Shapefiles (SHP): Render industry-standard geospatial data as performant, cloud-native layers. (…)\n\nComments … ugh… vary:\n\n“Great to see Google Earth is moving in this direction but shapefiles in 2026? Interesting choice” 😅\n“Amazing …!” 🤩\n“In 2026 you should ban loading shapefiles instead of allowing it” 🤣\n“OMG - an announcement for Shapefile Support in 2026? Seriously?”\n“SHP still feels a bit legacy, but native support in Google Earth is a solid step for interoperability. Would be great to see equal focus on modern, cloud-native formats (GeoParquet, FlatGeobuf etc.).”\n\nSure, it feels odd. And it may be similar to adding an Excel import to a fancy cloud DWH – that is, like building an on-ramp for the unadorned data of millions of users."
   },
   {
     "objectID": "posts/2026/04/19-bridging-arcgis-pro-and-ai/index.html",
