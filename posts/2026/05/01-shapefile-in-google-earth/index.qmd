@@ -37,10 +37,7 @@ step for interoperability. Would be great to see equal focus on modern,
 cloud-native formats (GeoParquet, FlatGeobuf etc.)."_
 
 Sure, it feels odd. And it may be similar to adding an Excel import to a fancy
-cloud DWH[^dwh] – that is, like building an on-ramp for the unadorned data of
-millions of casual users.
+cloud DWH – that is, like building an on-ramp for the unadorned data of
+millions of users.
 
 [announcement]: https://www.linkedin.com/posts/today-were-thrilled-to-announce-the-launch-ugcPost-7454937551724789761-wINS
-
-[^dwh]: Data warehouse: a system for storing and analysing large volumes of structured data, typically optimised for analytical queries rather than transactional workloads.
-
