@@ -1,0 +1,46 @@
+---
+title: "Sh*pefile in Google Earth"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-05-01 21:35"
+image: "shapefile-google-earth.png"
+description: "#GoogleEarth just announced #Shapefile import support, and the reactions range from delight to bafflement. The move certainly reads as legacy, but ... may be clever?"
+---
+
+Didn't see that coming (and checked the date three times). From 
+[Google][announcement]:
+
+> Today, we’re thrilled to announce the launch of Shapefile and 3D model import 
+support on Google Earth. (...)
+> 
+> You’ve made it clear. You want to be able to bring more of your data and 
+models to Google Earth’s real-world canvas. We're excited to take the next step 
+in delivering on that promise with these new features:
+> 
+> 🔶 Shapefiles (SHP): Render industry-standard geospatial data as performant, 
+cloud-native layers. (...)
+
+[Comments][announcement] ... ugh... vary:
+
+- _"Great to see Google Earth is moving in this direction but shapefiles in 
+2026? Interesting choice"_ 😅
+
+- _"Amazing ...!"_ 🤩
+
+- _"In 2026 you should ban loading shapefiles instead of allowing it"_ 🤣
+
+- _"OMG - an announcement for Shapefile Support in 2026? Seriously?"_
+
+- _"SHP still feels a bit legacy, but native support in Google Earth is a solid 
+step for interoperability. Would be great to see equal focus on modern, 
+cloud-native formats (GeoParquet, FlatGeobuf etc.)."_
+
+Sure, it feels odd. And it may be similar to adding an Excel import to a fancy
+cloud DWH[^dwh] – that is, like building an on-ramp for the unadorned data of
+millions of casual users.
+
+[announcement]: https://www.linkedin.com/posts/today-were-thrilled-to-announce-the-launch-ugcPost-7454937551724789761-wINS
+
+[^dwh]: Data warehouse: a system for storing and analysing large volumes of structured data, typically optimised for analytical queries rather than transactional workloads.
+

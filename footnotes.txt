@@ -36,6 +36,7 @@
 [^dggss]: Discrete Global Grid Systems.
 [^dizh]: The [DIZH](https://www.dizh.uzh.ch) is the "Digitalization Initiative of the Zurich Higher Education Institutions". The University of Zurich (UZH), the Zurich University of Applied Sciences (ZHAW), the Zurich University of the Arts (ZHdK) and the Zurich University of Teacher Education (PHZH) form the DIZH network. The [mission](https://www.dizh.uzh.ch/en/about-us/mission/) of the DIZH is to "promote cooperation on digitalization issues between higher education institutions in Zurich, thereby strengthening the greater Zurich area as a hub for research and business".
 [^dtm]: Digital terrain model, that is a model of the "bare earth" elevations of the Earth's surface.
+[^dwh]: Data warehouse: a system for storing and analysing large volumes of structured data, typically optimised for analytical queries rather than transactional workloads.
 [^duckdb]: [`DuckDB`](https://www.duckdb.org/why_duckdb) is an open-source column-oriented Relational Database Management System (RDBMS) designed for analytics use-cases.
 [^ebp]: Transparency note: I work here.
 [^edzerpebesma]: Among other things, Edzer Pebesma is the [maintainer of various R packages](https://www.r-pkg.org/maint/edzer.pebesma@uni-muenster.de), among them `sf` and `sp`.
