@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Tue, 28 Apr 2026 06:04:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 01 May 2026 21:35:00 GMT</lastBuildDate>
+<item>
+  <title>Sh*pefile in Google Earth</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/01-shapefile-in-google-earth/</link>
+  <description><![CDATA[ #GoogleEarth just announced #Shapefile import support, and the reactions range from delight to bafflement. The move certainly reads as legacy, but … may be clever? ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/01-shapefile-in-google-earth/</guid>
+  <pubDate>Fri, 01 May 2026 21:35:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/01-shapefile-in-google-earth/shapefile-google-earth.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Mapping and analysing public health</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/03/15-joint-colloquium-on-spatial-and-statistical-data/</guid>
   <pubDate>Sun, 15 Mar 2026 17:48:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/03/15-joint-colloquium-on-spatial-and-statistical-data/nick-brunner-5dgXQJ7ezuU-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Make geospatial matter</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/03/15-make-geospatial-matter/</link>
-  <description><![CDATA[ “What must the #GIScience community do to matter?” An article by the Geographic Data Service reports from a roundtable discussion that has found the geospatial field “strategically undervalued” and institutionally isolated. Alex Singleton, director of the GeoDS, argues that spatial thinking should be treated as foundational, not as a specialism. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/03/15-make-geospatial-matter/</guid>
-  <pubDate>Sun, 15 Mar 2026 14:31:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/03/15-make-geospatial-matter/luke-stackpoole-ZcMjzDGSFw4-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
