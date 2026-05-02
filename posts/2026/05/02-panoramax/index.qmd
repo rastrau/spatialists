@@ -52,8 +52,8 @@ Interesting origin story, with the open and governmental cooperation. And open
 data is always valuable and also in the interest of digital sovereignty. I'd 
 like to see the project to (continue to) grow beyond France.
 
-
-
+Update: Simon Poole [pointed out](https://en.osm.town/@simon/116504812795210693) 
+interesting and relevant context for Switzerland.
 
 
 [interview]: https://blog.opencagedata.com/post/openstreetmap-interview-panoramax
