@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Fri, 01 May 2026 21:35:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 02 May 2026 12:10:00 GMT</lastBuildDate>
+<item>
+  <title>Panoramax</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/02-panoramax/</link>
+  <description><![CDATA[ #Panoramax is an open and #federated alternative to #StreetView, born from collaboration between France’s national mapping agency #IGN and the French #OpenStreetMap community. With over 100 million geolocated images and a foundation in the making, the project aims to grow beyond its French origins. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/02-panoramax/</guid>
+  <pubDate>Sat, 02 May 2026 12:10:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/02-panoramax/panoramax-titlecard.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Sh*pefile in Google Earth</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/03/18-zero-declination-please/</guid>
   <pubDate>Wed, 18 Mar 2026 21:12:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/03/18-zero-declination-please/rotated-map-sheets.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Joint colloquium on spatial and statistical data</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/03/15-joint-colloquium-on-spatial-and-statistical-data/</link>
-  <description><![CDATA[ At the joint colloquium by the Federal Statistical Office and swisstopo, speakers explored the intersection of spatial and statistical data, from the buildings and addresses register GWR/RegBL to using the topographic landscape model TLM for statistical analyses, and managing and disseminating metadata on geospatial data. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/03/15-joint-colloquium-on-spatial-and-statistical-data/</guid>
-  <pubDate>Sun, 15 Mar 2026 17:48:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/03/15-joint-colloquium-on-spatial-and-statistical-data/nick-brunner-5dgXQJ7ezuU-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
