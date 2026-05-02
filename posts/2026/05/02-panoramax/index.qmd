@@ -23,7 +23,7 @@ Christian explains in the [interview][interview]:
 IGN[^ign] to work together to build an open source, collaborative, decentralized and
 federated way of sharing ground level imagery. 
 
-![Example uses cases for Panoramax data. Some of the Panoramax material (like this) still betrays its French origins, but virtually all Panoramax website content is in English now. (source: Panoramax)](panoramax-use-cases.png "Example uses cases for Panoramax data (source: Panoramax)")
+![Example use-cases for Panoramax data. Some of the Panoramax material (like this) still betrays its French origins, but virtually all Panoramax website content is in English now. (source: Panoramax)](panoramax-use-cases.png "Example use-cases for Panoramax data (source: Panoramax)")
 
 Now, the initiative seeks to form the Panoramax Foundation (scheduled for this 
 August), which will be a non-profit organization to support the project and 
@@ -46,7 +46,7 @@ fit a shared goal for the emerging Panoramax ecosystem.
 
 The [Panoramax website][panoramax] has an [FAQ (that also addresses legal 
 questions), contributor's guide, tutorial and technical documentation][docs], 
-[example use cases][cases], and, of course, the [access to the data itself][map]. 
+[example use-cases][cases], and, of course, the [access to the data itself][map]. 
 
 Interesting origin story, with the open and governmental cooperation. And open 
 data is always valuable and also in the interest of digital sovereignty. I'd 
