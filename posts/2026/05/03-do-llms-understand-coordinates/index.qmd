@@ -1,0 +1,66 @@
+---
+title: "Do LLMs understand coordinates?"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-05-03 18:53"
+image: "boliviainteligente-JwPOwYXY_Ss-unsplash.jpg"
+description: "'A new #benchmark called #GPSBench evaluates 14 #LLM-s across 17 coordinate manipulation and reasoning tasks and finds that models handle real-world geographic reasoning better than raw geometric computations, with country-level knowledge stronger than city-level localisation."
+---
+
+... is the question researchers asked in a recent paper ([submitted][arxiv], 
+not yet peer-reviewed and published, it seems). 
+
+The team around Thinh Hung Truong created [`GPSBench`][repo], a benchmark to 
+evaluate the ability of LLMs[^llms] to understand and work with coordinates. The 
+benchmarks contains 57,800 samples across 17 tasks. The researchers divide the 
+tasks into the following two tracks:
+
+- "Pure GPS track"[^gps]:
+  - Format conversion, e.g.: *"Convert 32°3’9.0”S, 115°53’16.2”E to decimal"*
+  - Coordinate transformation, e.g.: *"Transform (19.37, 95.22) to Universal Transverse Mercator (UTM)"* 
+  - Distance calculation, e.g.: *"Distance from (-2.13, -47.56) to (-22.63, -47.05)?"*
+  - Bearing computation, e.g.: *"Bearing from (49.28, -123.13) to (5.89, 5.68)?"*
+  - Coordinate interpolation, e.g.: *"50% along (29.93, 117.95) to (-6.99, 106.55)?"*
+  - Area and perimeter, e.g.: *"Area of polygon [(-2.85, 33.08), (21.15, 72.96), (29.35, 105.89)]?"*
+  - Bounding box, e.g.: *"Center of [(-2.85, 33.08), (21.15, 72.96), (53.60, 24.75), …]?"*
+  - Route geometry, e.g.: *"Simplify 12-point path using the Ramer–Douglas–Peucker algorithm"*
+  - Relative position (coordinate-based), e.g.: *"Direction from (40.25, -8.39) to (0.06, 34.29)?"*
+<br><br>
+
+- "Applied track":
+  - Place association, e.g.: *"City at (41.12, -8.65)?"*
+  - Name disambiguation, e.g.: *"4 cities named “Nawābganj”. Which at (26.93, 81.20)?"*
+  - Relative position, e.g.: *"Mikkeli to Sosnovka?"*
+  - Proximity, e.g.: *"Closest to Titirangi: Elsdorf, Itatim, Murray, Cianjur?"*
+  - Route analysis, e.g.: *"Canberra on Gröbenzell→Dois Irmãos?"*
+  - Spatial patterns, e.g.: *"Outlier (by distance): Mornington, Ringwood, Caroline Springs, Ballajura, Sonneberg?"*
+  - Boundary analysis, e.g.: *"Group by continent: Corroios, Wimbledon, Toms River, Santa Ana"*
+  - Terrain classification, e.g.: *"Terrain at (-27.47, 153.03)?"*
+
+The [`GPSBench` repo][repo] contains the dataset and evaluation code to analyse 
+LLMs' performance on the benchmark. Supported LLM providers include OpenAI, 
+Anthropic, Google, and providers accessible through OpenRouter. 
+
+![Model performance in the "applied" vs "pure GPS" track  (source: Truong et al. (submitted))](performance-scatterplot.png "Model performance in the "applied" vs "pure GPS" track (source: Truong et al. (submitted))")
+
+![Task-specific accuracy (average over all tested models). The error bars show ±1 standard deviation. The researchers classify the tasks into "solved" (> 95% accuracy), "brittle" (25–95%), and "unsolved" (<25%) tiers. (source: Truong et al. (submitted)](accuracy-per-task.png "Task-specific accuracy (average over all tested models). The error bars show ±1 standard deviation. The researchers classify the tasks into 'solved' (> 95% accuracy), 'brittle' (25–95%), and 'unsolved' (<25%) tiers. (source: Truong et al. (submitted)")
+
+The [summary by the research team][arxiv] states the following (note that the 
+paper is not yet peer-reviewed, so take this with a grain of salt): 
+
+> [W]e evaluate 14 state-of-the-art LLMs and find that GPS reasoning remains 
+challenging, with substantial variation across tasks: models are generally more 
+reliable at real-world geographic reasoning than at geometric computations. 
+Geographic knowledge degrades hierarchically, with strong country-level 
+performance but weak city-level localization, while robustness to coordinate 
+noise suggests genuine coordinate understanding rather than memorization.
+
+
+[arxiv]: https://arxiv.org/abs/2602.16105
+[repo]: https://github.com/joey234/gpsbench/
+[^llms]: Large language models.
+
+[^gps]: The track name the researchers chose is a bit misleading, as it is not 
+limited to GPS or GNSS coordinates at all, but rather tests the understanding of 
+coordinates in general.
