@@ -42,7 +42,9 @@ The [`GPSBench` repo][repo] contains the dataset and evaluation code to analyse
 LLMs' performance on the benchmark. Supported LLM providers include OpenAI, 
 Anthropic, Google, and providers accessible through OpenRouter. 
 
-![Model performance in the "applied" vs "pure GPS" track  (source: Truong et al. (submitted))](performance-scatterplot.png "Model performance in the "applied" vs "pure GPS" track (source: Truong et al. (submitted))")
+![Individual model performance across all tasks (source: Truong et al. (submitted))](accuracy.jpg "Individual model performance across all tasks (source: Truong et al. (submitted))")
+
+![Model performance in the "applied" vs. "pure GPS" track  (source: Truong et al. (submitted))](performance-scatterplot.png "Model performance in the "applied" vs "pure GPS" track (source: Truong et al. (submitted))")
 
 ![Task-specific accuracy (average over all tested models). The error bars show ±1 standard deviation. The researchers classify the tasks into "solved" (> 95% accuracy), "brittle" (25–95%), and "unsolved" (<25%) tiers. (source: Truong et al. (submitted)](accuracy-per-task.png "Task-specific accuracy (average over all tested models). The error bars show ±1 standard deviation. The researchers classify the tasks into 'solved' (> 95% accuracy), 'brittle' (25–95%), and 'unsolved' (<25%) tiers. (source: Truong et al. (submitted)")
 
