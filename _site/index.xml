@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sat, 02 May 2026 12:10:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 03 May 2026 18:53:00 GMT</lastBuildDate>
+<item>
+  <title>Do LLMs understand coordinates?</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/03-do-llms-understand-coordinates/</link>
+  <description><![CDATA[ ’A new #benchmark called #GPSBench evaluates 14 #LLM-s across 17 coordinate manipulation and reasoning tasks and finds that models handle real-world geographic reasoning better than raw geometric computations, with country-level knowledge stronger than city-level localisation. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/03-do-llms-understand-coordinates/</guid>
+  <pubDate>Sun, 03 May 2026 18:53:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/03-do-llms-understand-coordinates/boliviainteligente-JwPOwYXY_Ss-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Panoramax</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/03/21-geoinformation-circles-in-geneva/</guid>
   <pubDate>Sat, 21 Mar 2026 16:33:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/03/21-geoinformation-circles-in-geneva/egor-komarov-uHsa-zQfEQw-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Zero declination, please</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/03/18-zero-declination-please/</link>
-  <description><![CDATA[ Fun explorations: David O’Sullivan gets nerd-sniped by an #xkcd comic into creating a #map #projection where magnetic north and true north are perfectly aligned everywhere. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/03/18-zero-declination-please/</guid>
-  <pubDate>Wed, 18 Mar 2026 21:12:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/03/18-zero-declination-please/rotated-map-sheets.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
