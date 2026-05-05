@@ -1,0 +1,61 @@
+---
+title: "Fuzzifying PostGIS"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-05-05 19:24"
+image: "fuzzy-valleyness.jpg"
+description: "Jesper Fjellin proposes extending #PostGIS with #fuzzy geometries as first-class data types, enabling locations to belong to a region to a degree rather than simply being part of it or not. This would offer opportunities for better dealing with #vagueness in spatial data modeling and analysis. Could fuzzy set theory find its footing in GIS tools and, specifically, the vector world?"
+---
+
+I have a [soft spot][phd] for (spatial and conceptual) vagueness in geography. 
+Thus, a recent [article][article] about incorporating spatial vagueness (or 
+fuzziness) into PostGIS through ”fuzzy spatial algebra" piqued my interest. The 
+[article][article] by [Jesper Fjellin][jesper] lays out a concept for fuzzy geometries as 
+first-class data types in PostgreSQL:
+
+> A known limitation in the geospatial world is that the vector data types we 
+normally use, like point, linestring, polygon, and their multi-variants, are 
+crisp. They work in a binary way: for a polygon, a location is either inside it 
+or outside it.
+>
+> This works well for neatly defined data sets like buildings, roads, and 
+administrative borders, but it becomes awkward when the thing you are trying 
+to model does not really have a hard edge. Traditional geometry types are very 
+good at answering spatial relationship questions like "does this intersect?" or 
+"is this contained?", but they do not let the geometry itself express that some 
+locations belong more strongly than others.
+
+![Reality: Often fuzzy. Here in [*La Seine à la Grande Jatte*](https://fr.wikipedia.org/wiki/La_Seine_%C3%A0_la_Grande_Jatte._Printemps) by Georges Seurat.](seurat-la-seine-a-la-grande-jatte.jpg "Reality: Often fuzzy. Here in 'La Seine à la Grande Jatte' by Georges Seurat.")
+
+Many spatial phenomena are vague. Science has come up with, and applies, fuzzy 
+set theory to model such phenomena. The [article][article] concisely describes 
+the idea: 
+
+> Mathematically, the idea is not too complicated. A crisp region behaves like 
+a yes/no function: χ_R(x) ∈ {0,1}. A fuzzy region behaves like a membership 
+function: μ_R(x) ∈ [0,1]. So instead of only asking whether a location is 
+inside or outside, we can ask to what degree it belongs to the region.
+
+![Semantic import models to define fuzzy membership functions (source: [myself][phd])](semantic-import-models.png "Semantic import models to define fuzzy membership functions (source: myself)")
+
+What doesn't become quite clear to me from reading the article is: Are the fuzzy 
+geometries implemented in a gradual, non-discrete way (that is, PostGIS 
+would implicitly and following some yet-to-be-defined rule *interpolate* 
+between the crisply defined extents of different alpha levels)? Or are they 
+defined in a discrete-but-stepped way (no interpolation would occur)? 
+
+The former would be way more powerful and approximate vagueness well, the 
+latter only partly. The question points to something else: Historically, the 
+application of fuzzy set theory to spatial phenomena has very much been the 
+purview of the field data model[^fields] and thus the raster data type, not vector.
+
+But maybe it doesn't have to be that way?
+
+[^fields]: Think, for example, a digital elevation model or a rainfall intensity raster.
+
+[phd]: https://ralphstraumann.ch/downloads/PhD_Thesis_Ralph_Straumann_compressed.pdf
+
+[article]: https://jesperfjellin.com/posts/fuzzy_spatial_algebra/
+
+[jesper]: https://www.linkedin.com/in/jesper-fjellin/
