@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sun, 03 May 2026 18:53:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 05 May 2026 19:24:00 GMT</lastBuildDate>
+<item>
+  <title>Fuzzifying PostGIS</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/05-fuzzifying-postgis/</link>
+  <description><![CDATA[ Jesper Fjellin proposes extending #PostGIS with #fuzzy geometries as first-class data types, enabling locations to belong to a region to a degree rather than simply being part of it or not. This would offer opportunities for better dealing with #vagueness in spatial data modeling and analysis. Could fuzzy set theory find its footing in GIS tools and, specifically, the vector world? ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/05-fuzzifying-postgis/</guid>
+  <pubDate>Tue, 05 May 2026 19:24:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/05-fuzzifying-postgis/fuzzy-valleyness.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Do LLMs understand coordinates?</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/03/22-duckdb-15-with-spatial-updates/</guid>
   <pubDate>Sun, 22 Mar 2026 18:35:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/03/22-duckdb-15-with-spatial-updates/alejandro-correa-bayardo-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Geoinformation circles in Geneva</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/03/21-geoinformation-circles-in-geneva/</link>
-  <description><![CDATA[ Geneva’s #SITG is experimenting with an open community model: thematic #geoinformation circles that anyone can propose, join, and self-organize. Already, participants range from the WHO and France’s national mapping agency to university researchers and private groups. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/03/21-geoinformation-circles-in-geneva/</guid>
-  <pubDate>Sat, 21 Mar 2026 16:33:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/03/21-geoinformation-circles-in-geneva/egor-komarov-uHsa-zQfEQw-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
