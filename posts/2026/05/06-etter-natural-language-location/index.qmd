@@ -1,0 +1,53 @@
+---
+title: "etter: Natural language location"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-05-06 21:03"
+image: "shores-of-lake-morat-cropped.jpg"
+description: "etter is a new open‑source #Python package that turns natural language location queries into GeoJSON geometries, focusing purely on the spatial component of the query. It supports multilingual input, a range of spatial relations, and integrates with common geodata sources and #LLMs. #NLP"
+---
+
+On the heels of yesterday's post about vague or fuzzy geography comes a new 
+package in the same vein: [`etter`][etter] is a Python package for (per its 
+tagline) "transform[ing] natural language location queries into structured 
+geographic filters — multilingual, streaming-ready, LLM-agnostic".
+`etter` focuses exclusively on extracting and handling the spatial part of a 
+natural language query and returns a suitable GeoJSON geometry for that; the 
+calling application has to deal with the remaining parts — see the below 
+diagram.
+
+![Sequence diagram of parsing a natural language query with support from `etter` (source: etter)](etter-sequence-diagram.jpg "Sequence diagram of parsing a natural language query with support from etter (source: etter)")
+
+`etter` supports 15 (mostly) a priori qualitative [spatial relations][relations] 
+that are then operationalised using *crisp quantitative* values (where 
+applicable): 8 directions, containment, and:
+
+- `near`: Circular buffer from centroid with default value of 5km
+- `along`: Linear buffer along a feature with a default value of 500m
+- `left_bank`: Left bank of a linear feature (relative to flow direction) with a default value of 500m
+- `right_bank`: Right bank of a linear feature (relative to flow direction) with a default value of 500m
+- `on_shores_of`: Ring buffer around a water boundary, excluding the water body with a default value of 1km
+- `in_the_heart_of`: Central area of a geographic feature
+
+Note that while the package deals with mostly qualitative spatial relations, 
+at least for now, it outputs crisp geometries. It could be interesting to 
+incorporate some of the _vague geography_ concepts from 
+[yesterday's post][fuzzy] into the approach.
+
+![Example of the `on_shores_of` relation for Lake Morat (source: etter)](shores-of-lake-morat.png "Example of the 'on_shores_of' relation for Lake Morat (source: etter)")
+
+`etter` currently connects to SwissNames3D (for Switzerland), IGN BD-CARTO (for 
+France), and PostGIS (if you want to plug in your own data) as [sources][sources] 
+for the geographic referent, and can use OpenAI, Anthropic, or any local LLM 
+through `LangChain`. 
+
+The package was sponsored by [camptotamp][camptotamp] and is open-source under 
+the BSD-3-Clause license. The [announcement][announcement] has more details.
+
+[etter]: https://geoblocks.github.io/etter/
+[camptotamp]: https://camptotamp.com/
+[relations]: https://geoblocks.github.io/etter/guide/spatial-relations.html
+[announcement]: https://www.linkedin.com/pulse/shores-lake-geneva-teaching-machines-understand-where-fr%C3%A9d%C3%A9ric-junod-lgpne/
+[fuzzy]: ../05-fuzzifying-postgis/
+[sources]: https://geoblocks.github.io/etter/guide/datasources.html
