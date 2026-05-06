@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Tue, 05 May 2026 19:24:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 06 May 2026 21:03:00 GMT</lastBuildDate>
+<item>
+  <title>etter: Natural language location</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/06-etter-natural-language-location/</link>
+  <description><![CDATA[ etter is a new open‑source #Python package that turns natural language location queries into GeoJSON geometries, focusing purely on the spatial component of the query. It supports multilingual input, a range of spatial relations, and integrates with common geodata sources and #LLMs. #NLP ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/06-etter-natural-language-location/</guid>
+  <pubDate>Wed, 06 May 2026 21:03:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/06-etter-natural-language-location/shores-of-lake-morat-cropped.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Fuzzifying PostGIS</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/03/23-sogi-osig-communication/</guid>
   <pubDate>Mon, 23 Mar 2026 17:18:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/03/23-sogi-osig-communication/sogi-osig-cropped.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>DuckDB 1.5 with spatial updates</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/03/22-duckdb-15-with-spatial-updates/</link>
-  <description><![CDATA[ DuckDB 1.5 arrives with significant updates for #geospatial: GEOMETRY becomes a built-in data type, storage switches to #WKB with shredding for better compression, #CRS awareness is now part of the type system, and more! Here is a rundown of the most relevant new features in #DuckDB 1.5. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/03/22-duckdb-15-with-spatial-updates/</guid>
-  <pubDate>Sun, 22 Mar 2026 18:35:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/03/22-duckdb-15-with-spatial-updates/alejandro-correa-bayardo-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
