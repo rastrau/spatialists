@@ -42,11 +42,11 @@ France), and PostGIS (if you want to plug in your own data) as [sources][sources
 for the geographic referent, and can use OpenAI, Anthropic, or any local LLM 
 through `LangChain`. 
 
-The package was sponsored by [camptotamp][camptotamp] and is open-source under 
+The package was sponsored by [camptocamp][camptocamp] and is open-source under 
 the BSD-3-Clause license. The [announcement][announcement] has more details.
 
 [etter]: https://geoblocks.github.io/etter/
-[camptotamp]: https://camptotamp.com/
+[camptocamp]: https://camptocamp.com/
 [relations]: https://geoblocks.github.io/etter/guide/spatial-relations.html
 [announcement]: https://www.linkedin.com/pulse/shores-lake-geneva-teaching-machines-understand-where-fr%C3%A9d%C3%A9ric-junod-lgpne/
 [fuzzy]: ../05-fuzzifying-postgis/
