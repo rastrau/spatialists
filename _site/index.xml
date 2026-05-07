@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Wed, 06 May 2026 21:03:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 07 May 2026 21:01:00 GMT</lastBuildDate>
+<item>
+  <title>Joining 130 million points</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/07-joining-130-million-points/</link>
+  <description><![CDATA[ Dewey Dunnington revisits his 2024 benchmark of #spatialjoin operations on 130 million points, now testing #SedonaDB and #DuckDB #Spatial in comparison to the original tools. The results are remarkable: 6 seconds on a laptop replacing 3-5 minutes and 50 GB of RAM, a 30x-50x speedup achieved in just over a year. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/07-joining-130-million-points/</guid>
+  <pubDate>Thu, 07 May 2026 21:01:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/07-joining-130-million-points/zones.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>etter: Natural language location</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/03/23-cadastral-data-in-ifc-format/</guid>
   <pubDate>Mon, 23 Mar 2026 19:25:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/03/23-cadastral-data-in-ifc-format/preview-map-cropped.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>SOGI-OSIG communication</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/03/23-sogi-osig-communication/</link>
-  <description><![CDATA[ The #SOGI-#OSIG has started a survey on the organisation’s communication activities. The survey is available in German and in French. Administered by the BFH, the survey results will be used to inform SOGI-OSIG’s future communication strategy and activities. It takes about 10 minutes to complete and is anonymous. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/03/23-sogi-osig-communication/</guid>
-  <pubDate>Mon, 23 Mar 2026 17:18:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/03/23-sogi-osig-communication/sogi-osig-cropped.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
