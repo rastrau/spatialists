@@ -1,0 +1,52 @@
+---
+title: "Joining 130 million points"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-05-07 21:01"
+image: "zones.png"
+description: "Dewey Dunnington revisits his 2024 benchmark of #spatialjoin operations on 130 million points, now testing #SedonaDB and #DuckDB #Spatial in comparison to the original tools. The results are remarkable: 6 seconds on a laptop replacing 3-5 minutes and 50 GB of RAM, a 30x-50x speedup achieved in just over a year."
+---
+
+Back in December 2024, [Dewey Dunnington (spatially) joined 130,000,000 building 
+centroid points][post1] from the Microsoft U.S. buildings dataset to 33,000 
+postal code areas. The idea was to benchmark various tools: QGIS, PostGIS, 
+GeoPandas[^geopandas] (using two different approaches), [DuckDB Geography][duckdbgeography][^duckdb], 
+and [Apache Sedona][sedona]. That [2024 article][post1] is interesting in 
+itself.
+
+Fast forward to the present day and a [new article][post2]: Dewey now works at 
+[Wherobots][wherobots] and has been building [SedonaDB][sedonadb][^sedonadb] - which is "a 
+tool purpose-built to make exactly that sort of wrangling and joining 
+effortless" (Dewey's characterisation) (and which is different from [Apache 
+Sedona][apachesedona]!). In the [current article][post2], Dewey re-ran the 2024 
+analysis but using new approaches: SedonaDB and DuckDB Spatial (which is 
+different from the afore-mentioned DuckDB Geography!):
+
+> I checked the summary on my initial post, and it looks like the fastest 
+version I was able to come up with was somewhere around 3-5 minutes with quite 
+a bit of explicit wrangling/tuning and 50 GB of memory involved.
+> 
+> If you have the files locally (as I did in the original post), SedonaDB 0.3.0 
+executes the join in 6 seconds on my laptop (Apple M4, 24G RAM) without any 
+tuning or wrangling.
+
+For DuckDB Spatial, "the `ST_Contains()` version of the query takes ~1m 30s; 
+however, the `ST_DWithin(..., 0)` approximation is much faster (13 seconds)."
+
+So a 30x to 50x speed-up within a bit more than a year. If you (have to) care 
+about fast and efficient data pipelines, I've got to agree with Dewey's 
+conclusion: "It’s an exciting time to be working in spatial!"
+
+
+[^geopandas]: [`GeoPandas`](https://geopandas.org/en/stable/getting_started/introduction.html) is an extension to the popular data science library `Pandas` that enables support for geospatial data.
+[^duckdb]: [`DuckDB`](https://www.duckdb.org/why_duckdb) is an open-source column-oriented Relational Database Management System (RDBMS) designed for analytics use-cases.
+[^sedonadb]: [`SedonaDB`](https://sedona.apache.org/sedonadb/latest/) is an open-source single-node analytical database engine with geospatial as a first-class citizen.
+
+[post1]: https://dewey.dunnington.ca/post/2024/wrangling-and-joining-130m-points-with-duckdb--the-open-source-spatial-stack/
+[post2]: https://dewey.dunnington.ca/post/2026/wrangling-and-joining-130m-points...in-2026/
+[duckdbgeography]: https://github.com/paleolimbot/duckdb-geography
+[sedona]: https://dewey.dunnington.ca/post/2024/apache...sedona-you-say/
+[wherobots]: https://wherobots.com/
+[sedonadb]: https://sedona.apache.org/sedonadb/latest/
+[apachesedona]: https://sedona.apache.org/latest/
