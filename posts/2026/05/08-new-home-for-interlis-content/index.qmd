@@ -1,0 +1,27 @@
+---
+title: "New home for INTERLIS content"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-05-08 17:47"
+image: "blog-interlis-guru.jpg"
+description: "Stefan Ziegler's blog has found a new home: After 12 years of blogging, this #INTERLIS community resource is now at blog.interlis.guru. Update your #RSS feed reader if you follow this essential resource for the Swiss geodata community (which doesn't just cover INTERLIS)."
+---
+
+Stefan Ziegler, head of the Office of Geoinformation of the canton of Solothurn, 
+has been blogging for 12 years at [blog.sogeo.services](https://blog.sogeo.services). 
+Now Stefan's blog -- I would say, *the* premier outlet for INTERLIS[^interlis] 
+content (among other topics[^topics]) -- has a new home: 
+[blog.interlis.guru][blog]. 
+
+If you use RSS, point your feed reader to [`blog.interlis.guru/feed.xml`][rss].
+
+[![Safe to say: Nomen est omen](blog-interlis-guru.jpg "Safe to say: Nomen est omen")](https://blog.interlis.guru)
+
+[^interlis]: [INTERLIS](https://www.interlis.ch/en) is a Swiss standard for 
+geodata modelling and data exchange.
+[^topics]: Besides INTELRIS, the blog has covered Apache Hop, AI and MCP, 
+ÖREB/RDPP services, ETL, and more.
+
+[blog]: https://blog.interlis.guru
+[rss]: https://blog.interlis.guru/feed.xml
