@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Thu, 07 May 2026 21:01:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 08 May 2026 17:47:00 GMT</lastBuildDate>
+<item>
+  <title>New home for INTERLIS content</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/08-new-home-for-interlis-content/</link>
+  <description><![CDATA[ Stefan Ziegler’s blog has found a new home: After 12 years of blogging, this #INTERLIS community resource is now at blog.interlis.guru. Update your #RSS feed reader if you follow this essential resource for the Swiss geodata community (which doesn’t just cover INTERLIS). ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/08-new-home-for-interlis-content/</guid>
+  <pubDate>Fri, 08 May 2026 17:47:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/08-new-home-for-interlis-content/blog-interlis-guru.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Joining 130 million points</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/03/26-geo-beyond-inspire/</guid>
   <pubDate>Thu, 26 Mar 2026 22:14:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/03/26-geo-beyond-inspire/inspire-cropped.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Cadastral data in IFC format</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/03/23-cadastral-data-in-ifc-format/</link>
-  <description><![CDATA[ Swiss #CadastralSurveying data is now available in #IFC format via geodienste.ch by KGK-CGC, enabling seamless integration into #BIM workflows. Currently four cantons offer their data, including 3D terrain and building models from swisstopo, with more expected to follow. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/03/23-cadastral-data-in-ifc-format/</guid>
-  <pubDate>Mon, 23 Mar 2026 19:25:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/03/23-cadastral-data-in-ifc-format/preview-map-cropped.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
