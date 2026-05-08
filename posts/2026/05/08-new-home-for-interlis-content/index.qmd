@@ -21,7 +21,7 @@ If you use RSS, point your feed reader to [`blog.interlis.guru/feed.xml`][rss].
 [^interlis]: [INTERLIS](https://www.interlis.ch/en) is a Swiss standard for 
 geodata modelling and data exchange.
 [^topics]: Besides INTELRIS, the blog has covered Apache Hop, AI and MCP, 
-ÖREB/RDPP services, ETL, and more.
+ÖREB/RDPPF services, ETL, and more.
 
 [blog]: https://blog.interlis.guru
 [rss]: https://blog.interlis.guru/feed.xml
