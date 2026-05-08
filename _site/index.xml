@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Fri, 08 May 2026 17:47:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 08 May 2026 18:55:00 GMT</lastBuildDate>
+<item>
+  <title>Geoinformation chatbot for the canton of Berne</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/08-geoinformation-chatbot-for-the-canton-of-berne/</link>
+  <description><![CDATA[ The canton of Berne has launched a #chatbot on their geoinformation portal that lets users ask questions about available cantonal #geodata and its #metadata in natural language — in German, French, English, and more. It is not (yet?) a ‘talk to the map’ solution, but a discovery tool for navigating the website and finding data. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/08-geoinformation-chatbot-for-the-canton-of-berne/</guid>
+  <pubDate>Fri, 08 May 2026 18:55:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/08-geoinformation-chatbot-for-the-canton-of-berne/agi-be-chatbot.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>New home for INTERLIS content</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/03/31-swiss-data-space-community/</guid>
   <pubDate>Tue, 31 Mar 2026 18:06:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/03/31-swiss-data-space-community/swiss-data-space-forum-cropped.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>“geo” beyond INSPIRE</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/03/26-geo-beyond-inspire/</link>
-  <description><![CDATA[ The INSPIRE Directive for geodata interoperability and sharing is set to be simplified. And that might actually be a good thing! Javier de la Torre takes a good look at INSPIRE’s history, shortcomings, and the argument for embracing #analytics-native paradigms for the future of geospatial. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/03/26-geo-beyond-inspire/</guid>
-  <pubDate>Thu, 26 Mar 2026 22:14:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/03/26-geo-beyond-inspire/inspire-cropped.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
