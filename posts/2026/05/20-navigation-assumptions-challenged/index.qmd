@@ -1,0 +1,81 @@
+---
+title: "Navigation assumptions challenged"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-05-20 17:53"
+image: "henry-perks-BJXAxQ1L7dI-unsplash.jpg"
+description: "A new study challenges the assumption that pedestrians wish for turn-by-turn navigation, showing many prefer a simple route preview, without losing performance or spatial awareness. Paired with contrasting ideas from 3D navigation design, it’s a reminder that the “right” level of guidance depends less on technology and more on context and user needs."
+---
+
+Looking for that pop-up bar? – Search in your mapping-app-of-choice, hit 
+"Directions", and off to your drink with buddies, right? – *Maybe*. 
+
+A team of HCI researchers around (corresponding author) Johannes Schöning has 
+investigated routing behaviour in *pedestrians*: The widely available 
+turn-by-turn (TBT) directions are not the only type of instructions pedestrians 
+use, in some settings not even the most popular one. The team compared the use 
+of TBT instructions and the simple route overview or route preview (RP).
+
+From [Emanuel de Bellis][emanuel]'s [post][post] about the (open-access) 
+[paper][paper]:
+
+> When you walk somewhere with Google Maps, do you actually hit "Start" for 
+> turn-by-turn directions? Or do you just glance at the route on the map and 
+> figure it out yourself? 🗺️
+>  
+> Turns out, a surprisingly large number of people do the latter. In our new 
+> paper in PLOS ONE, 44% of surveyed users preferred the simple route preview 
+> over full turn-by-turn navigation. In familiar environments, that number 
+> jumped to 76%.
+ 
+The study found no significant differences in navigation performance, nor in 
+phone glance, nor in spatial learning between the two modes. I appreciated 
+Emanuel's [take][post]: 
+
+> Turn-by-turn was built for drivers on fixed roads. Pedestrians are different. 
+> They take shortcuts, explore, change their minds. Step-by-step instructions 
+> ask them to switch off their spatial thinking, and over time, that's a skill 
+> you lose. Route preview keeps people engaged: they read the map, orient 
+> themselves, make decisions.
+
+Somewhat^[Ok, maybe *tangentially*.] related: [Sascha Brunner][sascha] of the 
+Esri R&D Center in Zurich has recently [posted][post2] about navigation in 3D 
+web scenes. Actual, fully free 3D navigation is powerful but often hard to use 
+because of the unlimited degrees of freedom. Sascha:
+
+> So I tried a different question: how far can we get if we give the user less 
+> freedom and more help? To place that idea, it helps to compare the formats we 
+> already use to explain a route:
+> 
+> 📍 Static 2D map → good overview, no terrain feel.
+>
+> 🖼 3D image → nice perspective, no movement.
+>
+> 🎬 Fly-through video → movement, but the author chooses everything.
+>
+> 🌍 Free 3D scene → full freedom, users get lost.
+> 
+> Each step gives the user more control and the author less.
+> 
+> None of these formats really answers the question "what does this route 
+> actually feel like?". So I tried the middle: keep the camera on the path, 
+> give the user a play button, a slider, and a small look-around.
+
+Of course: The research team and Sascha asked different questions. So it's no 
+surprise they arrive at different answers. But I found it neat that in the 
+first case, the answer (or: *an* answer) can be to give the users *more* 
+freedom, while in the second case, the tentative answer is the *opposite*. 
+
+Not new, but good to be reminded occasionally: It comes down to user needs and 
+context.
+
+[post]: https://www.linkedin.com/posts/emanuel-de-bellis-b38b99138_evaluating-route-preview-as-an-alternative-activity-7442104480051048448-tLzo
+[paper]: https://doi.org/10.1371/journal.pone.0340711
+[emanuel]: https://www.linkedin.com/in/emanuel-de-bellis-b38b99138
+[sascha]: https://www.linkedin.com/in/saschabrunner/
+[post2]: https://www.linkedin.com/posts/saschabrunner_arcgis-gis-3dgis-activity-7461305030856396800-ogXm/
+
+[^hci]: Human-Computer Interaction, the field of research that investigates how 
+people interact with computers and how to design computer systems that are 
+effective and easy to use.
