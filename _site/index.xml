@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Fri, 08 May 2026 18:55:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 20 May 2026 17:53:00 GMT</lastBuildDate>
+<item>
+  <title>Navigation assumptions challenged</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/20-navigation-assumptions-challenged/</link>
+  <description><![CDATA[ A new study challenges the assumption that pedestrians wish for turn-by-turn navigation, showing many prefer a simple route preview, without losing performance or spatial awareness. Paired with contrasting ideas from 3D navigation design, it’s a reminder that the “right” level of guidance depends less on technology and more on context and user needs. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/20-navigation-assumptions-challenged/</guid>
+  <pubDate>Wed, 20 May 2026 17:53:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/20-navigation-assumptions-challenged/henry-perks-BJXAxQ1L7dI-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Geoinformation chatbot for the canton of Berne</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/04/03-raster-enabling-apache-hop/</guid>
   <pubDate>Fri, 03 Apr 2026 11:42:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/04/03-raster-enabling-apache-hop/building-heights.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Swiss Data Space community</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/03/31-swiss-data-space-community/</link>
-  <description><![CDATA[ The Swiss Data Space Forum invites experts across domains to help shape the future of trusted #DataSharing in Switzerland. With geodata emerging as the backbone for interoperable and trustworthy #DataSpaces, this initiative is one to watch for anyone bridging the geodata and data ecosystems. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/03/31-swiss-data-space-community/</guid>
-  <pubDate>Tue, 31 Mar 2026 18:06:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/03/31-swiss-data-space-community/swiss-data-space-forum-cropped.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
