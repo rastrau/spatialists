@@ -79,6 +79,7 @@
 [^h3]: [H3](https://h3geo.org) is a hexagonal (mostly, except for 12 pentagons – think: football) discrete global grid system (DGGS) (Apache 2.0-licensed) created by Uber.
 [^ign]: France's National Mapping Agency, the Institut national de l'information géographique et forestière.
 [^interlis]: [INTERLIS](https://www.interlis.ch/en) is a Swiss standard for geodata modelling and data exchange.
+[^hci]: Human-Computer Interaction, the field of research that investigates how people interact with computers and how to design computer systems that are effective and easy to use.
 [^high-resolution]: For global coverage, 30 meter is considered high-resolution.
 [^iceberg]: An open-source, high-performance table format for large datasets in data lakes.
 [^ifc]: Industry Foundation Classes, an open standard file format for Building Information Modelling (BIM) data exchange.
