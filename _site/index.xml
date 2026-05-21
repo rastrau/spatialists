@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Wed, 20 May 2026 17:53:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 21 May 2026 16:22:00 GMT</lastBuildDate>
+<item>
+  <title>Open Semantic Interchange</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/21-open-semantic-interchange/</link>
+  <description><![CDATA[ #OpenSemanticInterchange (#OSI) is a new vendor-neutral initiative aiming to standardise how semantic #metadata is shared across #analytics, #AI, and #BI platforms using #YAML — with #CARTO among its working group members. If adopted, it could meaningfully change how semantic layers work across the #data stack. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/21-open-semantic-interchange/</guid>
+  <pubDate>Thu, 21 May 2026 16:22:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/21-open-semantic-interchange/osi.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Navigation assumptions challenged</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/04/03-osm-vector-tiles-in-the-esri-ecosystem/</guid>
   <pubDate>Fri, 03 Apr 2026 17:42:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/04/03-osm-vector-tiles-in-the-esri-ecosystem/alin-gavriliuc-s1ULGWEf79s-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Raster-enabling Apache Hop</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/04/03-raster-enabling-apache-hop/</link>
-  <description><![CDATA[ Stefan Ziegler continues his series on #geoenabling #ApacheHop, this time adding #raster support to his hop-gdal-plugin. Stefan walks through an #ETL pipeline that computes building heights from LiDAR and vector data using new raster transforms (Raster Clip, Raster Zonal Stats) built on the newer #GDAL tool structure. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/04/03-raster-enabling-apache-hop/</guid>
-  <pubDate>Fri, 03 Apr 2026 11:42:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/04/03-raster-enabling-apache-hop/building-heights.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
