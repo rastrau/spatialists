@@ -1,0 +1,73 @@
+---
+title: "Open Semantic Interchange"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-05-21 16:22"
+image: "osi.jpg"
+description: "#OpenSemanticInterchange (#OSI) is a new vendor-neutral initiative aiming to standardise how semantic #metadata is shared across #analytics, #AI, and #BI platforms using #YAML — with #CARTO among its working group members. If adopted, it could meaningfully change how semantic layers work across the #data stack."
+---
+
+Sharing metadata on data semantics is not an easy problem. Open Semantic 
+Interchange (OSI) is a new international initiative to create a standard for 
+sharing semantic metadata in a machine-readable format across tools such as 
+Snowflake, Databricks, dbt, Tableau, and more. In [its own words][osi]:
+
+> The Open Semantic Interchange is an industry-wide specification effort to 
+standardize how we exchange semantic metadata across analytics, AI and BI 
+platforms, providing a vendor neutral, single source of truth for semantic data.
+
+OSI uses YAML[^yaml] to define:
+
+- the [semantic model][semantic-model] (top-level container), 
+- [datasets][datasets] (fact and dimension tables),
+- [relationships][relationships] between datasets,
+- [fields][fields] (row-level attributes), and
+- [metrics][metrics] (aggregations of, and computations on, fields).
+
+These entities support [custom extensions][extensions] where tool vendors can 
+add platform-specific metadata without breaking compatibility as well as 
+[AI context structure][ai-context] encompassing `instructions`, `synonyms`, and 
+`examples` to also help AI models understand the semantics of the data they are 
+working with.
+
+![Example of a (so far decidedly non-spatial) semantic model (source: OSI)](semantic-model-example.png "Example of a (so far decidedly non-spatial) semantic model (source: OSI)")
+
+The specification and documentation is [licensed][license] under the Creative 
+Commons Attribution license (CC BY). The [website][osi] has more info.
+
+Reality check (per [Gael Grosch][gael]): 
+
+> Nothing executes against OSI yet. No vendor has shipped native import or 
+export tooling. And translation between existing YAML semantic formats is 
+already fairly straightforward with AI code generation tools.
+> 
+> What makes it worth following is the longer-term direction it points toward. 
+A vendor-neutral semantic layer that any tool can consume, from your data 
+warehouse to your BI platform to your AI agent, is a meaningful shift from how 
+semantic layers have worked so far. Whether OSI becomes that layer or fades 
+into a forgotten spec will depend on how much native tooling platforms actually 
+ship through 2026.
+
+The [working group][working-group] features some interesting names. 
+
+One that is immediately recognisable in our industry: CARTO. See, for example, 
+[here][link-1]. and [here][link-2].
+
+
+[osi]: https://open-semantic-interchange.org/
+[semantic-model]: https://github.com/open-semantic-interchange/OSI/blob/main/core-spec/spec.md#semantic-model
+[datasets]: https://github.com/open-semantic-interchange/OSI/blob/main/core-spec/spec.md#datasets
+[relationships]: https://github.com/open-semantic-interchange/OSI/blob/main/core-spec/spec.md#relationships
+[fields]: https://github.com/open-semantic-interchange/OSI/blob/main/core-spec/spec.md#fields
+[metrics]: https://github.com/open-semantic-interchange/OSI/blob/main/core-spec/spec.md#metrics
+[extensions]: https://github.com/open-semantic-interchange/OSI/blob/main/core-spec/spec.md#custom-extensions
+[ai-context]: https://github.com/open-semantic-interchange/OSI/blob/main/core-spec/spec.md#ai-context-structure
+[license]: https://github.com/open-semantic-interchange/OSI#license
+[gael]: https://www.linkedin.com/posts/gaelgrosch_this-year-over-40-organizations-agreed-on-activity-7437408193254854657-SgVL
+[working-group]: https://open-semantic-interchange.org/#members
+[link-1]: https://github.com/CartoDB/carto-agentic-deckgl/blob/main/docs/SEMANTIC_LAYER_GUIDE.md
+[link-2]: https://github.com/open-semantic-interchange/OSI/discussions/114
+
+[^yaml]: [YAML](https://yaml.org/) is a human-readable language to serialise 
+data, often used for configuration files. 
