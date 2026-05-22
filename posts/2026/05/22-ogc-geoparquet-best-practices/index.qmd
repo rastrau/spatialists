@@ -1,0 +1,37 @@
+---
+title: "OGC GeoParquet best practices"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-05-22 12:46"
+image: "data.jpg"
+description: "The OGC offers a best practices guide for distributing #GeoParquet files, covering compression, spatial indexing and ordering, row group sizes, partitioning, and metadata. The guide also lists concrete commands for common tools so you can produce optimally distributed files right away."
+---
+
+As part of its [GeoParquet format repository][repo], the OGC[^ogc] has published a 
+[guide to best practices for distributing data in GeoParquet forma][guide]. The 
+goal behind the guide is offering more clarity how to optimally distribute 
+GeoParquet files, given the many options of various libraries and tools working 
+with Parquet files (that may not be ideal for *Geo*Parquet handling).
+
+![Optimised ordering of rows in a GeoParquet file: The file loads globally and keeps loading until all data is fetched. (source: OGC)](optimised-ordering.gif "Optimised ordering of rows in a GeoParquet file: The file loads globally and keeps loading until all data is fetched. (source: OGC)")
+
+![Non-optimal ordering of rows in a GeoParquet file (source: OGC)](non-optimised-ordering.gif "Non-optimal ordering of rows in a GeoParquet file (source: OGC)")
+
+
+The guide covers topics such as compression, spatial indexing and ordering, row 
+group size, partitioning, and metadata. It also briefly lists commands for 
+common tools, both explaining what the default options will do as well as 
+listing a commands that will yield GeoParquet files that follow the guide's 
+recommendations.
+
+If this is interesting to you, see also [`geoparquet-io`][io] and the 
+[GeoStandards.ch guide on COGs][cog].
+
+[repo]: https://github.com/opengeospatial/geoparquet/tree/main
+[guide]: https://github.com/opengeospatial/geoparquet/blob/main/format-specs/distributing-geoparquet.md
+[io]: https://spatialists.ch/posts/2026/04/06-geoparquet-io-fast-geoparquet-tool/
+[cog]: https://spatialists.ch/posts/2025/03/18-best-practices-for-cloud-optimized-geotiffs/
+
+[^ogc]: Open Geospatial Consortium.
+
