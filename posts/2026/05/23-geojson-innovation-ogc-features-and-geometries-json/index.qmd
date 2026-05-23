@@ -1,0 +1,51 @@
+---
+title: "GeoJSON innovation: OGC Features and Geometries JSON"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-05-23 11:19"
+image: "jonakoh-r5lbaK3fDaM-unsplash.jpg"
+description: 'The #OGC has released "JSON-FG", a #GeoJSON superset that adds support for coordinate reference systems beyond WGS 1984, temporal feature properties, 3D geometry types, and more. Legacy tools remain fully compatible, while modern clients gain a more expressive data format.'
+---
+
+GeoJSON is a widely used format for encoding geographic data especially in web 
+environments. It is based on JSON and designed to represent simple geographical 
+features and their attributes. However, GeoJSON has long had some drawbacks 
+that presented some pitfalls for users.
+
+Now, the OGC[^ogc] has [released a newstandard][announcement] called "OGC 
+Features and Geometries JSON" or "JSON-FG", for short. What does JSON-FG add? 
+There are three mandatory extensions to GeoJSON:
+
+- ability to use CRSs[^crs] other than WGS 1984 with lon-lat axis order
+- ability to encode temporal characteristics of features
+- a statement identifying the JSON-FG conformance classes supported by a 
+JSON-FG feature collection, feature, or geometry
+
+... and these optional extensions:
+
+- support for circular arcs, compound curves, and curve polygons as geometry 
+types
+- support for solids and prisms as geometry types
+- support for measure values in coordinates
+- ability to declare the type and schema of a feature
+
+JSON-FG is a superset of GeoJSON. Thus, legacy tools will be able to read 
+JSON-FG without modification (but, of course, not make use of the new features). 
+From the [announcement][announcement]:
+
+> Additional information not specified in the GeoJSON RFC is mainly encoded in 
+additional members of the GeoJSON objects. These additional members use keys 
+that do not conflict with existing GeoJSON keys, enabling existing and future 
+GeoJSON clients to continue parsing and understanding GeoJSON content 
+successfully. Clients that support JSON-FG can additionally parse and interpret 
+the extended members.
+
+More information can be found in the [announcement][announcement] and on 
+the [standard's page][standard].
+
+[announcement]: https://www.ogc.org/announcement/ogc-releases-the-features-and-geometries-json-json-fg-standard/
+[standard]: https://www.ogc.org/standards/json-fg/
+
+[^ogc]: Open Geospatial Consortium.
+[^crs]: Coordinate reference systems.
