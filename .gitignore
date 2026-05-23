@@ -173,3 +173,5 @@ cython_debug/
 /.quarto/
 .python-version
 .DS_Store
+
+**/*.quarto_ipynb
