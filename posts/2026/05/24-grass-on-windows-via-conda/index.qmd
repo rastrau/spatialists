@@ -1,0 +1,35 @@
+---
+title: "GRASS on Windows via conda"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-05-24 08:39"
+image: "grass.png"
+description: "#GRASS, the veteran open-source geospatial computing platform, can now be installed on Windows (and all other major platforms) via #conda with no manual setup. This streamlines access to the latest GRASS functionality."
+---
+
+[GRASS][grass] (short for "Geographic Resources Analysis Support System") is an 
+open-source geospatial software for raster and vector data processing and 
+analysis. There is nice overview of GRASS features on the [GRASS 
+website][overview], in case you are not familiar with it.
+
+Newly, [GRASS daily development snapshots can be directly installed][install] 
+via `conda`[^conda] into a `conda` environment on *all* major platforms (Linux, Mac OS,
+and Windows) – no manual setup required, which streamlines the installation
+process.
+
+While part of GRASS functionality is also available through QGIS (via the GRASS 
+provider/plugin and via the Processing toolbox), installing GRASS directly 
+(through `conda` or the [other channels][channels]) allows anybody to access 
+the latest features and updates directly from the GRASS development team as 
+well as to use user-contributed add-ons that may not be directly available 
+in QGIS.
+
+![GRASS](grass.png "GRASS")
+
+[^conda]: A cross-platform, open-source package and environment management system widely used in the data science and scientific computing ecosystems.
+
+[grass]: https://grass.osgeo.org/
+[overview]: https://grass.osgeo.org/learn/overview/
+[install]: https://grass-conda.isnew.info/
+[channels]: https://grass.osgeo.org/download/
