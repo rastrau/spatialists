@@ -1,0 +1,44 @@
+---
+title: "Guidance on GIS accessibility"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-05-27 18:42"
+image: "aaron-doucett-Af1ObLzovTA-unsplash.jpg"
+description: "Massachusetts' GIS Accessibility Guide is a practical, comprehensive resource covering #accessibility in #webmaps, #storymaps, and static maps. Besides a substantial collection of structured recommendations and links to resources, the guide also publishes a running list of bug reports and enhancement requests, along with their status."
+---
+
+The Commonwealth of Massachusetts in the USA offers a broad [GIS Accessibility 
+Guide][guide] on their website. The guide provides numerous recommendations and 
+links to resources around accessibility for GIS and GIS products such as web 
+maps, storymaps, and PDF or paper maps. It features seven parts:
+
+- [Building accessible GIS products][1]: Background and general considerations 
+and recommendations
+- [GIS accessibility guidance: web maps][2]: Resources on basemap selection, 
+layers, symbology, pop-up windows, labels, legends, web map item details, text, 
+and more
+- [GIS accessibility guidance: static maps from ArcGIS Pro][3]: ditto, plus 
+testing for accessibility, creating accessible PDFs and more
+- [GIS accessibility guidance: StoryMaps][4]: ditto, plus alt text, embedded 
+content, alternative data formats and more 
+- [Esri bug and enhancement list][5]: Collection of enhancements and bugs 
+submitted to Esri with timeline and status information
+- [GIS accessibility resources][6]: Links to other resources
+- [GIS accessibility contact form][7]: Primarily intended for Massachusetts 
+state employees, I imagine
+
+You can see that the guide is geared towards users of Esri products, but it is 
+in no way limited to that user group. It features plenty of general good advice. 
+I like the transparency and accountability aspect of what Massachusetts is doing 
+by submitting issues to Esri and maintaining a public list of what happens to 
+bug reports and enhancement requests.
+
+[guide]: https://www.mass.gov/manual/gis-accessibility-guidance
+[1]: https://www.mass.gov/info-details/building-accessible-gis-products
+[2]: https://www.mass.gov/info-details/gis-accessibility-guidance-web-maps
+[3]: https://www.mass.gov/info-details/gis-accessibility-guidance-static-maps-from-arcgis-pro
+[4]: https://www.mass.gov/info-details/gis-accessibility-guidance-storymaps
+[5]: https://www.mass.gov/info-details/esri-bug-and-enhancement-list
+[6]: https://www.mass.gov/info-details/gis-accessibility-resources
+[7]: https://www.mass.gov/forms/gis-accessibility-contact-form
