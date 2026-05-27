@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ralph Straumann">
-<meta name="dcterms.date" content="2026-03-10">
-<meta name="description" content="Stefan Ziegler has been geo-enabling the open-source #ETL tool #ApacheHop, building #GDAL/#OGR reader and writer plug-ins and adding an interactive preview for geometries: Early days, but promising progress toward a fully geo-capable data integration pipeline tool.">
+<meta name="dcterms.date" content="2026-05-27">
+<meta name="description" content="Massachusetts’ GIS Accessibility Guide is a practical, comprehensive resource covering #accessibility in #webmaps, #storymaps, and static maps. Besides a substantial collection of structured recommendations and links to resources, the guide also publishes a running list of bug reports and enhancement requests, along with their status.">
 
-<title>Geo-enabling Apache Hop – Spatialists – geospatial news</title>
+<title>Guidance on GIS accessibility – Spatialists – geospatial news</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -119,17 +119,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../../styles.css">
-<meta property="og:title" content="Geo-enabling Apache Hop – Spatialists – geospatial news">
-<meta property="og:description" content="Stefan Ziegler has been geo-enabling the open-source #ETL tool #ApacheHop, building #GDAL/#OGR reader and writer plug-ins and adding an interactive preview for geometries: Early days, but promising progress toward a fully geo-capable data integration pipeline tool.">
-<meta property="og:image" content="https://spatialists.ch/posts/2026/03/10-geo-enabling-apache-hop/apache-hop-logo.png">
+<meta property="og:title" content="Guidance on GIS accessibility – Spatialists – geospatial news">
+<meta property="og:description" content="Massachusetts’ GIS Accessibility Guide is a practical, comprehensive resource covering #accessibility in #webmaps, #storymaps, and static maps. Besides a substantial collection of structured recommendations and links to resources, the guide also publishes a running list of bug reports and enhancement requests, along with their status.">
+<meta property="og:image" content="https://spatialists.ch/posts/2026/05/27-guidance-on-gis-accessibility/aaron-doucett-Af1ObLzovTA-unsplash.jpg">
 <meta property="og:site_name" content="Spatialists – geospatial news">
-<meta property="og:image:height" content="600">
-<meta property="og:image:width" content="900">
-<meta name="twitter:title" content="Geo-enabling Apache Hop – Spatialists – geospatial news">
-<meta name="twitter:description" content="Stefan Ziegler has been geo-enabling the open-source #ETL tool #ApacheHop, building #GDAL/#OGR reader and writer plug-ins and adding an interactive preview for geometries: Early days, but promising progress toward a fully geo-capable data integration pipeline tool.">
-<meta name="twitter:image" content="https://spatialists.ch/posts/2026/03/10-geo-enabling-apache-hop/apache-hop-logo.png">
-<meta name="twitter:image-height" content="600">
-<meta name="twitter:image-width" content="900">
+<meta name="twitter:title" content="Guidance on GIS accessibility – Spatialists – geospatial news">
+<meta name="twitter:description" content="Massachusetts’ GIS Accessibility Guide is a practical, comprehensive resource covering #accessibility in #webmaps, #storymaps, and static maps. Besides a substantial collection of structured recommendations and links to resources, the guide also publishes a running list of bug reports and enhancement requests, along with their status.">
+<meta name="twitter:image" content="https://spatialists.ch/posts/2026/05/27-guidance-on-gis-accessibility/aaron-doucett-Af1ObLzovTA-unsplash.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -177,10 +173,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Geo-enabling Apache Hop</h1>
+      <h1 class="title">Guidance on GIS accessibility</h1>
                   <div>
         <div class="description">
-          Stefan Ziegler has been geo-enabling the open-source #ETL tool #ApacheHop, building #GDAL/#OGR reader and writer plug-ins and adding an interactive preview for geometries: Early days, but promising progress toward a fully geo-capable data integration pipeline tool.
+          Massachusetts’ GIS Accessibility Guide is a practical, comprehensive resource covering #accessibility in #webmaps, #storymaps, and static maps. Besides a substantial collection of structured recommendations and links to resources, the guide also publishes a running list of bug reports and enhancement requests, along with their status.
         </div>
       </div>
                 </div>
@@ -199,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">March 10, 2026</p>
+        <p class="date">May 27, 2026</p>
       </div>
     </div>
     
@@ -218,43 +214,21 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Apache Hop is an open-source ETL<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> solution (previously <a href="https://spatialists.ch/posts/2025/07/15-webinar-on-data-integration-using-apache-hop/">here</a> and <a href="https://spatialists.ch/posts/2026/02/12-geospatial-data-integration-with-apache-hop/">here</a>, if you followed along) that – in its own words and certainly in the hopes of some stakeholders – “aims to be the future of data integration.” Hop workflows and pipelines can be assembled through a graphical user interface using drag-and-drop. This makes it a potential replacement for similar tools in that space.</p>
-<p>Over the last few days, <a href="https://www.linkedin.com/in/stefan-ziegler-37b312a7/">Stefan Ziegler</a>, head of the Office for Geoinformation and cantonal surveyor of the canton of Solothurn, has taken a stab at (further) geo-enabling Apache Hop. So far, he published two blog posts (both in German):</p>
-<section id="lets-hop-1-laying-the-foundation" class="level2">
-<h2 class="anchored" data-anchor-id="lets-hop-1-laying-the-foundation">Let’s Hop<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> #1: Laying the foundation</h2>
-<p><a href="https://blog.sogeo.services/blog/2026/03/06/lets-hop-01.html">In this first post</a>, Stefan describes how he implemented both an Apache Hop OGR reader and writer<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> by building Java bindings for GDAL/OGR and packaging everything into Hop plug-ins. This re-uses previous work by AtolCD and <a href="https://github.com/atolcd/hop-gis-plugins">their geospatial plug-ins for Hop</a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="reader-writer.png" title="GDAL/OGR reader and writer plug-ins in Apache Hop (source: Stefan Ziegler)" class="img-fluid figure-img"></p>
-<figcaption>GDAL/OGR reader and writer plug-ins in Apache Hop (source: Stefan Ziegler)</figcaption>
-</figure>
-</div>
-</section>
-<section id="lets-hop-2-die-idee-ist-gut-die-vorschau-ist-besser" class="level2">
-<h2 class="anchored" data-anchor-id="lets-hop-2-die-idee-ist-gut-die-vorschau-ist-besser">Let’s Hop #2: Die Idee ist gut, die Vorschau ist besser</h2>
-<p><a href="https://blog.sogeo.services/blog/2026/03/09/lets-hop-02.html">In this second post</a>, Stefan explains how he implemented a geospatial preview for the <a href="https://github.com/edigonzales/hop-geometry-type-plugin/">native geometry data type</a> in Hop. Rather than just displaying the geometry as EWKT<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>, Stefan’s <em>“Inspect geometries…”</em> plug-in allows users to look at geospatial features in Hop in their spatial context using an interactive map.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="hop-preview.png" title="Geospatial preview in Apache Hop (source: Stefan Ziegler)" class="img-fluid figure-img"></p>
-<figcaption>Geospatial preview in Apache Hop (source: Stefan Ziegler)</figcaption>
-</figure>
-</div>
-<p>Great stuff! Still <a href="https://www.geowebforum.ch/t/ogr-plugin-fuer-apache-hop/1361/3">early days</a>, but let’s hop<strong><em>e</em></strong><a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>.</p>
+<p>The Commonwealth of Massachusetts in the USA offers a broad <a href="https://www.mass.gov/manual/gis-accessibility-guidance">GIS Accessibility Guide</a> on their website. The guide provides numerous recommendations and links to resources around accessibility for GIS and GIS products such as web maps, storymaps, and PDF or paper maps. It features seven parts:</p>
+<ul>
+<li><a href="https://www.mass.gov/info-details/building-accessible-gis-products">Building accessible GIS products</a>: Background and general considerations and recommendations</li>
+<li><a href="https://www.mass.gov/info-details/gis-accessibility-guidance-web-maps">GIS accessibility guidance: web maps</a>: Resources on basemap selection, layers, symbology, pop-up windows, labels, legends, web map item details, text, and more</li>
+<li><a href="https://www.mass.gov/info-details/gis-accessibility-guidance-static-maps-from-arcgis-pro">GIS accessibility guidance: static maps from ArcGIS Pro</a>: ditto, plus testing for accessibility, creating accessible PDFs and more</li>
+<li><a href="https://www.mass.gov/info-details/gis-accessibility-guidance-storymaps">GIS accessibility guidance: StoryMaps</a>: ditto, plus alt text, embedded content, alternative data formats and more</li>
+<li><a href="https://www.mass.gov/info-details/esri-bug-and-enhancement-list">Esri bug and enhancement list</a>: Collection of enhancements and bugs submitted to Esri with timeline and status information</li>
+<li><a href="https://www.mass.gov/info-details/gis-accessibility-resources">GIS accessibility resources</a>: Links to other resources</li>
+<li><a href="https://www.mass.gov/forms/gis-accessibility-contact-form">GIS accessibility contact form</a>: Primarily intended for Massachusetts state employees, I imagine</li>
+</ul>
+<p>You can see that the guide is geared towards users of Esri products, but it is in no way limited to that user group. It features plenty of general good advice. I like the transparency and accountability aspect of what Massachusetts is doing by submitting issues to Esri and maintaining a public list of what happens to bug reports and enhancement requests.</p>
 
 
-</section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Extract-transform-load.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Not my pun, but Stefan’s 🫣<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Technically, <code>ogr-reader</code> and <code>ogr-exporter</code>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>Extended Well-Known Text, a PostGIS extension of <a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">WKT</a> that includes the spatial reference system identifier (SRID) of the encoded geometry.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p>Yeah, my bad 😬<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

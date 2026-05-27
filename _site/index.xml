@@ -15,8 +15,17 @@
 <title>Spatialists – geospatial news</title>
 <link>https://spatialists.ch/</link>
 </image>
-<generator>quarto-1.9.37</generator>
-<lastBuildDate>Sun, 24 May 2026 08:39:00 GMT</lastBuildDate>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Wed, 27 May 2026 18:42:00 GMT</lastBuildDate>
+<item>
+  <title>Guidance on GIS accessibility</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/27-guidance-on-gis-accessibility/</link>
+  <description><![CDATA[ Massachusetts’ GIS Accessibility Guide is a practical, comprehensive resource covering #accessibility in #webmaps, #storymaps, and static maps. Besides a substantial collection of structured recommendations and links to resources, the guide also publishes a running list of bug reports and enhancement requests, along with their status. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/27-guidance-on-gis-accessibility/</guid>
+  <pubDate>Wed, 27 May 2026 18:42:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/27-guidance-on-gis-accessibility/aaron-doucett-Af1ObLzovTA-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>GRASS on Windows via conda</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/04/12-call-for-cng-mentors-and-mentees/</guid>
   <pubDate>Sun, 12 Apr 2026 18:39:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/04/12-call-for-cng-mentors-and-mentees/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Apple and Google Maps history</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/04/12-apple-and-google-maps-history/</link>
-  <description><![CDATA[ Marcin Wichary curates Justin O’Beirne’s series on the evolution of #Apple and #Google Maps’ style, content, and #POI coverage over the years. Justin’s articles are a few years old, but the insights on web #cartography and real-world use cases are still well worth reading if you work with (or even just use) #webmaps. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/04/12-apple-and-google-maps-history/</guid>
-  <pubDate>Sun, 12 Apr 2026 12:31:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/04/12-apple-and-google-maps-history/apple-google-comparison.gif" medium="image" type="image/gif"/>
 </item>
 </channel>
 </rss>
