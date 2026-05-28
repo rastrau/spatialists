@@ -1,0 +1,51 @@
+---
+title: "AI vs. FME / geospatial tools?"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-05-28 19:37"
+image: "nam-anh-QJbyG6O0ick-unsplash 1.jpg"
+description: "Safe Software and the #FME community discusses whether #AI #agents are replacing tools like #FME for geospatial #ETL work. The community thread and blog post are worth reading for what they imply about the future of #low-code geospatial tools more broadly."
+---
+
+Via [Stephan Heuel][toot][^fme-vs-code] I came across this discussion in the 
+FME[^fme] ecosystem: [*The Elephant in the Room?*][discussion] The elephant, of 
+course, is AI and AI agents and their rising role in conceiving, implementing, 
+and executing geospatial data pipelines. A short excerpt from the thread:
+
+> My default tool for random tasks or jobs was FME, now its Claude Code/Cowork. 
+Using FME just feels way too slow now by comparison. Microsoft Copilot is even 
+in Excel now, I never thought I'd go back to using Excel!?!? (...) 
+> 
+> Everytime I open up FME now I feel so unproductive because of the time it 
+takes to get something done. It feels painfully slow compared to having the 
+Agent just "Do it". 
+
+Safe Software^[Maker of FME.] picked the discussion in the Safe Software 
+Community Hub up in a post of their own: [*Are AI Coding Agents Replacing Tools 
+Like FME? Let’s Talk About It*][post]. 
+
+[Betteridge's law of headlines][betteridge] applies: "Any headline that ends in 
+a question mark can be answered by the word *No*." Still: I agree with 
+[Stephan][toot]'s kudos towards Safe Software for their openness to discuss the 
+topic. 
+
+Both the [original discussion thread][discussion] and the [Safe Software 
+post][post] are worth reading. The opinions expressed do not only matter for 
+FME, I would say, but more broadly for similarly positioned tools and solutions. 
+
+
+[toot]: https://swiss.social/@ping13/116554171212345300
+[discussion]: https://community.safe.com/fme-special-interest-group-ai-93/the-elephant-in-the-room-40309
+[post]: https://fme.safe.com/blog/2026/05/are-ai-coding-agents-replacing-tools-like-fme-lets-talk-about-it/
+[betteridge]: https://en.wikipedia.org/wiki/Betteridge's_law_of_headlines
+
+[^fme]: Safe Software's Feature Manipulation Engine.
+
+[^fme-vs-code]: Side-track: 15 years ago I worked with Stephan, but my take on 
+FME was *very* different from what he expresses in his post: While I appreciated 
+its robustness compared to other low-code tools for geospatial workflows 
+(especially Model Builder at the time), I did not like FME overall and preferred 
+to write code instead. Granted: That (a small) part of my role included 
+maintaining, repairing, and running fickle FME workspaces that had been built 
+by someone else could have something to do with that 🙂.
