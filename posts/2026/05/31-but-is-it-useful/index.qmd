@@ -1,0 +1,86 @@
+---
+title: "But is it useful?"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-05-31 14:15"
+image: "claudio-schwarz-fyeOxvYvIyY-unsplash.jpg"
+description: "The Cloud-Native Geospatial Forum proposes #usefulness as a better measure than openness for #dataQuality, with a 5-dimension, 4-star framework that goes beyond familiar schemes like #FAIR and 5-star Open Data. It's an interesting read and a good occasion to re-evaluate common notions of data quality and #openness."
+---
+
+I only got around to it now, but already back in April, the Cloud-Native
+Geospatial Forum[^cng] published an interesting article on data 
+quality titled "[Beyond open data: Usefulness is a better measure of quality 
+than openness][article]".
+
+The [article][article] starts with an assessment of the state of open data:
+
+> We are currently in an era of exponential data growth and unprecedented 
+accessibility, driven by rapid technological advancements and the rise of 
+automated agents capable of consuming data at scale. While historical efforts to 
+champion “open data” established admirable goals, the colloquial concept has 
+become lackluster and antiquated. Making data broadly accessible, in theory, 
+does not inherently make it useful in practice.
+
+I wouldn't *quite* agree: I think opening data in an era of partial(!) abundance 
+of data is still an important concern. But I do agree that the open data 
+movement has lost some of its momentum, partly because much has been achieved. I 
+also agree that focussing exclusively on openness of data is ill-advised: It 
+would overshadow other important dimensions of data usability. That latter point 
+is what the authors of the [article][article] are getting at: They propose a 
+more holistic approach to data quality, which includes not only openness but 
+also other dimensions:
+
+> We need a better way to represent the ultimate goal of open data: moving 
+beyond a basic baseline of “openness” to evaluate data on a future-looking 
+spectrum of usefulness. (...) Our goal was to shift the evaluation from simply 
+asking “how open is this?” to “how easily can this be used and reused for a 
+specific purpose, or by a general audience with diverse needs?”
+
+Going beyond traditional data classification schemas like the 5 Star Open 
+Data[^5star] scale or the FAIR principles[^fair], the authors propose a more 
+nuanced framework for assessing data quality, which includes these dimensions:
+
+- **License**: What does the license allow? Is it standardised and clear?
+- **Cost**: Direct and indirect costs
+- **Burden** (includes interoperability): How long does it take a reasonably skilled 
+user to access and start using the data?
+- **Accessibility**: Degree to which the data can be accessed and used by a wide 
+range of users; includes e.g. cumbersome formats, lack of APIs[^apis]
+- **Provenance**: How well is the lineage of the data known? Does it have 
+documentation? Does it have metadata?
+
+Besides these, the authors also considered interoperability, intent, data domain 
+coverage and granularity, data structure, integration points (APIs), 
+documentation and user support, compliance and schema completeness (some of 
+which they have now subsumed into the above dimensions).
+
+![Applying the data usefulness framework to a FEMA[^fema] dataset (source: [CNG][article])](data-usefulness.png "Applying the data usefulness framework to a FEMA dataset (source: CNG)")
+
+The authors propose a classification schema to award a dataset 1 to 4 stars for 
+each of the above dimensions. This star rating is detailled in the 
+[article][article]. I would argue all these measures could fit within 
+established data quality standards such as ISO 19157:2013 with its "usability" 
+dimension and ISO 19157:2023 with its mechanism for adding additional data 
+quality components.
+
+The [CNG article][article] also links to [white paper][white-paper] (pdf) that 
+goes into more detail on the proposed framework and the rationale behind it. 
+Well worth studying, in my opinion.
+
+[^cng]: CNG.
+[^5star]: The [5-star Open Data deployment scheme](https://5stardata.info) 
+proposed by Tim Berners-Lee rates datasets from 1 star (available online under 
+an open license, any format) to 5 stars (linked open data with URIs and links 
+to other data sources).
+[^fair]: The [FAIR principles](https://www.go-fair.org/fair-principles/) 
+(Findable, Accessible, Interoperable, Reusable) are guidelines for scientific 
+data management and stewardship, aimed at making data more usable by both humans 
+and machines.
+[^apis]: Application Programming Interfaces.
+[^fema]: The Federal Emergency Management Agency (FEMA) is a government agency 
+in the USA responsible for coordinating disaster preparedness, response, and 
+recovery.
+
+[article]: https://cloudnativegeo.org/blog/2026/04/beyond-open-data-usefulness-is-a-better-measure-of-quality-than-openness/
+[white-paper]: https://cloudnativegeo.org/beyond-open-data-white-paper.pdf
