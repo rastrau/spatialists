@@ -1,0 +1,28 @@
+---
+title: "The legacy of Dijkstra"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-05-31 11:56"
+image: "dimitri-karastelev-4IqOnX2sdyM-unsplash.jpg"
+description: "Edsger Dijkstra's landmark shortest-path algorithm has shaped how we navigate the world, from early GIS to today's wayfinding apps. A new Veritasium video traces that legacy and reveals how techniques like Nested Dissection and Contraction Hierarchies deliver routing results in microseconds."
+---
+
+If you've studied [routing algorithms][routing], you've come across [Edsger 
+Dijkstra's algorithm][algo], a fundamental method for finding the shortest paths 
+between nodes in a graph or network. This on its surface very simple algorithm 
+has had a profound impact and has been widely used in various applications, from 
+navigation aids to GIS.
+
+In their most recent video, *"How does Google Maps actually work?"*, popular 
+science YouTube channel [Veritasium][veritasium] explores the origin of 
+Dijkstra's algorithm, how it laid the groundwork for modern routing techniques 
+used in wayfinding apps and how techniques such as Nested Dissection and 
+Customisable Contraction Hierarchies enable microsecond response times for route 
+queries in large road networks:
+
+{{< video https://www.youtube.com/watch?v=kS-CGkiPetQ >}}
+
+[routing]: https://spatialists.ch/posts/2025/10/02-routing-algorithms-visualized/
+[algo]: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+[veritasium]: https://www.youtube.com/@veritasium/featured
