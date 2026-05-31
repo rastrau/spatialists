@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Sun, 31 May 2026 11:56:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 31 May 2026 14:15:00 GMT</lastBuildDate>
+<item>
+  <title>But is it useful?</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/31-but-is-it-useful/</link>
+  <description><![CDATA[ The Cloud-Native Geospatial Forum proposes #usefulness as a better measure than openness for #dataQuality, with a 5-dimension, 4-star framework that goes beyond familiar schemes like #FAIR and 5-star Open Data. It’s an interesting read and a good occasion to re-evaluate common notions of data quality and #openness. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/31-but-is-it-useful/</guid>
+  <pubDate>Sun, 31 May 2026 14:15:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/31-but-is-it-useful/claudio-schwarz-fyeOxvYvIyY-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>The legacy of Dijkstra</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/04/19-bridging-arcgis-pro-and-ai/</guid>
   <pubDate>Sun, 19 Apr 2026 16:03:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/04/19-bridging-arcgis-pro-and-ai/a-c-fsy2bD7Pep8-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>City2Graph: Easy graph generation in Python</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/04/18-city2graph-easy-graph-generation-in-python/</link>
-  <description><![CDATA[ #City2Graph is an open-source #Python package that turns geospatial data into #graph structures for #NetworkAnalysis and Graph Neural Networks, with seamless integration into tools like #GeoPandas, #NetworkX, and #PyTorch Geometric. It supports diverse data sources from #OSM and #GTFS to #OMF making relevant spatial datasets easy to access and work with. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/04/18-city2graph-easy-graph-generation-in-python/</guid>
-  <pubDate>Sat, 18 Apr 2026 18:33:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/04/18-city2graph-easy-graph-generation-in-python/city2graph.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
