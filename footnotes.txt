@@ -1,5 +1,7 @@
 [^4d]: The combination of three spatial dimensions with time as the fourth dimension.
+[^5star]: The [5-star Open Data deployment scheme](https://5stardata.info) proposed by Tim Berners-Lee rates datasets from 1 star (available online under an open license, any format) to 5 stars (linked open data with URIs and links to other data sources).
 [^a5]: [A5](https://a5geo.org/) is a discrete global grid system (DGGS) based on irregularly-shaped pentagons.
+[^apis]: Application Programming Interfaces.
 [^asit]: The Association pour le Système d'Information du Territoire in Lausanne, Switzerland, aims to promote geoinformation and facilitate the development of geographic data infrastructures by bringing together all relevant stakeholders.
 [^activeradar]: Meaning: SAR systems actively emit electromagnetic energy and receive whatever share of this energy is reflected back to them.
 [^ads-b]: Automatic Dependent Surveillance–Broadcast: A technology that allows aircraft to determine its position via, e.g., satellite navigation and periodically broadcast its position and other related data.
@@ -51,7 +53,9 @@
 [^ethz]: ETHZ is the Zurich branch of the Swiss Federal Institute for Technology.
 [^etl]: Extract-transform-load.
 [^ewkt]: Extended Well-Known Text, a PostGIS extension of [WKT](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry) that includes the spatial reference system identifier (SRID) of the encoded geometry.
+[^fair]: The [FAIR principles](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable, Reusable) are guidelines for scientific data management and stewardship, aimed at making data more usable by both humans and machines.
 [^falsepositives]: ... or "errors of commission", "type 1 errors"... – or what term your (sub)discipline prefers. 
+[^fema]: The Federal Emergency Management Agency (FEMA) is a government agency in the USA responsible for coordinating disaster preparedness, response, and recovery.
 [^fields]: Think, for example, a digital elevation model or a rainfall intensity raster.
 [^flask]: A Python framework for web apps.
 [^fme]: Safe Software's Feature Manipulation Engine.
