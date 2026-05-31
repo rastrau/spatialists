@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Thu, 28 May 2026 19:37:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 31 May 2026 11:56:00 GMT</lastBuildDate>
+<item>
+  <title>The legacy of Dijkstra</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/31-the-legacy-of-dijkstra/</link>
+  <description><![CDATA[ Edsger Dijkstra’s landmark shortest-path algorithm has shaped how we navigate the world, from early GIS to today’s wayfinding apps. A new Veritasium video traces that legacy and reveals how techniques like Nested Dissection and Contraction Hierarchies deliver routing results in microseconds. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/31-the-legacy-of-dijkstra/</guid>
+  <pubDate>Sun, 31 May 2026 11:56:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/31-the-legacy-of-dijkstra/dimitri-karastelev-4IqOnX2sdyM-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>AI vs. FME / geospatial tools?</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/04/18-city2graph-easy-graph-generation-in-python/</guid>
   <pubDate>Sat, 18 Apr 2026 18:33:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/04/18-city2graph-easy-graph-generation-in-python/city2graph.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>GNSS explainer</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/04/14-gnss-explainer/</link>
-  <description><![CDATA[ Shri Khalpada offers a clear and engaging explainer of #GNSS technology, walking through how #GPS, #Galileo and similar #positioning systems pinpoint location using principles like travel time, trilateration, orbital mechanics, and clock correction. His interactive visuals make the invisible workings of satellite navigation tangible. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/04/14-gnss-explainer/</guid>
-  <pubDate>Tue, 14 Apr 2026 18:42:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/04/14-gnss-explainer/pinging.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
