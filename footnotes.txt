@@ -56,6 +56,7 @@
 [^fair]: The [FAIR principles](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable, Reusable) are guidelines for scientific data management and stewardship, aimed at making data more usable by both humans and machines.
 [^falsepositives]: ... or "errors of commission", "type 1 errors"... – or what term your (sub)discipline prefers. 
 [^fema]: The Federal Emergency Management Agency (FEMA) is a government agency in the USA responsible for coordinating disaster preparedness, response, and recovery.
+[^foen]: The Federal Office for the Environment (FOEN; BAFU in German, OFEV in French) is the Swiss federal agency responsible for the state and development of Switzerland's environment.
 [^fields]: Think, for example, a digital elevation model or a rainfall intensity raster.
 [^flask]: A Python framework for web apps.
 [^fme]: Safe Software's Feature Manipulation Engine.
