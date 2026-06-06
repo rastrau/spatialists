@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Sun, 31 May 2026 14:15:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 06 Jun 2026 12:03:00 GMT</lastBuildDate>
+<item>
+  <title>Switzerland decides against participating in Copernicus</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/06/06-switzerland-decides-against-participating-in-copernicus/</link>
+  <description><![CDATA[ The Federal Council has decided that Switzerland will sit out the #Copernicus programme for another cycle, from 2028 to 2034, forgoing access to operational #EarthObservation services and public contracts while retaining access to raw data under the programme’s open data policy. A government-commissioned economic study had found accession advisable, warning that non-participation risks Swiss players losing their footing in European earth observation. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/06/06-switzerland-decides-against-participating-in-copernicus/</guid>
+  <pubDate>Sat, 06 Jun 2026 12:03:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/06/06-switzerland-decides-against-participating-in-copernicus/javier-miranda-AlJ9TQqeCV0-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>But is it useful?</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/04/27-cloud-native-geo-practical-lessons/</guid>
   <pubDate>Mon, 27 Apr 2026 19:01:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/04/27-cloud-native-geo-practical-lessons/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Bridging ArcGIS Pro and AI</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/04/19-bridging-arcgis-pro-and-ai/</link>
-  <description><![CDATA[ Danny McVey’s arcgispro-cli gives #ArcGISPro a #CLI bridge to #AI #codingAgents, exporting project structure including maps, layers, toolboxes, and geodatabases to a machine-readable format. The open-source tool enables working with real GIS project context instead of user-dependent prompts, unlocking AI-based workflows like script generation and documentation. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/04/19-bridging-arcgis-pro-and-ai/</guid>
-  <pubDate>Sun, 19 Apr 2026 16:03:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/04/19-bridging-arcgis-pro-and-ai/a-c-fsy2bD7Pep8-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
