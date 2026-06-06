@@ -1,0 +1,52 @@
+---
+title: "Switzerland decides against participating in Copernicus"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-06-06 12:03"
+image: "javier-miranda-AlJ9TQqeCV0-unsplash.jpg"
+description: "The Federal Council has decided that Switzerland will sit out the #Copernicus programme for another cycle, from 2028 to 2034, forgoing access to operational #EarthObservation services and public contracts while retaining access to raw data under the programme's open data policy. A government-commissioned economic study had found accession advisable, warning that non-participation risks Swiss players losing their footing in European earth observation."
+---
+
+The Swiss Federal Council has decided not to participate in the Copernicus Earth 
+observation programme for the period of 2028 until 2034. Participation in the 
+programme will likely be reconsidered in 2032. From the press release ([DE][de], 
+[FR][fr]): 
+
+> On 5 June 2026, the Federal Council decided that, due to the federal 
+government’s financial situation, Switzerland would not participate in 
+Copernicus between 2028 and 2034 either. Switzerland is already not part of the 
+programme during the current period, which runs until the end of 2027. Thanks to 
+the open access provided to date, Switzerland is currently able to use almost 
+all raw data, but cannot participate in the operational services or the 
+governing bodies. This concerns the ability to activate services, receive 
+products in real time and contribute to their management. Furthermore, without 
+participation, Switzerland cannot benefit from the public contracts funded by 
+Copernicus.
+
+The decision is surprising, as both Swiss parliamentary chambers had previously 
+shown signs of support for Switzerland's participation in the programme. 
+Further, an [evaluation of the programme's benefits][eval] (pdf, in German) for 
+Switzerland commissioned by the FOEN[^foen] and conducted by the company 
+[Swiss Economics][swiss-economics] recommended Switzerland's accession to the 
+programme. From the study's executive summary:
+
+> This (...) report shows that Switzerland’s accession to the Copernicus 
+programme from 2028 is advisable from an economic perspective. The expected 
+benefits – such as improved access to tenders, greater planning certainty for 
+research andbusinesses, and more efficient environmental enforcement – are 
+expected to significantly exceed the annual accession and implementation costs. 
+Without accession, there is a risk in the medium term that key Swiss players 
+will lose their standing in the European Earth observation sector. Switzerland 
+could be excluded from important consortia, which would undermine innovation 
+capacity, the country’s attractiveness as a business location and technology 
+transfer.
+
+[^foen]: The Federal Office for the Environment (FOEN; BAFU in German, OFEV in 
+French) is the Swiss federal agency responsible for the state and development of 
+Switzerland's environment.
+
+[de]: https://www.admin.ch/de/newnsb/jGc0tmFtN-wg-cp1YvCUk
+[fr]: https://www.admin.ch/fr/newnsb/jGc0tmFtN-wg-cp1YvCUk
+[eval]: https://cms.news.admin.ch/fileservice/sdweb-docs-prod-nsbcch-files/files/2026/06/05/90d196c2-cb7c-4cc7-aabb-3225012759af.pdf
+[swiss-economics]: https://www.swiss-economics.ch
