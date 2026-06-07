@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Sat, 06 Jun 2026 12:03:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 07 Jun 2026 14:59:00 GMT</lastBuildDate>
+<item>
+  <title>100 years of swisstopo Flight Service</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/06/07-100-years-of-swisstopo-flight-service/</link>
+  <description><![CDATA[ In 1926, #swisstopo pioneered #aerialPhotogrammetry in Switzerland, taking to the skies when aviation was still in its infancy to map the country more precisely and efficiently than ground surveys could. A century later, the #FlightService remains the foundation for swisstopo’s geodata and maps and thus an important basis for planning, research, defence, and everyday life. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/06/07-100-years-of-swisstopo-flight-service/</guid>
+  <pubDate>Sun, 07 Jun 2026 14:59:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/06/07-100-years-of-swisstopo-flight-service/swisstopo-flight-service-fokker.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Switzerland decides against participating in Copernicus</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/04/28-mapping-and-analysing-public-health/</guid>
   <pubDate>Tue, 28 Apr 2026 06:04:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/04/28-mapping-and-analysing-public-health/national-cancer-institute-NFvdKIhxYlU-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Cloud-native geo: Practical lessons</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/04/27-cloud-native-geo-practical-lessons/</link>
-  <description><![CDATA[ Lukas Merz shares practical lessons from real-world projects on the #cloudnativegeo paradigm: what it can do, what not, and when PostGIS (or similar technology) is simply enough. In a second article, he walks through a concrete implementation using InSAR data in a web platform. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/04/27-cloud-native-geo-practical-lessons/</guid>
-  <pubDate>Mon, 27 Apr 2026 19:01:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/04/27-cloud-native-geo-practical-lessons/tomasz-sroka-eaxgNP4cpY8-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
