@@ -1,0 +1,58 @@
+---
+title: "100 years of swisstopo Flight Service"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-06-07 14:59"
+image: "swisstopo-flight-service-fokker.jpg"
+description: "In 1926, #swisstopo pioneered #aerialPhotogrammetry in Switzerland, taking to the skies when aviation was still in its infancy to map the country more precisely and efficiently than ground surveys could. A century later, the #FlightService remains the foundation for swisstopo's geodata and maps and thus an important basis for planning, research, defence, and everyday life."
+---
+100 years ago, in 1926, the Federal Office of Topography swisstopo established 
+its Flight Service. The imagery and data collected by the Flight Service are the 
+foundations for maps and geoinformation of the Swiss federal authorities. From 
+the press release ([DE][de], [FR][fr]) of the Federal Council:
+
+> With a great deal of innovative spirit, staff at the Swiss Federal Office of 
+Topography swisstopo embraced a new technology 100 years ago. Instead of 
+surveying Switzerland bit by bit from the ground, they took to the skies in 
+aeroplanes and captured aerial photographs of the landscape. Aviation was still 
+in its infancy and there was hardly any experience to draw on. Nevertheless, 
+these pioneers had the courage to establish aerial photogrammetry. This 
+technique represented a major leap forward in modernisation and made the mapping 
+and surveying of the country more precise, efficient and cost-effective.
+
+Also today, photogrammetric surveys are still an important part of swisstopo's 
+work:
+
+> Today, the aerial photographs taken by swisstopo’s aerial survey service mark 
+the start of a long production chain for geodata. Without these images, there 
+would be no reliable, regularly updated maps, no precise landscape or elevation 
+models, and thus no sound basis for the planning, development and protection of 
+our country. For in our interconnected society, geoinformation has become 
+indispensable. It is used in public administration, research, the business 
+world, defence, and also in leisure activities, and forms the basis for 
+decisions taken in politics, the economy, and also in people’s everyday lives.
+
+Seconded.
+
+There is much more to discover about the history of swisstopo's Flight Service 
+and the work they do today:
+
+- [100 years of Flight Service landing page](https://www.swisstopo.admin.ch/en/100-years-of-flight-service)
+- [Website of the Flight Service](https://www.swisstopo.admin.ch/en/flight-service-swisstopo) with more information about the work of the Flight 
+Service today
+- Interactive chronology of the Flight Service, unfortunately only [in German](https://www.swisstopohistoric.ch/de/home-1.html), [in French](https://www.swisstopohistoric.ch/fr/home-1.html), and [in Italian](https://www.swisstopohistoric.ch/it/home-1.html)
+
+And swisstopo has also produced a great video about the history of the Flight 
+Service, which is available in German, French, and Italian (subtitle translation 
+to English is available). Enjoy!
+
+{{< video https://www.youtube.com/watch?v=vIDnVZY-6_o >}}
+
+{{< video https://www.youtube.com/watch?v=-kqQVrw_5FY >}}
+
+{{< video https://www.youtube.com/watch?v=m4LvZTDsoog >}}
+
+[de]: https://www.admin.ch/de/newnsb/qyFVbXtHUTZs2lf-dw3b5
+[fr]: https://www.admin.ch/fr/newnsb/qyFVbXtHUTZs2lf-dw3b5
+
