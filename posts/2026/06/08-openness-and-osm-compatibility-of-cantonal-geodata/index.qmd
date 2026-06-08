@@ -1,0 +1,46 @@
+---
+title: "Openness and OSM compatibility of cantonal geodata"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-06-08 18:50"
+image: "tim-mossholder-XU84U7xhQ_4-unsplash.jpg"
+description: 'Simon Poole has compiled an overview of Swiss cantonal #opendata by #licence type: which "access authorisation level A" datasets are truly #open and which are compatible with #OpenStreetMap. Separately, a weekly-updated monitor tracks the openness and availability of all cantonal geodata on geodienste.ch.'
+---
+
+Simon Poole has [compiled a brief overview][post] of which cantonal geodata of 
+"access authorisation level"[^term] "A" can be considered open and/or OSM compatible. 
+Simon's [disclaimer][post]: 
+
+> In the following I’m using "open" in a hand wavy, “close enough” fashion (...), 
+and not applying the strict definition as per the open defin[i]tion.
+
+Simon's overview does not include cadastral surveying[^terms] data, as 
+these are often subject to special rules and restrictions. By the way, some special terminology 
+in Simon's [post][post] that may not be obvious to everybody:
+
+- IANAL: I am not a lawyer
+- ToU / tou: Terms of Use
+
+Out of 26 cantons, Simon classifies the "A" level data of 12 as OSM[^osm] compatible, 9 as
+not OSM compatible, and 5 as unclear:
+
+- OSM compatible: AI, BS, FR, GL, NE, NW, SH, SO, SG, TG, UR, ZH
+- Not OSM compatible: AG, BL, BE, JU, LU, OW, TI, VD, VS
+- Unclear: AR, GE, GR, SZ, ZG
+
+Different, but somewhat related: [This page][monitor][^transp] analyses the openness and general availability of all cantonal geodata available through [geodienste.ch](https://geodienste.ch), the portal by [KGK-CGC](https://www.kgk-cgc.ch/)[^kgk-cgc] that provides access to both geospatial data and services. The monitor is updated weekly on Monday.
+
+[post]: https://www.openstreetmap.org/user/SimonPoole/diary/408664
+
+[^term]: In German: [Zugangsberechtigungsstufe](https://www.fedlex.admin.ch/eli/cc/2008/389/de#art_21), in French: [Niveau d’autorisation d’accès](https://www.fedlex.admin.ch/eli/cc/2008/389/fr#art_21).
+ 
+[^terms]: In German: Amtliche Vermessung (AV), in French: Mensuration Officielle (MO).
+
+[monitor]: https://ralphstraumann.ch/monitoring-geodienste-ch/
+
+[^osm]: [OpenStreetMap](https://www.openstreetmap.org/), a collaborative, open-licensed map of the world.
+
+[^transp]: Transparency note: I have built and maintain the [geodienste.ch monitor][monitor].
+
+[^kgk-cgc]: The Conference of the Cantonal Geoinformation and Cadastral Offices in Switzerland.
