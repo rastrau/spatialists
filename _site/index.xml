@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Sun, 07 Jun 2026 14:59:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 08 Jun 2026 18:50:00 GMT</lastBuildDate>
+<item>
+  <title>Openness and OSM compatibility of cantonal geodata</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/06/08-openness-and-osm-compatibility-of-cantonal-geodata/</link>
+  <description><![CDATA[ Simon Poole has compiled an overview of Swiss cantonal #opendata by #licence type: which “access authorisation level A” datasets are truly #open and which are compatible with #OpenStreetMap. Separately, a weekly-updated monitor tracks the openness and availability of all cantonal geodata on geodienste.ch. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/06/08-openness-and-osm-compatibility-of-cantonal-geodata/</guid>
+  <pubDate>Mon, 08 Jun 2026 18:50:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/06/08-openness-and-osm-compatibility-of-cantonal-geodata/tim-mossholder-XU84U7xhQ_4-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>100 years of swisstopo Flight Service</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/05/01-shapefile-in-google-earth/</guid>
   <pubDate>Fri, 01 May 2026 21:35:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/05/01-shapefile-in-google-earth/shapefile-google-earth.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Mapping and analysing public health</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/04/28-mapping-and-analysing-public-health/</link>
-  <description><![CDATA[ #PublicHealth is a compelling but under-explored domain for #geospatial analysis. The ASIT is hosting a June meetup in Lausanne covering #geomedicine, environmental health influences, physical-activity-friendly #spatialPlanning, and #geostatistics for health risk identification. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/04/28-mapping-and-analysing-public-health/</guid>
-  <pubDate>Tue, 28 Apr 2026 06:04:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/04/28-mapping-and-analysing-public-health/national-cancer-institute-NFvdKIhxYlU-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
