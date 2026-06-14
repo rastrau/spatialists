@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Sun, 14 Jun 2026 16:50:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 14 Jun 2026 21:26:00 GMT</lastBuildDate>
+<item>
+  <title>AI as a design medium</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/06/14-ai-as-a-design-medium/</link>
+  <description><![CDATA[ Eric Rodenbeck argues in the Harvard Design Magazine that we should treat #AI as a medium to probe rather than a shortcut to faster outputs and draws a parallel to how Google Maps unexpectedly ushered in a golden age of #webmapping in 2005. A thought-provoking read for anyone thinking about the role of AI in #cartographicDesign and beyond. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/06/14-ai-as-a-design-medium/</guid>
+  <pubDate>Sun, 14 Jun 2026 21:26:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/06/14-ai-as-a-design-medium/national-gallery-of-art-6BDaPGu-Fp4-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>ZuReach: Accessibility mapping through crowdsourcing</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/05/05-fuzzifying-postgis/</guid>
   <pubDate>Tue, 05 May 2026 19:24:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/05/05-fuzzifying-postgis/fuzzy-valleyness.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Do LLMs understand coordinates?</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/05/03-do-llms-understand-coordinates/</link>
-  <description><![CDATA[ ’A new #benchmark called #GPSBench evaluates 14 #LLM-s across 17 coordinate manipulation and reasoning tasks and finds that models handle real-world geographic reasoning better than raw geometric computations, with country-level knowledge stronger than city-level localisation. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/05/03-do-llms-understand-coordinates/</guid>
-  <pubDate>Sun, 03 May 2026 18:53:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/05/03-do-llms-understand-coordinates/boliviainteligente-JwPOwYXY_Ss-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
