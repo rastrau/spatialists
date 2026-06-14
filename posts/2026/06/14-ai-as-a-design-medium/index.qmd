@@ -1,0 +1,57 @@
+---
+title: "AI as a design medium"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-06-14 21:26"
+image: "national-gallery-of-art-6BDaPGu-Fp4-unsplash.jpg"
+description: "Eric Rodenbeck argues in the Harvard Design Magazine that we should treat #AI as a medium to probe rather than a shortcut to faster outputs and draws a parallel to how Google Maps unexpectedly ushered in a golden age of #webmapping in 2005. A thought-provoking read for anyone thinking about the role of AI in #cartographicDesign and beyond."
+---
+
+This article in the [Harvard Design Magazine][hdm] is not narrowly about 
+geospatial topics, but more broadly about AI and its potential roles in design, 
+including cartographic design: In *"[AI as a design medium][article]"*, [Eric 
+Rodenbeck][eric], lecturer in architecture at the Harvard Graduate School of 
+Design (GSD) and founder of Stamen Design[^stamen] proposes positioning AI as a 
+medium for design inquiry rather than a mere tool for producing answers most 
+efficiently:
+
+> AI as a material to be tested, misused, and interrogated. Here, prompts become 
+sketches, outputs become sites of critique, and design becomes a practice of 
+engaging with complexity rather than resolving it.
+
+In the [article][article], Eric mentions some interesting examples of using AI 
+in this way in the broad domain of design, in a course he teaches at the Harvard 
+GSD. The piece concludes with a call back to his experience at Stamen Design in 
+2005 when Google entered the mapping space: 
+
+> When Google Maps launched in 2005, I had just been in business at Stamen 
+designing maps for a few years. My first, terrified thought was: “That’s it. 
+We’re done; no humans will be involved in the design of maps moving forward.” 
+The opposite turned out to be true; a golden age of web mapping was, from my 
+point of view, partially enabled by Google, making maps so easy to deploy that 
+everyone wanted their own. I think we are seeing something similar with the rise 
+of AI in the design space.
+>
+> What I worry about most right now is not that AI will replace designers. It 
+is that we will approach AI with too little ambition. If we treat it only as a 
+faster way to do what we already know how to do, we get more of the same—faster 
+maps, faster interfaces, faster summaries.
+
+I won't quote the conclusion of the [article][article] here, but I recommend 
+reading it in full, especially if you are more broadly interested in AI.
+
+
+
+
+
+
+[hdm]: https://www.harvarddesignmagazine.org/articles/ai-as-a-design-medium-rodenbeck/
+[eric]: https://stamen.com/people/eric-rodenbeck/
+[article]: https://www.harvarddesignmagazine.org/articles/ai-as-a-design-medium-rodenbeck/
+[^stamen]: Stamen Design is a San Francisco-based design and technology studio 
+that specializes in data visualization, cartography, and interactive 
+experiences. You likely have seen some of their [map-centric 
+work](https://stamen.com/work/) and may know some of their web map styles, for 
+example "[Toner](https://maps.stamen.com/toner/#12/37.7706/-122.3782)" and 
+"[Watercolor](https://maps.stamen.com/watercolor/#12/37.7706/-122.3782).
