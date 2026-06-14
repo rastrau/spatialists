@@ -166,7 +166,7 @@
 [^ssv]: Schweizerischer Städteverband.
 [^stac]: STAC stands for "SpatioTemporal Asset Catalog", a modern, open specification for cataloging spatiotemporal data.
 [^stackoverflow]: Still around, [despite AI](https://daily.dev/blog/did-stack-overflow-just-admit-defeat-to-ai).
-[^stamen]: Stamen is a data visualization and cartographic design studio in San Francisco. You may know some of their web map styles, for example "[Toner](https://maps.stamen.com/toner/#12/37.7706/-122.3782)" and "[Watercolor](https://maps.stamen.com/watercolor/#12/37.7706/-122.3782)".
+[^stamen]: Stamen Design is a San Francisco-based design and technology studio that specializes in data visualization, cartography, and interactive experiences. You likely have seen some of their [map-centric work](https://stamen.com/work/) and may know some of their web map styles, for example "[Toner](https://maps.stamen.com/toner/#12/37.7706/-122.3782)" and "[Watercolor](https://maps.stamen.com/watercolor/#12/37.7706/-122.3782).
 [^strava]: STRAVA is one of the world's foremost exercise tracking apps with dozens of millions of users and billions of recorded activies. By the way, the name comes from the Swedish "sträva", which means "strive".
 [^sts]: Space Transportation System.
 [^supermesh]: Especially densely sampled 3D data
