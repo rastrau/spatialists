@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Fri, 12 Jun 2026 19:48:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 14 Jun 2026 16:50:00 GMT</lastBuildDate>
+<item>
+  <title>ZuReach: Accessibility mapping through crowdsourcing</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/06/14-zureach-accessibility-mapping-through-crowdsourcing/</link>
+  <description><![CDATA[ #ZuReach is a participatory research project that uses #crowdsourcing to build comprehensive #sidewalk #accessibility data for Zurich and Winterthur. The project’s new web app – powered by #ProjectSidewalk and high-resolution street-view imagery by iNovitas – lets citizens virtually explore the city and flag accessibility issues, and is currently seeking volunteers. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/06/14-zureach-accessibility-mapping-through-crowdsourcing/</guid>
+  <pubDate>Sun, 14 Jun 2026 16:50:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/06/14-zureach-accessibility-mapping-through-crowdsourcing/zureach-2-cropped.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>The coastline paradox</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/05/03-do-llms-understand-coordinates/</guid>
   <pubDate>Sun, 03 May 2026 18:53:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/05/03-do-llms-understand-coordinates/boliviainteligente-JwPOwYXY_Ss-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Panoramax</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/05/02-panoramax/</link>
-  <description><![CDATA[ #Panoramax is an open and #federated alternative to #StreetView, born from collaboration between France’s national mapping agency #IGN and the French #OpenStreetMap community. With over 100 million geolocated images and a foundation in the making, the project aims to grow beyond its French origins. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/05/02-panoramax/</guid>
-  <pubDate>Sat, 02 May 2026 12:10:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/05/02-panoramax/panoramax-titlecard.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
