@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Spatialists – geospatial news</title>
+<link>https://spatialists.ch/</link>
+<atom:link href="https://spatialists.ch/index.xml" rel="self" type="application/rss+xml"/>
+<description>A blog for geospatial professionals</description>
+<language>en</language>
+<image>
+<url>https://spatialists.ch/assets/titlecard.jpg</url>
+<title>Spatialists – geospatial news</title>
+<link>https://spatialists.ch/</link>
+</image>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Sun, 14 Jun 2026 21:26:00 GMT</lastBuildDate>
+<item>
+  <title>AI as a design medium</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/06/14-ai-as-a-design-medium/</link>
+  <description><![CDATA[ Eric Rodenbeck argues in the Harvard Design Magazine that we should treat #AI as a medium to probe rather than a shortcut to faster outputs and draws a parallel to how Google Maps unexpectedly ushered in a golden age of #webmapping in 2005. A thought-provoking read for anyone thinking about the role of AI in #cartographicDesign and beyond. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/06/14-ai-as-a-design-medium/</guid>
+  <pubDate>Sun, 14 Jun 2026 21:26:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/06/14-ai-as-a-design-medium/national-gallery-of-art-6BDaPGu-Fp4-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>ZuReach: Accessibility mapping through crowdsourcing</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/06/14-zureach-accessibility-mapping-through-crowdsourcing/</link>
+  <description><![CDATA[ #ZuReach is a participatory research project that uses #crowdsourcing to build comprehensive #sidewalk #accessibility data for Zurich and Winterthur. The project’s new web app – powered by #ProjectSidewalk and high-resolution street-view imagery by iNovitas – lets citizens virtually explore the city and flag accessibility issues, and is currently seeking volunteers. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/06/14-zureach-accessibility-mapping-through-crowdsourcing/</guid>
+  <pubDate>Sun, 14 Jun 2026 16:50:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/06/14-zureach-accessibility-mapping-through-crowdsourcing/zureach-2-cropped.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The coastline paradox</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/06/12-the-coastline-paradox/</link>
+  <description><![CDATA[ The #coastline #paradox demonstrates that coastline length is not a fixed value but scale-dependent, a phenomenon rooted in fractal geometry. A new BBC article takes an interesting deep dive and, among other things, explores who first documented this paradox, and why – and why it matters. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/06/12-the-coastline-paradox/</guid>
+  <pubDate>Fri, 12 Jun 2026 19:48:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/06/12-the-coastline-paradox/ian-schneider-XJfHMPJ0e-g-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Openness and OSM compatibility of cantonal geodata</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/06/08-openness-and-osm-compatibility-of-cantonal-geodata/</link>
+  <description><![CDATA[ Simon Poole has compiled an overview of Swiss cantonal #opendata by #licence type: which “access authorisation level A” datasets are truly #open and which are compatible with #OpenStreetMap. Separately, a weekly-updated monitor tracks the openness and availability of all cantonal geodata on geodienste.ch. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/06/08-openness-and-osm-compatibility-of-cantonal-geodata/</guid>
+  <pubDate>Mon, 08 Jun 2026 18:50:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/06/08-openness-and-osm-compatibility-of-cantonal-geodata/tim-mossholder-XU84U7xhQ_4-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>100 years of swisstopo Flight Service</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/06/07-100-years-of-swisstopo-flight-service/</link>
+  <description><![CDATA[ In 1926, #swisstopo pioneered #aerialPhotogrammetry in Switzerland, taking to the skies when aviation was still in its infancy to map the country more precisely and efficiently than ground surveys could. A century later, the #FlightService remains the foundation for swisstopo’s geodata and maps and thus an important basis for planning, research, defence, and everyday life. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/06/07-100-years-of-swisstopo-flight-service/</guid>
+  <pubDate>Sun, 07 Jun 2026 14:59:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/06/07-100-years-of-swisstopo-flight-service/swisstopo-flight-service-fokker.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Switzerland decides against participating in Copernicus</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/06/06-switzerland-decides-against-participating-in-copernicus/</link>
+  <description><![CDATA[ The Federal Council has decided that Switzerland will sit out the #Copernicus programme for another cycle, from 2028 to 2034, forgoing access to operational #EarthObservation services and public contracts while retaining access to raw data under the programme’s open data policy. A government-commissioned economic study had found accession advisable, warning that non-participation risks Swiss players losing their footing in European earth observation. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/06/06-switzerland-decides-against-participating-in-copernicus/</guid>
+  <pubDate>Sat, 06 Jun 2026 12:03:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/06/06-switzerland-decides-against-participating-in-copernicus/javier-miranda-AlJ9TQqeCV0-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>But is it useful?</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/31-but-is-it-useful/</link>
+  <description><![CDATA[ The Cloud-Native Geospatial Forum proposes #usefulness as a better measure than openness for #dataQuality, with a 5-dimension, 4-star framework that goes beyond familiar schemes like #FAIR and 5-star Open Data. It’s an interesting read and a good occasion to re-evaluate common notions of data quality and #openness. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/31-but-is-it-useful/</guid>
+  <pubDate>Sun, 31 May 2026 14:15:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/31-but-is-it-useful/claudio-schwarz-fyeOxvYvIyY-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The legacy of Dijkstra</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/31-the-legacy-of-dijkstra/</link>
+  <description><![CDATA[ Edsger Dijkstra’s landmark shortest-path algorithm has shaped how we navigate the world, from early GIS to today’s wayfinding apps. A new Veritasium video traces that legacy and reveals how techniques like Nested Dissection and Contraction Hierarchies deliver routing results in microseconds. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/31-the-legacy-of-dijkstra/</guid>
+  <pubDate>Sun, 31 May 2026 11:56:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/31-the-legacy-of-dijkstra/dimitri-karastelev-4IqOnX2sdyM-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>AI vs. FME / geospatial tools?</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/28-ai-vs-fme-geospatial-tools/</link>
+  <description><![CDATA[ Safe Software and the #FME community discusses whether #AI #agents are replacing tools like #FME for geospatial #ETL work. The community thread and blog post are worth reading for what they imply about the future of #low-code geospatial tools more broadly. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/28-ai-vs-fme-geospatial-tools/</guid>
+  <pubDate>Thu, 28 May 2026 19:37:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/28-ai-vs-fme-geospatial-tools/nam-anh-QJbyG6O0ick-unsplash 1.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Guidance on GIS accessibility</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/27-guidance-on-gis-accessibility/</link>
+  <description><![CDATA[ Massachusetts’ GIS Accessibility Guide is a practical, comprehensive resource covering #accessibility in #webmaps, #storymaps, and static maps. Besides a substantial collection of structured recommendations and links to resources, the guide also publishes a running list of bug reports and enhancement requests, along with their status. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/27-guidance-on-gis-accessibility/</guid>
+  <pubDate>Wed, 27 May 2026 18:42:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/27-guidance-on-gis-accessibility/aaron-doucett-Af1ObLzovTA-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>GRASS on Windows via conda</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/24-grass-on-windows-via-conda/</link>
+  <description><![CDATA[ #GRASS, the veteran open-source geospatial computing platform, can now be installed on Windows (and all other major platforms) via #conda with no manual setup. This streamlines access to the latest GRASS functionality. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/24-grass-on-windows-via-conda/</guid>
+  <pubDate>Sun, 24 May 2026 08:39:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/24-grass-on-windows-via-conda/grass.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
+<item>
+  <title>GeoJSON innovation: OGC Features and Geometries JSON</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/23-geojson-innovation-ogc-features-and-geometries-json/</link>
+  <description><![CDATA[ The #OGC has released “JSON-FG”, a #GeoJSON superset that adds support for coordinate reference systems beyond WGS 1984, temporal feature properties, 3D geometry types, and more. Legacy tools remain fully compatible, while modern clients gain a more expressive data format. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/23-geojson-innovation-ogc-features-and-geometries-json/</guid>
+  <pubDate>Sat, 23 May 2026 11:19:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/23-geojson-innovation-ogc-features-and-geometries-json/jonakoh-r5lbaK3fDaM-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>OGC GeoParquet best practices</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/22-ogc-geoparquet-best-practices/</link>
+  <description><![CDATA[ The OGC offers a best practices guide for distributing #GeoParquet files, covering compression, spatial indexing and ordering, row group sizes, partitioning, and metadata. The guide also lists concrete commands for common tools so you can produce optimally distributed files right away. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/22-ogc-geoparquet-best-practices/</guid>
+  <pubDate>Fri, 22 May 2026 12:46:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/22-ogc-geoparquet-best-practices/data.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Open Semantic Interchange</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/21-open-semantic-interchange/</link>
+  <description><![CDATA[ #OpenSemanticInterchange (#OSI) is a new vendor-neutral initiative aiming to standardise how semantic #metadata is shared across #analytics, #AI, and #BI platforms using #YAML — with #CARTO among its working group members. If adopted, it could meaningfully change how semantic layers work across the #data stack. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/21-open-semantic-interchange/</guid>
+  <pubDate>Thu, 21 May 2026 16:22:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/21-open-semantic-interchange/osi.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Navigation assumptions challenged</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/20-navigation-assumptions-challenged/</link>
+  <description><![CDATA[ A new study challenges the assumption that pedestrians wish for turn-by-turn navigation, showing many prefer a simple route preview, without losing performance or spatial awareness. Paired with contrasting ideas from 3D navigation design, it’s a reminder that the “right” level of guidance depends less on technology and more on context and user needs. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/20-navigation-assumptions-challenged/</guid>
+  <pubDate>Wed, 20 May 2026 17:53:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/20-navigation-assumptions-challenged/henry-perks-BJXAxQ1L7dI-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Geoinformation chatbot for the canton of Berne</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/08-geoinformation-chatbot-for-the-canton-of-berne/</link>
+  <description><![CDATA[ The canton of Berne has launched a #chatbot on their geoinformation portal that lets users ask questions about available cantonal #geodata and its #metadata in natural language — in German, French, English, and more. It is not (yet?) a ‘talk to the map’ solution, but a discovery tool for navigating the website and finding data. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/08-geoinformation-chatbot-for-the-canton-of-berne/</guid>
+  <pubDate>Fri, 08 May 2026 18:55:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/08-geoinformation-chatbot-for-the-canton-of-berne/agi-be-chatbot.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>New home for INTERLIS content</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/08-new-home-for-interlis-content/</link>
+  <description><![CDATA[ Stefan Ziegler’s blog has found a new home: After 12 years of blogging, this #INTERLIS community resource is now at blog.interlis.guru. Update your #RSS feed reader if you follow this essential resource for the Swiss geodata community (which doesn’t just cover INTERLIS). ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/08-new-home-for-interlis-content/</guid>
+  <pubDate>Fri, 08 May 2026 17:47:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/08-new-home-for-interlis-content/blog-interlis-guru.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Joining 130 million points</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/07-joining-130-million-points/</link>
+  <description><![CDATA[ Dewey Dunnington revisits his 2024 benchmark of #spatialjoin operations on 130 million points, now testing #SedonaDB and #DuckDB #Spatial in comparison to the original tools. The results are remarkable: 6 seconds on a laptop replacing 3-5 minutes and 50 GB of RAM, a 30x-50x speedup achieved in just over a year. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/07-joining-130-million-points/</guid>
+  <pubDate>Thu, 07 May 2026 21:01:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/07-joining-130-million-points/zones.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
+<item>
+  <title>etter: Natural language location</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/06-etter-natural-language-location/</link>
+  <description><![CDATA[ etter is a new open‑source #Python package that turns natural language location queries into GeoJSON geometries, focusing purely on the spatial component of the query. It supports multilingual input, a range of spatial relations, and integrates with common geodata sources and #LLMs. #NLP ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/06-etter-natural-language-location/</guid>
+  <pubDate>Wed, 06 May 2026 21:03:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/06-etter-natural-language-location/shores-of-lake-morat-cropped.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Fuzzifying PostGIS</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/05/05-fuzzifying-postgis/</link>
+  <description><![CDATA[ Jesper Fjellin proposes extending #PostGIS with #fuzzy geometries as first-class data types, enabling locations to belong to a region to a degree rather than simply being part of it or not. This would offer opportunities for better dealing with #vagueness in spatial data modeling and analysis. Could fuzzy set theory find its footing in GIS tools and, specifically, the vector world? ]]></description>
+  <guid>https://spatialists.ch/posts/2026/05/05-fuzzifying-postgis/</guid>
+  <pubDate>Tue, 05 May 2026 19:24:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/05/05-fuzzifying-postgis/fuzzy-valleyness.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
