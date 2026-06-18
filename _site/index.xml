@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Sun, 14 Jun 2026 21:26:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 18 Jun 2026 11:41:00 GMT</lastBuildDate>
+<item>
+  <title>Open Visualization Collaborator Summit 2026</title>
+  <dc:creator>Ilya Boyandin</dc:creator>
+  <link>https://spatialists.ch/posts/2026/06/18-open-visualization-collaborator-summit-2026/</link>
+  <description><![CDATA[ On September 9–10, 2026, come together with the vis.gl/deck.gl/openvisualization community to discuss the present and future of the leading open source library for geospatial #visualization on the web. #visgl #deckgl #geoda #openvisualization #cosmos #sqlrooms ]]></description>
+  <guid>https://spatialists.ch/posts/2026/06/18-open-visualization-collaborator-summit-2026/</guid>
+  <pubDate>Thu, 18 Jun 2026 11:41:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/06/18-open-visualization-collaborator-summit-2026/open-visualization-collaborator-summit-2026.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>AI as a design medium</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/05/06-etter-natural-language-location/</guid>
   <pubDate>Wed, 06 May 2026 21:03:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/05/06-etter-natural-language-location/shores-of-lake-morat-cropped.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Fuzzifying PostGIS</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/05/05-fuzzifying-postgis/</link>
-  <description><![CDATA[ Jesper Fjellin proposes extending #PostGIS with #fuzzy geometries as first-class data types, enabling locations to belong to a region to a degree rather than simply being part of it or not. This would offer opportunities for better dealing with #vagueness in spatial data modeling and analysis. Could fuzzy set theory find its footing in GIS tools and, specifically, the vector world? ]]></description>
-  <guid>https://spatialists.ch/posts/2026/05/05-fuzzifying-postgis/</guid>
-  <pubDate>Tue, 05 May 2026 19:24:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/05/05-fuzzifying-postgis/fuzzy-valleyness.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
