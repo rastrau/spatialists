@@ -1,0 +1,43 @@
+---
+title: "Open Visualization Collaborator Summit 2026"
+author:
+  - name: Ilya Boyandin
+    url: https://ilya.boyandin.me/
+date: "2026-06-18 11:41"
+image: "open-visualization-collaborator-summit-2026.jpg"
+description: "On September 9–10, 2026, come together with the [vis.gl](https://vis.gl/)/[deck.gl](https://deck.gl/)/[openvisualization](https://www.openvisualization.org/) community to discuss the present and future of the leading open source library for geospatial #visualization on the web. #visgl #deckgl #geoda #openvisualization #cosmos #sqlrooms"
+---
+
+On September 9-10, 2026, come together with the 
+[vis.gl](https://vis.gl/)/[deck.gl](https://deck.gl/)/[openvisualization](https://www.openvisualization.org/) 
+community to discuss the present and future of the leading open source library for visualisation on 
+the web.[^transp]
+
+**What?**
+
+At the Open Visualization Collaborator Summit, we'll bring together an international audience of 
+developers to discuss how they are using open-source tools to build applications for geospatial 
+analysis, biological research, AI training, and beyond. Our goal is to foster collaboration, 
+encourage contributions, and shape the future of open-source visualisation across disciplines.
+
+**Where?**
+
+We'll be hosting the 2026 Open Visualization Collaborator Summit at 
+[ETH's Hönggerberg](https://ethz.ch/en/campus/access/hoenggerberg.html) HCI building in Zurich, 
+Switzerland.
+
+**Who?**
+
+We are contributors who maintain open-source libraries at the heart of the Open Visualization 
+community – including [deck.gl](https://deck.gl/), [kepler.gl](https://kepler.gl/), 
+[GeoDa](https://geodacenter.github.io/), [cosmos.gl](https://cosmos.gl/), and 
+[SQLRooms](https://sqlrooms.org/); developers who build applications with them; and folks who are 
+passionate about data visualisation in general. Come along to dive into topics like browser-based 
+rendering, GPU-accelerated data processing, and scientific visualisation. Share your work, meet 
+others facing similar challenges, and help define the future of the open visualisation ecosystem.
+
+More info and registration [here](https://deck.gl/events/zurich-summit-2026).
+
+Or submit a session proposal [here](https://github.com/openjs-foundation/summit/issues/new?assignees=chrisgervang&labels=Z%C3%BCrich+2026%2C+Collaborator+Summit%2C+Session+Proposal&projects=&template=openviz-summit-topic-proposal.md&title=Open+Visualization+Session+Proposal%3A+%3CProject+Name%3E+%3CSession+Title%3E).
+
+[^transp]: Transparency note: While I, Ilya, am not the main organiser of this event, I'm helping with the organisation.
