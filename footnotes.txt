@@ -136,6 +136,7 @@
 [^parquet]: An open-source, columnar storage file format designed for efficient data processing.
 [^parsons]: If the name rings a bell, it might because of Ed's time at Google as their Geospatial Technologist. He has left that position and is now an [advisor and speaker](http://www.edparsons.com/) among other things.
 [^pbf]: [Protocolbuffer Binary Format](https://wiki.openstreetmap.org/wiki/PBF_Format).
+[^pet]: [Physiological Equivalent Temperature](https://en.wikipedia.org/wiki/Physiological_equivalent_temperature) (PET) is a thermal comfort index that expresses the physiological effect of outdoor thermal conditions in terms of the equivalent temperature in a standardized indoor setting.
 [^pois]: Points-of-interest.
 [^pre-print]: That is, a scientific publication that has not yet been peer-reviewed.
 [^professionals]: I.e., you.
