@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Thu, 18 Jun 2026 11:41:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 20 Jun 2026 16:07:00 GMT</lastBuildDate>
+<item>
+  <title>Multi-user walkability route planning</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/06/20-multi-user-walkability-route-planning/</link>
+  <description><![CDATA[ Transform Transport presents a methodology for #pedestrian #routing tailored to distinct user groups, derived from clustering survey respondents by their preferences among 33 #walkability indicators. The result is an #OSM- and indicator-based routing approach that generates optimal walking routes personalised to health-conscious, safety-conscious, and other user groups. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/06/20-multi-user-walkability-route-planning/</guid>
+  <pubDate>Sat, 20 Jun 2026 16:07:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/06/20-multi-user-walkability-route-planning/mats-hagwall-s1LK1ySk89U-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Open Visualization Collaborator Summit 2026</title>
   <dc:creator>Ilya Boyandin</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/05/07-joining-130-million-points/</guid>
   <pubDate>Thu, 07 May 2026 21:01:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/05/07-joining-130-million-points/zones.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>etter: Natural language location</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/05/06-etter-natural-language-location/</link>
-  <description><![CDATA[ etter is a new open‑source #Python package that turns natural language location queries into GeoJSON geometries, focusing purely on the spatial component of the query. It supports multilingual input, a range of spatial relations, and integrates with common geodata sources and #LLMs. #NLP ]]></description>
-  <guid>https://spatialists.ch/posts/2026/05/06-etter-natural-language-location/</guid>
-  <pubDate>Wed, 06 May 2026 21:03:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/05/06-etter-natural-language-location/shores-of-lake-morat-cropped.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
