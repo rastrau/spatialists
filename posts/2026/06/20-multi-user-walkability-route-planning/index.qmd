@@ -1,0 +1,71 @@
+---
+title: "Multi-user walkability route planning"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-06-20 16:07"
+image: "mats-hagwall-s1LK1ySk89U-unsplash.jpg"
+description: "Transform Transport presents a methodology for #pedestrian #routing tailored to distinct user groups, derived from clustering survey respondents by their preferences among 33 #walkability indicators. The result is an #OSM- and indicator-based routing approach that generates optimal walking routes personalised to health-conscious, safety-conscious, and other user groups."
+---
+
+This is neat (and in a similar vein to the [ZuReach project][zureach] higlighted 
+last week): Transform Transport[^transform-transport] 
+[presents][article][^1year] [an interesting approach][article] to create 
+pedestrian routing solution tailored to the needs of various user groups. To 
+that end, the team first took walkability indicators conceived by the 
+[Walk21 Foundation][walk21] for their [Walkability App][app]. These indicators
+encompass, among others, footpath width, surface, and slope, street furniture, 
+greenery, noise, and air quality. The [article][article] has the full list of 
+33 indicators.
+
+Next, respondents to a survey where asked to weigh the importance of the various indicators for pedestrian mobility, from their subjective perspective. The users 
+where then clustered into four user groups based on their preferences. 
+
+![The user groups found in the case study (source: [Transform Transport](https://transformtransport.org/research/inclusive-mobility/ux-mobility-multi-user-walkability-route-planner/))](user-groups.jpg "The user groups found in the case study (source: Transform Transport)")
+
+A network with incorporation of 12 indicators as network weights was computed
+from OSM[^osm] data and other geodata sources using GIS. The 
+indicators were standardised and scaled in the process. The indicators[^disclaimer] 
+were: 
+
+- Sidewalk width
+- Surface / pavement
+- Slope
+- Edge length
+- Presence of lighting
+- Presence of parks
+- Presence of trees
+- Air quality
+- Physiological Equivalent Temperature[^pet]
+- Presence of POIs[^pois]
+- Traffic volume
+- Traffic speed
+
+![One of the walkability indicators: Sidewalk width (source: [Transform Transport](https://transformtransport.org/research/inclusive-mobility/ux-mobility-multi-user-walkability-route-planner/))](sidewalk-width.png "One of the walkability indicators: Sidewalk width (source: Transform Transport)")
+
+Finally, the research team implemented a Python-based routing app to create 
+user-group specific optimal routing paths in a Milan. Unfortunately, I couldn't 
+find this application[^pointers] among the set of (many interesting) 
+[Transform Transport apps][apps]. At least, the [article][article] features some 
+(clever) visualisations of the results that show the values for the various 
+indicators along the route (some also show direct comparisons of paths):
+
+![Route comparison: shortest path, health-conscious route, and refined balanced solutions with iterative application of time constraints (source: [Transform Transport](https://transformtransport.org/research/inclusive-mobility/ux-mobility-multi-user-walkability-route-planner/))](route-animation.gif "Route comparison: shortest path, health-conscious route, and refined balanced solutions with iterative application of time constraints (source: Transform Transport)")
+
+[zureach]: 14-zureach-accessibility-mapping-through-crowdsourcing
+[walk21]: https://walk21.com/
+[app]: https://walk21.com/resources/walkability-app/
+[article]: https://transformtransport.org/research/inclusive-mobility/ux-mobility-multi-user-walkability-route-planner/
+[apps]: https://transformtransport.org/media/app/
+
+[^transform-transport]: [Transform Transport](https://transformtransport.org/)
+is a non-profit research foundation focused on innovation in transport planning
+located in Milan, Italy.
+[^1year]: The article is roughly a year old.
+[^osm]: [OpenStreetMap](https://www.openstreetmap.org/), a collaborative, open-licensed map of the world.
+[^pois]: Points-of-interest.
+[^pet]: [Physiological Equivalent Temperature](https://en.wikipedia.org/wiki/Physiological_equivalent_temperature) (PET) is a thermal comfort index that expresses the physiological effect of outdoor thermal conditions in terms of the equivalent temperature in a standardized indoor setting.
+[^disclaimer]: Small disclaimer here: From the [article][article], the precise
+definition of some of the indicators, for example traffic speed, remains a bit
+vague.
+[^pointers]: Pointers welcome.
