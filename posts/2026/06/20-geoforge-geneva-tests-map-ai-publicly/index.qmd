@@ -1,5 +1,5 @@
 ---
-title: "GeoForge: Geneva tests map AI publically"
+title: "GeoForge: Geneva tests map AI publicly"
 author:
   - name: Ralph Straumann
     url: https://ralphstraumann.ch
@@ -11,7 +11,7 @@ description: "Geneva's SITG is testing #GeoForge, a #NaturalLanguage \"talk to t
 Under the title *"[GeoForge Geneva][geoforge]"*, the Geneva Département du
 Territoire launches a public experiment around a "talk to the map" AI[^ai] 
 solution. I know of several cantons who test similar solutions internally or
-semi-publically, but Geneva is the only example I'm aware of that runs a
+semi-publicly, but Geneva is the only example I'm aware of that runs a
 *public* test period. Also unlike the other cantonal tests I'm aware of, Geneva
 is testing the solution by Lausanne-based [Ageospatial][ageospatial].
 
