@@ -1,0 +1,34 @@
+---
+title: "How to fit a city into 32mb"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-06-21 20:21"
+image: "gta-iii-streaming.jpg"
+description: "How do you fit an entire city into 32 MB? Game Maker's Toolkit's deep dive into GTA III's engine reveals how Rockstar Games squeezed a 4 km wide open world into the PlayStation 2 RAM. And the techniques turn out to be familiar to anyone working with #3D geospatial applications: #streaming, #LOD models, and #memory optimisation."
+---
+
+Weekend diversion: This fun [video][video] (25 mins) by [Game Maker's 
+Toolkit][game-makers] explains how Rockstar Games, for their game [Grand Theft 
+Auto III][gta], managed to fit a 4 km wide city into the memory chip of the 
+PlayStation 2, sized a mere 32 megabytes:
+
+{{< video https://www.youtube.com/watch?v=cIbCxbrBCys >}}
+
+Make sure to watch this fascinating dive into video game lore. What made 
+Rockstar's task much harder than in earlier video game titles was the fact that 
+GTA III is a truly open-world game. 
+
+The video shows many of the constraints that also showed (and, sometimes, show) 
+up in 3D geospatial applications and explains the solutions the team at Rockstar 
+Games applied at the time, for example, streaming (loading and unloading) around 
+a movable viewport, low-quality (low-polygon and low-resolution texture) models 
+for distant objects, limiting the number of vehicle assets at runtime, avoiding 
+memory fragmentation, harmonising assets' memory footprint (allowing 
+hot-swapping of assets in memory), optimising assets' location on disk (!), and 
+more. Fascinating stuff.
+
+[game-makers]: https://www.youtube.com/@GMTK
+[video]: https://www.youtube.com/watch?v=cIbCxbrBCys
+[gta]: https://en.wikipedia.org/wiki/Grand_Theft_Auto_III
+
