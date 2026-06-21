@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Sat, 20 Jun 2026 21:15:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 21 Jun 2026 20:21:00 GMT</lastBuildDate>
+<item>
+  <title>How to fit a city into 32mb</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/06/21-how-to-fit-a-city-into-32mb/</link>
+  <description><![CDATA[ How do you fit an entire city into 32 MB? Game Maker’s Toolkit’s deep dive into GTA III’s engine reveals how Rockstar Games squeezed a 4 km wide open world into the PlayStation 2 RAM. And the techniques turn out to be familiar to anyone working with #3D geospatial applications: #streaming, #LOD models, and #memory optimisation. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/06/21-how-to-fit-a-city-into-32mb/</guid>
+  <pubDate>Sun, 21 Jun 2026 20:21:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/06/21-how-to-fit-a-city-into-32mb/gta-iii-streaming.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>GeoForge: Geneva tests map AI publicly</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/05/08-geoinformation-chatbot-for-the-canton-of-berne/</guid>
   <pubDate>Fri, 08 May 2026 18:55:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/05/08-geoinformation-chatbot-for-the-canton-of-berne/agi-be-chatbot.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>New home for INTERLIS content</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/05/08-new-home-for-interlis-content/</link>
-  <description><![CDATA[ Stefan Ziegler’s blog has found a new home: After 12 years of blogging, this #INTERLIS community resource is now at blog.interlis.guru. Update your #RSS feed reader if you follow this essential resource for the Swiss geodata community (which doesn’t just cover INTERLIS). ]]></description>
-  <guid>https://spatialists.ch/posts/2026/05/08-new-home-for-interlis-content/</guid>
-  <pubDate>Fri, 08 May 2026 17:47:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/05/08-new-home-for-interlis-content/blog-interlis-guru.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
