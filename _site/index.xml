@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Sun, 21 Jun 2026 20:21:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 30 Jun 2026 14:30:00 GMT</lastBuildDate>
+<item>
+  <title>Are web maps getting worse?</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/06/30-are-web-maps-getting-worse/</link>
+  <description><![CDATA[ Helmut Barz argues that #GoogleMaps is suffering from #enshittification, as a profit-driven pivot toward #AI-derived map data and a focus on lucrative urban markets leaves rural areas stranded in data deserts while the community that built the map is abandoned. He makes the case for reclaiming geographic data as a decentralised #publicgood. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/06/30-are-web-maps-getting-worse/</guid>
+  <pubDate>Tue, 30 Jun 2026 14:30:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/06/30-are-web-maps-getting-worse/tamas-tuzes-katai-LRJRcGlOsWc-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>How to fit a city into 32mb</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/05/20-navigation-assumptions-challenged/</guid>
   <pubDate>Wed, 20 May 2026 17:53:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/05/20-navigation-assumptions-challenged/henry-perks-BJXAxQ1L7dI-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Geoinformation chatbot for the canton of Berne</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/05/08-geoinformation-chatbot-for-the-canton-of-berne/</link>
-  <description><![CDATA[ The canton of Berne has launched a #chatbot on their geoinformation portal that lets users ask questions about available cantonal #geodata and its #metadata in natural language — in German, French, English, and more. It is not (yet?) a ‘talk to the map’ solution, but a discovery tool for navigating the website and finding data. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/05/08-geoinformation-chatbot-for-the-canton-of-berne/</guid>
-  <pubDate>Fri, 08 May 2026 18:55:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/05/08-geoinformation-chatbot-for-the-canton-of-berne/agi-be-chatbot.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
