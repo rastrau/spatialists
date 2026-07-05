@@ -1,0 +1,46 @@
+---
+title: "Marco Bernasocchi on open source"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-07-05 14:09"
+image: "claudio-schwarz-MNm04LZJ0w4-unsplash.jpg"
+description: "Marco Bernasocchi, CEO of OPENGIS.ch and initiator of #QField, joins #MapScaping to discuss the realities of building sustainable #opensource businesses around community-driven geospatial software. The conversation covers revenue models, the mindset shift from project-driven to #SaaS, and why positioning open-source as \"serious software\" matters for reaching financial decision-makers."
+---
+
+If you are interested in open-source software, check out the latest 
+[MapScaping][mapscaping] episode: 
+
+{{< video https://www.youtube.com/watch?v=yFuQj4iXmxE >}}
+
+Host Daniel O'Donohue[^transparency] sits down with Marco Bernasocchi, one of 
+the founders and the CEO of [OPENGIS.ch][opengis], initiator of [QField][qfield] 
+(or "QGIS on Android" as it was once called) and chair of the 
+[QGIS PSC][psc][^psc] and board. 
+
+The 54 minutes conversation covers the revenue model of QField and of 
+OPENGIS.ch, different avenues for funding open-source software development, 
+the mindset change required when switching from a project-driven business to a
+SaaS[^saas] business model, the need to ask people to pay for useful software (and the 
+difficulty of it), and much more. 
+
+I like how Marco stresses the distinction between "just-for-fun" projects and 
+projects that enable a community and thus ideally should be more sustainable 
+without putting maintainer burden on individuals. I also appreciated the nuanced 
+thinking around making a software (and a software-centric business) sustainable 
+by, for example, explicitly asking for funding by large actors and by 
+positioning open-source software as "serious software" (Marco's words, within 
+audible quotation marks) that can appeal also to (financial) decision-makers.
+
+[^transparency]: I appreciated the transparency note in the beginning of the 
+episode (where Daniel disclosed that he is employed by OPENGIS.ch) – which 
+unfortunately is not a given with all geospatial vlogs and podcasts.
+[^psc]: The QGIS Project Steering Committee (PSC) is a group of elected
+representatives of the QGIS community that advises the QGIS board, oversees
+legal and financial management, and provides strategic direction.
+[^saas]: Software as a Service.
+
+[mapscaping]: https://mapscaping.com/
+[opengis]: https://opengis.ch
+[qfield]: https://qfield.org
+[psc]: https://www.qgis.org/community/organisation/
