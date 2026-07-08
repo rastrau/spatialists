@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Sun, 05 Jul 2026 14:09:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 08 Jul 2026 20:29:00 GMT</lastBuildDate>
+<item>
+  <title>Tree canopy change detection in Vaud</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/07/08-tree-canopy-change-detection-in-vaud/</link>
+  <description><![CDATA[ Engineering firm n+p used #swisstopo’s #LiDAR data from 2019 and 2025 to detect #TreeCanopy change across the canton of Vaud, with results explorable in a web app that includes orthophoto comparison for spot-checking. Despite methodological challenges regarding the temporal baseline, the analysis shows informative results. #UrbanForestry #UrbanHeat ]]></description>
+  <guid>https://spatialists.ch/posts/2026/07/08-tree-canopy-change-detection-in-vaud/</guid>
+  <pubDate>Wed, 08 Jul 2026 20:29:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/07/08-tree-canopy-change-detection-in-vaud/canopy-map-cropped.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Marco Bernasocchi on open source</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/05/22-ogc-geoparquet-best-practices/</guid>
   <pubDate>Fri, 22 May 2026 12:46:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/05/22-ogc-geoparquet-best-practices/data.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Open Semantic Interchange</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/05/21-open-semantic-interchange/</link>
-  <description><![CDATA[ #OpenSemanticInterchange (#OSI) is a new vendor-neutral initiative aiming to standardise how semantic #metadata is shared across #analytics, #AI, and #BI platforms using #YAML — with #CARTO among its working group members. If adopted, it could meaningfully change how semantic layers work across the #data stack. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/05/21-open-semantic-interchange/</guid>
-  <pubDate>Thu, 21 May 2026 16:22:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/05/21-open-semantic-interchange/osi.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
