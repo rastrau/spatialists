@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Wed, 08 Jul 2026 20:29:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 09 Jul 2026 01:52:00 GMT</lastBuildDate>
+<item>
+  <title>Neighbourhood colours of Basel</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/07/09-neighbourhood-colours-of-basel/</link>
+  <description><![CDATA[ Basel-Stadt’s Statistical Office turns #landcover into art with “#Quartierfarben”, an interactive tool that maps each neighbourhood’s mix of green space, traffic, water and buildings and lets you turn it into a downloadable postcard. Built in the spirit of Vienna’s “Grätzlfarben” and Berlin’s “Kiezcolors” and released as #opensource, it’s a playful meeting of #dataviz and #geoinformation. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/07/09-neighbourhood-colours-of-basel/</guid>
+  <pubDate>Thu, 09 Jul 2026 01:52:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/07/09-neighbourhood-colours-of-basel/quartierfarben.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Tree canopy change detection in Vaud</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/05/23-geojson-innovation-ogc-features-and-geometries-json/</guid>
   <pubDate>Sat, 23 May 2026 11:19:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/05/23-geojson-innovation-ogc-features-and-geometries-json/jonakoh-r5lbaK3fDaM-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>OGC GeoParquet best practices</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/05/22-ogc-geoparquet-best-practices/</link>
-  <description><![CDATA[ The OGC offers a best practices guide for distributing #GeoParquet files, covering compression, spatial indexing and ordering, row group sizes, partitioning, and metadata. The guide also lists concrete commands for common tools so you can produce optimally distributed files right away. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/05/22-ogc-geoparquet-best-practices/</guid>
-  <pubDate>Fri, 22 May 2026 12:46:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/05/22-ogc-geoparquet-best-practices/data.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
