@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Thu, 09 Jul 2026 01:52:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 09 Jul 2026 18:46:00 GMT</lastBuildDate>
+<item>
+  <title>FME support for MCP</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/07/09-fme-support-for-mcp/</link>
+  <description><![CDATA[ Safe Software has turned #FME into an #MCP bridge (to the #Esri #ArcGIS platform, for example): FME workspaces can now be published as AI-ready tools and served to any MCP client via FME Flow. Safe Software frames this as turning GIS platforms into something #AI agents can operate conversationally, with notably pitching FME as a “data guardian” shielding raw data from the AI clients that call it. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/07/09-fme-support-for-mcp/</guid>
+  <pubDate>Thu, 09 Jul 2026 18:46:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/07/09-fme-support-for-mcp/mcp-architecture.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Neighbourhood colours of Basel</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/05/24-grass-on-windows-via-conda/</guid>
   <pubDate>Sun, 24 May 2026 08:39:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/05/24-grass-on-windows-via-conda/grass.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>GeoJSON innovation: OGC Features and Geometries JSON</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/05/23-geojson-innovation-ogc-features-and-geometries-json/</link>
-  <description><![CDATA[ The #OGC has released “JSON-FG”, a #GeoJSON superset that adds support for coordinate reference systems beyond WGS 1984, temporal feature properties, 3D geometry types, and more. Legacy tools remain fully compatible, while modern clients gain a more expressive data format. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/05/23-geojson-innovation-ogc-features-and-geometries-json/</guid>
-  <pubDate>Sat, 23 May 2026 11:19:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/05/23-geojson-innovation-ogc-features-and-geometries-json/jonakoh-r5lbaK3fDaM-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
