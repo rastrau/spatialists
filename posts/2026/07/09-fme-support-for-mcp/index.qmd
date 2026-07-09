@@ -1,0 +1,93 @@
+---
+title: "FME support for MCP"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-07-09 18:46"
+image: "mcp-architecture.png"
+description: 'Safe Software has turned #FME into an #MCP bridge (to the #Esri #ArcGIS platform, for example): FME workspaces can now be published as AI-ready tools and served to any MCP client via FME Flow. Safe Software frames this as turning GIS platforms into something #AI agents can operate conversationally, with notably pitching FME as a "data guardian" shielding raw data from the AI clients that call it.'
+---
+
+MCP[^mcp] capabilities are now available "bi-directionally" in FME[^fme]. The
+[`MCPCaller` Transformer][caller][^caller] is available from FME 2026.1
+onwards, and FME Flow[^fme-flow] can act as an MCP Server since FME 2026.2.
+
+The latter scenario is described in detail in a recent [article by Safe 
+Software][article]. Basically, the new MCP capability means you can author a 
+data workflow in FME Form[^fme-form] and register it as an AI- or agent-ready 
+tool with an MCP server run by FME Flow. Once published and registered, the tool 
+(your workspace) can be called from any MCP client. 
+
+![MCP architecture based on FME Flow's MCP Server](mcp-in-fme.png "MCP 
+architecture based on FME Flow's MCP Server")
+
+The [article][article] gives the following account of the workflow:  
+
+> - **Prepare and publish**: Replace the workspace’s terminal step (...) with 
+an MCP writer, which defines what comes back to the client: text, structured 
+content (JSON[^json]), images, resources, or embedded content. Adding it flags the 
+workspace as an MCP tool. (...) Return only what the client needs (...). Keep 
+input parameter types simple (text, numbers, booleans, dates, dropdowns) (...).
+> <br><br>
+> - **Register the tool**: A single [FME] Flow instance can host multiple MCP 
+servers, each with multiple tools, organized by domain or user group. (...) Add 
+a tool pointing at your published workspace, then describe each parameter (...). 
+The pattern throughout is: define the field, give the constraints, and say when 
+the client needs more information.
+> <br><br>
+> - **Connect a client and test it out**: Most AI clients let you add an MCP 
+server by URL. A deliberately messy prompt is a good stress test (...) 
+Underneath, [the task] is still a standard [FME] Flow job, visible in job 
+history with its inputs and processing details; the only difference is that MCP 
+triggered it.
+
+In the [article][article], Safe Software goes into more detail about the 
+workflow and lists some caveats and principles for designing good MCP tools. 
+It also describes a more advanced scenario involving an AI planner-in-a-loop 
+that can invoke multiple tools in a single workflow and combine their results.
+
+While Safe Software underlines that the principles shown in the article apply to any integration, not just ArcGIS-based ones, I found the statement that this turns 
+ArcGIS into a recipient for conversational agents a particularly interesting 
+notion: "(...) a small set of focused tools (...) turns ArcGIS into something an 
+agent can operate conversationally." Meanwhile, Esri seems to be working on 
+similar ideas and has published an [Early Adopter site][early] on MCP in GIS 
+which states: 
+
+> Esri is working towards exposing GIS capabilities via Model Context Protocol 
+(MCP) across ArcGIS Enterprise, Online and Location Platform[^beta]. Our intent 
+with this work is to help you access GIS data and functionality through AI 
+applications. 
+
+Finally, the [Safe Software article][article] extols information security as a 
+key positive aspect^[Note the capitalisation in the quote.] of the presented 
+usage scenario: 
+
+> You can also control exactly what data is exposed to AI in any deployment 
+using FME as a Data Guardian. The MCP clients never get direct access to your 
+raw data, and in fact have no idea what the raw data looks like.
+
+If MCP within the FME ecosystem interests you, Safe Software has much more 
+MCP-related content on a [dedicated "Solutions" page][page] and offers (past 
+and upcoming) [webinars][webinars] on the topic.
+
+[^mcp]: Model Context Protocol, an open standard (introduced by Anthropic in
+late 2024) that lets AI applications connect to external tools, data sources,
+and services through a common interface.
+[^fme]: Safe Software's Feature Manipulation Engine.
+[^caller]: The `MCPCaller` serves as an MCP (Model Context Protocol) client that
+can connect to an MCP server to call tools to work with resources and prompts.
+[^fme-flow]: FME Flow is Safe Software's server product for automating,
+scheduling, and hosting FME workspaces, formerly known as FME Server.
+[^fme-form]: FME Form is Safe Software's desktop application for authoring FME
+workspaces, formerly known as FME Desktop or FME Workbench.
+[^json]: JavaScript Object Notation.
+[^beta]: MCP support for the [ArcGIS Location
+Platform](https://www.esri.com/arcgis-blog/products/platform/developers/mcp-support-beta-and-arcgis-static-maps-service-in-arcgis-location-platform-release)
+is currently in beta.
+
+
+[caller]: https://docs.safe.com/fme/html/FME-Form-Documentation/FME-Transformers/Transformers/pkg-mcpcaller/mcpcaller-pkg.htm
+[article]: https://fme.safe.com/blog/2026/07/turning-fme-workspaces-into-mcp-tools-connecting-arcgis-to-ai/
+[early]: https://earlyadopter.esri.com/key/MCPsupportforArcGISLocationServices
+[page]: https://fme.safe.com/platform/solutions/mcp/
+[webinars]: https://fme.safe.com/webinars/ 
