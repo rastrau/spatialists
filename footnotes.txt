@@ -60,6 +60,8 @@
 [^fields]: Think, for example, a digital elevation model or a rainfall intensity raster.
 [^flask]: A Python framework for web apps.
 [^fme]: Safe Software's Feature Manipulation Engine.
+[^fme-flow]: FME Flow is Safe Software's server product for automating, scheduling, and hosting FME workspaces, formerly known as FME Server.
+[^fme-form]: FME Form is Safe Software's desktop application for authoring FME workspaces, formerly known as FME Desktop or FME Workbench.
 [^foursquare]: A location technology company ([Wikipedia](https://en.wikipedia.org/wiki/Foursquare_(company)), [Crunchbase](https://www.crunchbase.com/organization/foursquare)). You may remember the Foursquare app that let you check-in to places and enabled social location sharing..
 [^fsdi]: The [Federal Spatial Data Infrastructure](https://www.geo.admin.ch/en/federal-spatial-data-infrastructure-fsdi/) of Switzerland.
 [^gdal]: [GDAL](https://gdal.org/) (Geospatial Data Abstraction Library) is an open-source library and set of command-line tools for reading, writing, and transforming raster and vector geospatial data formats.
@@ -97,6 +99,7 @@
 [^jedsundwall's]: In the past, Jed Sundwall led the [Amazon Web Services (AWS) Open Data Program](https://aws.amazon.com/opendata/). Currently, he serves as Executive Director of [Radiant Earth](https://radiant.earth/about/).
 [^josis]: JOSIS, the Journal of Spatial Information Science, is an open-access research journal dedicated to geoinformation science. Articles in JOSIS are licensed under a Creative Commons Attribution 3.0 (CC-BY) License.
 [^jpl]: Jet Propulsion Laboratory, a NASA research center in California.
+[^json]: JavaScript Object Notation.
 [^kgk-cgc]: The Conference of the Cantonal Geoinformation and Cadastral Offices in Switzerland.
 [^lidar]: Light Detection and Ranging, an active remote sensing technique that uses laser pulses to generate 3D point clouds of the Earth's surface or objects.
 [^llm]: Large language model.
@@ -112,7 +115,7 @@
 [^martinfleischmann]: Among other things, Martin Fleischmann is [the developer or one of the developers](https://martinfleischmann.net/longer-bio/) behind such geospatial tools as `momepy`, `GeoPandas`, and `PySAL`. [Previously](https://spatialists.ch/posts/2025/04/09-spatial-data-old-and-new/).
 [^maus]: [Monthly active users](https://en.wikipedia.org/wiki/Active_users).
 [^mvp]: Minimum Viable Product.
-[^mcp]: Model Context Protocol.
+[^mcp]: Model Context Protocol, an open standard (introduced by Anthropic in late 2024) that lets AI applications connect to external tools, data sources, and services through a common interface.
 [^mds]: "MDS" stands for "[Modern Data Stack](https://www.fivetran.com/blog/what-is-the-modern-data-stack)", a term used to describe a set of tools and technologies for data integration, processing, and analysis. It typically includes components like ELT processes (extract, load, transform), data warehouses, data lakes, and analytics platforms.
 [^medallionarchitecture]: The medallion architecture is a data processing framework that posits three layers for data: bronze (raw data), silver (cleaned and transformed data), and gold (aggregated and ready for analysis).
 [^mermaid]: [Mermaid](https://github.com/mermaid-js/mermaid#readme) is a JavaScript-based diagramming tool that takes Markdown-inspired text definitions and creates diagrams dynamically. Mermaid is supported in GitHub, for example.
