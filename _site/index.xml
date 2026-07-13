@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Thu, 09 Jul 2026 18:46:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 13 Jul 2026 23:17:00 GMT</lastBuildDate>
+<item>
+  <title>Public EO at risk</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/07/13-public-eo-at-risk/</link>
+  <description><![CDATA[ Switzerland’s decision to stay out of #Copernicus might be a symptom of a bigger problem, argues Aravind Ravichandran in the #Terrawatch Newsletter: shrinking budgets, wavering political consensus, and commercial pivots are chipping away at #EarthObservation as a public good. Aravind diagnoses the fragility of today’s #EO commons and proposes a possible fix, an “EO Accord” built on past coordination successes. #remoteSensing #Sentinel #Landsat ]]></description>
+  <guid>https://spatialists.ch/posts/2026/07/13-public-eo-at-risk/</guid>
+  <pubDate>Mon, 13 Jul 2026 23:17:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/07/13-public-eo-at-risk/sentinel-2-cropped.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>FME support for MCP</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/05/27-guidance-on-gis-accessibility/</guid>
   <pubDate>Wed, 27 May 2026 18:42:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/05/27-guidance-on-gis-accessibility/aaron-doucett-Af1ObLzovTA-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>GRASS on Windows via conda</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/05/24-grass-on-windows-via-conda/</link>
-  <description><![CDATA[ #GRASS, the veteran open-source geospatial computing platform, can now be installed on Windows (and all other major platforms) via #conda with no manual setup. This streamlines access to the latest GRASS functionality. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/05/24-grass-on-windows-via-conda/</guid>
-  <pubDate>Sun, 24 May 2026 08:39:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/05/24-grass-on-windows-via-conda/grass.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 </channel>
 </rss>
