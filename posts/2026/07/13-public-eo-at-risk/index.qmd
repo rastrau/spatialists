@@ -1,0 +1,61 @@
+---
+title: "Public EO at risk"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-07-13 23:17"
+image: "sentinel-2-cropped.jpg"
+description: 'Switzerland''s decision to stay out of #Copernicus might be a symptom of a bigger problem, argues Aravind Ravichandran in the #Terrawatch Newsletter: shrinking budgets, wavering political consensus, and commercial pivots are chipping away at #EarthObservation as a public good. Aravind diagnoses the fragility of today''s #EO commons and proposes a possible fix, an "EO Accord" built on past coordination successes. #remoteSensing #Sentinel #Landsat'
+---
+
+![Sentinel-2 satellite of the Copernicus Program (source: [ESA/ATG medialab][esa])](sentinel-2.jpg "Sentinel-2 satellite of the Copernicus Program (source: ESA/ATG medialab)")
+
+A month ago, the Federal Council[^federal-council] of Switzerland published 
+[its decision not to participate in the Copernicus Earth observation 
+programme][copernicus-decision] for the period from 2028 to 2034. 
+
+Now the [Terrawatch Newsletter][terrawatch] has published an [article that 
+presents a broader perspective][article] on this and similar decisions that put 
+Earth observation (EO) as a public good at risk. The article lists 
+Switzerland's negative decision on [Copernicus][copernicus], restrictions on 
+data availability by Planet Labs and other providers, developments around 
+ocean observation, and the current funding risk facing [Landsat Next][landsat] 
+as examples of a trend that could lead to a situation where public Earth 
+observation as a public good – and thus downstream use of Earth observation data 
+in the geospatial sector – is no longer guaranteed.
+
+Some choice quotes from the [article][article]:
+
+> The case studies, taken together, point at a deeper structural shift. (...) 
+The question Switzerland's decision puts plainly: open data is a political 
+choice, and the contributor base that funds it is fragile too.
+
+And:
+
+> (...) [T]he global civilian EO commons is now substantially underwritten by a 
+single program – Copernicus, which is funded by a coalition of European 
+countries, including non-EU members like Norway and the UK. In other words, the 
+world's open EO infrastructure depends on those governments that choose to keep 
+paying for it.
+> 
+> That arrangement worked when three conditions held: the cost curve was modest, 
+contributor budgets were healthy, and the political consensus around civilian EO 
+was firm. None of those three is true today. (...) [C]ontinuity carried by one 
+regional coalition is not the same as durable global public-good infrastructure.
+
+The article goes on to propose how to ensure that public EO remains a public 
+good through something like an "EO Accord" and points to past initiatives that 
+successfully solved similar coordination problems.
+
+An interesting, worrisome, yet hopeful [perspective and call to action][article].
+
+{{< video https://www.youtube.com/embed/vyoXKUuAf5E >}}
+
+[copernicus-decision]: https://spatialists.ch/posts/2026/06/06-switzerland-decides-against-participating-in-copernicus/index.html
+[terrawatch]: https://newsletter.terrawatchspace.com/
+[article]: https://newsletter.terrawatchspace.com/why-earth-observation-needs-its-own-artemis-accords/
+[copernicus]: https://www.copernicus.eu/en
+[landsat]: https://landsatnext.com/
+[esa]: https://www.esa.int/ESA_Multimedia/Images/2015/02/Colour_vision_for_Copernicus
+
+[^federal-council]: The Federal Council is Switzerland's seven-member executive body, serving as the collective head of government.
