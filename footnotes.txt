@@ -54,7 +54,8 @@
 [^etl]: Extract-transform-load.
 [^ewkt]: Extended Well-Known Text, a PostGIS extension of [WKT](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry) that includes the spatial reference system identifier (SRID) of the encoded geometry.
 [^fair]: The [FAIR principles](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable, Reusable) are guidelines for scientific data management and stewardship, aimed at making data more usable by both humans and machines.
-[^falsepositives]: ... or "errors of commission", "type 1 errors"... – or what term your (sub)discipline prefers. 
+[^falsepositives]: ... or "errors of commission", "type 1 errors"... – or what term your (sub)discipline prefers.
+[^federal-council]: The Federal Council (Bundesrat in German, Conseil fédéral in French, Consiglio federale in Italian) is Switzerland's seven-member executive body, serving as the collective head of state and government; each Councillor heads one of the seven federal departments.
 [^fema]: The Federal Emergency Management Agency (FEMA) is a government agency in the USA responsible for coordinating disaster preparedness, response, and recovery.
 [^foen]: The Federal Office for the Environment (FOEN; BAFU in German, OFEV in French) is the Swiss federal agency responsible for the state and development of Switzerland's environment.
 [^fields]: Think, for example, a digital elevation model or a rainfall intensity raster.
