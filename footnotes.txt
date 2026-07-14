@@ -40,7 +40,7 @@
 [^dizh]: The [DIZH](https://www.dizh.uzh.ch) is the "Digitalization Initiative of the Zurich Higher Education Institutions". The University of Zurich (UZH), the Zurich University of Applied Sciences (ZHAW), the Zurich University of the Arts (ZHdK) and the Zurich University of Teacher Education (PHZH) form the DIZH network. The [mission](https://www.dizh.uzh.ch/en/about-us/mission/) of the DIZH is to "promote cooperation on digitalization issues between higher education institutions in Zurich, thereby strengthening the greater Zurich area as a hub for research and business".
 [^dtm]: Digital terrain model, that is a model of the "bare earth" elevations of the Earth's surface.
 [^dwh]: Data warehouse: a system for storing and analysing large volumes of structured data, typically optimised for analytical queries rather than transactional workloads.
-[^duckdb]: [`DuckDB`](https://www.duckdb.org/why_duckdb) is an open-source column-oriented Relational Database Management System (RDBMS) designed for analytics use-cases.
+[^duckdb]: [DuckDB](https://www.duckdb.org/why_duckdb) is an open-source column-oriented Relational Database Management System (RDBMS) designed for analytics use-cases.
 [^ebp]: Transparency note: I work here.
 [^edzerpebesma]: Among other things, Edzer Pebesma is the [maintainer of various R packages](https://www.r-pkg.org/maint/edzer.pebesma@uni-muenster.de), among them `sf` and `sp`.
 [^embag]: Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG)
@@ -133,6 +133,7 @@
 [^ogc]: Open Geospatial Consortium.
 [^omf]: The [Overture Maps Foundation](https://overturemaps.org/) is an industry consortium (members include Amazon, Meta, Microsoft, and TomTom) that produces openly-licensed map data, building primarily on OpenStreetMap data.
 [^ogr]: OGR is the vector data library within [GDAL](https://gdal.org/) supporting a wide range of vector formats.
+[^onnx]: Open Neural Network Exchange, an open format for representing machine learning models that enables interoperability between different AI frameworks.
 [^osm]: [OpenStreetMap](https://www.openstreetmap.org/), a collaborative, open-licensed map of the world.
 [^osmdata]: The [data structure of OSM](https://wiki.openstreetmap.org/wiki/Elements) with its [key-value-tagging scheme](https://wiki.openstreetmap.org/wiki/Tags) can be daunting to use, or render usable, in a relational database or in GIS environments.
 [^osmf]: The [OpenStreetMap Foundation](https://osmfoundation.org/) is a non-profit organisation supporting the OpenStreetMap project.
@@ -193,4 +194,5 @@
 [^wkt]: [Well-Known Text](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry), a markup language for representing vector geometries.
 [^xtf]: Interlis transfer format.
 [^ymmv]: Your mileage may vary.
+[^yolo]: "You Only Look Once" (YOLO) is a family of real-time object detection models.
 [^zine]: "Zine" is short for "magazine" or "fanzine".
