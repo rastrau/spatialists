@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Mon, 13 Jul 2026 23:17:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 15 Jul 2026 00:08:00 GMT</lastBuildDate>
+<item>
+  <title>GeoLibre 2.0.0 released</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/07/14-geolibre-200-released/</link>
+  <description><![CDATA[ #GeoLibre reached version 2.0 (and, a day later, 2.1): A browser-based, #cloudNative GIS that bundles vector and raster tools, a #CesiumJS 3D globe view, #DuckDB-backed spatial #SQL, and a natural-language assistant. Developed by Qiusheng Wu and contributors, GeoLibre also runs as a desktop app, on Android, and embedded in #Jupyter. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/07/14-geolibre-200-released/</guid>
+  <pubDate>Wed, 15 Jul 2026 00:08:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/07/14-geolibre-200-released/geolibre-interface-overview.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Public EO at risk</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/05/28-ai-vs-fme-geospatial-tools/</guid>
   <pubDate>Thu, 28 May 2026 19:37:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/05/28-ai-vs-fme-geospatial-tools/nam-anh-QJbyG6O0ick-unsplash 1.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Guidance on GIS accessibility</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/05/27-guidance-on-gis-accessibility/</link>
-  <description><![CDATA[ Massachusetts’ GIS Accessibility Guide is a practical, comprehensive resource covering #accessibility in #webmaps, #storymaps, and static maps. Besides a substantial collection of structured recommendations and links to resources, the guide also publishes a running list of bug reports and enhancement requests, along with their status. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/05/27-guidance-on-gis-accessibility/</guid>
-  <pubDate>Wed, 27 May 2026 18:42:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/05/27-guidance-on-gis-accessibility/aaron-doucett-Af1ObLzovTA-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
