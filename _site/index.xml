@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Wed, 15 Jul 2026 00:08:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 15 Jul 2026 19:54:00 GMT</lastBuildDate>
+<item>
+  <title>Foundation models and earth embeddings</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/07/15-foundation-models-and-earth-embeddings/</link>
+  <description><![CDATA[ Konstantin Klemmer et al.’s #ISPRS 2026 tutorial on #FoundationModels and #EarthEmbeddings pairs free, MIT-licensed slides with hands-on Colab notebooks spanning four practical use cases, from direct #prediction to geo-#semanticSearch. Kiri Carini’s companion resource roundup rounds out the reading list for anyone diving into this fast-moving corner of #GeoAI. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/07/15-foundation-models-and-earth-embeddings/</guid>
+  <pubDate>Wed, 15 Jul 2026 19:54:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/07/15-foundation-models-and-earth-embeddings/vackground-com-up8ooQ1Pm2s-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>GeoLibre 2.0.0 released</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/05/31-the-legacy-of-dijkstra/</guid>
   <pubDate>Sun, 31 May 2026 11:56:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/05/31-the-legacy-of-dijkstra/dimitri-karastelev-4IqOnX2sdyM-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>AI vs. FME / geospatial tools?</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/05/28-ai-vs-fme-geospatial-tools/</link>
-  <description><![CDATA[ Safe Software and the #FME community discusses whether #AI #agents are replacing tools like #FME for geospatial #ETL work. The community thread and blog post are worth reading for what they imply about the future of #low-code geospatial tools more broadly. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/05/28-ai-vs-fme-geospatial-tools/</guid>
-  <pubDate>Thu, 28 May 2026 19:37:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/05/28-ai-vs-fme-geospatial-tools/nam-anh-QJbyG6O0ick-unsplash 1.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
