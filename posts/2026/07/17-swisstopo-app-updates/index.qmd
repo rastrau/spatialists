@@ -1,0 +1,39 @@
+---
+title: "Swisstopo app updates"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-07-17 13:25"
+image: "matterhorn.jpg"
+description: "The swisstopo app, downloaded more than four million times since 2020, gets three notable updates: 300 curated #landmarks now appear on the basemap with in-app photos and background info, #search works cross-lingually and even tolerates dialect and typos, and #route #planning has been overhauled with flexible start points, times, and elevation filters. A solid refresh for one of Switzerland's most popular apps, used up to 300,000 times a day on sunny weekends."
+---
+
+![The swisstopo app, now with landmarks (source: swisstopo)](matterhorn.jpg "The swisstopo app, now with landmarks (source: swisstopo)")
+
+The popular[^popular] app by the Swiss NMGA[^nmga] swisstopo receives a few interesting updates:
+
+## Inclusion of landmarks
+
+The app's basemap now features 300 selected landmarks such as famous buildings, towers, peaks, and other natural features. The landmarks are shown as small, stylised symbols on the so called "[New] Base Map" (from a certain zoom level), not on the official National Map. Upon tapping one of the landmark symbols, the app offers more in-depth information, including photos, about the landmark.
+
+![Landmarks (left) and additional information (right) in the swisstopo app (source: swisstopo)](app-screenshots.jpg "Landmarks (left) and additional information (right) in the swisstopo app (source: swisstopo)")
+
+According to swisstopo, the landmarks were selected with how well they aid orientation as criterion[^science]. This features is described [in English][en] on the swisstopo website. 
+
+## Better search
+
+Switzerland being a country with four natural languages, swisstopo has improved search to work cross-lingually: Searching for a placename in the French-speaking part of Switzerland with its German name works (e.g. "Genf" for "Genève" (Geneva)). According to swisstopo, also names with typos or in dialect should work fine. On that last point, searching for "Pizzo Zucchero" (Italian) yields the same result as "Al Pizz Zücru" (dialect). Not revolutionary, but a welcome upgrade, since the data is available.
+
+## Route planning 
+The app’s navigation features have been overhauled: You can now freely choose the starting point and time of a trip – independent of your current location. Additional filters for ascents and descents should make it easier to select suitable routes.
+
+For more information, see the press release [in German][de] and [in French][fr]. No English version has been published (as of yet?), unfortunately, but of course there is a plethora of [information on the app][info] available on the swisstopo website.
+
+[^popular]: Since its launch in July 2020, the app has been downloaded more than four million times (Switzerland has a population of 9 million). On a sunny weekend, the app is opened up to 300,000 times a day.
+[^nmga]: National mapping and geospatial agency.
+[^science]: There is a substantial body of scientific literature about how landmarks can aid navigation and memory. And there is also scientific literature about salience of landmark for navigation, for example [Caduff and Timpf (2008)](https://d1wqtxts1xzle7.cloudfront.net/90729451/ZORA_NL_76921-libre.pdf?1662497213=&response-content-disposition=inline%3B+filename%3DOn_the_assessment_of_landmark_salience_f.pdf&Expires=1784288521&Signature=FJWOjwjo~DhPUBDzhfpfz7ZgWc8FNnRklwGaWye~CrCMRYRIIAlEpe~irycYs8kwqBPY63SbmV-HWJ8TT-9ANn0DwkVZ4i8aXAENkmLqU8on~RnrWyFT0oF7GFTN6fTNZQZQrWJkgkmBSaRwS~dDmZKcVFWZrbE1feAyKeKzKoMvvQY1tH80FQjx8k6QNI6RDlDjZuFcwcgbBp5ngoWmPGelDkzt9yOeL0GS0GSwfC1KLnYFPyWtS3Wn43zOTxzQ3jh559AYRsSyCR9utDQuZs3kFTNJ8rxbp2tqePZQ4CIIFLtGzI5DASMeuSoYKVvcU~UUTH-l0W0Yg6cqfgjyOw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA), but I suspect a more pragmatic approach involving local knowledge has been used in the case at hand.
+
+[en]: https://www.swisstopo.admin.ch/en/swisstopo-application-1-24
+[de]: https://www.swisstopo.admin.ch/de/vier-millionen-downloads-und-neue-funktionen-fuer-die-swisstopo-app
+[fr]: https://www.swisstopo.admin.ch/fr/quatre-millions-de-telechargements-pour-lapplication-swisstopo-et-de-nouvelles-fonctionnalites
+[info]: https://www.swisstopo.admin.ch/en/swisstopo-application
