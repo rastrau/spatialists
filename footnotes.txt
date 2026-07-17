@@ -126,7 +126,7 @@
 [^nasa]: National Aeronautics and Space Administration of the USA.
 [^networkx]: NetworkX is a Python library for the creation, manipulation, and study of networks and graphs.
 [^nma]: National Mapping Agency.
-[^nmga]: National mapping and geospatial agency
+[^nmga]: National mapping and geospatial agency.
 [^north51]: NORTH51 is an annual conference in Canada, a [self-described](https://www.n51.ca/who-we-are) "dynamic gathering that embodies the spirit of modernization in the geospatial industry (...) [uniting] entrepreneurs passionate about bringing a platform to the industry to share grand, global, market-changing ideas."
 [^od-matrices]: Origin-Destination matrices: Tables capturing information about flows (for example, trips, commutes) between pairs of origin and destination locations in a study area.
 [^ogd]: Open Government Data: The movement or policy of the public sector to publish their data openly.
