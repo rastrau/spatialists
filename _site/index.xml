@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Wed, 15 Jul 2026 19:54:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 17 Jul 2026 13:25:00 GMT</lastBuildDate>
+<item>
+  <title>Swisstopo app updates</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/07/17-swisstopo-app-updates/</link>
+  <description><![CDATA[ The swisstopo app, downloaded more than four million times since 2020, gets three notable updates: 300 curated #landmarks now appear on the basemap with in-app photos and background info, #search works cross-lingually and even tolerates dialect and typos, and #route #planning has been overhauled with flexible start points, times, and elevation filters. A solid refresh for one of Switzerland’s most popular apps, used up to 300,000 times a day on sunny weekends. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/07/17-swisstopo-app-updates/</guid>
+  <pubDate>Fri, 17 Jul 2026 13:25:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/07/17-swisstopo-app-updates/matterhorn.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Foundation models and earth embeddings</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/05/31-but-is-it-useful/</guid>
   <pubDate>Sun, 31 May 2026 14:15:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/05/31-but-is-it-useful/claudio-schwarz-fyeOxvYvIyY-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>The legacy of Dijkstra</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/05/31-the-legacy-of-dijkstra/</link>
-  <description><![CDATA[ Edsger Dijkstra’s landmark shortest-path algorithm has shaped how we navigate the world, from early GIS to today’s wayfinding apps. A new Veritasium video traces that legacy and reveals how techniques like Nested Dissection and Contraction Hierarchies deliver routing results in microseconds. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/05/31-the-legacy-of-dijkstra/</guid>
-  <pubDate>Sun, 31 May 2026 11:56:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/05/31-the-legacy-of-dijkstra/dimitri-karastelev-4IqOnX2sdyM-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
