@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to submit a post idea! Please note: Your post may be edited, in which case you will get final approval. Your post may also be refused, for example, if it has marketing character or if it is deemed not suitable or interesting for the Spatialists.ch audience.
+        Thanks for taking the time to submit a post idea! Please note: Your post may be refused, for example, if it has marketing character or if it is deemed not suitable or interesting for the Spatialists.ch audience. After submitting, please keep an eye on this issue. I will get back to you as soon as time permits.
   - type: textarea
     id: post-content
     attributes:
