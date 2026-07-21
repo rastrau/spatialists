@@ -1,0 +1,39 @@
+---
+title: "QGIS specialist module for cadastral surveying"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-07-21 11:22"
+image: "scott-blake-wq7oyx_Kx-4-unsplash.jpg"
+description: 'A consortium of 60 Swiss firms has secured funding to build AV-QGIS, a specialist #QGIS module for #cadastralSurveying built around the new #DMAV data model, with basic data updates due by 2028 and full rollout by mid-2028. It''s a welcome sign of competition and sovereign, #openSource alternatives in the #surveying software space.'
+
+---
+
+A group of 60 firms has formed with the aim of implementing a specialist QGIS module for cadastral 
+surveying in Switzerland, called AV-QGIS (probably MO-QGIS in French). The group has just 
+[announced][announcement] that its funding goal has been met and that the first implementation phase 
+for the AV-QGIS module has been approved. 
+
+The specialist module will extend QGIS core functionality and will work with the Swiss cadastral 
+surveying data model DMAV 1.0 (more info in [German][dmav-de] and [in French][dmav-fr]). I couldn't 
+find much information about the module except a [QGIS user forum presentation][presentation] (pdf) 
+from June last year.
+
+![DMAV introduction schedule (source: swisstopo)](dmav-introduction.jpg "DMAV introduction schedule (source: swisstopo)")
+
+According to the [announcement][announcement], work on AV-QGIS has already started. Phases 1 and 2, 
+which will enable basic data updates, should be implemented by January 2028. Phase 3 (the final 
+phase) will be finalised by mid-2028.
+
+Joining the committee is still possible, with "favourable introductory terms" apparently available 
+until end of September.[^group]
+
+Always good to see (increasing) competition and sovereign solutions in the space of software.
+
+[^group]: A website at [av-qgis.ch](https://av-qgis.ch) might be forthcoming? For now, there is only 
+a placeholder. But the group can be reached at [info@av-qgis.ch](mailto:info@av-qgis.ch).
+
+[announcement]: https://www.geowebforum.ch/t/av-qgis-av-fachschale-finanzierung-gesichert-und-projekt-gestartet/1486
+[dmav-de]: https://www.cadastre-manual.admin.ch/de/geodatenmodell-der-amtlichen-vermessung-dmav
+[dmav-fr]: https://www.cadastre-manual.admin.ch/fr/modele-de-geodonnees-de-la-mensuration-officielle-dmav
+[presentation]: https://www.qgis.ch/assets/pdf/2025/05_20250617_QGIS-Anwendertagung_Bern_AV-QGIS.pdf
