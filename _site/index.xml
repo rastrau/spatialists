@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Mon, 20 Jul 2026 09:06:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 21 Jul 2026 11:22:00 GMT</lastBuildDate>
+<item>
+  <title>QGIS specialist module for cadastral surveying</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/07/21-qgis-specialist-module-for-cadastral-surveying/</link>
+  <description><![CDATA[ A consortium of 60 Swiss firms has secured funding to build AV-QGIS, a specialist #QGIS module for #cadastralSurveying built around the new #DMAV data model, with basic data updates due by 2028 and full rollout by mid-2028. It’s a welcome sign of competition and sovereign, #openSource alternatives in the #surveying software space. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/07/21-qgis-specialist-module-for-cadastral-surveying/</guid>
+  <pubDate>Tue, 21 Jul 2026 11:22:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/07/21-qgis-specialist-module-for-cadastral-surveying/scott-blake-wq7oyx_Kx-4-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Open geodata in action: VivaMap and UrbanistMap</title>
   <dc:creator>Stefan Keller</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/06/07-100-years-of-swisstopo-flight-service/</guid>
   <pubDate>Sun, 07 Jun 2026 14:59:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/06/07-100-years-of-swisstopo-flight-service/swisstopo-flight-service-fokker.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Switzerland decides against participating in Copernicus</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/06/06-switzerland-decides-against-participating-in-copernicus/</link>
-  <description><![CDATA[ The Federal Council has decided that Switzerland will sit out the #Copernicus programme for another cycle, from 2028 to 2034, forgoing access to operational #EarthObservation services and public contracts while retaining access to raw data under the programme’s open data policy. A government-commissioned economic study had found accession advisable, warning that non-participation risks Swiss players losing their footing in European earth observation. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/06/06-switzerland-decides-against-participating-in-copernicus/</guid>
-  <pubDate>Sat, 06 Jun 2026 12:03:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/06/06-switzerland-decides-against-participating-in-copernicus/javier-miranda-AlJ9TQqeCV0-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
