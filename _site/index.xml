@@ -15,8 +15,17 @@
 <title>Spatialists – geospatial news</title>
 <link>https://spatialists.ch/</link>
 </image>
-<generator>quarto-1.9.38</generator>
-<lastBuildDate>Tue, 21 Jul 2026 11:22:00 GMT</lastBuildDate>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Mon, 27 Jul 2026 17:24:00 GMT</lastBuildDate>
+<item>
+  <title>ArcGIS Flight Simulator</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/07/27-arcgis-flight-simulator/</link>
+  <description><![CDATA[ Cédric Despierre Corporon built a browser-based #FlightSimulator on the #ArcGIS Maps SDK for #JavaScript, streaming Swiss terrain and buildings from #swisstopo alongside global #OSM data. While obviously not a full flight sim, this is a genuinely impressive #WebGIS and #3D showcase you can fly yourself. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/07/27-arcgis-flight-simulator/</guid>
+  <pubDate>Mon, 27 Jul 2026 17:24:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/07/27-arcgis-flight-simulator/alpstein-1500x1000.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>QGIS specialist module for cadastral surveying</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/06/08-openness-and-osm-compatibility-of-cantonal-geodata/</guid>
   <pubDate>Mon, 08 Jun 2026 18:50:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/06/08-openness-and-osm-compatibility-of-cantonal-geodata/tim-mossholder-XU84U7xhQ_4-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>100 years of swisstopo Flight Service</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/06/07-100-years-of-swisstopo-flight-service/</link>
-  <description><![CDATA[ In 1926, #swisstopo pioneered #aerialPhotogrammetry in Switzerland, taking to the skies when aviation was still in its infancy to map the country more precisely and efficiently than ground surveys could. A century later, the #FlightService remains the foundation for swisstopo’s geodata and maps and thus an important basis for planning, research, defence, and everyday life. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/06/07-100-years-of-swisstopo-flight-service/</guid>
-  <pubDate>Sun, 07 Jun 2026 14:59:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/06/07-100-years-of-swisstopo-flight-service/swisstopo-flight-service-fokker.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
