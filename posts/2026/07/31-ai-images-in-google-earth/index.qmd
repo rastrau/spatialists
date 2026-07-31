@@ -56,6 +56,13 @@ plans, would obviously benefit from users being able to navigate through GenAI s
 way they do through reality-grounded scenes in Google Earth. This could augment both the GenAI 
 feature's value and its danger.
 
+#### Update 2026-07-31: {#update}
+
+Google has *temporarily* [withdrawn][tweet] the GenAI feature: 
+
+> So we’re rolling back this feature in Google Earth while we work on 
+implementing stronger guardrails.
+
 [^genai]: "Generative AI", that is artificial intelligence systems that generate new media (text, code, images, audio, video) rather than only analysing or classifying existing data.
 [^nanobanana]: Nano Banana is an image-generation model.
 [^osint]: "OSINT" is short for "open-source intelligence", that is information gathered from publicly available sources.
@@ -65,4 +72,4 @@ feature's value and its danger.
 [henk]: https://www.linkedin.com/in/searchbistro/
 [post]: https://www.linkedin.com/posts/searchbistro_i-cant-believe-what-google-did-since-tonight-ugcPost-7488677909709246464-G8tD
 [article]: https://www.digitaldigging.org/p/how-to-plant-a-nuclear-plant-in-iran
-
+[tweet]: https://x.com/NewsFromGoogle/status/2083249962150760610
