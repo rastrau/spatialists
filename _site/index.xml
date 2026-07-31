@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Mon, 27 Jul 2026 17:24:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 31 Jul 2026 16:18:00 GMT</lastBuildDate>
+<item>
+  <title>AI images in Google Earth</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/07/31-ai-images-in-google-earth/</link>
+  <description><![CDATA[ #Google has added a #GenAI image-creation feature to #GoogleEarth, powered by #NanoBanana2, letting users generate static #AI scenes for any location straight from a prompt. Henk van Ess, an #OSINT investigator, shares a sharp critical take on what it means to seamlessly merge generative imagery with real #SatelliteImagery at the fingertips of billions of users. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/07/31-ai-images-in-google-earth/</guid>
+  <pubDate>Fri, 31 Jul 2026 16:18:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/07/31-ai-images-in-google-earth/banana-painting.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>ArcGIS Flight Simulator</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/06/12-the-coastline-paradox/</guid>
   <pubDate>Fri, 12 Jun 2026 19:48:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/06/12-the-coastline-paradox/ian-schneider-XJfHMPJ0e-g-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Openness and OSM compatibility of cantonal geodata</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/06/08-openness-and-osm-compatibility-of-cantonal-geodata/</link>
-  <description><![CDATA[ Simon Poole has compiled an overview of Swiss cantonal #opendata by #licence type: which “access authorisation level A” datasets are truly #open and which are compatible with #OpenStreetMap. Separately, a weekly-updated monitor tracks the openness and availability of all cantonal geodata on geodienste.ch. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/06/08-openness-and-osm-compatibility-of-cantonal-geodata/</guid>
-  <pubDate>Mon, 08 Jun 2026 18:50:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/06/08-openness-and-osm-compatibility-of-cantonal-geodata/tim-mossholder-XU84U7xhQ_4-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
