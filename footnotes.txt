@@ -67,6 +67,7 @@
 [^fsdi]: The [Federal Spatial Data Infrastructure](https://www.geo.admin.ch/en/federal-spatial-data-infrastructure-fsdi/) of Switzerland.
 [^gdal]: [GDAL](https://gdal.org/) (Geospatial Data Abstraction Library) is an open-source library and set of command-line tools for reading, writing, and transforming raster and vector geospatial data formats.
 [^gedtm30]: "GEDTM" stands for "Global ensemble digital terrain model".
+[^genai]: "Generative AI", that is artificial intelligence systems that generate new media (text, code, images, audio, video) rather than only analysing or classifying existing data.
 [^geoai]: The application of AI on geospatial data and for answering spatial questions.
 [^geopackage]: An open SQLite-based container format for geospatial data, defined by the [OGC](https://www.ogc.org/).
 [^geods]: The [Geographic Data Service or GeoDS](https://geods.ac.uk/) is a UK academic service, funded by Smart Data Research UK and operating across four universities, that leads academic collaboration with industry, government, and the third sector to extract value from smart data.
@@ -123,6 +124,7 @@
 [^ml]: Machine learning.
 [^mvt]: Mapbox Vector Tiles.
 [^nacis]: [North American Cartographic Information Society.](https://nacis.org/)
+[^nanobanana]: Nano Banana is an image-generation model.
 [^nasa]: National Aeronautics and Space Administration of the USA.
 [^networkx]: NetworkX is a Python library for the creation, manipulation, and study of networks and graphs.
 [^nma]: National Mapping Agency.
@@ -134,6 +136,7 @@
 [^omf]: The [Overture Maps Foundation](https://overturemaps.org/) is an industry consortium (members include Amazon, Meta, Microsoft, and TomTom) that produces openly-licensed map data, building primarily on OpenStreetMap data.
 [^ogr]: OGR is the vector data library within [GDAL](https://gdal.org/) supporting a wide range of vector formats.
 [^onnx]: Open Neural Network Exchange, an open format for representing machine learning models that enables interoperability between different AI frameworks.
+[^osint]: "OSINT" is short for "open-source intelligence", that is information gathered from publicly available sources.
 [^osm]: [OpenStreetMap](https://www.openstreetmap.org/), a collaborative, open-licensed map of the world.
 [^osmdata]: The [data structure of OSM](https://wiki.openstreetmap.org/wiki/Elements) with its [key-value-tagging scheme](https://wiki.openstreetmap.org/wiki/Tags) can be daunting to use, or render usable, in a relational database or in GIS environments.
 [^osmf]: The [OpenStreetMap Foundation](https://osmfoundation.org/) is a non-profit organisation supporting the OpenStreetMap project.
