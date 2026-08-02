@@ -1,0 +1,26 @@
+---
+title: "A practical guide to map projection mistakes"
+author:
+  - name: Ralph Straumann
+    url: https://ralphstraumann.ch
+date: "2026-08-02 11:42"
+image: "projections-1440x960.jpg"
+description: "Dominic Royé breaks down common #map #projection mistakes and how to fix them, with a clear taxonomy of equal-area, conformal, compromise, azimuthal, and equidistant projections. Examples use #RStats, but the lessons apply to any toolset."
+---
+
+Using map projections well is in every geospatial professionals toolbox. But it 
+is easy to make mistakes when working with map projections, particularly when 
+facing a special question or task. 
+
+In his blog, [Dominic Royé][dominic] offers a [practical guide to map projection 
+mistakes][blog], with examples and explanations of common pitfalls, and how to 
+fix them. Dominic supplements the examples in his guide with R code, but the 
+concepts are applicable to any geospatial tool you may work with. 
+
+Besides frequent mistakes and practical tips, Dominic also explains the taxonomy 
+of projections – equal-area (equivalent), conformal, compromise, azimuthal, and 
+equidistant – and which projection family is suitable for which kinds of 
+questions and tasks. Overall a nice guide and good refresher.
+
+[dominic]: https://dominicroye.github.io/about/
+[blog]: https://dominicroye.github.io/blog/map-projections/
