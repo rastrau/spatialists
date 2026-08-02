@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Fri, 31 Jul 2026 16:18:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 02 Aug 2026 11:42:00 GMT</lastBuildDate>
+<item>
+  <title>A practical guide to map projection mistakes</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/08/02-a-practical-guide-to-map-projection-mistakes/</link>
+  <description><![CDATA[ Dominic Royé breaks down common #map #projection mistakes and how to fix them, with a clear taxonomy of equal-area, conformal, compromise, azimuthal, and equidistant projections. Examples use #RStats, but the lessons apply to any toolset. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/08/02-a-practical-guide-to-map-projection-mistakes/</guid>
+  <pubDate>Sun, 02 Aug 2026 11:42:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/08/02-a-practical-guide-to-map-projection-mistakes/projections-1440x960.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>AI images in Google Earth</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/06/14-zureach-accessibility-mapping-through-crowdsourcing/</guid>
   <pubDate>Sun, 14 Jun 2026 16:50:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/06/14-zureach-accessibility-mapping-through-crowdsourcing/zureach-2-cropped.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>The coastline paradox</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/06/12-the-coastline-paradox/</link>
-  <description><![CDATA[ The #coastline #paradox demonstrates that coastline length is not a fixed value but scale-dependent, a phenomenon rooted in fractal geometry. A new BBC article takes an interesting deep dive and, among other things, explores who first documented this paradox, and why – and why it matters. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/06/12-the-coastline-paradox/</guid>
-  <pubDate>Fri, 12 Jun 2026 19:48:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/06/12-the-coastline-paradox/ian-schneider-XJfHMPJ0e-g-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
