@@ -35,8 +35,6 @@ of the 2025 event [here][data-spaces-geo].
 
 [^world]: The world in question being the LinkedIn community.
 
-[data-spaces-geo]: https://www.linkedin.com/posts/alainbuogo_dataspaces-digitalswitzerland-ejustice-activity-7425823186249760768-O0uF
-
 [study-de]: https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/datenoekosystem_schweiz/prototypen/swisstopo.html
 
 [study-fr]: https://www.bk.admin.ch/bk/fr/home/digitale-transformation-ikt-lenkung/datenoekosystem_schweiz/prototypen/swisstopo.html

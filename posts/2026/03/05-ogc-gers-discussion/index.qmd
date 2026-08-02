@@ -57,7 +57,6 @@ The [article][article] goes on and ends on an optimistic note.
 [^GERS]: The [Global Entity Reference System](https://www.spatialists.ch/posts/2025/06/28-omf-launches-gers/) by the Overture Maps Foundation (OMF).
 [^OMF]: The [Overture Maps Foundation](https://overturemaps.org/) is an industry consortium (members include Amazon, Meta, Microsoft, and TomTom) that produces openly-licensed map data, building primarily on OpenStreetMap data.
 [^OSMF]: The [OpenStreetMap Foundation](https://osmfoundation.org/) is a non-profit organisation supporting the OpenStreetMap project.
-[^OSM]: [OpenStreetMap](https://www.openstreetmap.org/), a collaborative, open-licensed map of the world.
 
 [comments]: https://www.ogc.org/requests/ogc-seeks-public-comment-on-justification-for-the-global-entity-reference-system-gers-framework-and-model-as-an-ogc-community-standard/
 [github]: https://github.com/opengeospatial/requests/issues/3

@@ -30,5 +30,4 @@ on LinkedIn][announcement].
 [announcement]: https://www.linkedin.com/posts/sitg-geneve_innovationpublique-ia-geneve-activity-7465265557769084928-R6iP
 
 [^ai]: Artificial intelligence
-[^geoai]: Specifically, the application of AI on geospatial data and for answering spatial questions.
 [^sitg]: [Système d'Information du Territoire à Genève](https://sitg.ge.ch/).

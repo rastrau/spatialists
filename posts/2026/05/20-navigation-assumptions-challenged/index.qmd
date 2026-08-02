@@ -11,7 +11,7 @@ description: "A new study challenges the assumption that pedestrians wish for tu
 Looking for that pop-up bar? – Search in your mapping-app-of-choice, hit 
 "Directions", and off to your drink with buddies, right? – *Maybe*. 
 
-A team of HCI researchers around (corresponding author) Johannes Schöning has 
+A team of HCI[^hci] researchers around (corresponding author) Johannes Schöning has 
 investigated routing behaviour in *pedestrians*: The widely available 
 turn-by-turn (TBT) directions are not the only type of instructions pedestrians 
 use, in some settings not even the most popular one. The team compared the use 
