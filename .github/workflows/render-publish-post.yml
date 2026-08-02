@@ -88,3 +88,40 @@ jobs:
           cache-file: ${{ github.workspace }}/mastofeedbot/cache.json
           # The maximum number of posts created on the first run
           initial-post-limit: 3
+
+  post-to-buffer-linkedin:
+    needs: render-and-publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Generate cache key
+        uses: actions/github-script@v6
+        id: generate-buffer-key
+        with:
+          script: |
+            core.setOutput('cache-key', new Date().valueOf())
+
+      - name: Retrieve Buffer cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ github.workspace }}/buffer-post-cache
+          key: buffer-post-cache-${{ steps.generate-buffer-key.outputs.cache-key }}
+          restore-keys: buffer-post-cache-
+
+      - name: Post new blog posts to LinkedIn through Buffer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_LINKEDIN_CHANNEL_ID: ${{ secrets.BUFFER_LINKEDIN_CHANNEL_ID }}
+          BUFFER_SHARE_MODE: ${{ vars.BUFFER_SHARE_MODE || 'shareNow' }}
+        run: |
+          if [ -z "$BUFFER_API_KEY" ] || [ -z "$BUFFER_LINKEDIN_CHANNEL_ID" ]; then
+            echo "Skipping Buffer posting because BUFFER_API_KEY or BUFFER_LINKEDIN_CHANNEL_ID is not configured."
+            exit 0
+          fi
+          python3 scripts/post_to_buffer.py \
+            --cache-file "${{ github.workspace }}/buffer-post-cache/cache.json" \
+            --lookback-hours 72 \
+            --max-posts 3 \
+            --skip-existing-on-first-run
