@@ -12,13 +12,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Restore Quarto freeze cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: _freeze/
           key: quarto-freeze-${{ hashFiles('posts/**/*.qmd') }}
@@ -37,7 +37,7 @@ jobs:
           name: autoupdate
 
       - name: Copy quarto rendered static files to FTP Server
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USER }}
@@ -56,13 +56,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate cache key
-        uses: actions/github-script@v6
+        uses: actions/github-script@v9
         id: generate-key
         with:
           script: |
             core.setOutput('cache-key', new Date().valueOf())
       - name: Retrieve cache
-        uses: actions/cache@v3
+        uses: actions/cache@v5
         with:
           path: ${{ github.workspace }}/mastofeedbot
           key: feed-cache-${{ steps.generate-key.outputs.cache-key }}
@@ -94,17 +94,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Generate cache key
-        uses: actions/github-script@v6
+        uses: actions/github-script@v9
         id: generate-buffer-key
         with:
           script: |
             core.setOutput('cache-key', new Date().valueOf())
 
       - name: Retrieve Buffer cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ${{ github.workspace }}/buffer-post-cache
           key: buffer-post-cache-${{ steps.generate-buffer-key.outputs.cache-key }}
