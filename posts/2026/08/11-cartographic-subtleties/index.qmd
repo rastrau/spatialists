@@ -1,0 +1,34 @@
+---
+title: "Cartographic subtleties"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-08-11 06:24"
+image: "blurs-and-glows-1500x1000.jpg"
+description: "Daniel Huffman shares a treasure trove of #cartography tricks on the Something About Maps blog, covering shaded relief, label brackets, blurs and glows, generalisation, and more. A great read (with pointers to other posts) if you want to level up your #map design expertise."
+---
+
+... is an understatement for the artistic tricks Daniel Huffman shares in his [current post][post] 
+on the [Something About Maps blog][blog]. The techniques shown encompass the treatment of the shaded 
+relief, label brackets, blurs and glows, line generalisation, and more (many of which are detailled 
+further in other posts on the blog).
+
+While I am involved in the production of "analytical maps"[^analytical] (if any) rather than very 
+professional cartography products, this [post][post] is an impressive treasure trove of advanced 
+cartographic techniques.
+
+[![Blurs and glows (on the right) aid readability of labels and other map elements (source: Daniel Huffman)](blurs-and-glows.png "Blurs and glows (on the right) aid readability of labels and other map elements (source: Daniel Huffman)")][post]
+
+If this kind of article interests you, I also recommend another recent post by Daniel, titled "[On
+sin][post2]" . While it touches on the somewhat simmering AI "controversy" of the ICA[^ica] Commission on
+Map Design (which I chose not to cover here), that is not the focal point of that post.
+
+[^analytical]: For lack of a better term. What I mean is: limited effort functional and pragmatic
+maps that usually serve an analytical end.
+[^ica]: The International Cartographic Association is an organisation formed of national member
+organisations, to provide a forum for issues and techniques in cartography and geographic
+information science.
+
+[post]: https://somethingaboutmaps.wordpress.com/2026/08/03/a-few-minor-niceties/
+[blog]: https://somethingaboutmaps.wordpress.com/
+[post2]: https://somethingaboutmaps.wordpress.com/2026/07/19/on-sin/
