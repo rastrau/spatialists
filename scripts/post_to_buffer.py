@@ -177,11 +177,8 @@ def save_cache(path: Path, cache: dict[str, Any]) -> None:
 
 
 def post_text(post: BlogPost) -> str:
-    parts = [post.description or post.title]
-    if post.author:
-        parts.append(f"By {post.author}.")
-    parts.append(post.url)
-    return "\n\n".join(parts)
+    parts = [post.description or post.title, "#GIS #geospatial #SwissGIS", post.url]
+    return " ".join(parts)
 
 
 def buffer_graphql(api_key: str, query: str, variables: dict[str, Any]) -> dict[str, Any]:
