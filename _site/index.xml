@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Sun, 02 Aug 2026 11:42:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 10 Aug 2026 21:07:00 GMT</lastBuildDate>
+<item>
+  <title>GeoSQL: Agent skill for geospatial data work</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/08/10-geosql-agent-skill-for-geospatial-data-work/</link>
+  <description><![CDATA[ Volodymyr Bilonenko’s #GeoSQL gives #AIagents a map-in-the-loop for writing and validating spatial SQL across #PostGIS, #BigQuery, #Snowflake, and #Wherobots. By rendering results and checking them against real geography, the #agent catches mistakes a text-only loop can miss. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/08/10-geosql-agent-skill-for-geospatial-data-work/</guid>
+  <pubDate>Mon, 10 Aug 2026 21:07:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/08/10-geosql-agent-skill-for-geospatial-data-work/vackground-com-f0qfw5h-puu-unsplash-1500x1000.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>A practical guide to map projection mistakes</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/06/14-ai-as-a-design-medium/</guid>
   <pubDate>Sun, 14 Jun 2026 21:26:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/06/14-ai-as-a-design-medium/national-gallery-of-art-6BDaPGu-Fp4-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>ZuReach: Accessibility mapping through crowdsourcing</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/06/14-zureach-accessibility-mapping-through-crowdsourcing/</link>
-  <description><![CDATA[ #ZuReach is a participatory research project that uses #crowdsourcing to build comprehensive #sidewalk #accessibility data for Zurich and Winterthur. The project’s new web app – powered by #ProjectSidewalk and high-resolution street-view imagery by iNovitas – lets citizens virtually explore the city and flag accessibility issues, and is currently seeking volunteers. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/06/14-zureach-accessibility-mapping-through-crowdsourcing/</guid>
-  <pubDate>Sun, 14 Jun 2026 16:50:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/06/14-zureach-accessibility-mapping-through-crowdsourcing/zureach-2-cropped.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
