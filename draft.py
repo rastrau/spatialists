@@ -74,8 +74,8 @@ def create_blog_post(days_ahead=0):
     frontmatter = f"""---
 title: "{title}"
 author:
-  - name: {DEFAULT_AUTHOR_NAME}
-    url: {DEFAULT_AUTHOR_URL}
+  - name: "{DEFAULT_AUTHOR_NAME}"
+    url: "{DEFAULT_AUTHOR_URL}"
 date: "{date_time}"
 image: ""
 description: ""
