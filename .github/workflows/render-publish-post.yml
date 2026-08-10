@@ -107,8 +107,8 @@ jobs:
         uses: actions/cache@v5
         with:
           path: ${{ github.workspace }}/buffer-post-cache
-          key: buffer-post-cache-${{ steps.generate-buffer-key.outputs.cache-key }}
-          restore-keys: buffer-post-cache-
+          key: buffer-post-cache-v2-${{ steps.generate-buffer-key.outputs.cache-key }}
+          restore-keys: buffer-post-cache-v2-
 
       - name: Post new blog posts to LinkedIn through Buffer
         env:
@@ -124,4 +124,4 @@ jobs:
             --cache-file "${{ github.workspace }}/buffer-post-cache/cache.json" \
             --lookback-hours 72 \
             --max-posts 3 \
-            --skip-existing-on-first-run
+            --bootstrap-before "2026-08-03 00:00"

@@ -45,6 +45,10 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--mode", default=os.getenv("BUFFER_SHARE_MODE", "shareNow"))
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--skip-existing-on-first-run", action="store_true")
+    parser.add_argument(
+        "--bootstrap-before",
+        help="On first run, mark posts before this local datetime as seen before publishing candidates.",
+    )
     parser.add_argument("--timezone", default="Europe/Zurich")
     parser.add_argument("--api-key", default=os.getenv("BUFFER_API_KEY"))
     parser.add_argument("--channel-id", default=os.getenv("BUFFER_LINKEDIN_CHANNEL_ID"))
@@ -250,6 +254,16 @@ def current_posts_seen(posts_dir: Path, site_url: str, timezone_name: str) -> se
     }
 
 
+def posts_before(
+    posts_dir: Path, site_url: str, timezone_name: str, cutoff: datetime
+) -> set[str]:
+    return {
+        post.url
+        for post in find_posts(posts_dir, site_url, timezone_name)
+        if post.date < cutoff
+    }
+
+
 def main() -> None:
     args = parse_args()
     cache_path = Path(args.cache_file)
@@ -265,7 +279,21 @@ def main() -> None:
         if earliest <= post.date <= now and post.url not in posted_urls
     ][-args.max_posts :]
 
-    if first_run and args.skip_existing_on_first_run:
+    if first_run and args.bootstrap_before:
+        cutoff = parse_date(args.bootstrap_before, args.timezone)
+        if cutoff is None:
+            fail(f"--bootstrap-before is not a valid date: {args.bootstrap_before}")
+        seeded_urls = posts_before(posts_dir, args.site_url, args.timezone, cutoff)
+        print(
+            f"No Buffer cache found; marking {len(seeded_urls)} posts before "
+            f"{args.bootstrap_before} as seen."
+        )
+        posted_urls.update(seeded_urls)
+        cache["posted_urls"] = sorted(posted_urls)
+        if not args.dry_run:
+            save_cache(cache_path, cache)
+        candidates = [post for post in candidates if post.url not in posted_urls]
+    elif first_run and args.skip_existing_on_first_run:
         print("No Buffer cache found; marking current posts as seen without posting.")
         if not args.dry_run:
             cache["posted_urls"] = sorted(
