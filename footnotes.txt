@@ -5,7 +5,6 @@
 [^asit]: The Association pour le Système d'Information du Territoire in Lausanne, Switzerland, aims to promote geoinformation and facilitate the development of geographic data infrastructures by bringing together all relevant stakeholders.
 [^activeradar]: Meaning: SAR systems actively emit electromagnetic energy and receive whatever share of this energy is reflected back to them.
 [^ads-b]: Automatic Dependent Surveillance–Broadcast: A technology that allows aircraft to determine its position via, e.g., satellite navigation and periodically broadcast its position and other related data.
-[^ai]: Artificial intelligence
 [^ais]: Automatic Identification System. AIS devices are installed on ships and emit information such as identification, position, course, and speed of the ship. The combination of SAR with an AIS instrument enables Sentinel-1D to detect so called "dark" ships, i.e., ships that have turned off their AIS to escape detection.
 [^anecdata]: [Anecdotal evidence](https://en.wikipedia.org/wiki/Anecdotal_evidence#Scientific_context)
 [^apache hop]: "Hop" stands for "Hop Orchestration Platform". While the wordmark looks as if “HOP” is all upper-case, the copy of the official website actually calls it “Hop”. The [recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym) maybe being a nod to "GNU"?
@@ -169,6 +168,7 @@
 [^sgs]: The [Swiss Geoinformation Strategy](https://www.geo.admin.ch/de/strategie-und-umsetzung), a national action strategy with annual action plans for the geoinformation sector in Switzerland.
 [^sgsboard]: The organisation tasked with strategic oversight and steering of the implementation of the [Swiss Geoinformation Strategy](https://www.geo.admin.ch/de/strategie-und-umsetzung) from 2020
 [^sitg]: [Système d'Information du Territoire à Genève](https://sitg.ge.ch/).
+[^snowflake]: A cloud-based [data warehouse (DWH)](https://www.snowflake.com/) Platform-as-a-Service offering.
 [^skeuomorphism]: Skeuomorphism in digital user experience design is the approach of making a digital thing look and/or behave like their real-world counterpart.
 [^sogi]: [SOGI-OSIG](https://www.sogi.ch) is the Swiss Organization for Geographic Information founded in 1994. It aims to promote the interdisciplinary application of geoinformation in Switzerland. SOGI-OSIG is a member of the European umbrella organization [EUROGI](https://eurogi.org).
 [^spark]: `Sedona Spark` is a distributed batch analytics and processing engine on Apache Spark clusters.
@@ -191,6 +191,7 @@
 [^vhi]: VHI or Vegetation Health Index is a combination of Vegetation Condition Index (VCI) and Temperature Condition Index (TCI), often used for drought monitoring.
 [^vr]: Virtual reality.
 [^wasm]: WebAssembly.
+[^wherobots]: [Wherobots](https://wherobots.com/) is a cloud platform for large-scale geospatial data processing and analytics, built on Apache Sedona.
 [^wfs]: Web Feature Service, an OGC standard interface for querying and retrieving vector geodata over the web.
 [^who]: World Health Organization.
 [^wkb]: Well-Known Binary.
