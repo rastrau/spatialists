@@ -1,0 +1,44 @@
+---
+title: "GeoSQL: Agent skill for geospatial data work"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-08-10 21:07"
+image: "vackground-com-f0qfw5h-puu-unsplash-1500x1000.jpg"
+description: "Volodymyr Bilonenko's #GeoSQL gives #AIagents a map-in-the-loop for writing and validating spatial SQL across #PostGIS, #BigQuery, #Snowflake, and #Wherobots. By rendering results and checking them against real geography, the #agent catches mistakes a text-only loop can miss."
+---
+
+From [Volodymyr Bilonenko][volodymyr] comes [GeoSQL][geosql], an AI agent skill for working with 
+geospatial data in PostGIS, BigQuery[^bigquery], Snowflake[^snowflake], and Wherobots[^wherobots]. GeoSQL can be used with Claude,
+Codex, and GitHub Copilot, locally or self-hosted, and in conjunction with [Dekart][dekart] if one 
+wishes to do so.
+
+GeoSQL runs an agent loop, with a map in it, that encompasses these steps: 
+
+- Discovery: With GeoSQL, the agent explores the warehouse metadata (tables, columns, types). This 
+works with OMF shares on BigQuery and Snowflake, and with private data in PostGIS, BigQuery, 
+Snowflake, or Wherobots.
+- Writing SQL: The agent writes spatial SQL suitable for the database engine in use.
+- Cost check for BigQuery: BigQuery queries are dry-run to estimate data scanning costs an designed 
+tighter, if necessary.
+- Validating geometries: Using GeoSQL, the agent computes total area (for polygon data) or total 
+length (for linear data) as a sanity check and cross-checks these numbers against domain knowledge.
+- Analysing the map: When available, the agent renders the result through [Dekart][dekart], looks at 
+the rendered image, and corrects mistakes a text-only agentic loop might overlook.
+
+Volodymyr credits the map-in-the-loop for an increase in quality over similar approaches: 
+
+> Dekart [with GeoSQL] gives the agent a map harness, so [the AI] loops on SQL → Map, checking every 
+result against real geography until it holds up, and fixing itself when it doesn’t.
+
+[GeoSQL][geosql] is open-source under the MIT license. Discussion on Hacker News can be found 
+[here][hn].
+
+[volodymyr]: https://www.linkedin.com/in/bilonenko/
+[dekart]: https://dekart.xyz/
+[geosql]: https://github.com/dekart-xyz/geosql
+[hn]: https://news.ycombinator.com/item?id=48829242
+
+[^bigquery]: Google's [data warehouse (DWH) Platform-as-a-Service offering](https://en.wikipedia.org/wiki/BigQuery).
+[^snowflake]: A cloud-based [data warehouse (DWH)](https://www.snowflake.com/) Platform-as-a-Service offering.
+[^wherobots]: [Wherobots](https://wherobots.com/) is a cloud platform for large-scale geospatial data processing and analytics, built on Apache Sedona.
