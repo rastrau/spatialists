@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Mon, 10 Aug 2026 21:07:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 11 Aug 2026 06:24:00 GMT</lastBuildDate>
+<item>
+  <title>Cartographic subtleties</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/08/11-cartographic-subtleties/</link>
+  <description><![CDATA[ Daniel Huffman shares a treasure trove of #cartography tricks on the Something About Maps blog, covering shaded relief, label brackets, blurs and glows, generalisation, and more. A great read (with pointers to other posts) if you want to level up your #map design expertise. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/08/11-cartographic-subtleties/</guid>
+  <pubDate>Tue, 11 Aug 2026 06:24:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/08/11-cartographic-subtleties/blurs-and-glows-1500x1000.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>GeoSQL: Agent skill for geospatial data work</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/06/18-open-visualization-collaborator-summit-2026/</guid>
   <pubDate>Thu, 18 Jun 2026 11:41:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/06/18-open-visualization-collaborator-summit-2026/open-visualization-collaborator-summit-2026.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>AI as a design medium</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/06/14-ai-as-a-design-medium/</link>
-  <description><![CDATA[ Eric Rodenbeck argues in the Harvard Design Magazine that we should treat #AI as a medium to probe rather than a shortcut to faster outputs and draws a parallel to how Google Maps unexpectedly ushered in a golden age of #webmapping in 2005. A thought-provoking read for anyone thinking about the role of AI in #cartographicDesign and beyond. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/06/14-ai-as-a-design-medium/</guid>
-  <pubDate>Sun, 14 Jun 2026 21:26:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/06/14-ai-as-a-design-medium/national-gallery-of-art-6BDaPGu-Fp4-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
