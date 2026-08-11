@@ -91,6 +91,7 @@
 [^hci]: Human-Computer Interaction, the field of research that investigates how people interact with computers and how to design computer systems that are effective and easy to use.
 [^high-resolution]: For global coverage, 30 meter is considered high-resolution.
 [^iceberg]: An open-source, high-performance table format for large datasets in data lakes.
+[^ica]: The International Cartographic Association is an organisation formed of national member organisations, to provide a forum for issues and techniques in cartography and geographic information science.
 [^ifc]: Industry Foundation Classes, an open standard file format for Building Information Modelling (BIM) data exchange.
 [^insar]: Interferometric SAR.
 [^iot]: Internet of Things.
