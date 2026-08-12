@@ -5,7 +5,7 @@
 [^asit]: The Association pour le Système d'Information du Territoire in Lausanne, Switzerland, aims to promote geoinformation and facilitate the development of geographic data infrastructures by bringing together all relevant stakeholders.
 [^activeradar]: Meaning: SAR systems actively emit electromagnetic energy and receive whatever share of this energy is reflected back to them.
 [^ads-b]: Automatic Dependent Surveillance–Broadcast: A technology that allows aircraft to determine its position via, e.g., satellite navigation and periodically broadcast its position and other related data.
-[^ais]: Automatic Identification System. AIS devices are installed on ships and emit information such as identification, position, course, and speed of the ship. The combination of SAR with an AIS instrument enables Sentinel-1D to detect so called "dark" ships, i.e., ships that have turned off their AIS to escape detection.
+[^ais]: Automatic Identification System. AIS devices are installed on ships and emit information such as identification, position, course, and speed of the ship.
 [^anecdata]: [Anecdotal evidence](https://en.wikipedia.org/wiki/Anecdotal_evidence#Scientific_context)
 [^apache hop]: "Hop" stands for "Hop Orchestration Platform". While the wordmark looks as if “HOP” is all upper-case, the copy of the official website actually calls it “Hop”. The [recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym) maybe being a nod to "GNU"?
 [^bfh]: The Berner Fachhochschule or Bern University of Applied Sciences.
@@ -95,6 +95,7 @@
 [^ifc]: Industry Foundation Classes, an open standard file format for Building Information Modelling (BIM) data exchange.
 [^insar]: Interferometric SAR.
 [^iot]: Internet of Things.
+[^ip-geolocation]: IP geolocation is the practice of estimating a device's approximate location from its IP (Internet Protocol) address, typically by looking it up in a database that maps IP address ranges to locations.
 [^isea]: ISEA grids use cells that are regular polygons on the surface of an icosahedron, which are then inversely projected using the Icosahedral Snyder Equal Area (ISEA) map projection to form equal area cells on the sphere.
 [^iso-a3]: ISO 3166-1 alpha-3 country codes. For example, `CHE` for Switzerland, `FRA` for France, `GBR` for the United Kingdom.
 [^iterm2]: A popular terminal app on Mac OS.
@@ -174,7 +175,7 @@
 [^sogi]: [SOGI-OSIG](https://www.sogi.ch) is the Swiss Organization for Geographic Information founded in 1994. It aims to promote the interdisciplinary application of geoinformation in Switzerland. SOGI-OSIG is a member of the European umbrella organization [EUROGI](https://eurogi.org).
 [^spark]: `Sedona Spark` is a distributed batch analytics and processing engine on Apache Spark clusters.
 [^ssv]: Schweizerischer Städteverband.
-[^stac]: STAC stands for "SpatioTemporal Asset Catalog", a modern, open specification for cataloging spatiotemporal data.
+[^stac]: STAC stands for "SpatioTemporal Asset Catalog", a modern, open specification for cataloging spatio-temporal data.
 [^stackoverflow]: Still around, [despite AI](https://daily.dev/blog/did-stack-overflow-just-admit-defeat-to-ai).
 [^stamen]: Stamen Design is a San Francisco-based design and technology studio that specializes in data visualization, cartography, and interactive experiences. You likely have seen some of their [map-centric work](https://stamen.com/work/) and may know some of their web map styles, for example "[Toner](https://maps.stamen.com/toner/#12/37.7706/-122.3782)" and "[Watercolor](https://maps.stamen.com/watercolor/#12/37.7706/-122.3782).
 [^strava]: STRAVA is one of the world's foremost exercise tracking apps with dozens of millions of users and billions of recorded activies. By the way, the name comes from the Swedish "sträva", which means "strive".
