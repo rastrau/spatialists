@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Tue, 11 Aug 2026 06:24:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 12 Aug 2026 18:03:00 GMT</lastBuildDate>
+<item>
+  <title>Listing of geospatial MCP servers</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/08/12-listing-of-geospatial-mcp-servers/</link>
+  <description><![CDATA[ Sparkgeo has mapped and categorised 79 #MCP servers for geospatial work, spanning #geocoding, #routing, #remoteSensing, #STAC catalogs, and desktop GIS integrations. The open, community-maintained list aims to save developers from reinventing geospatial #AI integrations that already exist. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/08/12-listing-of-geospatial-mcp-servers/</guid>
+  <pubDate>Wed, 12 Aug 2026 18:03:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/08/12-listing-of-geospatial-mcp-servers/gabriela-tbwz4f_o8aw-unsplash-1500x1000.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Cartographic subtleties</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/06/20-multi-user-walkability-route-planning/</guid>
   <pubDate>Sat, 20 Jun 2026 16:07:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/06/20-multi-user-walkability-route-planning/mats-hagwall-s1LK1ySk89U-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Open Visualization Collaborator Summit 2026</title>
-  <dc:creator>Ilya Boyandin</dc:creator>
-  <link>https://spatialists.ch/posts/2026/06/18-open-visualization-collaborator-summit-2026/</link>
-  <description><![CDATA[ On September 9–10, 2026, come together with the vis.gl/deck.gl/openvisualization community to discuss the present and future of the leading open source library for geospatial #visualization on the web. #visgl #deckgl #geoda #openvisualization #cosmos #sqlrooms ]]></description>
-  <guid>https://spatialists.ch/posts/2026/06/18-open-visualization-collaborator-summit-2026/</guid>
-  <pubDate>Thu, 18 Jun 2026 11:41:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/06/18-open-visualization-collaborator-summit-2026/open-visualization-collaborator-summit-2026.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
