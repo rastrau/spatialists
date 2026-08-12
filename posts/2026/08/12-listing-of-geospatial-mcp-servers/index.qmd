@@ -1,0 +1,56 @@
+---
+title: "Listing of geospatial MCP servers"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-08-12 18:03"
+image: "gabriela-tbwz4f_o8aw-unsplash-1500x1000.jpg"
+description: "Sparkgeo has mapped and categorised 79 #MCP servers for geospatial work, spanning #geocoding, #routing, #remoteSensing, #STAC catalogs, and desktop GIS integrations. The open, community-maintained list aims to save developers from reinventing geospatial #AI integrations that already exist."
+---
+
+[Sparkgeo][sparkgeo] has compiled a list of (at the time of writing) 79 MCP[^mcp] servers for 
+various geospatial tasks. The list is maintained in [a GitHub repository][repo]; the servers are 
+organised in the following categories, sorted by decreasing number of entries in each category:
+
+- Maps, tiles & commercial platforms (16)
+- Remote sensing, STAC[^stac] & earth observation (13)
+- Geocoding & place search (12)
+- Weather & climate (11)
+- Desktop & enterprise GIS (QGIS, ArcGIS) (9)
+- Aviation & maritime tracking (ADS-B[^ads-b], AIS[^ais]) (5)
+- Other (IP geolocation[^ip-geolocation], misc) (5)
+- General GIS / geoprocessing toolkits (4)
+- Spatial databases & analytics (3)
+- Routing, isochrones & navigation (1)
+
+Users can add more servers by [opening an issue][issue] or submitting a pull request. The repository 
+further features a Claude Code skill that can recommend servers from the list.
+
+The [announcement][announcement] covers the *raison d'être* well:
+
+> MCP gives AI assistants a standard way to call external tools and data sources instead of relying 
+on custom, one-off integrations. Since Anthropic introduced the protocol in late 2024, the 
+geospatial community has built dozens of servers wrapping geocoders, routing engines, STAC catalogs, 
+weather APIs, and desktop GIS software.
+> 
+> The problem is that these servers are scattered across individual repos with no shared index. 
+(...) `geo-mcp-servers` exists to close that gap: one place to check before building a new server 
+from scratch, and one place to list a server after building it.
+
+[sparkgeo]: https://www.sparkgeo.com/
+[repo]: https://github.com/sparkgeo/geo-mcp-servers
+[issue]: https://github.com/sparkgeo/geo-mcp-servers/issues/new?template=new-server.yml
+[announcement]: https://sparkgeo.com/blog/77-geospatial-mcp-servers-mapped-and-categorized/
+
+[^mcp]: Model Context Protocol, an open standard (introduced by Anthropic in late 2024) that lets AI 
+applications connect to external tools, data sources, and services through a common interface.
+[^stac]: STAC stands for "SpatioTemporal Asset Catalog", a modern, open specification for cataloging 
+spatio-temporal data.
+[^ads-b]: Automatic Dependent Surveillance–Broadcast: A technology that allows aircraft to determine 
+its position via, e.g., satellite navigation and periodically broadcast its position and other 
+related data.
+[^ais]: Automatic Identification System. AIS devices are installed on ships and emit information 
+such as identification, position, course, and speed of the ship. 
+[^ip-geolocation]: IP geolocation is the practice of estimating a device's approximate location from 
+its IP (Internet Protocol) address, typically by looking it up in a database that maps IP address 
+ranges to locations.
