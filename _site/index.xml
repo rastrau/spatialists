@@ -16,7 +16,16 @@
 <link>https://spatialists.ch/</link>
 </image>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Wed, 12 Aug 2026 18:03:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 15 Aug 2026 17:19:00 GMT</lastBuildDate>
+<item>
+  <title>MCP server for Swiss federal geodata</title>
+  <dc:creator>Ralph Straumann</dc:creator>
+  <link>https://spatialists.ch/posts/2026/08/15-mcp-server-for-swiss-federal-geodata/</link>
+  <description><![CDATA[ Hayal Oezkan’s swisstopo-mcp gives #AI #agents access to Swiss federal #geodata through 20 tools spanning the #Swisstopo REST API, the federal #STAC catalog, the #ÖREB/#RDPPF cadastre, and #OSM. This is currently the bridge between the Model Context Protocol #MCP and the Federal Spatial Data Infrastructure. ]]></description>
+  <guid>https://spatialists.ch/posts/2026/08/15-mcp-server-for-swiss-federal-geodata/</guid>
+  <pubDate>Sat, 15 Aug 2026 17:19:00 GMT</pubDate>
+  <media:content url="https://spatialists.ch/posts/2026/08/15-mcp-server-for-swiss-federal-geodata/tim-witzdam-ywybu5v3fli-unsplash-1500x1000.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Listing of geospatial MCP servers</title>
   <dc:creator>Ralph Straumann</dc:creator>
@@ -187,15 +196,6 @@
   <guid>https://spatialists.ch/posts/2026/06/20-geoforge-geneva-tests-map-ai-publicly/</guid>
   <pubDate>Sat, 20 Jun 2026 21:15:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/06/20-geoforge-geneva-tests-map-ai-publicly/geoforge.png" medium="image" type="image/png" height="96" width="144"/>
-</item>
-<item>
-  <title>Multi-user walkability route planning</title>
-  <dc:creator>Ralph Straumann</dc:creator>
-  <link>https://spatialists.ch/posts/2026/06/20-multi-user-walkability-route-planning/</link>
-  <description><![CDATA[ Transform Transport presents a methodology for #pedestrian #routing tailored to distinct user groups, derived from clustering survey respondents by their preferences among 33 #walkability indicators. The result is an #OSM- and indicator-based routing approach that generates optimal walking routes personalised to health-conscious, safety-conscious, and other user groups. ]]></description>
-  <guid>https://spatialists.ch/posts/2026/06/20-multi-user-walkability-route-planning/</guid>
-  <pubDate>Sat, 20 Jun 2026 16:07:00 GMT</pubDate>
-  <media:content url="https://spatialists.ch/posts/2026/06/20-multi-user-walkability-route-planning/mats-hagwall-s1LK1ySk89U-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
