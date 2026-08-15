@@ -132,6 +132,7 @@
 [^nmga]: National mapping and geospatial agency.
 [^north51]: NORTH51 is an annual conference in Canada, a [self-described](https://www.n51.ca/who-we-are) "dynamic gathering that embodies the spirit of modernization in the geospatial industry (...) [uniting] entrepreneurs passionate about bringing a platform to the industry to share grand, global, market-changing ideas."
 [^od-matrices]: Origin-Destination matrices: Tables capturing information about flows (for example, trips, commutes) between pairs of origin and destination locations in a study area.
+[^oereb]: "Öffentlich-rechtliche Eigentumsbeschränkungen", the German name for Switzerland's public-law restrictions on landownership.
 [^ogd]: Open Government Data: The movement or policy of the public sector to publish their data openly.
 [^ogc]: Open Geospatial Consortium.
 [^omf]: The [Overture Maps Foundation](https://overturemaps.org/) is an industry consortium (members include Amazon, Meta, Microsoft, and TomTom) that produces openly-licensed map data, building primarily on OpenStreetMap data.
@@ -159,8 +160,10 @@
 [^r]: R is a programming language for statistical computing and data analysis.
 [^rag]: Retrieval-Augmented Generation is a technique that augments a language model by retrieving relevant information from a knowledge base and providing that context to the model together with the query.
 [^rapidmapping]: Rapid Mapping is a federal government service that collects and makes available aerial or satellite imagery following natural disasters in order to document and manage such events.
+[^rdppf]: Restrictions de droit public à la propriété foncière, the French name for Switzerland's public-law restrictions on landownership.
 [^reflectance]: The S2-SR product corrects for atmospheric effects, making the data useful for time series analysis and direct comparison.
 [^repl-environment]: "[Read-Eval-Print Loop](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)" for interactive development and piecewise execution of code. Typical REPL environments in the data domain are [Jupyter Notebooks](https://jupyter.org/) and maybe [Observable Notebooks](https://observablehq.com/platform/notebooks).
+[^rest]: Representational State Transfer, an architectural style for web APIs that uses standard HTTP methods to access and manipulate resources identified by URLs.
 [^rmse]: Root mean square error.
 [^rts]: Radio Télévision Suisse.
 [^s2]: Based on a cube projection and the Hilbert curve.
