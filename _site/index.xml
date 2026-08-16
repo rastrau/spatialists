@@ -21,7 +21,7 @@
   <title>MCP server for Swiss federal geodata</title>
   <dc:creator>Ralph Straumann</dc:creator>
   <link>https://spatialists.ch/posts/2026/08/15-mcp-server-for-swiss-federal-geodata/</link>
-  <description><![CDATA[ Hayal Oezkan’s swisstopo-mcp gives #AI #agents access to Swiss federal #geodata through 20 tools spanning the #Swisstopo REST API, the federal #STAC catalog, the #ÖREB/#RDPPF cadastre, and #OSM. This is currently the bridge between the Model Context Protocol #MCP and the Federal Spatial Data Infrastructure. ]]></description>
+  <description><![CDATA[ Hayal Oezkan’s swisstopo-mcp gives #AI #agents access to official Swiss #geodata through 20 tools spanning the #Swisstopo REST API, the federal #STAC catalog, the #ÖREB/#RDPPF cadastre, #OSM, and more. This is currently the bridge between the Model Context Protocol #MCP and the Federal and National Spatial Data Infrastructure. ]]></description>
   <guid>https://spatialists.ch/posts/2026/08/15-mcp-server-for-swiss-federal-geodata/</guid>
   <pubDate>Sat, 15 Aug 2026 17:19:00 GMT</pubDate>
   <media:content url="https://spatialists.ch/posts/2026/08/15-mcp-server-for-swiss-federal-geodata/tim-witzdam-ywybu5v3fli-unsplash-1500x1000.jpg" medium="image" type="image/jpeg"/>
