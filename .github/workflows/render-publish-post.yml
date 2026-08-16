@@ -27,15 +27,6 @@ jobs:
       - name: Render
         uses: quarto-dev/quarto-actions/render@v2
 
-      - name: Push contents of _site folder to repo
-        uses: github-actions-x/commit@v2.9
-        with:
-          push-branch: 'main'
-          commit-message: 'Render website'
-          force-add: 'true'
-          files: _site/ 
-          name: autoupdate
-
       - name: Copy quarto rendered static files to FTP Server
         uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
