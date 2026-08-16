@@ -5,7 +5,7 @@ author:
     url: "https://ralphstraumann.ch"
 date: "2026-08-15 17:19"
 image: "tim-witzdam-ywybu5v3fli-unsplash-1500x1000.jpg"
-description: "Hayal Oezkan's swisstopo-mcp gives #AI #agents access to Swiss federal #geodata through 20 tools spanning the #Swisstopo REST API, the federal #STAC catalog, the #ÖREB/#RDPPF cadastre, and #OSM. This is currently _the_ bridge between the Model Context Protocol #MCP and the Federal Spatial Data Infrastructure."
+description: "Hayal Oezkan's swisstopo-mcp gives #AI #agents access to official Swiss #geodata through 20 tools spanning the #Swisstopo REST API, the federal #STAC catalog, the #ÖREB/#RDPPF cadastre, #OSM, and more. This is currently _the_ bridge between the Model Context Protocol #MCP and the Federal and National Spatial Data Infrastructure."
 ---
 
 [Hayal Oezkan][hayal] has created an MCP[^mcp] server to interface with the 
