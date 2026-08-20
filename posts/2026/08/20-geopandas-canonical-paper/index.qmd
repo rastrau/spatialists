@@ -1,0 +1,35 @@
+---
+title: "GeoPandas: Canonical paper"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-08-20 20:13"
+image: "geopandas.jpg"
+description: "#GeoPandas finally has its #canonicalpaper, two years after the 1.0 release it was meant to accompany. Martin Fleischmann and seven co-authors lay out the library's history, core components, and #openscience roadmap in a #openaccess article at ScienceDirect."
+---
+
+Martin Fleischmann, Joris Van den Bossche, Kelsey Jordahl, Matthew John Richards, James McBride,
+Jacob Wasserman, Brendan Ward, and Levi John Wolf have published the canonical paper[^canonical] on
+GeoPandas[^geopandas]: "[GeoPandas: Fundamental data structures for vector spatial data in 
+Python][paper]". The paper is open access at ScienceDirect. From the introduction:
+
+> Spatial analysis, within the field of urban science or beyond, is ultimately enabled by tools. 
+Hence, the tools that we use must be accessible, freely re-distributed, and be simple to build upon. 
+Python has become one of the key languages for (spatial) data science and therefore must have 
+reliable tools that achieve these objectives. In this article, we outline some of the fundamental 
+tools for spatial data science in Python. Core among them is GeoPandas, an open-source library that 
+provides data structures and methods to handle spatial data using vector geometries, and is designed 
+with a user-friendly API to simplify spatial data handling.
+
+The paper was published roughly 2 years after GeoPandas 1.0 (which it [was supposed to
+accompany][supposed]). The paper covers GeoPandas's history, its core components, dependencies, and
+ecosystem, and points out limitations as well as future directions for development.
+
+![Dependencies of GeoPandas (source: Fleischmann et al. 2026)](dependencies.jpg "Dependencies of GeoPandas (source: Fleischmann et al. 2026)")
+
+[paper]: https://doi.org/10.1016/j.compenvurbsys.2026.102495
+[^canonical]: A canonical paper is a foundational academic publication that is intended to serve as 
+the standard reference for a topic, in this case GeoPandas.
+[^geopandas]: [`GeoPandas`](https://geopandas.org/en/stable/getting_started/introduction.html) is an 
+extension to the popular data science library `Pandas` that enables support for geospatial data.
+[supposed]: https://fosstodon.org/@geopandas/117112554571679594
