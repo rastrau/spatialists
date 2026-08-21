@@ -81,6 +81,7 @@
 [^gnns]: Graph Neural Networks (GNNs) are a class of deep learning models designed to operate directly on graph-structured data by learning representations through aggregating information from neighboring nodes and edges.
 [^gnss]: Global Navigation Satellite System. For example: Galileo or GPS.
 [^gothamist]: The [Gothamist](https://gothamist.com) is a "non-profit newsroom" about "New York City news, arts, events and food" published by [New York Public Radio](https://www.nypublicradio.org/).
+[^gpx]: GPS Exchange Format, an open XML-based file format for exchanging waypoints, tracks, and routes between GPS devices and applications.
 [^gps]: Global Positioning System, a US GNSS or Global Navigation Satellite System.
 [^gretl]: Gradle ETL (extract-transform-load).
 [^grid]: Grid (tagline: "is not a journal") has been published since fall 2024 and [describes itself](https://gridisnotajournal.de/%C3%BCber-grid/) as "deal[ing] with the mutual transformations of society, technology and space in the age of digital media, infrastructures, data and algorithms". The aim of grid is to create a publication format that enables an exchange among scientists, but also makes this exchange accessible to a broader public.
