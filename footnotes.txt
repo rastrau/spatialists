@@ -76,6 +76,7 @@
 [^germany-austria-switzerland-liechtenstein]: Colloquially, this region can be called "D-A-CH-LI" in German – as a contraction of the countries' abbreviations.
 [^gers]: The [Global Entity Reference System](https://www.spatialists.ch/posts/2025/06/28-omf-launches-gers/) by the Overture Map Foundation (OMF).
 [^ggmm]: The [SOGI GGMM](https://www.sogi.ch/de/netzwerke/standards) is the working group on "geonorms and the model-based method" of the [Swiss Organization for Geoinformation](https://www.sogi.ch/en) (SOGI/OSIG).
+[^giscience]: Geographic Information Science, the scientific study of the fundamental concepts, methods, and theories underlying geographic information systems and geospatial data.
 [^gist]: A short piece of code, text, or data hosted on GitHub.
 [^globalremotesensing]: Well, due to the inclined orbit of course not *truly* global.
 [^gnns]: Graph Neural Networks (GNNs) are a class of deep learning models designed to operate directly on graph-structured data by learning representations through aggregating information from neighboring nodes and edges.
@@ -192,6 +193,8 @@
 [^tippecanoe]: The name is a [joking reference](https://github.com/mapbox/tippecanoe?tab=readme-ov-file#name) to [a "tiler" (or "Tyler")](https://en.wikipedia.org/wiki/Tippecanoe_and_Tyler_Too) and more basically a river, county and a [battleground](https://en.wikipedia.org/wiki/Battle_of_Tippecanoe).
 [^toponyms]: Place names.
 [^tum]: Technical University Munich, Germany.
+[^ucgis]: University Consortium for Geographic Information Science.
+[^ucsb]: University of California, Santa Barbara.
 [^uml]: Unified Modeling Language.
 [^uvs]: Union des Villes Suisses.
 [^vhi]: VHI or Vegetation Health Index is a combination of Vegetation Condition Index (VCI) and Temperature Condition Index (TCI), often used for drought monitoring.
