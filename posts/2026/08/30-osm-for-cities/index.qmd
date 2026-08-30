@@ -1,0 +1,18 @@
+---
+title: "OSM for cities"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-08-30 17:16"
+image: ""
+description: ""
+---
+
+*OSM for Cities*, initiated by [Vitor George][vitor], is a platform which enables users to explore data and automatically receive updates from OpenStreetMap.
+
+![](osm-for-cities.jpg "")
+
+The project is [open-source][repo], under the MIT license.
+
+[vitor]: https://github.com/vgeorge
+[repo]: https://github.com/osmforcities/osmforcities
