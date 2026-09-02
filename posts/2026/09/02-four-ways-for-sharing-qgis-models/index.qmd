@@ -1,0 +1,24 @@
+---
+title: "Four ways for sharing QGIS models"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-09-02 22:52"
+image: "qgis-model-1500x1000.jpg"
+description: "Geotribu rounds up four ways to share your #QGIS models with a team, from keeping them private within an organisation to publishing them for anyone to reuse. A handy reference if collaborative #geoprocessing #workflows are part of your QGIS toolkit."
+---
+
+Geotribu features a [concise write-up][article] explaining four ways to share a geospatial workflows 
+as [QGIS models][models]: one that keeps your models private to your organisation and three that 
+don't[^dont]. (The article's title says "five", but very much tongue in cheek). 
+
+Interesting to [check out][article] if you use the QGIS Model Designer to work on workflows with a 
+team.
+
+![A QGIS model (source: QGIS Documentation)](qgis-model-1500x1000.jpg "A QGIS model (source: QGIS Documentation)")
+
+[^dont]: At least I think that the *Resource Sharing* method does not accomodate private 
+repositories, but I may be wrong.
+
+[article]: https://blog.geotribu.net/2026/09/01/how-to-share-your-qgis-models-easily/
+[models]: https://docs.qgis.org/3.44/en/docs/user_manual/processing/modeler.html
