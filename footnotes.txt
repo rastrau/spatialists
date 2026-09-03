@@ -70,6 +70,7 @@
 [^geoai]: The application of AI on geospatial data and for answering spatial questions.
 [^geopackage]: An open SQLite-based container format for geospatial data, defined by the [OGC](https://www.ogc.org/).
 [^geods]: The [Geographic Data Service or GeoDS](https://geods.ac.uk/) is a UK academic service, funded by Smart Data Research UK and operating across four universities, that leads academic collaboration with industry, government, and the third sector to extract value from smart data.
+[^geojson]: An open standard format for encoding vector spatial data structures using JSON (JavaScript Object Notation).
 [^geomorphometry]: The science of measuring and quantifying terrain or the the shape of the Earth's surface.
 [^geopandas]: [`GeoPandas`](https://geopandas.org/en/stable/getting_started/introduction.html) is an extension to the popular data science library `Pandas` that enables support for geospatial data.
 [^german]: Only available in German at the moment, as far as I could find out.
