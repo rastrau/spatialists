@@ -3,7 +3,7 @@ title: "OSM for cities"
 author:
   - name: "Ralph Straumann"
     url: "https://ralphstraumann.ch"
-date: "2026-08-30 17:16"
+date: "2026-09-03 08:02"
 image: "osm-for-cities-1500x1000.jpg"
 description: "Vitor George's #OSMforCities lets you visually explore #OpenStreetMap data for your area of interest, download it as #GeoJSON, and subscribe to daily or weekly email digests when watched features change. An elegant, MIT-licensed service for keeping tabs on #OSM signals and spotting real-world developments through #changeDetection."
 ---
