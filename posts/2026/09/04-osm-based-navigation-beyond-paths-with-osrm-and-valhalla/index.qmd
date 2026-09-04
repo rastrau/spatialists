@@ -1,0 +1,44 @@
+---
+title: "OSM-based navigation beyond paths with OSRM and Valhalla"
+author:
+  - name: "Stefan Keller"
+    url: "https://www.linkedin.com/in/stefan-keller-44785a10/"
+date: "2026-09-04 09:03"
+image: "osrm-routing-990x660.jpg"
+description: "While mainstream #webmaps still route #pedestrians around the edges of open spaces, #OpenStreetMap engines like #OSRM and #Valhalla make the leap to true area #routing across squares and other open spaces. This shift beyond line-based paths brings digital #navigation much closer to real-world human movement and urban #walkability."
+---
+
+There has been an increase in attention surrounding pedestrian routing, as two prominent 
+OpenStreetMap-based[^transp] routing engines, [OSRM](http://project-osrm.org/) and 
+[Valhalla](https://github.com/valhalla/valhalla), have started to calculate routes not just along 
+paths, but also across walkable surfaces such as squares, pedestrian zones and station forecourts. 
+This brings routing much closer to actual human movement. As far as I know, Google Maps does not 
+yet offer this feature, often offering detours around the perimeter of large squares instead.
+
+OSRM is used by the [main OSM homepage](https://www.openstreetmap.org/), the [OSM homepage 
+Switzerland](https://routing.osm.ch/?srv=3) and [Mapbox](https://www.mapbox.com/), among 
+others.[^disclaimer] Valhalla is used in [Apple services](https://maps.apple.com/) and various 
+OSM-centric geospatial projects.
+
+![Traditional routing around a square and improved routing in OSRM (source: Project OSRM)](osrm-example.jpg "Traditional routing around a square and improved routing in OSRM (source: Project OSRM)")
+
+The two engines take different approaches to offer the new functionality: Valhalla generates an 
+internal routing graph for pedestrian areas, enabling large squares or pedestrian zones to be 
+crossed quasi-naturally, even when no individual paths are mapped. OSRM introduces a model called 
+"Open Area Routing" (also referred to as "Plaza Routing"), which explicitly accounts for surfaces. 
+Origins and destinations can lie inside an area and its geometry is factored directly into route and 
+distance calculations.
+
+For users, this means more realistic pedestrian routes across market squares, university campuses, 
+and other open spaces. This development highlights a trend: while navigation has historically 
+focused heavily on cars, the needs of pedestrians are coming into sharper focus – at least within 
+the OSM ecosystem. Area routing is a milestone towards maps and routing services that better reflect 
+human freedom of movement.
+
+If you want to dig deeper: See [OSRM Open Area Routing][osrm] and [Valhalla Pedestrian Areas][valhalla]
+
+[^transp]: Transparency note: I am a board member of the [Swiss OpenStreetMap Association](https://sosm.ch).
+[^disclaimer]: Note: It usually takes some time until the newest OSRM version is deployed in the end user web applications.
+
+[osrm]: https://github.com/Project-OSRM/osrm-backend/pull/7161
+[valhalla]: https://valhalla.github.io/valhalla/concepts/pedestrian-areas/
