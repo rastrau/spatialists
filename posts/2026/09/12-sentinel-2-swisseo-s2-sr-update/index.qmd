@@ -41,6 +41,7 @@ newly scaled pixel values of the spectral bands.
 ![swissEO S2 SR over Lac de Neuchâtel, Murtensee, and Lac de Bienne, Switzerland](sentinel-2-s2-sr.jpg "swissEO S2 SR over Lac de Neuchâtel, Murtensee, and Lac de Bienne, Switzerland")
 
 [sr]: https://www.swisstopo.admin.ch/en/satelliteimage-swisseo-s2-sr
+[announcement]: https://www.geowebforum.ch/t/sentinel-2-swisseo-s2-sr-v200-ist-da-alle-13-baender-schnellere-verfuegbarkeit-neue-wolken-und-schattenmaske/
 
 [^swisstopo]: The Federal Office of Topography of Switzerland.
 [^cogs]: Cloud-optimized GeoTIFFs
