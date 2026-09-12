@@ -16,7 +16,7 @@
 [^choropleth]: A thematic map that uses different colors or shading of areas to represent data.
 [^cli]: Command-line interface.
 [^clis]: Command line interfaces.
-[^cloud-native]: I.e., taking full advantage of the cloud computing model; in the data world typically through enabling [partial downloads](https://blog.sogeo.services/blog/2023/12/29/statuscode-206-letsgetstarted.html) of file contents through so-called [HTTP range requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests).
+[^cloud-native]: I.e., taking full advantage of the cloud computing model; in the data world typically through enabling partial downloads of file contents through so-called [HTTP range requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests).
 [^cng]: CNG.
 [^cog]: Cloud-optimized GeoTIFF
 [^conda]: A cross-platform, open-source package and environment management system widely used in the data science and scientific computing ecosystems.
