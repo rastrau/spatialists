@@ -1,0 +1,44 @@
+---
+title: "Cloud-native in Switzerland"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-09-12 14:39"
+image: "tomasz-sroka-eaxgNP4cpY8-unsplash.jpg"
+description: "Switzerland's #CNG community is gathering on 29 October at Meta's offices in Zurich for talks and demos, while a KGK-CGC workshop already dug into practical experience with #CloudNativeGeospatial data formats. Slides and a curated list of resources on when (and when not) to go cloud-native are now public."
+---
+
+Two interesting updates around cloud-native[^cloud-native] geospatial in Switzerland:
+
+# CNG Zürich
+
+For 29 October, the Swiss CNG[^cng] community will gather in the Zurich office of Meta from 14:00 to 
+21:00 for "talks, demos, and community with (...) practitioners", with a reception starting at 
+18:30. For now, there is only a "save-the-date", [more details will follow][cngz]. 
+
+![CNG Forum (source: CNG Forum)](cng-1500x1000.jpg "CNG Forum (source: CNG Forum)")
+
+# KGK-CGC Workshop
+
+On 3 September, the KGK-CGC[^kgk-cgc] held a Technical Workshop. One of the workshop topics was 
+cloud-native geospatial. My colleague Stefan Oderbolz and I[^transp], gave a talk about practical 
+experience with various cloud-native data formats and how to deploy and use them (and when not to). 
+Additionally, specialists from both the [Land Registry and Surveying Office of the Canton of 
+Basel-Stadt][bs] and the [Office for Geoinformation of the Canton of Solothurn][so] also presented 
+on cloud-native geospatial from their perspectives. To my knowledge, their talks are not public 
+(yet? – I will share them here if I get an update). Stefan and I published [our slides][cng-post] 
+(in German) as well as a broad [selection of cloud-native geospatial resources][cng-page] (in 
+English).
+
+[cngz]: https://cloudnativegeo.org/events/cng-z%C3%BCrich
+[bs]: https://www.bs.ch/bvd/grundbuch-und-vermessungsamt
+[so]: https://so.ch/verwaltung/bau-und-justizdepartement/amt-fuer-geoinformation/
+[cng-post]: https://digital.ebp.ch/2026/09/08/cloud-native-geospatial-vortrag-am-kgk-workshop/
+[cng-page]: https://digital.ebp.ch/cng/
+
+[^cloud-native]: I.e., taking full advantage of the cloud computing model; in the data world 
+typically through enabling partial downloads of file contents through so-called [HTTP range 
+requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests).
+[^cng]: Cloud-native geospatial.
+[^kgk-cgc]: The Conference of the Cantonal Geoinformation and Cadastral Offices in Switzerland.
+[^transp]: Obvious transparency note here.
