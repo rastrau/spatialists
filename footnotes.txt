@@ -6,10 +6,10 @@
 [^activeradar]: Meaning: SAR systems actively emit electromagnetic energy and receive whatever share of this energy is reflected back to them.
 [^ads-b]: Automatic Dependent Surveillance–Broadcast: A technology that allows aircraft to determine its position via, e.g., satellite navigation and periodically broadcast its position and other related data.
 [^ais]: Automatic Identification System. AIS devices are installed on ships and emit information such as identification, position, course, and speed of the ship.
-[^anecdata]: [Anecdotal evidence](https://en.wikipedia.org/wiki/Anecdotal_evidence#Scientific_context)
+[^anecdata]: [Anecdotal evidence](https://en.wikipedia.org/wiki/Anecdotal_evidence#Scientific_context).
 [^apache hop]: "Hop" stands for "Hop Orchestration Platform". While the wordmark looks as if “HOP” is all upper-case, the copy of the official website actually calls it “Hop”. The [recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym) maybe being a nod to "GNU"?
 [^bfh]: The Berner Fachhochschule or Bern University of Applied Sciences.
-[^bfs]: Breadth-First Search
+[^bfs]: Breadth-First Search.
 [^bigquery]: Google's [data warehouse (DWH) Platform-as-a-Service offering](https://en.wikipedia.org/wiki/BigQuery).
 [^billion]: To be clear: "Milliarden" in German, "milliards" in French.
 [^canonicalpaper]: A canonical paper is a foundational academic publication that is intended to serve as the standard reference for a topic, in this case the QGIS project.
@@ -18,22 +18,21 @@
 [^clis]: Command line interfaces.
 [^cloud-native]: I.e., taking full advantage of the cloud computing model; in the data world typically through enabling partial downloads of file contents through so-called [HTTP range requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests).
 [^cng]: CNG.
-[^cog]: Cloud-optimized GeoTIFF
+[^cog]: Cloud-optimized GeoTIFF.
 [^conda]: A cross-platform, open-source package and environment management system widely used in the data science and scientific computing ecosystems.
-[^cogs]: Cloud-optimized GeoTIFFs
-[^copc]: Cloud-optimized point cloud
-[^copcs]: Cloud-optimized point clouds
-[^correctly]: [corrections welcome](mailto:mail@spatialists.ch)
-[^cors]: Cross-Origin Resource Sharing
+[^cogs]: Cloud-optimized GeoTIFFs.
+[^copc]: Cloud-optimized point cloud.
+[^correctly]: [corrections welcome](mailto:mail@spatialists.ch).
+[^cors]: Cross-Origin Resource Sharing.
 [^cran]: The "[Comprehensive R Archive Network](https://cran.r-project.org/)", the central package manager of the R ecosystem, similar to [PyPi](https://pypi.org/project/pip/) for Python.
 [^crs]: Coordinate reference system.
-[^cto]: Chief Technology Officer
-[^dag]: Directed Acyclic Graph
-[^dags]: Directed Acyclic Graphs
+[^cto]: Chief Technology Officer.
+[^dag]: Directed Acyclic Graph.
+[^dags]: Directed Acyclic Graphs.
 [^dashboards]: Be aware of the dashboard trap: [Building useless dashboards](https://www.reddit.com/r/BusinessIntelligence/comments/z335op/building_useless_dashboards/).
-[^dem]: Digital elevation model
+[^dem]: Digital elevation model.
 [^dependency]: In the context of software, "dependency" describes the relationship where one software component (`A`) relies on another (`B`) to function. In this case, `B` is a dependency of `A`.
-[^dfs]: Depth-First Search
+[^dfs]: Depth-First Search.
 [^dggs]: Discrete Global Grid System.
 [^dggss]: Discrete Global Grid Systems.
 [^dizh]: The [DIZH](https://www.dizh.uzh.ch) is the "Digitalization Initiative of the Zurich Higher Education Institutions". The University of Zurich (UZH), the Zurich University of Applied Sciences (ZHAW), the Zurich University of the Arts (ZHdK) and the Zurich University of Teacher Education (PHZH) form the DIZH network. The [mission](https://www.dizh.uzh.ch/en/about-us/mission/) of the DIZH is to "promote cooperation on digitalization issues between higher education institutions in Zurich, thereby strengthening the greater Zurich area as a hub for research and business".
@@ -43,12 +42,12 @@
 [^earth-embedding]: A geospatial embedding is a compact, high-dimensional vector representation of a geospatial location, scene, or feature, learned so that similar places or patterns end up close together in vector space.
 [^ebp]: Transparency note: I work here.
 [^edzerpebesma]: Among other things, Edzer Pebesma is the [maintainer of various R packages](https://www.r-pkg.org/maint/edzer.pebesma@uni-muenster.de), among them `sf` and `sp`.
-[^embag]: Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG)
+[^embag]: Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG).
 [^epsg]: The [EPSG Geodetic Parameter Dataset](https://epsg.org/) is a public registry of coordinate reference systems. "EPSG" stands for "European Petroleum Survey Group", the body that originally created it. The dataset assigns numeric codes to CRSs (e.g., EPSG:4326 for WGS 1984).
 [^emota]: The Federal Act on the Use of Electronic Means to Carry Out Official Tasks. "[EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de)" in German and "[LMETA](https://www.fedlex.admin.ch/eli/cc/2023/682/fr)" in French.
 [^enshittification]: "Enshittification" is a term coined by writer [Cory Doctorow](https://en.wikipedia.org/wiki/Cory_Doctorow) for the mechanisms prevalent specifically in two-sided online platforms and services. Think, for example, web search which serves two sides of the market with -- often -- conflicting interests, namely the (end-)users and (enshittification says: over time, more and more) the advertising customers.
-[^eo]: Earth observation
-[^esa]: European Space Agency
+[^eo]: Earth observation.
+[^esa]: European Space Agency.
 [^ethz]: ETHZ is the Zurich branch of the Swiss Federal Institute for Technology.
 [^etl]: Extract-transform-load.
 [^ewkt]: Extended Well-Known Text, a PostGIS extension of [WKT](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry) that includes the spatial reference system identifier (SRID) of the encoded geometry.
@@ -73,6 +72,7 @@
 [^geojson]: An open standard format for encoding vector spatial data structures using JSON (JavaScript Object Notation).
 [^geomorphometry]: The science of measuring and quantifying terrain or the the shape of the Earth's surface.
 [^geopandas]: [`GeoPandas`](https://geopandas.org/en/stable/getting_started/introduction.html) is an extension to the popular data science library `Pandas` that enables support for geospatial data.
+[^geoparquet]: [GeoParquet](https://geoparquet.org/) is an open-source specification that adds interoperable geospatial types to [Parquet](https://parquet.apache.org/), enabling efficient storage and columnar access of vector geodata.
 [^german]: Only available in German at the moment, as far as I could find out.
 [^germany-austria-switzerland-liechtenstein]: Colloquially, this region can be called "D-A-CH-LI" in German – as a contraction of the countries' abbreviations.
 [^gers]: The [Global Entity Reference System](https://www.spatialists.ch/posts/2025/06/28-omf-launches-gers/) by the Overture Map Foundation (OMF).
@@ -127,13 +127,13 @@
 [^mermaid]: [Mermaid](https://github.com/mermaid-js/mermaid#readme) is a JavaScript-based diagramming tool that takes Markdown-inspired text definitions and creates diagrams dynamically. Mermaid is supported in GitHub, for example.
 [^ml]: Machine learning.
 [^mvt]: Mapbox Vector Tiles.
-[^nacis]: [North American Cartographic Information Society.](https://nacis.org/)
+[^nacis]: [North American Cartographic Information Society.](https://nacis.org/).
 [^nanobanana]: Nano Banana is an image-generation model.
 [^nasa]: National Aeronautics and Space Administration of the USA.
 [^networkx]: NetworkX is a Python library for the creation, manipulation, and study of networks and graphs.
 [^nma]: National Mapping Agency.
 [^nmga]: National mapping and geospatial agency.
-[^north51]: NORTH51 is an annual conference in Canada, a [self-described](https://www.n51.ca/who-we-are) "dynamic gathering that embodies the spirit of modernization in the geospatial industry (...) [uniting] entrepreneurs passionate about bringing a platform to the industry to share grand, global, market-changing ideas."
+[^north51]: NORTH51 is an annual conference in Canada, a [self-described](https://www.n51.ca/who-we-are) "dynamic gathering that embodies the spirit of modernization in the geospatial industry (...) [uniting] entrepreneurs passionate about bringing a platform to the industry to share grand, global, market-changing ideas.".
 [^od-matrices]: Origin-Destination matrices: Tables capturing information about flows (for example, trips, commutes) between pairs of origin and destination locations in a study area.
 [^oereb]: "Öffentlich-rechtliche Eigentumsbeschränkungen", the German name for Switzerland's public-law restrictions on landownership.
 [^ogd]: Open Government Data: The movement or policy of the public sector to publish their data openly.
@@ -172,9 +172,10 @@
 [^s2]: Based on a cube projection and the Hilbert curve.
 [^saas]: Software as a Service.
 [^sar]: Synthetic Aperture Radar.
+[^sdi]: Spatial Data Infrastructure: a framework of technologies, policies, and standards that enables the discovery, access, and sharing of geospatial data.
 [^sedonadb]: [`SedonaDB`](https://sedona.apache.org/sedonadb/latest/) is an open-source single-node analytical database engine with geospatial as a first-class citizen.
 [^sgs]: The [Swiss Geoinformation Strategy](https://www.geo.admin.ch/de/strategie-und-umsetzung), a national action strategy with annual action plans for the geoinformation sector in Switzerland.
-[^sgsboard]: The organisation tasked with strategic oversight and steering of the implementation of the [Swiss Geoinformation Strategy](https://www.geo.admin.ch/de/strategie-und-umsetzung) from 2020
+[^sgsboard]: The organisation tasked with strategic oversight and steering of the implementation of the [Swiss Geoinformation Strategy](https://www.geo.admin.ch/de/strategie-und-umsetzung) from 2020.
 [^sitg]: [Système d'Information du Territoire à Genève](https://sitg.ge.ch/).
 [^snowflake]: A cloud-based [data warehouse (DWH)](https://www.snowflake.com/) Platform-as-a-Service offering.
 [^skeuomorphism]: Skeuomorphism in digital user experience design is the approach of making a digital thing look and/or behave like their real-world counterpart.
@@ -186,7 +187,7 @@
 [^stamen]: Stamen Design is a San Francisco-based design and technology studio that specializes in data visualization, cartography, and interactive experiences. You likely have seen some of their [map-centric work](https://stamen.com/work/) and may know some of their web map styles, for example "[Toner](https://maps.stamen.com/toner/#12/37.7706/-122.3782)" and "[Watercolor](https://maps.stamen.com/watercolor/#12/37.7706/-122.3782).
 [^strava]: STRAVA is one of the world's foremost exercise tracking apps with dozens of millions of users and billions of recorded activies. By the way, the name comes from the Swedish "sträva", which means "strive".
 [^sts]: Space Transportation System.
-[^supermesh]: Especially densely sampled 3D data
+[^supermesh]: Especially densely sampled 3D data.
 [^swisstopo]: The Federal Office of Topography of Switzerland.
 [^tdi]: [Time delay integration](https://en.wikipedia.org/wiki/Time_delay_and_integration), a forward-motion compensation technique.
 [^thomaszurbuchen]: Director of ETH Zurich Space and former Associate Administrator for the Science Mission Directorate at NASA.
@@ -209,4 +210,5 @@
 [^xtf]: Interlis transfer format.
 [^ymmv]: Your mileage may vary.
 [^yolo]: "You Only Look Once" (YOLO) is a family of real-time object detection models.
+[^zarr]: [Zarr](https://zarr.dev/) is an open, cloud-native format for storing large, chunked, N-dimensional arrays, commonly used for gridded and multi-dimensional Earth observation data.
 [^zine]: "Zine" is short for "magazine" or "fanzine".
