@@ -1,0 +1,48 @@
+---
+title: "The road to Portolan"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-09-13 15:18"
+image: "portolan-990x660.jpg"
+description: "Chris Holmes shares the personal story behind #Portolan, a serverless #SDI built to make #cloudnative formats like #GeoParquet, #COG, and #Zarr the default way to share geodata. It's a bet that combining cloud-native tooling with AI can deliver on the promise of open, accessible geospatial infrastructure."
+---
+
+[Chris Holmes][chris], founder of the Cloud-Native Geospatial Foundation and working at Planet, has 
+published an interesting and personal account of how Portolan, the serverless SDI[^sdi] has come to be:
+*"[A personal introduction to Portolan][article]"*. 
+
+![A Portolan instance showing Dutch data (source: Chris Holmes)](portolan-nl-data-preview.gif "A Portolan instance showing Dutch data (source: Chris Holmes)")
+
+The article touches on Chris's early work on GeoServer, on cloud-native formats such as 
+GeoParquet[^geoparquet], COG[^cog], and Zarr[^zarr], and respective tooling, and finally on 
+Portolan, a project to enable serverless SDIs that share cloud-native geodata broadly, in a 
+human-friendly and AI-enabled form. 
+
+From the [article][article]:
+
+> So my more ‘modest’ hope for Portolan is that it greatly accelerates the adoption of CNG formats 
+by the geospatial industry, and the standard way to share geospatial information becomes to put a
+GeoParquet, COG, COPC[^copc] or Zarr in a bucket and include the appropriate `catalog.json`/`readme`/`agents.md`
+file. [...]
+>
+> But the bigger goal I have for Portolan is to realize the vision of all the Spatial Data 
+Infrastructure dreams of the past – to finally make the world’s fundamental geospatial information 
+available and accessible to all. I believe this is now a tractable problem that can be solved, by 
+leveraging AI in a couple of key ways.
+
+[Recommended reading][article] if you are interested in SDIs, or even operate one.
+
+
+[chris]: https://www.linkedin.com/in/opencholmes
+[article]: https://9eo.org/blog/a-personal-introduction-to-portolan/
+
+[^sdi]: Spatial Data Infrastructure: a framework of technologies, policies, and standards that 
+enables the discovery, access, and sharing of geospatial data.
+[^geoparquet]: [GeoParquet](https://geoparquet.org/) is an open-source specification that adds 
+interoperable geospatial types to [Parquet](https://parquet.apache.org/), enabling efficient storage 
+and columnar access of vector geodata.
+[^cog]: Cloud-optimized GeoTIFF
+[^zarr]: [Zarr](https://zarr.dev/) is an open, cloud-native format for storing large, chunked, 
+N-dimensional arrays, commonly used for gridded and multi-dimensional Earth observation data.
+[^copc]: Cloud-optimized point cloud
