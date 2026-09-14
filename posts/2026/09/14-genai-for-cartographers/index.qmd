@@ -1,0 +1,36 @@
+---
+title: "GenAI for cartographers"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-09-14 22:20"
+image: "gen-ai-1350x900.jpg"
+description: "Daniel Huffmann shares candid, hands-on experiments with #generativeAI in #cartography, weighing its extractive nature against genuinely useful, time-saving applications. This is a refreshingly honest take on where #genAI fits into cartographic workflows without undercutting human creativity."
+---
+
+Daniel Huffmann has written an [interesting blog post][article] shedding light on how he uses (or
+has tried to use) generative AI[^genai] for cartography projects. The [post][article] opens with
+Daniel stating his generally critical stance towards AI and its extractive nature. He goes on:
+
+> Despite all this, I find myself using genAI^[Generative AI.] from time to time. Is this 
+hypocritical? Quite possibly. But, it’s also not far off from human nature. It’s hard for many of us 
+to resist the temptation to see what this interesting new tool can do.
+
+[![Georeferencing a raster map using Claude (source: Daniel Huffmann)](georeferencing.png "Georeferencing a raster map using Claude (source: Daniel Huffmann)")][article]
+
+The rest of the [article][article] highlights some genAI uses Daniel has applied in his work. Some
+of these I consider quite creative and hadn't occurred to me before. I also appreciate that
+Daniel is upfront when a test hasn't worked out well:
+
+> None of what I present above is definitive, or a proper study. Just a handful of anecdotes, 
+including of some subpar results. But, I think all of these examples point towards ways that genAI 
+might make its way into some cartographic pipelines. [...] For the cartographers that are excited to 
+use these tools, I wanted to suggest constructive, practical directions. Importantly, my suggested 
+genAI uses (1) don’t significantly undercut the human creative aspect, (2) can easily be checked for 
+errors, and (3) might actually save time and labor (if not now, probably soon).
+
+Overall, a clear-eyed and [interesting perspective and source of inspiration][article].
+
+[article]: https://somethingaboutmaps.wordpress.com/2026/09/08/genai-for-the-static-cartographer/
+
+[^genai]: Artificial intelligence systems that generate new media (text, code, images, audio, video) rather than only analysing or classifying existing data.
