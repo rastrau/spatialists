@@ -177,8 +177,22 @@ def save_cache(path: Path, cache: dict[str, Any]) -> None:
 
 
 def post_text(post: BlogPost) -> str:
-    parts = [post.description or post.title, "#GIS #geospatial #SwissGIS", post.url]
-    return " ".join(parts)
+    if not post.description:
+        return post.title
+    return f"{post.title}: {post.description}"
+
+
+def link_attachment(post: BlogPost) -> dict[str, Any]:
+    attachment: dict[str, Any] = {
+        "url": post.url,
+        "title": post.title,
+    }
+    if post.description:
+        attachment["description"] = post.description
+    featured_image = image_url(post)
+    if featured_image:
+        attachment["thumbnail"] = {"url": featured_image}
+    return attachment
 
 
 def buffer_graphql(api_key: str, query: str, variables: dict[str, Any]) -> dict[str, Any]:
@@ -200,11 +214,6 @@ def buffer_graphql(api_key: str, query: str, variables: dict[str, Any]) -> dict[
 
 
 def publish_post(post: BlogPost, api_key: str, channel_id: str, mode: str) -> str:
-    assets = []
-    featured_image = image_url(post)
-    if featured_image:
-        assets.append({"image": {"url": featured_image}})
-
     query = """
     mutation CreatePost($input: CreatePostInput!) {
       createPost(input: $input) {
@@ -229,7 +238,12 @@ def publish_post(post: BlogPost, api_key: str, channel_id: str, mode: str) -> st
             "channelId": channel_id,
             "schedulingType": "automatic",
             "mode": mode,
-            "assets": assets,
+            "assets": [],
+            "metadata": {
+                "linkedin": {
+                    "linkAttachment": link_attachment(post),
+                }
+            },
         }
     }
     data = buffer_graphql(api_key, query, variables)
@@ -310,6 +324,7 @@ def main() -> None:
         print(f"Publishing through Buffer: {post.title} ({post.url})")
         print(f"mode: {args.mode}")
         print(f"image: {image_url(post)}")
+        print(f"link attachment: {json.dumps(link_attachment(post), sort_keys=True)}")
         if args.dry_run:
             print(post_text(post))
             continue
