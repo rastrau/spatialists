@@ -179,7 +179,7 @@ def save_cache(path: Path, cache: dict[str, Any]) -> None:
 def post_text(post: BlogPost) -> str:
     if not post.description:
         return post.title
-    return f"{post.title}: {post.description}"
+    return f"{post.title}: {post.description} #GIS #geospatial #SwissGIS"
 
 
 def link_attachment(post: BlogPost) -> dict[str, Any]:
