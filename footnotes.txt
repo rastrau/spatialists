@@ -55,7 +55,7 @@
 [^falsepositives]: ... or "errors of commission", "type 1 errors"... – or what term your (sub)discipline prefers.
 [^federal-council]: The Federal Council (Bundesrat in German, Conseil fédéral in French, Consiglio federale in Italian) is Switzerland's seven-member executive body, serving as the collective head of state and government; each Councillor heads one of the seven federal departments.
 [^fema]: The Federal Emergency Management Agency (FEMA) is a government agency in the USA responsible for coordinating disaster preparedness, response, and recovery.
-[^foen]: The Federal Office for the Environment (FOEN; BAFU in German, OFEV in French) is the Swiss federal agency responsible for the state and development of Switzerland's environment.
+[^foen]: The Federal Office for the Environment of Switzerland.
 [^fields]: Think, for example, a digital elevation model or a rainfall intensity raster.
 [^flask]: A Python framework for web apps.
 [^fme]: Safe Software's Feature Manipulation Engine.
@@ -173,6 +173,7 @@
 [^saas]: Software as a Service.
 [^sar]: Synthetic Aperture Radar.
 [^sdi]: Spatial Data Infrastructure: a framework of technologies, policies, and standards that enables the discovery, access, and sharing of geospatial data.
+[^sed]: The Swiss Seismological Service (Schweizerischer Erdbebendienst) at ETH Zurich, responsible for monitoring and reporting seismic activity in Switzerland.
 [^sedonadb]: [`SedonaDB`](https://sedona.apache.org/sedonadb/latest/) is an open-source single-node analytical database engine with geospatial as a first-class citizen.
 [^sgs]: The [Swiss Geoinformation Strategy](https://www.geo.admin.ch/de/strategie-und-umsetzung), a national action strategy with annual action plans for the geoinformation sector in Switzerland.
 [^sgsboard]: The organisation tasked with strategic oversight and steering of the implementation of the [Swiss Geoinformation Strategy](https://www.geo.admin.ch/de/strategie-und-umsetzung) from 2020.
