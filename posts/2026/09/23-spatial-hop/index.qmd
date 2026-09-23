@@ -1,0 +1,58 @@
+---
+title: "Spatial Hop"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-09-23 19:49"
+image: "spatial-horse-1500x1000.jpg"
+description: "Stefan Ziegler has released a new version of his spatial #Hop distribution, swapping the heavy #OGR/#GDAL dependency for a pure-Java GeoTools-based approach and adding dedicated #INTERLIS support. Fewer formats are supported overall, but the essentials (#Shapefile, #GeoPackage, #FGDB, #FlatGeobuf, #GeoParquet) are covered, alongside an improved Data Inspector."
+---
+
+![The Apache Hop horse has come a long way (source: Stefan Ziegler)](spatial-horse-1500x1000.jpg "The Apache Hop horse has come a long way (source: Stefan Ziegler)")
+
+News from Apache Hop in the geospatial domain _(Spatial Hop? SHop? SHOP?)_:
+
+At [hop.interlis.guru][shop], [Stefan Ziegler][stefan] has published a new 
+Apache Hop version[^os] under the monicker "Spatial tools and plugins for 
+Apache Hop" with the tagline "Apache Hop with spatial plugins already included. 
+Read, transform and write geospatial data in visual pipelines." This is pretty 
+much the most concise description of this new Hop version.
+
+The [announcement post][post] by Stefan has a few more details:
+
+> The geodata import and export functionalities have received a major update: 
+[...] a ‘pure Java’ approach using Geotools and my own code. This means I can 
+do without the ‘heavy’ OGR/GDAL plugin. [...] 
+>
+> Naturally, far fewer formats are supported, but the most important ones are
+included: Shapefile, GeoPackage and File Geodatabase. For export only,
+FlatGeobuf, (Geo-)Parquet and Arc Generate are supported. The most important
+format of all (INTERLIS[^interlis]) receives special treatment in the form of a 
+dedicated plugin (à la `ili2fme`). Furthermore, with the `ili2db` plugin, you 
+can always import or export INTERLIS to and from PostgreSQL and GeoPackage. 
+[...]
+> 
+> The Geometry Inspector is increasingly becoming a Data Inspector. It can now 
+display multiple streams and supports an initial form of caching (for some 
+transformers).
+
+There's more in [Stefan's post][post]. I wonder how much steam^[Tokens?] is left 
+in Stefan's Hop development effort. Two is one and one is none.
+
+In any case: Interesting stuff. The [prepared examples and sample data][ex] 
+should help curious people find their footing and test Spatial Hop for their 
+workflows. 
+
+![Greek [Hoplites][hoplites] ([Wikipedia][hoplites2]): Not seen for quite a while. A bit awkward: They are sometimes depicted [fighting cavalry][cavalry].](hoplites.jpg "Greek Hoplites: Not seen for quite a while. A bit awkward: They are sometimes depicted fighting cavalry.")
+
+[^os]: Thanks to open-source.
+[^interlis]: [INTERLIS](https://www.interlis.ch/en) is a Swiss standard for 
+geodata modelling and data exchange.
+
+[stefan]: https://www.linkedin.com/in/stefan-ziegler-37b312a7/
+[shop]: https://hop.interlis.guru/
+[post]: https://blog.interlis.guru/2026/09/23/lets-hop-09/
+[ex]: https://hop.interlis.guru/examples.html
+[hoplites]: https://acoup.blog/2025/11/14/collections-hoplite-wars-part-i-the-othismos-over-othismos/
+[hoplites2]: https://en.wikipedia.org/wiki/Hoplite
+[cavalry]: https://picryl.com/media/achaemenid-cavalry-against-greek-hoplites-at-the-stoa-poikile-821c23
