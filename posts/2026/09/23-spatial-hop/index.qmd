@@ -36,7 +36,7 @@ can always import or export INTERLIS to and from PostgreSQL and GeoPackage.
 display multiple streams and supports an initial form of caching (for some 
 transformers).
 
-There's more in [Stefan's post][post]. I wonder how much steam^[Tokens?] is left 
+I wonder how much steam^[Tokens?] is left 
 in Stefan's Hop development effort. Two is one and one is none.
 
 In any case: Interesting stuff. The [prepared examples and sample data][ex] 
