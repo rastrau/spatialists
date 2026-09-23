@@ -43,7 +43,7 @@ In any case: Interesting stuff. The [prepared examples and sample data][ex]
 should help curious people find their footing and test Spatial Hop for their 
 workflows. 
 
-![Greek [Hoplites][hoplites] ([Wikipedia][hoplites2]): Not seen for quite a while. A bit awkward: They are sometimes depicted [fighting cavalry][cavalry].](hoplites.jpg "Greek Hoplites: Not seen for quite a while. A bit awkward: They are sometimes depicted fighting cavalry.")
+![Greek [Hoplites][hoplites] ([Wikipedia][hoplites2]): Not seen in real life for quite a while. A bit awkward: They are sometimes depicted [fighting cavalry][cavalry].](hoplites.jpg "Greek Hoplites: Not seen for quite a while. A bit awkward: They are sometimes depicted fighting cavalry.")
 
 [^os]: Thanks to open-source.
 [^interlis]: [INTERLIS](https://www.interlis.ch/en) is a Swiss standard for 
