@@ -7,7 +7,7 @@
 [^ads-b]: Automatic Dependent Surveillance–Broadcast: A technology that allows aircraft to determine its position via, e.g., satellite navigation and periodically broadcast its position and other related data.
 [^ais]: Automatic Identification System. AIS devices are installed on ships and emit information such as identification, position, course, and speed of the ship.
 [^anecdata]: [Anecdotal evidence](https://en.wikipedia.org/wiki/Anecdotal_evidence#Scientific_context).
-[^apache hop]: "Hop" stands for "Hop Orchestration Platform". While the wordmark looks as if “HOP” is all upper-case, the copy of the official website actually calls it “Hop”. The [recursive acronym](https://en.wikipedia.org/wiki/Recursive_acronym) maybe being a nod to "GNU"?
+[^apache-hop]: "Hop" stands for "Hop Orchestration Platform".
 [^bfh]: The Berner Fachhochschule or Bern University of Applied Sciences.
 [^bfs]: Breadth-First Search.
 [^bigquery]: Google's [data warehouse (DWH) Platform-as-a-Service offering](https://en.wikipedia.org/wiki/BigQuery).
