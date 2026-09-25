@@ -10,6 +10,7 @@
 [^apache-hop]: "Hop" stands for "Hop Orchestration Platform".
 [^bfh]: The Berner Fachhochschule or Bern University of Applied Sciences.
 [^bfs]: Breadth-First Search.
+[^bi]: Business intelligence, that is the technologies and practices for collecting, analysing, and presenting business data (for example, in reports and dashboards) to support decision-making.
 [^bigquery]: Google's [data warehouse (DWH) Platform-as-a-Service offering](https://en.wikipedia.org/wiki/BigQuery).
 [^billion]: To be clear: "Milliarden" in German, "milliards" in French.
 [^canonicalpaper]: A canonical paper is a foundational academic publication that is intended to serve as the standard reference for a topic, in this case the QGIS project.
