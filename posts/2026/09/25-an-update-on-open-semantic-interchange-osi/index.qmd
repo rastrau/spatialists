@@ -1,0 +1,53 @@
+---
+title: "An update on Open Semantic Interchange (OSI)"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-09-25 11:54"
+image: "ossie-1410x940.jpg"
+description: "The #OpenSemanticInterchange initiative for standardising #SemanticLayer metadata across analytics, #BI, and #AI tools has joined the #Apache Incubator and been renamed #ApacheOssie. The coalition behind it, which includes #CARTO from the geospatial world, has grown from 17 OSI founding partners to more than 50 organisations."
+---
+
+As [shared earlier][sp], the [Open Semantic Interchange (OSI) project][osi] 
+(archived) is a vendor-neutral and open-source[^ap] initiative to standardise how 
+organisations exchange semantic metadata for analytics, BI[^bi], AI, and other 
+use-cases (what is also called a semantic layer). It aims to allow organisations 
+to define metadata on data models, tables, relationships, attributes, and 
+computed metrics[^sp] in a machine-readable format once and use it across 
+various tools such as Snowflake, Databricks, dbt, Tableau, and more.
+
+[In Spring][sp], the working group involved CARTO, from the geospatial domain.  
+
+The OSI project [has been accepted into the Apache Incubator][acc] and has 
+changed its name to Apache Ossie. The old website – 
+[open-semantic-interchange.org](https://open-semantic-interchange.org/) – seems 
+to be defunct. From the announcement by [dbt Labs][dbt]:
+
+> Incubating Ossie with the Apache Software Foundation ensures that it remains 
+an open standard with no single controlling entity. The goal of Ossie is to 
+provide industry-wide standardization of semantic data, and to that end ensuring 
+that it has a vendor neutral ground to operate in is imperative.
+>
+> Under incubation, Ossie operates with public mailing lists, GitHub-based 
+development, a formal discussion-and-vote process for spec changes, and 
+committership earned through contribution rather than employer affiliation. 
+
+The coalition behind OSI/Ossie has grown from 17 founding partners to [more than 
+50 organisations][orgs] encompassing organisations such as CARTO, Databricks, 
+dbt Labs, JetBrains, Microsoft, Mistral AI, NVIDIA, Qlik, and Snowflake. The new 
+website is at [ossie.apache.org](https://ossie.apache.org/) where the community 
+also publishes [updates][up]. Work is carried out [on GitHub][gh].
+
+[^ap]: Under the Apache 2.0 license.
+[^bi]: Business intelligence, that is the technologies and practices for 
+collecting, analysing, and presenting business data (for example, in reports and 
+dashboards) to support decision-making.
+[^sp]: See the [earlier post][sp] for links to explanations on each of these.
+
+[sp]: https://spatialists.ch/posts/2026/05/21-open-semantic-interchange/
+[osi]: https://web.archive.org/web/20260716115018/http://open-semantic-interchange.org/
+[acc]: https://www.getdbt.com/blog/osi-is-now-apache-ossie
+[dbt]: https://www.getdbt.com/blog/osi-is-now-apache-ossie
+[orgs]: https://ossie.apache.org/ecosystem/
+[up]: https://ossie.apache.org/updates/
+[gh]: https://github.com/apache/ossie
