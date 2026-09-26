@@ -1,0 +1,33 @@
+---
+title: "Names in OSM"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-09-26 15:45"
+image: "ton-van-der-velden-wrkb4yjypfi-unsplash-1500x1000.jpg"
+description: "#OpenStreetMap volunteers have mapped 115 million #placenames globally. A short article on the #OSM blog explains how the project handles local, official, and multilingual names, and that – unlike some large web map providers – its default map shows everyone the same local name."
+---
+
+The OSM[^osm] blog has an [interesting short article][article] on how OSM handles 
+names in their data:
+
+> Whether you are from, Saint-Louis-du-Ha! Ha!, Springfield or Ea names are 
+important. They help us identify where we are, where we are from and where we 
+want to go to. Almost everything has a name and OpenStreetMap volunteers have 
+mapped 115 million names.
+
+The article covers how OSM handles local names, official names, and names in 
+multiple languages. It also covers how the map on <https://www.openstreetmap.org> 
+displays names: 
+
+> On the default layer of the www.openstreetmap.org website (osm-carto) we don’t 
+show different names based on where you are, this means everyone will see the 
+name of the feature in the local language. 
+
+This is obviously different from many commercial web map providers.
+
+
+[article]: https://blog.openstreetmap.org/2026/09/13/whats-in-a-name-naming-things-in-openstreetmap/
+
+[^osm]: [OpenStreetMap](https://www.openstreetmap.org/), a collaborative, 
+open-licensed map of the world.
