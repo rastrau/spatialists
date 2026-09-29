@@ -5,7 +5,7 @@ author:
     url: "https://ralphstraumann.ch"
 date: "2026-09-29 19:34"
 image: "redistricting-1500x1000.jpg"
-description: "PolicyMap's explainer on #redistricting and #gerrymandering shows how packing and cracking voters across districts can tilt elections before a single ballot is cast. Beyond this specific application of geospatial concepts it should cause us to reflect on the #ethics of the methods and tools our discipline builds."
+description: "PolicyMap's explainer on #redistricting and #gerrymandering shows how packing and cracking voters across districts can tilt elections. Beyond this specific application it should cause us to reflect on the #ethics of the methods and tools our discipline builds."
 ---
 
 [PolicyMap][policymap] has published an interesting article titled *"[A deeper 
@@ -22,9 +22,10 @@ constitutes a majority in none of them.
 
 I find this interesting not so much because of the theoretical underpinnings 
 (the MAUP[^maup]) and the redistricting / gerrymandering mechanics, but because 
-this article invites a cold, hard look in the mirror with regard to our 
+this article invites a look in the mirror with regard to our 
 discipline, the concepts, the methods and the tools it produces and their 
-ethical implications – whether or not you care about this specific context.
+ethical implications – whether or not you care about the specific context 
+presented.
 
 [article]: https://www.policymap.com/blog/a-deeper-look-at-gerrymandering
 [policymap]: https://www.policymap.com/
