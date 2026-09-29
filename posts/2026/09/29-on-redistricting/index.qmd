@@ -1,0 +1,37 @@
+---
+title: "On redistricting"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-09-29 19:34"
+image: "redistricting-1500x1000.jpg"
+description: "PolicyMap's explainer on #redistricting and #gerrymandering shows how packing and cracking voters across districts can tilt elections before a single ballot is cast. Beyond this specific application of geospatial concepts it should cause us to reflect on the #ethics of the methods and tools our discipline builds."
+---
+
+[PolicyMap][policymap] has published an interesting article titled *"[A deeper 
+look at gerrymandering][article]"* on their blog as part of a three-part series. 
+The article is an explainer on redistricting, set strictly in the political 
+context of the USA (hence: gerrymandering[^gerrymandering]): 
+
+> Packing concentrates a group’s voters into as few districts as possible. Those 
+districts are won overwhelmingly, every vote beyond what was needed to win is 
+wasted, and the group’s influence everywhere else drops accordingly.
+> 
+> Cracking does the reverse: it splits a group across many districts so that it 
+constitutes a majority in none of them.
+
+I find this interesting not so much because of the theoretical underpinnings 
+(the MAUP[^maup]) and the redistricting / gerrymandering mechanics, but because 
+this article invites a cold, hard look in the mirror with regard to our 
+discipline, the concepts, the methods and the tools it produces and their 
+ethical implications – whether or not you care about this specific context.
+
+[article]: https://www.policymap.com/blog/a-deeper-look-at-gerrymandering
+[policymap]: https://www.policymap.com/
+
+[^gerrymandering]: The manipulation of electoral district boundaries to favour 
+a party or group, typically by "packing" opposing voters into few districts or 
+"cracking" them across many.
+[^maup]: The [Modifiable Areal Unit Problem](https://en.wikipedia.org/wiki/Modifiable_areal_unit_problem): 
+the results of aggregating spatial data depend on the scale and on how the 
+boundaries of the areal units are drawn.
