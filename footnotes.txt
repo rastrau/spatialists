@@ -126,6 +126,7 @@
 [^mvp]: Minimum Viable Product.
 [^mcp]: Model Context Protocol, an open standard (introduced by Anthropic in late 2024) that lets AI applications connect to external tools, data sources, and services through a common interface.
 [^mds]: "MDS" stands for "[Modern Data Stack](https://www.fivetran.com/blog/what-is-the-modern-data-stack)", a term used to describe a set of tools and technologies for data integration, processing, and analysis. It typically includes components like ELT processes (extract, load, transform), data warehouses, data lakes, and analytics platforms.
+[^mdx]: Model-compliant data exchange.
 [^medallionarchitecture]: The medallion architecture is a data processing framework that posits three layers for data: bronze (raw data), silver (cleaned and transformed data), and gold (aggregated and ready for analysis).
 [^mermaid]: [Mermaid](https://github.com/mermaid-js/mermaid#readme) is a JavaScript-based diagramming tool that takes Markdown-inspired text definitions and creates diagrams dynamically. Mermaid is supported in GitHub, for example.
 [^ml]: Machine learning.
