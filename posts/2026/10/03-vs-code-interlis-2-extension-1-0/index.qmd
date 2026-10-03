@@ -44,4 +44,5 @@ order.
 
 [^interlis]: [INTERLIS](https://www.interlis.ch/en) is a Swiss standard for geodata modelling and data exchange.
 [^uml]: Unified Modeling Language.
-[^connaisseurs]: Connaisseurs recognise it by its slightly off-brand icon 🙂.
+[^connaisseurs]: Connaisseurs recognise it by its slightly off-brand icon 🙂. 
+The original icon is a bit of a mess, if you zoom in.
