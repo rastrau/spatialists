@@ -1,0 +1,40 @@
+---
+title: "IBX: INTERLIS Binary eXchange"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-10-03 18:16"
+image: "adrien-stachowiak-t69c4teq_em-unsplash-1500x1000.jpg"
+description: "Stefan Ziegler is experimenting with #IBX, a binary encoding of #INTERLIS 2 data that preserves model-based content while enabling direct, selective access to the data. A prototype #QGIS plug-in and a patched #ili2db let you try out this #cloudNative take on Swiss geodata exchange yourself."
+---
+
+On [blog.interlis.guru][post], Stefan Ziegler is describing his experiment with 
+a binary flavour of INTERLIS 2[^interlis] for data exchange, called "INTERLIS Binary 
+eXchange" or "IBX" for short. From Stefan's post:
+
+> [...] INTERLIS/XTF[^xtf] does have its advantages, but it is certainly not a 
+user-friendly "working format". Users simply want to drag and drop the file into 
+QGIS and be done with it. [...] Besides, the world keeps moving on, doesn’t it? 
+Where is Cloud Native[^cloud-native] INTERLIS? [...] 
+> 
+> This fits perfectly with the basic concept of MDX[^mdx]. It explicitly states 
+that encoding rules can, in principle, be defined for any data format. So why 
+not a binary encoding that preserves the INTERLIS content whilst also enabling 
+direct, selective access? That’s exactly where my experiment comes in: IBX – 
+INTERLIS Binary eXchange.
+
+In his experiment, Stefan built a prototype that supports INTERLIS 2.3 and 2.4 
+full (not yet: update) data transfers. Stefan covers the details in his 
+[post][post] and also provides both a [QGIS plug-in][plugin] (zip) to read IBX 
+files and a [patched version of ili2db][ili2db] to write IBX files from 
+GeoPackage[^geopackage] and PostgreSQL for testing purposes.
+
+[post]: https://blog.interlis.guru/2026/09/28/interlis-leicht-gemacht-number-69/
+[plugin]: https://blog.interlis.guru/2026/09/28/ibx-qgis-0.6.0.zip
+[ili2db]: https://github.com/edigonzales/ili2db/releases/tag/ibx-2-1
+
+[^interlis]: [INTERLIS](https://www.interlis.ch/en) is a Swiss standard for geodata modelling and data exchange.
+[^xtf]: Interlis transfer format.
+[^cloud-native]: I.e., taking full advantage of the cloud computing model; in the data world typically through enabling partial downloads of file contents through so-called [HTTP range requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests).
+[^mdx]: Model-compliant data exchange.
+[^geopackage]: An open SQLite-based container format for geospatial data, defined by the [OGC](https://www.ogc.org/).
