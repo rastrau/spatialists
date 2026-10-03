@@ -8,7 +8,7 @@ image: "adrien-stachowiak-t69c4teq_em-unsplash-1500x1000.jpg"
 description: "Stefan Ziegler is experimenting with #IBX, a binary encoding of #INTERLIS 2 data that preserves model-based content while enabling direct, selective access to the data. A prototype #QGIS plug-in and a patched #ili2db let you try out this #cloudNative take on Swiss geodata exchange yourself."
 ---
 
-On [blog.interlis.guru][post], Stefan Ziegler is describing his experiment with 
+On [blog.interlis.guru][post], Stefan Ziegler describes his experiment with 
 a binary flavour of INTERLIS 2[^interlis] for data exchange, called "INTERLIS Binary 
 eXchange" or "IBX" for short. From Stefan's post:
 
