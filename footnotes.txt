@@ -78,6 +78,7 @@
 [^germany-austria-switzerland-liechtenstein]: Colloquially, this region can be called "D-A-CH-LI" in German – as a contraction of the countries' abbreviations.
 [^gerrymandering]: The manipulation of electoral district boundaries to favour a party or group, typically by "packing" opposing voters into few districts or "cracking" them across many.
 [^gers]: The [Global Entity Reference System](https://www.spatialists.ch/posts/2025/06/28-omf-launches-gers/) by the Overture Map Foundation (OMF).
+[^gfm]: Geospatial foundation models are large AI models pre-trained on vast amounts of Earth observation and other geospatial data, which can then be adapted to many downstream tasks.
 [^ggmm]: The [SOGI GGMM](https://www.sogi.ch/de/netzwerke/standards) is the working group on "geonorms and the model-based method" of the [Swiss Organization for Geoinformation](https://www.sogi.ch/en) (SOGI/OSIG).
 [^giscience]: Geographic Information Science, the scientific study of the fundamental concepts, methods, and theories underlying geographic information systems and geospatial data.
 [^gist]: A short piece of code, text, or data hosted on GitHub.
@@ -216,4 +217,4 @@
 [^ymmv]: Your mileage may vary.
 [^yolo]: "You Only Look Once" (YOLO) is a family of real-time object detection models.
 [^zarr]: [Zarr](https://zarr.dev/) is an open, cloud-native format for storing large, chunked, N-dimensional arrays, commonly used for gridded and multi-dimensional Earth observation data.
-[^zine]: "Zine" is short for "magazine" or "fanzine".
+[^zine]: "Zine" is short for "magazine".
