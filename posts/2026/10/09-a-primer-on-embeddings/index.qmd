@@ -1,0 +1,41 @@
+---
+title: "A primer on embeddings"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-10-09 20:05"
+image: "embeddings-workflow-900x600.jpg"
+description: "Development Seed has published an approachable primer on Earth data #embeddings, available both as a poster and as a zine. It explains how these representations learned by geospatial #FoundationModels are generated and why they are useful for search, retrieval, and natural language interfaces."
+---
+
+A while back, I saw their call for interesting resources on the topic. 
+Now, [Development Seed][ds] offers their primer on Earth data embeddings[^earth-embedding]. From 
+their [blog post][post]:  
+
+> Embeddings are one way we make use of the rich representations learned by 
+geospatial foundation models[^gfm], supporting everything from search and retrieval 
+to natural language interfaces. Yet for many practitioners, the concept remains 
+opaque. This primer explores how embeddings are generated, the kinds of 
+questions they help answer, and why they’re useful across the geospatial 
+ecosystem.
+
+The Development Seed team has made available both [a poster][poster] and a 
+[zine][zine][^zine]. The aforementioned [blog post][post] shows visualisation and 
+animated pieces from the latter.
+
+![A high-level workflow diagram of building and using Earth data embeddings (source: [Development Seed][post])](embeddings-workflow.png "A high-level workflow diagram of building and using Earth data embeddings (source: Development Seed)")
+
+This looks very promising. Last year, Development Seed published a [zine on 
+cloud-native][cn][^cloud-native] the quality of which I appreciated.
+
+
+[^earth-embedding]: A geospatial embedding is a compact, high-dimensional vector representation of a geospatial location, scene, or feature, learned so that similar places or patterns end up close together in vector space.
+[^gfm]: Geospatial foundation models are large AI models pre-trained on vast amounts of Earth observation and other geospatial data, which can then be adapted to many downstream tasks.
+[^zine]: "Zine" is short for "magazine".
+[^cloud-native]: I.e., taking full advantage of the cloud computing model; in the data world typically through enabling partial downloads of file contents through so-called [HTTP range requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests).
+
+[ds]: https://developmentseed.org
+[post]: https://developmentseed.org/blog/2026-10-02-earth-embeddings/
+[poster]: https://zines.developmentseed.org/zines/earth-embeddings-poster/
+[zine]: https://zines.developmentseed.org/zines/earth-embeddings-zine/
+[cn]: https://spatialists.ch/posts/2025/03/04-cloudnativegeo-approachable/
