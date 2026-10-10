@@ -20,8 +20,8 @@ questions they help answer, and why they’re useful across the geospatial
 ecosystem.
 
 The Development Seed team has made available both [a poster][poster] and a 
-[zine][zine][^zine]. The aforementioned [blog post][post] shows visualisation and 
-animated pieces from the latter.
+[zine][zine][^zine]. The aforementioned [blog post][post] shows animated 
+pieces and graphics from the latter.
 
 ![A high-level workflow diagram of building and using Earth data embeddings (source: [Development Seed][post])](embeddings-workflow.png "A high-level workflow diagram of building and using Earth data embeddings (source: Development Seed)")
 
