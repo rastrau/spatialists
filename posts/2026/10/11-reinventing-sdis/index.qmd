@@ -1,0 +1,52 @@
+---
+title: "Reinventing SDIs"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-10-11 23:06"
+image: "portolan-990x660.jpg"
+description: "David G. Smith argues that #Portolan signals a quiet reinvention of #SpatialDataInfrastructures, with #CloudNative data living in object storage instead of behind heavy servers. Could a federated network of open catalogues be the future of #data? #SDI"
+---
+
+David G. Smith, Solutions Architect at the U.S. Environmental Protection Agency 
+(EPA), [ponders][article] about Portolan (previously [here][1] and [here][2]) 
+and what it represents for SDIs[^sdi], their operators, and their users: 
+
+> That world is fading. The cloud‑native geospatial community has spent the last 
+several years proving that spatial data doesn't need to be served through heavy 
+infrastructure. It can simply live in object storage. It can be organized with 
+open metadata. It can be accessed directly by standard tools. It can be used by 
+people and by generative models without a middle layer that slows everything 
+down.
+
+![A Portolan instance showing Dutch data (source: [Chris Holmes][chris])](portolan-nl-data-preview.gif "A Portolan instance showing Dutch data (source: Chris Holmes)")
+
+The [article][article] summarises the developments around Portolan and the 
+cloud-native[^cloud-native] geospatial paradigm. If you haven't looked into 
+these yet, it is a good high-level summary:
+
+> The long‑term vision is a federated network of interoperable catalogs 
+published by national mapping agencies, cities, NGOs, researchers, and global 
+data providers. The Portolan registry is the first step. It is nothing more than 
+a catalog of catalogs. The underlying bytes never leave the publisher’s storage. 
+If the registry disappeared, every catalog would keep working.
+> 
+> This is a quiet but profound shift. Discovery becomes easier. Interoperability 
+becomes normal.
+
+Of course, interoperability means more still – especially in federal/federated 
+settings with decentralised but shared responsibility for maintaining data. But 
+the vision of federated data catalogues is attractive – a fediverse of data, if 
+you will. 
+
+[^sdi]: Spatial Data Infrastructure: a framework of technologies, policies, and 
+standards that enables the discovery, access, and sharing of geospatial data.
+
+[^cloud-native]: I.e., taking full advantage of the cloud computing model; in 
+the data world typically through enabling partial downloads of file contents 
+through so-called [HTTP range requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests).
+
+[article]: https://davidgsmith.net/thoughts/portolan-and-the-quiet-reinvention-of-spatial-data-infrastructure.html
+[1]: https://spatialists.ch/posts/2026/09/05-portolan-publishing-geodata-without-a-server/
+[2]: https://spatialists.ch/posts/2026/09/13-the-road-to-portolan/index.html
+[chris]: https://9eo.org/blog/a-personal-introduction-to-portolan/
