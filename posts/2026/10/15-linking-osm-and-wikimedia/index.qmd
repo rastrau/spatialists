@@ -1,0 +1,32 @@
+---
+title: "Linking OSM and Wikimedia"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-10-15 18:09"
+image: "mario-verduzco-xsdff1lcx6o-unsplash-1500x1000.jpg"
+description: "#Wikimedia Enterprise and Michal Migurski have released a dataset linking tens of millions of #OpenStreetMap features to #Wikidata, #Wikipedia, and #Wikivoyage. Published as #Parquet and #GeoParquet, it lets you combine encyclopedic knowledge with geodata without building custom pipelines first. #OSM"
+---
+
+Wikimedia Enterprise [announces][announcement] the release of a dataset joining OSM[^osm] features with their Wikimedia equivalents. That is tens of millions OSM elements linked to Wikidata, Wikipedia, and Wikivoyage. At the core of the linkage is table that maps OpenStreetMap elements (nodes, ways, or relations) to Wikidata QIDs.
+
+The data was compiled by [Michal Migurski][michal] and is published "as Parquet and GeoParquet files on [Hugging Face][hf] and [Kaggle][kg]". The datasets are under different licenses: Creative Commons CC0 Waiver, the Open Database License (ODbL), or under the Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0) license.
+
+![How Paris links across the four sources (source: Wikimedia Enterprise)](openstreetmap-wikidata-links-paris.webp "How Paris links across the four sources (source: Wikimedia Enterprise)")
+
+While OSM and Wikimedia were already linked through references (Wikidata items featuring OSM identifiers and OSM features being tagged with Wikipedia and Wikidata links), Wikimedia Enterprise points out that the projects' data structures are so different that joining them at scale has taken considerable expertise and custom data pipelines.
+
+From the [announcement][announcement] by Wikimedia Enterprise:
+
+> Whether a developer is building a hiking app that surfaces the Wikipedia article of the mountain peak a hiker is climbing right now, or a corpus linguistics researcher conducting spatial analysis of place names and their histories, the pre-joined dataset removes the work of building custom data pipelines from scratch.
+>
+> This dataset unlocks the ability to ask spatial analysis questions backed up by Wikimedia project knowledge and structured Wikidata links: What are the opening hours of all museums in a twenty-mile radius of the geographic center of Berlin? How many churches from the 17th century are close to functioning public cemeteries? Questions that need structured knowledge bases and geospatial data become answerable by connecting Wikidata, Wikipedia, Wikivoyage, and OpenStreetMap.
+
+The [post][announcement] by Wikimedia Enterprise has the technical details.
+
+[^osm]: [OpenStreetMap](https://www.openstreetmap.org/), a collaborative, open-licensed map of the world.
+
+[michal]: https://www.linkedin.com/in/michalmigurski/?isSelfProfile=false
+[hf]: https://huggingface.co/datasets/wikimedia/linked-openstreetmap-wikidata-wikipedia-wikivoyage
+[announcement]: https://enterprise.wikimedia.com/blog/geospatial-wikidata-dataset/
+[kg]: https://www.kaggle.com/datasets/wikimedia-foundation/linked-openstreetmap-wikimedia
