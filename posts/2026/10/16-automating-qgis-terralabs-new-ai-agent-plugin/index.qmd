@@ -1,0 +1,50 @@
+---
+title: "Automating QGIS: TerraLab's new AI agent plugin"
+author:
+  - name: "Stefan Keller"
+    url: "https://www.linkedin.com/in/stefan-keller-44785a10/"
+date: "2026-10-16 19:34"
+image: "shahadat-rahman-voM1Z9cGPCU-unsplash.jpg"
+description: "TerraLab’s AI Agent plugin brings natural language #automation to #opensource #QGIS workflows. It drives more than 300 geospatial processing tools and can connect to more than 700 datasets out of the box. Read the breakdown by Stefan Keller."
+---
+
+TerraLab’s [AI Agent plugin][plugin] for QGIS brings natural language automation 
+to open-source GIS workflows. I tested it and found that it is a valuable 
+addition to QGIS's functionality. It is one of the few AI agent QGIS plugins 
+that worked for me; with many others, I either had problems installing them or 
+encountered payment issues for the paid plan. While the Python plugin is 
+[open-source][repo] (under the GPL), it relies on a proprietary backend service 
+whose free tier is limited to five tasks per month. The next paid plan costs 49 
+CHF per month and can be cancelled at any time. The backend seems to be more 
+data-protection-friendly than usual, however: It sends metadata rather than full 
+geometries along with the query.
+
+The plugin can drive a large range of GIS capabilities:
+
+* 700+ datasets and 55+ connectors: The plugin offers data access via 
+OpenStreetMap, STAC, WMS/WFS/XYZ, and open-data portals
+* 300+ processing tools: The plugin can use core open-source processing 
+functionality including native QGIS algorithms, GDAL, GRASS, and SAGA
+* Database handling and layer editing: The plugin handles database field 
+modifications, joins, and SQL queries directly across project layers as well as 
+PostGIS, GeoPackage, and SpatiaLite databases
+* Plugin and workflow automation: The plugin generates Python code, compiles 
+processing steps into reusable QGIS Processing Models, and can control 39 
+third-party plugins (for example, QuickMapServices, ORS Tools, DataPlotly, and 
+qgis2web).
+
+Additional data sources can enter processing directly via the chat upload or by 
+specifying URLs when prompted by the plugin. Styling of the data display works 
+by parameterising standard QGIS renderers and labels, but seems not to support 
+custom point symbol libraries, at the time of writing.
+
+The [TerraLab website][website] has more information (text in German, short demo 
+video in English). And Hans van der Kwast has posted a [review video][video].
+
+Give it a spin, if you like. I would be interested to hear your insights and 
+opinions on either Mastodon or LinkedIn.
+
+[plugin]: https://plugins.qgis.org/plugins/AI_Agent
+[repo]: https://github.com/TerraLabAI/QGIS_AI-Agent
+[website]: https://terra-lab.ai/de/ai-agent
+[video]: https://videos.qwast-gis.com/w/gtJLNS1S7CevqQ1eAdcqVq
