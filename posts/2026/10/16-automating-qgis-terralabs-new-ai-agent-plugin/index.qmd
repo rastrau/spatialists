@@ -33,6 +33,8 @@ processing steps into reusable QGIS Processing Models, and can control 39
 third-party plugins (for example, QuickMapServices, ORS Tools, DataPlotly, and 
 qgis2web).
 
+![The TerraLab AI Agent plugin in use in QGIS](agent-plugin-test.png "The TerraLab AI Agent plugin in use in QGIS")
+
 Additional data sources can enter processing directly via the chat upload or by 
 specifying URLs when prompted by the plugin. Styling of the data display works 
 by parameterising standard QGIS renderers and labels, but seems not to support 
