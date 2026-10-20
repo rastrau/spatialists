@@ -1,0 +1,35 @@
+---
+title: "Bivariate maps, 11 years later"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-10-20 18:37"
+image: "bivariate-map-1500x1000.jpg"
+description: "Eleven years after his widely shared tutorial on #BivariateMaps, Joshua Stevens revisits the technique and reflects on what has changed since. He looks at updates to software, workflows, and colour spaces, making for a short and worthwhile read for anyone interested in #cartography and #dataviz."
+---
+
+If you have been around for the thriving years of the #gischat and NACIS[^nacis]
+community on Twitter[^other], you may remember [Joshua Stevens][joshua]'s post 
+on [how to make bivariate maps][orig]. Now, eleven years later, Joshua reflects 
+back on it and [shares some interesting updates][new]:
+
+> Back then, making bivariate maps meant blending color schemes in graphics 
+programs, hand-tuning the corner where both variables run high, and stitching 
+two classifications together into a single attribute your software could 
+understand. It worked in any tool, but it took some patience. A lot has changed 
+since then.
+
+[![Bivariate choropleth map comparing climate anxiety and risk of climate-related natural hazards (source: Joshua Stevens, Maps.com)](bivariate-map-1500x1000.jpg "Bivariate choropleth map comparing climate anxiety and risk of climate-related natural hazards (source: Joshua Stevens, Maps.com)")][new]
+
+The [post][new] looks at updates to software, workflows, and colour spaces, 
+among other things. It is an interesting short read for those interested in 
+cartography or more broadly in the evolution of geospatial technology and 
+technique.
+
+[joshua]: https://www.linkedin.com/in/jscarto/
+[orig]: https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/
+[new]: https://www.joshuastevens.net/blog/still-bivariate-still-curious/
+
+[^nacis]: [North American Cartographic Information Society](https://nacis.org/).
+[^other]: Or you may have come across it in other ways as well, of course. It 
+was very widely shared back then, in my perception.
