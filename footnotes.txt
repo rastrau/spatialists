@@ -1,3 +1,4 @@
+[^3d-gaussian-splatting]: A technique that represents and renders 3D scenes as many small, semi-transparent 3D Gaussian "blobs" learned from images.
 [^4d]: The combination of three spatial dimensions with time as the fourth dimension.
 [^5star]: The [5-star Open Data deployment scheme](https://5stardata.info) proposed by Tim Berners-Lee rates datasets from 1 star (available online under an open license, any format) to 5 stars (linked open data with URIs and links to other data sources).
 [^a5]: [A5](https://a5geo.org/) is a discrete global grid system (DGGS) based on irregularly-shaped pentagons.
@@ -99,6 +100,7 @@
 [^iceberg]: An open-source, high-performance table format for large datasets in data lakes.
 [^ica]: The International Cartographic Association is an organisation formed of national member organisations, to provide a forum for issues and techniques in cartography and geographic information science.
 [^ifc]: Industry Foundation Classes, an open standard file format for Building Information Modelling (BIM) data exchange.
+[^imu]: Inertial Measurement Unit, a sensor that combines accelerometers and gyroscopes to measure a platform's orientation and motion.
 [^insar]: Interferometric SAR.
 [^iot]: Internet of Things.
 [^ip-geolocation]: IP geolocation is the practice of estimating a device's approximate location from its IP (Internet Protocol) address, typically by looking it up in a database that maps IP address ranges to locations.
