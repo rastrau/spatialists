@@ -7,6 +7,7 @@ import os
 import re
 import unicodedata
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 
 # Default author details
 DEFAULT_AUTHOR_NAME = "Ralph Straumann"
@@ -49,14 +50,17 @@ def create_blog_post(days_ahead=0):
     title = input("Enter the blog post title: ").strip()
 
     # Generate date components
-    now = datetime.now() + timedelta(days=days_ahead)
+    # Use the site's timezone regardless of the computer's local timezone.
+    now = datetime.now(ZoneInfo("Europe/Zurich")) + timedelta(days=days_ahead)
     year = now.strftime("%Y")
     month = now.strftime("%m")
     day = now.strftime("%d")
 
     # Shift date_time 15 minutes into the future
     future_time = now + timedelta(minutes=15)
-    date_time = future_time.strftime("%Y-%m-%d %H:%M")
+    # Include Zurich's UTC offset so the timestamp remains unambiguous when
+    # read by systems running in other timezones.
+    date_time = future_time.isoformat(timespec="seconds")
     
     # Generate a slug for the title (lowercase, no special characters, hyphen-separated)
     slug = normalize_special_chars(title)
