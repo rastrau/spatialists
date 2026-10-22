@@ -1,0 +1,45 @@
+---
+title: "Everything you need to know about LiDAR"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-10-22 23:58"
+image: "lidar-1260x840.jpg"
+description: "Felix Rohrbach has been publishing around three posts a week on his personal blog demystifying #LiDAR, from scan patterns and #LAS formats to ellipsoidal heights and Europe's national LiDAR programmes. Add adjacent topics such as #GNSS trajectories, #3DCityModels, and #GaussianSplatting, and you get a treasure trove of #RemoteSensing knowledge worth bookmarking."
+---
+
+[![LiDAR survey over a forested area (source: Felix Rohrbach)](lidar.jpg "LiDAR survey over a forested area (source: Felix Rohrbach)")][blog]
+
+[Felix Rohrbach][felix], graduate of ETH Zurich[^ethz] and currently working as a 
+Senior Product Engineer for Esri in Finland, runs a [personal blog][blog] in 
+which he has been chipping away at the theory behind and questions around LiDAR[^lidar]
+technology and applications. The blog is prolific at around three posts per week. A 
+small sample of the topics covered so far include:
+
+- [An introduction to LiDAR](https://tech.rohrba.ch/introduction-to-lidar/)
+- [Four essential LiDAR parameters](https://tech.rohrba.ch/four-essential-lidar-parameters/)
+- [Surveying altitude](https://tech.rohrba.ch/surveying-altitude/)
+- [A closer look at LAS formats](https://tech.rohrba.ch/a-closer-look-at-las-formats/)
+- [Understanding scan patterns](https://tech.rohrba.ch/scan-pattern/)
+- [Ellipsoidal and orthometric heights in LiDAR data](https://tech.rohrba.ch/ellipsoidal-orthometric-heights-lidar/)
+- [A closer look at Europe’s national LiDAR programs](https://tech.rohrba.ch/a-closer-look-at-europes-national-lidar-programs/)
+
+Topics also include more specialised background knowledge as well as adjacent 
+areas of interest:
+
+- [Fundamentals of aircraft speed](https://tech.rohrba.ch/aircraft-speed/)
+- [Level of detail in 3D city models](https://tech.rohrba.ch/level-of-detail-in-3d-city-models/)
+- [3D Gaussian splatting](https://tech.rohrba.ch/3d-gaussian-splatting-explained/)[^3d-gaussian-splatting][&nbsp;explained](https://tech.rohrba.ch/3d-gaussian-splatting-explained/)
+- [GNSS](https://tech.rohrba.ch/gnss-and-imu-trajectory-quality/)[^gnss][&nbsp;and&nbsp;](https://tech.rohrba.ch/gnss-and-imu-trajectory-quality/)[IMU](https://tech.rohrba.ch/gnss-and-imu-trajectory-quality/)[^imu][&nbsp;trajectory quality](https://tech.rohrba.ch/gnss-and-imu-trajectory-quality/)
+
+There is much more in Felix's blog, and it is well worth a visit if you are 
+interested in LiDAR technology and its applications.
+
+[felix]: https://www.linkedin.com/in/felixrohrbach
+[blog]: https://tech.rohrba.ch
+
+[^ethz]: ETHZ is the Zurich branch of the Swiss Federal Institute for Technology.
+[^lidar]: Light Detection and Ranging, an active remote sensing technique that uses laser pulses to generate 3D point clouds of the Earth's surface or objects.
+[^3d-gaussian-splatting]: A technique that represents and renders 3D scenes as many small, semi-transparent 3D Gaussian "blobs" learned from images.
+[^gnss]: Global Navigation Satellite System. For example: Galileo or GPS.
+[^imu]: Inertial Measurement Unit, a sensor that combines accelerometers and gyroscopes to measure a platform's orientation and motion.
