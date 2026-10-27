@@ -193,6 +193,7 @@
 [^stac]: STAC stands for "SpatioTemporal Asset Catalog", a modern, open specification for cataloging spatio-temporal data.
 [^stackoverflow]: Still around, [despite AI](https://daily.dev/blog/did-stack-overflow-just-admit-defeat-to-ai).
 [^stamen]: Stamen Design is a San Francisco-based design and technology studio that specializes in data visualization, cartography, and interactive experiences. You likely have seen some of their [map-centric work](https://stamen.com/work/) and may know some of their web map styles, for example "[Toner](https://maps.stamen.com/toner/#12/37.7706/-122.3782)" and "[Watercolor](https://maps.stamen.com/watercolor/#12/37.7706/-122.3782).
+[^stl]: [STL](https://en.wikipedia.org/wiki/STL_(file_format)) (usually read as "stereolithography", sometimes "standard triangle/tessellation language") is a file format created in the 1980s for first commercial 3D printers. It describes the surface geometry of an object as a mesh of triangles, without colour, texture or units, and remains the de facto standard for 3D printing.
 [^strava]: STRAVA is one of the world's foremost exercise tracking apps with dozens of millions of users and billions of recorded activies. By the way, the name comes from the Swedish "sträva", which means "strive".
 [^sts]: Space Transportation System.
 [^supermesh]: Especially densely sampled 3D data.
