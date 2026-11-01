@@ -20,6 +20,7 @@ from zoneinfo import ZoneInfo
 
 
 BUFFER_API = "https://api.buffer.com"
+DEFAULT_AUTHOR = "Ralph Straumann"
 
 
 @dataclass(frozen=True)
@@ -30,7 +31,7 @@ class BlogPost:
     url: str
     description: str
     image: str
-    author: str
+    authors: tuple[str, ...]
 
 
 def parse_args() -> argparse.Namespace:
@@ -150,7 +151,8 @@ def find_posts(posts_dir: Path, site_url: str, timezone_name: str) -> list[BlogP
         if not date or not title:
             continue
         authors = metadata.get("author_names") or []
-        author = ", ".join(authors) if isinstance(authors, list) else ""
+        if not isinstance(authors, list):
+            authors = []
         posts.append(
             BlogPost(
                 path=post_file,
@@ -159,7 +161,7 @@ def find_posts(posts_dir: Path, site_url: str, timezone_name: str) -> list[BlogP
                 url=post_url(site_url, post_file),
                 description=str(metadata.get("description", "")).strip(),
                 image=str(metadata.get("image", "")).strip(),
-                author=author,
+                authors=tuple(authors),
             )
         )
     return sorted(posts, key=lambda post: post.date)
@@ -176,10 +178,25 @@ def save_cache(path: Path, cache: dict[str, Any]) -> None:
     path.write_text(json.dumps(cache, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
+def byline(post: BlogPost) -> str:
+    """Credit all authors unless the post is by the default author alone."""
+    if all(author == DEFAULT_AUTHOR for author in post.authors):
+        return ""
+    if len(post.authors) <= 2:
+        names = " and ".join(post.authors)
+    else:
+        names = ", ".join(post.authors[:-1]) + f", and {post.authors[-1]}"
+    return f"Post by {names}"
+
+
 def post_text(post: BlogPost) -> str:
+    credit = byline(post)
     if not post.description:
-        return post.title
-    return f"{post.title}: {post.description} #GIS #geospatial #SwissGIS"
+        return f"{post.title}\n\n{credit}" if credit else post.title
+    footer = "#GIS #geospatial #SwissGIS"
+    if credit:
+        return f"{post.title}: {post.description}\n\n{credit} · {footer}"
+    return f"{post.title}: {post.description} {footer}"
 
 
 def link_attachment(post: BlogPost) -> dict[str, Any]:
