@@ -19,7 +19,7 @@
 [^cli]: Command-line interface.
 [^clis]: Command line interfaces.
 [^cloud-native]: I.e., taking full advantage of the cloud computing model; in the data world typically through enabling partial downloads of file contents through so-called [HTTP range requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests).
-[^cng]: CNG.
+[^cng]: "CNG" stands for "cloud-native geospatial". "Cloud-native" means taking full advantage of the cloud computing model; in the data world typically through enabling partial downloads of file contents through so-called [HTTP range requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests).
 [^cog]: Cloud-optimized GeoTIFF.
 [^conda]: A cross-platform, open-source package and environment management system widely used in the data science and scientific computing ecosystems.
 [^cogs]: Cloud-optimized GeoTIFFs.
@@ -75,6 +75,7 @@
 [^geomorphometry]: The science of measuring and quantifying terrain or the the shape of the Earth's surface.
 [^geopandas]: [`GeoPandas`](https://geopandas.org/en/stable/getting_started/introduction.html) is an extension to the popular data science library `Pandas` that enables support for geospatial data.
 [^geoparquet]: [GeoParquet](https://geoparquet.org/) is an open-source specification that adds interoperable geospatial types to [Parquet](https://parquet.apache.org/), enabling efficient storage and columnar access of vector geodata.
+[^geozarr]: [GeoZarr](https://github.com/zarr-developers/geozarr-spec) is a specification, developed within the OGC, that adds geospatial conventions such as coordinate reference systems and multiscale pyramids to [Zarr](https://zarr.dev/).
 [^german]: Only available in German at the moment, as far as I could find out.
 [^germany-austria-switzerland-liechtenstein]: Colloquially, this region can be called "D-A-CH-LI" in German – as a contraction of the countries' abbreviations.
 [^gerrymandering]: The manipulation of electoral district boundaries to favour a party or group, typically by "packing" opposing voters into few districts or "cracking" them across many.
@@ -157,6 +158,7 @@
 [^parsons]: If the name rings a bell, it might because of Ed's time at Google as their Geospatial Technologist. He has left that position and is now an [advisor and speaker](http://www.edparsons.com/) among other things.
 [^pbf]: [Protocolbuffer Binary Format](https://wiki.openstreetmap.org/wiki/PBF_Format).
 [^pet]: [Physiological Equivalent Temperature](https://en.wikipedia.org/wiki/Physiological_equivalent_temperature) (PET) is a thermal comfort index that expresses the physiological effect of outdoor thermal conditions in terms of the equivalent temperature in a standardized indoor setting.
+[^pmtiles]: [PMTiles](https://docs.protomaps.com/pmtiles/) is an open, single-file archive format for map tile pyramids, designed to be read directly from object storage via HTTP range requests, without a tile server.
 [^pois]: Points-of-interest.
 [^pre-print]: That is, a scientific publication that has not yet been peer-reviewed.
 [^professionals]: I.e., you.
@@ -193,6 +195,7 @@
 [^stac]: STAC stands for "SpatioTemporal Asset Catalog", a modern, open specification for cataloging spatio-temporal data.
 [^stackoverflow]: Still around, [despite AI](https://daily.dev/blog/did-stack-overflow-just-admit-defeat-to-ai).
 [^stamen]: Stamen Design is a San Francisco-based design and technology studio that specializes in data visualization, cartography, and interactive experiences. You likely have seen some of their [map-centric work](https://stamen.com/work/) and may know some of their web map styles, for example "[Toner](https://maps.stamen.com/toner/#12/37.7706/-122.3782)" and "[Watercolor](https://maps.stamen.com/watercolor/#12/37.7706/-122.3782).
+[^stl]: [STL](https://en.wikipedia.org/wiki/STL_(file_format)) (usually read as "stereolithography", sometimes "standard triangle/tessellation language") is a file format created in the 1980s for first commercial 3D printers. It describes the surface geometry of an object as a mesh of triangles, without colour, texture or units, and remains the de facto standard for 3D printing.
 [^strava]: STRAVA is one of the world's foremost exercise tracking apps with dozens of millions of users and billions of recorded activies. By the way, the name comes from the Swedish "sträva", which means "strive".
 [^sts]: Space Transportation System.
 [^supermesh]: Especially densely sampled 3D data.

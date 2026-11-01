@@ -1,0 +1,45 @@
+---
+title: "Switzerland in Minecraft"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-10-27 22:36"
+image: "aletsch-1500x1000.jpg"
+description: "An ETH Zurich student has rebuilt all of #Switzerland at 1:1 scale in #Minecraft, generated automatically from (primarily) #swisstopo geodata such as swissALTI3D and swissBUILDINGS3D. Surely one of the most playful uses of Swiss #OpenData yet, with a side project that turns custom extents into solids for #3DPrinting. #OGD"
+---
+
+Quirky: A recent Heise [article][article] covers how a Swiss student recreated 
+Switzerland in Minecraft at 1:1 scale. From the [article][article]:
+
+> A 22-year-old student at ETH Zurich thinks on a very small scale – literally: 
+He has recreated Switzerland as an explorable Minecraft world. Rather than 
+placing every block by hand, he generated the world automatically from official 
+geodata. In the “Blocks” project, one block represents one meter, and the world 
+covers the country’s entire area of 41,285 square kilometers.
+
+The [project][project] uses mostly federal geodata: terrain data from swissALTI3D, 
+limnology from swissBATHY3D, forest canopy and tree heights from swissSURFACE3D, 
+building data from swissBUILDINGS3D, rock formations from GeoCover, several 
+objects from the Swiss landscape model data product swissTLM3D and from 
+SWISSIMAGE[^swissimage] 
+aerial imagery and a few more data sources.
+
+![The Lauterbrunnen Valley (which inspired Tolkien's Rivendell) in Minecraft (source: Manifold3D)](lauterbrunnen.jpg "The Lauterbrunnen Valley (which inspired Tolkien's Rivendell) in Minecraft (source: Manifold3D)")
+
+Part of this model is accesible free of charge, part of it has a fee attached 
+to it. Certainly one of the more "out there" uses of open geodata by 
+Switzerland's public administration.
+
+![The Eiger north face (source: Manifold3D)](eiger.jpg "The Eiger north face (source: Manifold3D)")
+
+The [article][article] also points to [Manifold][manifold] (of which the 
+Minecraft project is a subdomain), another project by the same author that 
+offers custom extents of Switzerland converted to solids in the STL[^stl] format 
+ready for 3D printing.
+
+[article]: https://www.heise.de/en/news/Switzerland-recreated-at-1-1-scale-in-Minecraft-using-geodata-11500845.html
+[project]: https://blocks.manifold3d.ch/
+[manifold]: https://manifold3d.ch/
+
+[^swissimage]: Consistency pet peeve: I feel this should be branded "swissIMAGE".
+[^stl]: [STL](https://en.wikipedia.org/wiki/STL_(file_format)) (usually read as "stereolithography", sometimes "standard triangle/tessellation language") is a file format created in the 1980s for first commercial 3D printers. It describes the surface geometry of an object as a mesh of triangles, without colour, texture or units, and remains the de facto standard for 3D printing.
