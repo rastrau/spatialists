@@ -204,6 +204,7 @@
 [^thomaszurbuchen]: Director of ETH Zurich Space and former Associate Administrator for the Science Mission Directorate at NASA.
 [^tlm]: Swisstopo's topographic landscape model, the basis of [swissTLM3D](https://www.swisstopo.admin.ch/en/landscape-model-swisstlm3d), a large-scale 3D vector dataset describing Switzerland's landscape.
 [^tippecanoe]: The name is a [joking reference](https://github.com/mapbox/tippecanoe?tab=readme-ov-file#name) to [a "tiler" (or "Tyler")](https://en.wikipedia.org/wiki/Tippecanoe_and_Tyler_Too) and more basically a river, county and a [battleground](https://en.wikipedia.org/wiki/Battle_of_Tippecanoe).
+[^tokens]: The units of text (words or word fragments) that language models process; usage and cost of LLM-based systems are typically measured in tokens.
 [^toponyms]: Place names.
 [^tum]: Technical University Munich, Germany.
 [^ucgis]: University Consortium for Geographic Information Science.

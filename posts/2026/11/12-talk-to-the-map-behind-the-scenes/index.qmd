@@ -1,0 +1,42 @@
+---
+title: "Talk to the map, behind the scenes"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-11-12T06:24:11+01:00"
+image: "talk-to-the-map-1500x1000.jpg"
+description: 'How do you build a "talk to the map" #chatbot that is fast, cost-effective, and reusable across sites and data sources? Maria Matache, Luca Zaczkowsky, and Adrian Meister of EBP share how their #GenAI R&D project tackled performance, configurable #geodata, and #guardrails.'
+---
+
+From a team at EBP[^transp] comes an [interesting deep(ish) dive][post] into a 
+"talk to the map" solution – that is, a chatbot in a map interface. The article 
+(in German, but in-browser translation ought to work well) explains a GenAI[^genai] R&D 
+project conducted by Maria Matache, Luca Zaczkowsky, and Adrian Meister that 
+developed such a solution. 
+
+In the process, they set out to address three specific goals (quotes stem from 
+the [article][post]):
+
+- **Measurable performance and optimisation**: "understand where time and tokens[^tokens] are being used, and make the system measurably faster and more cost-effective"
+
+- **Configurable data assets**: "integrate new data sets as configurations rather than as code"
+
+- **Ease of re-use**: "reuse the same solution for other use cases or a second site without having to rebuild everything from scratch"
+
+![The inner workings of the solution (in German) (source: EBP)](chatbot-workings.png "The inner workings of the solution (in German) (source: EBP)")
+
+In addition to the goals above, the [article][post] briefly explains guardrails 
+to catch off-topic interactions and problematic content, to prohibit mass 
+querying, and to cap maximum possible operation costs. Two examples  show the 
+behaviour of the working solution in the contexts of the city of Schaffhausen 
+and the canton of Zurich.
+
+[![Example "Talk to the map" chat (source: EBP)](geochat-zurich.png "Example 'Talk to the map' chat (source: EBP)")][post]
+
+[^genai]: "Generative AI", that is artificial intelligence systems that generate new media (text, code, images, audio, video) rather than only analysing or classifying existing data.
+
+[^tokens]: The units of text (words or word fragments) that language models process; usage and cost of LLM-based systems are typically measured in tokens.
+
+[^transp]: Transparency note: I work at EBP. I was not involved in the project at hand, however.
+
+[post]: https://digital.ebp.ch/2026/11/02/talk-to-the-map-wie-ein-sprachmodell-gis-daten-zum-reden-bringt/
