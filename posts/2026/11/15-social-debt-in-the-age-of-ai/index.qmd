@@ -1,0 +1,65 @@
+---
+title: "Social debt in the age of AI"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-11-15T18:52:55+01:00"
+image: "joseph-gonzalez-KKXbfwB1C0Y-unsplash.jpg"
+description: "Brianna Corremonte of Development Seed argues that #AI and #AgenticCoding are piling up #SocialDebt in #OpenSource communities, as, for example, newcomers vanish, maintainers face AI-generated pull requests, and lone wolves ship ever more tools in isolation. Yet, social debt does not yet attract the same attention as technical debt."
+
+---
+
+On the Development Seed blog, [Brianna Corremonte][Brianna] has published [a 
+thought-provoking article on social debt][article] and how it is exacerbated in 
+the age of AI and agentic coding[^agentic-coding]. Social debt is the 
+"cumulative and increasing cost (...) connected to invisible and negative 
+effects within a development community." 
+
+Brianna mentions recent discussions on AI around [terrio][terrio] (a Rust 
+library for geospatial data transformation created using agentic coding) and 
+[around AI contributions in the GDAL community][disc][^gdal]. This reminded me 
+of [the talk by Anita Graser][talk] (pdf) at the [2026 QGIS User 
+Conference][qgis] in which she detailled implications of agentic coding for the 
+open-source community and how various open-source projects deal with them.
+
+In her [article][article], Brianna argues that "[t]he already fragile social 
+infrastructure of open source communities is now at real risk of breaking under 
+AI" and that under-represented people may feel the fallout most. She lists 
+a few examples of AI accelerating social debt:
+
+> Newcomers are disappearing and AI is replacing the old process of asking in 
+public and someone inviting a new person in. (...) 
+> 
+> Maintainers are also being overwhelmed by AI-generated PRs[^prs], adding to 
+more burnout. (...)
+>
+> Lone wolf is becoming the default mode which will result in more silos, 
+fragmentation and an excessive volume of new tools. When you can get an answer, 
+generate code and ship a tool without ever talking to another person, working 
+alone becomes the path of least resistance.
+
+Brianna concludes:
+
+> (...) what we need are more tangible ways to pay down our social debt, treated 
+with the same urgency and planning we give technical debt. What if, for every 
+technical backlog refinement meeting, we set aside the same time for reducing 
+social debt?
+
+The article gives some positive examples of how communities can heed this call 
+to action. [Food for thought][article]!
+
+[Brianna]: https://www.linkedin.com/in/brianna-r-pag%C3%A1n-corremonte-phd-8a49a46b/
+[article]: https://developmentseed.org/blog/2026-11-10-ai-and-social-debt/
+[terrio]: https://www.linkedin.com/pulse/my-response-criticisms-recent-open-source-projects-qiusheng-wu-6tyie
+[disc]: https://github.com/OSGeo/gdal/pull/15399#issuecomment-6212682661
+[talk]: https://talks.osgeo.org/media/qgis-uc2026/submissions/YKQSPT/resources/QGIS.ORG_-_QUC2026_Laax_-_AI_in_the_PnhvcEj.pdf
+[qgis]: https://conference.qgis.org/
+
+[^agentic-coding]: Software development in which AI agents autonomously plan, 
+write, run, and revise code across multiple steps, with the human mainly setting 
+goals and reviewing results.
+[^gdal]: [GDAL](https://gdal.org/) (Geospatial Data Abstraction Library) is an 
+open-source library and set of command-line tools for reading, writing, and 
+transforming raster and vector geospatial data formats.
+[^prs]: Pull requests, that is, proposed code changes submitted to a project for 
+review and merging.
