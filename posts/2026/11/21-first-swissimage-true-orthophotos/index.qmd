@@ -1,0 +1,46 @@
+---
+title: "First SWISSIMAGE true orthophotos"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-11-21T17:00:59+01:00"
+image: "dmc-survey-1500x1000.jpg"
+description: "#swisstopo has released the first #SWISSIMAGE data produced as a #TrueOrthophoto, starting with the canton of Geneva. Buildings now appear without lean, and a #NearInfrared band joins the RGB channels, so SWISSIMAGE RS is being retired."
+---
+
+As of a few days ago, swisstopo[^swisstopo] has published new 
+[SWISSIMAGE][swissimage] data (free to download). This is the first issue 
+following the transition of SWISSIMAGE to a [true orthophoto 
+product][product-page]:
+
+> Starting with data from 2026, SWISSIMAGE is produced as a “true orthophoto”. 
+In contrast to a conventional orthophoto where the image is rectified using a 
+digital terrain model, a true orthophoto uses a digital surface model. As a 
+result, buildings and other objects are also displayed without distortion. 
+
+For now, the new data covers the area of the canton of Geneva. 
+
+For people interested in working with the data rather than using it as a 
+basemap, for example, the second update may be even more interesting: 
+
+> Furthermore, at the radiometric level, the “near-infrared” band—historically 
+included in the SWISSIMAGE RS product—has been added to SWISSIMAGE.
+
+Thus, swisstopo will discontinue the SWISSIMAGE RS product.
+
+swisstopo has [a nice article][article] explaining the transition from the 
+ADS100 sensor to the DMC-4S which makes this update to SWISSIMAGE possible. 
+Among other things, it helpfully recaps aerial image geometry:
+
+![Fribourg cathedral captured from different vantage points (source: swisstopo)](aerial-fribourg-cathedrale.gif "Fribourg cathedral captured from different vantage points (source: swisstopo)")
+
+![True orthophoto computed from the images and a digital surface model (source: swisstopo)](true-orthophoto.png "True orthophoto computed from the images and a digital surface model (source: swisstopo)")
+
+You can compare the new data with previous versions [here](https://map.geo.admin.ch/#/map?lang=en&center=2499965.36,1117611.21&z=11.054&topic=ech&layers=ch.swisstopo.images-swissimage-dop10.metadata,f;ch.swisstopo.swissimage-product@year=current&bgLayer=ch.swisstopo.pixelkarte-farbe&featureInfo=default). Switch between "ACTUAL" and "2025" in the TOC[^toc].
+
+[swissimage]: https://www.swisstopo.admin.ch/en/orthoimage-swissimage-update-20261118
+[product-page]: https://www.swisstopo.admin.ch/en/orthoimage-swissimage-10
+[article]: https://www.swisstopo.admin.ch/en/new-aerial-imaging-sensor
+
+[^swisstopo]: The Federal Office of Topography of Switzerland.
+[^toc]: Table of contents.
