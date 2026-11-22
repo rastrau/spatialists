@@ -1,0 +1,41 @@
+---
+title: "Spatial units in Switzerland and the canton of Zurich"
+author:
+  - name: "Ralph Straumann"
+    url: "https://ralphstraumann.ch"
+date: "2026-11-22T18:15:37+01:00"
+image: "ryunosuke-kikuno-RKwivgSTXVI-unsplash.jpg"
+description: "Communes, districts, MS regions, statistical quarters: A new policy brief from the Public Data Lab flagship project 2 maps out the many #spatialUnits and #regionalisations in use across Switzerland and the canton of Zurich. It's a handy reference for anyone doing spatial #analysis or #mapping at the regional scale."
+---
+
+The [flagship project 2][proj2] of the [Public Data Lab][pdl][^pdl] _"An index 
+of multiple deprivation in the Canton of Zurich"_ has published a policy brief 
+that is interesting, I think, for anybody working with spatial units in 
+Switzerland.[^transp] Titled "[Geographische Einheiten in der Schweiz und in 
+Zürich][brief]", the brief lists many (more or less commonly used) 
+regionalisations and characterises them:
+
+[![Spatial units in Switzerland and Zurich (source: Louis Moser and Ross Purves)](spatial-units.jpg "Spatial units in Switzerland and Zurich (source: Louis Moser and Ross Purves)")][brief]
+
+I think this is an interesting resource in itself, especially if you work on 
+topics were spatial units may be important for analyses and/or visualisations. 
+
+For the PDL project team this policy brief is just a stepping stone: They aim 
+to build an index of multiple deprivation ([similar to the UK][imd]). If that 
+interests you, there is [a podcast episode][pod] (in Swiss-German) which covers 
+that research.
+
+[proj2]: https://publicdatalab.ch/en/leuchtturmprojekte/leuchtturmprojekt-2/
+[pdl]: https://publicdatalab.ch/en/
+[brief]: https://www.dizh.uzh.ch/2026/11/19/wie-daten-mehrfachbenachteiligung-sichtbar-machen/
+[pod]: https://www.dizh.uzh.ch/2026/11/19/wie-daten-mehrfachbenachteiligung-sichtbar-machen/
+[imd]: https://data.geods.ac.uk/dataset/index-of-multiple-deprivation-imd
+
+[^pdl]: The [Public Data Lab](https://spatialists.ch/posts/2025/10/26-launch-of-the-public-data-lab/) 
+(PDL) is a Zurich initiative that aims to collect and analyse data, combine it 
+into indicators and support informed decisions. It comprises representatives 
+from the Statistical Office of the Canton of Zurich, the University of Zurich, 
+the Zurich University of the Arts, and Opendata.ch.
+[^transp]: Transparency note: I am a member of the Public Data Lab's advisory 
+board. I do not work on the topics covered here, but had a short exchange with 
+the authors.
