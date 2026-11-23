@@ -3,7 +3,7 @@ title: "manby: Fast vector tiles"
 author:
   - name: "Ralph Straumann"
     url: "https://ralphstraumann.ch"
-date: "2026-11-23T21:39:28+01:00"
+date: "2026-11-23T06:39:28+01:00"
 image: "manby-900x600.jpg"
 description: "Birk Skyum's manby is a new #Rust-based drop-in alternative for #tippecanoe that turns #GeoParquet, #GeoJSON, #DuckDB queries and more into #VectorTiles, eight to eighteen times faster in benchmarks. It is #OpenSource and also comes with #Python and #rstats bindings."
 ---
