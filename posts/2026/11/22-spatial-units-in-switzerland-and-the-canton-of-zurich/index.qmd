@@ -27,7 +27,7 @@ that research.
 
 [proj2]: https://publicdatalab.ch/en/leuchtturmprojekte/leuchtturmprojekt-2/
 [pdl]: https://publicdatalab.ch/en/
-[brief]: https://www.dizh.uzh.ch/2026/11/19/wie-daten-mehrfachbenachteiligung-sichtbar-machen/
+[brief]: https://publicdatalab.ch/geographische-einheiten-in-der-schweiz-und-in-zuerich/
 [pod]: https://www.dizh.uzh.ch/2026/11/19/wie-daten-mehrfachbenachteiligung-sichtbar-machen/
 [imd]: https://data.geods.ac.uk/dataset/index-of-multiple-deprivation-imd
 
